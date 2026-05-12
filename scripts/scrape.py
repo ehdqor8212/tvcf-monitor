@@ -1,8 +1,8 @@
 """
-TVCF 신규 광고 크롤링 스크립트 v2
-- 디버그 로깅 강화
-- 봇 차단 회피용 헤더 강화
-- HTTP 상태 코드 및 응답 길이 확인
+TVCF 신규 광고 크롤링 스크립트 v3
+- v2 버그 수정: 같은 광고 ID에 빈 텍스트 링크와 제목 링크가 둘 다 있을 때,
+  빈 텍스트 링크가 먼저 dedup에 등록되어 진짜 카드가 누락되던 문제 수정
+- 처리 순서: (1) 빈 텍스트 skip → (2) regex 매칭 → (3) dedup
 """
 import json
 import re
@@ -25,7 +25,6 @@ LIST_PARAMS = {
     "lang": "ko",
 }
 
-# 더 완전한 브라우저 헤더 세트
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -55,7 +54,6 @@ DATA_DIR.mkdir(exist_ok=True)
 LATEST_FILE = DATA_DIR / "latest.json"
 HISTORY_FILE = DATA_DIR / "history.json"
 STATE_FILE = DATA_DIR / "state.json"
-DEBUG_FILE = DATA_DIR / "debug_last_response.html"  # 디버그용
 
 DELAY_SEC = 0.5
 
@@ -82,10 +80,7 @@ def save_json(path: Path, data):
 
 
 def fetch(url, **kwargs):
-    """공통 fetch 함수 + 디버그 로깅"""
     print(f"   → GET {url}")
-    if kwargs.get("params"):
-        print(f"     params: {kwargs['params']}")
     r = requests.get(url, headers=HEADERS, timeout=20, **kwargs)
     print(f"     status: {r.status_code}, length: {len(r.text)} bytes")
     r.raise_for_status()
@@ -93,37 +88,18 @@ def fetch(url, **kwargs):
 
 
 def fetch_list():
-    """광고 목록 페이지에서 광고 ID 추출"""
+    """광고 목록 페이지에서 광고 ID 추출
+    같은 광고 ID에 빈 텍스트 링크와 제목 링크가 둘 다 있을 수 있음.
+    제목 링크(텍스트 있는 것)를 우선적으로 사용.
+    """
     html = fetch(LIST_URL, params=LIST_PARAMS)
-
-    # 디버그: 처음 응답 일부 저장
-    try:
-        DEBUG_FILE.write_text(html[:50000], encoding="utf-8")
-        print(f"     💾 응답 일부 저장: {DEBUG_FILE}")
-    except Exception as e:
-        print(f"     ⚠️  디버그 파일 저장 실패: {e}")
-
-    # HTML 구조 확인용 디버그
     soup = BeautifulSoup(html, "html.parser")
-    all_links = soup.find_all("a")
-    play_links = soup.find_all("a", href=re.compile(r"/play/"))
-    print(f"     전체 a 태그: {len(all_links)}개")
-    print(f"     /play/ 링크: {len(play_links)}개")
 
-    # 처음 몇 개 링크 샘플 출력
-    if play_links[:3]:
-        print(f"     /play/ 링크 샘플:")
-        for link in play_links[:3]:
-            print(f"       - href={link.get('href')}, text='{link.get_text(strip=True)[:50]}'")
-    else:
-        # /play/ 링크가 없으면 다른 패턴 찾기
-        href_samples = [a.get("href") for a in all_links[:20] if a.get("href")]
-        print(f"     ⚠️  /play/ 링크 없음. 다른 href 샘플 20개:")
-        for h in href_samples:
-            print(f"       - {h}")
+    play_links = soup.find_all("a", href=re.compile(r"^/play/"))
+    print(f"     /play/ 링크 총 {len(play_links)}개 발견")
 
-    ads = []
-    seen_ids = set()
+    # ad_id → 정보 매핑 (텍스트 있는 링크가 텍스트 없는 링크를 덮어쓰도록)
+    ad_map = {}
 
     for a in play_links:
         href = a.get("href", "")
@@ -131,27 +107,42 @@ def fetch_list():
         if not m:
             continue
         prefix, ad_id = m.group(1), m.group(2)
-        if ad_id in seen_ids:
-            continue
-        seen_ids.add(ad_id)
-
         text = a.get_text(strip=True)
-        if not text or text == "thumbnail":
+
+        # 빈 텍스트나 "thumbnail" 등은 무시 (광고 카드의 제목 링크가 아닌 썸네일 링크)
+        if not text or text.lower() == "thumbnail":
+            # ad_id는 일단 기록해두되 데이터는 채우지 않음
+            ad_map.setdefault(ad_id, {
+                "ad_id": ad_id,
+                "prefix": prefix,
+                "url": f"https://tvcf.co.kr/play/{prefix}-{ad_id}",
+                "card_title": None,
+                "onair": None,
+                "registered_short": None,
+            })
             continue
 
         parsed = parse_card_text(text)
-        ads.append({
+        # 텍스트 있는 링크가 들어왔으면 덮어쓰기 (placeholder를 진짜 데이터로)
+        ad_map[ad_id] = {
             "ad_id": ad_id,
             "prefix": prefix,
             "url": f"https://tvcf.co.kr/play/{prefix}-{ad_id}",
             "card_title": parsed["raw_title"],
             "onair": parsed["onair"],
             "registered_short": parsed["registered_short"],
-        })
+        }
+
+    # 등록일 정보가 있는 광고만 (썸네일만 있는 placeholder 제외)
+    ads = [v for v in ad_map.values() if v.get("registered_short") is not None]
+    print(f"     → 유효한 광고 카드: {len(ads)}개")
     return ads
 
 
 def parse_card_text(text):
+    """카드 텍스트에서 날짜 추출
+    예: "ILLIT (아일릿)'똑똑..엄마야?' 편 6s | It's Me | ILLIT (아일릿)05.12(05.12)"
+    """
     m = re.search(r"\((\d{2}\.\d{2})\)$", text)
     registered_short = m.group(1) if m else None
     rest = text[:m.start()] if m else text
@@ -224,8 +215,7 @@ def fetch_detail(ad):
 
 def main():
     print(f"🚀 TVCF 크롤링 시작: {now_kst().isoformat()}")
-    print(f"📍 Python 버전: {sys.version}")
-    print(f"📍 requests 버전: {requests.__version__}")
+    print(f"📍 Python {sys.version.split()[0]}, requests {requests.__version__}")
 
     state = load_json(STATE_FILE, {"last_run": None, "known_ad_ids": []})
     history = load_json(HISTORY_FILE, [])
@@ -241,13 +231,12 @@ def main():
     print("\n📥 목록 페이지 크롤링 중...")
     try:
         ads = fetch_list()
-        print(f"   ✓ 목록에서 {len(ads)}개 광고 발견")
+        print(f"   ✓ 유효 광고: {len(ads)}개")
     except requests.HTTPError as e:
         print(f"❌ HTTP 에러: {e}")
-        print(f"   응답 본문: {e.response.text[:500] if e.response else 'N/A'}")
         return 1
     except Exception as e:
-        print(f"❌ 목록 페이지 가져오기 실패: {type(e).__name__}: {e}")
+        print(f"❌ 목록 페이지 실패: {type(e).__name__}: {e}")
         return 1
 
     if is_first_run:
@@ -256,14 +245,13 @@ def main():
             today_kst.strftime("%m.%d"),
             yesterday.strftime("%m.%d"),
         }
-        print(f"\n   첫 실행: 어제({yesterday}) + 오늘({today_kst}) 등록분 필터링")
+        print(f"\n   첫 실행: 어제({yesterday}) + 오늘({today_kst}) 등록분")
         print(f"   유효 날짜 패턴: {valid_dates}")
-        # 어떤 광고가 어떤 날짜에 등록됐는지 보여주기
         date_counts = {}
         for a in ads:
             d = a["registered_short"]
             date_counts[d] = date_counts.get(d, 0) + 1
-        print(f"   광고별 등록일 분포: {dict(sorted(date_counts.items(), key=lambda x: x[0] or '', reverse=True)[:10])}")
+        print(f"   광고 등록일 분포 (상위 10개): {dict(sorted(date_counts.items(), key=lambda x: x[0] or '', reverse=True)[:10])}")
         new_ads = [a for a in ads if a["registered_short"] in valid_dates]
     else:
         new_ads = [a for a in ads if a["ad_id"] not in known_ids]
@@ -273,7 +261,6 @@ def main():
     if not new_ads:
         print("\n✨ 새 광고 없음. 종료.")
         state["last_run"] = now_kst().isoformat()
-        # 빈 실행이라도 known_ad_ids는 업데이트 (다음 실행에서 비교용)
         state["known_ad_ids"] = list(known_ids | {a["ad_id"] for a in ads})[-500:]
         save_json(STATE_FILE, state)
         save_json(LATEST_FILE, {
@@ -290,7 +277,7 @@ def main():
         detail = fetch_detail(ad)
         if detail:
             ad.update(detail)
-            print(f"✓ {detail['advertiser']} | {detail['main_category']}")
+            print(f"✓ {detail.get('advertiser')} | {detail.get('main_category')}")
         else:
             print("✗")
         enriched.append(ad)
