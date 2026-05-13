@@ -230,10 +230,13 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 
 const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
+const HISTORY_URL = './data/history.json';
+const RECENT_DAYS = 7;
 const DECISIONS_URL = './data/decisions.json';
 
 const state = {
   ads: [],
+  historyAds: [],
   legacyAds: [],
   enriched: [],
   decisions: {},
@@ -289,16 +292,33 @@ async function loadData() {
   $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
   try {
     const ts = Date.now();
-    const [latestResp, legacyResp, decisionsResp] = await Promise.all([
+    const [latestResp, historyResp, legacyResp, decisionsResp] = await Promise.all([
       fetch(`${DATA_URL}?t=${ts}`),
+      fetch(`${HISTORY_URL}?t=${ts}`).catch(() => null),
       fetch(`${LEGACY_URL}?t=${ts}`).catch(() => null),
       fetch(`${DECISIONS_URL}?t=${ts}`).catch(() => null),
     ]);
 
     if (!latestResp.ok) throw new Error(`HTTP ${latestResp.status}`);
     const data = await latestResp.json();
-    state.ads = data.new_ads || [];
+    const latestAds = data.new_ads || [];
     state.runAt = data.run_at;
+
+    if (historyResp && historyResp.ok) {
+      state.historyAds = await historyResp.json();
+    } else { state.historyAds = []; }
+
+    // latest + history(최근 N일) 합치기 (중복 제거)
+    const latestIds = new Set(latestAds.map(a => a.ad_id));
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - RECENT_DAYS);
+    const cutoffStr = cutoffDate.toISOString().slice(0, 10);
+    const recentFromHistory = state.historyAds.filter(ad => {
+      if (latestIds.has(ad.ad_id)) return false;
+      const reg = ad.registered_date || '';
+      return reg.slice(0, 10) >= cutoffStr;
+    });
+    state.ads = [...latestAds, ...recentFromHistory];
 
     if (legacyResp && legacyResp.ok) {
       state.legacyAds = await legacyResp.json();
@@ -314,7 +334,7 @@ async function loadData() {
     $('#totalCount').textContent = state.ads.length;
 
     if (state.ads.length === 0) {
-      showAlert('아직 수집된 신규 광고가 없습니다.', 'info', false);
+      showAlert('최근 7일간 수집된 광고가 없습니다.', 'info', false);
     }
 
     enrichAndRender();
@@ -354,11 +374,25 @@ function updateCounts() {
 
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
+
+  const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
+  const olderHistory = state.historyAds
+    .filter(ad => !enrichedIds.has(ad.ad_id))
+    .map(ad => {
+      const matchKey = ad.advertiser || ad.brand;
+      const decision = getDecision(matchKey, ad.ad_id);
+      const match = decision
+        ? { status: decision.status, matched: decision.matched_name }
+        : { status: 'unknown', matched: null };
+      return { ...ad, matchKey, match };
+    });
+
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, isLegacy: true },
   }));
-  return [...state.enriched, ...legacyEnriched];
+
+  return [...state.enriched, ...olderHistory, ...legacyEnriched];
 }
 
 function getYear(ad) {
