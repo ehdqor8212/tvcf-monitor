@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TVCF 미집행 광고주 (공유용)</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+<style>
+:root {
+  --bg: #fafafa;
+  --paper: #ffffff;
+  --ink: #0a0a0a;
+  --ink-soft: #2a2a2a;
+  --muted: #767676;
+  --line: #ececec;
+  --line-strong: #d6d6d6;
+  --tving-red: #ff153c;
+  --tving-red-soft: #ffe8ec;
+  --tving-red-dark: #d50026;
+  --accent: var(--tving-red);
+  --accent-tint: var(--tving-red-soft);
+  --warn: #c47a00;
+  --warn-tint: #fff4dc;
+  --success: #1e7d3a;
+  --success-tint: #e2f4e8;
+  --legacy: #888;
+  --legacy-tint: #f4f4f4;
+  --header-bg: #f0eeea;
+  --shadow-md: 0 4px 16px -6px rgba(0,0,0,.08);
+  --shadow-header: 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg); color: var(--ink);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px; line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero { background: var(--paper); border-bottom: 1px solid var(--line); padding: 22px 40px; }
+.hero-inner { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand-logo { font-family: 'Anton', 'Pretendard', sans-serif; font-size: 38px; line-height: 1; letter-spacing: -0.02em; color: var(--tving-red); text-transform: uppercase; }
+.brand-divider { width: 1px; height: 30px; background: var(--line-strong); }
+.brand-title { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); margin: 0; }
+.brand-mode { font-size: 10px; padding: 2px 8px; border-radius: 4px; background: #e8f4ff; color: #0070cc; font-weight: 700; letter-spacing: 0.05em; margin-left: 6px; }
+.hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.status-strip { display: flex; gap: 12px; align-items: center; }
+.status-pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; font-size: 12px; font-family: 'JetBrains Mono', monospace; }
+.status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--tving-red); animation: pulse 2s infinite; }
+.status-pill .label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-size: 10px; }
+.status-pill .value { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+.container { max-width: 1400px; margin: 0 auto; padding: 24px 40px 60px; }
+
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+.toolbar-left { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; flex: 1; }
+.toolbar-right { display: flex; align-items: center; gap: 8px; }
+
+.counts-inline { display: flex; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; }
+.counts-inline .pill { padding: 4px 10px; border-radius: 4px; background: var(--paper); border: 1px solid var(--line); display: inline-flex; align-items: center; gap: 5px; }
+.counts-inline .pill .num { font-weight: 700; color: var(--ink); font-size: 13px; }
+.counts-inline .pill.x .num { color: var(--tving-red); }
+.counts-inline .pill.o .num { color: var(--success); }
+.counts-inline .pill.maybe .num { color: var(--warn); }
+
+.btn { background: var(--ink); color: var(--paper); border: 1px solid var(--ink); padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; transition: all 0.12s ease; display: inline-flex; align-items: center; gap: 6px; letter-spacing: -0.01em; }
+.btn:hover { background: var(--tving-red); border-color: var(--tving-red); }
+.btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line-strong); }
+.btn-ghost:hover { background: var(--paper); border-color: var(--tving-red); color: var(--tving-red); }
+
+.filter-bar { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+
+.chip-group { display: flex; gap: 4px; background: var(--paper); border: 1px solid var(--line); padding: 3px; border-radius: 8px; }
+.chip { border: none; background: transparent; font-size: 12px; padding: 6px 12px; border-radius: 5px; cursor: pointer; font-family: inherit; color: var(--muted); font-weight: 500; transition: all 0.12s ease; }
+.chip:hover { color: var(--ink); }
+.chip.active { background: var(--ink); color: var(--paper); }
+.chip.active.x { background: var(--tving-red); }
+.chip.active.maybe { background: var(--warn); color: white; }
+.chip.active.o { background: var(--success); }
+
+.scope-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px; border-radius: 6px; background: var(--paper); border: 1px solid var(--line); cursor: pointer; user-select: none; font-size: 12px; }
+.scope-toggle input { margin: 0; cursor: pointer; accent-color: var(--tving-red); }
+.scope-toggle .label { font-weight: 500; color: var(--ink-soft); }
+.scope-toggle.active { background: var(--accent-tint); border-color: var(--tving-red); color: var(--tving-red-dark); }
+.scope-toggle.active .label { color: var(--tving-red-dark); font-weight: 600; }
+
+.search-box { flex: 1; min-width: 200px; position: relative; }
+.search-box input { width: 100%; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 8px 12px 8px 32px; font-size: 13px; font-family: inherit; color: var(--ink); }
+.search-box input:focus { outline: none; border-color: var(--tving-red); }
+.search-box::before { content: '⌕'; position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 14px; }
+
+.table-wrap { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow-md); }
+.table-scroll { max-height: calc(100vh - 280px); min-height: 400px; overflow-y: auto; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
+.table-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.table-scroll::-webkit-scrollbar-track { background: transparent; }
+.table-scroll::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 5px; border: 2px solid var(--paper); }
+.table-scroll::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+thead th { background: var(--header-bg); text-align: left; font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink); padding: 12px 16px; font-weight: 700; border-bottom: 2px solid var(--line-strong); position: sticky; top: 0; z-index: 10; box-shadow: var(--shadow-header); white-space: nowrap; }
+thead th.sortable { cursor: pointer; user-select: none; }
+thead th.sortable:hover { color: var(--tving-red); background: #ebe7e0; }
+thead th.sortable::after { content: ' ↕'; opacity: 0.3; font-size: 10px; }
+thead th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--tving-red); }
+thead th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--tving-red); }
+
+tbody tr { border-bottom: 1px solid var(--line); transition: background 0.08s ease; }
+tbody tr:hover { background: #fffaf0; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr.legacy-row { background: #fafafa; }
+tbody tr.legacy-row:hover { background: #f3f3f3; }
+tbody tr.legacy-row td { color: var(--ink-soft); }
+
+td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); }
+td.year { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); font-weight: 500; text-align: center; }
+td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
+td.advertiser { font-weight: 600; color: var(--ink); }
+td.brand { color: var(--ink-soft); font-size: 13px; }
+
+.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; }
+.cat-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; }
+
+.status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; }
+.status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
+.status-badge.o { background: var(--success-tint); color: var(--success); }
+.status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
+.status-badge.unknown { background: #f3f3f3; color: var(--muted); }
+
+.link-icon { color: var(--muted); text-decoration: none; font-size: 14px; padding: 4px 8px; border-radius: 4px; transition: all 0.1s ease; }
+.link-icon:hover { background: var(--accent-tint); color: var(--tving-red); }
+
+.legacy-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 9px; font-weight: 700; font-family: 'JetBrains Mono', monospace; background: var(--legacy-tint); color: var(--legacy); letter-spacing: 0.05em; margin-left: 6px; vertical-align: middle; }
+
+.empty-state { padding: 80px 20px; text-align: center; color: var(--muted); }
+.empty-state-icon { font-size: 44px; margin-bottom: 14px; opacity: 0.45; }
+
+.loading { padding: 80px 20px; text-align: center; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.loading::after { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--tving-red); margin-left: 8px; animation: pulse 1s infinite; }
+
+.alert { padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; font-size: 12px; border-left: 3px solid; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.alert.info { background: var(--accent-tint); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
+.alert.error { background: var(--tving-red-soft); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
+.alert .close { background: transparent; border: none; cursor: pointer; color: inherit; font-size: 18px; line-height: 1; padding: 0; opacity: 0.6; }
+.alert .close:hover { opacity: 1; }
+
+@media (max-width: 768px) {
+  .hero { padding: 18px 20px; }
+  .container { padding: 18px 20px; }
+  .brand-logo { font-size: 30px; }
+  .table-scroll { max-height: calc(100vh - 240px); }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="brand-logo">TVING</div>
+      <div class="brand-divider"></div>
+      <h1 class="brand-title">TVCF 미집행 광고주<span class="brand-mode">공유용</span></h1>
+    </div>
+    <div class="hero-actions">
+      <div class="status-strip">
+        <div class="status-pill"><span class="dot"></span><span class="label">Last</span><span class="value" id="lastRun">—</span></div>
+        <div class="status-pill"><span class="label">New</span><span class="value" id="totalCount">—</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <div id="alertBox"></div>
+
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <div class="counts-inline">
+        <span class="pill">전체 <span class="num" id="countTotal">0</span></span>
+        <span class="pill x">미집행 <span class="num" id="countX">0</span></span>
+        <span class="pill maybe">확인 필요 <span class="num" id="countMaybe">0</span></span>
+        <span class="pill o">집행 <span class="num" id="countO">0</span></span>
+      </div>
+    </div>
+    <div class="toolbar-right">
+      <button class="btn btn-ghost" id="refreshBtn" title="페이지 데이터 새로고침">↻ 새로고침</button>
+      <button class="btn" id="exportBtn">↓ Excel 다운로드</button>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="chip-group" id="statusFilter">
+      <button class="chip active" data-filter="status" data-value="all">전체</button>
+      <button class="chip x" data-filter="status" data-value="x">미집행</button>
+      <button class="chip maybe" data-filter="status" data-value="maybe">확인 필요</button>
+      <button class="chip o" data-filter="status" data-value="o">집행</button>
+    </div>
+    <label class="scope-toggle" id="scopeToggle">
+      <input type="checkbox" id="historyToggle" />
+      <span class="label">전체 누적 보기 (과거 포함)</span>
+    </label>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="광고주·브랜드·카테고리 검색" />
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <div class="table-scroll" id="tableContainer">
+      <div class="loading">데이터 불러오는 중</div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+'use strict';
+
+const DATA_URL = './data/latest.json';
+const LEGACY_URL = './data/legacy.json';
+const DECISIONS_URL = './data/decisions.json';
+
+const state = {
+  ads: [],
+  legacyAds: [],
+  enriched: [],
+  decisions: {},
+  filter: { status: 'all', search: '' },
+  sort: { col: 'registered_date', dir: 'desc' },
+  runAt: null,
+  showHistory: false,
+};
+
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+
+function showAlert(msg, type = 'info', autoClose = true) {
+  const id = 'a' + Date.now();
+  $('#alertBox').innerHTML = `<div class="alert ${type}" id="${id}"><span>${msg}</span><button class="close" onclick="document.getElementById('${id}').remove()">×</button></div>`;
+  if (autoClose) setTimeout(() => { const el = document.getElementById(id); if (el) el.remove(); }, 4500);
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mi = String(d.getMinutes()).padStart(2, '0');
+  return `${mm}/${dd} ${hh}:${mi}`;
+}
+
+function normalizeName(name) {
+  if (!name) return '';
+  return String(name).toLowerCase().replace(/\s+/g, '').replace(/[()（）\[\]【】「」'',·.\-_/]/g, '').replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '').trim();
+}
+
+function escapeHtml(text) {
+  if (text == null) return '';
+  return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+}
+
+function getDecision(name) {
+  if (!name) return null;
+  const key = normalizeName(name);
+  return state.decisions[key] || null;
+}
+
+async function loadData() {
+  $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
+  try {
+    const ts = Date.now();
+    const [latestResp, legacyResp, decisionsResp] = await Promise.all([
+      fetch(`${DATA_URL}?t=${ts}`),
+      fetch(`${LEGACY_URL}?t=${ts}`).catch(() => null),
+      fetch(`${DECISIONS_URL}?t=${ts}`).catch(() => null),
+    ]);
+
+    if (!latestResp.ok) throw new Error(`HTTP ${latestResp.status}`);
+    const data = await latestResp.json();
+    state.ads = data.new_ads || [];
+    state.runAt = data.run_at;
+
+    if (legacyResp && legacyResp.ok) {
+      state.legacyAds = await legacyResp.json();
+    } else { state.legacyAds = []; }
+
+    if (decisionsResp && decisionsResp.ok) {
+      const d = await decisionsResp.json();
+      state.decisions = d.decisions || {};
+    } else { state.decisions = {}; }
+
+    $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
+    $('#totalCount').textContent = state.ads.length;
+
+    if (state.ads.length === 0) {
+      showAlert('아직 수집된 신규 광고가 없습니다.', 'info', false);
+    }
+
+    enrichAndRender();
+  } catch (err) {
+    console.error(err);
+    showAlert(`데이터를 가져오지 못했습니다 (${err.message}).`, 'error', false);
+    $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">∅</div><div>데이터 없음</div></div>`;
+  }
+}
+
+function enrichAndRender() {
+  state.enriched = state.ads.map(ad => {
+    const matchKey = ad.advertiser || ad.brand;
+    const decision = getDecision(matchKey);
+    let match;
+    if (decision) {
+      match = { status: decision.status, matched: decision.matched_name };
+    } else {
+      // 결정이 없으면 unknown 표시 (작업자가 아직 매칭 안 한 광고)
+      match = { status: 'unknown', matched: null };
+    }
+    return { ...ad, matchKey, match };
+  });
+  updateCounts();
+  render();
+}
+
+function updateCounts() {
+  const rows = getCurrentRows();
+  const counts = { all: 0, x: 0, maybe: 0, o: 0, unknown: 0 };
+  rows.forEach(ad => { counts.all++; counts[ad.match.status]++; });
+  $('#countTotal').textContent = counts.all;
+  $('#countX').textContent = counts.x;
+  $('#countMaybe').textContent = counts.maybe;
+  $('#countO').textContent = counts.o;
+}
+
+function getCurrentRows() {
+  if (!state.showHistory) return state.enriched;
+  const legacyEnriched = state.legacyAds.map(ad => ({
+    ...ad,
+    match: { status: ad.legacy_match_status || 'unknown', matched: null, isLegacy: true },
+  }));
+  return [...state.enriched, ...legacyEnriched];
+}
+
+function getYear(ad) {
+  if (ad.registered_date) {
+    const y = ad.registered_date.slice(0, 4);
+    if (/^\d{4}$/.test(y)) return y;
+  }
+  return '';
+}
+
+function render() {
+  const all = getCurrentRows();
+  const filtered = applyFilters(all);
+  const sorted = applySort(filtered);
+
+  if (sorted.length === 0) {
+    $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">✦</div><div>조건에 맞는 광고가 없습니다.</div></div>`;
+    return;
+  }
+
+  const sortCls = (col) => state.sort.col === col ? `sort-${state.sort.dir}` : '';
+  const rows = sorted.map((ad, idx) => renderRow(ad, idx)).join('');
+
+  $('#tableContainer').innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th class="sortable ${sortCls('year')}" data-sort="year" style="width:70px;">년도</th>
+          <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:110px;">온에어</th>
+          <th class="sortable ${sortCls('main_category')}" data-sort="main_category" style="width:160px;">카테고리</th>
+          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:160px;">광고주</th>
+          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:160px;">브랜드(광고상품)명</th>
+          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:120px;">집행여부</th>
+          <th style="width:40px;"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+
+  $$('thead th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.getAttribute('data-sort');
+      if (state.sort.col === col) state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc';
+      else { state.sort.col = col; state.sort.dir = 'desc'; }
+      render();
+    });
+  });
+}
+
+function renderRow(ad, idx) {
+  const isLegacy = ad.is_legacy === true;
+  const rowCls = isLegacy ? 'legacy-row' : '';
+  const year = getYear(ad);
+  const date = ad.registered_date || '—';
+
+  let advertiserCell = '';
+  if (ad.advertiser) {
+    advertiserCell = escapeHtml(ad.advertiser);
+    if (isLegacy) advertiserCell += '<span class="legacy-tag">PAST</span>';
+  } else if (isLegacy) {
+    advertiserCell = `<span style="color:var(--muted)">—<span class="legacy-tag">PAST</span></span>`;
+  } else {
+    advertiserCell = '<span style="color:var(--muted)">미확인</span>';
+  }
+
+  const brandText = ad.brand || '—';
+  let brandCell = escapeHtml(brandText);
+  if (ad.variant_count && ad.variant_count > 1) {
+    brandCell += `<span class="variant-badge" title="같은 광고주의 다른 광고 ${ad.variant_count}건 통합">+${ad.variant_count - 1}</span>`;
+  }
+
+  const cat = ad.main_category ? `<span class="cat-badge">${escapeHtml(ad.main_category)}</span>` : '<span style="color:var(--muted)">—</span>';
+
+  let statusHtml = '';
+  const status = ad.match.status;
+
+  if (isLegacy) {
+    const legacyLabel = ad.legacy_exec_status || '?';
+    const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
+    statusHtml = `<span class="status-badge ${cls}">${escapeHtml(legacyLabel)}</span>`;
+  } else {
+    let label = '';
+    let cls = status;
+    if (status === 'o') label = 'O 집행';
+    else if (status === 'maybe') label = '⚠ 확인 필요';
+    else if (status === 'x') label = 'X 미집행';
+    else { label = '대기'; cls = 'unknown'; }
+
+    statusHtml = `<span class="status-badge ${cls}">${label}</span>`;
+  }
+
+  const url = ad.url;
+  const linkHtml = url ? `<a href="${url}" target="_blank" rel="noopener" class="link-icon" title="TVCF에서 보기">↗</a>` : '';
+
+  return `
+    <tr class="${rowCls}">
+      <td class="year">${year || '—'}</td>
+      <td class="date">${date}</td>
+      <td>${cat}</td>
+      <td class="advertiser">${advertiserCell}</td>
+      <td class="brand">${brandCell}</td>
+      <td>${statusHtml}</td>
+      <td>${linkHtml}</td>
+    </tr>
+  `;
+}
+
+function applyFilters(ads) {
+  return ads.filter(ad => {
+    if (state.filter.status !== 'all' && ad.match.status !== state.filter.status) return false;
+    if (state.filter.search) {
+      const q = state.filter.search.toLowerCase();
+      const hay = [ad.advertiser, ad.brand, ad.main_category, ad.card_title].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function applySort(ads) {
+  const { col, dir } = state.sort;
+  const mult = dir === 'asc' ? 1 : -1;
+  return [...ads].sort((a, b) => {
+    let av, bv;
+    if (col === 'match_status') {
+      const order = { x: 0, maybe: 1, unknown: 2, o: 3 };
+      av = order[a.match.status] ?? 99;
+      bv = order[b.match.status] ?? 99;
+    } else if (col === 'year') {
+      av = getYear(a) || '0';
+      bv = getYear(b) || '0';
+    } else {
+      av = a[col] || '';
+      bv = b[col] || '';
+    }
+    if (av < bv) return -1 * mult;
+    if (av > bv) return 1 * mult;
+    return 0;
+  });
+}
+
+function exportExcel() {
+  const all = getCurrentRows();
+  const filtered = applyFilters(all);
+  if (filtered.length === 0) { alert('다운로드할 데이터가 없습니다.'); return; }
+
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  const sharedDate = `${yyyy}-${mm}-${dd}`;
+
+  const rows = filtered.map(ad => {
+    let exec = '';
+    if (ad.is_legacy) {
+      exec = ad.legacy_exec_status || '';
+    } else {
+      const s = ad.match.status;
+      if (s === 'o') exec = 'O';
+      else if (s === 'maybe') exec = ad.match.matched ? `⚠ ${ad.match.matched}` : '⚠';
+      else if (s === 'x') exec = 'X';
+    }
+
+    const year = getYear(ad) || yyyy;
+
+    return {
+      '년도': year,
+      '온에어': ad.registered_date || '',
+      '카테고리': ad.main_category || '',
+      '광고주': ad.advertiser || '',
+      '브랜드(광고상품)명': ad.brand || '',
+      '집행여부': exec,
+      '공유일': ad.is_legacy ? (ad.shared_date || '') : sharedDate,
+      'TVCF URL': ad.url || '',
+      '구분': ad.is_legacy ? '과거' : '신규',
+    };
+  });
+
+  const ws = XLSX.utils.json_to_sheet(rows);
+  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 12 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'TVCF');
+  XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
+}
+
+function setupEvents() {
+  $$('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const filter = chip.getAttribute('data-filter');
+      const value = chip.getAttribute('data-value');
+      $$(`.chip[data-filter="${filter}"]`).forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      state.filter[filter] = value;
+      render();
+      updateCounts();
+    });
+  });
+
+  $('#historyToggle').addEventListener('change', (e) => {
+    state.showHistory = e.target.checked;
+    $('#scopeToggle').classList.toggle('active', state.showHistory);
+    render();
+    updateCounts();
+  });
+
+  let searchTimer = null;
+  $('#searchInput').addEventListener('input', (e) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { state.filter.search = e.target.value.trim(); render(); updateCounts(); }, 150);
+  });
+
+  $('#refreshBtn').addEventListener('click', loadData);
+  $('#exportBtn').addEventListener('click', exportExcel);
+}
+
+function init() {
+  setupEvents();
+  loadData();
+}
+
+init();
+</script>
+
+</body>
+</html>
