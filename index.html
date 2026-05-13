@@ -76,7 +76,6 @@ html, body {
 .counts-inline { display: flex; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; }
 .counts-inline .pill { padding: 4px 10px; border-radius: 4px; background: var(--paper); border: 1px solid var(--line); display: inline-flex; align-items: center; gap: 5px; }
 .counts-inline .pill .num { font-weight: 700; color: var(--ink); font-size: 13px; }
-/* x=미집행(빨강), o=집행(초록) — 원래대로 */
 .counts-inline .pill.x .num { color: var(--tving-red); }
 .counts-inline .pill.o .num { color: var(--success); }
 .counts-inline .pill.maybe .num { color: var(--warn); }
@@ -133,6 +132,7 @@ tbody tr.legacy-row:hover { background: #f3f3f3; }
 tbody tr.legacy-row td { color: var(--ink-soft); }
 
 td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); }
+td.year { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); font-weight: 500; text-align: center; }
 td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
 td.advertiser { font-weight: 600; color: var(--ink); }
 td.brand { color: var(--ink-soft); font-size: 13px; }
@@ -145,14 +145,11 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 
 .status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; cursor: pointer; border: 1px solid transparent; transition: all 0.1s ease; }
 .status-badge.editable:hover { border-color: currentColor; filter: brightness(0.95); }
-
-/* x=미집행(빨강), o=집행(초록) - 원래대로 */
 .status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
 .status-badge.o { background: var(--success-tint); color: var(--success); }
 .status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
 .status-badge.unknown { background: #f3f3f3; color: var(--muted); }
 .status-badge.legacy-badge { cursor: default; opacity: 0.85; }
-
 .status-badge .override-mark { font-size: 8px; margin-left: 3px; opacity: 0.7; }
 
 .status-menu { position: absolute; top: 100%; left: 0; margin-top: 4px; background: var(--paper); border: 1px solid var(--line-strong); border-radius: 8px; box-shadow: 0 8px 24px -6px rgba(0,0,0,.15); z-index: 100; min-width: 220px; padding: 4px; }
@@ -300,12 +297,6 @@ const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
 const OVERRIDE_KEY = 'tvcf_advertiser_overrides_v1';
 
-/* 의미 정리 (v8 - 원래대로 복귀):
-   - status 'o' = 청약마스터에 있음 = 집행 (X 표시 → 초록)
-   - status 'x' = 청약마스터에 없음 = 미집행 (X 표시 → 빨강, 관심 대상)
-   - status 'maybe' = 유사 매칭 (⚠ 표시, 노랑)
-*/
-
 const state = {
   ads: [],
   legacyAds: [],
@@ -380,8 +371,6 @@ function setOverride(name, status) {
 
 function updateOverrideButton() {
   // A+B 자동 동기화 완성될 때까지 일단 숨김 유지
-  // const hasAny = Object.keys(state.overrides).length > 0;
-  // $('#exportOverridesBtn').style.display = hasAny ? '' : 'none';
 }
 
 async function loadData() {
@@ -432,11 +421,6 @@ function enrichAndRender() {
   render();
 }
 
-/* 매칭 결과 (v8 원래대로):
-   - 청약마스터에 있음 → status 'o' (집행)
-   - 청약마스터에 없음 → status 'x' (미집행, 관심 대상)
-   - 유사 매칭 → status 'maybe'
-*/
 function matchAdvertiser(name) {
   if (!name) return { status: 'unknown', confidence: 0, matched: null };
   if (!state.masterList.length) return { status: 'unknown', confidence: 0, matched: null };
@@ -476,13 +460,19 @@ function updateCounts() {
 
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
-
-  // legacy 데이터: legacy_match_status 그대로 (o=집행, x=미집행)
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
   }));
   return [...state.enriched, ...legacyEnriched];
+}
+
+function getYear(ad) {
+  if (ad.registered_date) {
+    const y = ad.registered_date.slice(0, 4);
+    if (/^\d{4}$/.test(y)) return y;
+  }
+  return '';
 }
 
 function render() {
@@ -498,14 +488,16 @@ function render() {
   const sortCls = (col) => state.sort.col === col ? `sort-${state.sort.dir}` : '';
   const rows = sorted.map((ad, idx) => renderRow(ad, idx)).join('');
 
+  // 컬럼 순서: 년도 / 온에어 / 카테고리 / 광고주 / 브랜드(광고상품)명 / 집행여부
   $('#tableContainer').innerHTML = `
     <table>
       <thead>
         <tr>
-          <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:100px;">등록일</th>
+          <th class="sortable ${sortCls('year')}" data-sort="year" style="width:70px;">년도</th>
+          <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:110px;">온에어</th>
+          <th class="sortable ${sortCls('main_category')}" data-sort="main_category" style="width:160px;">카테고리</th>
           <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:160px;">광고주</th>
-          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:160px;">브랜드</th>
-          <th class="sortable ${sortCls('main_category')}" data-sort="main_category">카테고리</th>
+          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:160px;">브랜드(광고상품)명</th>
           <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:120px;">집행여부</th>
           <th style="width:40px;"></th>
         </tr>
@@ -535,6 +527,7 @@ function render() {
 function renderRow(ad, idx) {
   const isLegacy = ad.is_legacy === true;
   const rowCls = isLegacy ? 'legacy-row' : '';
+  const year = getYear(ad);
   const date = ad.registered_date || '—';
 
   let advertiserCell = '';
@@ -585,10 +578,11 @@ function renderRow(ad, idx) {
 
   return `
     <tr class="${rowCls}">
+      <td class="year">${year || '—'}</td>
       <td class="date">${date}</td>
+      <td>${cat}</td>
       <td class="advertiser">${advertiserCell}</td>
       <td class="brand">${brandCell}</td>
-      <td>${cat}</td>
       <td class="status-cell" id="cell-${idx}">${statusHtml}</td>
       <td>${linkHtml}</td>
     </tr>
@@ -679,6 +673,9 @@ function applySort(ads) {
       const order = { x: 0, maybe: 1, unknown: 2, o: 3 };
       av = order[a.match.status] ?? 99;
       bv = order[b.match.status] ?? 99;
+    } else if (col === 'year') {
+      av = getYear(a) || '0';
+      bv = getYear(b) || '0';
     } else {
       av = a[col] || '';
       bv = b[col] || '';
@@ -814,6 +811,7 @@ async function importOverrides(file) {
   }
 }
 
+// Excel: 너의 양식 그대로 — 년도/온에어/카테고리/광고주/브랜드(광고상품)명/집행여부/공유일/TVCF URL/구분
 function exportExcel() {
   const all = getCurrentRows();
   const filtered = applyFilters(all);
@@ -838,7 +836,7 @@ function exportExcel() {
       else if (s === 'x') exec = 'X';
     }
 
-    const year = ad.registered_date ? ad.registered_date.slice(0, 4) : yyyy;
+    const year = getYear(ad) || yyyy;
 
     return {
       '년도': year,
