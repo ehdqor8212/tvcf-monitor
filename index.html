@@ -347,7 +347,8 @@ const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
 const HISTORY_URL = './data/history.json';
 // 기본 화면에 표시할 최근 N일 (history.json에서 추출)
-const RECENT_DAYS = 7;
+// 1 = 어제 + 오늘 (legacy.json에 5/11 이전 데이터 있음)
+const RECENT_DAYS = 2;
 const DECISIONS_URL = './data/decisions.json';
 
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
@@ -765,12 +766,11 @@ function updateCounts() {
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
 
-  // 누적 보기: enriched(최근) + history(나머지 누적) + legacy(과거) 모두 표시
+  // 누적 보기: enriched(최근 N일) + history(나머지 누적, PAST 표시) + legacy(과거, PAST 표시)
   const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
 
-  // history.json 중 enriched에 없는 것 (= 7일 넘은 것)
+  // history.json 중 enriched에 없는 것 (= 2일 넘은 것) → PAST 라벨 부여
   const olderHistoryRaw = state.historyAds.filter(ad => !enrichedIds.has(ad.ad_id));
-  // 광고주+날짜 기준 dedup
   const olderHistoryDeduped = dedupByAdvertiserDate(olderHistoryRaw);
 
   const olderHistory = olderHistoryDeduped.map(ad => {
@@ -780,7 +780,13 @@ function getCurrentRows() {
     const match = decision
       ? { status: decision.status, matched: decision.matched_name, isOverride: true }
       : autoMatch;
-    return { ...ad, matchKey, match };
+    return {
+      ...ad,
+      matchKey,
+      match,
+      is_legacy: true,            // PAST 라벨 붙이기
+      legacy_exec_status: '',     // legacy 표시 (집행여부는 자동 매칭 따름)
+    };
   });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
