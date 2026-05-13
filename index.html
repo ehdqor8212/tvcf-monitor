@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TVCF 미집행 광고주</title>
+<title>TVCF 미집행 광고주 (작업용)</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,12 +54,15 @@ html, body {
 .brand-logo { font-family: 'Anton', 'Pretendard', sans-serif; font-size: 38px; line-height: 1; letter-spacing: -0.02em; color: var(--tving-red); text-transform: uppercase; }
 .brand-divider { width: 1px; height: 30px; background: var(--line-strong); }
 .brand-title { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); margin: 0; }
+.brand-mode { font-size: 10px; padding: 2px 8px; border-radius: 4px; background: var(--accent-tint); color: var(--tving-red-dark); font-weight: 700; letter-spacing: 0.05em; margin-left: 6px; }
 .hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .status-strip { display: flex; gap: 12px; align-items: center; }
 .status-pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; font-size: 12px; font-family: 'JetBrains Mono', monospace; }
 .status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--tving-red); animation: pulse 2s infinite; }
 .status-pill .label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-size: 10px; }
 .status-pill .value { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+.status-pill.sync .dot { background: var(--success); }
+.status-pill.nosync .dot { background: var(--muted); animation: none; }
 
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
@@ -109,7 +112,7 @@ html, body {
 
 .table-wrap { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow-md); }
 
-.table-scroll { max-height: calc(100vh - 320px); min-height: 400px; overflow-y: auto; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
+.table-scroll { max-height: calc(100vh - 360px); min-height: 400px; overflow-y: auto; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
 .table-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
 .table-scroll::-webkit-scrollbar-track { background: transparent; }
 .table-scroll::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 5px; border: 2px solid var(--paper); }
@@ -193,6 +196,27 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 .master-mini button:hover { border-color: var(--tving-red); color: var(--tving-red); }
 .master-mini.dragover { border-color: var(--tving-red); background: var(--accent-tint); }
 
+.token-bar { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; font-size: 12px; margin-top: 8px; }
+.token-bar.not-set { background: var(--warn-tint); border-color: var(--warn); }
+.token-bar.set { background: var(--success-tint); border-color: var(--success); }
+.token-bar .icon { font-size: 18px; }
+.token-bar .info { flex: 1; }
+.token-bar .info-title { font-weight: 600; color: var(--ink); }
+.token-bar .info-sub { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.token-bar button { background: transparent; border: 1px solid var(--line-strong); border-radius: 5px; padding: 5px 10px; font-size: 11px; cursor: pointer; font-family: inherit; color: var(--ink); font-weight: 500; }
+.token-bar button:hover { border-color: var(--tving-red); color: var(--tving-red); }
+.token-bar .guide-link { color: var(--tving-red); text-decoration: underline; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.modal { background: var(--paper); border-radius: 12px; max-width: 500px; width: 100%; padding: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+.modal h2 { margin: 0 0 8px; font-size: 18px; }
+.modal p { color: var(--muted); margin: 0 0 16px; font-size: 13px; }
+.modal label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 6px; color: var(--ink-soft); }
+.modal input { width: 100%; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.modal input:focus { outline: none; border-color: var(--tving-red); }
+.modal .actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
+.modal .actions .btn-ghost { padding: 8px 14px; }
+
 [data-tooltip] { position: relative; }
 [data-tooltip]::after { content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) translateY(-6px); background: var(--ink); color: var(--paper); font-size: 11px; padding: 5px 9px; border-radius: 4px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.15s ease; z-index: 50; font-family: 'Pretendard', sans-serif; }
 [data-tooltip]:hover::after { opacity: 1; }
@@ -201,7 +225,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
   .hero { padding: 18px 20px; }
   .container { padding: 18px 20px; }
   .brand-logo { font-size: 30px; }
-  .table-scroll { max-height: calc(100vh - 280px); }
+  .table-scroll { max-height: calc(100vh - 320px); }
 }
 </style>
 </head>
@@ -212,7 +236,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
     <div class="brand">
       <div class="brand-logo">TVING</div>
       <div class="brand-divider"></div>
-      <h1 class="brand-title">TVCF 미집행 광고주</h1>
+      <h1 class="brand-title">TVCF 미집행 광고주<span class="brand-mode">작업용</span></h1>
     </div>
     <div class="hero-actions">
       <a class="trigger-btn" href="https://github.com/ehdqor8212/tvcf-monitor/actions/workflows/daily.yml" target="_blank" rel="noopener" title="GitHub Actions에서 수동으로 즉시 수집 가능">
@@ -222,6 +246,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
       <div class="status-strip">
         <div class="status-pill"><span class="dot"></span><span class="label">Last</span><span class="value" id="lastRun">—</span></div>
         <div class="status-pill"><span class="label">New</span><span class="value" id="totalCount">—</span></div>
+        <div class="status-pill nosync" id="syncPill"><span class="dot"></span><span class="label">Sync</span><span class="value" id="syncStatus">OFF</span></div>
       </div>
     </div>
   </div>
@@ -277,25 +302,54 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
       <div class="actions">
         <button id="uploadBtn">업로드</button>
         <button id="clearBtn" style="display:none;">삭제</button>
-        <!-- 결정 백업/가져오기는 A+B(자동 동기화) 완성될 때까지 일단 숨김 -->
-        <button id="exportOverridesBtn" style="display:none;">⤓ 결정 백업</button>
-        <button id="importOverridesBtn" style="display:none;">⤒ 결정 가져오기</button>
-        <input type="file" id="overridesFileInput" accept=".json" hidden />
       </div>
       <input type="file" id="fileInput" accept=".xlsx,.xls" hidden />
+    </div>
+
+    <div class="token-bar not-set" id="tokenBar">
+      <div class="icon">🔑</div>
+      <div class="info">
+        <div class="info-title" id="tokenTitle">GitHub 토큰 미설정</div>
+        <div class="info-sub" id="tokenSub">팀 동기화하려면 토큰을 입력하세요. <a class="guide-link" href="./TOKEN_GUIDE.md" target="_blank">발급 가이드 →</a></div>
+      </div>
+      <div class="actions">
+        <button id="tokenSetBtn">토큰 입력</button>
+        <button id="tokenClearBtn" style="display:none;">토큰 삭제</button>
+        <button id="syncNowBtn" style="display:none;">↻ 동기화</button>
+      </div>
     </div>
   </div>
 
 </main>
 
+<!-- 토큰 입력 모달 -->
+<div class="modal-backdrop" id="tokenModal" style="display:none;">
+  <div class="modal">
+    <h2>🔑 GitHub Personal Access Token</h2>
+    <p>이 토큰은 너의 브라우저에만 저장되며, 매칭 결과를 GitHub Repo에 자동 저장하는 데 사용됩니다.</p>
+    <label>토큰 (ghp_로 시작)</label>
+    <input type="password" id="tokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+    <div class="actions">
+      <button class="btn btn-ghost" id="tokenCancelBtn">취소</button>
+      <button class="btn" id="tokenSaveBtn">저장 & 검증</button>
+    </div>
+  </div>
+</div>
+
 <script>
 'use strict';
 
+const REPO_OWNER = 'ehdqor8212';
+const REPO_NAME = 'tvcf-monitor';
+const DECISIONS_PATH = 'data/decisions.json';
+
 const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
+const DECISIONS_URL = './data/decisions.json';
+
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
-const OVERRIDE_KEY = 'tvcf_advertiser_overrides_v1';
+const TOKEN_KEY = 'tvcf_github_token_v1';
 
 const state = {
   ads: [],
@@ -307,7 +361,9 @@ const state = {
   sort: { col: 'registered_date', dir: 'desc' },
   runAt: null,
   showHistory: false,
-  overrides: {},
+  decisions: {},       // GitHub에서 가져온 결정사항 (광고주명 -> {status, matched_name, ...})
+  decisionsSha: null,  // commit용 SHA
+  token: null,
   openMenuId: null,
 };
 
@@ -319,7 +375,6 @@ function showAlert(msg, type = 'info', autoClose = true) {
   $('#alertBox').innerHTML = `<div class="alert ${type}" id="${id}"><span>${msg}</span><button class="close" onclick="document.getElementById('${id}').remove()">×</button></div>`;
   if (autoClose) setTimeout(() => { const el = document.getElementById(id); if (el) el.remove(); }, 4500);
 }
-function clearAlert() { $('#alertBox').innerHTML = ''; }
 
 function fmtDate(iso) {
   if (!iso) return '—';
@@ -342,40 +397,207 @@ function escapeHtml(text) {
   return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 }
 
-function loadOverrides() {
+// =================== TOKEN MANAGEMENT ===================
+
+function loadToken() {
   try {
-    const data = JSON.parse(localStorage.getItem(OVERRIDE_KEY) || '{}');
-    if (data && typeof data === 'object') state.overrides = data;
+    const t = localStorage.getItem(TOKEN_KEY);
+    if (t) {
+      state.token = t;
+      updateTokenUI(true);
+      return true;
+    }
+  } catch (e) {}
+  updateTokenUI(false);
+  return false;
+}
+
+function saveToken(token) {
+  try {
+    localStorage.setItem(TOKEN_KEY, token);
+    state.token = token;
+    updateTokenUI(true);
   } catch (e) { console.warn(e); }
 }
 
-function saveOverrides() {
-  try { localStorage.setItem(OVERRIDE_KEY, JSON.stringify(state.overrides)); }
-  catch (e) { console.warn(e); }
-  updateOverrideButton();
+function clearToken() {
+  if (!confirm('GitHub 토큰을 이 브라우저에서 삭제할까요?\n(GitHub 계정의 토큰 자체는 영향 없음 — 그건 GitHub에서 별도 폐기 필요)')) return;
+  localStorage.removeItem(TOKEN_KEY);
+  state.token = null;
+  updateTokenUI(false);
+  showAlert('토큰이 삭제되었습니다.', 'info');
 }
 
-function getOverride(name) {
+function updateTokenUI(hasToken) {
+  const bar = $('#tokenBar');
+  const pill = $('#syncPill');
+  if (hasToken) {
+    bar.classList.remove('not-set');
+    bar.classList.add('set');
+    $('#tokenTitle').textContent = '✓ GitHub 토큰 설정됨';
+    $('#tokenSub').innerHTML = '결정 변경이 GitHub에 자동 저장되며, 팀에 자동 동기화됩니다.';
+    $('#tokenSetBtn').style.display = 'none';
+    $('#tokenClearBtn').style.display = '';
+    $('#syncNowBtn').style.display = '';
+    pill.classList.remove('nosync');
+    pill.classList.add('sync');
+    $('#syncStatus').textContent = 'ON';
+  } else {
+    bar.classList.add('not-set');
+    bar.classList.remove('set');
+    $('#tokenTitle').textContent = 'GitHub 토큰 미설정';
+    $('#tokenSub').innerHTML = '팀 동기화하려면 토큰을 입력하세요. <a class="guide-link" href="./TOKEN_GUIDE.md" target="_blank">발급 가이드 →</a>';
+    $('#tokenSetBtn').style.display = '';
+    $('#tokenClearBtn').style.display = 'none';
+    $('#syncNowBtn').style.display = 'none';
+    pill.classList.add('nosync');
+    pill.classList.remove('sync');
+    $('#syncStatus').textContent = 'OFF';
+  }
+}
+
+async function verifyAndSaveToken(token) {
+  showAlert('토큰 검증 중...', 'info', false);
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!resp.ok) {
+      if (resp.status === 401) throw new Error('토큰이 유효하지 않습니다.');
+      if (resp.status === 404) throw new Error('Repo에 접근할 수 없습니다. 토큰 권한을 확인하세요 (repo 권한 필요).');
+      throw new Error(`HTTP ${resp.status}`);
+    }
+    saveToken(token);
+    showAlert('✓ 토큰이 검증되었습니다. 이제 동기화가 활성화됩니다.', 'success');
+    await loadDecisions();
+    enrichAndRender();
+  } catch (err) {
+    showAlert(`토큰 검증 실패: ${err.message}`, 'error', false);
+  }
+}
+
+function openTokenModal() {
+  $('#tokenModal').style.display = 'flex';
+  $('#tokenInput').value = '';
+  setTimeout(() => $('#tokenInput').focus(), 100);
+}
+
+function closeTokenModal() {
+  $('#tokenModal').style.display = 'none';
+}
+
+// =================== DECISIONS (GitHub Sync) ===================
+
+// 페이지 로드 시 GitHub의 decisions.json 가져오기 (토큰 없이 public read)
+async function loadDecisions() {
+  try {
+    const ts = Date.now();
+    const resp = await fetch(`${DECISIONS_URL}?t=${ts}`);
+    if (resp.ok) {
+      const data = await resp.json();
+      state.decisions = data.decisions || {};
+      console.log(`[Decisions] Loaded ${Object.keys(state.decisions).length} decisions from GitHub`);
+    }
+  } catch (e) {
+    console.log('[Decisions] No decisions file yet');
+    state.decisions = {};
+  }
+
+  // 토큰이 있으면 SHA도 함께 가져오기 (commit용)
+  if (state.token) {
+    try {
+      const resp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
+        headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json' }
+      });
+      if (resp.ok) {
+        const meta = await resp.json();
+        state.decisionsSha = meta.sha;
+      } else if (resp.status === 404) {
+        state.decisionsSha = null; // 파일 없음, 새로 생성
+      }
+    } catch (e) { console.warn(e); }
+  }
+}
+
+async function saveDecisionToGitHub(advertiserName, status, matchedName) {
+  if (!state.token) {
+    showAlert('GitHub 토큰이 없어 로컬에만 저장됩니다. 동기화하려면 토큰을 설정하세요.', 'info');
+    return false;
+  }
+
+  // 현재 decisions에 추가/수정
+  const key = normalizeName(advertiserName);
+  if (status === null || status === 'auto') {
+    delete state.decisions[key];
+  } else {
+    state.decisions[key] = {
+      display_name: advertiserName,
+      status: status,
+      matched_name: matchedName || null,
+      updated_at: new Date().toISOString(),
+    };
+  }
+
+  // 가장 최신 SHA 다시 가져오기 (충돌 방지)
+  try {
+    const shaResp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
+      headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (shaResp.ok) {
+      const meta = await shaResp.json();
+      state.decisionsSha = meta.sha;
+    } else if (shaResp.status === 404) {
+      state.decisionsSha = null;
+    }
+  } catch (e) {}
+
+  // 파일 내용 만들기
+  const payload = {
+    updated_at: new Date().toISOString(),
+    count: Object.keys(state.decisions).length,
+    decisions: state.decisions,
+  };
+  const content = JSON.stringify(payload, null, 2);
+  // UTF-8 → Base64
+  const base64 = btoa(unescape(encodeURIComponent(content)));
+
+  // PUT to GitHub
+  const body = {
+    message: `Update decisions: ${advertiserName} → ${status || 'reset'}`,
+    content: base64,
+  };
+  if (state.decisionsSha) body.sha = state.decisionsSha;
+
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
+      method: 'PUT',
+      headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (!resp.ok) {
+      const err = await resp.json();
+      throw new Error(err.message || `HTTP ${resp.status}`);
+    }
+    const result = await resp.json();
+    state.decisionsSha = result.content.sha;
+    showAlert(`✓ "${advertiserName}" 결정이 동기화되었습니다.`, 'success');
+    return true;
+  } catch (err) {
+    showAlert(`동기화 실패: ${err.message}`, 'error', false);
+    return false;
+  }
+}
+
+function getDecision(name) {
   if (!name) return null;
   const key = normalizeName(name);
-  return state.overrides[key] || null;
+  return state.decisions[key] || null;
 }
 
-function setOverride(name, status) {
-  if (!name) return;
-  const key = normalizeName(name);
-  if (status === null || status === 'auto') delete state.overrides[key];
-  else state.overrides[key] = status;
-  saveOverrides();
-}
-
-function updateOverrideButton() {
-  // A+B 자동 동기화 완성될 때까지 일단 숨김 유지
-}
+// =================== DATA LOADING ===================
 
 async function loadData() {
   $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
-  clearAlert();
 
   try {
     const ts = Date.now();
@@ -389,6 +611,8 @@ async function loadData() {
       const lResp = await fetch(`${LEGACY_URL}?t=${ts}`);
       if (lResp.ok) state.legacyAds = await lResp.json();
     } catch (e) { state.legacyAds = []; }
+
+    await loadDecisions();
 
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
@@ -409,13 +633,14 @@ function enrichAndRender() {
   state.enriched = state.ads.map(ad => {
     const matchKey = ad.advertiser || ad.brand;
     const autoMatch = matchAdvertiser(matchKey);
-    const override = getOverride(matchKey);
-    return {
-      ...ad,
-      matchKey,
-      autoMatch,
-      match: override ? { status: override, matched: autoMatch.matched, confidence: 1.0, isOverride: true } : autoMatch,
-    };
+    const decision = getDecision(matchKey);
+    let match;
+    if (decision) {
+      match = { status: decision.status, matched: decision.matched_name, confidence: 1.0, isOverride: true };
+    } else {
+      match = autoMatch;
+    }
+    return { ...ad, matchKey, autoMatch, match };
   });
   updateCounts();
   render();
@@ -488,7 +713,6 @@ function render() {
   const sortCls = (col) => state.sort.col === col ? `sort-${state.sort.dir}` : '';
   const rows = sorted.map((ad, idx) => renderRow(ad, idx)).join('');
 
-  // 컬럼 순서: 년도 / 온에어 / 카테고리 / 광고주 / 브랜드(광고상품)명 / 집행여부
   $('#tableContainer').innerHTML = `
     <table>
       <thead>
@@ -603,6 +827,7 @@ function toggleStatusMenu(idx, badgeEl) {
 
   const current = ad.match.status;
   const isOverride = ad.match.isOverride;
+  const matched = ad.match.matched;
 
   const menuHtml = `
     <div class="status-menu" id="menu-${idx}">
@@ -630,14 +855,17 @@ function toggleStatusMenu(idx, badgeEl) {
 
   const menu = $(`#menu-${idx}`);
   menu.querySelectorAll('.status-menu-item').forEach(item => {
-    item.addEventListener('click', (e) => {
+    item.addEventListener('click', async (e) => {
       e.stopPropagation();
       const action = item.getAttribute('data-action');
-      if (action === 'set-o') setOverride(key, 'o');
-      else if (action === 'set-x') setOverride(key, 'x');
-      else if (action === 'set-maybe') setOverride(key, 'maybe');
-      else if (action === 'reset') setOverride(key, null);
+      let newStatus = null;
+      if (action === 'set-o') newStatus = 'o';
+      else if (action === 'set-x') newStatus = 'x';
+      else if (action === 'set-maybe') newStatus = 'maybe';
+      else if (action === 'reset') newStatus = null;
+
       closeAllMenus();
+      await saveDecisionToGitHub(key, newStatus, matched);
       enrichAndRender();
     });
   });
@@ -646,11 +874,7 @@ function toggleStatusMenu(idx, badgeEl) {
 }
 
 function closeMenusOnce() { closeAllMenus(); }
-
-function closeAllMenus() {
-  $$('.status-menu').forEach(m => m.remove());
-  state.openMenuId = null;
-}
+function closeAllMenus() { $$('.status-menu').forEach(m => m.remove()); state.openMenuId = null; }
 
 function applyFilters(ads) {
   return ads.filter(ad => {
@@ -685,6 +909,8 @@ function applySort(ads) {
     return 0;
   });
 }
+
+// =================== MASTER FILE ===================
 
 async function handleMasterFile(file) {
   try {
@@ -779,39 +1005,8 @@ function updateMasterStatus(filename, count, uploadedAt) {
   $('#clearBtn').style.display = '';
 }
 
-function exportOverrides() {
-  const data = { exported_at: new Date().toISOString(), count: Object.keys(state.overrides).length, overrides: state.overrides };
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  const today = new Date();
-  const yyyy = today.getFullYear();
-  const mm = String(today.getMonth() + 1).padStart(2, '0');
-  const dd = String(today.getDate()).padStart(2, '0');
-  a.href = url;
-  a.download = `tvcf_overrides_${yyyy}${mm}${dd}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-  showAlert(`✓ ${data.count}개 결정 사항을 백업했습니다.`, 'success');
-}
+// =================== EXCEL EXPORT ===================
 
-async function importOverrides(file) {
-  try {
-    const text = await file.text();
-    const data = JSON.parse(text);
-    if (!data.overrides || typeof data.overrides !== 'object') throw new Error('올바르지 않은 파일 형식');
-    const count = Object.keys(data.overrides).length;
-    if (!confirm(`${count}개 결정을 가져옵니다. 기존과 병합할까요?`)) return;
-    Object.assign(state.overrides, data.overrides);
-    saveOverrides();
-    enrichAndRender();
-    showAlert(`✓ ${count}개 결정을 가져왔습니다.`, 'success');
-  } catch (err) {
-    showAlert(`가져오기 실패: ${err.message}`, 'error');
-  }
-}
-
-// Excel: 너의 양식 그대로 — 년도/온에어/카테고리/광고주/브랜드(광고상품)명/집행여부/공유일/TVCF URL/구분
 function exportExcel() {
   const all = getCurrentRows();
   const filtered = applyFilters(all);
@@ -858,6 +1053,8 @@ function exportExcel() {
   XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
 }
 
+// =================== EVENTS ===================
+
 function setupEvents() {
   $('#fileInput').addEventListener('change', (e) => {
     const file = e.target.files[0];
@@ -868,12 +1065,20 @@ function setupEvents() {
   $('#uploadBtn').addEventListener('click', () => $('#fileInput').click());
   $('#clearBtn').addEventListener('click', clearMaster);
 
-  $('#exportOverridesBtn').addEventListener('click', exportOverrides);
-  $('#importOverridesBtn').addEventListener('click', () => $('#overridesFileInput').click());
-  $('#overridesFileInput').addEventListener('change', (e) => {
-    const file = e.target.files[0];
-    if (file) importOverrides(file);
-    e.target.value = '';
+  $('#tokenSetBtn').addEventListener('click', openTokenModal);
+  $('#tokenClearBtn').addEventListener('click', clearToken);
+  $('#tokenCancelBtn').addEventListener('click', closeTokenModal);
+  $('#tokenSaveBtn').addEventListener('click', async () => {
+    const token = $('#tokenInput').value.trim();
+    if (!token) { alert('토큰을 입력하세요.'); return; }
+    closeTokenModal();
+    await verifyAndSaveToken(token);
+  });
+  $('#syncNowBtn').addEventListener('click', async () => {
+    showAlert('동기화 중...', 'info', false);
+    await loadDecisions();
+    enrichAndRender();
+    showAlert('✓ 최신 결정사항을 불러왔습니다.', 'success');
   });
 
   const mb = $('#masterBar');
@@ -914,15 +1119,19 @@ function setupEvents() {
   $('#refreshBtn').addEventListener('click', loadData);
   $('#exportBtn').addEventListener('click', exportExcel);
 
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllMenus(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeAllMenus();
+      closeTokenModal();
+    }
+  });
 }
 
 function init() {
   setupEvents();
-  loadOverrides();
+  loadToken();
   loadMasterFromStorage();
   loadData();
-  updateOverrideButton();
 }
 
 init();
