@@ -1,9 +1,10 @@
 """
-TVCF 신규 광고 크롤링 스크립트 v4
-- v3에 비해 추가/수정:
-  1. staffs API 호출하여 실제 광고주명 (예: 한국MSD) 추출
-  2. og:title은 "brand" 필드로 분리 (예: 가다실)
-  3. 광고주+날짜 기준 중복 제거 (대표 1건만 남김, 나머지는 variants에 포함)
+TVCF 신규 광고 크롤링 스크립트 v5
+- v4에 비해 추가/수정:
+  1. ★ 온에어일 기준 필터링 추가 (최근 3일 이내만 신규로 인정)
+     이전엔 TVCF에 늦게 등록된 과거 광고도 신규로 잡혔지만,
+     이제는 온에어일이 최근이어야 신규로 잡힘
+  2. registered_short(등록일) + registered_date(온에어일) 둘 다 체크
 """
 import json
 import re
@@ -345,6 +346,20 @@ def main():
         print(f"❌ 목록 페이지 실패: {type(e).__name__}: {e}")
         return 1
 
+    # ── 온에어일 필터: 최근 3일 이내만 신규로 인정 ──
+    # TVCF에 늦게 등록된 과거 광고는 제외
+    ONAIR_DAYS_LIMIT = 3
+    onair_cutoff = today_kst - timedelta(days=ONAIR_DAYS_LIMIT)
+    onair_cutoff_str = onair_cutoff.strftime("%Y-%m-%d")
+    print(f"\n   온에어일 필터: {onair_cutoff_str} 이후 광고만 (최근 {ONAIR_DAYS_LIMIT + 1}일)")
+
+    def is_recent_onair(ad):
+        """광고의 온에어일(registered_date)이 최근 N일 이내인지 확인"""
+        reg = ad.get("registered_date", "")
+        if not reg or len(reg) < 10:
+            return False
+        return reg[:10] >= onair_cutoff_str
+
     if is_first_run:
         yesterday = today_kst - timedelta(days=1)
         valid_dates = {
@@ -352,9 +367,17 @@ def main():
             yesterday.strftime("%m.%d"),
         }
         print(f"\n   첫 실행: 어제({yesterday}) + 오늘({today_kst}) 등록분")
-        new_ads = [a for a in ads if a["registered_short"] in valid_dates]
+        new_ads = [a for a in ads if a["registered_short"] in valid_dates and is_recent_onair(a)]
     else:
-        new_ads = [a for a in ads if a["ad_id"] not in known_ids]
+        # 1차: 처음 보는 ad_id (중복 체크)
+        # 2차: 온에어일이 최근 N일 이내
+        new_ads = [a for a in ads if a["ad_id"] not in known_ids and is_recent_onair(a)]
+
+        # 필터링 통계 출력
+        ids_not_in_history = [a for a in ads if a["ad_id"] not in known_ids]
+        filtered_by_onair = len(ids_not_in_history) - len(new_ads)
+        if filtered_by_onair > 0:
+            print(f"   ⚠ 온에어일 필터로 {filtered_by_onair}건 제외 (TVCF 늦게 등록된 과거 광고)")
 
     print(f"   → 신규 광고: {len(new_ads)}개")
 
