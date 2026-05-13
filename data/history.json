@@ -1,5 +1,75 @@
 [
   {
+    "ad_id": "1016685",
+    "prefix": "bi1851",
+    "url": "https://tvcf.co.kr/play/bi1851-1016685",
+    "card_title": "진로올뉴 진로 : 파스타 편",
+    "onair": "05.13",
+    "registered_short": "05.13",
+    "brand": "진로",
+    "campaign": "파스타",
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "하이트진로",
+    "advertiser_code": "C000010454",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1016684",
+        "url": "https://tvcf.co.kr/play/ai1849-1016684",
+        "brand": "진로",
+        "campaign": "삼겹살",
+        "card_title": "진로올뉴 진로 : 삼겹살 편"
+      },
+      {
+        "ad_id": "1016683",
+        "url": "https://tvcf.co.kr/play/bi1838-1016683",
+        "brand": "하이트진로",
+        "campaign": null,
+        "card_title": "하이트진로올뉴 진로 : 언제 어디서나 소주는 역시! (FULL Ver.)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-05-13T14:25:12.461400+09:00"
+  },
+  {
+    "ad_id": "1016680",
+    "prefix": "ai2805",
+    "url": "https://tvcf.co.kr/play/ai2805-1016680",
+    "card_title": "KB국민은행[국민은행 KB YOUTH CLUB] 나이가 이십대라면 스페셜한 혜택이 0원!",
+    "onair": "05.12",
+    "registered_short": "05.13",
+    "brand": "KB국민은행",
+    "campaign": null,
+    "registered_date": "2026-05-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "KB국민은행",
+    "advertiser_code": "C000006336",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1016678",
+        "url": "https://tvcf.co.kr/play/ai1783-1016678",
+        "brand": "KB국민은행",
+        "campaign": null,
+        "card_title": "KB국민은행[국민은행 KB Youth Club] 나이가 이십대라면 나이스한 혜택이 0원!"
+      },
+      {
+        "ad_id": "1016679",
+        "url": "https://tvcf.co.kr/play/bi1794-1016679",
+        "brand": "KB국민은행",
+        "campaign": null,
+        "card_title": "KB국민은행[국민은행 KB YOUTH CLUB] 나이가 이십대라면 스펙타클한 혜택이 0원!"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-05-13T14:25:12.461414+09:00"
+  },
+  {
     "ad_id": "1016676",
     "prefix": "ai1761",
     "url": "https://tvcf.co.kr/play/ai1761-1016676",
