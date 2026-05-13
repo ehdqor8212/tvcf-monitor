@@ -237,6 +237,7 @@ const state = {
   legacyAds: [],
   enriched: [],
   decisions: {},
+  x_decisions: {},
   filter: { status: 'all', search: '' },
   sort: { col: 'registered_date', dir: 'desc' },
   runAt: null,
@@ -273,7 +274,12 @@ function escapeHtml(text) {
   return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 }
 
-function getDecision(name) {
+function getDecision(name, adId) {
+  // 1. X 결정 (ad_id 기준) 우선 확인
+  if (adId && state.x_decisions[adId]) {
+    return { status: 'x', matched_name: null };
+  }
+  // 2. O/⚠ 결정 (광고주명 기준) 확인
   if (!name) return null;
   const key = normalizeName(name);
   return state.decisions[key] || null;
@@ -301,7 +307,8 @@ async function loadData() {
     if (decisionsResp && decisionsResp.ok) {
       const d = await decisionsResp.json();
       state.decisions = d.decisions || {};
-    } else { state.decisions = {}; }
+      state.x_decisions = d.x_decisions || {};
+    } else { state.decisions = {}; state.x_decisions = {}; }
 
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
@@ -321,7 +328,7 @@ async function loadData() {
 function enrichAndRender() {
   state.enriched = state.ads.map(ad => {
     const matchKey = ad.advertiser || ad.brand;
-    const decision = getDecision(matchKey);
+    const decision = getDecision(matchKey, ad.ad_id);
     let match;
     if (decision) {
       match = { status: decision.status, matched: decision.matched_name };
