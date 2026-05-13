@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-13T13:27:44.739Z",
+  "updated_at": "2026-05-13T13:28:35.077Z",
   "count": 3,
-  "x_count": 0,
+  "x_count": 1,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -22,5 +22,11 @@
       "updated_at": "2026-05-13T13:27:44.733Z"
     }
   },
-  "x_decisions": {}
+  "x_decisions": {
+    "1016706": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-05-13T13:28:34.725Z"
+    }
+  }
 }
