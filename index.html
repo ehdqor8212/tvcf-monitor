@@ -239,7 +239,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
       <div class="counts-inline">
         <span class="pill">전체 <span class="num" id="countTotal">0</span></span>
         <span class="pill x">미집행 <span class="num" id="countX">0</span></span>
-        <span class="pill maybe">유사 <span class="num" id="countMaybe">0</span></span>
+        <span class="pill maybe">확인 필요 <span class="num" id="countMaybe">0</span></span>
         <span class="pill o">집행 <span class="num" id="countO">0</span></span>
       </div>
     </div>
@@ -253,7 +253,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
     <div class="chip-group" id="statusFilter">
       <button class="chip active" data-filter="status" data-value="all">전체</button>
       <button class="chip x" data-filter="status" data-value="x">미집행</button>
-      <button class="chip maybe" data-filter="status" data-value="maybe">유사</button>
+      <button class="chip maybe" data-filter="status" data-value="maybe">확인 필요</button>
       <button class="chip o" data-filter="status" data-value="o">집행</button>
     </div>
     <label class="scope-toggle" id="scopeToggle">
@@ -568,7 +568,7 @@ function renderRow(ad, idx) {
   } else {
     let label = '';
     if (status === 'o') label = 'O 집행';
-    else if (status === 'maybe') label = '⚠ 유사';
+    else if (status === 'maybe') label = '⚠ 확인 필요';
     else if (status === 'x') label = 'X 미집행';
     else label = '?';
 
@@ -620,7 +620,7 @@ function toggleStatusMenu(idx, badgeEl) {
         <span class="icon">X</span><span>미집행 (X)</span>
       </button>
       <button class="status-menu-item opt-maybe ${current === 'maybe' && isOverride ? 'active' : ''}" data-action="set-maybe">
-        <span class="icon">⚠</span><span>유사 (수동)</span>
+        <span class="icon">⚠</span><span>확인 필요 (수동)</span>
       </button>
       ${isOverride ? `
         <button class="status-menu-item opt-auto" data-action="reset">
