@@ -351,6 +351,13 @@ const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
 const TOKEN_KEY = 'tvcf_github_token_v1';
 
+/* 의미 정리 (v10 - X는 1회용):
+   - O 결정 → decisions[광고주명] 에 저장 (영구 기억)
+   - ⚠ 결정 → decisions[광고주명] 에 저장 (영구 기억, 수동 변경이니까)
+   - X 결정 → x_decisions[ad_id] 에 저장 (그 광고에만 적용, 1회용)
+     같은 광고주가 다른 ad_id로 또 나오면 자동 매칭 다시 시도
+*/
+
 const state = {
   ads: [],
   legacyAds: [],
@@ -361,8 +368,9 @@ const state = {
   sort: { col: 'registered_date', dir: 'desc' },
   runAt: null,
   showHistory: false,
-  decisions: {},       // GitHub에서 가져온 결정사항 (광고주명 -> {status, matched_name, ...})
-  decisionsSha: null,  // commit용 SHA
+  decisions: {},       // 광고주명 -> {status, matched_name, ...} (O, ⚠ 영구)
+  x_decisions: {},     // ad_id -> {advertiser, ...} (X 결정, 1회용)
+  decisionsSha: null,
   token: null,
   openMenuId: null,
 };
@@ -496,11 +504,13 @@ async function loadDecisions() {
     if (resp.ok) {
       const data = await resp.json();
       state.decisions = data.decisions || {};
-      console.log(`[Decisions] Loaded ${Object.keys(state.decisions).length} decisions from GitHub`);
+      state.x_decisions = data.x_decisions || {};
+      console.log(`[Decisions] Loaded ${Object.keys(state.decisions).length} permanent + ${Object.keys(state.x_decisions).length} per-ad`);
     }
   } catch (e) {
     console.log('[Decisions] No decisions file yet');
     state.decisions = {};
+    state.x_decisions = {};
   }
 
   // 토큰이 있으면 SHA도 함께 가져오기 (commit용)
@@ -513,29 +523,45 @@ async function loadDecisions() {
         const meta = await resp.json();
         state.decisionsSha = meta.sha;
       } else if (resp.status === 404) {
-        state.decisionsSha = null; // 파일 없음, 새로 생성
+        state.decisionsSha = null;
       }
     } catch (e) { console.warn(e); }
   }
 }
 
-async function saveDecisionToGitHub(advertiserName, status, matchedName) {
+async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
   if (!state.token) {
     showAlert('GitHub 토큰이 없어 로컬에만 저장됩니다. 동기화하려면 토큰을 설정하세요.', 'info');
     return false;
   }
 
-  // 현재 decisions에 추가/수정
   const key = normalizeName(advertiserName);
+
+  // 결정 적용 로직:
+  // - status === null (자동으로): decisions와 x_decisions 둘 다에서 제거
+  // - status === 'x': x_decisions[ad_id]에 저장, decisions에서는 제거
+  // - status === 'o' or 'maybe': decisions[광고주명]에 저장, x_decisions에서는 제거
   if (status === null || status === 'auto') {
     delete state.decisions[key];
+    if (adId) delete state.x_decisions[adId];
+  } else if (status === 'x') {
+    delete state.decisions[key];  // 영구 X 결정은 만들지 않음
+    if (adId) {
+      state.x_decisions[adId] = {
+        advertiser: advertiserName,
+        status: 'x',
+        updated_at: new Date().toISOString(),
+      };
+    }
   } else {
+    // o or maybe → 영구 기억
     state.decisions[key] = {
       display_name: advertiserName,
       status: status,
       matched_name: matchedName || null,
       updated_at: new Date().toISOString(),
     };
+    if (adId) delete state.x_decisions[adId];
   }
 
   // 가장 최신 SHA 다시 가져오기 (충돌 방지)
@@ -555,13 +581,13 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName) {
   const payload = {
     updated_at: new Date().toISOString(),
     count: Object.keys(state.decisions).length,
+    x_count: Object.keys(state.x_decisions).length,
     decisions: state.decisions,
+    x_decisions: state.x_decisions,
   };
   const content = JSON.stringify(payload, null, 2);
-  // UTF-8 → Base64
   const base64 = btoa(unescape(encodeURIComponent(content)));
 
-  // PUT to GitHub
   const body = {
     message: `Update decisions: ${advertiserName} → ${status || 'reset'}`,
     content: base64,
@@ -580,7 +606,10 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName) {
     }
     const result = await resp.json();
     state.decisionsSha = result.content.sha;
-    showAlert(`✓ "${advertiserName}" 결정이 동기화되었습니다.`, 'success');
+
+    let msg = `✓ "${advertiserName}" 결정이 동기화되었습니다.`;
+    if (status === 'x') msg += ' (이 광고에만 적용)';
+    showAlert(msg, 'success');
     return true;
   } catch (err) {
     showAlert(`동기화 실패: ${err.message}`, 'error', false);
@@ -588,10 +617,18 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName) {
   }
 }
 
-function getDecision(name) {
+function getDecision(name, adId) {
+  // 1. X 결정 (ad_id 기준) 우선 확인
+  if (adId && state.x_decisions[adId]) {
+    return { status: 'x', matched_name: null, source: 'x_decision' };
+  }
+  // 2. O/⚠ 결정 (광고주명 기준) 확인
   if (!name) return null;
   const key = normalizeName(name);
-  return state.decisions[key] || null;
+  if (state.decisions[key]) {
+    return { ...state.decisions[key], source: 'decision' };
+  }
+  return null;
 }
 
 // =================== DATA LOADING ===================
@@ -633,7 +670,7 @@ function enrichAndRender() {
   state.enriched = state.ads.map(ad => {
     const matchKey = ad.advertiser || ad.brand;
     const autoMatch = matchAdvertiser(matchKey);
-    const decision = getDecision(matchKey);
+    const decision = getDecision(matchKey, ad.ad_id);
     let match;
     if (decision) {
       match = { status: decision.status, matched: decision.matched_name, confidence: 1.0, isOverride: true };
@@ -833,13 +870,13 @@ function toggleStatusMenu(idx, badgeEl) {
     <div class="status-menu" id="menu-${idx}">
       <div class="status-menu-hint">${escapeHtml(key)}</div>
       <button class="status-menu-item opt-o ${current === 'o' && isOverride ? 'active' : ''}" data-action="set-o">
-        <span class="icon">O</span><span>집행 (O)</span>
+        <span class="icon">O</span><span>집행 (O) — 영구</span>
       </button>
       <button class="status-menu-item opt-x ${current === 'x' && isOverride ? 'active' : ''}" data-action="set-x">
-        <span class="icon">X</span><span>미집행 (X)</span>
+        <span class="icon">X</span><span>미집행 (X) — 이 광고만</span>
       </button>
       <button class="status-menu-item opt-maybe ${current === 'maybe' && isOverride ? 'active' : ''}" data-action="set-maybe">
-        <span class="icon">⚠</span><span>확인 필요 (수동)</span>
+        <span class="icon">⚠</span><span>확인 필요 (수동) — 영구</span>
       </button>
       ${isOverride ? `
         <button class="status-menu-item opt-auto" data-action="reset">
@@ -865,7 +902,7 @@ function toggleStatusMenu(idx, badgeEl) {
       else if (action === 'reset') newStatus = null;
 
       closeAllMenus();
-      await saveDecisionToGitHub(key, newStatus, matched);
+      await saveDecisionToGitHub(key, newStatus, matched, ad.ad_id);
       enrichAndRender();
     });
   });
