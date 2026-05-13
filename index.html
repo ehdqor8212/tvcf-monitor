@@ -637,6 +637,22 @@ function getDecision(name, adId) {
 
 // =================== DATA LOADING ===================
 
+// 광고주+날짜 기준 중복 제거 (같은 광고주가 같은 날 여러 광고 → 1건만)
+function dedupByAdvertiserDate(ads) {
+  const seen = new Map();
+  for (const ad of ads) {
+    const key = `${ad.advertiser || ad.brand || ''}_${(ad.registered_date || '').slice(0, 10)}`;
+    if (!seen.has(key)) {
+      seen.set(key, ad);
+    } else {
+      // 기존 항목의 variant_count 증가
+      const existing = seen.get(key);
+      existing.variant_count = (existing.variant_count || 1) + 1;
+    }
+  }
+  return Array.from(seen.values());
+}
+
 async function loadData() {
   $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
 
@@ -655,20 +671,20 @@ async function loadData() {
     } catch (e) { state.historyAds = []; }
 
     // 기본 화면 데이터 = latest + history(최근 N일)
-    // - latest.json이 비어있어도 history.json에서 최근 N일은 항상 보임
-    // - 둘 다 있으면 ad_id로 중복 제거 (latest 우선)
     const latestIds = new Set(latestAds.map(a => a.ad_id));
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - RECENT_DAYS);
     const cutoffStr = cutoffDate.toISOString().slice(0, 10);
 
     const recentFromHistory = state.historyAds.filter(ad => {
-      if (latestIds.has(ad.ad_id)) return false; // 중복 제거
+      if (latestIds.has(ad.ad_id)) return false; // 중복 제거 (ad_id)
       const reg = ad.registered_date || '';
       return reg.slice(0, 10) >= cutoffStr; // 최근 N일
     });
 
-    state.ads = [...latestAds, ...recentFromHistory];
+    // 광고주+날짜 기준으로 추가 dedup (서로 다른 ad_id이지만 같은 광고주/날짜)
+    const combined = [...latestAds, ...recentFromHistory];
+    state.ads = dedupByAdvertiserDate(combined);
 
     try {
       const lResp = await fetch(`${LEGACY_URL}?t=${ts}`);
@@ -753,17 +769,19 @@ function getCurrentRows() {
   const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
 
   // history.json 중 enriched에 없는 것 (= 7일 넘은 것)
-  const olderHistory = state.historyAds
-    .filter(ad => !enrichedIds.has(ad.ad_id))
-    .map(ad => {
-      const matchKey = ad.advertiser || ad.brand;
-      const decision = getDecision(matchKey, ad.ad_id);
-      const autoMatch = matchAdvertiser(matchKey);
-      const match = decision
-        ? { status: decision.status, matched: decision.matched_name, isOverride: true }
-        : autoMatch;
-      return { ...ad, matchKey, match };
-    });
+  const olderHistoryRaw = state.historyAds.filter(ad => !enrichedIds.has(ad.ad_id));
+  // 광고주+날짜 기준 dedup
+  const olderHistoryDeduped = dedupByAdvertiserDate(olderHistoryRaw);
+
+  const olderHistory = olderHistoryDeduped.map(ad => {
+    const matchKey = ad.advertiser || ad.brand;
+    const decision = getDecision(matchKey, ad.ad_id);
+    const autoMatch = matchAdvertiser(matchKey);
+    const match = decision
+      ? { status: decision.status, matched: decision.matched_name, isOverride: true }
+      : autoMatch;
+    return { ...ad, matchKey, match };
+  });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
