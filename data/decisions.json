@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T10:56:52.934Z",
+  "updated_at": "2026-05-13T10:56:56.697Z",
   "count": 2,
   "decisions": {
     "하이트진로": {
@@ -10,9 +10,9 @@
     },
     "kb국민은행": {
       "display_name": "KB국민은행",
-      "status": "x",
+      "status": "o",
       "matched_name": "국민은행",
-      "updated_at": "2026-05-13T10:56:49.481Z"
+      "updated_at": "2026-05-13T10:56:56.377Z"
     }
   }
 }
