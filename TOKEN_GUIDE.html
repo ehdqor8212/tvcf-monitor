@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>GitHub 토큰 발급 가이드 - TVCF 미집행 광고주</title>
+<style>
+body { font-family: -apple-system, 'Pretendard', sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+h1 { color: #ff153c; border-bottom: 2px solid #ff153c; padding-bottom: 8px; }
+h2 { margin-top: 40px; color: #333; }
+h3 { margin-top: 24px; color: #555; }
+code { background: #f5f5f5; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; font-family: 'JetBrains Mono', monospace; }
+pre { background: #f5f5f5; padding: 14px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+.step { background: #fff; border: 1px solid #e0e0e0; border-left: 4px solid #ff153c; padding: 16px 20px; border-radius: 6px; margin-bottom: 16px; }
+.step .step-num { display: inline-block; background: #ff153c; color: white; width: 24px; height: 24px; border-radius: 50%; text-align: center; line-height: 24px; font-weight: 700; margin-right: 8px; }
+.warning { background: #fff4dc; border-left: 4px solid #c47a00; padding: 12px 16px; border-radius: 6px; margin: 16px 0; font-size: 14px; }
+.success { background: #e2f4e8; border-left: 4px solid #1e7d3a; padding: 12px 16px; border-radius: 6px; margin: 16px 0; font-size: 14px; }
+.info { background: #ffe8ec; border-left: 4px solid #ff153c; padding: 12px 16px; border-radius: 6px; margin: 16px 0; font-size: 14px; }
+.btn-mock { display: inline-block; background: #2ea043; color: white; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; }
+a { color: #ff153c; }
+.toc { background: #fafafa; padding: 16px 20px; border-radius: 8px; margin: 20px 0; }
+.toc ul { margin: 8px 0; padding-left: 20px; }
+.toc li { margin: 4px 0; }
+.checklist { list-style: none; padding: 0; }
+.checklist li { padding: 6px 0; }
+.checklist li::before { content: '✅ '; margin-right: 4px; }
+</style>
+</head>
+<body>
+
+<h1>🔑 GitHub 토큰 발급 가이드</h1>
+<p><strong>TVCF 미집행 광고주 시스템 - 작업자 전용</strong></p>
+
+<div class="info">
+<strong>왜 토큰이 필요한가요?</strong><br>
+이 토큰은 작업용 페이지에서 "집행여부" 변경 시, 그 결정사항을 GitHub에 자동 저장하기 위해 사용됩니다. 한 사람이 변경하면 팀 전체에게 자동 동기화됩니다.
+</div>
+
+<div class="toc">
+<strong>📌 목차</strong>
+<ul>
+  <li><a href="#part1">1부: GitHub 계정 준비 (처음 한 번)</a></li>
+  <li><a href="#part2">2부: 토큰 발급 (10분 소요)</a></li>
+  <li><a href="#part3">3부: TVCF 페이지에 토큰 입력</a></li>
+  <li><a href="#part4">4부: 보안 주의사항</a></li>
+  <li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2 id="part1">1부: GitHub 계정 준비</h2>
+
+<div class="step">
+<span class="step-num">1</span><strong>GitHub 계정 만들기</strong>
+<p>아직 GitHub 계정이 없다면 <a href="https://github.com/signup" target="_blank">https://github.com/signup</a>에서 무료로 가입하세요. 이메일 인증 필요.</p>
+</div>
+
+<div class="step">
+<span class="step-num">2</span><strong>저장소(Repo) 접근 권한 받기</strong>
+<p>관리자(동백)에게 본인 GitHub 계정 이름을 알려주세요. <code>tvcf-monitor</code> 저장소에 Collaborator로 초대받아야 합니다.</p>
+<p>초대받으면 이메일이 오니까 <strong>Accept invitation</strong> 클릭!</p>
+</div>
+
+<div class="step">
+<span class="step-num">3</span><strong>2단계 인증 켜기 (강력 추천)</strong>
+<p>GitHub Settings → Password and authentication → Two-factor authentication 활성화. 토큰이 노출돼도 추가 보호막이 됩니다.</p>
+</div>
+
+<hr>
+
+<h2 id="part2">2부: 토큰 발급</h2>
+
+<div class="step">
+<span class="step-num">1</span><strong>GitHub Settings 들어가기</strong>
+<p>로그인 후 우측 상단 프로필 아이콘 클릭 → <strong>Settings</strong></p>
+<p>또는 바로 가기: <a href="https://github.com/settings/profile" target="_blank">https://github.com/settings/profile</a></p>
+</div>
+
+<div class="step">
+<span class="step-num">2</span><strong>Developer Settings로 이동</strong>
+<p>좌측 메뉴에서 맨 아래로 스크롤 → <strong>Developer settings</strong> 클릭</p>
+<p>또는 바로 가기: <a href="https://github.com/settings/apps" target="_blank">https://github.com/settings/apps</a></p>
+</div>
+
+<div class="step">
+<span class="step-num">3</span><strong>Personal access tokens (classic) 선택</strong>
+<p>좌측 메뉴에서:</p>
+<ul>
+  <li><strong>Personal access tokens</strong> 클릭 (확장 메뉴)</li>
+  <li><strong>Tokens (classic)</strong> 선택</li>
+</ul>
+<p>바로 가기: <a href="https://github.com/settings/tokens" target="_blank">https://github.com/settings/tokens</a></p>
+</div>
+
+<div class="step">
+<span class="step-num">4</span><strong>새 토큰 생성</strong>
+<p>오른쪽 위 <span class="btn-mock">Generate new token ▼</span> 클릭 → <strong>Generate new token (classic)</strong> 선택</p>
+<p>GitHub 비밀번호 다시 입력 요청 시 입력하세요.</p>
+</div>
+
+<div class="step">
+<span class="step-num">5</span><strong>토큰 정보 입력</strong>
+<p><strong>Note</strong> (메모):</p>
+<pre>TVCF 미집행 광고주 시스템</pre>
+
+<p><strong>Expiration</strong> (만료):</p>
+<pre>90 days (90일)</pre>
+<p>※ 만료되면 다시 발급하면 됩니다. 보안상 무제한보다 권장.</p>
+
+<p><strong>Select scopes</strong> (권한 범위) — 가장 중요!</p>
+<ul>
+  <li>✅ <code>repo</code> 체크 (전체 체크박스 하나만 누르면 하위 항목 다 선택됨)</li>
+  <li>나머지는 체크하지 않습니다</li>
+</ul>
+<div class="warning">
+⚠️ <code>repo</code> 체크 외에는 절대로 다른 권한 추가하지 마세요. (delete_repo, admin 등은 위험)
+</div>
+</div>
+
+<div class="step">
+<span class="step-num">6</span><strong>토큰 생성 & 복사</strong>
+<p>맨 아래 초록색 <span class="btn-mock">Generate token</span> 버튼 클릭</p>
+<p>다음 화면에서 토큰이 <code>ghp_xxxxxxxxxxxx...</code> 형식으로 나타납니다.</p>
+
+<div class="warning">
+⚠️ <strong>이 화면에서 토큰을 복사하지 않으면 다시 볼 수 없습니다!</strong><br>
+복사 아이콘 (📋) 클릭하거나 토큰 전체를 드래그해서 복사하세요.
+</div>
+
+<p>복사한 토큰을 임시로 메모장 같은 곳에 붙여두세요 (다음 단계에서 사용).</p>
+</div>
+
+<hr>
+
+<h2 id="part3">3부: TVCF 페이지에 토큰 입력</h2>
+
+<div class="step">
+<span class="step-num">1</span><strong>작업용 페이지 열기</strong>
+<p><a href="https://ehdqor8212.github.io/tvcf-monitor/" target="_blank">https://ehdqor8212.github.io/tvcf-monitor/</a></p>
+</div>
+
+<div class="step">
+<span class="step-num">2</span><strong>토큰 입력 버튼 클릭</strong>
+<p>페이지 하단의 🔑 영역에서 <strong>토큰 입력</strong> 버튼 클릭</p>
+</div>
+
+<div class="step">
+<span class="step-num">3</span><strong>토큰 붙여넣기</strong>
+<p>모달이 열리면 복사한 토큰 (<code>ghp_xxxxxxxxxxxx</code>) 을 붙여넣고 <strong>저장 & 검증</strong> 클릭</p>
+</div>
+
+<div class="step">
+<span class="step-num">4</span><strong>완료 확인</strong>
+<p>"✓ 토큰이 검증되었습니다" 메시지가 뜨면 성공!</p>
+<p>이제 우측 상단 <strong>Sync: ON</strong> 표시가 보이고, 집행여부 변경 시 자동으로 GitHub에 저장됩니다.</p>
+</div>
+
+<div class="success">
+🎉 <strong>설정 완료!</strong> 이제 너의 결정사항은 팀 전체에 자동 동기화됩니다.
+</div>
+
+<hr>
+
+<h2 id="part4">4부: 보안 주의사항</h2>
+
+<ul class="checklist">
+<li>토큰은 절대 다른 사람에게 알려주지 마세요.</li>
+<li>토큰을 메모장, Slack, 메일 등에 평문으로 저장하지 마세요.</li>
+<li>회사 PC에서만 토큰을 입력하세요 (개인 PC, 카페 등 공용 PC 금지).</li>
+<li>의심스러운 활동이 보이면 즉시 토큰을 폐기하세요 (GitHub Settings → Tokens → Revoke).</li>
+<li>토큰이 만료되면 같은 방법으로 새로 발급하세요.</li>
+</ul>
+
+<div class="info">
+<strong>토큰이 노출되었을 때 피해 범위?</strong><br>
+이 토큰은 <code>tvcf-monitor</code> 저장소에만 접근 권한이 있습니다. TVING 사내 시스템, TAS, 회사 데이터에는 영향이 없습니다. 그래도 즉시 폐기하는 것이 안전합니다.
+</div>
+
+<h2 id="faq">자주 묻는 질문</h2>
+
+<h3>Q. 토큰을 다른 PC에서도 써야 하나요?</h3>
+<p>네. 토큰은 브라우저에 저장되므로 다른 PC에서 작업하려면 그 PC에서도 한 번 입력해야 합니다. 같은 토큰을 재사용하면 됩니다.</p>
+
+<h3>Q. 토큰 만료되면 어떻게 되나요?</h3>
+<p>동기화가 멈춥니다. 새 토큰을 발급하고 페이지에 입력하면 즉시 복구됩니다.</p>
+
+<h3>Q. 토큰을 잊어버렸어요</h3>
+<p>토큰은 발급 시 한 번만 보입니다. 잊었다면 기존 토큰을 폐기(Revoke)하고 새로 발급하세요.</p>
+
+<h3>Q. 다른 사람의 변경 사항이 안 보여요</h3>
+<p>페이지 우측 상단의 <strong>↻ 동기화</strong> 버튼을 클릭하거나 새로고침(Ctrl+F5) 하세요.</p>
+
+<h3>Q. 변경했는데 GitHub에 안 저장됐어요</h3>
+<p>Sync: ON 표시 확인 → 화면 위 알림 확인 → 콘솔(F12)에서 에러 메시지 확인 → 관리자에게 문의</p>
+
+<hr>
+
+<p style="text-align: center; color: #999; font-size: 12px; margin-top: 40px;">
+TVCF 미집행 광고주 모니터링 시스템<br>
+관리: 동백 (TVING Ad Ops)
+</p>
+
+</body>
+</html>
