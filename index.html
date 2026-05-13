@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TVCF 미집행 광고주 모니터</title>
+<title>TVCF 미집행 광고주</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,20 +31,20 @@
   --warn-tint: #fff4dc;
   --success: #1e7d3a;
   --success-tint: #e2f4e8;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,.04);
+  --legacy: #888;
+  --legacy-tint: #f4f4f4;
+  --header-bg: #f0eeea;
   --shadow-md: 0 4px 16px -6px rgba(0,0,0,.08);
+  --shadow-header: 0 2px 4px -1px rgba(0,0,0,.06);
 }
 
 * { box-sizing: border-box; }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+  margin: 0; padding: 0;
+  background: var(--bg); color: var(--ink);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px; line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -55,54 +55,34 @@ html, body {
 }
 
 .hero-inner {
-  max-width: 1320px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  max-width: 1400px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 20px; flex-wrap: wrap;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
+.brand { display: flex; align-items: center; gap: 14px; }
 
 .brand-logo {
   font-family: 'Anton', 'Pretendard', sans-serif;
-  font-size: 38px;
-  line-height: 1;
+  font-size: 38px; line-height: 1;
   letter-spacing: -0.02em;
   color: var(--tving-red);
   text-transform: uppercase;
 }
 
-.brand-divider {
-  width: 1px;
-  height: 30px;
-  background: var(--line-strong);
-}
+.brand-divider { width: 1px; height: 30px; background: var(--line-strong); }
 
 .brand-title {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--ink);
-  margin: 0;
+  font-size: 20px; font-weight: 700;
+  letter-spacing: -0.02em; color: var(--ink); margin: 0;
 }
 
-.status-strip {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
+.hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+.status-strip { display: flex; gap: 12px; align-items: center; }
 
 .status-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  display: inline-flex; align-items: center; gap: 8px;
   padding: 6px 12px;
   background: var(--bg);
   border: 1px solid var(--line);
@@ -112,9 +92,7 @@ html, body {
 }
 
 .status-pill .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
+  width: 6px; height: 6px; border-radius: 50%;
   background: var(--tving-red);
   animation: pulse 2s infinite;
 }
@@ -137,128 +115,93 @@ html, body {
   50% { opacity: 0.4; }
 }
 
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 24px 40px 60px;
-}
-
-.toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-}
-
-.toolbar-left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  flex: 1;
-}
-
-.toolbar-right {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.counts-inline {
-  display: flex;
-  gap: 8px;
-  font-size: 12px;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-  flex-wrap: wrap;
-}
-
-.counts-inline .pill {
-  padding: 4px 10px;
-  border-radius: 4px;
-  background: var(--paper);
-  border: 1px solid var(--line);
+/* 수동 트리거 버튼 */
+.trigger-btn {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-}
-
-.counts-inline .pill .num {
-  font-weight: 700;
+  gap: 6px;
+  padding: 7px 14px;
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
   color: var(--ink);
-  font-size: 13px;
+  text-decoration: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.12s ease;
 }
 
+.trigger-btn:hover {
+  background: var(--accent-tint);
+  border-color: var(--tving-red);
+  color: var(--tving-red-dark);
+}
+
+.trigger-btn .icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.container { max-width: 1400px; margin: 0 auto; padding: 24px 40px 60px; }
+
+.toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; margin-bottom: 16px; flex-wrap: wrap;
+}
+
+.toolbar-left { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; flex: 1; }
+.toolbar-right { display: flex; align-items: center; gap: 8px; }
+
+.counts-inline { display: flex; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; }
+
+.counts-inline .pill {
+  padding: 4px 10px; border-radius: 4px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  display: inline-flex; align-items: center; gap: 5px;
+}
+
+.counts-inline .pill .num { font-weight: 700; color: var(--ink); font-size: 13px; }
 .counts-inline .pill.x .num { color: var(--tving-red); }
 .counts-inline .pill.o .num { color: var(--success); }
 .counts-inline .pill.maybe .num { color: var(--warn); }
 
 .btn {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--ink); color: var(--paper);
   border: 1px solid var(--ink);
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  font-family: inherit;
+  padding: 8px 14px; border-radius: 6px;
+  font-size: 13px; font-weight: 600;
+  cursor: pointer; font-family: inherit;
   transition: all 0.12s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  display: inline-flex; align-items: center; gap: 6px;
   letter-spacing: -0.01em;
 }
 
-.btn:hover {
-  background: var(--tving-red);
-  border-color: var(--tving-red);
-}
+.btn:hover { background: var(--tving-red); border-color: var(--tving-red); }
 
-.btn-ghost {
-  background: transparent;
-  color: var(--ink);
-  border: 1px solid var(--line-strong);
-}
-
-.btn-ghost:hover {
-  background: var(--paper);
-  border-color: var(--tving-red);
-  color: var(--tving-red);
-}
-
+.btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line-strong); }
+.btn-ghost:hover { background: var(--paper); border-color: var(--tving-red); color: var(--tving-red); }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .filter-bar {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
+  display: flex; gap: 12px; align-items: center;
+  margin-bottom: 12px; flex-wrap: wrap;
 }
 
 .chip-group {
-  display: flex;
-  gap: 4px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  padding: 3px;
-  border-radius: 8px;
+  display: flex; gap: 4px;
+  background: var(--paper); border: 1px solid var(--line);
+  padding: 3px; border-radius: 8px;
 }
 
 .chip {
-  border: none;
-  background: transparent;
-  font-size: 12px;
-  padding: 6px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: inherit;
-  color: var(--muted);
-  font-weight: 500;
-  transition: all 0.12s ease;
+  border: none; background: transparent;
+  font-size: 12px; padding: 6px 12px;
+  border-radius: 5px; cursor: pointer;
+  font-family: inherit; color: var(--muted);
+  font-weight: 500; transition: all 0.12s ease;
 }
 
 .chip:hover { color: var(--ink); }
@@ -267,67 +210,86 @@ html, body {
 .chip.active.maybe { background: var(--warn); color: white; }
 .chip.active.o { background: var(--success); }
 
-.search-box {
-  flex: 1;
-  min-width: 200px;
-  position: relative;
+.scope-toggle {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 5px 12px; border-radius: 6px;
+  background: var(--paper); border: 1px solid var(--line);
+  cursor: pointer; user-select: none;
+  font-size: 12px;
 }
 
+.scope-toggle input { margin: 0; cursor: pointer; accent-color: var(--tving-red); }
+.scope-toggle .label { font-weight: 500; color: var(--ink-soft); }
+.scope-toggle.active { background: var(--accent-tint); border-color: var(--tving-red); color: var(--tving-red-dark); }
+.scope-toggle.active .label { color: var(--tving-red-dark); font-weight: 600; }
+
+.search-box { flex: 1; min-width: 200px; position: relative; }
+
 .search-box input {
-  width: 100%;
-  border: 1px solid var(--line);
-  background: var(--paper);
-  border-radius: 6px;
+  width: 100%; border: 1px solid var(--line);
+  background: var(--paper); border-radius: 6px;
   padding: 8px 12px 8px 32px;
-  font-size: 13px;
-  font-family: inherit;
-  color: var(--ink);
+  font-size: 13px; font-family: inherit; color: var(--ink);
 }
 
 .search-box input:focus { outline: none; border-color: var(--tving-red); }
 
 .search-box::before {
-  content: '⌕';
-  position: absolute;
-  left: 11px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--muted);
-  font-size: 14px;
+  content: '⌕'; position: absolute;
+  left: 11px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 14px;
 }
 
 .table-wrap {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  overflow: hidden;
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden;
   box-shadow: var(--shadow-md);
 }
 
+.table-scroll {
+  max-height: calc(100vh - 320px);
+  min-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+.table-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.table-scroll::-webkit-scrollbar-track { background: transparent; }
+.table-scroll::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 5px;
+  border: 2px solid var(--paper);
+}
+.table-scroll::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 13px;
 }
 
 thead th {
-  background: #fafafa;
+  background: var(--header-bg);
   text-align: left;
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 11px; letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--muted);
-  padding: 11px 16px;
-  font-weight: 600;
-  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  padding: 12px 16px;
+  font-weight: 700;
+  border-bottom: 2px solid var(--line-strong);
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
+  box-shadow: var(--shadow-header);
+  white-space: nowrap;
 }
 
 thead th.sortable { cursor: pointer; user-select: none; }
-thead th.sortable:hover { color: var(--ink); }
-thead th.sortable::after { content: ' ↕'; opacity: 0.3; }
+thead th.sortable:hover { color: var(--tving-red); background: #ebe7e0; }
+thead th.sortable::after { content: ' ↕'; opacity: 0.3; font-size: 10px; }
 thead th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--tving-red); }
 thead th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--tving-red); }
 
@@ -336,105 +298,176 @@ tbody tr {
   transition: background 0.08s ease;
 }
 
-tbody tr:hover { background: #fafafa; }
-tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: #fffaf0; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr.legacy-row { background: #fafafa; }
+tbody tr.legacy-row:hover { background: #f3f3f3; }
+tbody tr.legacy-row td { color: var(--ink-soft); }
 
-td { padding: 12px 16px; vertical-align: middle; }
+td {
+  padding: 12px 16px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--line);
+}
 
 td.date {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  color: var(--muted);
-  white-space: nowrap;
+  font-size: 12px; color: var(--muted); white-space: nowrap;
 }
 
 td.advertiser { font-weight: 600; color: var(--ink); }
+td.brand { color: var(--ink-soft); font-size: 12px; }
 
 td.campaign {
-  color: var(--ink-soft);
-  font-size: 12px;
-  max-width: 280px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  color: var(--muted); font-size: 12px;
+  max-width: 240px; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap;
+}
+
+.variant-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 6px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  border-radius: 3px;
+  margin-left: 6px;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .cat-badge {
-  display: inline-block;
-  padding: 3px 8px;
-  border-radius: 4px;
-  font-size: 11px;
-  background: #f5f5f5;
-  color: var(--ink-soft);
-  border: 1px solid var(--line);
-  white-space: nowrap;
+  display: inline-block; padding: 3px 8px;
+  border-radius: 4px; font-size: 11px;
+  background: #f5f5f5; color: var(--ink-soft);
+  border: 1px solid var(--line); white-space: nowrap;
 }
 
+.status-cell { position: relative; }
+
 .status-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 3px 10px;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 700;
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 10px; border-radius: 999px;
+  font-size: 11px; font-weight: 700;
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.1s ease;
+}
+
+.status-badge.editable:hover {
+  border-color: currentColor;
+  filter: brightness(0.95);
 }
 
 .status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
 .status-badge.o { background: var(--success-tint); color: var(--success); }
-.status-badge.maybe { background: var(--warn-tint); color: var(--warn); cursor: help; }
+.status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
 .status-badge.unknown { background: #f3f3f3; color: var(--muted); }
+.status-badge.legacy-badge { cursor: default; opacity: 0.85; }
+
+.status-badge .override-mark {
+  font-size: 8px;
+  margin-left: 3px;
+  opacity: 0.7;
+}
+
+.status-menu {
+  position: absolute;
+  top: 100%; left: 0;
+  margin-top: 4px;
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px -6px rgba(0,0,0,.15);
+  z-index: 100;
+  min-width: 220px;
+  padding: 4px;
+}
+
+.status-menu-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  color: var(--ink);
+  width: 100%;
+  border: none;
+  background: transparent;
+  text-align: left;
+}
+
+.status-menu-item:hover { background: var(--bg); }
+.status-menu-item.active { background: var(--accent-tint); color: var(--tving-red-dark); font-weight: 600; }
+
+.status-menu-item .icon {
+  width: 18px; text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+}
+
+.status-menu-item.opt-o .icon { color: var(--success); }
+.status-menu-item.opt-x .icon { color: var(--tving-red); }
+.status-menu-item.opt-maybe .icon { color: var(--warn); }
+.status-menu-item.opt-auto { color: var(--muted); border-top: 1px solid var(--line); margin-top: 4px; padding-top: 8px; }
+
+.status-menu-hint {
+  padding: 6px 12px;
+  font-size: 10px;
+  color: var(--muted);
+  background: var(--bg);
+  border-radius: 5px;
+  margin-bottom: 4px;
+  font-family: 'JetBrains Mono', monospace;
+}
 
 .link-icon {
-  color: var(--muted);
-  text-decoration: none;
-  font-size: 14px;
-  padding: 4px 8px;
-  border-radius: 4px;
-  transition: all 0.1s ease;
+  color: var(--muted); text-decoration: none;
+  font-size: 14px; padding: 4px 8px;
+  border-radius: 4px; transition: all 0.1s ease;
 }
 
 .link-icon:hover { background: var(--accent-tint); color: var(--tving-red); }
 
-.empty-state {
-  padding: 80px 20px;
-  text-align: center;
-  color: var(--muted);
+.legacy-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  background: var(--legacy-tint);
+  color: var(--legacy);
+  letter-spacing: 0.05em;
+  margin-left: 6px;
+  vertical-align: middle;
 }
 
+.empty-state { padding: 80px 20px; text-align: center; color: var(--muted); }
 .empty-state-icon { font-size: 44px; margin-bottom: 14px; opacity: 0.45; }
 
 .loading {
-  padding: 80px 20px;
-  text-align: center;
+  padding: 80px 20px; text-align: center;
   color: var(--muted);
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace; font-size: 12px;
 }
 
 .loading::after {
-  content: '';
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--tving-red);
-  margin-left: 8px;
+  content: ''; display: inline-block;
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--tving-red); margin-left: 8px;
   animation: pulse 1s infinite;
 }
 
 .alert {
-  padding: 10px 14px;
-  border-radius: 6px;
-  margin-bottom: 12px;
-  font-size: 12px;
+  padding: 10px 14px; border-radius: 6px;
+  margin-bottom: 12px; font-size: 12px;
   border-left: 3px solid;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  display: flex; align-items: center;
+  justify-content: space-between; gap: 8px;
 }
 
 .alert.error { background: var(--tving-red-soft); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
@@ -442,21 +475,14 @@ td.campaign {
 .alert.success { background: var(--success-tint); color: var(--success); border-left-color: var(--success); }
 
 .alert .close {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: inherit;
-  font-size: 18px;
-  line-height: 1;
-  padding: 0;
-  opacity: 0.6;
+  background: transparent; border: none; cursor: pointer;
+  color: inherit; font-size: 18px; line-height: 1;
+  padding: 0; opacity: 0.6;
 }
 .alert .close:hover { opacity: 1; }
 
 .master-mini {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  display: flex; align-items: center; gap: 12px;
   padding: 10px 14px;
   background: var(--paper);
   border: 1px solid var(--line);
@@ -465,45 +491,27 @@ td.campaign {
 }
 
 .master-mini .icon { font-size: 18px; opacity: 0.7; }
-
-.master-mini .info {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
+.master-mini .info { flex: 1; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .master-mini .info-empty { color: var(--muted); }
 .master-mini .filename { font-family: 'JetBrains Mono', monospace; color: var(--ink); font-weight: 500; }
 
 .master-mini .count-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
+  display: inline-flex; align-items: center; gap: 4px;
   padding: 2px 8px;
-  background: var(--accent-tint);
-  color: var(--tving-red-dark);
+  background: var(--accent-tint); color: var(--tving-red-dark);
   border-radius: 4px;
-  font-weight: 700;
-  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700; font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
 }
 
 .master-mini .when { color: var(--muted); font-size: 11px; font-family: 'JetBrains Mono', monospace; }
-
 .master-mini .actions { display: flex; gap: 6px; }
 
 .master-mini button {
-  background: transparent;
-  border: 1px solid var(--line-strong);
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 11px;
-  cursor: pointer;
-  font-family: inherit;
-  color: var(--ink);
-  font-weight: 500;
+  background: transparent; border: 1px solid var(--line-strong);
+  border-radius: 5px; padding: 5px 10px;
+  font-size: 11px; cursor: pointer;
+  font-family: inherit; color: var(--ink); font-weight: 500;
 }
 
 .master-mini button:hover { border-color: var(--tving-red); color: var(--tving-red); }
@@ -512,20 +520,14 @@ td.campaign {
 [data-tooltip] { position: relative; }
 [data-tooltip]::after {
   content: attr(data-tooltip);
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
+  position: absolute; bottom: 100%; left: 50%;
   transform: translateX(-50%) translateY(-6px);
-  background: var(--ink);
-  color: var(--paper);
-  font-size: 11px;
-  padding: 5px 9px;
-  border-radius: 4px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
+  background: var(--ink); color: var(--paper);
+  font-size: 11px; padding: 5px 9px;
+  border-radius: 4px; white-space: nowrap;
+  opacity: 0; pointer-events: none;
   transition: opacity 0.15s ease;
-  z-index: 10;
+  z-index: 50;
   font-family: 'Pretendard', sans-serif;
 }
 [data-tooltip]:hover::after { opacity: 1; }
@@ -535,6 +537,7 @@ td.campaign {
   .container { padding: 18px 20px; }
   .brand-logo { font-size: 30px; }
   td.campaign, thead th.campaign-col { display: none; }
+  .table-scroll { max-height: calc(100vh - 280px); }
 }
 </style>
 </head>
@@ -545,17 +548,26 @@ td.campaign {
     <div class="brand">
       <div class="brand-logo">TVING</div>
       <div class="brand-divider"></div>
-      <h1 class="brand-title">TVCF 미집행 광고주 모니터</h1>
+      <h1 class="brand-title">TVCF 미집행 광고주</h1>
     </div>
-    <div class="status-strip">
-      <div class="status-pill">
-        <span class="dot"></span>
-        <span class="label">Last</span>
-        <span class="value" id="lastRun">—</span>
-      </div>
-      <div class="status-pill">
-        <span class="label">New</span>
-        <span class="value" id="totalCount">—</span>
+    <div class="hero-actions">
+      <a class="trigger-btn"
+         href="https://github.com/ehdqor8212/tvcf-monitor/actions/workflows/daily.yml"
+         target="_blank" rel="noopener"
+         title="GitHub Actions에서 수동으로 즉시 수집 가능">
+        <span class="icon">⚡</span>
+        <span>지금 수집</span>
+      </a>
+      <div class="status-strip">
+        <div class="status-pill">
+          <span class="dot"></span>
+          <span class="label">Last</span>
+          <span class="value" id="lastRun">—</span>
+        </div>
+        <div class="status-pill">
+          <span class="label">New</span>
+          <span class="value" id="totalCount">—</span>
+        </div>
       </div>
     </div>
   </div>
@@ -575,7 +587,7 @@ td.campaign {
       </div>
     </div>
     <div class="toolbar-right">
-      <button class="btn btn-ghost" id="refreshBtn" title="데이터 새로고침">↻ 새로고침</button>
+      <button class="btn btn-ghost" id="refreshBtn" title="페이지 데이터 새로고침">↻ 새로고침</button>
       <button class="btn" id="exportBtn">↓ Excel 다운로드</button>
     </div>
   </div>
@@ -587,13 +599,17 @@ td.campaign {
       <button class="chip maybe" data-filter="status" data-value="maybe">유사</button>
       <button class="chip o" data-filter="status" data-value="o">집행</button>
     </div>
+    <label class="scope-toggle" id="scopeToggle">
+      <input type="checkbox" id="historyToggle" />
+      <span class="label">전체 누적 보기 (과거 포함)</span>
+    </label>
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="광고주·캠페인·카테고리 검색" />
+      <input type="text" id="searchInput" placeholder="광고주·브랜드·카테고리 검색" />
     </div>
   </div>
 
   <div class="table-wrap">
-    <div id="tableContainer">
+    <div class="table-scroll" id="tableContainer">
       <div class="loading">데이터 불러오는 중</div>
     </div>
   </div>
@@ -607,6 +623,9 @@ td.campaign {
       <div class="actions">
         <button id="uploadBtn">업로드</button>
         <button id="clearBtn" style="display:none;">삭제</button>
+        <button id="exportOverridesBtn" style="display:none;" title="수동 변경 사항 백업">⤓ 결정 백업</button>
+        <button id="importOverridesBtn" title="수동 변경 사항 가져오기">⤒ 결정 가져오기</button>
+        <input type="file" id="overridesFileInput" accept=".json" hidden />
       </div>
       <input type="file" id="fileInput" accept=".xlsx,.xls" hidden />
     </div>
@@ -618,17 +637,23 @@ td.campaign {
 'use strict';
 
 const DATA_URL = './data/latest.json';
+const LEGACY_URL = './data/legacy.json';
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
+const OVERRIDE_KEY = 'tvcf_advertiser_overrides_v1';
 
 const state = {
   ads: [],
+  legacyAds: [],
   enriched: [],
   masterList: [],
   fuse: null,
   filter: { status: 'all', search: '' },
   sort: { col: 'registered_date', dir: 'desc' },
   runAt: null,
+  showHistory: false,
+  overrides: {},
+  openMenuId: null,
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -662,6 +687,43 @@ function normalizeName(name) {
     .trim();
 }
 
+function escapeHtml(text) {
+  if (text == null) return '';
+  return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+}
+
+function loadOverrides() {
+  try {
+    const data = JSON.parse(localStorage.getItem(OVERRIDE_KEY) || '{}');
+    if (data && typeof data === 'object') state.overrides = data;
+  } catch (e) { console.warn(e); }
+}
+
+function saveOverrides() {
+  try { localStorage.setItem(OVERRIDE_KEY, JSON.stringify(state.overrides)); }
+  catch (e) { console.warn(e); }
+  updateOverrideButton();
+}
+
+function getOverride(name) {
+  if (!name) return null;
+  const key = normalizeName(name);
+  return state.overrides[key] || null;
+}
+
+function setOverride(name, status) {
+  if (!name) return;
+  const key = normalizeName(name);
+  if (status === null || status === 'auto') delete state.overrides[key];
+  else state.overrides[key] = status;
+  saveOverrides();
+}
+
+function updateOverrideButton() {
+  const hasAny = Object.keys(state.overrides).length > 0;
+  $('#exportOverridesBtn').style.display = hasAny ? '' : 'none';
+}
+
 async function loadData() {
   $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
   clearAlert();
@@ -671,29 +733,40 @@ async function loadData() {
     const resp = await fetch(`${DATA_URL}?t=${ts}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
-
     state.ads = data.new_ads || [];
     state.runAt = data.run_at;
+
+    try {
+      const lResp = await fetch(`${LEGACY_URL}?t=${ts}`);
+      if (lResp.ok) state.legacyAds = await lResp.json();
+    } catch (e) { state.legacyAds = []; }
 
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
 
     if (state.ads.length === 0) {
-      showAlert('아직 수집된 신규 광고가 없습니다. 매일 오전 9시 자동 수집되며, 결과는 여기 표시됩니다.', 'info', false);
+      showAlert('아직 수집된 신규 광고가 없습니다.', 'info', false);
     }
 
     enrichAndRender();
   } catch (err) {
     console.error(err);
-    showAlert(`데이터를 가져오지 못했습니다 (${err.message}). 첫 크롤링이 아직 완료되지 않았거나, 배포가 진행 중일 수 있습니다.`, 'error', false);
+    showAlert(`데이터를 가져오지 못했습니다 (${err.message}).`, 'error', false);
     $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">∅</div><div>데이터 없음</div></div>`;
   }
 }
 
 function enrichAndRender() {
   state.enriched = state.ads.map(ad => {
-    const m = matchAdvertiser(ad.advertiser);
-    return { ...ad, match: m };
+    const matchKey = ad.advertiser || ad.brand;
+    const autoMatch = matchAdvertiser(matchKey);
+    const override = getOverride(matchKey);
+    return {
+      ...ad,
+      matchKey,
+      autoMatch,
+      match: override ? { status: override, matched: autoMatch.matched, confidence: 1.0, isOverride: true } : autoMatch,
+    };
   });
   updateCounts();
   render();
@@ -727,16 +800,29 @@ function matchAdvertiser(name) {
 }
 
 function updateCounts() {
+  const rows = getCurrentRows();
   const counts = { all: 0, x: 0, maybe: 0, o: 0, unknown: 0 };
-  state.enriched.forEach(ad => { counts.all++; counts[ad.match.status]++; });
+  rows.forEach(ad => { counts.all++; counts[ad.match.status]++; });
   $('#countTotal').textContent = counts.all;
   $('#countX').textContent = counts.x;
   $('#countMaybe').textContent = counts.maybe;
   $('#countO').textContent = counts.o;
 }
 
+function getCurrentRows() {
+  if (!state.showHistory) return state.enriched;
+  const legacyEnriched = state.legacyAds.map(ad => ({
+    ...ad,
+    advertiser: null,
+    brand: ad.advertiser,
+    match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
+  }));
+  return [...state.enriched, ...legacyEnriched];
+}
+
 function render() {
-  const filtered = applyFilters(state.enriched);
+  const all = getCurrentRows();
+  const filtered = applyFilters(all);
   const sorted = applySort(filtered);
 
   if (sorted.length === 0) {
@@ -745,18 +831,18 @@ function render() {
   }
 
   const sortCls = (col) => state.sort.col === col ? `sort-${state.sort.dir}` : '';
-  const rows = sorted.map(ad => renderRow(ad)).join('');
+  const rows = sorted.map((ad, idx) => renderRow(ad, idx)).join('');
 
   $('#tableContainer').innerHTML = `
     <table>
       <thead>
         <tr>
           <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:100px;">등록일</th>
-          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser">광고주</th>
+          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:140px;">광고주</th>
+          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:140px;">브랜드</th>
           <th class="campaign-col">캠페인</th>
           <th class="sortable ${sortCls('main_category')}" data-sort="main_category">카테고리</th>
-          <th class="sortable ${sortCls('media_type')}" data-sort="media_type">미디어</th>
-          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:110px;">집행여부</th>
+          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:130px;">집행여부</th>
           <th style="width:40px;"></th>
         </tr>
       </thead>
@@ -772,34 +858,143 @@ function render() {
       render();
     });
   });
+
+  $$('.status-badge.editable').forEach(badge => {
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const adIdx = badge.getAttribute('data-ad-idx');
+      toggleStatusMenu(adIdx, badge);
+    });
+  });
 }
 
-function renderRow(ad) {
+function renderRow(ad, idx) {
+  const isLegacy = ad.is_legacy === true;
+  const rowCls = isLegacy ? 'legacy-row' : '';
   const date = ad.registered_date || '—';
-  const advertiser = ad.advertiser || '<span style="color:var(--muted)">(미확인)</span>';
+
+  let advertiserCell = '';
+  if (isLegacy) {
+    advertiserCell = `<span style="color:var(--muted)">—<span class="legacy-tag">PAST</span></span>`;
+  } else if (ad.advertiser) {
+    advertiserCell = escapeHtml(ad.advertiser);
+  } else {
+    advertiserCell = '<span style="color:var(--muted)">미확인</span>';
+  }
+
+  const brandText = isLegacy ? (ad.brand || ad.advertiser || '—') : (ad.brand || '—');
+  let brandCell = escapeHtml(brandText);
+  if (ad.variant_count && ad.variant_count > 1) {
+    brandCell += `<span class="variant-badge" title="같은 광고주의 다른 광고 ${ad.variant_count}건 통합">+${ad.variant_count - 1}</span>`;
+  }
+
   const campaign = ad.campaign || '—';
-  const cat = ad.main_category ? `<span class="cat-badge">${ad.main_category}</span>` : '<span style="color:var(--muted)">—</span>';
-  const media = ad.media_type || '—';
+  const cat = ad.main_category ? `<span class="cat-badge">${escapeHtml(ad.main_category)}</span>` : '<span style="color:var(--muted)">—</span>';
 
   let statusHtml = '';
-  if (!state.masterList.length) statusHtml = '<span class="status-badge unknown">대기</span>';
-  else if (ad.match.status === 'o') statusHtml = `<span class="status-badge o" data-tooltip="매칭: ${ad.match.matched}">O 집행</span>`;
-  else if (ad.match.status === 'maybe') statusHtml = `<span class="status-badge maybe" data-tooltip="유사: ${ad.match.matched} (${Math.round(ad.match.confidence * 100)}%)">⚠ 유사</span>`;
-  else if (ad.match.status === 'x') statusHtml = '<span class="status-badge x">X 미집행</span>';
-  else statusHtml = '<span class="status-badge unknown">?</span>';
+  const status = ad.match.status;
+  const isOverride = ad.match.isOverride;
 
-  const url = ad.url || '#';
+  if (isLegacy) {
+    const legacyLabel = ad.legacy_exec_status || '?';
+    const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
+    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(legacyLabel)}</span>`;
+  } else if (!state.masterList.length) {
+    statusHtml = '<span class="status-badge unknown">대기</span>';
+  } else {
+    let label = '';
+    if (status === 'o') label = 'O 집행';
+    else if (status === 'maybe') label = '⚠ 유사';
+    else if (status === 'x') label = 'X 미집행';
+    else label = '?';
+
+    const tip = ad.match.matched
+      ? `매칭: ${escapeHtml(ad.match.matched)}${isOverride ? ' (수동)' : ''}`
+      : (isOverride ? '수동 변경됨' : '');
+    const mark = isOverride ? '<span class="override-mark">✎</span>' : '';
+
+    statusHtml = `<span class="status-badge ${status} editable" data-ad-idx="${idx}" data-tooltip="${tip}">${label}${mark}</span>`;
+  }
+
+  const url = ad.url;
+  const linkHtml = url ? `<a href="${url}" target="_blank" rel="noopener" class="link-icon" title="TVCF에서 보기">↗</a>` : '';
+
   return `
-    <tr>
+    <tr class="${rowCls}">
       <td class="date">${date}</td>
-      <td class="advertiser">${advertiser}</td>
-      <td class="campaign campaign-col" title="${campaign}">${campaign}</td>
+      <td class="advertiser">${advertiserCell}</td>
+      <td class="brand">${brandCell}</td>
+      <td class="campaign campaign-col" title="${escapeHtml(campaign)}">${escapeHtml(campaign)}</td>
       <td>${cat}</td>
-      <td>${media}</td>
-      <td>${statusHtml}</td>
-      <td><a href="${url}" target="_blank" rel="noopener" class="link-icon" title="TVCF에서 보기">↗</a></td>
+      <td class="status-cell" id="cell-${idx}">${statusHtml}</td>
+      <td>${linkHtml}</td>
     </tr>
   `;
+}
+
+function toggleStatusMenu(idx, badgeEl) {
+  closeAllMenus();
+  if (state.openMenuId === idx) { state.openMenuId = null; return; }
+  state.openMenuId = idx;
+
+  const sorted = applySort(applyFilters(getCurrentRows()));
+  const ad = sorted[idx];
+  if (!ad || ad.is_legacy) return;
+
+  const key = ad.matchKey || ad.advertiser || ad.brand;
+  if (!key) return;
+
+  const current = ad.match.status;
+  const isOverride = ad.match.isOverride;
+
+  const menuHtml = `
+    <div class="status-menu" id="menu-${idx}">
+      <div class="status-menu-hint">${escapeHtml(key)}</div>
+      <button class="status-menu-item opt-o ${current === 'o' && isOverride ? 'active' : ''}" data-action="set-o">
+        <span class="icon">O</span><span>집행 (O)</span>
+      </button>
+      <button class="status-menu-item opt-x ${current === 'x' && isOverride ? 'active' : ''}" data-action="set-x">
+        <span class="icon">X</span><span>미집행 (X)</span>
+      </button>
+      <button class="status-menu-item opt-maybe ${current === 'maybe' && isOverride ? 'active' : ''}" data-action="set-maybe">
+        <span class="icon">⚠</span><span>유사 (수동)</span>
+      </button>
+      ${isOverride ? `
+        <button class="status-menu-item opt-auto" data-action="reset">
+          <span class="icon">↺</span><span>자동 판단으로</span>
+        </button>
+      ` : ''}
+    </div>
+  `;
+
+  const cell = $(`#cell-${idx}`);
+  if (!cell) return;
+  cell.insertAdjacentHTML('beforeend', menuHtml);
+
+  const menu = $(`#menu-${idx}`);
+  menu.querySelectorAll('.status-menu-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const action = item.getAttribute('data-action');
+      if (action === 'set-o') setOverride(key, 'o');
+      else if (action === 'set-x') setOverride(key, 'x');
+      else if (action === 'set-maybe') setOverride(key, 'maybe');
+      else if (action === 'reset') setOverride(key, null);
+      closeAllMenus();
+      enrichAndRender();
+    });
+  });
+
+  setTimeout(() => {
+    document.addEventListener('click', closeMenusOnce, { once: true });
+  }, 0);
+}
+
+function closeMenusOnce() { closeAllMenus(); }
+
+function closeAllMenus() {
+  $$('.status-menu').forEach(m => m.remove());
+  state.openMenuId = null;
 }
 
 function applyFilters(ads) {
@@ -807,7 +1002,7 @@ function applyFilters(ads) {
     if (state.filter.status !== 'all' && ad.match.status !== state.filter.status) return false;
     if (state.filter.search) {
       const q = state.filter.search.toLowerCase();
-      const hay = [ad.advertiser, ad.campaign, ad.main_category, ad.media_type, ad.card_title].filter(Boolean).join(' ').toLowerCase();
+      const hay = [ad.advertiser, ad.brand, ad.campaign, ad.main_category, ad.card_title].filter(Boolean).join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -846,8 +1041,7 @@ async function handleMasterFile(file) {
     const sheet = wb.Sheets[sheetName];
     const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
 
-    let headerRowIdx = -1;
-    let nameColIdx = -1;
+    let headerRowIdx = -1, nameColIdx = -1;
     for (let i = 0; i < Math.min(rows.length, 30); i++) {
       const row = rows[i] || [];
       for (let j = 0; j < row.length; j++) {
@@ -865,7 +1059,7 @@ async function handleMasterFile(file) {
       const name = row[nameColIdx];
       if (name && typeof name === 'string' && name.trim()) advertisers.push(name.trim());
     }
-    if (advertisers.length === 0) throw new Error('Advertiser_name 컬럼에서 데이터를 추출하지 못했습니다.');
+    if (advertisers.length === 0) throw new Error('데이터를 추출하지 못했습니다.');
 
     const unique = [...new Set(advertisers)];
     state.masterList = unique;
@@ -920,15 +1114,52 @@ function clearMaster() {
 function updateMasterStatus(filename, count, uploadedAt) {
   const when = uploadedAt ? fmtDate(uploadedAt) : '방금';
   $('#masterInfo').innerHTML = `
-    <span class="filename">📄 ${filename}</span>
+    <span class="filename">📄 ${escapeHtml(filename)}</span>
     <span class="count-badge">${count.toLocaleString()} 광고주</span>
     <span class="when">${when} 업데이트</span>
   `;
   $('#clearBtn').style.display = '';
 }
 
+function exportOverrides() {
+  const data = {
+    exported_at: new Date().toISOString(),
+    count: Object.keys(state.overrides).length,
+    overrides: state.overrides,
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  a.href = url;
+  a.download = `tvcf_overrides_${yyyy}${mm}${dd}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showAlert(`✓ ${data.count}개 결정 사항을 백업했습니다.`, 'success');
+}
+
+async function importOverrides(file) {
+  try {
+    const text = await file.text();
+    const data = JSON.parse(text);
+    if (!data.overrides || typeof data.overrides !== 'object') throw new Error('올바르지 않은 파일 형식');
+    const count = Object.keys(data.overrides).length;
+    if (!confirm(`${count}개 결정을 가져옵니다. 기존과 병합할까요?`)) return;
+    Object.assign(state.overrides, data.overrides);
+    saveOverrides();
+    enrichAndRender();
+    showAlert(`✓ ${count}개 결정을 가져왔습니다.`, 'success');
+  } catch (err) {
+    showAlert(`가져오기 실패: ${err.message}`, 'error');
+  }
+}
+
 function exportExcel() {
-  const filtered = applyFilters(state.enriched);
+  const all = getCurrentRows();
+  const filtered = applyFilters(all);
   if (filtered.length === 0) { alert('다운로드할 데이터가 없습니다.'); return; }
 
   const today = new Date();
@@ -939,25 +1170,37 @@ function exportExcel() {
 
   const rows = filtered.map(ad => {
     let exec = '';
-    if (state.masterList.length === 0) exec = '';
-    else if (ad.match.status === 'o') exec = 'O';
-    else if (ad.match.status === 'maybe') exec = `⚠ ${ad.match.matched}`;
-    else if (ad.match.status === 'x') exec = 'X';
+    if (ad.is_legacy) {
+      exec = ad.legacy_exec_status || '';
+    } else if (state.masterList.length === 0) {
+      exec = '';
+    } else {
+      const s = ad.match.status;
+      if (s === 'o') exec = 'O';
+      else if (s === 'maybe') exec = ad.match.matched ? `⚠ ${ad.match.matched}` : '⚠';
+      else if (s === 'x') exec = 'X';
+    }
+
     const year = ad.registered_date ? ad.registered_date.slice(0, 4) : yyyy;
+    const advertiserOut = ad.is_legacy ? '' : (ad.advertiser || '');
+    const brandOut = ad.is_legacy ? (ad.brand || ad.advertiser || '') : (ad.brand || ad.campaign || '');
+
     return {
       '년도': year,
       '온에어': ad.registered_date || '',
       '카테고리': ad.main_category || '',
-      '광고주': ad.advertiser || '',
-      '브랜드(광고상품)명': ad.campaign || ad.advertiser || '',
+      '광고주': advertiserOut,
+      '브랜드(광고상품)명': brandOut,
+      '캠페인': ad.campaign || '',
       '집행여부': exec,
-      '공유일': sharedDate,
+      '공유일': ad.is_legacy ? (ad.shared_date || '') : sharedDate,
       'TVCF URL': ad.url || '',
+      '구분': ad.is_legacy ? '과거' : '신규',
     };
   });
 
   const ws = XLSX.utils.json_to_sheet(rows);
-  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 14 }, { wch: 12 }, { wch: 40 }];
+  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 24 }, { wch: 14 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'TVCF');
   XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
@@ -972,6 +1215,14 @@ function setupEvents() {
 
   $('#uploadBtn').addEventListener('click', () => $('#fileInput').click());
   $('#clearBtn').addEventListener('click', clearMaster);
+
+  $('#exportOverridesBtn').addEventListener('click', exportOverrides);
+  $('#importOverridesBtn').addEventListener('click', () => $('#overridesFileInput').click());
+  $('#overridesFileInput').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) importOverrides(file);
+    e.target.value = '';
+  });
 
   const mb = $('#masterBar');
   mb.addEventListener('dragover', (e) => { e.preventDefault(); mb.classList.add('dragover'); });
@@ -991,23 +1242,37 @@ function setupEvents() {
       chip.classList.add('active');
       state.filter[filter] = value;
       render();
+      updateCounts();
     });
+  });
+
+  $('#historyToggle').addEventListener('change', (e) => {
+    state.showHistory = e.target.checked;
+    $('#scopeToggle').classList.toggle('active', state.showHistory);
+    render();
+    updateCounts();
   });
 
   let searchTimer = null;
   $('#searchInput').addEventListener('input', (e) => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { state.filter.search = e.target.value.trim(); render(); }, 150);
+    searchTimer = setTimeout(() => { state.filter.search = e.target.value.trim(); render(); updateCounts(); }, 150);
   });
 
   $('#refreshBtn').addEventListener('click', loadData);
   $('#exportBtn').addEventListener('click', exportExcel);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeAllMenus();
+  });
 }
 
 function init() {
   setupEvents();
+  loadOverrides();
   loadMasterFromStorage();
   loadData();
+  updateOverrideButton();
 }
 
 init();
