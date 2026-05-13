@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-05-13T10:56:56.697Z",
-  "count": 2,
+  "updated_at": "2026-05-13T13:27:44.739Z",
+  "count": 3,
+  "x_count": 0,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -13,6 +14,13 @@
       "status": "o",
       "matched_name": "국민은행",
       "updated_at": "2026-05-13T10:56:56.377Z"
+    },
+    "hk이노엔": {
+      "display_name": "HK이노엔",
+      "status": "o",
+      "matched_name": "에이치케이이노엔(HK이노엔)",
+      "updated_at": "2026-05-13T13:27:44.733Z"
     }
-  }
+  },
+  "x_decisions": {}
 }
