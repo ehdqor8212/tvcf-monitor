@@ -1,12 +1,18 @@
 {
-  "updated_at": "2026-05-13T10:55:08.014Z",
-  "count": 1,
+  "updated_at": "2026-05-13T10:56:31.739Z",
+  "count": 2,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
       "status": "o",
       "matched_name": "하이트진로음료",
       "updated_at": "2026-05-13T10:55:07.729Z"
+    },
+    "kb국민은행": {
+      "display_name": "KB국민은행",
+      "status": "o",
+      "matched_name": "국민은행",
+      "updated_at": "2026-05-13T10:56:31.377Z"
     }
   }
 }
