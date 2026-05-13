@@ -345,6 +345,9 @@ const DECISIONS_PATH = 'data/decisions.json';
 
 const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
+const HISTORY_URL = './data/history.json';
+// 기본 화면에 표시할 최근 N일 (history.json에서 추출)
+const RECENT_DAYS = 7;
 const DECISIONS_URL = './data/decisions.json';
 
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
@@ -359,7 +362,8 @@ const TOKEN_KEY = 'tvcf_github_token_v1';
 */
 
 const state = {
-  ads: [],
+  ads: [],            // latest.json (이번 크롤링 결과)
+  historyAds: [],     // history.json (누적 — 한 번 들어가면 보존됨)
   legacyAds: [],
   enriched: [],
   masterList: [],
@@ -641,8 +645,30 @@ async function loadData() {
     const resp = await fetch(`${DATA_URL}?t=${ts}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
-    state.ads = data.new_ads || [];
+    const latestAds = data.new_ads || [];
     state.runAt = data.run_at;
+
+    // history.json (누적 데이터) 로드
+    try {
+      const hResp = await fetch(`${HISTORY_URL}?t=${ts}`);
+      if (hResp.ok) state.historyAds = await hResp.json();
+    } catch (e) { state.historyAds = []; }
+
+    // 기본 화면 데이터 = latest + history(최근 N일)
+    // - latest.json이 비어있어도 history.json에서 최근 N일은 항상 보임
+    // - 둘 다 있으면 ad_id로 중복 제거 (latest 우선)
+    const latestIds = new Set(latestAds.map(a => a.ad_id));
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - RECENT_DAYS);
+    const cutoffStr = cutoffDate.toISOString().slice(0, 10);
+
+    const recentFromHistory = state.historyAds.filter(ad => {
+      if (latestIds.has(ad.ad_id)) return false; // 중복 제거
+      const reg = ad.registered_date || '';
+      return reg.slice(0, 10) >= cutoffStr; // 최근 N일
+    });
+
+    state.ads = [...latestAds, ...recentFromHistory];
 
     try {
       const lResp = await fetch(`${LEGACY_URL}?t=${ts}`);
@@ -655,7 +681,7 @@ async function loadData() {
     $('#totalCount').textContent = state.ads.length;
 
     if (state.ads.length === 0) {
-      showAlert('아직 수집된 신규 광고가 없습니다.', 'info', false);
+      showAlert('최근 7일간 수집된 광고가 없습니다.', 'info', false);
     }
 
     enrichAndRender();
@@ -722,11 +748,29 @@ function updateCounts() {
 
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
+
+  // 누적 보기: enriched(최근) + history(나머지 누적) + legacy(과거) 모두 표시
+  const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
+
+  // history.json 중 enriched에 없는 것 (= 7일 넘은 것)
+  const olderHistory = state.historyAds
+    .filter(ad => !enrichedIds.has(ad.ad_id))
+    .map(ad => {
+      const matchKey = ad.advertiser || ad.brand;
+      const decision = getDecision(matchKey, ad.ad_id);
+      const autoMatch = matchAdvertiser(matchKey);
+      const match = decision
+        ? { status: decision.status, matched: decision.matched_name, isOverride: true }
+        : autoMatch;
+      return { ...ad, matchKey, match };
+    });
+
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
   }));
-  return [...state.enriched, ...legacyEnriched];
+
+  return [...state.enriched, ...olderHistory, ...legacyEnriched];
 }
 
 function getYear(ad) {
