@@ -1,5 +1,134 @@
 [
   {
+    "ad_id": "1016713",
+    "prefix": "bi1132",
+    "url": "https://tvcf.co.kr/play/bi1132-1016713",
+    "card_title": "포스코FANTASTEEL POSCOllection_Campaign Story",
+    "onair": "05.13",
+    "registered_short": "05.13",
+    "brand": "포스코",
+    "campaign": null,
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "포스코",
+    "advertiser_code": "C000001773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-13T22:05:13.712623+09:00"
+  },
+  {
+    "ad_id": "1016706",
+    "prefix": "ai264",
+    "url": "https://tvcf.co.kr/play/ai264-1016706",
+    "card_title": "스테니사랑하면 유별나진다 (FULL)",
+    "onair": "05.13",
+    "registered_short": "05.13",
+    "brand": "스테니",
+    "campaign": null,
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "사각코퍼레이션",
+    "advertiser_code": "4154758",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-13T22:05:13.712638+09:00"
+  },
+  {
+    "ad_id": "1016705",
+    "prefix": "bi253",
+    "url": "https://tvcf.co.kr/play/bi253-1016705",
+    "card_title": "컨디션요즘 축제 레전드 라인업 \"챙기자 같이 놀 컨디션 : 축제\"",
+    "onair": "05.13",
+    "registered_short": "05.13",
+    "brand": "컨디션",
+    "campaign": "축제&quot;</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "HK이노엔",
+    "advertiser_code": "C000169394",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1016703",
+        "url": "https://tvcf.co.kr/play/bi231-1016703",
+        "brand": "컨디션",
+        "campaign": "술집&quot;</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "컨디션술집에서 장카설유가 합석하자고 한 썰 \"챙기자 같이 놀 컨디션 : 술집\""
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-05-13T22:05:13.712640+09:00"
+  },
+  {
+    "ad_id": "1016695",
+    "prefix": "bi1952",
+    "url": "https://tvcf.co.kr/play/bi1952-1016695",
+    "card_title": "진로올뉴 진로 : 삼겹살(세로Ver.)",
+    "onair": "05.13",
+    "registered_short": "05.13",
+    "brand": "진로",
+    "campaign": "삼겹살(세로Ver.)</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "하이트진로",
+    "advertiser_code": "C000010454",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1016693",
+        "url": "https://tvcf.co.kr/play/bi1939-1016693",
+        "brand": "진로",
+        "campaign": "치킨 범퍼</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 치킨 범퍼"
+      },
+      {
+        "ad_id": "1016692",
+        "url": "https://tvcf.co.kr/play/ai1928-1016692",
+        "brand": "진로",
+        "campaign": "삼겹살 범퍼</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 삼겹살 범퍼"
+      },
+      {
+        "ad_id": "1016694",
+        "url": "https://tvcf.co.kr/play/ai1941-1016694",
+        "brand": "진로",
+        "campaign": "파스타 범퍼</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 파스타 범퍼"
+      },
+      {
+        "ad_id": "1016700",
+        "url": "https://tvcf.co.kr/play/ai307-1016700",
+        "brand": "진로",
+        "campaign": "파스타(세로Ver.)</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 파스타(세로Ver.)"
+      },
+      {
+        "ad_id": "1016696",
+        "url": "https://tvcf.co.kr/play/ai1963-1016696",
+        "brand": "진로",
+        "campaign": "치킨(세로Ver.)</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 치킨(세로Ver.)"
+      },
+      {
+        "ad_id": "1016690",
+        "url": "https://tvcf.co.kr/play/ai2906-1016690",
+        "brand": "진로",
+        "campaign": "치킨</span><span class=\"text-sm sm:text-base md:text-lg ml-0.5 opacity-80\">",
+        "card_title": "진로올뉴 진로 : 치킨"
+      }
+    ],
+    "variant_count": 7,
+    "collected_at": "2026-05-13T22:05:13.712642+09:00"
+  },
+  {
     "ad_id": "1016685",
     "prefix": "bi1851",
     "url": "https://tvcf.co.kr/play/bi1851-1016685",
@@ -33,6 +162,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-05-13T14:25:12.461400+09:00"
+  },
+  {
+    "ad_id": "1016709",
+    "prefix": "bi297",
+    "url": "https://tvcf.co.kr/play/bi297-1016709",
+    "card_title": "컴포즈커피김원훈과 함께하는 컴포즈_더위처방",
+    "onair": "05.12",
+    "registered_short": "05.13",
+    "brand": "컴포즈커피",
+    "campaign": null,
+    "registered_date": "2026-05-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "컴포즈커피",
+    "advertiser_code": "C000025963",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-13T22:05:13.712636+09:00"
   },
   {
     "ad_id": "1016680",
@@ -758,6 +906,44 @@
     "main_category": "제약/의료/복지",
     "sub_categories": [],
     "collected_at": "2026-05-13T00:09:31.560852+09:00"
+  },
+  {
+    "ad_id": "1016711",
+    "prefix": "bi1119",
+    "url": "https://tvcf.co.kr/play/bi1119-1016711",
+    "card_title": "LG유플러스딸의 낯선 목소리 (세로형)",
+    "onair": "04.23",
+    "registered_short": "05.13",
+    "brand": "LG유플러스",
+    "campaign": null,
+    "registered_date": "2026-04-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "LG유플러스",
+    "advertiser_code": "C000009765",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-13T22:05:13.712630+09:00"
+  },
+  {
+    "ad_id": "1016710",
+    "prefix": "ai2108",
+    "url": "https://tvcf.co.kr/play/ai2108-1016710",
+    "card_title": "LG유플러스유플러스에 도착한 당신의 이야기 (세로형)",
+    "onair": "04.21",
+    "registered_short": "05.13",
+    "brand": "LG유플러스",
+    "campaign": null,
+    "registered_date": "2026-04-21",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "LG유플러스",
+    "advertiser_code": "C000009765",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-13T22:05:13.712634+09:00"
   },
   {
     "ad_id": "1016638",
