@@ -18,7 +18,7 @@ KST = timezone(timedelta(hours=9))
 
 # 환경 변수
 SLACK_WEBHOOK_URL = os.environ.get('SLACK_WEBHOOK_URL', '')
-SHAREPOINT_URL = "https://cjworld-my.sharepoint.com/:x:/r/personal/soyounglee1_cj_net/_layouts/15/Doc.aspx?sourcedoc=%7BCBAABD48-BE16-4503-986B-D256A0A1A55A%7D&file=TVCF_%EB%AF%B8%EC%A7%91%ED%96%89%EA%B4%91%EA%B3%A0%EC%A3%BC.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&wdOrigin=WAC.EXCEL.HOME-BUTTON%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=673ccb01-f6d0-4187-91dd-920872b3c3c1&wdPreviousSessionSrc=Wac&ct=1775019015756"
+SHAREPOINT_URL = "https://ehdqor8212.github.io/tvcf-monitor/share.html"
 
 # 파일 경로
 DATA_DIR = Path('data')
@@ -112,8 +112,8 @@ def build_slack_message(today_str, ads, decisions, x_decisions):
 
     # 헤더
     header = f"*[공유] {today_str} TVCF 내역*\n"
-    header += f"<{SHAREPOINT_URL}|TVCF 미집행 광고주>(링크) 공유드립니다.\n"
-
+    header += f"<{SHAREPOINT_URL}|TVCF 미집행 광고주> 공유드립니다.\n"
+    
     if total == 0:
         return f"*[공유] {today_str} TVCF 내역 — 신규 광고주 없음*"
 
