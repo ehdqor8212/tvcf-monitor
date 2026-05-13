@@ -48,495 +48,162 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-.hero {
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
-  padding: 22px 40px;
-}
-
-.hero-inner {
-  max-width: 1400px; margin: 0 auto;
-  display: flex; justify-content: space-between; align-items: center;
-  gap: 20px; flex-wrap: wrap;
-}
-
+.hero { background: var(--paper); border-bottom: 1px solid var(--line); padding: 22px 40px; }
+.hero-inner { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 14px; }
-
-.brand-logo {
-  font-family: 'Anton', 'Pretendard', sans-serif;
-  font-size: 38px; line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--tving-red);
-  text-transform: uppercase;
-}
-
+.brand-logo { font-family: 'Anton', 'Pretendard', sans-serif; font-size: 38px; line-height: 1; letter-spacing: -0.02em; color: var(--tving-red); text-transform: uppercase; }
 .brand-divider { width: 1px; height: 30px; background: var(--line-strong); }
-
-.brand-title {
-  font-size: 20px; font-weight: 700;
-  letter-spacing: -0.02em; color: var(--ink); margin: 0;
-}
-
+.brand-title { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); margin: 0; }
 .hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-
 .status-strip { display: flex; gap: 12px; align-items: center; }
+.status-pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; font-size: 12px; font-family: 'JetBrains Mono', monospace; }
+.status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--tving-red); animation: pulse 2s infinite; }
+.status-pill .label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-size: 10px; }
+.status-pill .value { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
 
-.status-pill {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 6px 12px;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  font-size: 12px;
-  font-family: 'JetBrains Mono', monospace;
-}
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
-.status-pill .dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--tving-red);
-  animation: pulse 2s infinite;
-}
-
-.status-pill .label {
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 10px;
-}
-
-.status-pill .value {
-  font-weight: 600;
-  color: var(--ink);
-  font-variant-numeric: tabular-nums;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-/* 수동 트리거 버튼 */
-.trigger-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 14px;
-  background: var(--paper);
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--ink);
-  text-decoration: none;
-  font-family: inherit;
-  cursor: pointer;
-  transition: all 0.12s ease;
-}
-
-.trigger-btn:hover {
-  background: var(--accent-tint);
-  border-color: var(--tving-red);
-  color: var(--tving-red-dark);
-}
-
-.trigger-btn .icon {
-  font-size: 13px;
-  line-height: 1;
-}
+.trigger-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; background: var(--paper); border: 1px solid var(--line-strong); border-radius: 999px; font-size: 12px; font-weight: 600; color: var(--ink); text-decoration: none; font-family: inherit; cursor: pointer; transition: all 0.12s ease; }
+.trigger-btn:hover { background: var(--accent-tint); border-color: var(--tving-red); color: var(--tving-red-dark); }
+.trigger-btn .icon { font-size: 13px; line-height: 1; }
 
 .container { max-width: 1400px; margin: 0 auto; padding: 24px 40px 60px; }
 
-.toolbar {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 16px; margin-bottom: 16px; flex-wrap: wrap;
-}
-
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
 .toolbar-left { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; flex: 1; }
 .toolbar-right { display: flex; align-items: center; gap: 8px; }
 
 .counts-inline { display: flex; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-
-.counts-inline .pill {
-  padding: 4px 10px; border-radius: 4px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  display: inline-flex; align-items: center; gap: 5px;
-}
-
+.counts-inline .pill { padding: 4px 10px; border-radius: 4px; background: var(--paper); border: 1px solid var(--line); display: inline-flex; align-items: center; gap: 5px; }
 .counts-inline .pill .num { font-weight: 700; color: var(--ink); font-size: 13px; }
-.counts-inline .pill.x .num { color: var(--tving-red); }
-.counts-inline .pill.o .num { color: var(--success); }
+/* O=신규(빨강), X=구구(초록), maybe=노랑 */
+.counts-inline .pill.new .num { color: var(--tving-red); }
+.counts-inline .pill.old .num { color: var(--success); }
 .counts-inline .pill.maybe .num { color: var(--warn); }
 
-.btn {
-  background: var(--ink); color: var(--paper);
-  border: 1px solid var(--ink);
-  padding: 8px 14px; border-radius: 6px;
-  font-size: 13px; font-weight: 600;
-  cursor: pointer; font-family: inherit;
-  transition: all 0.12s ease;
-  display: inline-flex; align-items: center; gap: 6px;
-  letter-spacing: -0.01em;
-}
-
+.btn { background: var(--ink); color: var(--paper); border: 1px solid var(--ink); padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; transition: all 0.12s ease; display: inline-flex; align-items: center; gap: 6px; letter-spacing: -0.01em; }
 .btn:hover { background: var(--tving-red); border-color: var(--tving-red); }
-
 .btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line-strong); }
 .btn-ghost:hover { background: var(--paper); border-color: var(--tving-red); color: var(--tving-red); }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-.filter-bar {
-  display: flex; gap: 12px; align-items: center;
-  margin-bottom: 12px; flex-wrap: wrap;
-}
+.filter-bar { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
 
-.chip-group {
-  display: flex; gap: 4px;
-  background: var(--paper); border: 1px solid var(--line);
-  padding: 3px; border-radius: 8px;
-}
-
-.chip {
-  border: none; background: transparent;
-  font-size: 12px; padding: 6px 12px;
-  border-radius: 5px; cursor: pointer;
-  font-family: inherit; color: var(--muted);
-  font-weight: 500; transition: all 0.12s ease;
-}
-
+.chip-group { display: flex; gap: 4px; background: var(--paper); border: 1px solid var(--line); padding: 3px; border-radius: 8px; }
+.chip { border: none; background: transparent; font-size: 12px; padding: 6px 12px; border-radius: 5px; cursor: pointer; font-family: inherit; color: var(--muted); font-weight: 500; transition: all 0.12s ease; }
 .chip:hover { color: var(--ink); }
 .chip.active { background: var(--ink); color: var(--paper); }
-.chip.active.x { background: var(--tving-red); }
+.chip.active.new { background: var(--tving-red); }
 .chip.active.maybe { background: var(--warn); color: white; }
-.chip.active.o { background: var(--success); }
+.chip.active.old { background: var(--success); }
 
-.scope-toggle {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 5px 12px; border-radius: 6px;
-  background: var(--paper); border: 1px solid var(--line);
-  cursor: pointer; user-select: none;
-  font-size: 12px;
-}
-
+.scope-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px; border-radius: 6px; background: var(--paper); border: 1px solid var(--line); cursor: pointer; user-select: none; font-size: 12px; }
 .scope-toggle input { margin: 0; cursor: pointer; accent-color: var(--tving-red); }
 .scope-toggle .label { font-weight: 500; color: var(--ink-soft); }
 .scope-toggle.active { background: var(--accent-tint); border-color: var(--tving-red); color: var(--tving-red-dark); }
 .scope-toggle.active .label { color: var(--tving-red-dark); font-weight: 600; }
 
 .search-box { flex: 1; min-width: 200px; position: relative; }
-
-.search-box input {
-  width: 100%; border: 1px solid var(--line);
-  background: var(--paper); border-radius: 6px;
-  padding: 8px 12px 8px 32px;
-  font-size: 13px; font-family: inherit; color: var(--ink);
-}
-
+.search-box input { width: 100%; border: 1px solid var(--line); background: var(--paper); border-radius: 6px; padding: 8px 12px 8px 32px; font-size: 13px; font-family: inherit; color: var(--ink); }
 .search-box input:focus { outline: none; border-color: var(--tving-red); }
+.search-box::before { content: '⌕'; position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 14px; }
 
-.search-box::before {
-  content: '⌕'; position: absolute;
-  left: 11px; top: 50%; transform: translateY(-50%);
-  color: var(--muted); font-size: 14px;
-}
+.table-wrap { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow-md); }
 
-.table-wrap {
-  background: var(--paper); border: 1px solid var(--line);
-  border-radius: 10px; overflow: hidden;
-  box-shadow: var(--shadow-md);
-}
-
-.table-scroll {
-  max-height: calc(100vh - 320px);
-  min-height: 400px;
-  overflow-y: auto;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--line-strong) transparent;
-}
-
+.table-scroll { max-height: calc(100vh - 320px); min-height: 400px; overflow-y: auto; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }
 .table-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
 .table-scroll::-webkit-scrollbar-track { background: transparent; }
-.table-scroll::-webkit-scrollbar-thumb {
-  background: var(--line-strong);
-  border-radius: 5px;
-  border: 2px solid var(--paper);
-}
+.table-scroll::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 5px; border: 2px solid var(--paper); }
 .table-scroll::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  font-size: 13px;
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
 
-thead th {
-  background: var(--header-bg);
-  text-align: left;
-  font-size: 11px; letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ink);
-  padding: 12px 16px;
-  font-weight: 700;
-  border-bottom: 2px solid var(--line-strong);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  box-shadow: var(--shadow-header);
-  white-space: nowrap;
-}
-
+thead th { background: var(--header-bg); text-align: left; font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink); padding: 12px 16px; font-weight: 700; border-bottom: 2px solid var(--line-strong); position: sticky; top: 0; z-index: 10; box-shadow: var(--shadow-header); white-space: nowrap; }
 thead th.sortable { cursor: pointer; user-select: none; }
 thead th.sortable:hover { color: var(--tving-red); background: #ebe7e0; }
 thead th.sortable::after { content: ' ↕'; opacity: 0.3; font-size: 10px; }
 thead th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--tving-red); }
 thead th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--tving-red); }
 
-tbody tr {
-  border-bottom: 1px solid var(--line);
-  transition: background 0.08s ease;
-}
-
+tbody tr { border-bottom: 1px solid var(--line); transition: background 0.08s ease; }
 tbody tr:hover { background: #fffaf0; }
 tbody tr:last-child td { border-bottom: none; }
 tbody tr.legacy-row { background: #fafafa; }
 tbody tr.legacy-row:hover { background: #f3f3f3; }
 tbody tr.legacy-row td { color: var(--ink-soft); }
 
-td {
-  padding: 12px 16px;
-  vertical-align: middle;
-  border-bottom: 1px solid var(--line);
-}
-
-td.date {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px; color: var(--muted); white-space: nowrap;
-}
-
+td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); }
+td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
 td.advertiser { font-weight: 600; color: var(--ink); }
-td.brand { color: var(--ink-soft); font-size: 12px; }
+td.brand { color: var(--ink-soft); font-size: 13px; }
 
-td.campaign {
-  color: var(--muted); font-size: 12px;
-  max-width: 240px; overflow: hidden;
-  text-overflow: ellipsis; white-space: nowrap;
-}
+.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; }
 
-.variant-badge {
-  display: inline-block;
-  font-size: 10px;
-  padding: 1px 6px;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  color: var(--muted);
-  border-radius: 3px;
-  margin-left: 6px;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-.cat-badge {
-  display: inline-block; padding: 3px 8px;
-  border-radius: 4px; font-size: 11px;
-  background: #f5f5f5; color: var(--ink-soft);
-  border: 1px solid var(--line); white-space: nowrap;
-}
+.cat-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; }
 
 .status-cell { position: relative; }
 
-.status-badge {
-  display: inline-flex; align-items: center; gap: 4px;
-  padding: 3px 10px; border-radius: 999px;
-  font-size: 11px; font-weight: 700;
-  font-family: 'JetBrains Mono', monospace;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  border: 1px solid transparent;
-  transition: all 0.1s ease;
-}
+.status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; cursor: pointer; border: 1px solid transparent; transition: all 0.1s ease; }
+.status-badge.editable:hover { border-color: currentColor; filter: brightness(0.95); }
 
-.status-badge.editable:hover {
-  border-color: currentColor;
-  filter: brightness(0.95);
-}
-
-.status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
-.status-badge.o { background: var(--success-tint); color: var(--success); }
+/* 신규=빨강, 구구=초록 (반전) */
+.status-badge.new { background: var(--tving-red-soft); color: var(--tving-red-dark); }
+.status-badge.old { background: var(--success-tint); color: var(--success); }
 .status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
 .status-badge.unknown { background: #f3f3f3; color: var(--muted); }
 .status-badge.legacy-badge { cursor: default; opacity: 0.85; }
 
-.status-badge .override-mark {
-  font-size: 8px;
-  margin-left: 3px;
-  opacity: 0.7;
-}
+.status-badge .override-mark { font-size: 8px; margin-left: 3px; opacity: 0.7; }
 
-.status-menu {
-  position: absolute;
-  top: 100%; left: 0;
-  margin-top: 4px;
-  background: var(--paper);
-  border: 1px solid var(--line-strong);
-  border-radius: 8px;
-  box-shadow: 0 8px 24px -6px rgba(0,0,0,.15);
-  z-index: 100;
-  min-width: 220px;
-  padding: 4px;
-}
-
-.status-menu-item {
-  display: flex; align-items: center; gap: 8px;
-  padding: 8px 12px;
-  font-size: 12px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: inherit;
-  color: var(--ink);
-  width: 100%;
-  border: none;
-  background: transparent;
-  text-align: left;
-}
-
+.status-menu { position: absolute; top: 100%; left: 0; margin-top: 4px; background: var(--paper); border: 1px solid var(--line-strong); border-radius: 8px; box-shadow: 0 8px 24px -6px rgba(0,0,0,.15); z-index: 100; min-width: 220px; padding: 4px; }
+.status-menu-item { display: flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 12px; cursor: pointer; border-radius: 5px; font-family: inherit; color: var(--ink); width: 100%; border: none; background: transparent; text-align: left; }
 .status-menu-item:hover { background: var(--bg); }
 .status-menu-item.active { background: var(--accent-tint); color: var(--tving-red-dark); font-weight: 600; }
-
-.status-menu-item .icon {
-  width: 18px; text-align: center;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 700;
-}
-
-.status-menu-item.opt-o .icon { color: var(--success); }
-.status-menu-item.opt-x .icon { color: var(--tving-red); }
+.status-menu-item .icon { width: 18px; text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 700; }
+.status-menu-item.opt-new .icon { color: var(--tving-red); }
+.status-menu-item.opt-old .icon { color: var(--success); }
 .status-menu-item.opt-maybe .icon { color: var(--warn); }
 .status-menu-item.opt-auto { color: var(--muted); border-top: 1px solid var(--line); margin-top: 4px; padding-top: 8px; }
+.status-menu-hint { padding: 6px 12px; font-size: 10px; color: var(--muted); background: var(--bg); border-radius: 5px; margin-bottom: 4px; font-family: 'JetBrains Mono', monospace; }
 
-.status-menu-hint {
-  padding: 6px 12px;
-  font-size: 10px;
-  color: var(--muted);
-  background: var(--bg);
-  border-radius: 5px;
-  margin-bottom: 4px;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-.link-icon {
-  color: var(--muted); text-decoration: none;
-  font-size: 14px; padding: 4px 8px;
-  border-radius: 4px; transition: all 0.1s ease;
-}
-
+.link-icon { color: var(--muted); text-decoration: none; font-size: 14px; padding: 4px 8px; border-radius: 4px; transition: all 0.1s ease; }
 .link-icon:hover { background: var(--accent-tint); color: var(--tving-red); }
 
-.legacy-tag {
-  display: inline-block;
-  padding: 1px 6px;
-  border-radius: 3px;
-  font-size: 9px;
-  font-weight: 700;
-  font-family: 'JetBrains Mono', monospace;
-  background: var(--legacy-tint);
-  color: var(--legacy);
-  letter-spacing: 0.05em;
-  margin-left: 6px;
-  vertical-align: middle;
-}
+.legacy-tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 9px; font-weight: 700; font-family: 'JetBrains Mono', monospace; background: var(--legacy-tint); color: var(--legacy); letter-spacing: 0.05em; margin-left: 6px; vertical-align: middle; }
 
 .empty-state { padding: 80px 20px; text-align: center; color: var(--muted); }
 .empty-state-icon { font-size: 44px; margin-bottom: 14px; opacity: 0.45; }
 
-.loading {
-  padding: 80px 20px; text-align: center;
-  color: var(--muted);
-  font-family: 'JetBrains Mono', monospace; font-size: 12px;
-}
+.loading { padding: 80px 20px; text-align: center; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+.loading::after { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--tving-red); margin-left: 8px; animation: pulse 1s infinite; }
 
-.loading::after {
-  content: ''; display: inline-block;
-  width: 5px; height: 5px; border-radius: 50%;
-  background: var(--tving-red); margin-left: 8px;
-  animation: pulse 1s infinite;
-}
-
-.alert {
-  padding: 10px 14px; border-radius: 6px;
-  margin-bottom: 12px; font-size: 12px;
-  border-left: 3px solid;
-  display: flex; align-items: center;
-  justify-content: space-between; gap: 8px;
-}
-
+.alert { padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; font-size: 12px; border-left: 3px solid; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .alert.error { background: var(--tving-red-soft); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
 .alert.info { background: var(--accent-tint); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
 .alert.success { background: var(--success-tint); color: var(--success); border-left-color: var(--success); }
-
-.alert .close {
-  background: transparent; border: none; cursor: pointer;
-  color: inherit; font-size: 18px; line-height: 1;
-  padding: 0; opacity: 0.6;
-}
+.alert .close { background: transparent; border: none; cursor: pointer; color: inherit; font-size: 18px; line-height: 1; padding: 0; opacity: 0.6; }
 .alert .close:hover { opacity: 1; }
 
-.master-mini {
-  display: flex; align-items: center; gap: 12px;
-  padding: 10px 14px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  font-size: 12px;
-}
-
+.master-mini { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; font-size: 12px; }
 .master-mini .icon { font-size: 18px; opacity: 0.7; }
 .master-mini .info { flex: 1; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .master-mini .info-empty { color: var(--muted); }
 .master-mini .filename { font-family: 'JetBrains Mono', monospace; color: var(--ink); font-weight: 500; }
-
-.master-mini .count-badge {
-  display: inline-flex; align-items: center; gap: 4px;
-  padding: 2px 8px;
-  background: var(--accent-tint); color: var(--tving-red-dark);
-  border-radius: 4px;
-  font-weight: 700; font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-}
-
+.master-mini .count-badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; background: var(--accent-tint); color: var(--tving-red-dark); border-radius: 4px; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
 .master-mini .when { color: var(--muted); font-size: 11px; font-family: 'JetBrains Mono', monospace; }
 .master-mini .actions { display: flex; gap: 6px; }
-
-.master-mini button {
-  background: transparent; border: 1px solid var(--line-strong);
-  border-radius: 5px; padding: 5px 10px;
-  font-size: 11px; cursor: pointer;
-  font-family: inherit; color: var(--ink); font-weight: 500;
-}
-
+.master-mini button { background: transparent; border: 1px solid var(--line-strong); border-radius: 5px; padding: 5px 10px; font-size: 11px; cursor: pointer; font-family: inherit; color: var(--ink); font-weight: 500; }
 .master-mini button:hover { border-color: var(--tving-red); color: var(--tving-red); }
 .master-mini.dragover { border-color: var(--tving-red); background: var(--accent-tint); }
 
 [data-tooltip] { position: relative; }
-[data-tooltip]::after {
-  content: attr(data-tooltip);
-  position: absolute; bottom: 100%; left: 50%;
-  transform: translateX(-50%) translateY(-6px);
-  background: var(--ink); color: var(--paper);
-  font-size: 11px; padding: 5px 9px;
-  border-radius: 4px; white-space: nowrap;
-  opacity: 0; pointer-events: none;
-  transition: opacity 0.15s ease;
-  z-index: 50;
-  font-family: 'Pretendard', sans-serif;
-}
+[data-tooltip]::after { content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) translateY(-6px); background: var(--ink); color: var(--paper); font-size: 11px; padding: 5px 9px; border-radius: 4px; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.15s ease; z-index: 50; font-family: 'Pretendard', sans-serif; }
 [data-tooltip]:hover::after { opacity: 1; }
 
 @media (max-width: 768px) {
   .hero { padding: 18px 20px; }
   .container { padding: 18px 20px; }
   .brand-logo { font-size: 30px; }
-  td.campaign, thead th.campaign-col { display: none; }
   .table-scroll { max-height: calc(100vh - 280px); }
 }
 </style>
@@ -551,23 +218,13 @@ td.campaign {
       <h1 class="brand-title">TVCF 미집행 광고주</h1>
     </div>
     <div class="hero-actions">
-      <a class="trigger-btn"
-         href="https://github.com/ehdqor8212/tvcf-monitor/actions/workflows/daily.yml"
-         target="_blank" rel="noopener"
-         title="GitHub Actions에서 수동으로 즉시 수집 가능">
+      <a class="trigger-btn" href="https://github.com/ehdqor8212/tvcf-monitor/actions/workflows/daily.yml" target="_blank" rel="noopener" title="GitHub Actions에서 수동으로 즉시 수집 가능">
         <span class="icon">⚡</span>
         <span>지금 수집</span>
       </a>
       <div class="status-strip">
-        <div class="status-pill">
-          <span class="dot"></span>
-          <span class="label">Last</span>
-          <span class="value" id="lastRun">—</span>
-        </div>
-        <div class="status-pill">
-          <span class="label">New</span>
-          <span class="value" id="totalCount">—</span>
-        </div>
+        <div class="status-pill"><span class="dot"></span><span class="label">Last</span><span class="value" id="lastRun">—</span></div>
+        <div class="status-pill"><span class="label">New</span><span class="value" id="totalCount">—</span></div>
       </div>
     </div>
   </div>
@@ -581,9 +238,9 @@ td.campaign {
     <div class="toolbar-left">
       <div class="counts-inline">
         <span class="pill">전체 <span class="num" id="countTotal">0</span></span>
-        <span class="pill x">미집행 <span class="num" id="countX">0</span></span>
+        <span class="pill new">신규 <span class="num" id="countNew">0</span></span>
         <span class="pill maybe">유사 <span class="num" id="countMaybe">0</span></span>
-        <span class="pill o">집행 <span class="num" id="countO">0</span></span>
+        <span class="pill old">구구 <span class="num" id="countOld">0</span></span>
       </div>
     </div>
     <div class="toolbar-right">
@@ -595,9 +252,9 @@ td.campaign {
   <div class="filter-bar">
     <div class="chip-group" id="statusFilter">
       <button class="chip active" data-filter="status" data-value="all">전체</button>
-      <button class="chip x" data-filter="status" data-value="x">미집행</button>
+      <button class="chip new" data-filter="status" data-value="new">신규</button>
       <button class="chip maybe" data-filter="status" data-value="maybe">유사</button>
-      <button class="chip o" data-filter="status" data-value="o">집행</button>
+      <button class="chip old" data-filter="status" data-value="old">구구</button>
     </div>
     <label class="scope-toggle" id="scopeToggle">
       <input type="checkbox" id="historyToggle" />
@@ -623,8 +280,9 @@ td.campaign {
       <div class="actions">
         <button id="uploadBtn">업로드</button>
         <button id="clearBtn" style="display:none;">삭제</button>
+        <!-- 결정 백업/가져오기는 A+B(자동 동기화) 완성될 때까지 일단 숨김 -->
         <button id="exportOverridesBtn" style="display:none;" title="수동 변경 사항 백업">⤓ 결정 백업</button>
-        <button id="importOverridesBtn" title="수동 변경 사항 가져오기">⤒ 결정 가져오기</button>
+        <button id="importOverridesBtn" style="display:none;" title="수동 변경 사항 가져오기">⤒ 결정 가져오기</button>
         <input type="file" id="overridesFileInput" accept=".json" hidden />
       </div>
       <input type="file" id="fileInput" accept=".xlsx,.xls" hidden />
@@ -641,6 +299,12 @@ const LEGACY_URL = './data/legacy.json';
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
 const OVERRIDE_KEY = 'tvcf_advertiser_overrides_v1';
+
+/* 의미 정리:
+   - status 'new' = 청약마스터에 없음 = 신규광고주 (O 표시, 빨강)
+   - status 'old' = 청약마스터에 있음 = 구구 (X 표시, 초록)
+   - status 'maybe' = 유사 매칭 (⚠ 표시, 노랑)
+*/
 
 const state = {
   ads: [],
@@ -679,12 +343,7 @@ function fmtDate(iso) {
 
 function normalizeName(name) {
   if (!name) return '';
-  return String(name)
-    .toLowerCase()
-    .replace(/\s+/g, '')
-    .replace(/[()（）\[\]【】「」'',·.\-_/]/g, '')
-    .replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '')
-    .trim();
+  return String(name).toLowerCase().replace(/\s+/g, '').replace(/[()（）\[\]【】「」'',·.\-_/]/g, '').replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '').trim();
 }
 
 function escapeHtml(text) {
@@ -720,8 +379,9 @@ function setOverride(name, status) {
 }
 
 function updateOverrideButton() {
-  const hasAny = Object.keys(state.overrides).length > 0;
-  $('#exportOverridesBtn').style.display = hasAny ? '' : 'none';
+  // A+B 자동 동기화 완성될 때까지 일단 숨김 유지
+  // const hasAny = Object.keys(state.overrides).length > 0;
+  // $('#exportOverridesBtn').style.display = hasAny ? '' : 'none';
 }
 
 async function loadData() {
@@ -772,6 +432,11 @@ function enrichAndRender() {
   render();
 }
 
+/* 매칭 결과:
+   - 청약마스터에 없음 → status 'new' (신규광고주)
+   - 청약마스터에 있음 → status 'old' (구구)
+   - 유사 매칭 → status 'maybe'
+*/
 function matchAdvertiser(name) {
   if (!name) return { status: 'unknown', confidence: 0, matched: null };
   if (!state.masterList.length) return { status: 'unknown', confidence: 0, matched: null };
@@ -779,7 +444,7 @@ function matchAdvertiser(name) {
   const normalized = normalizeName(name);
   for (const m of state.masterList) {
     if (normalizeName(m) === normalized && normalized.length > 0) {
-      return { status: 'o', confidence: 1.0, matched: m };
+      return { status: 'old', confidence: 1.0, matched: m };  // 정확 매칭 = 구구
     }
   }
   for (const m of state.masterList) {
@@ -796,27 +461,34 @@ function matchAdvertiser(name) {
       return { status: 'maybe', confidence: 1 - results[0].score, matched: results[0].item };
     }
   }
-  return { status: 'x', confidence: 0, matched: null };
+  return { status: 'new', confidence: 0, matched: null };  // 매칭 없음 = 신규
 }
 
 function updateCounts() {
   const rows = getCurrentRows();
-  const counts = { all: 0, x: 0, maybe: 0, o: 0, unknown: 0 };
+  const counts = { all: 0, new: 0, maybe: 0, old: 0, unknown: 0 };
   rows.forEach(ad => { counts.all++; counts[ad.match.status]++; });
   $('#countTotal').textContent = counts.all;
-  $('#countX').textContent = counts.x;
+  $('#countNew').textContent = counts.new;
   $('#countMaybe').textContent = counts.maybe;
-  $('#countO').textContent = counts.o;
+  $('#countOld').textContent = counts.old;
 }
 
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
-  const legacyEnriched = state.legacyAds.map(ad => ({
-    ...ad,
-    advertiser: null,
-    brand: ad.advertiser,
-    match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
-  }));
+
+  // legacy 데이터 매핑
+  // legacy_exec_status: O=집행(=구구), X=미집행(=신규)
+  // 새 의미로 status 매핑: 'O'(집행) → 'old', 'X'(미집행) → 'new'
+  const legacyEnriched = state.legacyAds.map(ad => {
+    let legacyNewStatus = 'unknown';
+    if (ad.legacy_exec_status === 'O') legacyNewStatus = 'old';
+    else if (ad.legacy_exec_status === 'X') legacyNewStatus = 'new';
+    return {
+      ...ad,
+      match: { status: legacyNewStatus, matched: null, confidence: 0, isLegacy: true },
+    };
+  });
   return [...state.enriched, ...legacyEnriched];
 }
 
@@ -838,11 +510,10 @@ function render() {
       <thead>
         <tr>
           <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:100px;">등록일</th>
-          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:140px;">광고주</th>
-          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:140px;">브랜드</th>
-          <th class="campaign-col">캠페인</th>
+          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:160px;">광고주</th>
+          <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:160px;">브랜드</th>
           <th class="sortable ${sortCls('main_category')}" data-sort="main_category">카테고리</th>
-          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:130px;">집행여부</th>
+          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:140px;">신규광고주 여부</th>
           <th style="width:40px;"></th>
         </tr>
       </thead>
@@ -882,13 +553,12 @@ function renderRow(ad, idx) {
     advertiserCell = '<span style="color:var(--muted)">미확인</span>';
   }
 
-  const brandText = isLegacy ? (ad.brand || ad.advertiser || '—') : (ad.brand || '—');
+  const brandText = ad.brand || '—';
   let brandCell = escapeHtml(brandText);
   if (ad.variant_count && ad.variant_count > 1) {
     brandCell += `<span class="variant-badge" title="같은 광고주의 다른 광고 ${ad.variant_count}건 통합">+${ad.variant_count - 1}</span>`;
   }
 
-  const campaign = ad.campaign || '—';
   const cat = ad.main_category ? `<span class="cat-badge">${escapeHtml(ad.main_category)}</span>` : '<span style="color:var(--muted)">—</span>';
 
   let statusHtml = '';
@@ -896,16 +566,19 @@ function renderRow(ad, idx) {
   const isOverride = ad.match.isOverride;
 
   if (isLegacy) {
-    const legacyLabel = ad.legacy_exec_status || '?';
-    const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
-    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(legacyLabel)}</span>`;
+    // 과거 데이터: O(집행)→구구(old), X(미집행)→신규(new)
+    let label = '?';
+    let cls = 'unknown';
+    if (status === 'new') { label = 'O'; cls = 'new'; }       // 신규
+    else if (status === 'old') { label = 'X'; cls = 'old'; }  // 구구
+    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가) | 원본: ${escapeHtml(ad.legacy_exec_status || '?')}">${label}</span>`;
   } else if (!state.masterList.length) {
     statusHtml = '<span class="status-badge unknown">대기</span>';
   } else {
     let label = '';
-    if (status === 'o') label = 'O 집행';
+    if (status === 'new') label = 'O 신규';
     else if (status === 'maybe') label = '⚠ 유사';
-    else if (status === 'x') label = 'X 미집행';
+    else if (status === 'old') label = 'X 구구';
     else label = '?';
 
     const tip = ad.match.matched
@@ -924,7 +597,6 @@ function renderRow(ad, idx) {
       <td class="date">${date}</td>
       <td class="advertiser">${advertiserCell}</td>
       <td class="brand">${brandCell}</td>
-      <td class="campaign campaign-col" title="${escapeHtml(campaign)}">${escapeHtml(campaign)}</td>
       <td>${cat}</td>
       <td class="status-cell" id="cell-${idx}">${statusHtml}</td>
       <td>${linkHtml}</td>
@@ -950,11 +622,11 @@ function toggleStatusMenu(idx, badgeEl) {
   const menuHtml = `
     <div class="status-menu" id="menu-${idx}">
       <div class="status-menu-hint">${escapeHtml(key)}</div>
-      <button class="status-menu-item opt-o ${current === 'o' && isOverride ? 'active' : ''}" data-action="set-o">
-        <span class="icon">O</span><span>집행 (O)</span>
+      <button class="status-menu-item opt-new ${current === 'new' && isOverride ? 'active' : ''}" data-action="set-new">
+        <span class="icon">O</span><span>신규광고주 (O)</span>
       </button>
-      <button class="status-menu-item opt-x ${current === 'x' && isOverride ? 'active' : ''}" data-action="set-x">
-        <span class="icon">X</span><span>미집행 (X)</span>
+      <button class="status-menu-item opt-old ${current === 'old' && isOverride ? 'active' : ''}" data-action="set-old">
+        <span class="icon">X</span><span>구구 (X)</span>
       </button>
       <button class="status-menu-item opt-maybe ${current === 'maybe' && isOverride ? 'active' : ''}" data-action="set-maybe">
         <span class="icon">⚠</span><span>유사 (수동)</span>
@@ -976,8 +648,8 @@ function toggleStatusMenu(idx, badgeEl) {
     item.addEventListener('click', (e) => {
       e.stopPropagation();
       const action = item.getAttribute('data-action');
-      if (action === 'set-o') setOverride(key, 'o');
-      else if (action === 'set-x') setOverride(key, 'x');
+      if (action === 'set-new') setOverride(key, 'new');
+      else if (action === 'set-old') setOverride(key, 'old');
       else if (action === 'set-maybe') setOverride(key, 'maybe');
       else if (action === 'reset') setOverride(key, null);
       closeAllMenus();
@@ -985,9 +657,7 @@ function toggleStatusMenu(idx, badgeEl) {
     });
   });
 
-  setTimeout(() => {
-    document.addEventListener('click', closeMenusOnce, { once: true });
-  }, 0);
+  setTimeout(() => { document.addEventListener('click', closeMenusOnce, { once: true }); }, 0);
 }
 
 function closeMenusOnce() { closeAllMenus(); }
@@ -1002,7 +672,7 @@ function applyFilters(ads) {
     if (state.filter.status !== 'all' && ad.match.status !== state.filter.status) return false;
     if (state.filter.search) {
       const q = state.filter.search.toLowerCase();
-      const hay = [ad.advertiser, ad.brand, ad.campaign, ad.main_category, ad.card_title].filter(Boolean).join(' ').toLowerCase();
+      const hay = [ad.advertiser, ad.brand, ad.main_category, ad.card_title].filter(Boolean).join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -1015,7 +685,7 @@ function applySort(ads) {
   return [...ads].sort((a, b) => {
     let av, bv;
     if (col === 'match_status') {
-      const order = { x: 0, maybe: 1, unknown: 2, o: 3 };
+      const order = { new: 0, maybe: 1, unknown: 2, old: 3 };
       av = order[a.match.status] ?? 99;
       bv = order[b.match.status] ?? 99;
     } else {
@@ -1122,11 +792,7 @@ function updateMasterStatus(filename, count, uploadedAt) {
 }
 
 function exportOverrides() {
-  const data = {
-    exported_at: new Date().toISOString(),
-    count: Object.keys(state.overrides).length,
-    overrides: state.overrides,
-  };
+  const data = { exported_at: new Date().toISOString(), count: Object.keys(state.overrides).length, overrides: state.overrides };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -1171,19 +837,21 @@ function exportExcel() {
   const rows = filtered.map(ad => {
     let exec = '';
     if (ad.is_legacy) {
+      // 과거 데이터는 원본 O/X 그대로
       exec = ad.legacy_exec_status || '';
     } else if (state.masterList.length === 0) {
       exec = '';
     } else {
       const s = ad.match.status;
-      if (s === 'o') exec = 'O';
+      // 신규광고주 여부: 신규=O, 구구=X, 유사=⚠
+      if (s === 'new') exec = 'O';
       else if (s === 'maybe') exec = ad.match.matched ? `⚠ ${ad.match.matched}` : '⚠';
-      else if (s === 'x') exec = 'X';
+      else if (s === 'old') exec = 'X';
     }
 
     const year = ad.registered_date ? ad.registered_date.slice(0, 4) : yyyy;
     const advertiserOut = ad.is_legacy ? '' : (ad.advertiser || '');
-    const brandOut = ad.is_legacy ? (ad.brand || ad.advertiser || '') : (ad.brand || ad.campaign || '');
+    const brandOut = ad.brand || '';
 
     return {
       '년도': year,
@@ -1191,8 +859,7 @@ function exportExcel() {
       '카테고리': ad.main_category || '',
       '광고주': advertiserOut,
       '브랜드(광고상품)명': brandOut,
-      '캠페인': ad.campaign || '',
-      '집행여부': exec,
+      '신규광고주 여부': exec,
       '공유일': ad.is_legacy ? (ad.shared_date || '') : sharedDate,
       'TVCF URL': ad.url || '',
       '구분': ad.is_legacy ? '과거' : '신규',
@@ -1200,7 +867,7 @@ function exportExcel() {
   });
 
   const ws = XLSX.utils.json_to_sheet(rows);
-  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 24 }, { wch: 14 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
+  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 16 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'TVCF');
   XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
@@ -1262,9 +929,7 @@ function setupEvents() {
   $('#refreshBtn').addEventListener('click', loadData);
   $('#exportBtn').addEventListener('click', exportExcel);
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeAllMenus();
-  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllMenus(); });
 }
 
 function init() {
