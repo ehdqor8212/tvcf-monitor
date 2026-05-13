@@ -76,9 +76,9 @@ html, body {
 .counts-inline { display: flex; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; }
 .counts-inline .pill { padding: 4px 10px; border-radius: 4px; background: var(--paper); border: 1px solid var(--line); display: inline-flex; align-items: center; gap: 5px; }
 .counts-inline .pill .num { font-weight: 700; color: var(--ink); font-size: 13px; }
-/* O=신규(빨강), X=구구(초록), maybe=노랑 */
-.counts-inline .pill.new .num { color: var(--tving-red); }
-.counts-inline .pill.old .num { color: var(--success); }
+/* x=미집행(빨강), o=집행(초록) — 원래대로 */
+.counts-inline .pill.x .num { color: var(--tving-red); }
+.counts-inline .pill.o .num { color: var(--success); }
 .counts-inline .pill.maybe .num { color: var(--warn); }
 
 .btn { background: var(--ink); color: var(--paper); border: 1px solid var(--ink); padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; transition: all 0.12s ease; display: inline-flex; align-items: center; gap: 6px; letter-spacing: -0.01em; }
@@ -93,9 +93,9 @@ html, body {
 .chip { border: none; background: transparent; font-size: 12px; padding: 6px 12px; border-radius: 5px; cursor: pointer; font-family: inherit; color: var(--muted); font-weight: 500; transition: all 0.12s ease; }
 .chip:hover { color: var(--ink); }
 .chip.active { background: var(--ink); color: var(--paper); }
-.chip.active.new { background: var(--tving-red); }
+.chip.active.x { background: var(--tving-red); }
 .chip.active.maybe { background: var(--warn); color: white; }
-.chip.active.old { background: var(--success); }
+.chip.active.o { background: var(--success); }
 
 .scope-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px; border-radius: 6px; background: var(--paper); border: 1px solid var(--line); cursor: pointer; user-select: none; font-size: 12px; }
 .scope-toggle input { margin: 0; cursor: pointer; accent-color: var(--tving-red); }
@@ -146,9 +146,9 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 .status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; cursor: pointer; border: 1px solid transparent; transition: all 0.1s ease; }
 .status-badge.editable:hover { border-color: currentColor; filter: brightness(0.95); }
 
-/* 신규=빨강, 구구=초록 (반전) */
-.status-badge.new { background: var(--tving-red-soft); color: var(--tving-red-dark); }
-.status-badge.old { background: var(--success-tint); color: var(--success); }
+/* x=미집행(빨강), o=집행(초록) - 원래대로 */
+.status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
+.status-badge.o { background: var(--success-tint); color: var(--success); }
 .status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
 .status-badge.unknown { background: #f3f3f3; color: var(--muted); }
 .status-badge.legacy-badge { cursor: default; opacity: 0.85; }
@@ -160,8 +160,8 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 .status-menu-item:hover { background: var(--bg); }
 .status-menu-item.active { background: var(--accent-tint); color: var(--tving-red-dark); font-weight: 600; }
 .status-menu-item .icon { width: 18px; text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 700; }
-.status-menu-item.opt-new .icon { color: var(--tving-red); }
-.status-menu-item.opt-old .icon { color: var(--success); }
+.status-menu-item.opt-o .icon { color: var(--success); }
+.status-menu-item.opt-x .icon { color: var(--tving-red); }
 .status-menu-item.opt-maybe .icon { color: var(--warn); }
 .status-menu-item.opt-auto { color: var(--muted); border-top: 1px solid var(--line); margin-top: 4px; padding-top: 8px; }
 .status-menu-hint { padding: 6px 12px; font-size: 10px; color: var(--muted); background: var(--bg); border-radius: 5px; margin-bottom: 4px; font-family: 'JetBrains Mono', monospace; }
@@ -238,9 +238,9 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
     <div class="toolbar-left">
       <div class="counts-inline">
         <span class="pill">전체 <span class="num" id="countTotal">0</span></span>
-        <span class="pill new">신규 <span class="num" id="countNew">0</span></span>
+        <span class="pill x">미집행 <span class="num" id="countX">0</span></span>
         <span class="pill maybe">유사 <span class="num" id="countMaybe">0</span></span>
-        <span class="pill old">구구 <span class="num" id="countOld">0</span></span>
+        <span class="pill o">집행 <span class="num" id="countO">0</span></span>
       </div>
     </div>
     <div class="toolbar-right">
@@ -252,9 +252,9 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
   <div class="filter-bar">
     <div class="chip-group" id="statusFilter">
       <button class="chip active" data-filter="status" data-value="all">전체</button>
-      <button class="chip new" data-filter="status" data-value="new">신규</button>
+      <button class="chip x" data-filter="status" data-value="x">미집행</button>
       <button class="chip maybe" data-filter="status" data-value="maybe">유사</button>
-      <button class="chip old" data-filter="status" data-value="old">구구</button>
+      <button class="chip o" data-filter="status" data-value="o">집행</button>
     </div>
     <label class="scope-toggle" id="scopeToggle">
       <input type="checkbox" id="historyToggle" />
@@ -281,8 +281,8 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
         <button id="uploadBtn">업로드</button>
         <button id="clearBtn" style="display:none;">삭제</button>
         <!-- 결정 백업/가져오기는 A+B(자동 동기화) 완성될 때까지 일단 숨김 -->
-        <button id="exportOverridesBtn" style="display:none;" title="수동 변경 사항 백업">⤓ 결정 백업</button>
-        <button id="importOverridesBtn" style="display:none;" title="수동 변경 사항 가져오기">⤒ 결정 가져오기</button>
+        <button id="exportOverridesBtn" style="display:none;">⤓ 결정 백업</button>
+        <button id="importOverridesBtn" style="display:none;">⤒ 결정 가져오기</button>
         <input type="file" id="overridesFileInput" accept=".json" hidden />
       </div>
       <input type="file" id="fileInput" accept=".xlsx,.xls" hidden />
@@ -300,9 +300,9 @@ const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
 const OVERRIDE_KEY = 'tvcf_advertiser_overrides_v1';
 
-/* 의미 정리:
-   - status 'new' = 청약마스터에 없음 = 신규광고주 (O 표시, 빨강)
-   - status 'old' = 청약마스터에 있음 = 구구 (X 표시, 초록)
+/* 의미 정리 (v8 - 원래대로 복귀):
+   - status 'o' = 청약마스터에 있음 = 집행 (X 표시 → 초록)
+   - status 'x' = 청약마스터에 없음 = 미집행 (X 표시 → 빨강, 관심 대상)
    - status 'maybe' = 유사 매칭 (⚠ 표시, 노랑)
 */
 
@@ -432,9 +432,9 @@ function enrichAndRender() {
   render();
 }
 
-/* 매칭 결과:
-   - 청약마스터에 없음 → status 'new' (신규광고주)
-   - 청약마스터에 있음 → status 'old' (구구)
+/* 매칭 결과 (v8 원래대로):
+   - 청약마스터에 있음 → status 'o' (집행)
+   - 청약마스터에 없음 → status 'x' (미집행, 관심 대상)
    - 유사 매칭 → status 'maybe'
 */
 function matchAdvertiser(name) {
@@ -444,7 +444,7 @@ function matchAdvertiser(name) {
   const normalized = normalizeName(name);
   for (const m of state.masterList) {
     if (normalizeName(m) === normalized && normalized.length > 0) {
-      return { status: 'old', confidence: 1.0, matched: m };  // 정확 매칭 = 구구
+      return { status: 'o', confidence: 1.0, matched: m };
     }
   }
   for (const m of state.masterList) {
@@ -461,34 +461,27 @@ function matchAdvertiser(name) {
       return { status: 'maybe', confidence: 1 - results[0].score, matched: results[0].item };
     }
   }
-  return { status: 'new', confidence: 0, matched: null };  // 매칭 없음 = 신규
+  return { status: 'x', confidence: 0, matched: null };
 }
 
 function updateCounts() {
   const rows = getCurrentRows();
-  const counts = { all: 0, new: 0, maybe: 0, old: 0, unknown: 0 };
+  const counts = { all: 0, x: 0, maybe: 0, o: 0, unknown: 0 };
   rows.forEach(ad => { counts.all++; counts[ad.match.status]++; });
   $('#countTotal').textContent = counts.all;
-  $('#countNew').textContent = counts.new;
+  $('#countX').textContent = counts.x;
   $('#countMaybe').textContent = counts.maybe;
-  $('#countOld').textContent = counts.old;
+  $('#countO').textContent = counts.o;
 }
 
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
 
-  // legacy 데이터 매핑
-  // legacy_exec_status: O=집행(=구구), X=미집행(=신규)
-  // 새 의미로 status 매핑: 'O'(집행) → 'old', 'X'(미집행) → 'new'
-  const legacyEnriched = state.legacyAds.map(ad => {
-    let legacyNewStatus = 'unknown';
-    if (ad.legacy_exec_status === 'O') legacyNewStatus = 'old';
-    else if (ad.legacy_exec_status === 'X') legacyNewStatus = 'new';
-    return {
-      ...ad,
-      match: { status: legacyNewStatus, matched: null, confidence: 0, isLegacy: true },
-    };
-  });
+  // legacy 데이터: legacy_match_status 그대로 (o=집행, x=미집행)
+  const legacyEnriched = state.legacyAds.map(ad => ({
+    ...ad,
+    match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
+  }));
   return [...state.enriched, ...legacyEnriched];
 }
 
@@ -513,7 +506,7 @@ function render() {
           <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser" style="min-width:160px;">광고주</th>
           <th class="sortable ${sortCls('brand')}" data-sort="brand" style="min-width:160px;">브랜드</th>
           <th class="sortable ${sortCls('main_category')}" data-sort="main_category">카테고리</th>
-          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:140px;">신규광고주 여부</th>
+          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:120px;">집행여부</th>
           <th style="width:40px;"></th>
         </tr>
       </thead>
@@ -545,10 +538,11 @@ function renderRow(ad, idx) {
   const date = ad.registered_date || '—';
 
   let advertiserCell = '';
-  if (isLegacy) {
-    advertiserCell = `<span style="color:var(--muted)">—<span class="legacy-tag">PAST</span></span>`;
-  } else if (ad.advertiser) {
+  if (ad.advertiser) {
     advertiserCell = escapeHtml(ad.advertiser);
+    if (isLegacy) advertiserCell += '<span class="legacy-tag">PAST</span>';
+  } else if (isLegacy) {
+    advertiserCell = `<span style="color:var(--muted)">—<span class="legacy-tag">PAST</span></span>`;
   } else {
     advertiserCell = '<span style="color:var(--muted)">미확인</span>';
   }
@@ -566,19 +560,16 @@ function renderRow(ad, idx) {
   const isOverride = ad.match.isOverride;
 
   if (isLegacy) {
-    // 과거 데이터: O(집행)→구구(old), X(미집행)→신규(new)
-    let label = '?';
-    let cls = 'unknown';
-    if (status === 'new') { label = 'O'; cls = 'new'; }       // 신규
-    else if (status === 'old') { label = 'X'; cls = 'old'; }  // 구구
-    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가) | 원본: ${escapeHtml(ad.legacy_exec_status || '?')}">${label}</span>`;
+    const legacyLabel = ad.legacy_exec_status || '?';
+    const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
+    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(legacyLabel)}</span>`;
   } else if (!state.masterList.length) {
     statusHtml = '<span class="status-badge unknown">대기</span>';
   } else {
     let label = '';
-    if (status === 'new') label = 'O 신규';
+    if (status === 'o') label = 'O 집행';
     else if (status === 'maybe') label = '⚠ 유사';
-    else if (status === 'old') label = 'X 구구';
+    else if (status === 'x') label = 'X 미집행';
     else label = '?';
 
     const tip = ad.match.matched
@@ -622,11 +613,11 @@ function toggleStatusMenu(idx, badgeEl) {
   const menuHtml = `
     <div class="status-menu" id="menu-${idx}">
       <div class="status-menu-hint">${escapeHtml(key)}</div>
-      <button class="status-menu-item opt-new ${current === 'new' && isOverride ? 'active' : ''}" data-action="set-new">
-        <span class="icon">O</span><span>신규광고주 (O)</span>
+      <button class="status-menu-item opt-o ${current === 'o' && isOverride ? 'active' : ''}" data-action="set-o">
+        <span class="icon">O</span><span>집행 (O)</span>
       </button>
-      <button class="status-menu-item opt-old ${current === 'old' && isOverride ? 'active' : ''}" data-action="set-old">
-        <span class="icon">X</span><span>구구 (X)</span>
+      <button class="status-menu-item opt-x ${current === 'x' && isOverride ? 'active' : ''}" data-action="set-x">
+        <span class="icon">X</span><span>미집행 (X)</span>
       </button>
       <button class="status-menu-item opt-maybe ${current === 'maybe' && isOverride ? 'active' : ''}" data-action="set-maybe">
         <span class="icon">⚠</span><span>유사 (수동)</span>
@@ -648,8 +639,8 @@ function toggleStatusMenu(idx, badgeEl) {
     item.addEventListener('click', (e) => {
       e.stopPropagation();
       const action = item.getAttribute('data-action');
-      if (action === 'set-new') setOverride(key, 'new');
-      else if (action === 'set-old') setOverride(key, 'old');
+      if (action === 'set-o') setOverride(key, 'o');
+      else if (action === 'set-x') setOverride(key, 'x');
       else if (action === 'set-maybe') setOverride(key, 'maybe');
       else if (action === 'reset') setOverride(key, null);
       closeAllMenus();
@@ -685,7 +676,7 @@ function applySort(ads) {
   return [...ads].sort((a, b) => {
     let av, bv;
     if (col === 'match_status') {
-      const order = { new: 0, maybe: 1, unknown: 2, old: 3 };
+      const order = { x: 0, maybe: 1, unknown: 2, o: 3 };
       av = order[a.match.status] ?? 99;
       bv = order[b.match.status] ?? 99;
     } else {
@@ -837,29 +828,25 @@ function exportExcel() {
   const rows = filtered.map(ad => {
     let exec = '';
     if (ad.is_legacy) {
-      // 과거 데이터는 원본 O/X 그대로
       exec = ad.legacy_exec_status || '';
     } else if (state.masterList.length === 0) {
       exec = '';
     } else {
       const s = ad.match.status;
-      // 신규광고주 여부: 신규=O, 구구=X, 유사=⚠
-      if (s === 'new') exec = 'O';
+      if (s === 'o') exec = 'O';
       else if (s === 'maybe') exec = ad.match.matched ? `⚠ ${ad.match.matched}` : '⚠';
-      else if (s === 'old') exec = 'X';
+      else if (s === 'x') exec = 'X';
     }
 
     const year = ad.registered_date ? ad.registered_date.slice(0, 4) : yyyy;
-    const advertiserOut = ad.is_legacy ? '' : (ad.advertiser || '');
-    const brandOut = ad.brand || '';
 
     return {
       '년도': year,
       '온에어': ad.registered_date || '',
       '카테고리': ad.main_category || '',
-      '광고주': advertiserOut,
-      '브랜드(광고상품)명': brandOut,
-      '신규광고주 여부': exec,
+      '광고주': ad.advertiser || '',
+      '브랜드(광고상품)명': ad.brand || '',
+      '집행여부': exec,
       '공유일': ad.is_legacy ? (ad.shared_date || '') : sharedDate,
       'TVCF URL': ad.url || '',
       '구분': ad.is_legacy ? '과거' : '신규',
@@ -867,7 +854,7 @@ function exportExcel() {
   });
 
   const ws = XLSX.utils.json_to_sheet(rows);
-  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 16 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
+  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 12 }, { wch: 12 }, { wch: 40 }, { wch: 8 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'TVCF');
   XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
