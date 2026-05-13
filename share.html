@@ -231,7 +231,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
 const HISTORY_URL = './data/history.json';
-const RECENT_DAYS = 7;
+const RECENT_DAYS = 2;
 const DECISIONS_URL = './data/decisions.json';
 
 const state = {
@@ -401,7 +401,13 @@ function getCurrentRows() {
     const match = decision
       ? { status: decision.status, matched: decision.matched_name }
       : { status: 'unknown', matched: null };
-    return { ...ad, matchKey, match };
+    return {
+      ...ad,
+      matchKey,
+      match,
+      is_legacy: true,
+      legacy_exec_status: '',
+    };
   });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
