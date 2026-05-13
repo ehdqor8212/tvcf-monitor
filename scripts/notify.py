@@ -141,6 +141,12 @@ def send_to_slack(message):
         print("❌ SLACK_WEBHOOK_URL 환경 변수가 설정되지 않았습니다.")
         sys.exit(1)
 
+    payload = json.dumps({
+        "text": message,
+        "username": "TVCF 알림봇",
+        "icon_emoji": ":tv:"
+    }).encode('utf-8')
+
     payload = json.dumps({"text": message}).encode('utf-8')
     req = urllib.request.Request(
         SLACK_WEBHOOK_URL,
