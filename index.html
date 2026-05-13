@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TVCF 미집행 광고주 모니터</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+
+<style>
+:root {
+  --bg: #fafafa;
+  --paper: #ffffff;
+  --ink: #0a0a0a;
+  --ink-soft: #2a2a2a;
+  --muted: #767676;
+  --line: #ececec;
+  --line-strong: #d6d6d6;
+  --tving-red: #ff153c;
+  --tving-red-soft: #ffe8ec;
+  --tving-red-dark: #d50026;
+  --accent: var(--tving-red);
+  --accent-tint: var(--tving-red-soft);
+  --warn: #c47a00;
+  --warn-tint: #fff4dc;
+  --success: #1e7d3a;
+  --success-tint: #e2f4e8;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 16px -6px rgba(0,0,0,.08);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding: 22px 40px;
+}
+
+.hero-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-logo {
+  font-family: 'Anton', 'Pretendard', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--tving-red);
+  text-transform: uppercase;
+}
+
+.brand-divider {
+  width: 1px;
+  height: 30px;
+  background: var(--line-strong);
+}
+
+.brand-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0;
+}
+
+.status-strip {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.status-pill .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--tving-red);
+  animation: pulse 2s infinite;
+}
+
+.status-pill .label {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 10px;
+}
+
+.status-pill .value {
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 24px 40px 60px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counts-inline {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex-wrap: wrap;
+}
+
+.counts-inline .pill {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.counts-inline .pill .num {
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.counts-inline .pill.x .num { color: var(--tving-red); }
+.counts-inline .pill.o .num { color: var(--success); }
+.counts-inline .pill.maybe .num { color: var(--warn); }
+
+.btn {
+  background: var(--ink);
+  color: var(--paper);
+  border: 1px solid var(--ink);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.12s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  letter-spacing: -0.01em;
+}
+
+.btn:hover {
+  background: var(--tving-red);
+  border-color: var(--tving-red);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+}
+
+.btn-ghost:hover {
+  background: var(--paper);
+  border-color: var(--tving-red);
+  color: var(--tving-red);
+}
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.chip-group {
+  display: flex;
+  gap: 4px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.chip {
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--muted);
+  font-weight: 500;
+  transition: all 0.12s ease;
+}
+
+.chip:hover { color: var(--ink); }
+.chip.active { background: var(--ink); color: var(--paper); }
+.chip.active.x { background: var(--tving-red); }
+.chip.active.maybe { background: var(--warn); color: white; }
+.chip.active.o { background: var(--success); }
+
+.search-box {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 6px;
+  padding: 8px 12px 8px 32px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--ink);
+}
+
+.search-box input:focus { outline: none; border-color: var(--tving-red); }
+
+.search-box::before {
+  content: '⌕';
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.table-wrap {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+thead th {
+  background: #fafafa;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 11px 16px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+thead th.sortable { cursor: pointer; user-select: none; }
+thead th.sortable:hover { color: var(--ink); }
+thead th.sortable::after { content: ' ↕'; opacity: 0.3; }
+thead th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--tving-red); }
+thead th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--tving-red); }
+
+tbody tr {
+  border-bottom: 1px solid var(--line);
+  transition: background 0.08s ease;
+}
+
+tbody tr:hover { background: #fafafa; }
+tbody tr:last-child { border-bottom: none; }
+
+td { padding: 12px 16px; vertical-align: middle; }
+
+td.date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+td.advertiser { font-weight: 600; color: var(--ink); }
+
+td.campaign {
+  color: var(--ink-soft);
+  font-size: 12px;
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cat-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  background: #f5f5f5;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.02em;
+}
+
+.status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
+.status-badge.o { background: var(--success-tint); color: var(--success); }
+.status-badge.maybe { background: var(--warn-tint); color: var(--warn); cursor: help; }
+.status-badge.unknown { background: #f3f3f3; color: var(--muted); }
+
+.link-icon {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+
+.link-icon:hover { background: var(--accent-tint); color: var(--tving-red); }
+
+.empty-state {
+  padding: 80px 20px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.empty-state-icon { font-size: 44px; margin-bottom: 14px; opacity: 0.45; }
+
+.loading {
+  padding: 80px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+}
+
+.loading::after {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--tving-red);
+  margin-left: 8px;
+  animation: pulse 1s infinite;
+}
+
+.alert {
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  border-left: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.alert.error { background: var(--tving-red-soft); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
+.alert.info { background: var(--accent-tint); color: var(--tving-red-dark); border-left-color: var(--tving-red); }
+.alert.success { background: var(--success-tint); color: var(--success); border-left-color: var(--success); }
+
+.alert .close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  opacity: 0.6;
+}
+.alert .close:hover { opacity: 1; }
+
+.master-mini {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.master-mini .icon { font-size: 18px; opacity: 0.7; }
+
+.master-mini .info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.master-mini .info-empty { color: var(--muted); }
+.master-mini .filename { font-family: 'JetBrains Mono', monospace; color: var(--ink); font-weight: 500; }
+
+.master-mini .count-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  background: var(--accent-tint);
+  color: var(--tving-red-dark);
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+
+.master-mini .when { color: var(--muted); font-size: 11px; font-family: 'JetBrains Mono', monospace; }
+
+.master-mini .actions { display: flex; gap: 6px; }
+
+.master-mini button {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.master-mini button:hover { border-color: var(--tving-red); color: var(--tving-red); }
+.master-mini.dragover { border-color: var(--tving-red); background: var(--accent-tint); }
+
+[data-tooltip] { position: relative; }
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 11px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+  font-family: 'Pretendard', sans-serif;
+}
+[data-tooltip]:hover::after { opacity: 1; }
+
+@media (max-width: 768px) {
+  .hero { padding: 18px 20px; }
+  .container { padding: 18px 20px; }
+  .brand-logo { font-size: 30px; }
+  td.campaign, thead th.campaign-col { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="brand-logo">TVING</div>
+      <div class="brand-divider"></div>
+      <h1 class="brand-title">TVCF 미집행 광고주 모니터</h1>
+    </div>
+    <div class="status-strip">
+      <div class="status-pill">
+        <span class="dot"></span>
+        <span class="label">Last</span>
+        <span class="value" id="lastRun">—</span>
+      </div>
+      <div class="status-pill">
+        <span class="label">New</span>
+        <span class="value" id="totalCount">—</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <div id="alertBox"></div>
+
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <div class="counts-inline">
+        <span class="pill">전체 <span class="num" id="countTotal">0</span></span>
+        <span class="pill x">미집행 <span class="num" id="countX">0</span></span>
+        <span class="pill maybe">유사 <span class="num" id="countMaybe">0</span></span>
+        <span class="pill o">집행 <span class="num" id="countO">0</span></span>
+      </div>
+    </div>
+    <div class="toolbar-right">
+      <button class="btn btn-ghost" id="refreshBtn" title="데이터 새로고침">↻ 새로고침</button>
+      <button class="btn" id="exportBtn">↓ Excel 다운로드</button>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="chip-group" id="statusFilter">
+      <button class="chip active" data-filter="status" data-value="all">전체</button>
+      <button class="chip x" data-filter="status" data-value="x">미집행</button>
+      <button class="chip maybe" data-filter="status" data-value="maybe">유사</button>
+      <button class="chip o" data-filter="status" data-value="o">집행</button>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="광고주·캠페인·카테고리 검색" />
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <div id="tableContainer">
+      <div class="loading">데이터 불러오는 중</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 16px;">
+    <div class="master-mini" id="masterBar">
+      <div class="icon">📁</div>
+      <div class="info" id="masterInfo">
+        <span class="info-empty">청약 마스터 미업로드 — 매칭 비활성 상태. 우측 버튼으로 업로드하세요.</span>
+      </div>
+      <div class="actions">
+        <button id="uploadBtn">업로드</button>
+        <button id="clearBtn" style="display:none;">삭제</button>
+      </div>
+      <input type="file" id="fileInput" accept=".xlsx,.xls" hidden />
+    </div>
+  </div>
+
+</main>
+
+<script>
+'use strict';
+
+const DATA_URL = './data/latest.json';
+const STORAGE_KEY = 'tvcf_master_advertisers_v1';
+const STORAGE_META_KEY = 'tvcf_master_meta_v1';
+
+const state = {
+  ads: [],
+  enriched: [],
+  masterList: [],
+  fuse: null,
+  filter: { status: 'all', search: '' },
+  sort: { col: 'registered_date', dir: 'desc' },
+  runAt: null,
+};
+
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+
+function showAlert(msg, type = 'info', autoClose = true) {
+  const id = 'a' + Date.now();
+  $('#alertBox').innerHTML = `<div class="alert ${type}" id="${id}"><span>${msg}</span><button class="close" onclick="document.getElementById('${id}').remove()">×</button></div>`;
+  if (autoClose) setTimeout(() => { const el = document.getElementById(id); if (el) el.remove(); }, 4500);
+}
+function clearAlert() { $('#alertBox').innerHTML = ''; }
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mi = String(d.getMinutes()).padStart(2, '0');
+  return `${mm}/${dd} ${hh}:${mi}`;
+}
+
+function normalizeName(name) {
+  if (!name) return '';
+  return String(name)
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/[()（）\[\]【】「」'',·.\-_/]/g, '')
+    .replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '')
+    .trim();
+}
+
+async function loadData() {
+  $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
+  clearAlert();
+
+  try {
+    const ts = Date.now();
+    const resp = await fetch(`${DATA_URL}?t=${ts}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+
+    state.ads = data.new_ads || [];
+    state.runAt = data.run_at;
+
+    $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
+    $('#totalCount').textContent = state.ads.length;
+
+    if (state.ads.length === 0) {
+      showAlert('아직 수집된 신규 광고가 없습니다. 매일 오전 9시 자동 수집되며, 결과는 여기 표시됩니다.', 'info', false);
+    }
+
+    enrichAndRender();
+  } catch (err) {
+    console.error(err);
+    showAlert(`데이터를 가져오지 못했습니다 (${err.message}). 첫 크롤링이 아직 완료되지 않았거나, 배포가 진행 중일 수 있습니다.`, 'error', false);
+    $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">∅</div><div>데이터 없음</div></div>`;
+  }
+}
+
+function enrichAndRender() {
+  state.enriched = state.ads.map(ad => {
+    const m = matchAdvertiser(ad.advertiser);
+    return { ...ad, match: m };
+  });
+  updateCounts();
+  render();
+}
+
+function matchAdvertiser(name) {
+  if (!name) return { status: 'unknown', confidence: 0, matched: null };
+  if (!state.masterList.length) return { status: 'unknown', confidence: 0, matched: null };
+
+  const normalized = normalizeName(name);
+  for (const m of state.masterList) {
+    if (normalizeName(m) === normalized && normalized.length > 0) {
+      return { status: 'o', confidence: 1.0, matched: m };
+    }
+  }
+  for (const m of state.masterList) {
+    const nm = normalizeName(m);
+    if (nm.length > 1 && normalized.length > 1) {
+      if (nm.includes(normalized) || normalized.includes(nm)) {
+        return { status: 'maybe', confidence: 0.85, matched: m };
+      }
+    }
+  }
+  if (state.fuse) {
+    const results = state.fuse.search(name);
+    if (results.length > 0 && results[0].score < 0.35) {
+      return { status: 'maybe', confidence: 1 - results[0].score, matched: results[0].item };
+    }
+  }
+  return { status: 'x', confidence: 0, matched: null };
+}
+
+function updateCounts() {
+  const counts = { all: 0, x: 0, maybe: 0, o: 0, unknown: 0 };
+  state.enriched.forEach(ad => { counts.all++; counts[ad.match.status]++; });
+  $('#countTotal').textContent = counts.all;
+  $('#countX').textContent = counts.x;
+  $('#countMaybe').textContent = counts.maybe;
+  $('#countO').textContent = counts.o;
+}
+
+function render() {
+  const filtered = applyFilters(state.enriched);
+  const sorted = applySort(filtered);
+
+  if (sorted.length === 0) {
+    $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">✦</div><div>조건에 맞는 광고가 없습니다.</div></div>`;
+    return;
+  }
+
+  const sortCls = (col) => state.sort.col === col ? `sort-${state.sort.dir}` : '';
+  const rows = sorted.map(ad => renderRow(ad)).join('');
+
+  $('#tableContainer').innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th class="sortable ${sortCls('registered_date')}" data-sort="registered_date" style="width:100px;">등록일</th>
+          <th class="sortable ${sortCls('advertiser')}" data-sort="advertiser">광고주</th>
+          <th class="campaign-col">캠페인</th>
+          <th class="sortable ${sortCls('main_category')}" data-sort="main_category">카테고리</th>
+          <th class="sortable ${sortCls('media_type')}" data-sort="media_type">미디어</th>
+          <th class="sortable ${sortCls('match_status')}" data-sort="match_status" style="width:110px;">집행여부</th>
+          <th style="width:40px;"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+
+  $$('thead th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.getAttribute('data-sort');
+      if (state.sort.col === col) state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc';
+      else { state.sort.col = col; state.sort.dir = 'desc'; }
+      render();
+    });
+  });
+}
+
+function renderRow(ad) {
+  const date = ad.registered_date || '—';
+  const advertiser = ad.advertiser || '<span style="color:var(--muted)">(미확인)</span>';
+  const campaign = ad.campaign || '—';
+  const cat = ad.main_category ? `<span class="cat-badge">${ad.main_category}</span>` : '<span style="color:var(--muted)">—</span>';
+  const media = ad.media_type || '—';
+
+  let statusHtml = '';
+  if (!state.masterList.length) statusHtml = '<span class="status-badge unknown">대기</span>';
+  else if (ad.match.status === 'o') statusHtml = `<span class="status-badge o" data-tooltip="매칭: ${ad.match.matched}">O 집행</span>`;
+  else if (ad.match.status === 'maybe') statusHtml = `<span class="status-badge maybe" data-tooltip="유사: ${ad.match.matched} (${Math.round(ad.match.confidence * 100)}%)">⚠ 유사</span>`;
+  else if (ad.match.status === 'x') statusHtml = '<span class="status-badge x">X 미집행</span>';
+  else statusHtml = '<span class="status-badge unknown">?</span>';
+
+  const url = ad.url || '#';
+  return `
+    <tr>
+      <td class="date">${date}</td>
+      <td class="advertiser">${advertiser}</td>
+      <td class="campaign campaign-col" title="${campaign}">${campaign}</td>
+      <td>${cat}</td>
+      <td>${media}</td>
+      <td>${statusHtml}</td>
+      <td><a href="${url}" target="_blank" rel="noopener" class="link-icon" title="TVCF에서 보기">↗</a></td>
+    </tr>
+  `;
+}
+
+function applyFilters(ads) {
+  return ads.filter(ad => {
+    if (state.filter.status !== 'all' && ad.match.status !== state.filter.status) return false;
+    if (state.filter.search) {
+      const q = state.filter.search.toLowerCase();
+      const hay = [ad.advertiser, ad.campaign, ad.main_category, ad.media_type, ad.card_title].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function applySort(ads) {
+  const { col, dir } = state.sort;
+  const mult = dir === 'asc' ? 1 : -1;
+  return [...ads].sort((a, b) => {
+    let av, bv;
+    if (col === 'match_status') {
+      const order = { x: 0, maybe: 1, unknown: 2, o: 3 };
+      av = order[a.match.status] ?? 99;
+      bv = order[b.match.status] ?? 99;
+    } else {
+      av = a[col] || '';
+      bv = b[col] || '';
+    }
+    if (av < bv) return -1 * mult;
+    if (av > bv) return 1 * mult;
+    return 0;
+  });
+}
+
+async function handleMasterFile(file) {
+  try {
+    showAlert(`'${file.name}' 처리 중...`, 'info', false);
+    const data = await file.arrayBuffer();
+    const wb = XLSX.read(data, { type: 'array' });
+
+    let sheetName = wb.SheetNames.find(n => n.includes('신규광고주') && !n.includes('현황'));
+    if (!sheetName) sheetName = '신규광고주';
+    if (!wb.Sheets[sheetName]) throw new Error(`'신규광고주' 시트를 찾을 수 없습니다.`);
+
+    const sheet = wb.Sheets[sheetName];
+    const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+
+    let headerRowIdx = -1;
+    let nameColIdx = -1;
+    for (let i = 0; i < Math.min(rows.length, 30); i++) {
+      const row = rows[i] || [];
+      for (let j = 0; j < row.length; j++) {
+        if (row[j] === 'Advertiser_name') {
+          headerRowIdx = i; nameColIdx = j; break;
+        }
+      }
+      if (headerRowIdx >= 0) break;
+    }
+    if (headerRowIdx < 0) throw new Error('Advertiser_name 컬럼을 찾을 수 없습니다.');
+
+    const advertisers = [];
+    for (let i = headerRowIdx + 1; i < rows.length; i++) {
+      const row = rows[i] || [];
+      const name = row[nameColIdx];
+      if (name && typeof name === 'string' && name.trim()) advertisers.push(name.trim());
+    }
+    if (advertisers.length === 0) throw new Error('Advertiser_name 컬럼에서 데이터를 추출하지 못했습니다.');
+
+    const unique = [...new Set(advertisers)];
+    state.masterList = unique;
+    initFuse();
+    saveMasterToStorage(unique, file.name);
+    updateMasterStatus(file.name, unique.length);
+
+    showAlert(`✓ '${file.name}'에서 ${unique.length}개 광고주를 불러왔습니다.`, 'success');
+    enrichAndRender();
+  } catch (err) {
+    console.error(err);
+    showAlert(`청약마스터 처리 실패: ${err.message}`, 'error', false);
+  }
+}
+
+function initFuse() {
+  state.fuse = new Fuse(state.masterList, { threshold: 0.4, distance: 100, minMatchCharLength: 2, includeScore: true });
+}
+
+function saveMasterToStorage(list, filename) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    localStorage.setItem(STORAGE_META_KEY, JSON.stringify({ filename, uploadedAt: new Date().toISOString(), count: list.length }));
+  } catch (e) { console.warn(e); }
+}
+
+function loadMasterFromStorage() {
+  try {
+    const list = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+    const meta = JSON.parse(localStorage.getItem(STORAGE_META_KEY) || 'null');
+    if (Array.isArray(list) && list.length > 0) {
+      state.masterList = list;
+      initFuse();
+      if (meta) updateMasterStatus(meta.filename, list.length, meta.uploadedAt);
+      return true;
+    }
+  } catch (e) { console.warn(e); }
+  return false;
+}
+
+function clearMaster() {
+  if (!confirm('저장된 청약마스터를 삭제할까요?')) return;
+  state.masterList = [];
+  state.fuse = null;
+  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(STORAGE_META_KEY);
+  $('#masterInfo').innerHTML = '<span class="info-empty">청약 마스터 미업로드 — 매칭 비활성 상태. 우측 버튼으로 업로드하세요.</span>';
+  $('#clearBtn').style.display = 'none';
+  enrichAndRender();
+}
+
+function updateMasterStatus(filename, count, uploadedAt) {
+  const when = uploadedAt ? fmtDate(uploadedAt) : '방금';
+  $('#masterInfo').innerHTML = `
+    <span class="filename">📄 ${filename}</span>
+    <span class="count-badge">${count.toLocaleString()} 광고주</span>
+    <span class="when">${when} 업데이트</span>
+  `;
+  $('#clearBtn').style.display = '';
+}
+
+function exportExcel() {
+  const filtered = applyFilters(state.enriched);
+  if (filtered.length === 0) { alert('다운로드할 데이터가 없습니다.'); return; }
+
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  const sharedDate = `${yyyy}-${mm}-${dd}`;
+
+  const rows = filtered.map(ad => {
+    let exec = '';
+    if (state.masterList.length === 0) exec = '';
+    else if (ad.match.status === 'o') exec = 'O';
+    else if (ad.match.status === 'maybe') exec = `⚠ ${ad.match.matched}`;
+    else if (ad.match.status === 'x') exec = 'X';
+    const year = ad.registered_date ? ad.registered_date.slice(0, 4) : yyyy;
+    return {
+      '년도': year,
+      '온에어': ad.registered_date || '',
+      '카테고리': ad.main_category || '',
+      '광고주': ad.advertiser || '',
+      '브랜드(광고상품)명': ad.campaign || ad.advertiser || '',
+      '집행여부': exec,
+      '공유일': sharedDate,
+      'TVCF URL': ad.url || '',
+    };
+  });
+
+  const ws = XLSX.utils.json_to_sheet(rows);
+  ws['!cols'] = [{ wch: 8 }, { wch: 12 }, { wch: 22 }, { wch: 24 }, { wch: 28 }, { wch: 14 }, { wch: 12 }, { wch: 40 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'TVCF');
+  XLSX.writeFile(wb, `TVCF_미집행광고주_${yyyy}${mm}${dd}.xlsx`);
+}
+
+function setupEvents() {
+  $('#fileInput').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) handleMasterFile(file);
+    e.target.value = '';
+  });
+
+  $('#uploadBtn').addEventListener('click', () => $('#fileInput').click());
+  $('#clearBtn').addEventListener('click', clearMaster);
+
+  const mb = $('#masterBar');
+  mb.addEventListener('dragover', (e) => { e.preventDefault(); mb.classList.add('dragover'); });
+  mb.addEventListener('dragleave', () => mb.classList.remove('dragover'));
+  mb.addEventListener('drop', (e) => {
+    e.preventDefault();
+    mb.classList.remove('dragover');
+    const file = e.dataTransfer.files[0];
+    if (file) handleMasterFile(file);
+  });
+
+  $$('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const filter = chip.getAttribute('data-filter');
+      const value = chip.getAttribute('data-value');
+      $$(`.chip[data-filter="${filter}"]`).forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      state.filter[filter] = value;
+      render();
+    });
+  });
+
+  let searchTimer = null;
+  $('#searchInput').addEventListener('input', (e) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { state.filter.search = e.target.value.trim(); render(); }, 150);
+  });
+
+  $('#refreshBtn').addEventListener('click', loadData);
+  $('#exportBtn').addEventListener('click', exportExcel);
+}
+
+function init() {
+  setupEvents();
+  loadMasterFromStorage();
+  loadData();
+}
+
+init();
+</script>
+
+</body>
+</html>
