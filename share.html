@@ -288,6 +288,20 @@ function getDecision(name, adId) {
   return state.decisions[key] || null;
 }
 
+function dedupByAdvertiserDate(ads) {
+  const seen = new Map();
+  for (const ad of ads) {
+    const key = `${ad.advertiser || ad.brand || ''}_${(ad.registered_date || '').slice(0, 10)}`;
+    if (!seen.has(key)) {
+      seen.set(key, ad);
+    } else {
+      const existing = seen.get(key);
+      existing.variant_count = (existing.variant_count || 1) + 1;
+    }
+  }
+  return Array.from(seen.values());
+}
+
 async function loadData() {
   $('#tableContainer').innerHTML = '<div class="loading">데이터 불러오는 중</div>';
   try {
@@ -318,7 +332,9 @@ async function loadData() {
       const reg = ad.registered_date || '';
       return reg.slice(0, 10) >= cutoffStr;
     });
-    state.ads = [...latestAds, ...recentFromHistory];
+    // 광고주+날짜 기준 추가 dedup
+    const combined = [...latestAds, ...recentFromHistory];
+    state.ads = dedupByAdvertiserDate(combined);
 
     if (legacyResp && legacyResp.ok) {
       state.legacyAds = await legacyResp.json();
@@ -376,16 +392,17 @@ function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
 
   const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
-  const olderHistory = state.historyAds
-    .filter(ad => !enrichedIds.has(ad.ad_id))
-    .map(ad => {
-      const matchKey = ad.advertiser || ad.brand;
-      const decision = getDecision(matchKey, ad.ad_id);
-      const match = decision
-        ? { status: decision.status, matched: decision.matched_name }
-        : { status: 'unknown', matched: null };
-      return { ...ad, matchKey, match };
-    });
+  const olderHistoryRaw = state.historyAds.filter(ad => !enrichedIds.has(ad.ad_id));
+  const olderHistoryDeduped = dedupByAdvertiserDate(olderHistoryRaw);
+
+  const olderHistory = olderHistoryDeduped.map(ad => {
+    const matchKey = ad.advertiser || ad.brand;
+    const decision = getDecision(matchKey, ad.ad_id);
+    const match = decision
+      ? { status: decision.status, matched: decision.matched_name }
+      : { status: 'unknown', matched: null };
+    return { ...ad, matchKey, match };
+  });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
