@@ -743,6 +743,124 @@ function enrichAndRender() {
   });
   updateCounts();
   render();
+
+  // 자동 매칭된 결과를 GitHub에 자동 저장 (외부 공유 페이지에서도 보이도록)
+  // 토큰이 있고, 청약마스터가 업로드되어 있고, 결정이 아직 안 된 항목만 처리
+  autoSyncMatchResults();
+}
+
+// 자동 매칭 결과를 GitHub decisions.json에 자동으로 저장
+// - 토큰이 있을 때만 동작 (없으면 그냥 패스)
+// - 결정이 이미 있는 항목은 건드리지 않음
+// - 자동 매칭 결과(O/X/maybe)를 한 번에 모아서 1회 commit
+async function autoSyncMatchResults() {
+  // 자동 동기화 중이면 중복 실행 방지
+  if (state._autoSyncing) return;
+  if (!state.token) return;
+  if (!state.masterList.length) return;
+
+  // 결정이 아직 안 된 항목 중 자동 매칭 결과가 있는 것들 추출
+  const toSync = [];
+  for (const ad of state.enriched) {
+    // 이미 사용자가 명시적으로 결정한 항목은 건드리지 않음
+    if (ad.match.isOverride) continue;
+    if (!ad.autoMatch) continue;
+
+    const status = ad.autoMatch.status;
+    if (status === 'unknown') continue;
+    if (!ad.matchKey) continue;
+
+    const key = normalizeName(ad.matchKey);
+
+    // 이미 decisions에 있거나 x_decisions에 있으면 패스
+    if (state.decisions[key]) continue;
+    if (ad.ad_id && state.x_decisions[ad.ad_id]) continue;
+
+    toSync.push({
+      ad,
+      status,
+      matched: ad.autoMatch.matched,
+    });
+  }
+
+  if (toSync.length === 0) return;
+
+  console.log(`[AutoSync] ${toSync.length}건 자동 매칭 결과 GitHub 동기화 시작`);
+  state._autoSyncing = true;
+
+  // 로컬 state 먼저 업데이트 (UI 즉시 반영)
+  for (const item of toSync) {
+    const key = normalizeName(item.ad.matchKey);
+    if (item.status === 'x') {
+      if (item.ad.ad_id) {
+        state.x_decisions[item.ad.ad_id] = {
+          advertiser: item.ad.matchKey,
+          status: 'x',
+          updated_at: new Date().toISOString(),
+          auto: true,
+        };
+      }
+    } else {
+      // o or maybe
+      state.decisions[key] = {
+        display_name: item.ad.matchKey,
+        status: item.status,
+        matched_name: item.matched || null,
+        updated_at: new Date().toISOString(),
+        auto: true,
+      };
+    }
+  }
+
+  // GitHub에 commit (한 번에 모아서)
+  try {
+    // 최신 SHA 가져오기
+    const shaResp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
+      headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (shaResp.ok) {
+      const meta = await shaResp.json();
+      state.decisionsSha = meta.sha;
+    } else if (shaResp.status === 404) {
+      state.decisionsSha = null;
+    }
+
+    const payload = {
+      updated_at: new Date().toISOString(),
+      count: Object.keys(state.decisions).length,
+      x_count: Object.keys(state.x_decisions).length,
+      decisions: state.decisions,
+      x_decisions: state.x_decisions,
+    };
+    const content = JSON.stringify(payload, null, 2);
+    const base64 = btoa(unescape(encodeURIComponent(content)));
+
+    const body = {
+      message: `Auto-sync: ${toSync.length} matched advertisers`,
+      content: base64,
+    };
+    if (state.decisionsSha) body.sha = state.decisionsSha;
+
+    const resp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
+      method: 'PUT',
+      headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (!resp.ok) {
+      const err = await resp.json();
+      throw new Error(err.message || `HTTP ${resp.status}`);
+    }
+    const result = await resp.json();
+    state.decisionsSha = result.content.sha;
+
+    console.log(`[AutoSync] ✓ ${toSync.length}건 동기화 완료`);
+    showAlert(`✓ 자동 매칭 결과 ${toSync.length}건이 GitHub에 동기화되었습니다.`, 'success');
+  } catch (err) {
+    console.error('[AutoSync] 실패:', err);
+    showAlert(`자동 동기화 실패: ${err.message}`, 'error');
+  } finally {
+    state._autoSyncing = false;
+  }
 }
 
 function matchAdvertiser(name) {
