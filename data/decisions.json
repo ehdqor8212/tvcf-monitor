@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-14T07:15:09.146Z",
-  "count": 4,
+  "updated_at": "2026-05-14T07:19:18.308Z",
+  "count": 5,
   "x_count": 2,
   "decisions": {
     "하이트진로": {
@@ -26,6 +26,12 @@
       "status": "o",
       "matched_name": "기영에프엔비",
       "updated_at": "2026-05-14T07:14:23.124Z"
+    },
+    "신한금융그룹": {
+      "display_name": "신한금융그룹",
+      "status": "o",
+      "matched_name": "신한금융지주",
+      "updated_at": "2026-05-14T07:19:17.950Z"
     }
   },
   "x_decisions": {
