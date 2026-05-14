@@ -395,10 +395,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109723+09:00",
-    "brand": "KB국민은행",
-    "advertiser_code": "C000006336",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109723+09:00"
   },
   {
     "ad_id": "1016666",
@@ -407,16 +404,13 @@
     "card_title": "KB 국민은행[국민은행 KB Youth Club] 나이가 이십대라면 나이스한 혜택이 0원!",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "KB국민은행",
+    "advertiser": "KB 국민은행",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109732+09:00",
-    "brand": "KB국민은행",
-    "advertiser_code": "C000006336",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109732+09:00"
   },
   {
     "ad_id": "1016658",
@@ -425,16 +419,13 @@
     "card_title": "SBS 2026 신한 SOL KBO 리그한화 이글스 vs KT 위즈",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "신한금융그룹",
+    "advertiser": "SBS 2026 신한 SOL KBO 리그",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109759+09:00",
-    "brand": "SBS 2026 신한 SOL KBO 리그",
-    "advertiser_code": "C000011597",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109759+09:00"
   },
   {
     "ad_id": "1016655",
@@ -443,16 +434,13 @@
     "card_title": "넷플릭스유재석 캠프",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "넷플릭스서비시스코리아",
+    "advertiser": "넷플릭스",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109761+09:00",
-    "brand": "넷플릭스",
-    "advertiser_code": "C000162453",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109761+09:00"
   },
   {
     "ad_id": "1016652",
@@ -461,16 +449,13 @@
     "card_title": "아로나민 골드[아로나민골드X 류승룡] 대한민국 피로엔 아로나민 골드가 간다! (사장님)",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "일동제약",
+    "advertiser": "아로나민 골드",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "제약/의료/복지",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109763+09:00",
-    "brand": "아로나민 골드",
-    "advertiser_code": "C000001350",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109763+09:00"
   },
   {
     "ad_id": "1016651",
@@ -479,16 +464,13 @@
     "card_title": "아로나민 골드[아로나민골드X 류승룡] 대한민국 피로엔 아로나민 골드가 간다! (출근)",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "일동제약",
+    "advertiser": "아로나민 골드",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "제약/의료/복지",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109770+09:00",
-    "brand": "아로나민 골드",
-    "advertiser_code": "C000001350",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109770+09:00"
   },
   {
     "ad_id": "1016650",
@@ -497,16 +479,13 @@
     "card_title": "움버거앤윙스움버거앤윙스 X 송강, 빌보드 (15s)",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "아이더스에프앤비",
+    "advertiser": "움버거앤윙스",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "식품/제과",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109768+09:00",
-    "brand": "움버거앤윙스",
-    "advertiser_code": "C000169441",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109768+09:00"
   },
   {
     "ad_id": "1016649",
@@ -515,16 +494,13 @@
     "card_title": "2026 FIFA 북중미 월드컵대한민국을 하나로! 월드컵은 KBS",
     "onair": "05.12",
     "registered_short": "05.13",
-    "advertiser": "KBS",
+    "advertiser": "2026 FIFA 북중미 월드컵",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "공중파",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109766+09:00",
-    "brand": "2026 FIFA 북중미 월드컵",
-    "advertiser_code": "C000003995",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109766+09:00"
   },
   {
     "ad_id": "1016642",
@@ -533,16 +509,13 @@
     "card_title": "YOON SAN-HA 3RD MINI ALBUM[NO REASON] - HIGHLIGHT MEDLEY, 윤산하",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "판타지오",
+    "advertiser": "YOON SAN-HA 3RD MINI ALBUM",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560795+09:00",
-    "brand": "NO REASON",
-    "advertiser_code": "C000010803",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560795+09:00"
   },
   {
     "ad_id": "1016639",
@@ -557,10 +530,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "서비스/유통/레저",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560803+09:00",
-    "brand": "위디",
-    "advertiser_code": "4153610",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560803+09:00"
   },
   {
     "ad_id": "1016625",
@@ -575,10 +545,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560815+09:00",
-    "brand": "LG CNS",
-    "advertiser_code": "C000005088",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560815+09:00"
   },
   {
     "ad_id": "1016609",
@@ -587,16 +554,13 @@
     "card_title": "ILLIT (아일릿)‘넌 최애가 누구야?’ 편 6s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560822+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560822+09:00"
   },
   {
     "ad_id": "1016608",
@@ -605,16 +569,13 @@
     "card_title": "ILLIT (아일릿)‘포토부스’ 편 10s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560824+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560824+09:00"
   },
   {
     "ad_id": "1016607",
@@ -623,16 +584,13 @@
     "card_title": "ILLIT (아일릿)‘바르자 잇츠미’ 편 6s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560827+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560827+09:00"
   },
   {
     "ad_id": "1016605",
@@ -641,16 +599,13 @@
     "card_title": "ILLIT (아일릿)‘똑똑..엄마야?’ 편 6s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560829+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560829+09:00"
   },
   {
     "ad_id": "1016604",
@@ -659,16 +614,13 @@
     "card_title": "ILLIT (아일릿)‘누구냐 넌’ 편 6s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560831+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560831+09:00"
   },
   {
     "ad_id": "1016603",
@@ -677,16 +629,13 @@
     "card_title": "ILLIT (아일릿)‘기침’ 편 6s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560832+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560832+09:00"
   },
   {
     "ad_id": "1016601",
@@ -695,16 +644,13 @@
     "card_title": "ILLIT (아일릿)‘잇츠米’ 편 15s | It’s Me | ILLIT (아일릿)",
     "onair": "05.12",
     "registered_short": "05.12",
-    "advertiser": "빌리프랩",
+    "advertiser": "ILLIT (아일릿)",
     "campaign": null,
     "registered_date": "2026-05-12",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560838+09:00",
-    "brand": "ILLIT (아일릿)",
-    "advertiser_code": "C000163409",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560838+09:00"
   },
   {
     "ad_id": "1017030",
@@ -732,16 +678,13 @@
     "card_title": "AWW오직 놀라움만 고르고 모아, 오우!",
     "onair": "05.11",
     "registered_short": "05.12",
-    "advertiser": "에이더블유더블유",
+    "advertiser": "AWW",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "디지털(인터넷)",
     "main_category": "서비스/유통/레저",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560834+09:00",
-    "brand": "AWW",
-    "advertiser_code": "4153398",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560834+09:00"
   },
   {
     "ad_id": "1016584",
@@ -756,10 +699,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "금융/보험",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560848+09:00",
-    "brand": "롯데손해보험",
-    "advertiser_code": "C000011416",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560848+09:00"
   },
   {
     "ad_id": "1016556",
@@ -768,16 +708,13 @@
     "card_title": "선택 2026 MBC 선거방송2026년 6월 3일 MBC속으로",
     "onair": "05.11",
     "registered_short": "05.12",
-    "advertiser": "MBC",
+    "advertiser": "선택 2026 MBC 선거방송",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "공중파",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560854+09:00",
-    "brand": "선택 2026 MBC 선거방송",
-    "advertiser_code": "C000002724",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560854+09:00"
   },
   {
     "ad_id": "1016554",
@@ -792,10 +729,7 @@
     "media_type": "공중파",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560859+09:00",
-    "brand": "중앙선거관리위원회",
-    "advertiser_code": "C000002911",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560859+09:00"
   },
   {
     "ad_id": "1016553",
@@ -810,10 +744,7 @@
     "media_type": "공중파",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560857+09:00",
-    "brand": "중앙선거관리위원회",
-    "advertiser_code": "C000002911",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560857+09:00"
   },
   {
     "ad_id": "1016487",
@@ -822,16 +753,13 @@
     "card_title": "삼쩜삼병원비 편 | 당신의 병원비, 끝까지 찾는다 15\"",
     "onair": "05.11",
     "registered_short": "05.11",
-    "advertiser": "자비스앤빌런즈",
+    "advertiser": "삼쩜삼",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "공중파",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560861+09:00",
-    "brand": "삼쩜삼",
-    "advertiser_code": "C000041875",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560861+09:00"
   },
   {
     "ad_id": "1016486",
@@ -840,16 +768,13 @@
     "card_title": "테라리얼탄산 테라 TERRA CF : 리얼응원 편 (6\")",
     "onair": "05.11",
     "registered_short": "05.11",
-    "advertiser": "하이트진로",
+    "advertiser": "테라",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "디지털(인터넷)",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560864+09:00",
-    "brand": "테라",
-    "advertiser_code": "C000010454",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560864+09:00"
   },
   {
     "ad_id": "1016482",
@@ -858,16 +783,13 @@
     "card_title": "테라리얼탄산 테라 TERRA CF : 리얼응원",
     "onair": "05.11",
     "registered_short": "05.11",
-    "advertiser": "하이트진로",
+    "advertiser": "테라",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "공중파",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560870+09:00",
-    "brand": "테라",
-    "advertiser_code": "C000010454",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560870+09:00"
   },
   {
     "ad_id": "1016480",
@@ -882,10 +804,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560872+09:00",
-    "brand": "콕스웨이브",
-    "advertiser_code": "4152629",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560872+09:00"
   },
   {
     "ad_id": "1016455",
@@ -900,10 +819,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560886+09:00",
-    "brand": "카카오",
-    "advertiser_code": "C000012376",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560886+09:00"
   },
   {
     "ad_id": "1016446",
@@ -912,16 +828,13 @@
     "card_title": "카스월드컵, 오천만의 진짜가 되는 시간 15s",
     "onair": "05.11",
     "registered_short": "05.11",
-    "advertiser": "오비맥주",
+    "advertiser": "카스",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "공중파",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560899+09:00",
-    "brand": "카스",
-    "advertiser_code": "C000001331",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560899+09:00"
   },
   {
     "ad_id": "1016437",
@@ -930,16 +843,13 @@
     "card_title": "카스월드컵, 오천만의 진짜가 되는 시간 30s",
     "onair": "05.11",
     "registered_short": "05.11",
-    "advertiser": "오비맥주",
+    "advertiser": "카스",
     "campaign": null,
     "registered_date": "2026-05-11",
     "media_type": "공중파",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560897+09:00",
-    "brand": "카스",
-    "advertiser_code": "C000001331",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560897+09:00"
   },
   {
     "ad_id": "1016434",
@@ -954,10 +864,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560903+09:00",
-    "brand": "카카오",
-    "advertiser_code": "C000012376",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560903+09:00"
   },
   {
     "ad_id": "1016429",
@@ -972,10 +879,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560901+09:00",
-    "brand": "카카오",
-    "advertiser_code": "C000012376",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560901+09:00"
   },
   {
     "ad_id": "1016419",
@@ -990,10 +894,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560905+09:00",
-    "brand": "삼양그룹",
-    "advertiser_code": "C000011509",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560905+09:00"
   },
   {
     "ad_id": "1016481",
@@ -1002,16 +903,13 @@
     "card_title": "아누아[ ANUA X SUZY ] 새로운 장르의 수지 (30 ver.)",
     "onair": "05.10",
     "registered_short": "05.11",
-    "advertiser": "더파운더즈",
+    "advertiser": "아누아",
     "campaign": null,
     "registered_date": "2026-05-10",
     "media_type": "디지털(인터넷)",
     "main_category": "화장품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560874+09:00",
-    "brand": "아누아",
-    "advertiser_code": "C000163778",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560874+09:00"
   },
   {
     "ad_id": "1016406",
@@ -1026,10 +924,7 @@
     "media_type": "공중파",
     "main_category": "관공서/단체/공익/기업PR",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560850+09:00",
-    "brand": "중앙선거관리위원회",
-    "advertiser_code": "C000002911",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560850+09:00"
   },
   {
     "ad_id": "1016637",
@@ -1038,16 +933,13 @@
     "card_title": "웨이브엄빠 집 TV에 웨이브를 깔았을 뿐인데?!_어버이날 편",
     "onair": "05.07",
     "registered_short": "05.12",
-    "advertiser": "콘텐츠웨이브",
+    "advertiser": "웨이브",
     "campaign": null,
     "registered_date": "2026-05-07",
     "media_type": "디지털(인터넷)",
     "main_category": "정보통신",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560809+09:00",
-    "brand": "웨이브",
-    "advertiser_code": "C000017985",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560809+09:00"
   },
   {
     "ad_id": "1016636",
@@ -1056,16 +948,13 @@
     "card_title": "가다실HPV 남아 백신 체크 포인트_12세",
     "onair": "05.07",
     "registered_short": "05.12",
-    "advertiser": "한국MSD",
+    "advertiser": "가다실",
     "campaign": null,
     "registered_date": "2026-05-07",
     "media_type": "공중파",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560812+09:00",
-    "brand": "가다실",
-    "advertiser_code": "C000011988",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560812+09:00"
   },
   {
     "ad_id": "1016476",
@@ -1074,16 +963,13 @@
     "card_title": "나르지오전 세계가 인정한, 세상에서 가장 편한 신발! 30s",
     "onair": "05.06",
     "registered_short": "05.11",
-    "advertiser": "케이에스국민신발",
+    "advertiser": "나르지오",
     "campaign": null,
     "registered_date": "2026-05-06",
     "media_type": "공중파",
     "main_category": "패션/스포츠",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560876+09:00",
-    "brand": "나르지오",
-    "advertiser_code": "C000160379",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560876+09:00"
   },
   {
     "ad_id": "1016473",
@@ -1092,16 +978,13 @@
     "card_title": "MOCHIto on-chain real-world income",
     "onair": "05.06",
     "registered_short": "05.11",
-    "advertiser": "크리에이티브힐",
+    "advertiser": "MOCHI",
     "campaign": null,
     "registered_date": "2026-05-06",
     "media_type": "디지털(인터넷)",
     "main_category": "금융/보험",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560878+09:00",
-    "brand": "MOCHI",
-    "advertiser_code": "4152527",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560878+09:00"
   },
   {
     "ad_id": "1016665",
@@ -1110,16 +993,13 @@
     "card_title": "파워에이드운명의 순간, 결정적 파워 6초 세로",
     "onair": "05.01",
     "registered_short": "05.13",
-    "advertiser": "한국코카콜라",
+    "advertiser": "파워에이드",
     "campaign": null,
     "registered_date": "2026-05-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109735+09:00",
-    "brand": "파워에이드",
-    "advertiser_code": "C000010632",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109735+09:00"
   },
   {
     "ad_id": "1016600",
@@ -1128,16 +1008,13 @@
     "card_title": "베카 창호모든 것이 완벽하다",
     "onair": "05.01",
     "registered_short": "05.12",
-    "advertiser": "라온시스템",
+    "advertiser": "베카 창호",
     "campaign": null,
     "registered_date": "2026-05-01",
     "media_type": "메이킹",
     "main_category": "아파트/건설",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560836+09:00",
-    "brand": "베카 창호",
-    "advertiser_code": "C000169637",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560836+09:00"
   },
   {
     "ad_id": "1016599",
@@ -1146,16 +1023,13 @@
     "card_title": "베카 창호모든 것이 완벽하다",
     "onair": "05.01",
     "registered_short": "05.12",
-    "advertiser": "라온시스템",
+    "advertiser": "베카 창호",
     "campaign": null,
     "registered_date": "2026-05-01",
     "media_type": "디지털(인터넷)",
     "main_category": "아파트/건설",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560841+09:00",
-    "brand": "베카 창호",
-    "advertiser_code": "C000169637",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560841+09:00"
   },
   {
     "ad_id": "1016472",
@@ -1164,16 +1038,13 @@
     "card_title": "프레딧hy프레딧, 오늘 가입하면 그냥 드림!",
     "onair": "05.01",
     "registered_short": "05.11",
-    "advertiser": "에치와이",
+    "advertiser": "프레딧",
     "campaign": null,
     "registered_date": "2026-05-01",
     "media_type": "디지털(인터넷)",
     "main_category": "서비스/유통/레저",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560882+09:00",
-    "brand": "프레딧",
-    "advertiser_code": "C000001415",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560882+09:00"
   },
   {
     "ad_id": "1015776",
@@ -1201,16 +1072,13 @@
     "card_title": "깨노니 쿨연말",
     "onair": "04.29",
     "registered_short": "05.12",
-    "advertiser": "종근당",
+    "advertiser": "깨노니 쿨",
     "campaign": null,
     "registered_date": "2026-04-29",
     "media_type": "디지털(인터넷)",
     "main_category": "제약/의료/복지",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560843+09:00",
-    "brand": "깨노니 쿨",
-    "advertiser_code": "C000001363",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560843+09:00"
   },
   {
     "ad_id": "1016582",
@@ -1219,16 +1087,13 @@
     "card_title": "깨노니 쿨직장인",
     "onair": "04.29",
     "registered_short": "05.12",
-    "advertiser": "종근당",
+    "advertiser": "깨노니 쿨",
     "campaign": null,
     "registered_date": "2026-04-29",
     "media_type": "디지털(인터넷)",
     "main_category": "제약/의료/복지",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560846+09:00",
-    "brand": "깨노니 쿨",
-    "advertiser_code": "C000001363",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560846+09:00"
   },
   {
     "ad_id": "1016579",
@@ -1237,16 +1102,13 @@
     "card_title": "깨노니 쿨대학생",
     "onair": "04.29",
     "registered_short": "05.12",
-    "advertiser": "종근당",
+    "advertiser": "깨노니 쿨",
     "campaign": null,
     "registered_date": "2026-04-29",
     "media_type": "디지털(인터넷)",
     "main_category": "제약/의료/복지",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560852+09:00",
-    "brand": "깨노니 쿨",
-    "advertiser_code": "C000001363",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560852+09:00"
   },
   {
     "ad_id": "1016711",
@@ -1299,10 +1161,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "자동차/정유",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560806+09:00",
-    "brand": "메르세데스 벤츠",
-    "advertiser_code": "C000015965",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560806+09:00"
   },
   {
     "ad_id": "1016578",
@@ -1317,10 +1176,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "전기전자",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560855+09:00",
-    "brand": "한국엡손",
-    "advertiser_code": "C000001649",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560855+09:00"
   },
   {
     "ad_id": "1016485",
@@ -1329,16 +1185,13 @@
     "card_title": "테라리얼탄산 테라 TERRA CF : 들린다 편 (6\")",
     "onair": "03.19",
     "registered_short": "05.11",
-    "advertiser": "하이트진로",
+    "advertiser": "테라",
     "campaign": null,
     "registered_date": "2026-03-19",
     "media_type": "디지털(인터넷)",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560866+09:00",
-    "brand": "테라",
-    "advertiser_code": "C000010454",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560866+09:00"
   },
   {
     "ad_id": "1016484",
@@ -1347,16 +1200,13 @@
     "card_title": "테라리얼탄산 테라 TERRA CF : 보인다 편 (6\")",
     "onair": "03.19",
     "registered_short": "05.11",
-    "advertiser": "하이트진로",
+    "advertiser": "테라",
     "campaign": null,
     "registered_date": "2026-03-19",
     "media_type": "디지털(인터넷)",
     "main_category": "음료/기호식품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560868+09:00",
-    "brand": "테라",
-    "advertiser_code": "C000010454",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560868+09:00"
   },
   {
     "ad_id": "1016456",
@@ -1365,16 +1215,13 @@
     "card_title": "하루야채 하루런2026 하루야채 하루런 모집",
     "onair": "02.25",
     "registered_short": "05.11",
-    "advertiser": "에치와이",
+    "advertiser": "하루야채 하루런",
     "campaign": null,
     "registered_date": "2026-02-25",
     "media_type": "디지털(인터넷)",
     "main_category": "출판/교육/문화",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560894+09:00",
-    "brand": "하루야채 하루런",
-    "advertiser_code": "C000001415",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560894+09:00"
   },
   {
     "ad_id": "1016449",
@@ -1389,10 +1236,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "식품/제과",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560895+09:00",
-    "brand": "백년농가",
-    "advertiser_code": "4152204",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560895+09:00"
   },
   {
     "ad_id": "1016664",
@@ -1401,16 +1245,13 @@
     "card_title": "ALDOALDO ButterLux",
     "onair": "02.01",
     "registered_short": "05.13",
-    "advertiser": "ALDO ",
+    "advertiser": "ALDO",
     "campaign": null,
     "registered_date": "2026-02-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109738+09:00",
-    "brand": "ALDO",
-    "advertiser_code": "C000017958",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109738+09:00"
   },
   {
     "ad_id": "1016663",
@@ -1419,16 +1260,13 @@
     "card_title": "ALDOALDO ButterLux : Kate Bag",
     "onair": "02.01",
     "registered_short": "05.13",
-    "advertiser": "ALDO ",
+    "advertiser": "ALDO",
     "campaign": null,
     "registered_date": "2026-02-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109741+09:00",
-    "brand": "ALDO",
-    "advertiser_code": "C000017958",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109741+09:00"
   },
   {
     "ad_id": "1016662",
@@ -1437,16 +1275,13 @@
     "card_title": "ALDOALDO ButterLux : Kate Bag",
     "onair": "02.01",
     "registered_short": "05.13",
-    "advertiser": "ALDO ",
+    "advertiser": "ALDO",
     "campaign": null,
     "registered_date": "2026-02-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109751+09:00",
-    "brand": "ALDO",
-    "advertiser_code": "C000017958",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109751+09:00"
   },
   {
     "ad_id": "1016661",
@@ -1455,16 +1290,13 @@
     "card_title": "ALDOALDO ButterLux : Auralily Bag",
     "onair": "02.01",
     "registered_short": "05.13",
-    "advertiser": "ALDO ",
+    "advertiser": "ALDO",
     "campaign": null,
     "registered_date": "2026-02-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109754+09:00",
-    "brand": "ALDO",
-    "advertiser_code": "C000017958",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109754+09:00"
   },
   {
     "ad_id": "1016660",
@@ -1473,16 +1305,13 @@
     "card_title": "ALDOALDO ButterLux : Auralily Bag",
     "onair": "02.01",
     "registered_short": "05.13",
-    "advertiser": "ALDO ",
+    "advertiser": "ALDO",
     "campaign": null,
     "registered_date": "2026-02-01",
     "media_type": "디지털(인터넷)",
     "main_category": "",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109756+09:00",
-    "brand": "ALDO",
-    "advertiser_code": "C000017958",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109756+09:00"
   },
   {
     "ad_id": "1016614",
@@ -1497,10 +1326,7 @@
     "media_type": "디지털(인터넷)",
     "main_category": "화장품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560817+09:00",
-    "brand": "핑크원더",
-    "advertiser_code": "C000166805",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560817+09:00"
   },
   {
     "ad_id": "1016610",
@@ -1515,10 +1341,7 @@
     "media_type": "옥외(OOH,OUT DOOR)",
     "main_category": "화장품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560820+09:00",
-    "brand": "핑크원더",
-    "advertiser_code": "C000166805",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560820+09:00"
   },
   {
     "ad_id": "1016644",
@@ -1527,16 +1350,13 @@
     "card_title": "캐논 EOS R6 Mark III완벽을 향한 열정, EOS R6 Mark III",
     "onair": "2025.12.10",
     "registered_short": "05.13",
-    "advertiser": "캐논코리아 컨슈머이미징",
+    "advertiser": "캐논 EOS R6 Mark III",
     "campaign": null,
     "registered_date": "2025-12-10",
     "media_type": "디지털(인터넷)",
     "main_category": "전기전자",
     "sub_categories": [],
-    "collected_at": "2026-05-13T12:48:13.109773+09:00",
-    "brand": "캐논 EOS R6 Mark III",
-    "advertiser_code": "C000010043",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T12:48:13.109773+09:00"
   },
   {
     "ad_id": "1016474",
@@ -1545,16 +1365,13 @@
     "card_title": "펫쿠르트 건강하개 프로젝트 왈프레시댕니저 석봉이의 황금응아 비밀 대공개!",
     "onair": "2025.10.23",
     "registered_short": "05.11",
-    "advertiser": "에치와이",
+    "advertiser": "펫쿠르트 건강하개 프로젝트 왈",
     "campaign": null,
     "registered_date": "2025-10-23",
     "media_type": "디지털(인터넷)",
     "main_category": "생활/가정용품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560880+09:00",
-    "brand": "펫쿠르트 건강하개 프로젝트 왈",
-    "advertiser_code": "C000001415",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560880+09:00"
   },
   {
     "ad_id": "1016469",
@@ -1563,16 +1380,13 @@
     "card_title": "젠하이저오디오필 사운드, '선'을 넘다. 젠하이저 무선 헤드폰, HDB 630을 소개합니다",
     "onair": "2025.10.20",
     "registered_short": "05.11",
-    "advertiser": "젠하이저코리아",
+    "advertiser": "젠하이저",
     "campaign": null,
     "registered_date": "2025-10-20",
     "media_type": "디지털(인터넷)",
     "main_category": "전기전자",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560884+09:00",
-    "brand": "젠하이저",
-    "advertiser_code": "4152397",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560884+09:00"
   },
   {
     "ad_id": "1016468",
@@ -1581,16 +1395,13 @@
     "card_title": "젠하이저오디오필 사운드, '선'을 넘다. 젠하이저 무선 헤드폰, HDB 630을 소개합니다",
     "onair": "2025.10.20",
     "registered_short": "05.11",
-    "advertiser": "젠하이저코리아",
+    "advertiser": "젠하이저",
     "campaign": null,
     "registered_date": "2025-10-20",
     "media_type": "디지털(인터넷)",
     "main_category": "전기전자",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560887+09:00",
-    "brand": "젠하이저",
-    "advertiser_code": "4152349",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560887+09:00"
   },
   {
     "ad_id": "1016467",
@@ -1599,16 +1410,13 @@
     "card_title": "펫쿠르트 건강하개 프로젝트 왈프레시댕니저 김판의 냄새없는 황금변 비결은?",
     "onair": "2025.10.01",
     "registered_short": "05.11",
-    "advertiser": "에치와이",
+    "advertiser": "펫쿠르트 건강하개 프로젝트 왈",
     "campaign": null,
     "registered_date": "2025-10-01",
     "media_type": "디지털(인터넷)",
     "main_category": "생활/가정용품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560890+09:00",
-    "brand": "펫쿠르트 건강하개 프로젝트 왈",
-    "advertiser_code": "C000001415",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560890+09:00"
   },
   {
     "ad_id": "1016466",
@@ -1617,16 +1425,13 @@
     "card_title": "펫쿠르트 건강하개 프로젝트 왈프레시댕니저 흑임자가 제일 좋아하는 펫밀크는?",
     "onair": "2025.10.01",
     "registered_short": "05.11",
-    "advertiser": "에치와이",
+    "advertiser": "펫쿠르트 건강하개 프로젝트 왈",
     "campaign": null,
     "registered_date": "2025-10-01",
     "media_type": "디지털(인터넷)",
     "main_category": "생활/가정용품",
     "sub_categories": [],
-    "collected_at": "2026-05-13T00:09:31.560892+09:00",
-    "brand": "펫쿠르트 건강하개 프로젝트 왈",
-    "advertiser_code": "C000001415",
-    "advertiser_fallback": false
+    "collected_at": "2026-05-13T00:09:31.560892+09:00"
   },
   {
     "ad_id": "1016938",
