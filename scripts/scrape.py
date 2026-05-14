@@ -567,16 +567,22 @@ def main():
 
     # ===== 신규 광고 자동 매칭 (decisions.json 업데이트) =====
     print(f"\n🔍 마스터 광고주 목록과 자동 매칭 중...")
-    master_list = load_master_advertisers()
-    if master_list:
-        # deduped 광고를 마스터와 매칭해서 decisions.json 자동 업데이트
-        added = auto_match_decisions(deduped, master_list)
-        if added > 0:
-            print(f"   ✓ {added}건 자동 결정 추가됨")
+    try:
+        master_list = load_master_advertisers()
+        if master_list:
+            # deduped 광고를 마스터와 매칭해서 decisions.json 자동 업데이트
+            added = auto_match_decisions(deduped, master_list)
+            if added > 0:
+                print(f"   ✓ {added}건 자동 결정 추가됨")
+            else:
+                print(f"   ℹ️ 새로 결정된 광고 없음 (모두 기존에 결정됨)")
         else:
-            print(f"   ℹ️ 새로 결정된 광고 없음 (모두 기존에 결정됨)")
-    else:
-        print(f"   ⏭️ 마스터 목록 없어서 매칭 건너뜀")
+            print(f"   ⏭️ 마스터 목록 없어서 매칭 건너뜀")
+    except Exception as e:
+        # 자동 매칭 실패해도 크롤링 결과는 살리고 경고만 출력
+        import traceback
+        print(f"   ⚠️ 자동 매칭 중 오류 (크롤링 결과는 정상 저장됨): {type(e).__name__}: {e}")
+        traceback.print_exc()
 
     print(f"\n✅ 완료! 대표 {len(deduped)}건 (전체 {len(enriched)}건)")
     return 0
