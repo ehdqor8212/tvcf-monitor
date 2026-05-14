@@ -134,7 +134,7 @@ tbody tr.legacy-row { background: #fafafa; }
 tbody tr.legacy-row:hover { background: #f3f3f3; }
 tbody tr.legacy-row td { color: var(--ink-soft); }
 
-td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); }
+td { padding: 10px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); height: 44px; line-height: 1.4; }
 td.year { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); font-weight: 500; text-align: center; }
 td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
 td.advertiser { font-weight: 600; color: var(--ink); }
@@ -142,11 +142,11 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 
 .variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; }
 
-.cat-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; }
+.cat-badge { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; height: 22px; line-height: 1; }
 
 .status-cell { position: relative; }
 
-.status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; cursor: pointer; border: 1px solid transparent; transition: all 0.1s ease; }
+.status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; cursor: pointer; border: 1px solid transparent; transition: all 0.1s ease; height: 22px; line-height: 1; }
 .status-badge.editable:hover { border-color: currentColor; filter: brightness(0.95); }
 .status-badge.x { background: var(--tving-red-soft); color: var(--tving-red-dark); }
 .status-badge.o { background: var(--success-tint); color: var(--success); }
@@ -698,13 +698,24 @@ async function loadData() {
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
 
-    // 신규 광고 알림: 오늘 크롤링에서 새로 발견된 광고가 없으면 안내
+    // 신규 광고 알림: 두 가지 케이스 구분
+    // 1) TVCF에 아예 광고가 안 올라온 경우 (count_total_before_dedup === 0)
+    // 2) 광고는 있지만 신규 광고주가 0건인 경우 (count_total_before_dedup > 0 && new_ads === 0)
     const todayLatestCount = latestAds.length;
+    const tvcfTotalToday = data.count_total_before_dedup;
+
     if (todayLatestCount === 0) {
       const runDate = data.run_at ? new Date(data.run_at) : new Date();
       const mm = String(runDate.getMonth() + 1).padStart(2, '0');
       const dd = String(runDate.getDate()).padStart(2, '0');
-      showAlert(`📭 오늘(${mm}/${dd}) TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다.`, 'info', false);
+
+      if (tvcfTotalToday === 0) {
+        // 케이스 1: TVCF 사이트에 아예 신규 등록이 없음
+        showAlert(`📭 오늘(${mm}/${dd}) TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다.`, 'info', false);
+      } else {
+        // 케이스 2: TVCF에 광고는 있지만 모두 기존 광고주
+        showAlert(`💼 오늘(${mm}/${dd}) TVCF에 ${tvcfTotalToday}건의 광고가 올라왔지만, 모두 기존에 추적 중인 광고주입니다. 신규 광고주 없음.`, 'info', false);
+      }
     } else if (state.ads.length === 0) {
       showAlert('최근 수집된 광고가 없습니다.', 'info', false);
     }
@@ -877,7 +888,8 @@ function renderRow(ad, idx) {
     advertiserCell = '<span style="color:var(--muted)">미확인</span>';
   }
 
-  const brandText = ad.brand || '—';
+  // 브랜드가 비어있으면 광고주명으로 채워서 표시
+  const brandText = ad.brand || ad.advertiser || '—';
   let brandCell = escapeHtml(brandText);
   if (ad.variant_count && ad.variant_count > 1) {
     brandCell += `<span class="variant-badge" title="같은 광고주의 다른 광고 ${ad.variant_count}건 통합">+${ad.variant_count - 1}</span>`;
