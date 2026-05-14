@@ -509,7 +509,7 @@ def main():
     print(f"   → 신규 광고: {len(new_ads)}개")
 
     if not new_ads:
-        print("\n✨ 새 광고 없음. 종료.")
+        print("\n✨ 새 광고 없음.")
         state["last_run"] = now_kst().isoformat()
         state["known_ad_ids"] = list(known_ids | {a["ad_id"] for a in ads})[-500:]
         save_json(STATE_FILE, state)
@@ -519,6 +519,36 @@ def main():
             "count": 0,
             "count_total_before_dedup": 0,
         })
+
+        # 신규 광고가 없어도 과거 history.json에 대해 자동 매칭은 수행
+        # (마스터 목록 업데이트 후 미매칭 항목을 일괄 처리하기 위해)
+        print(f"\n🔍 마스터 광고주 목록과 자동 매칭 중 (과거 데이터 포함)...")
+        try:
+            master_list = load_master_advertisers()
+            if master_list and history:
+                # history 전체 매칭
+                seen_ids = set()
+                unique_ads = []
+                for ad in history:
+                    aid = ad.get('ad_id')
+                    if aid and aid not in seen_ids:
+                        seen_ids.add(aid)
+                        unique_ads.append(ad)
+                print(f"   📊 매칭 대상: 누적 {len(history)} → 고유 {len(unique_ads)}건")
+                added = auto_match_decisions(unique_ads, master_list)
+                if added > 0:
+                    print(f"   ✓ {added}건 자동 결정 추가됨")
+                else:
+                    print(f"   ℹ️ 새로 결정된 광고 없음 (모두 기존에 결정됨)")
+            elif not master_list:
+                print(f"   ⏭️ 마스터 목록 없어서 매칭 건너뜀")
+            else:
+                print(f"   ⏭️ history 데이터 없음")
+        except Exception as e:
+            import traceback
+            print(f"   ⚠️ 자동 매칭 중 오류: {type(e).__name__}: {e}")
+            traceback.print_exc()
+
         return 0
 
     print(f"\n📋 {len(new_ads)}개 광고 상세 정보 수집 중 (HTML + staffs API)...")
