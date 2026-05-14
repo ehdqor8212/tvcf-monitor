@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T07:19:18.308Z",
+  "updated_at": "2026-05-14T07:19:48.522Z",
   "count": 5,
-  "x_count": 2,
+  "x_count": 3,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -35,6 +35,11 @@
     }
   },
   "x_decisions": {
+    "1016652": {
+      "advertiser": "일동제약",
+      "status": "x",
+      "updated_at": "2026-05-14T07:19:48.184Z"
+    },
     "1016706": {
       "advertiser": "사각코퍼레이션",
       "status": "x",
