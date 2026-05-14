@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T07:20:24.541Z",
-  "count": 5,
-  "x_count": 4,
+  "updated_at": "2026-05-14T12:42:36.588Z",
+  "count": 10,
+  "x_count": 15,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -32,23 +32,124 @@
       "status": "o",
       "matched_name": "신한금융지주",
       "updated_at": "2026-05-14T07:19:17.950Z"
+    },
+    "동아제약": {
+      "display_name": "동아제약",
+      "status": "o",
+      "matched_name": "동아제약",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "해빗팩토리": {
+      "display_name": "해빗팩토리",
+      "status": "o",
+      "matched_name": "해빗팩토리",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "포스코": {
+      "display_name": "포스코",
+      "status": "o",
+      "matched_name": "포스코",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "컴포즈커피": {
+      "display_name": "컴포즈커피",
+      "status": "o",
+      "matched_name": "컴포즈커피",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "아이더스에프앤비": {
+      "display_name": "아이더스에프앤비",
+      "status": "o",
+      "matched_name": "아이더스에프앤비",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
     }
   },
   "x_decisions": {
+    "1016609": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016625": {
+      "advertiser": "LG CNS",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016639": {
+      "advertiser": "위디",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016642": {
+      "advertiser": "판타지오",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016649": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
     "1016652": {
       "advertiser": "일동제약",
       "status": "x",
       "updated_at": "2026-05-14T07:19:48.184Z"
+    },
+    "1016655": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
     },
     "1016706": {
       "advertiser": "사각코퍼레이션",
       "status": "x",
       "updated_at": "2026-05-13T13:28:34.725Z"
     },
+    "1016805": {
+      "advertiser": "국제축구연맹",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016811": {
+      "advertiser": "금융위원회",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016930": {
+      "advertiser": "콜핑",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
+    "1016936": {
+      "advertiser": "피플멀티",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
+    },
     "1016937": {
       "advertiser": "헨켈홈케어코리아",
       "status": "x",
       "updated_at": "2026-05-14T07:15:08.810Z"
+    },
+    "1016938": {
+      "advertiser": "PAPAYA",
+      "status": "x",
+      "updated_at": "2026-05-14T12:42:36.581Z",
+      "auto": true
     },
     "1017030": {
       "advertiser": "넥센타이어",
