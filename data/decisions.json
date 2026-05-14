@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T13:26:04.635Z",
+  "updated_at": "2026-05-14T13:26:18.633Z",
   "count": 16,
   "x_count": 16,
   "decisions": {
@@ -102,10 +102,9 @@
     },
     "신세계인터내셔날": {
       "display_name": "신세계 인터내셔날",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "신세계",
-      "updated_at": "2026-05-14T13:24:53.994Z",
-      "auto": true
+      "updated_at": "2026-05-14T13:26:18.283Z"
     }
   },
   "x_decisions": {
