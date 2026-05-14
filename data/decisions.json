@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T07:19:48.522Z",
+  "updated_at": "2026-05-14T07:20:24.541Z",
   "count": 5,
-  "x_count": 3,
+  "x_count": 4,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -49,6 +49,11 @@
       "advertiser": "헨켈홈케어코리아",
       "status": "x",
       "updated_at": "2026-05-14T07:15:08.810Z"
+    },
+    "1017030": {
+      "advertiser": "넥센타이어",
+      "status": "x",
+      "updated_at": "2026-05-14T07:20:24.218Z"
     }
   }
 }
