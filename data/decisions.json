@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T13:24:54.067Z",
+  "updated_at": "2026-05-14T13:25:03.119Z",
   "count": 16,
   "x_count": 16,
   "decisions": {
@@ -77,10 +77,9 @@
     },
     "새마을금고": {
       "display_name": "새마을금고",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엠지새마을금고(MG새마을금고)",
-      "updated_at": "2026-05-14T13:24:53.994Z",
-      "auto": true
+      "updated_at": "2026-05-14T13:25:02.806Z"
     },
     "테일러메이드코리아": {
       "display_name": "테일러메이드 코리아",
