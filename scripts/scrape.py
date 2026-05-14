@@ -571,8 +571,19 @@ def main():
     try:
         master_list = load_master_advertisers()
         if master_list:
-            # deduped 광고를 마스터와 매칭해서 decisions.json 자동 업데이트
-            added = auto_match_decisions(deduped, master_list)
+            # 신규 광고 + history.json 전체 데이터 모두 매칭
+            # (과거 데이터까지 한 번에 정리)
+            all_ads_to_match = deduped + history
+            seen_ids = set()
+            unique_ads = []
+            for ad in all_ads_to_match:
+                aid = ad.get('ad_id')
+                if aid and aid not in seen_ids:
+                    seen_ids.add(aid)
+                    unique_ads.append(ad)
+            
+            print(f"   📊 매칭 대상: 신규 {len(deduped)} + 누적 {len(history)} = 고유 {len(unique_ads)}건")
+            added = auto_match_decisions(unique_ads, master_list)
             if added > 0:
                 print(f"   ✓ {added}건 자동 결정 추가됨")
             else:
