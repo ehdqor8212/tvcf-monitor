@@ -152,6 +152,7 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
 .status-badge.o { background: var(--success-tint); color: var(--success); }
 .status-badge.maybe { background: var(--warn-tint); color: var(--warn); }
 .status-badge.unknown { background: #f3f3f3; color: var(--muted); }
+.status-badge.no-data { background: #f3f3f3; color: var(--muted); font-family: 'Pretendard', sans-serif; font-weight: 600; letter-spacing: 0; }
 .status-badge.legacy-badge { cursor: default; opacity: 0.85; }
 .status-badge .override-mark { font-size: 8px; margin-left: 3px; opacity: 0.7; }
 
@@ -402,7 +403,7 @@ function fmtDate(iso) {
 
 function normalizeName(name) {
   if (!name) return '';
-  return String(name).toLowerCase().replace(/\s+/g, '').replace(/[()（）\[\]【】「」'',·.\-_/]/g, '').replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '').trim();
+  return String(name).toLowerCase().replace(/\s+/g, '').replace(/[()()\[\]【】「」'',·.\-_/]/g, '').replace(/주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?/g, '').trim();
 }
 
 function escapeHtml(text) {
@@ -697,8 +698,15 @@ async function loadData() {
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
 
-    if (state.ads.length === 0) {
-      showAlert('최근 7일간 수집된 광고가 없습니다.', 'info', false);
+    // 신규 광고 알림: 오늘 크롤링에서 새로 발견된 광고가 없으면 안내
+    const todayLatestCount = latestAds.length;
+    if (todayLatestCount === 0) {
+      const runDate = data.run_at ? new Date(data.run_at) : new Date();
+      const mm = String(runDate.getMonth() + 1).padStart(2, '0');
+      const dd = String(runDate.getDate()).padStart(2, '0');
+      showAlert(`📭 오늘(${mm}/${dd}) TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다.`, 'info', false);
+    } else if (state.ads.length === 0) {
+      showAlert('최근 수집된 광고가 없습니다.', 'info', false);
     }
 
     enrichAndRender();
@@ -882,24 +890,34 @@ function renderRow(ad, idx) {
   const isOverride = ad.match.isOverride;
 
   if (isLegacy) {
-    const legacyLabel = ad.legacy_exec_status || '?';
-    const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
-    statusHtml = `<span class="status-badge ${cls} legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(legacyLabel)}</span>`;
+    // 과거 데이터 — 집행여부 값에 따라 표시
+    const rawStatus = ad.legacy_exec_status || '';
+    if (rawStatus === 'O') {
+      statusHtml = `<span class="status-badge o legacy-badge" data-tooltip="과거 데이터 (수정 불가)">O 집행</span>`;
+    } else if (rawStatus === 'X') {
+      statusHtml = `<span class="status-badge x legacy-badge" data-tooltip="과거 데이터 (수정 불가)">X 미집행</span>`;
+    } else if (rawStatus.startsWith('⚠')) {
+      statusHtml = `<span class="status-badge maybe legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(rawStatus)}</span>`;
+    } else {
+      // 빈 값 → "값 없음" 표시
+      statusHtml = `<span class="status-badge no-data legacy-badge" data-tooltip="원본 시트에 집행여부 기록 없음">값 없음</span>`;
+    }
   } else if (!state.masterList.length) {
     statusHtml = '<span class="status-badge unknown">대기</span>';
   } else {
     let label = '';
+    let badgeCls = status;
     if (status === 'o') label = 'O 집행';
     else if (status === 'maybe') label = '⚠ 확인 필요';
     else if (status === 'x') label = 'X 미집행';
-    else label = '?';
+    else { label = '값 없음'; badgeCls = 'no-data'; }
 
     const tip = ad.match.matched
       ? `매칭: ${escapeHtml(ad.match.matched)}${isOverride ? ' (수동)' : ''}`
       : (isOverride ? '수동 변경됨' : '');
     const mark = isOverride ? '<span class="override-mark">✎</span>' : '';
 
-    statusHtml = `<span class="status-badge ${status} editable" data-ad-idx="${idx}" data-tooltip="${tip}">${label}${mark}</span>`;
+    statusHtml = `<span class="status-badge ${badgeCls} editable" data-ad-idx="${idx}" data-tooltip="${tip}">${label}${mark}</span>`;
   }
 
   const url = ad.url;
