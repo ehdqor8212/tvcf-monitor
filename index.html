@@ -805,15 +805,35 @@ function getCurrentRows() {
       match,
       is_legacy: true,            // PAST 라벨 붙이기
       legacy_exec_status: '',     // legacy 표시 (집행여부는 자동 매칭 따름)
+      from_history: true,         // history.json에서 온 데이터임을 표시
     };
   });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
+    from_legacy: true,            // legacy.json에서 온 데이터임을 표시
   }));
 
-  return [...state.enriched, ...olderHistory, ...legacyEnriched];
+  // 외부 공유용 깔끔한 페이지를 위해 "값 없음" 항목 숨김
+  // 케이스 1: legacy.json의 항목 중 legacy_exec_status가 빈 값인 것 (342건)
+  // 케이스 2: history.json의 PAST 항목 중 청약마스터 미매칭으로 "값 없음" 표시되는 것
+  const allRows = [...state.enriched, ...olderHistory, ...legacyEnriched];
+  return allRows.filter(ad => {
+    if (!ad.is_legacy) return true; // 신규 데이터는 항상 표시
+
+    // legacy.json 항목: legacy_exec_status가 빈 값이면 숨김
+    if (ad.from_legacy && !ad.legacy_exec_status) return false;
+
+    // history.json의 오래된 PAST 항목: 청약마스터 미업로드라 "대기"/"값 없음"으로 표시될 것들 숨김
+    // (status가 'unknown'이거나 master 미업로드 상태)
+    if (ad.from_history) {
+      const status = ad.match && ad.match.status;
+      if (status === 'unknown' || !state.masterList.length) return false;
+    }
+
+    return true;
+  });
 }
 
 function getYear(ad) {
