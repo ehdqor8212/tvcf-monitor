@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T13:25:40.110Z",
+  "updated_at": "2026-05-14T13:26:04.635Z",
   "count": 16,
   "x_count": 16,
   "decisions": {
@@ -96,10 +96,9 @@
     },
     "쥬비스": {
       "display_name": "쥬비스",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "쥬비스다이어트",
-      "updated_at": "2026-05-14T13:24:53.994Z",
-      "auto": true
+      "updated_at": "2026-05-14T13:26:04.247Z"
     },
     "신세계인터내셔날": {
       "display_name": "신세계 인터내셔날",
