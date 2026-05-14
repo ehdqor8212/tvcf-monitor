@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T13:26:18.633Z",
-  "count": 16,
-  "x_count": 16,
+  "updated_at": "2026-05-14T22:36:11.074821+09:00",
+  "count": 29,
+  "x_count": 48,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -105,6 +105,97 @@
       "status": "o",
       "matched_name": "신세계",
       "updated_at": "2026-05-14T13:26:18.283Z"
+    },
+    "일동제약": {
+      "display_name": "일동제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 일동제약",
+      "updated_at": "2026-05-14T22:36:10.960750+09:00",
+      "auto": true
+    },
+    "중앙선거관리위원회": {
+      "display_name": "중앙선거관리위원회",
+      "status": "o",
+      "matched_name": "중앙선거관리위원회",
+      "updated_at": "2026-05-14T22:36:10.987968+09:00",
+      "auto": true
+    },
+    "자비스앤빌런즈": {
+      "display_name": "자비스앤빌런즈",
+      "status": "o",
+      "matched_name": "자비스앤빌런즈",
+      "updated_at": "2026-05-14T22:36:10.988928+09:00",
+      "auto": true
+    },
+    "카카오": {
+      "display_name": "카카오",
+      "status": "maybe",
+      "matched_name": "(미집행) 카카오",
+      "updated_at": "2026-05-14T22:36:10.993322+09:00",
+      "auto": true
+    },
+    "오비맥주": {
+      "display_name": "오비맥주",
+      "status": "maybe",
+      "matched_name": "오비맥주(OB맥주)",
+      "updated_at": "2026-05-14T22:36:10.995611+09:00",
+      "auto": true
+    },
+    "삼양그룹": {
+      "display_name": "삼양그룹",
+      "status": "o",
+      "matched_name": "삼양그룹",
+      "updated_at": "2026-05-14T22:36:10.996155+09:00",
+      "auto": true
+    },
+    "콘텐츠웨이브": {
+      "display_name": "콘텐츠웨이브",
+      "status": "o",
+      "matched_name": "콘텐츠웨이브",
+      "updated_at": "2026-05-14T22:36:11.008949+09:00",
+      "auto": true
+    },
+    "한국msd": {
+      "display_name": "한국MSD",
+      "status": "maybe",
+      "matched_name": "한국엠에스디(한국MSD)",
+      "updated_at": "2026-05-14T22:36:11.011728+09:00",
+      "auto": true
+    },
+    "한국코카콜라": {
+      "display_name": "한국코카콜라",
+      "status": "o",
+      "matched_name": "한국코카콜라",
+      "updated_at": "2026-05-14T22:36:11.021746+09:00",
+      "auto": true
+    },
+    "에치와이": {
+      "display_name": "에치와이",
+      "status": "maybe",
+      "matched_name": "에치와이(HY)",
+      "updated_at": "2026-05-14T22:36:11.029733+09:00",
+      "auto": true
+    },
+    "종근당": {
+      "display_name": "종근당",
+      "status": "maybe",
+      "matched_name": "종근당건강",
+      "updated_at": "2026-05-14T22:36:11.035079+09:00",
+      "auto": true
+    },
+    "lg유플러스": {
+      "display_name": "LG유플러스",
+      "status": "maybe",
+      "matched_name": "엘지유플러스(LG유플러스)",
+      "updated_at": "2026-05-14T22:36:11.037454+09:00",
+      "auto": true
+    },
+    "캐논코리아컨슈머이미징": {
+      "display_name": "캐논코리아 컨슈머이미징",
+      "status": "maybe",
+      "matched_name": "캐논코리아",
+      "updated_at": "2026-05-14T22:36:11.068936+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -198,6 +289,198 @@
       "advertiser": "아쿠쉬네트코리아",
       "status": "x",
       "updated_at": "2026-05-14T13:24:53.994Z",
+      "auto": true
+    },
+    "1016608": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.963697+09:00",
+      "auto": true
+    },
+    "1016607": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.966614+09:00",
+      "auto": true
+    },
+    "1016605": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.969530+09:00",
+      "auto": true
+    },
+    "1016604": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.972433+09:00",
+      "auto": true
+    },
+    "1016603": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.975365+09:00",
+      "auto": true
+    },
+    "1016601": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.978265+09:00",
+      "auto": true
+    },
+    "1016602": {
+      "advertiser": "에이더블유더블유",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.981165+09:00",
+      "auto": true
+    },
+    "1016584": {
+      "advertiser": "롯데손해보험",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.984062+09:00",
+      "auto": true
+    },
+    "1016556": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.986965+09:00",
+      "auto": true
+    },
+    "1016480": {
+      "advertiser": "콕스웨이브",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.991829+09:00",
+      "auto": true
+    },
+    "1017102": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.999054+09:00",
+      "auto": true
+    },
+    "1016481": {
+      "advertiser": "더파운더즈",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.001990+09:00",
+      "auto": true
+    },
+    "1017101": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.004900+09:00",
+      "auto": true
+    },
+    "1017100": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.007827+09:00",
+      "auto": true
+    },
+    "1016476": {
+      "advertiser": "케이에스국민신발",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.014629+09:00",
+      "auto": true
+    },
+    "1016473": {
+      "advertiser": "크리에이티브힐",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.017525+09:00",
+      "auto": true
+    },
+    "1017098": {
+      "advertiser": "에이스푸드",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.020409+09:00",
+      "auto": true
+    },
+    "1016600": {
+      "advertiser": "라온시스템",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.024636+09:00",
+      "auto": true
+    },
+    "1016599": {
+      "advertiser": "라온시스템",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.027533+09:00",
+      "auto": true
+    },
+    "1017099": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.032633+09:00",
+      "auto": true
+    },
+    "1016638": {
+      "advertiser": "Mercedes-Benz",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.040352+09:00",
+      "auto": true
+    },
+    "1016578": {
+      "advertiser": "한국엡손",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.043248+09:00",
+      "auto": true
+    },
+    "1016449": {
+      "advertiser": "백년농가",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.046157+09:00",
+      "auto": true
+    },
+    "1016664": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.049052+09:00",
+      "auto": true
+    },
+    "1016663": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.051947+09:00",
+      "auto": true
+    },
+    "1016662": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.054840+09:00",
+      "auto": true
+    },
+    "1016661": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.057742+09:00",
+      "auto": true
+    },
+    "1016660": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.060638+09:00",
+      "auto": true
+    },
+    "1016614": {
+      "advertiser": "핑크원더",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.063530+09:00",
+      "auto": true
+    },
+    "1016610": {
+      "advertiser": "핑크원더",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.066419+09:00",
+      "auto": true
+    },
+    "1016469": {
+      "advertiser": "젠하이저코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.071841+09:00",
+      "auto": true
+    },
+    "1016468": {
+      "advertiser": "젠하이저코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.074806+09:00",
       "auto": true
     }
   }
