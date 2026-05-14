@@ -64,8 +64,157 @@ DATA_DIR.mkdir(exist_ok=True)
 LATEST_FILE = DATA_DIR / "latest.json"
 HISTORY_FILE = DATA_DIR / "history.json"
 STATE_FILE = DATA_DIR / "state.json"
+DECISIONS_FILE = DATA_DIR / "decisions.json"
 
 DELAY_SEC = 0.5
+
+
+def normalize_name(name):
+    """매칭용 광고주명 정규화 (index.html과 동일 로직)"""
+    if not name:
+        return ''
+    import re as _re
+    s = str(name).lower()
+    s = _re.sub(r'\s+', '', s)
+    s = _re.sub(r'[()()\[\]【】「」\'\',·.\-_/]', '', s)
+    s = _re.sub(r'주식회사|㈜|\(주\)|inc\.?|corp\.?|ltd\.?|co\.?', '', s)
+    return s.strip()
+
+
+def load_master_advertisers():
+    """환경변수 MASTER_ADVERTISERS에서 광고주 목록 로드
+    
+    형식: JSON 문자열
+    {
+      "advertisers": ["광고주1", "광고주2", ...],
+      "count": N
+    }
+    
+    환경변수 없으면 빈 리스트 반환 (매칭 안 함)
+    """
+    master_json = os.environ.get('MASTER_ADVERTISERS', '')
+    if not master_json:
+        print("⚠ MASTER_ADVERTISERS 환경변수 없음. 자동 매칭 건너뜀.")
+        return []
+    
+    try:
+        data = json.loads(master_json)
+        advertisers = data.get('advertisers', [])
+        print(f"📋 마스터 광고주 목록 로드: {len(advertisers)}명")
+        return advertisers
+    except Exception as e:
+        print(f"⚠ MASTER_ADVERTISERS 파싱 실패: {e}")
+        return []
+
+
+def match_advertiser(name, master_list):
+    """광고주명을 마스터 리스트와 매칭
+    
+    Returns:
+        ('o', matched_name) - 정확 매칭 (집행)
+        ('maybe', matched_name) - 부분 매칭 (확인 필요)
+        ('x', None) - 매칭 없음 (미집행)
+    """
+    if not name or not master_list:
+        return None, None
+    
+    normalized = normalize_name(name)
+    if not normalized:
+        return None, None
+    
+    # 1. 정확 매칭
+    for m in master_list:
+        if normalize_name(m) == normalized:
+            return 'o', m
+    
+    # 2. 부분 매칭 (포함 관계)
+    for m in master_list:
+        nm = normalize_name(m)
+        if len(nm) > 1 and len(normalized) > 1:
+            if nm in normalized or normalized in nm:
+                return 'maybe', m
+    
+    # 3. 매칭 없음
+    return 'x', None
+
+
+def auto_match_decisions(new_ads, master_list):
+    """크롤링된 새 광고를 마스터 리스트와 매칭해서 decisions.json 자동 업데이트
+    - O/maybe: decisions[광고주명]에 영구 저장
+    - X: x_decisions[ad_id]에 1회용 저장
+    - 이미 결정된 항목은 건드리지 않음
+    """
+    if not master_list:
+        return 0
+    
+    # 기존 decisions.json 로드
+    decisions_data = load_json(DECISIONS_FILE, {
+        "updated_at": "",
+        "count": 0,
+        "x_count": 0,
+        "decisions": {},
+        "x_decisions": {},
+    })
+    decisions = decisions_data.get('decisions', {})
+    x_decisions = decisions_data.get('x_decisions', {})
+    
+    added_count = 0
+    for ad in new_ads:
+        name = ad.get('advertiser') or ad.get('brand')
+        if not name:
+            continue
+        
+        ad_id = str(ad.get('ad_id', ''))
+        key = normalize_name(name)
+        if not key:
+            continue
+        
+        # 이미 결정된 항목은 건드리지 않음
+        if key in decisions:
+            continue
+        if ad_id and ad_id in x_decisions:
+            continue
+        
+        status, matched = match_advertiser(name, master_list)
+        if status is None:
+            continue
+        
+        now_iso = now_kst().isoformat()
+        if status == 'x':
+            if ad_id:
+                x_decisions[ad_id] = {
+                    "advertiser": name,
+                    "status": "x",
+                    "updated_at": now_iso,
+                    "auto": True,
+                }
+                added_count += 1
+        else:
+            # o or maybe → 영구 저장
+            decisions[key] = {
+                "display_name": name,
+                "status": status,
+                "matched_name": matched,
+                "updated_at": now_iso,
+                "auto": True,
+            }
+            added_count += 1
+    
+    if added_count == 0:
+        return 0
+    
+    # 저장
+    payload = {
+        "updated_at": now_kst().isoformat(),
+        "count": len(decisions),
+        "x_count": len(x_decisions),
+        "decisions": decisions,
+        "x_decisions": x_decisions,
+    }
+    save_json(DECISIONS_FILE, payload)
+    print(f"💾 decisions.json 업데이트: +{added_count}건 (영구 {len(decisions)} + 1회용 {len(x_decisions)})")
+    return added_count
+
 
 
 def now_kst():
@@ -415,6 +564,19 @@ def main():
     state["known_ad_ids"] = list(known_ids | {a["ad_id"] for a in ads})[-500:]
     save_json(STATE_FILE, state)
     print(f"💾 state.json 저장")
+
+    # ===== 신규 광고 자동 매칭 (decisions.json 업데이트) =====
+    print(f"\n🔍 마스터 광고주 목록과 자동 매칭 중...")
+    master_list = load_master_advertisers()
+    if master_list:
+        # deduped 광고를 마스터와 매칭해서 decisions.json 자동 업데이트
+        added = auto_match_decisions(deduped, master_list)
+        if added > 0:
+            print(f"   ✓ {added}건 자동 결정 추가됨")
+        else:
+            print(f"   ℹ️ 새로 결정된 광고 없음 (모두 기존에 결정됨)")
+    else:
+        print(f"   ⏭️ 마스터 목록 없어서 매칭 건너뜀")
 
     print(f"\n✅ 완료! 대표 {len(deduped)}건 (전체 {len(enriched)}건)")
     return 0
