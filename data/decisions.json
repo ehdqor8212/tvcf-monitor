@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T12:43:07.143Z",
-  "count": 10,
-  "x_count": 15,
+  "updated_at": "2026-05-14T13:24:49.182Z",
+  "count": 16,
+  "x_count": 16,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -66,6 +66,48 @@
       "status": "o",
       "matched_name": "아이더스에프앤비",
       "updated_at": "2026-05-14T12:43:07.129Z",
+      "auto": true
+    },
+    "현대자동차": {
+      "display_name": "현대자동차",
+      "status": "o",
+      "matched_name": "현대자동차",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
+    },
+    "새마을금고": {
+      "display_name": "새마을금고",
+      "status": "maybe",
+      "matched_name": "엠지새마을금고(MG새마을금고)",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
+    },
+    "테일러메이드코리아": {
+      "display_name": "테일러메이드 코리아",
+      "status": "maybe",
+      "matched_name": "테일러메이드",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
+    },
+    "한국타이어": {
+      "display_name": "한국타이어",
+      "status": "o",
+      "matched_name": "한국타이어",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
+    },
+    "쥬비스": {
+      "display_name": "쥬비스",
+      "status": "maybe",
+      "matched_name": "쥬비스다이어트",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
+    },
+    "신세계인터내셔날": {
+      "display_name": "신세계 인터내셔날",
+      "status": "maybe",
+      "matched_name": "신세계",
+      "updated_at": "2026-05-14T13:24:49.175Z",
       "auto": true
     }
   },
@@ -155,6 +197,12 @@
       "advertiser": "넥센타이어",
       "status": "x",
       "updated_at": "2026-05-14T07:20:24.218Z"
+    },
+    "1017072": {
+      "advertiser": "아쿠쉬네트코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T13:24:49.174Z",
+      "auto": true
     }
   }
 }
