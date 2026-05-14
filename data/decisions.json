@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-13T13:28:35.077Z",
-  "count": 3,
+  "updated_at": "2026-05-14T07:14:23.132Z",
+  "count": 4,
   "x_count": 1,
   "decisions": {
     "하이트진로": {
@@ -20,6 +20,12 @@
       "status": "o",
       "matched_name": "에이치케이이노엔(HK이노엔)",
       "updated_at": "2026-05-13T13:27:44.733Z"
+    },
+    "기영에프앤비": {
+      "display_name": "기영에프앤비",
+      "status": "o",
+      "matched_name": "기영에프엔비",
+      "updated_at": "2026-05-14T07:14:23.124Z"
     }
   },
   "x_decisions": {
