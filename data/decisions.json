@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T13:25:03.119Z",
+  "updated_at": "2026-05-14T13:25:40.110Z",
   "count": 16,
   "x_count": 16,
   "decisions": {
@@ -83,10 +83,9 @@
     },
     "테일러메이드코리아": {
       "display_name": "테일러메이드 코리아",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "테일러메이드",
-      "updated_at": "2026-05-14T13:24:53.994Z",
-      "auto": true
+      "updated_at": "2026-05-14T13:25:39.701Z"
     },
     "한국타이어": {
       "display_name": "한국타이어",
