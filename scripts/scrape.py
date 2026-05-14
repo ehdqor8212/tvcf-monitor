@@ -6,6 +6,7 @@ TVCF 신규 광고 크롤링 스크립트 v4
   3. 광고주+날짜 기준 중복 제거 (대표 1건만 남김, 나머지는 variants에 포함)
 """
 import json
+import os
 import re
 import time
 import sys
