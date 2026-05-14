@@ -18929,5 +18929,71 @@
     "legacy_exec_status": "O",
     "legacy_match_status": "o",
     "is_legacy": true
+  },
+  {
+    "ad_id": "L5e656094ae",
+    "advertiser": "카카오",
+    "brand": "카카오 루키캠프(MECA)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "registered_date": "2026-05-11",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "X",
+    "legacy_match_status": "x",
+    "is_legacy": true
+  },
+  {
+    "ad_id": "La37fccdf7c",
+    "advertiser": "오비맥주",
+    "brand": "카스(월드컵)",
+    "main_category": "식품/제과",
+    "registered_date": "2026-05-13",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "O",
+    "legacy_match_status": "o",
+    "is_legacy": true
+  },
+  {
+    "ad_id": "Lbda5ef1eff",
+    "advertiser": "삼양그룹",
+    "brand": "삼양그룹 스페셜티 x MUSINSA",
+    "main_category": "식품/제과",
+    "registered_date": "2026-05-13",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "O",
+    "legacy_match_status": "o",
+    "is_legacy": true
+  },
+  {
+    "ad_id": "L15d642b8a6",
+    "advertiser": "롯데손해보험",
+    "brand": "롯데손해보험",
+    "main_category": "제약/의료/복지",
+    "registered_date": "2026-05-13",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "X",
+    "legacy_match_status": "x",
+    "is_legacy": true
+  },
+  {
+    "ad_id": "L6b8912ca29",
+    "advertiser": "일동제약",
+    "brand": "아로나민 골드",
+    "main_category": "제약/의료/복지",
+    "registered_date": "2026-05-13",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "X",
+    "legacy_match_status": "x",
+    "is_legacy": true
+  },
+  {
+    "ad_id": "Lc5cdbb6559",
+    "advertiser": "멕시카나",
+    "brand": "멕시카나",
+    "main_category": "식품/제과",
+    "registered_date": "2026-05-13",
+    "shared_date": "2026-05-11",
+    "legacy_exec_status": "O",
+    "legacy_match_status": "o",
+    "is_legacy": true
   }
 ]
