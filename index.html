@@ -228,6 +228,60 @@ td.brand { color: var(--ink-soft); font-size: 13px; }
   .brand-logo { font-size: 30px; }
   .table-scroll { max-height: calc(100vh - 320px); }
 }
+/* 크롤링 에러 배너 */
+.crawl-error-banner {
+  background: #fff8e6;
+  border: 1px solid #ffc73a;
+  border-left: 4px solid #d9821f;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 16px 40px 0;
+  box-shadow: 0 2px 8px rgba(217, 130, 31, 0.08);
+}
+.crawl-error-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.crawl-error-icon {
+  font-size: 22px;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+.crawl-error-text {
+  flex: 1;
+  min-width: 0;
+}
+.crawl-error-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #8a4a0c;
+  margin-bottom: 4px;
+}
+.crawl-error-desc {
+  font-size: 13px;
+  color: #5c3a0a;
+  line-height: 1.5;
+}
+.crawl-error-close {
+  background: transparent;
+  border: none;
+  color: #8a4a0c;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+.crawl-error-close:hover { opacity: 1; }
+
+@media (max-width: 768px) {
+  .crawl-error-banner {
+    margin: 14px 20px 0;
+    padding: 12px 14px;
+  }
+}
 </style>
 </head>
 <body>
@@ -347,10 +401,11 @@ const DECISIONS_PATH = 'data/decisions.json';
 const DATA_URL = './data/latest.json';
 const LEGACY_URL = './data/legacy.json';
 const HISTORY_URL = './data/history.json';
+const DECISIONS_URL = './data/decisions.json';
+const ERROR_STATUS_URL = './data/error_status.json';
 // 기본 화면에 표시할 최근 N일 (history.json에서 추출)
 // 1 = 어제 + 오늘 (legacy.json에 5/11 이전 데이터 있음)
 const RECENT_DAYS = 2;
-const DECISIONS_URL = './data/decisions.json';
 
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
@@ -721,11 +776,76 @@ async function loadData() {
     }
 
     enrichAndRender();
+
+    // 크롤링 에러 상태 확인 (서버에서 기록된 error_status.json)
+    checkCrawlErrorStatus();
   } catch (err) {
     console.error(err);
     showAlert(`데이터를 가져오지 못했습니다 (${err.message}).`, 'error', false);
     $('#tableContainer').innerHTML = `<div class="empty-state"><div class="empty-state-icon">∅</div><div>데이터 없음</div></div>`;
   }
+}
+
+// 크롤링 에러 상태를 확인하고 배너 표시
+async function checkCrawlErrorStatus() {
+  try {
+    const ts = Date.now();
+    const resp = await fetch(`${ERROR_STATUS_URL}?t=${ts}`);
+    if (!resp.ok) {
+      // 파일이 없으면 정상 상태 (에러 없음)
+      hideCrawlErrorBanner();
+      return;
+    }
+    const data = await resp.json();
+    showCrawlErrorBanner(data);
+  } catch (e) {
+    // 파일 없거나 파싱 실패 → 정상 상태로 간주
+    hideCrawlErrorBanner();
+  }
+}
+
+function showCrawlErrorBanner(errorData) {
+  const existing = document.getElementById('crawlErrorBanner');
+  if (existing) existing.remove();
+
+  const banner = document.createElement('div');
+  banner.id = 'crawlErrorBanner';
+  banner.className = 'crawl-error-banner';
+
+  // 에러 발생 시각 포맷
+  let timeStr = '';
+  try {
+    const d = new Date(errorData.error_at);
+    timeStr = `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  } catch (e) {
+    timeStr = errorData.error_at || '시각 미상';
+  }
+
+  const message = errorData.message || 'TVCF 사이트에 일시적인 문제가 발생했습니다.';
+
+  banner.innerHTML = `
+    <div class="crawl-error-content">
+      <span class="crawl-error-icon">⚠️</span>
+      <div class="crawl-error-text">
+        <div class="crawl-error-title">크롤링 일시 장애 (${timeStr})</div>
+        <div class="crawl-error-desc">${message} 다음 크롤링 시점(12시 / 17시 / 익일 10시)에 자동으로 재시도됩니다.</div>
+      </div>
+      <button class="crawl-error-close" onclick="document.getElementById('crawlErrorBanner').style.display='none'" title="닫기">×</button>
+    </div>
+  `;
+
+  // alertBox 위쪽에 삽입
+  const alertBox = $('#alertBox');
+  if (alertBox && alertBox.parentNode) {
+    alertBox.parentNode.insertBefore(banner, alertBox);
+  } else {
+    document.body.insertBefore(banner, document.body.firstChild);
+  }
+}
+
+function hideCrawlErrorBanner() {
+  const existing = document.getElementById('crawlErrorBanner');
+  if (existing) existing.remove();
 }
 
 function enrichAndRender() {
