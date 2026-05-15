@@ -1,8 +1,9 @@
 name: Daily TVCF Crawl
 on:
   schedule:
-    # 한국 시간 오전 10시 (UTC 01:00)
-    - cron: '0 1 * * *'
+    - cron: '0 1 * * *'   # 한국 오전 10시
+    - cron: '0 3 * * *'   # 한국 오후 12시
+    - cron: '0 8 * * *'   # 한국 오후 5시
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,6 +32,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Daily crawl: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Crawl: $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
             git push
           fi
