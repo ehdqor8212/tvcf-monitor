@@ -1,9 +1,8 @@
 name: Daily TVCF Crawl
 on:
-  schedule:
-    - cron: '0 1 * * *'   # 한국 오전 10시
-    - cron: '0 3 * * *'   # 한국 오후 12시
-    - cron: '0 8 * * *'   # 한국 오후 5시
+  # cron-job.org에서 트리거 (REST API 호출)
+  # GitHub cron은 시간이 부정확하므로 제거됨
+  # cron-job.org에 10시/12시/17시 3개 등록되어 있음
   workflow_dispatch:
 permissions:
   contents: write
