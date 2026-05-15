@@ -66,6 +66,7 @@ LATEST_FILE = DATA_DIR / "latest.json"
 HISTORY_FILE = DATA_DIR / "history.json"
 STATE_FILE = DATA_DIR / "state.json"
 DECISIONS_FILE = DATA_DIR / "decisions.json"
+ERROR_STATUS_FILE = DATA_DIR / "error_status.json"
 
 DELAY_SEC = 0.5
 
@@ -240,10 +241,55 @@ def save_json(path: Path, data):
 
 
 def fetch(url, **kwargs):
+    """HTTP GET 요청 with 자동 재시도
+    - 500, 502, 503, 504 같은 서버 에러 발생 시 자동 재시도
+    - 1차 즉시 → 실패 시 60초 후 → 또 실패 시 10분 후
+    - 모두 실패하면 마지막 에러 raise
+    """
     headers = kwargs.pop("headers", HEADERS)
-    r = requests.get(url, headers=headers, timeout=20, **kwargs)
-    r.raise_for_status()
-    return r
+    max_retries = 3
+    retry_delays = [60, 600]  # 1차 실패 후 60초, 2차 실패 후 10분(600초) 대기
+
+    last_error = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            r = requests.get(url, headers=headers, timeout=20, **kwargs)
+            # 5xx 서버 에러는 재시도
+            if 500 <= r.status_code < 600 and attempt < max_retries:
+                wait = retry_delays[attempt - 1]
+                wait_label = f"{wait}초" if wait < 60 else f"{wait//60}분"
+                print(f"     ⚠ 서버 에러 {r.status_code} (시도 {attempt}/{max_retries}). {wait_label} 대기 후 재시도...")
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r
+        except (requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout) as e:
+            # 네트워크 에러도 재시도
+            last_error = e
+            if attempt < max_retries:
+                wait = retry_delays[attempt - 1]
+                wait_label = f"{wait}초" if wait < 60 else f"{wait//60}분"
+                print(f"     ⚠ 네트워크 에러 (시도 {attempt}/{max_retries}): {type(e).__name__}. {wait_label} 대기 후 재시도...")
+                time.sleep(wait)
+            else:
+                raise
+        except requests.exceptions.HTTPError as e:
+            # 4xx 클라이언트 에러는 즉시 실패 (재시도 무의미)
+            if 400 <= e.response.status_code < 500:
+                raise
+            last_error = e
+            if attempt < max_retries:
+                wait = retry_delays[attempt - 1]
+                wait_label = f"{wait}초" if wait < 60 else f"{wait//60}분"
+                print(f"     ⚠ HTTP 에러 {e.response.status_code} (시도 {attempt}/{max_retries}). {wait_label} 대기 후 재시도...")
+                time.sleep(wait)
+            else:
+                raise
+
+    if last_error:
+        raise last_error
+    raise RuntimeError("fetch failed after retries")
 
 
 def fetch_list():
@@ -491,8 +537,24 @@ def main():
     try:
         ads = fetch_list()
         print(f"   ✓ 유효 광고: {len(ads)}개")
+        # 성공: error_status.json 파일이 있으면 삭제 (정상 복구 표시)
+        if ERROR_STATUS_FILE.exists():
+            try:
+                ERROR_STATUS_FILE.unlink()
+                print(f"   ✓ 이전 에러 상태 클리어")
+            except Exception:
+                pass
     except Exception as e:
-        print(f"❌ 목록 페이지 실패: {type(e).__name__}: {e}")
+        error_msg = f"{type(e).__name__}: {e}"
+        print(f"❌ 목록 페이지 실패: {error_msg}")
+        # 에러 상태 기록 (페이지에서 배너로 표시할 수 있도록)
+        save_json(ERROR_STATUS_FILE, {
+            "error_at": now_kst().isoformat(),
+            "error_type": type(e).__name__,
+            "error_message": str(e)[:300],  # 너무 길지 않게 제한
+            "source": "fetch_list",
+            "message": "TVCF 사이트에 일시적인 문제가 발생했습니다. 자동으로 재시도되며 곧 복구됩니다.",
+        })
         return 1
 
     if is_first_run:
