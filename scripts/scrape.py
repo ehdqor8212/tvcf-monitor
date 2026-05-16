@@ -16,6 +16,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── 설정 ──────────────────────────────────────────────────────
+MAIN_URL = "https://tvcf.co.kr/"
 LIST_URL = "https://tvcf.co.kr/worked/cf"
 STAFFS_API_TEMPLATE = "https://tvcf.co.kr/api/main/v1/play/{idx}/staffs"
 
@@ -53,6 +54,11 @@ API_HEADERS = {
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
     "Referer": "https://tvcf.co.kr/",
 }
+
+# 글로벌 세션 (쿠키 자동 유지)
+# init_session()에서 메인 페이지 방문 후 모든 요청에 동일 세션 사용
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 KST = timezone(timedelta(hours=9))
 
@@ -237,26 +243,61 @@ def save_json(path: Path, data):
     )
 
 
+def init_session():
+    """메인 페이지를 먼저 방문해서 쿠키와 세션을 받아오는 워밍업 단계
+    - 봇 차단을 우회하기 위함: 진짜 브라우저는 보통 메인 페이지부터 방문함
+    - 실패해도 main() 흐름은 계속 (다음 요청에서 다시 시도됨)
+    """
+    print(f"   🔓 세션 초기화 (메인 페이지 방문)...")
+    try:
+        # 메인 페이지는 Referer 없이 방문 (외부에서 들어온 것처럼)
+        warmup_headers = dict(HEADERS)
+        warmup_headers.pop("Referer", None)
+        warmup_headers["Sec-Fetch-Site"] = "none"
+        warmup_headers["Sec-Fetch-User"] = "?1"
+
+        r = SESSION.get(MAIN_URL, headers=warmup_headers, timeout=15)
+        cookie_count = len(SESSION.cookies)
+        print(f"     status: {r.status_code}, 받은 쿠키: {cookie_count}개")
+
+        if cookie_count > 0:
+            cookie_names = ", ".join(c.name for c in SESSION.cookies)
+            print(f"     쿠키 종류: {cookie_names}")
+
+        # 잠깐 대기 (사람이 페이지 본 다음 다른 곳 가는 것처럼)
+        time.sleep(2)
+        return True
+    except Exception as e:
+        print(f"     ⚠ 세션 초기화 실패 (계속 진행): {type(e).__name__}: {e}")
+        return False
+
+
 def fetch(url, **kwargs):
-    """HTTP GET 요청 with 자동 재시도
+    """HTTP GET 요청 with 자동 재시도 (세션 사용)
     - 500, 502, 503, 504 같은 서버 에러 발생 시 자동 재시도
     - 1차 즉시 → 실패 시 60초 후 → 또 실패 시 10분 후
     - 모두 실패하면 마지막 에러 raise
+    - 세션 사용으로 쿠키 자동 유지
     """
-    headers = kwargs.pop("headers", HEADERS)
+    headers = kwargs.pop("headers", None)
     max_retries = 3
     retry_delays = [60, 600]  # 1차 실패 후 60초, 2차 실패 후 10분(600초) 대기
 
     last_error = None
     for attempt in range(1, max_retries + 1):
         try:
-            r = requests.get(url, headers=headers, timeout=20, **kwargs)
+            # SESSION을 통해 요청 → 쿠키 자동 첨부
+            r = SESSION.get(url, headers=headers, timeout=20, **kwargs)
             # 5xx 서버 에러는 재시도
             if 500 <= r.status_code < 600 and attempt < max_retries:
                 wait = retry_delays[attempt - 1]
                 wait_label = f"{wait}초" if wait < 60 else f"{wait//60}분"
                 print(f"     ⚠ 서버 에러 {r.status_code} (시도 {attempt}/{max_retries}). {wait_label} 대기 후 재시도...")
                 time.sleep(wait)
+                # 재시도 직전에 세션 다시 초기화 (쿠키 갱신)
+                if attempt == 2:  # 마지막 재시도 전에는 세션 재초기화
+                    print(f"     🔄 세션 재초기화 시도...")
+                    init_session()
                 continue
             r.raise_for_status()
             return r
@@ -413,7 +454,8 @@ def fetch_advertiser_from_api(ad_id):
     """
     url = STAFFS_API_TEMPLATE.format(idx=ad_id)
     try:
-        r = requests.get(
+        # SESSION을 통해 요청 (쿠키 자동 첨부)
+        r = SESSION.get(
             url,
             headers=API_HEADERS,
             params={"content_type": "AD"},
@@ -531,6 +573,8 @@ def main():
     print(f"📦 누적 광고 ID: {len(known_ids)}개")
 
     print("\n📥 목록 페이지 크롤링 중...")
+    # 봇 차단 우회를 위해 메인 페이지 먼저 방문 (쿠키/세션 받기)
+    init_session()
     try:
         ads = fetch_list()
         print(f"   ✓ 유효 광고: {len(ads)}개")
