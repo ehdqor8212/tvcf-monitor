@@ -1,15 +1,12 @@
 name: Daily TVCF Crawl
 on:
-  # cron-job.org에서 트리거 (REST API 호출)
-  # GitHub cron은 시간이 부정확하므로 제거됨
-  # cron-job.org에 10시/12시/17시 3개 등록되어 있음
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -19,6 +16,8 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+      - name: Install Playwright browsers
+        run: python -m playwright install chromium --with-deps
       - name: Run scraper
         env:
           MASTER_ADVERTISERS: ${{ secrets.MASTER_ADVERTISERS }}
