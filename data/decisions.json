@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-20T10:03:35.051698+09:00",
-  "count": 44,
-  "x_count": 68,
+  "updated_at": "2026-05-20T12:02:15.095589+09:00",
+  "count": 46,
+  "x_count": 71,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -300,6 +300,20 @@
       "status": "o",
       "matched_name": "기아",
       "updated_at": "2026-05-20T10:03:35.045851+09:00",
+      "auto": true
+    },
+    "삼성화재다이렉트": {
+      "display_name": "삼성화재 다이렉트",
+      "status": "maybe",
+      "matched_name": "삼성화재",
+      "updated_at": "2026-05-20T12:02:15.087344+09:00",
+      "auto": true
+    },
+    "삼성자산운용": {
+      "display_name": "삼성자산운용",
+      "status": "o",
+      "matched_name": "삼성자산운용",
+      "updated_at": "2026-05-20T12:02:15.095277+09:00",
       "auto": true
     }
   },
@@ -706,6 +720,24 @@
       "advertiser": "사각코퍼레이션",
       "status": "x",
       "updated_at": "2026-05-20T10:03:35.051352+09:00",
+      "auto": true
+    },
+    "1017678": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-05-20T12:02:15.089853+09:00",
+      "auto": true
+    },
+    "1017675": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-05-20T12:02:15.092338+09:00",
+      "auto": true
+    },
+    "1017314": {
+      "advertiser": "바이노텍",
+      "status": "x",
+      "updated_at": "2026-05-20T12:02:15.094826+09:00",
       "auto": true
     }
   }
