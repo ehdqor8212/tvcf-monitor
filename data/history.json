@@ -1,5 +1,68 @@
 [
   {
+    "ad_id": "1017697",
+    "prefix": "bi1974",
+    "url": "https://tvcf.co.kr/play/bi1974-1017697",
+    "card_title": "NH농협은행이 땅에 진심인 100% 은행",
+    "onair": "05.20",
+    "registered_short": "05.20",
+    "brand": "NH농협은행",
+    "campaign": null,
+    "registered_date": "2026-05-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "NH농협은행",
+    "advertiser_code": "C000011165",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017693",
+        "url": "https://tvcf.co.kr/play/bi1939-1017693",
+        "brand": "NH농협은행",
+        "campaign": null,
+        "card_title": "NH농협은행이 땅에 진심인 100% 은행"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-05-20T17:07:26.382951+09:00"
+  },
+  {
+    "ad_id": "1017695",
+    "prefix": "bi1952",
+    "url": "https://tvcf.co.kr/play/bi1952-1017695",
+    "card_title": "LG전자LG MEMBER DAYS 2026",
+    "onair": "05.20",
+    "registered_short": "05.20",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-05-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017696",
+        "url": "https://tvcf.co.kr/play/ai1963-1017696",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자LG MEMBER DAYS 2026"
+      },
+      {
+        "ad_id": "1017694",
+        "url": "https://tvcf.co.kr/play/ai1941-1017694",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자LG MEMBER DAYS 2026"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-05-20T17:07:26.382953+09:00"
+  },
+  {
     "ad_id": "1017659",
     "prefix": "bi1592",
     "url": "https://tvcf.co.kr/play/bi1592-1017659",
@@ -36,6 +99,90 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-20T10:03:35.030942+09:00"
+  },
+  {
+    "ad_id": "1017750",
+    "prefix": "ai2503",
+    "url": "https://tvcf.co.kr/play/ai2503-1017750",
+    "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 완벽한 수면 환경을 만들기 위한 FLEX, R7 스트레칭 모션베드와 RS 스마트 베드",
+    "onair": "05.19",
+    "registered_short": "05.20",
+    "brand": "코웨이 비렉스 R시리즈",
+    "campaign": null,
+    "registered_date": "2026-05-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "코웨이",
+    "advertiser_code": "C000004037",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017752",
+        "url": "https://tvcf.co.kr/play/ai1525-1017752",
+        "brand": "코웨이 비렉스 R시리즈",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 한시도 떨어지지 않는 우리 부녀를 위한 R3 모션베드와 R0 일반 베드"
+      },
+      {
+        "ad_id": "1017751",
+        "url": "https://tvcf.co.kr/play/bi1514-1017751",
+        "brand": "코웨이 비렉스 R시리즈",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 취미는 달라도, 수면은 편안해야 하니까! R5 스트레칭 베드와 R3 모션베드"
+      },
+      {
+        "ad_id": "1017749",
+        "url": "https://tvcf.co.kr/play/bi1492-1017749",
+        "brand": "코웨이 비렉스 R3 모션베드",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R3 모션베드[COWAY BEREX] 업무와 취미 모두를 침대 위에서 가능하도록, R3 모션베드"
+      },
+      {
+        "ad_id": "1017748",
+        "url": "https://tvcf.co.kr/play/ai1481-1017748",
+        "brand": "코웨이 비렉스 R5 스트레칭 베드",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R5 스트레칭 베드[COWAY BEREX] 아이고, 곡 소리 나는 피로를 시원하게 풀어주는 R5 스트레칭 베드"
+      },
+      {
+        "ad_id": "1017747",
+        "url": "https://tvcf.co.kr/play/bi1479-1017747",
+        "brand": "코웨이 비렉스 R7 스트레칭 모션베드",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R7 스트레칭 모션베드[COWAY BEREX] 운동만큼 중요한 스트레칭, 더 자주 하고 싶다면? R7 스트레칭 모션베드"
+      },
+      {
+        "ad_id": "1017745",
+        "url": "https://tvcf.co.kr/play/bi1457-1017745",
+        "brand": "코웨이 비렉스 R7 스트레칭 모션베드",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R7 스트레칭 모션베드[COWAY BEREX] 양 세다 밤새는 당신의 편안한 숙면을 도와줄 R7 스트레칭 모션베드"
+      },
+      {
+        "ad_id": "1017743",
+        "url": "https://tvcf.co.kr/play/bi1435-1017743",
+        "brand": "코웨이 비렉스 R시리즈",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 81가지의 조합이 가능한 비렉스의 슬립테크로 수면 고민 해결!"
+      },
+      {
+        "ad_id": "1017742",
+        "url": "https://tvcf.co.kr/play/ai1424-1017742",
+        "brand": "코웨이 비렉스 R시리즈",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 각자의 수면 고민에 맞는 침대를 찾고 싶다면? 비렉스 R 시리즈를 주목!"
+      },
+      {
+        "ad_id": "1017729",
+        "url": "https://tvcf.co.kr/play/bi1299-1017729",
+        "brand": "코웨이 비렉스 R시리즈",
+        "campaign": null,
+        "card_title": "코웨이 비렉스 R시리즈[COWAY BEREX] 다양한 수면 고민을 가진 이 마을의 사람들을 소개합니다!"
+      }
+    ],
+    "variant_count": 10,
+    "collected_at": "2026-05-20T17:07:26.382938+09:00"
   },
   {
     "ad_id": "1017670",
@@ -201,6 +348,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-19T17:10:22.917857+09:00"
+  },
+  {
+    "ad_id": "1017684",
+    "prefix": "ai1849",
+    "url": "https://tvcf.co.kr/play/ai1849-1017684",
+    "card_title": "젠틀몬스터2026 Veggie Collection",
+    "onair": "05.18",
+    "registered_short": "05.20",
+    "brand": "젠틀몬스터",
+    "campaign": null,
+    "registered_date": "2026-05-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "아이아이컴바인드",
+    "advertiser_code": "C000055698",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382960+09:00"
   },
   {
     "ad_id": "1017675",
@@ -499,6 +665,25 @@
     "collected_at": "2026-05-19T17:10:22.917889+09:00"
   },
   {
+    "ad_id": "1017778",
+    "prefix": "ai1784",
+    "url": "https://tvcf.co.kr/play/ai1784-1017778",
+    "card_title": "네이버페이 커넥트모아",
+    "onair": "05.17",
+    "registered_short": "05.20",
+    "brand": "네이버페이 커넥트",
+    "campaign": null,
+    "registered_date": "2026-05-17",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "네이버",
+    "advertiser_code": "C000012216",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382930+09:00"
+  },
+  {
     "ad_id": "1017412",
     "prefix": "ai1127",
     "url": "https://tvcf.co.kr/play/ai1127-1017412",
@@ -572,6 +757,93 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-05-19T17:10:22.917906+09:00"
+  },
+  {
+    "ad_id": "1017784",
+    "prefix": "ai1841",
+    "url": "https://tvcf.co.kr/play/ai1841-1017784",
+    "card_title": "네이버페이 커넥트다코야키",
+    "onair": "05.16",
+    "registered_short": "05.20",
+    "brand": "네이버페이 커넥트",
+    "campaign": null,
+    "registered_date": "2026-05-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "네이버",
+    "advertiser_code": "C000012216",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017782",
+        "url": "https://tvcf.co.kr/play/ai1828-1017782",
+        "brand": "네이버페이 커넥트",
+        "campaign": null,
+        "card_title": "네이버페이 커넥트카페"
+      },
+      {
+        "ad_id": "1017781",
+        "url": "https://tvcf.co.kr/play/bi1817-1017781",
+        "brand": "네이버페이 커넥트",
+        "campaign": null,
+        "card_title": "네이버페이 커넥트카페"
+      },
+      {
+        "ad_id": "1017780",
+        "url": "https://tvcf.co.kr/play/ai2806-1017780",
+        "brand": "네이버페이 커넥트",
+        "campaign": null,
+        "card_title": "네이버페이 커넥트고깃집"
+      },
+      {
+        "ad_id": "1017779",
+        "url": "https://tvcf.co.kr/play/bi1795-1017779",
+        "brand": "네이버페이 커넥트",
+        "campaign": null,
+        "card_title": "네이버페이 커넥트보니"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-05-20T17:07:26.382918+09:00"
+  },
+  {
+    "ad_id": "1017744",
+    "prefix": "ai1446",
+    "url": "https://tvcf.co.kr/play/ai1446-1017744",
+    "card_title": "맘스터치맘스터치 당근빵 똑히대군 진격 완료",
+    "onair": "05.16",
+    "registered_short": "05.20",
+    "brand": "맘스터치",
+    "campaign": null,
+    "registered_date": "2026-05-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "맘스터치",
+    "advertiser_code": "C000035273",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382948+09:00"
+  },
+  {
+    "ad_id": "1017741",
+    "prefix": "bi1413",
+    "url": "https://tvcf.co.kr/play/bi1413-1017741",
+    "card_title": "오프뷰티OFF BEAUTY X SHIN YEEUN",
+    "onair": "05.16",
+    "registered_short": "05.20",
+    "brand": "오프뷰티",
+    "campaign": null,
+    "registered_date": "2026-05-16",
+    "media_type": "케이블",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "큐앤드비인터내셔날",
+    "advertiser_code": "C000037372",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382949+09:00"
   },
   {
     "ad_id": "1017357",
@@ -765,6 +1037,60 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-20T12:02:15.082244+09:00"
+  },
+  {
+    "ad_id": "1017777",
+    "prefix": "bi1773",
+    "url": "https://tvcf.co.kr/play/bi1773-1017777",
+    "card_title": "데이지라거티저",
+    "onair": "05.14",
+    "registered_short": "05.20",
+    "brand": "데이지라거",
+    "campaign": null,
+    "registered_date": "2026-05-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "GS25",
+    "advertiser_code": "C000028954",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382933+09:00"
+  },
+  {
+    "ad_id": "1017756",
+    "prefix": "ai1569",
+    "url": "https://tvcf.co.kr/play/ai1569-1017756",
+    "card_title": "프리베나20[프리베나20] 널 위한 든든한 맘, 프리베나20 (15s – 아빠)",
+    "onair": "05.14",
+    "registered_short": "05.20",
+    "brand": "프리베나20",
+    "campaign": null,
+    "registered_date": "2026-05-14",
+    "media_type": "케이블",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "한국화이자제약",
+    "advertiser_code": "C000011897",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017757",
+        "url": "https://tvcf.co.kr/play/bi1571-1017757",
+        "brand": "프리베나20",
+        "campaign": null,
+        "card_title": "프리베나20[프리베나20] 널 위한 든든한 맘, 프리베나20 (15s – 엄마)"
+      },
+      {
+        "ad_id": "1017755",
+        "url": "https://tvcf.co.kr/play/bi1558-1017755",
+        "brand": "프리베나20",
+        "campaign": null,
+        "card_title": "프리베나20[프리베나20] 널 위한 든든한 맘, 프리베나20 (Full ver.)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-05-20T17:07:26.382935+09:00"
   },
   {
     "ad_id": "1017678",
@@ -2287,6 +2613,25 @@
     "advertiser_fallback": false
   },
   {
+    "ad_id": "1017760",
+    "prefix": "ai2604",
+    "url": "https://tvcf.co.kr/play/ai2604-1017760",
+    "card_title": "한국경제신문인천공항 5월 DOOH 콘텐츠",
+    "onair": "05.05",
+    "registered_short": "05.20",
+    "brand": "한국경제신문",
+    "campaign": null,
+    "registered_date": "2026-05-05",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "한국경제신문",
+    "advertiser_code": "C000085692",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382940+09:00"
+  },
+  {
     "ad_id": "1017098",
     "prefix": "ai2988",
     "url": "https://tvcf.co.kr/play/ai2988-1017098",
@@ -2397,6 +2742,25 @@
     "collected_at": "2026-05-14T14:43:24.067783+09:00"
   },
   {
+    "ad_id": "1017736",
+    "prefix": "ai1367",
+    "url": "https://tvcf.co.kr/play/ai1367-1017736",
+    "card_title": "서울특별시필름카메라로 담은 #서울국제정원박람회 나들이",
+    "onair": "04.30",
+    "registered_short": "05.20",
+    "brand": "서울특별시",
+    "campaign": null,
+    "registered_date": "2026-04-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울특별시",
+    "advertiser_code": "C000011077",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382946+09:00"
+  },
+  {
     "ad_id": "1017099",
     "prefix": "bi2999",
     "url": "https://tvcf.co.kr/play/bi2999-1017099",
@@ -2489,6 +2853,25 @@
     "collected_at": "2026-05-19T17:10:22.917845+09:00"
   },
   {
+    "ad_id": "1017690",
+    "prefix": "ai2906",
+    "url": "https://tvcf.co.kr/play/ai2906-1017690",
+    "card_title": "세븐일레븐숨결통식빵 시티팝",
+    "onair": "04.23",
+    "registered_short": "05.20",
+    "brand": "세븐일레븐",
+    "campaign": null,
+    "registered_date": "2026-04-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "세븐일레븐",
+    "advertiser_code": "C000036199",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382957+09:00"
+  },
+  {
     "ad_id": "1016711",
     "prefix": "bi1119",
     "url": "https://tvcf.co.kr/play/bi1119-1016711",
@@ -2506,6 +2889,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-13T22:05:13.712630+09:00"
+  },
+  {
+    "ad_id": "1017689",
+    "prefix": "bi1895",
+    "url": "https://tvcf.co.kr/play/bi1895-1017689",
+    "card_title": "세븐일레븐숨결통식빵 시티팝 숏츠",
+    "onair": "04.22",
+    "registered_short": "05.20",
+    "brand": "세븐일레븐",
+    "campaign": null,
+    "registered_date": "2026-04-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "세븐일레븐",
+    "advertiser_code": "C000036199",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382955+09:00"
   },
   {
     "ad_id": "1016710",
@@ -2543,6 +2945,34 @@
     "brand": "메르세데스 벤츠",
     "advertiser_code": "C000015965",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1017687",
+    "prefix": "bi1873",
+    "url": "https://tvcf.co.kr/play/bi1873-1017687",
+    "card_title": "세븐일레븐숨결통식빵 사극",
+    "onair": "04.16",
+    "registered_short": "05.20",
+    "brand": "세븐일레븐",
+    "campaign": null,
+    "registered_date": "2026-04-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "세븐일레븐",
+    "advertiser_code": "C000036199",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1017688",
+        "url": "https://tvcf.co.kr/play/ai1884-1017688",
+        "brand": "세븐일레븐",
+        "campaign": null,
+        "card_title": "세븐일레븐숨결통식빵 사극 숏츠"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-05-20T17:07:26.382959+09:00"
   },
   {
     "ad_id": "1017279",
@@ -2652,6 +3082,25 @@
     "brand": "백년농가",
     "advertiser_code": "4152204",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1017754",
+    "prefix": "ai1547",
+    "url": "https://tvcf.co.kr/play/ai1547-1017754",
+    "card_title": "한국경제신문인천공항 설날 DOOH 콘텐츠",
+    "onair": "02.12",
+    "registered_short": "05.20",
+    "brand": "한국경제신문",
+    "campaign": null,
+    "registered_date": "2026-02-12",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "한국경제신문",
+    "advertiser_code": "C000085692",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382942+09:00"
   },
   {
     "ad_id": "1016664",
@@ -2778,6 +3227,25 @@
     "brand": "핑크원더",
     "advertiser_code": "C000166805",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1017753",
+    "prefix": "bi1536",
+    "url": "https://tvcf.co.kr/play/bi1536-1017753",
+    "card_title": "한국경제신문인천공항 12월 DOOH 콘텐츠",
+    "onair": "2025.12.25",
+    "registered_short": "05.20",
+    "brand": "한국경제신문",
+    "campaign": null,
+    "registered_date": "2025-12-25",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "한국경제신문",
+    "advertiser_code": "C000085692",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-20T17:07:26.382944+09:00"
   },
   {
     "ad_id": "1017652",

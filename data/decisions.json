@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-20T12:02:15.095589+09:00",
-  "count": 46,
-  "x_count": 71,
+  "updated_at": "2026-05-20T17:07:26.421315+09:00",
+  "count": 52,
+  "x_count": 80,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -314,6 +314,48 @@
       "status": "o",
       "matched_name": "삼성자산운용",
       "updated_at": "2026-05-20T12:02:15.095277+09:00",
+      "auto": true
+    },
+    "네이버": {
+      "display_name": "네이버",
+      "status": "o",
+      "matched_name": "네이버",
+      "updated_at": "2026-05-20T17:07:26.387110+09:00",
+      "auto": true
+    },
+    "한국화이자제약": {
+      "display_name": "한국화이자제약",
+      "status": "o",
+      "matched_name": "한국화이자제약",
+      "updated_at": "2026-05-20T17:07:26.391343+09:00",
+      "auto": true
+    },
+    "코웨이": {
+      "display_name": "코웨이",
+      "status": "o",
+      "matched_name": "코웨이",
+      "updated_at": "2026-05-20T17:07:26.392475+09:00",
+      "auto": true
+    },
+    "서울특별시": {
+      "display_name": "서울특별시",
+      "status": "maybe",
+      "matched_name": "서울특별시청",
+      "updated_at": "2026-05-20T17:07:26.402930+09:00",
+      "auto": true
+    },
+    "맘스터치": {
+      "display_name": "맘스터치",
+      "status": "maybe",
+      "matched_name": "맘스터치앤컴퍼니",
+      "updated_at": "2026-05-20T17:07:26.404710+09:00",
+      "auto": true
+    },
+    "nh농협은행": {
+      "display_name": "NH농협은행",
+      "status": "maybe",
+      "matched_name": "엔에이치농협은행(NH농협은행)",
+      "updated_at": "2026-05-20T17:07:26.409691+09:00",
       "auto": true
     }
   },
@@ -738,6 +780,60 @@
       "advertiser": "바이노텍",
       "status": "x",
       "updated_at": "2026-05-20T12:02:15.094826+09:00",
+      "auto": true
+    },
+    "1017777": {
+      "advertiser": "GS25",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.389967+09:00",
+      "auto": true
+    },
+    "1017760": {
+      "advertiser": "한국경제신문",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.395296+09:00",
+      "auto": true
+    },
+    "1017754": {
+      "advertiser": "한국경제신문",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.398138+09:00",
+      "auto": true
+    },
+    "1017753": {
+      "advertiser": "한국경제신문",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.400987+09:00",
+      "auto": true
+    },
+    "1017741": {
+      "advertiser": "큐앤드비인터내셔날",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.407535+09:00",
+      "auto": true
+    },
+    "1017689": {
+      "advertiser": "세븐일레븐",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.412508+09:00",
+      "auto": true
+    },
+    "1017690": {
+      "advertiser": "세븐일레븐",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.415320+09:00",
+      "auto": true
+    },
+    "1017687": {
+      "advertiser": "세븐일레븐",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.418139+09:00",
+      "auto": true
+    },
+    "1017684": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.420962+09:00",
       "auto": true
     }
   }
