@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-19T17:10:22.970282+09:00",
-  "count": 43,
-  "x_count": 62,
+  "updated_at": "2026-05-20T10:03:35.051698+09:00",
+  "count": 44,
+  "x_count": 68,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -293,6 +293,13 @@
       "status": "o",
       "matched_name": "롯데칠성음료",
       "updated_at": "2026-05-19T17:10:22.970072+09:00",
+      "auto": true
+    },
+    "기아": {
+      "display_name": "기아",
+      "status": "o",
+      "matched_name": "기아",
+      "updated_at": "2026-05-20T10:03:35.045851+09:00",
       "auto": true
     }
   },
@@ -663,6 +670,42 @@
       "advertiser": "SBS",
       "status": "x",
       "updated_at": "2026-05-19T17:10:22.969777+09:00",
+      "auto": true
+    },
+    "1017659": {
+      "advertiser": "scent9",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.037363+09:00",
+      "auto": true
+    },
+    "1017670": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.040136+09:00",
+      "auto": true
+    },
+    "1017652": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.042932+09:00",
+      "auto": true
+    },
+    "1017660": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.045673+09:00",
+      "auto": true
+    },
+    "1017657": {
+      "advertiser": "OHIR",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.048642+09:00",
+      "auto": true
+    },
+    "1017569": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.051352+09:00",
       "auto": true
     }
   }
