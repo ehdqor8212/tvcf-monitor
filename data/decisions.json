@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T10:02:02.686392+09:00",
-  "count": 54,
-  "x_count": 85,
+  "updated_at": "2026-05-21T12:03:00.848257+09:00",
+  "count": 57,
+  "x_count": 88,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -370,6 +370,27 @@
       "status": "o",
       "matched_name": "유한킴벌리",
       "updated_at": "2026-05-21T10:02:02.680332+09:00",
+      "auto": true
+    },
+    "아워홈": {
+      "display_name": "아워홈",
+      "status": "o",
+      "matched_name": "아워홈",
+      "updated_at": "2026-05-21T12:03:00.837314+09:00",
+      "auto": true
+    },
+    "빙그레": {
+      "display_name": "빙그레",
+      "status": "o",
+      "matched_name": "빙그레",
+      "updated_at": "2026-05-21T12:03:00.837816+09:00",
+      "auto": true
+    },
+    "대상": {
+      "display_name": "대상",
+      "status": "maybe",
+      "matched_name": "(미집행) 대상",
+      "updated_at": "2026-05-21T12:03:00.839236+09:00",
       "auto": true
     }
   },
@@ -878,6 +899,24 @@
       "advertiser": "더불정보기술",
       "status": "x",
       "updated_at": "2026-05-21T10:02:02.686013+09:00",
+      "auto": true
+    },
+    "1017828": {
+      "advertiser": "팀홀튼 코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T12:03:00.842077+09:00",
+      "auto": true
+    },
+    "1017827": {
+      "advertiser": "팀홀튼 코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T12:03:00.845038+09:00",
+      "auto": true
+    },
+    "1017824": {
+      "advertiser": "팀홀튼 코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T12:03:00.847854+09:00",
       "auto": true
     }
   }
