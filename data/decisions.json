@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-20T17:07:26.421315+09:00",
-  "count": 52,
-  "x_count": 80,
+  "updated_at": "2026-05-21T10:02:02.686392+09:00",
+  "count": 54,
+  "x_count": 85,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -356,6 +356,20 @@
       "status": "maybe",
       "matched_name": "엔에이치농협은행(NH농협은행)",
       "updated_at": "2026-05-20T17:07:26.409691+09:00",
+      "auto": true
+    },
+    "에이스침대": {
+      "display_name": "에이스침대",
+      "status": "o",
+      "matched_name": "에이스침대",
+      "updated_at": "2026-05-21T10:02:02.670935+09:00",
+      "auto": true
+    },
+    "유한킴벌리": {
+      "display_name": "유한킴벌리",
+      "status": "o",
+      "matched_name": "유한킴벌리",
+      "updated_at": "2026-05-21T10:02:02.680332+09:00",
       "auto": true
     }
   },
@@ -834,6 +848,36 @@
       "advertiser": "아이아이컴바인드",
       "status": "x",
       "updated_at": "2026-05-20T17:07:26.420962+09:00",
+      "auto": true
+    },
+    "1017807": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.673799+09:00",
+      "auto": true
+    },
+    "1017809": {
+      "advertiser": "아우디코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.676609+09:00",
+      "auto": true
+    },
+    "1016375": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.679434+09:00",
+      "auto": true
+    },
+    "1017786": {
+      "advertiser": "요헤미티",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.683202+09:00",
+      "auto": true
+    },
+    "1017783": {
+      "advertiser": "더불정보기술",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.686013+09:00",
       "auto": true
     }
   }
