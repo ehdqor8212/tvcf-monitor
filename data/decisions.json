@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T12:03:00.848257+09:00",
+  "updated_at": "2026-05-21T17:03:59.394812+09:00",
   "count": 57,
-  "x_count": 88,
+  "x_count": 90,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -917,6 +917,18 @@
       "advertiser": "팀홀튼 코리아",
       "status": "x",
       "updated_at": "2026-05-21T12:03:00.847854+09:00",
+      "auto": true
+    },
+    "1017908": {
+      "advertiser": "OUI Inc.",
+      "status": "x",
+      "updated_at": "2026-05-21T17:03:59.391450+09:00",
+      "auto": true
+    },
+    "1017841": {
+      "advertiser": "365mc네트웍스",
+      "status": "x",
+      "updated_at": "2026-05-21T17:03:59.394226+09:00",
       "auto": true
     }
   }
