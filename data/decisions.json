@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T17:03:59.394812+09:00",
-  "count": 57,
-  "x_count": 90,
+  "updated_at": "2026-05-22T12:05:21.642565+09:00",
+  "count": 60,
+  "x_count": 101,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -391,6 +391,27 @@
       "status": "maybe",
       "matched_name": "(미집행) 대상",
       "updated_at": "2026-05-21T12:03:00.839236+09:00",
+      "auto": true
+    },
+    "윌리엄그랜트앤선즈코리아": {
+      "display_name": "윌리엄그랜트앤선즈코리아 ",
+      "status": "maybe",
+      "matched_name": "윌리엄그랜트앤선즈코리아(WG&S)",
+      "updated_at": "2026-05-22T12:05:21.614668+09:00",
+      "auto": true
+    },
+    "이마트자연주의": {
+      "display_name": "이마트 자연주의",
+      "status": "maybe",
+      "matched_name": "이마트",
+      "updated_at": "2026-05-22T12:05:21.636358+09:00",
+      "auto": true
+    },
+    "질병관리청": {
+      "display_name": "질병관리청",
+      "status": "o",
+      "matched_name": "질병관리청",
+      "updated_at": "2026-05-22T12:05:21.639681+09:00",
       "auto": true
     }
   },
@@ -929,6 +950,72 @@
       "advertiser": "365mc네트웍스",
       "status": "x",
       "updated_at": "2026-05-21T17:03:59.394226+09:00",
+      "auto": true
+    },
+    "1018048": {
+      "advertiser": "스파이더",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.612609+09:00",
+      "auto": true
+    },
+    "1018043": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.617138+09:00",
+      "auto": true
+    },
+    "1018042": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.619631+09:00",
+      "auto": true
+    },
+    "1017951": {
+      "advertiser": "앳홈",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.622085+09:00",
+      "auto": true
+    },
+    "1018033": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.624552+09:00",
+      "auto": true
+    },
+    "1018034": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.627003+09:00",
+      "auto": true
+    },
+    "1017946": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.629452+09:00",
+      "auto": true
+    },
+    "1017947": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.631903+09:00",
+      "auto": true
+    },
+    "1017944": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.634345+09:00",
+      "auto": true
+    },
+    "1017937": {
+      "advertiser": "볼보자동차코리아",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.638811+09:00",
+      "auto": true
+    },
+    "1017911": {
+      "advertiser": "비엔케이스포츠",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.642139+09:00",
       "auto": true
     }
   }
