@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-22T12:05:21.642565+09:00",
-  "count": 60,
-  "x_count": 101,
+  "updated_at": "2026-05-22T17:03:30.099136+09:00",
+  "count": 65,
+  "x_count": 104,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -412,6 +412,41 @@
       "status": "o",
       "matched_name": "질병관리청",
       "updated_at": "2026-05-22T12:05:21.639681+09:00",
+      "auto": true
+    },
+    "롯데월드": {
+      "display_name": "롯데월드",
+      "status": "maybe",
+      "matched_name": "호텔롯데롯데월드",
+      "updated_at": "2026-05-22T17:03:30.093407+09:00",
+      "auto": true
+    },
+    "국세청": {
+      "display_name": "국세청",
+      "status": "o",
+      "matched_name": "국세청",
+      "updated_at": "2026-05-22T17:03:30.093611+09:00",
+      "auto": true
+    },
+    "브랜드웍스코리아": {
+      "display_name": "브랜드웍스코리아",
+      "status": "o",
+      "matched_name": "브랜드웍스코리아",
+      "updated_at": "2026-05-22T17:03:30.096558+09:00",
+      "auto": true
+    },
+    "헨켈홈케어코리아": {
+      "display_name": "헨켈홈케어코리아",
+      "status": "maybe",
+      "matched_name": "(미집행) 헨켈홈케어코리아",
+      "updated_at": "2026-05-22T17:03:30.097880+09:00",
+      "auto": true
+    },
+    "유니레버코리아": {
+      "display_name": "유니레버 코리아",
+      "status": "o",
+      "matched_name": "유니레버코리아",
+      "updated_at": "2026-05-22T17:03:30.098655+09:00",
       "auto": true
     }
   },
@@ -1016,6 +1051,24 @@
       "advertiser": "비엔케이스포츠",
       "status": "x",
       "updated_at": "2026-05-22T12:05:21.642139+09:00",
+      "auto": true
+    },
+    "1018097": {
+      "advertiser": "레토피아살롱",
+      "status": "x",
+      "updated_at": "2026-05-22T17:03:30.088343+09:00",
+      "auto": true
+    },
+    "1018096": {
+      "advertiser": "스파이더",
+      "status": "x",
+      "updated_at": "2026-05-22T17:03:30.090889+09:00",
+      "auto": true
+    },
+    "1018087": {
+      "advertiser": "Lotte E&C",
+      "status": "x",
+      "updated_at": "2026-05-22T17:03:30.096144+09:00",
       "auto": true
     }
   }
