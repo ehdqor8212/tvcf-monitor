@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-22T17:03:30.099136+09:00",
-  "count": 65,
-  "x_count": 104,
+  "updated_at": "2026-05-23T10:01:56.195786+09:00",
+  "count": 66,
+  "x_count": 107,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -447,6 +447,13 @@
       "status": "o",
       "matched_name": "유니레버코리아",
       "updated_at": "2026-05-22T17:03:30.098655+09:00",
+      "auto": true
+    },
+    "구글코리아": {
+      "display_name": "구글코리아",
+      "status": "o",
+      "matched_name": "구글코리아",
+      "updated_at": "2026-05-23T10:01:56.195214+09:00",
       "auto": true
     }
   },
@@ -1069,6 +1076,24 @@
       "advertiser": "Lotte E&C",
       "status": "x",
       "updated_at": "2026-05-22T17:03:30.096144+09:00",
+      "auto": true
+    },
+    "1018149": {
+      "advertiser": "SK telecom",
+      "status": "x",
+      "updated_at": "2026-05-23T10:01:56.189375+09:00",
+      "auto": true
+    },
+    "1018148": {
+      "advertiser": "내셔널지오그래픽 ",
+      "status": "x",
+      "updated_at": "2026-05-23T10:01:56.192235+09:00",
+      "auto": true
+    },
+    "1018141": {
+      "advertiser": "삼성SDS",
+      "status": "x",
+      "updated_at": "2026-05-23T10:01:56.195070+09:00",
       "auto": true
     }
   }
