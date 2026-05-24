@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-23T10:01:56.195786+09:00",
-  "count": 66,
-  "x_count": 107,
+  "updated_at": "2026-05-24T10:02:37.397228+09:00",
+  "count": 68,
+  "x_count": 112,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -454,6 +454,20 @@
       "status": "o",
       "matched_name": "구글코리아",
       "updated_at": "2026-05-23T10:01:56.195214+09:00",
+      "auto": true
+    },
+    "kb증권": {
+      "display_name": "KB증권",
+      "status": "maybe",
+      "matched_name": "케이비증권(KB증권)",
+      "updated_at": "2026-05-24T10:02:37.381767+09:00",
+      "auto": true
+    },
+    "dermafirm더마펌": {
+      "display_name": "DERMAFIRM 더마펌",
+      "status": "maybe",
+      "matched_name": "더마펌",
+      "updated_at": "2026-05-24T10:02:37.396696+09:00",
       "auto": true
     }
   },
@@ -1094,6 +1108,36 @@
       "advertiser": "삼성SDS",
       "status": "x",
       "updated_at": "2026-05-23T10:01:56.195070+09:00",
+      "auto": true
+    },
+    "1018153": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-24T10:02:37.384450+09:00",
+      "auto": true
+    },
+    "1018155": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-05-24T10:02:37.387103+09:00",
+      "auto": true
+    },
+    "1018161": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-24T10:02:37.389740+09:00",
+      "auto": true
+    },
+    "1018162": {
+      "advertiser": "아우디코리아",
+      "status": "x",
+      "updated_at": "2026-05-24T10:02:37.392416+09:00",
+      "auto": true
+    },
+    "1018163": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-05-24T10:02:37.395123+09:00",
       "auto": true
     }
   }
