@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-24T10:02:37.397228+09:00",
-  "count": 68,
-  "x_count": 112,
+  "updated_at": "2026-05-24T17:01:16.435316+09:00",
+  "count": 69,
+  "x_count": 113,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -468,6 +468,13 @@
       "status": "maybe",
       "matched_name": "더마펌",
       "updated_at": "2026-05-24T10:02:37.396696+09:00",
+      "auto": true
+    },
+    "지피테라퓨틱스코리아": {
+      "display_name": "지피테라퓨틱스코리아",
+      "status": "maybe",
+      "matched_name": "지피테라퓨틱스",
+      "updated_at": "2026-05-24T17:01:16.434801+09:00",
       "auto": true
     }
   },
@@ -1138,6 +1145,12 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-05-24T10:02:37.395123+09:00",
+      "auto": true
+    },
+    "1018160": {
+      "advertiser": "경주축산농협",
+      "status": "x",
+      "updated_at": "2026-05-24T17:01:16.432670+09:00",
       "auto": true
     }
   }
