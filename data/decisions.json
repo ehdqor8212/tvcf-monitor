@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T17:01:16.435316+09:00",
-  "count": 69,
+  "updated_at": "2026-05-25T10:01:17.366420+09:00",
+  "count": 70,
   "x_count": 113,
   "decisions": {
     "하이트진로": {
@@ -475,6 +475,13 @@
       "status": "maybe",
       "matched_name": "지피테라퓨틱스",
       "updated_at": "2026-05-24T17:01:16.434801+09:00",
+      "auto": true
+    },
+    "nh농협": {
+      "display_name": "NH농협",
+      "status": "maybe",
+      "matched_name": "엔에이치농협손해보험(NH농협손해보험)",
+      "updated_at": "2026-05-25T10:01:17.365854+09:00",
       "auto": true
     }
   },
