@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-25T10:01:17.366420+09:00",
-  "count": 70,
-  "x_count": 113,
+  "updated_at": "2026-05-26T10:03:07.092077+09:00",
+  "count": 72,
+  "x_count": 118,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -482,6 +482,20 @@
       "status": "maybe",
       "matched_name": "엔에이치농협손해보험(NH농협손해보험)",
       "updated_at": "2026-05-25T10:01:17.365854+09:00",
+      "auto": true
+    },
+    "더네이쳐홀딩스": {
+      "display_name": "더네이쳐홀딩스",
+      "status": "o",
+      "matched_name": "더네이쳐홀딩스",
+      "updated_at": "2026-05-26T10:03:07.077353+09:00",
+      "auto": true
+    },
+    "동국제약": {
+      "display_name": "동국제약",
+      "status": "o",
+      "matched_name": "동국제약",
+      "updated_at": "2026-05-26T10:03:07.088777+09:00",
       "auto": true
     }
   },
@@ -1158,6 +1172,36 @@
       "advertiser": "경주축산농협",
       "status": "x",
       "updated_at": "2026-05-24T17:01:16.432670+09:00",
+      "auto": true
+    },
+    "1018174": {
+      "advertiser": "큐앤드비인터내셔날",
+      "status": "x",
+      "updated_at": "2026-05-26T10:03:07.080126+09:00",
+      "auto": true
+    },
+    "1018178": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-26T10:03:07.082923+09:00",
+      "auto": true
+    },
+    "1018182": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-26T10:03:07.085727+09:00",
+      "auto": true
+    },
+    "1018186": {
+      "advertiser": "민주진보",
+      "status": "x",
+      "updated_at": "2026-05-26T10:03:07.088509+09:00",
+      "auto": true
+    },
+    "1018192": {
+      "advertiser": "허브이오",
+      "status": "x",
+      "updated_at": "2026-05-26T10:03:07.091549+09:00",
       "auto": true
     }
   }
