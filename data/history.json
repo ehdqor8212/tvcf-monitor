@@ -1,5 +1,43 @@
 [
   {
+    "ad_id": "1018227",
+    "prefix": "bi1272",
+    "url": "https://tvcf.co.kr/play/bi1272-1018227",
+    "card_title": "캔트비블루 can't be bluecan’t be blue “can’t love” (Feat. HAN (Stray Kids)) M/V",
+    "onair": "05.26",
+    "registered_short": "05.26",
+    "brand": "캔트비블루 can't be blue",
+    "campaign": null,
+    "registered_date": "2026-05-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "캔트비블루 can't be blue",
+    "advertiser_code": "4167549",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-26T17:01:48.367470+09:00"
+  },
+  {
+    "ad_id": "1018211",
+    "prefix": "bi1114",
+    "url": "https://tvcf.co.kr/play/bi1114-1018211",
+    "card_title": "삼성 뷰피니티 S8뷰피니티 S8 (S85TH, S80HF) Feature Film",
+    "onair": "05.26",
+    "registered_short": "05.26",
+    "brand": "삼성 뷰피니티 S8",
+    "campaign": null,
+    "registered_date": "2026-05-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-26T17:01:48.367473+09:00"
+  },
+  {
     "ad_id": "1018209",
     "prefix": "bi292",
     "url": "https://tvcf.co.kr/play/bi292-1018209",
@@ -266,6 +304,34 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-05-26T10:03:07.071586+09:00"
+  },
+  {
+    "ad_id": "1018265",
+    "prefix": "bi1654",
+    "url": "https://tvcf.co.kr/play/bi1654-1018265",
+    "card_title": "KB증권 마블[KB증권] 온국민 자산성장판 깨비마블, KB마블💛 15초",
+    "onair": "05.22",
+    "registered_short": "05.26",
+    "brand": "KB증권 마블",
+    "campaign": null,
+    "registered_date": "2026-05-22",
+    "media_type": "케이블",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "KB증권",
+    "advertiser_code": "C000016632",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1018226",
+        "url": "https://tvcf.co.kr/play/ai1261-1018226",
+        "brand": "KB증권 마블",
+        "campaign": null,
+        "card_title": "KB증권 마블[KB증권] 온국민 자산성장판 깨비마블, KB마블 30초"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-05-26T17:01:48.367459+09:00"
   },
   {
     "ad_id": "1018205",
@@ -3398,6 +3464,25 @@
     "brand": "ILLIT (아일릿)",
     "advertiser_code": "C000163409",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1018271",
+    "prefix": "bi1711",
+    "url": "https://tvcf.co.kr/play/bi1711-1018271",
+    "card_title": "신한자산운용SOL AI반도체 TOP2플러스 ETF 편",
+    "onair": "05.11",
+    "registered_short": "05.26",
+    "brand": "신한자산운용",
+    "campaign": null,
+    "registered_date": "2026-05-11",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "신한자산운용",
+    "advertiser_code": "4167634",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-26T17:01:48.367451+09:00"
   },
   {
     "ad_id": "1017544",

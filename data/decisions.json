@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-26T12:02:39.478638+09:00",
+  "updated_at": "2026-05-26T17:01:48.378494+09:00",
   "count": 75,
-  "x_count": 119,
+  "x_count": 121,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1229,6 +1229,18 @@
       "advertiser": "KFC",
       "status": "x",
       "updated_at": "2026-05-26T12:02:39.475336+09:00",
+      "auto": true
+    },
+    "1018271": {
+      "advertiser": "신한자산운용",
+      "status": "x",
+      "updated_at": "2026-05-26T17:01:48.375432+09:00",
+      "auto": true
+    },
+    "1018227": {
+      "advertiser": "캔트비블루 can't be blue",
+      "status": "x",
+      "updated_at": "2026-05-26T17:01:48.377945+09:00",
       "auto": true
     }
   }
