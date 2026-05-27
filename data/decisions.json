@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-26T17:01:48.378494+09:00",
-  "count": 75,
-  "x_count": 121,
+  "updated_at": "2026-05-27T10:02:24.251697+09:00",
+  "count": 76,
+  "x_count": 122,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -517,6 +517,13 @@
       "status": "o",
       "matched_name": "농심켈로그",
       "updated_at": "2026-05-26T12:02:39.478124+09:00",
+      "auto": true
+    },
+    "nh투자증권": {
+      "display_name": "NH투자증권",
+      "status": "maybe",
+      "matched_name": "엔에이치투자증권(NH투자증권)",
+      "updated_at": "2026-05-27T10:02:24.251028+09:00",
       "auto": true
     }
   },
@@ -1241,6 +1248,12 @@
       "advertiser": "캔트비블루 can't be blue",
       "status": "x",
       "updated_at": "2026-05-26T17:01:48.377945+09:00",
+      "auto": true
+    },
+    "1018285": {
+      "advertiser": "민주진보",
+      "status": "x",
+      "updated_at": "2026-05-27T10:02:24.248821+09:00",
       "auto": true
     }
   }
