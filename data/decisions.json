@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-27T10:02:24.251697+09:00",
+  "updated_at": "2026-05-27T12:01:27.382434+09:00",
   "count": 76,
-  "x_count": 122,
+  "x_count": 124,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1254,6 +1254,18 @@
       "advertiser": "민주진보",
       "status": "x",
       "updated_at": "2026-05-27T10:02:24.248821+09:00",
+      "auto": true
+    },
+    "1018287": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-05-27T12:01:27.378468+09:00",
+      "auto": true
+    },
+    "1018286": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-05-27T12:01:27.381677+09:00",
       "auto": true
     }
   }
