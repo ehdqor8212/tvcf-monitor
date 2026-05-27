@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-27T12:01:27.382434+09:00",
-  "count": 76,
-  "x_count": 124,
+  "updated_at": "2026-05-27T17:02:12.721165+09:00",
+  "count": 77,
+  "x_count": 126,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -524,6 +524,13 @@
       "status": "maybe",
       "matched_name": "엔에이치투자증권(NH투자증권)",
       "updated_at": "2026-05-27T10:02:24.251028+09:00",
+      "auto": true
+    },
+    "쎌바이오텍듀오락": {
+      "display_name": "쎌바이오텍 듀오락 ",
+      "status": "maybe",
+      "matched_name": "쎌바이오텍",
+      "updated_at": "2026-05-27T17:02:12.720609+09:00",
       "auto": true
     }
   },
@@ -1266,6 +1273,18 @@
       "advertiser": "JTBC",
       "status": "x",
       "updated_at": "2026-05-27T12:01:27.381677+09:00",
+      "auto": true
+    },
+    "1018355": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-05-27T17:02:12.716218+09:00",
+      "auto": true
+    },
+    "1018320": {
+      "advertiser": "카스 CASS",
+      "status": "x",
+      "updated_at": "2026-05-27T17:02:12.718788+09:00",
       "auto": true
     }
   }
