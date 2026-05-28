@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-27T17:02:12.721165+09:00",
-  "count": 77,
-  "x_count": 126,
+  "updated_at": "2026-05-28T10:02:31.049740+09:00",
+  "count": 79,
+  "x_count": 130,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -531,6 +531,20 @@
       "status": "maybe",
       "matched_name": "쎌바이오텍",
       "updated_at": "2026-05-27T17:02:12.720609+09:00",
+      "auto": true
+    },
+    "써브웨이코리아": {
+      "display_name": "써브웨이코리아",
+      "status": "maybe",
+      "matched_name": "써브웨이",
+      "updated_at": "2026-05-28T10:02:31.043326+09:00",
+      "auto": true
+    },
+    "자생한방병원": {
+      "display_name": "자생한방병원",
+      "status": "o",
+      "matched_name": "자생한방병원",
+      "updated_at": "2026-05-28T10:02:31.044163+09:00",
       "auto": true
     }
   },
@@ -1285,6 +1299,30 @@
       "advertiser": "카스 CASS",
       "status": "x",
       "updated_at": "2026-05-27T17:02:12.718788+09:00",
+      "auto": true
+    },
+    "1018485": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-28T10:02:31.039035+09:00",
+      "auto": true
+    },
+    "1018489": {
+      "advertiser": "우리금융그룹",
+      "status": "x",
+      "updated_at": "2026-05-28T10:02:31.041548+09:00",
+      "auto": true
+    },
+    "1018376": {
+      "advertiser": "BMW코리아 ",
+      "status": "x",
+      "updated_at": "2026-05-28T10:02:31.046659+09:00",
+      "auto": true
+    },
+    "1018354": {
+      "advertiser": "DYPNF",
+      "status": "x",
+      "updated_at": "2026-05-28T10:02:31.049150+09:00",
       "auto": true
     }
   }
