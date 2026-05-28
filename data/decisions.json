@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T12:02:23.203005+09:00",
-  "count": 80,
-  "x_count": 134,
+  "updated_at": "2026-05-28T17:03:01.141552+09:00",
+  "count": 81,
+  "x_count": 137,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -552,6 +552,13 @@
       "status": "maybe",
       "matched_name": "올리브영",
       "updated_at": "2026-05-28T12:02:23.199887+09:00",
+      "auto": true
+    },
+    "동서식품": {
+      "display_name": "동서식품",
+      "status": "o",
+      "matched_name": "동서식품",
+      "updated_at": "2026-05-28T17:03:01.133237+09:00",
       "auto": true
     }
   },
@@ -1354,6 +1361,24 @@
       "advertiser": "Unilever",
       "status": "x",
       "updated_at": "2026-05-28T12:02:23.202405+09:00",
+      "auto": true
+    },
+    "1018514": {
+      "advertiser": "LG Global",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.135800+09:00",
+      "auto": true
+    },
+    "1018512": {
+      "advertiser": "LG Global",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.138317+09:00",
+      "auto": true
+    },
+    "1018510": {
+      "advertiser": "세일즈포스",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.140909+09:00",
       "auto": true
     }
   }
