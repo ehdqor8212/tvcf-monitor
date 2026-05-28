@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T10:02:31.049740+09:00",
-  "count": 79,
-  "x_count": 130,
+  "updated_at": "2026-05-28T12:02:23.203005+09:00",
+  "count": 80,
+  "x_count": 134,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -545,6 +545,13 @@
       "status": "o",
       "matched_name": "자생한방병원",
       "updated_at": "2026-05-28T10:02:31.044163+09:00",
+      "auto": true
+    },
+    "cj올리브영": {
+      "display_name": "CJ올리브영",
+      "status": "maybe",
+      "matched_name": "올리브영",
+      "updated_at": "2026-05-28T12:02:23.199887+09:00",
       "auto": true
     }
   },
@@ -1323,6 +1330,30 @@
       "advertiser": "DYPNF",
       "status": "x",
       "updated_at": "2026-05-28T10:02:31.049150+09:00",
+      "auto": true
+    },
+    "1018508": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.192825+09:00",
+      "auto": true
+    },
+    "1018506": {
+      "advertiser": "홍천군",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.195360+09:00",
+      "auto": true
+    },
+    "1018505": {
+      "advertiser": "국민의힘",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.197868+09:00",
+      "auto": true
+    },
+    "1018502": {
+      "advertiser": "Unilever",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.202405+09:00",
       "auto": true
     }
   }
