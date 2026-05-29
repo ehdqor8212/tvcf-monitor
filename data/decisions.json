@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T17:03:01.141552+09:00",
-  "count": 81,
-  "x_count": 137,
+  "updated_at": "2026-05-29T10:03:25.892374+09:00",
+  "count": 83,
+  "x_count": 141,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -559,6 +559,20 @@
       "status": "o",
       "matched_name": "동서식품",
       "updated_at": "2026-05-28T17:03:01.133237+09:00",
+      "auto": true
+    },
+    "롯데마트": {
+      "display_name": "롯데마트",
+      "status": "maybe",
+      "matched_name": "롯데마트 (롯데쇼핑 자회사..)",
+      "updated_at": "2026-05-29T10:03:25.882937+09:00",
+      "auto": true
+    },
+    "롯데렌탈": {
+      "display_name": "롯데렌탈",
+      "status": "maybe",
+      "matched_name": "(미집행) 롯데렌탈",
+      "updated_at": "2026-05-29T10:03:25.889178+09:00",
       "auto": true
     }
   },
@@ -1379,6 +1393,30 @@
       "advertiser": "세일즈포스",
       "status": "x",
       "updated_at": "2026-05-28T17:03:01.140909+09:00",
+      "auto": true
+    },
+    "1018580": {
+      "advertiser": "더불어민주당",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.881411+09:00",
+      "auto": true
+    },
+    "1018487": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.885435+09:00",
+      "auto": true
+    },
+    "1018576": {
+      "advertiser": "휴스튜디오",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.887928+09:00",
+      "auto": true
+    },
+    "1018542": {
+      "advertiser": "우유자조금관리위원회",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.891721+09:00",
       "auto": true
     }
   }
