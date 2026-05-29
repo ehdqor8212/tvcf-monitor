@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T12:01:47.031512+09:00",
-  "count": 83,
-  "x_count": 142,
+  "updated_at": "2026-05-29T17:03:39.246276+09:00",
+  "count": 85,
+  "x_count": 143,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -573,6 +573,20 @@
       "status": "maybe",
       "matched_name": "(미집행) 롯데렌탈",
       "updated_at": "2026-05-29T10:03:25.889178+09:00",
+      "auto": true
+    },
+    "아모레퍼시픽": {
+      "display_name": "아모레퍼시픽",
+      "status": "o",
+      "matched_name": "아모레퍼시픽",
+      "updated_at": "2026-05-29T17:03:39.241951+09:00",
+      "auto": true
+    },
+    "한국존슨앤드존슨": {
+      "display_name": "한국존슨앤드존슨",
+      "status": "o",
+      "matched_name": "한국존슨앤드존슨",
+      "updated_at": "2026-05-29T17:03:39.243125+09:00",
       "auto": true
     }
   },
@@ -1423,6 +1437,12 @@
       "advertiser": "MBC",
       "status": "x",
       "updated_at": "2026-05-29T12:01:47.030815+09:00",
+      "auto": true
+    },
+    "1018597": {
+      "advertiser": "나무엑스",
+      "status": "x",
+      "updated_at": "2026-05-29T17:03:39.245614+09:00",
       "auto": true
     }
   }

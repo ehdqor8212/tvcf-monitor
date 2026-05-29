@@ -1,57 +1,155 @@
 {
-  "run_at": "2026-05-29T12:01:47.019964+09:00",
-  "count": 2,
-  "count_total_before_dedup": 4,
+  "run_at": "2026-05-29T17:03:39.231949+09:00",
+  "count": 5,
+  "count_total_before_dedup": 13,
   "new_ads": [
     {
-      "ad_id": "1018584",
-      "prefix": "ai1848",
-      "url": "https://tvcf.co.kr/play/ai1848-1018584",
-      "card_title": "티스테이션싹 다 되는 타이어서비스, T스테이션 (종합)",
-      "onair": "05.28",
+      "ad_id": "1018623",
+      "prefix": "bi1232",
+      "url": "https://tvcf.co.kr/play/bi1232-1018623",
+      "card_title": "에스트라 A-CICA에이시카365 리페어 크림 pH4.5",
+      "onair": "04.16",
       "registered_short": "05.29",
-      "brand": "티스테이션",
+      "brand": "에스트라 A-CICA",
       "campaign": null,
-      "registered_date": "2026-05-28",
-      "media_type": "케이블",
-      "main_category": "자동차/정유",
+      "registered_date": "2026-04-16",
+      "media_type": "디지털(인터넷)",
+      "main_category": "화장품",
       "sub_categories": [],
-      "advertiser": "한국타이어",
-      "advertiser_code": "C000001430",
+      "advertiser": "아모레퍼시픽",
+      "advertiser_code": "C000008915",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1018607",
+      "prefix": "bi274",
+      "url": "https://tvcf.co.kr/play/bi274-1018607",
+      "card_title": "리스테린ENHYPEN's TO DO LIST: 21일 챌린지",
+      "onair": "05.29",
+      "registered_short": "05.29",
+      "brand": "리스테린",
+      "campaign": null,
+      "registered_date": "2026-05-29",
+      "media_type": "디지털 범퍼",
+      "main_category": "제약/의료/복지",
+      "sub_categories": [],
+      "advertiser": "한국존슨앤드존슨",
+      "advertiser_code": "C000001424",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1018606",
+      "prefix": "ai263",
+      "url": "https://tvcf.co.kr/play/ai263-1018606",
+      "card_title": "LG 휘센 AI 오브제컬렉션AI콜드프리로 온도를 넘어 습도까지 완벽한 바람(수면)",
+      "onair": "05.29",
+      "registered_short": "05.29",
+      "brand": "LG 휘센 AI 오브제컬렉션",
+      "campaign": null,
+      "registered_date": "2026-05-29",
+      "media_type": "디지털(인터넷)",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
       "advertiser_fallback": false,
       "variants": [
         {
-          "ad_id": "1018582",
-          "url": "https://tvcf.co.kr/play/ai1826-1018582",
-          "brand": "T station",
+          "ad_id": "1018605",
+          "url": "https://tvcf.co.kr/play/bi252-1018605",
+          "brand": "LG 휘센 AI 오브제컬렉션",
           "campaign": null,
-          "card_title": "T station싹 다 되는 타이어서비스, T스테이션 (오늘서비스)"
+          "card_title": "LG 휘센 AI 오브제컬렉션AI콜드프리로 온도를 넘어 습도까지 완벽한 바람(장마)"
         },
         {
-          "ad_id": "1018583",
-          "url": "https://tvcf.co.kr/play/bi1837-1018583",
-          "brand": "T station",
+          "ad_id": "1018603",
+          "url": "https://tvcf.co.kr/play/bi239-1018603",
+          "brand": "LG 휘센 AI 오브제컬렉션",
           "campaign": null,
-          "card_title": "T station싹 다 되는 타이어서비스, T스테이션 (스마트페이)"
+          "card_title": "LG 휘센 AI 오브제컬렉션AI콜드프리로 온도를 넘어 습도까지 완벽한 바람 (45s)"
+        },
+        {
+          "ad_id": "1018604",
+          "url": "https://tvcf.co.kr/play/ai241-1018604",
+          "brand": "LG 휘센 AI 오브제컬렉션",
+          "campaign": null,
+          "card_title": "LG 휘센 AI 오브제컬렉션AI콜드프리로 온도를 넘어 습도까지 완벽한 바람 (30s)"
         }
       ],
-      "variant_count": 3
+      "variant_count": 4
     },
     {
-      "ad_id": "1018581",
-      "prefix": "bi1815",
-      "url": "https://tvcf.co.kr/play/bi1815-1018581",
-      "card_title": "MBC 선데이 베이스볼우리가 아는 진짜 라이벌 매치",
+      "ad_id": "1018597",
+      "prefix": "bi1973",
+      "url": "https://tvcf.co.kr/play/bi1973-1018597",
+      "card_title": "나무엑스[로봇과 사는 시대] ep. 로봇도 효도가 되나요 | 나무엑스",
       "onair": "05.28",
       "registered_short": "05.29",
-      "brand": "MBC 선데이 베이스볼",
+      "brand": "나무엑스",
       "campaign": null,
       "registered_date": "2026-05-28",
-      "media_type": "공중파",
-      "main_category": "출판/교육/문화",
+      "media_type": "디지털(인터넷)",
+      "main_category": "전기전자",
       "sub_categories": [],
-      "advertiser": "MBC",
-      "advertiser_code": "C000002724",
+      "advertiser": "나무엑스",
+      "advertiser_code": "4169767",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1018598",
+          "url": "https://tvcf.co.kr/play/ai1984-1018598",
+          "brand": "나무엑스",
+          "campaign": null,
+          "card_title": "나무엑스[로봇과 사는 시대] ep. 밀착마크 | 나무엑스"
+        },
+        {
+          "ad_id": "1018599",
+          "url": "https://tvcf.co.kr/play/bi1995-1018599",
+          "brand": "나무엑스",
+          "campaign": null,
+          "card_title": "나무엑스[로봇과 사는 시대] ep. 밥그릇싸움 | 나무엑스"
+        },
+        {
+          "ad_id": "1018600",
+          "url": "https://tvcf.co.kr/play/ai306-1018600",
+          "brand": "나무엑스",
+          "campaign": null,
+          "card_title": "나무엑스[로봇과 사는 시대] ep. 히어로보트 | 나무엑스"
+        },
+        {
+          "ad_id": "1018601",
+          "url": "https://tvcf.co.kr/play/bi217-1018601",
+          "brand": "나무엑스",
+          "campaign": null,
+          "card_title": "나무엑스[로봇과 사는 시대] ep. 사랑은 움직이는 고양 | 나무엑스"
+        },
+        {
+          "ad_id": "1018596",
+          "url": "https://tvcf.co.kr/play/ai1962-1018596",
+          "brand": "나무엑스",
+          "campaign": null,
+          "card_title": "나무엑스[로봇과 사는 시대] ep. 내 머리 속 지우개 | 나무엑스"
+        }
+      ],
+      "variant_count": 6
+    },
+    {
+      "ad_id": "1018586",
+      "prefix": "ai1861",
+      "url": "https://tvcf.co.kr/play/ai1861-1018586",
+      "card_title": "홈키파 홈매트야외에서도 홈키파 모기기피제",
+      "onair": "05.11",
+      "registered_short": "05.29",
+      "brand": "홈키파 홈매트",
+      "campaign": null,
+      "registered_date": "2026-05-11",
+      "media_type": "케이블",
+      "main_category": "생활/가정용품",
+      "sub_categories": [],
+      "advertiser": "헨켈홈케어코리아",
+      "advertiser_code": "C000010202",
       "advertiser_fallback": false,
       "variant_count": 1
     }
