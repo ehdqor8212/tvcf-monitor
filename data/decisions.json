@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T10:03:25.892374+09:00",
+  "updated_at": "2026-05-29T12:01:47.031512+09:00",
   "count": 83,
-  "x_count": 141,
+  "x_count": 142,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1417,6 +1417,12 @@
       "advertiser": "우유자조금관리위원회",
       "status": "x",
       "updated_at": "2026-05-29T10:03:25.891721+09:00",
+      "auto": true
+    },
+    "1018581": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-05-29T12:01:47.030815+09:00",
       "auto": true
     }
   }

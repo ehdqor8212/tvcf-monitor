@@ -1,5 +1,59 @@
 [
   {
+    "ad_id": "1018584",
+    "prefix": "ai1848",
+    "url": "https://tvcf.co.kr/play/ai1848-1018584",
+    "card_title": "티스테이션싹 다 되는 타이어서비스, T스테이션 (종합)",
+    "onair": "05.28",
+    "registered_short": "05.29",
+    "brand": "티스테이션",
+    "campaign": null,
+    "registered_date": "2026-05-28",
+    "media_type": "케이블",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "한국타이어",
+    "advertiser_code": "C000001430",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1018582",
+        "url": "https://tvcf.co.kr/play/ai1826-1018582",
+        "brand": "T station",
+        "campaign": null,
+        "card_title": "T station싹 다 되는 타이어서비스, T스테이션 (오늘서비스)"
+      },
+      {
+        "ad_id": "1018583",
+        "url": "https://tvcf.co.kr/play/bi1837-1018583",
+        "brand": "T station",
+        "campaign": null,
+        "card_title": "T station싹 다 되는 타이어서비스, T스테이션 (스마트페이)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-05-29T12:01:47.020404+09:00"
+  },
+  {
+    "ad_id": "1018581",
+    "prefix": "bi1815",
+    "url": "https://tvcf.co.kr/play/bi1815-1018581",
+    "card_title": "MBC 선데이 베이스볼우리가 아는 진짜 라이벌 매치",
+    "onair": "05.28",
+    "registered_short": "05.29",
+    "brand": "MBC 선데이 베이스볼",
+    "campaign": null,
+    "registered_date": "2026-05-28",
+    "media_type": "공중파",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "MBC",
+    "advertiser_code": "C000002724",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-29T12:01:47.020411+09:00"
+  },
+  {
     "ad_id": "1018580",
     "prefix": "ai2804",
     "url": "https://tvcf.co.kr/play/ai2804-1018580",
