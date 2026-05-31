@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T10:01:19.329481+09:00",
-  "count": 86,
-  "x_count": 148,
+  "updated_at": "2026-05-31T17:02:08.905116+09:00",
+  "count": 87,
+  "x_count": 152,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -594,6 +594,13 @@
       "status": "maybe",
       "matched_name": "엘지유플러스(LG유플러스)",
       "updated_at": "2026-05-30T12:02:01.639367+09:00",
+      "auto": true
+    },
+    "맘스터치앤컴퍼니": {
+      "display_name": "맘스터치앤컴퍼니",
+      "status": "o",
+      "matched_name": "맘스터치앤컴퍼니",
+      "updated_at": "2026-05-31T17:02:08.898445+09:00",
       "auto": true
     }
   },
@@ -1480,6 +1487,30 @@
       "advertiser": "Hyundai N Worldwide",
       "status": "x",
       "updated_at": "2026-05-31T10:01:19.328765+09:00",
+      "auto": true
+    },
+    "1018693": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-31T17:02:08.895046+09:00",
+      "auto": true
+    },
+    "1018695": {
+      "advertiser": "더불어민주당",
+      "status": "x",
+      "updated_at": "2026-05-31T17:02:08.898028+09:00",
+      "auto": true
+    },
+    "1018701": {
+      "advertiser": "지방 하나만, 365mc",
+      "status": "x",
+      "updated_at": "2026-05-31T17:02:08.901388+09:00",
+      "auto": true
+    },
+    "1018700": {
+      "advertiser": "EA SPORTS FC 온라인",
+      "status": "x",
+      "updated_at": "2026-05-31T17:02:08.904340+09:00",
       "auto": true
     }
   }
