@@ -1,5 +1,24 @@
 [
   {
+    "ad_id": "1018691",
+    "prefix": "bi1917",
+    "url": "https://tvcf.co.kr/play/bi1917-1018691",
+    "card_title": "Hyundai NIONIQ 6 N: The Thrill After Dark.",
+    "onair": "05.30",
+    "registered_short": "05.30",
+    "brand": "Hyundai N",
+    "campaign": null,
+    "registered_date": "2026-05-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "Hyundai N Worldwide",
+    "advertiser_code": "C000160967",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-05-31T10:01:19.317384+09:00"
+  },
+  {
     "ad_id": "1018690",
     "prefix": "ai2906",
     "url": "https://tvcf.co.kr/play/ai2906-1018690",
