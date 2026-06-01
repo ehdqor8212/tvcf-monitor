@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T12:03:31.392900+09:00",
-  "count": 89,
-  "x_count": 159,
+  "updated_at": "2026-06-01T17:04:58.208150+09:00",
+  "count": 91,
+  "x_count": 167,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -615,6 +615,20 @@
       "status": "maybe",
       "matched_name": "쓰리에이치(3H)",
       "updated_at": "2026-06-01T12:03:31.392154+09:00",
+      "auto": true
+    },
+    "청오디피케이": {
+      "display_name": "청오디피케이",
+      "status": "o",
+      "matched_name": "청오디피케이",
+      "updated_at": "2026-06-01T17:04:58.203927+09:00",
+      "auto": true
+    },
+    "지큐브스페이스": {
+      "display_name": "지큐브스페이스",
+      "status": "o",
+      "matched_name": "지큐브스페이스",
+      "updated_at": "2026-06-01T17:04:58.204825+09:00",
       "auto": true
     }
   },
@@ -1567,6 +1581,54 @@
       "advertiser": "국가데이터처",
       "status": "x",
       "updated_at": "2026-06-01T12:03:31.390352+09:00",
+      "auto": true
+    },
+    "1018815": {
+      "advertiser": "블러온",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.187502+09:00",
+      "auto": true
+    },
+    "1018799": {
+      "advertiser": "롯데건설",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.190168+09:00",
+      "auto": true
+    },
+    "1018755": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.192727+09:00",
+      "auto": true
+    },
+    "1018753": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.195357+09:00",
+      "auto": true
+    },
+    "1018752": {
+      "advertiser": "리뉴파이",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.197900+09:00",
+      "auto": true
+    },
+    "1018734": {
+      "advertiser": "팜베이",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.200448+09:00",
+      "auto": true
+    },
+    "1018739": {
+      "advertiser": "더불어민주당",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.203015+09:00",
+      "auto": true
+    },
+    "1018723": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.207418+09:00",
       "auto": true
     }
   }
