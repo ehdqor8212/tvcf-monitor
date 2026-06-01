@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T17:02:08.905116+09:00",
-  "count": 87,
-  "x_count": 152,
+  "updated_at": "2026-06-01T10:02:40.438370+09:00",
+  "count": 88,
+  "x_count": 156,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -601,6 +601,13 @@
       "status": "o",
       "matched_name": "맘스터치앤컴퍼니",
       "updated_at": "2026-05-31T17:02:08.898445+09:00",
+      "auto": true
+    },
+    "경동나비엔": {
+      "display_name": "경동나비엔",
+      "status": "o",
+      "matched_name": "경동나비엔",
+      "updated_at": "2026-06-01T10:02:40.437637+09:00",
       "auto": true
     }
   },
@@ -1511,6 +1518,30 @@
       "advertiser": "EA SPORTS FC 온라인",
       "status": "x",
       "updated_at": "2026-05-31T17:02:08.904340+09:00",
+      "auto": true
+    },
+    "1018710": {
+      "advertiser": "서울시교육청",
+      "status": "x",
+      "updated_at": "2026-06-01T10:02:40.429569+09:00",
+      "auto": true
+    },
+    "1018708": {
+      "advertiser": "단국대학교",
+      "status": "x",
+      "updated_at": "2026-06-01T10:02:40.432210+09:00",
+      "auto": true
+    },
+    "1018705": {
+      "advertiser": "민주진보",
+      "status": "x",
+      "updated_at": "2026-06-01T10:02:40.434874+09:00",
+      "auto": true
+    },
+    "1018703": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-06-01T10:02:40.437519+09:00",
       "auto": true
     }
   }
