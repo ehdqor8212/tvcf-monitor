@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T10:02:40.438370+09:00",
-  "count": 88,
-  "x_count": 156,
+  "updated_at": "2026-06-01T12:03:31.392900+09:00",
+  "count": 89,
+  "x_count": 159,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -608,6 +608,13 @@
       "status": "o",
       "matched_name": "경동나비엔",
       "updated_at": "2026-06-01T10:02:40.437637+09:00",
+      "auto": true
+    },
+    "쓰리에이치": {
+      "display_name": "쓰리에이치",
+      "status": "maybe",
+      "matched_name": "쓰리에이치(3H)",
+      "updated_at": "2026-06-01T12:03:31.392154+09:00",
       "auto": true
     }
   },
@@ -1542,6 +1549,24 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-06-01T10:02:40.437519+09:00",
+      "auto": true
+    },
+    "1018727": {
+      "advertiser": "에틀리에",
+      "status": "x",
+      "updated_at": "2026-06-01T12:03:31.385074+09:00",
+      "auto": true
+    },
+    "1018730": {
+      "advertiser": "에틀리에",
+      "status": "x",
+      "updated_at": "2026-06-01T12:03:31.387614+09:00",
+      "auto": true
+    },
+    "1018726": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-01T12:03:31.390352+09:00",
       "auto": true
     }
   }
