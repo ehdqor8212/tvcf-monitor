@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T10:04:54.867453+09:00",
-  "count": 96,
-  "x_count": 176,
+  "updated_at": "2026-06-02T12:02:59.198872+09:00",
+  "count": 98,
+  "x_count": 180,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -664,6 +664,20 @@
       "status": "o",
       "matched_name": "보건복지부",
       "updated_at": "2026-06-02T10:04:54.857838+09:00",
+      "auto": true
+    },
+    "롯데아사히주류": {
+      "display_name": "롯데아사히주류",
+      "status": "o",
+      "matched_name": "롯데아사히주류",
+      "updated_at": "2026-06-02T12:02:59.194356+09:00",
+      "auto": true
+    },
+    "키움증권": {
+      "display_name": "키움증권",
+      "status": "o",
+      "matched_name": "키움증권",
+      "updated_at": "2026-06-02T12:02:59.198052+09:00",
       "auto": true
     }
   },
@@ -1718,6 +1732,30 @@
       "advertiser": "지센",
       "status": "x",
       "updated_at": "2026-06-02T10:04:54.866570+09:00",
+      "auto": true
+    },
+    "1018894": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-06-02T12:02:59.188629+09:00",
+      "auto": true
+    },
+    "1018891": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-06-02T12:02:59.191367+09:00",
+      "auto": true
+    },
+    "1018882": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-06-02T12:02:59.194045+09:00",
+      "auto": true
+    },
+    "1018881": {
+      "advertiser": "세종기프트",
+      "status": "x",
+      "updated_at": "2026-06-02T12:02:59.197025+09:00",
       "auto": true
     }
   }
