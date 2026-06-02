@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T17:04:58.208150+09:00",
-  "count": 91,
-  "x_count": 167,
+  "updated_at": "2026-06-02T10:04:54.867453+09:00",
+  "count": 96,
+  "x_count": 176,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -629,6 +629,41 @@
       "status": "o",
       "matched_name": "지큐브스페이스",
       "updated_at": "2026-06-01T17:04:58.204825+09:00",
+      "auto": true
+    },
+    "트립닷컴": {
+      "display_name": "트립닷컴",
+      "status": "o",
+      "matched_name": "트립닷컴",
+      "updated_at": "2026-06-02T10:04:54.838557+09:00",
+      "auto": true
+    },
+    "국제구조위원회": {
+      "display_name": "국제구조위원회",
+      "status": "o",
+      "matched_name": "국제구조위원회",
+      "updated_at": "2026-06-02T10:04:54.841653+09:00",
+      "auto": true
+    },
+    "우리이앤엘": {
+      "display_name": "우리이앤엘",
+      "status": "o",
+      "matched_name": "우리이앤엘",
+      "updated_at": "2026-06-02T10:04:54.842536+09:00",
+      "auto": true
+    },
+    "링티": {
+      "display_name": "링티",
+      "status": "o",
+      "matched_name": "링티",
+      "updated_at": "2026-06-02T10:04:54.845781+09:00",
+      "auto": true
+    },
+    "보건복지부": {
+      "display_name": "보건복지부",
+      "status": "o",
+      "matched_name": "보건복지부",
+      "updated_at": "2026-06-02T10:04:54.857838+09:00",
       "auto": true
     }
   },
@@ -1629,6 +1664,60 @@
       "advertiser": "국가데이터처",
       "status": "x",
       "updated_at": "2026-06-01T17:04:58.207418+09:00",
+      "auto": true
+    },
+    "1018798": {
+      "advertiser": "한국수출입은행",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.841483+09:00",
+      "auto": true
+    },
+    "1018845": {
+      "advertiser": "제주개발공사",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.845421+09:00",
+      "auto": true
+    },
+    "1018855": {
+      "advertiser": "면사랑 ",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.848687+09:00",
+      "auto": true
+    },
+    "1018843": {
+      "advertiser": "콘텐츠캐리어",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.851582+09:00",
+      "auto": true
+    },
+    "1018837": {
+      "advertiser": "도미노피자",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.854476+09:00",
+      "auto": true
+    },
+    "1018836": {
+      "advertiser": "우버코리아",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.857374+09:00",
+      "auto": true
+    },
+    "1018832": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.860747+09:00",
+      "auto": true
+    },
+    "1018821": {
+      "advertiser": "하이모",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.863660+09:00",
+      "auto": true
+    },
+    "1018819": {
+      "advertiser": "지센",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.866570+09:00",
       "auto": true
     }
   }
