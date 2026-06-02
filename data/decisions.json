@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T12:02:59.198872+09:00",
-  "count": 98,
-  "x_count": 180,
+  "updated_at": "2026-06-02T17:02:32.839895+09:00",
+  "count": 99,
+  "x_count": 183,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -678,6 +678,13 @@
       "status": "o",
       "matched_name": "키움증권",
       "updated_at": "2026-06-02T12:02:59.198052+09:00",
+      "auto": true
+    },
+    "에어비앤비": {
+      "display_name": "에어비앤비",
+      "status": "maybe",
+      "matched_name": "에어비앤비코리아",
+      "updated_at": "2026-06-02T17:02:32.836166+09:00",
       "auto": true
     }
   },
@@ -1756,6 +1763,24 @@
       "advertiser": "세종기프트",
       "status": "x",
       "updated_at": "2026-06-02T12:02:59.197025+09:00",
+      "auto": true
+    },
+    "1018931": {
+      "advertiser": "코렐",
+      "status": "x",
+      "updated_at": "2026-06-02T17:02:32.830975+09:00",
+      "auto": true
+    },
+    "1018901": {
+      "advertiser": "365mc네트웍스",
+      "status": "x",
+      "updated_at": "2026-06-02T17:02:32.833883+09:00",
+      "auto": true
+    },
+    "1018830": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-06-02T17:02:32.839042+09:00",
       "auto": true
     }
   }
