@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T17:02:32.839895+09:00",
+  "updated_at": "2026-06-03T10:02:33.234520+09:00",
   "count": 99,
-  "x_count": 183,
+  "x_count": 184,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1781,6 +1781,12 @@
       "advertiser": "사각코퍼레이션",
       "status": "x",
       "updated_at": "2026-06-02T17:02:32.839042+09:00",
+      "auto": true
+    },
+    "1018969": {
+      "advertiser": "LG유플러스 (LG Uplus)",
+      "status": "x",
+      "updated_at": "2026-06-03T10:02:33.233631+09:00",
       "auto": true
     }
   }
