@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03T10:02:33.234520+09:00",
-  "count": 99,
+  "updated_at": "2026-06-03T12:01:12.125887+09:00",
+  "count": 100,
   "x_count": 184,
   "decisions": {
     "하이트진로": {
@@ -685,6 +685,13 @@
       "status": "maybe",
       "matched_name": "에어비앤비코리아",
       "updated_at": "2026-06-02T17:02:32.836166+09:00",
+      "auto": true
+    },
+    "당근마켓": {
+      "display_name": "당근마켓",
+      "status": "maybe",
+      "matched_name": "당근",
+      "updated_at": "2026-06-03T12:01:12.124961+09:00",
       "auto": true
     }
   },
