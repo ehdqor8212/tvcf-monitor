@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T12:02:22.620636+09:00",
-  "count": 103,
+  "updated_at": "2026-06-04T17:03:34.874874+09:00",
+  "count": 105,
   "x_count": 186,
   "decisions": {
     "하이트진로": {
@@ -713,6 +713,20 @@
       "status": "o",
       "matched_name": "넷마블",
       "updated_at": "2026-06-04T12:02:22.619958+09:00",
+      "auto": true
+    },
+    "대원제약": {
+      "display_name": "대원제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 대원제약",
+      "updated_at": "2026-06-04T17:03:34.873008+09:00",
+      "auto": true
+    },
+    "자코모": {
+      "display_name": "자코모 ",
+      "status": "o",
+      "matched_name": "자코모",
+      "updated_at": "2026-06-04T17:03:34.873948+09:00",
       "auto": true
     }
   },
