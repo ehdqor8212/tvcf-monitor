@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04T10:02:14.082302+09:00",
-  "count": 102,
-  "x_count": 185,
+  "updated_at": "2026-06-04T12:02:22.620636+09:00",
+  "count": 103,
+  "x_count": 186,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -706,6 +706,13 @@
       "status": "maybe",
       "matched_name": "한국산업은행(KDB산업은행)",
       "updated_at": "2026-06-04T10:02:14.081411+09:00",
+      "auto": true
+    },
+    "넷마블": {
+      "display_name": "넷마블",
+      "status": "o",
+      "matched_name": "넷마블",
+      "updated_at": "2026-06-04T12:02:22.619958+09:00",
       "auto": true
     }
   },
@@ -1814,6 +1821,12 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-06-04T10:02:14.078657+09:00",
+      "auto": true
+    },
+    "1019089": {
+      "advertiser": "SOL: enchant",
+      "status": "x",
+      "updated_at": "2026-06-04T12:02:22.619799+09:00",
       "auto": true
     }
   }
