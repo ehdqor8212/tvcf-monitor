@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04T17:03:34.874874+09:00",
-  "count": 105,
-  "x_count": 186,
+  "updated_at": "2026-06-05T10:06:30.701033+09:00",
+  "count": 108,
+  "x_count": 189,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -727,6 +727,27 @@
       "status": "o",
       "matched_name": "자코모",
       "updated_at": "2026-06-04T17:03:34.873948+09:00",
+      "auto": true
+    },
+    "동아오츠카": {
+      "display_name": "동아오츠카",
+      "status": "o",
+      "matched_name": "동아오츠카",
+      "updated_at": "2026-06-05T10:06:30.689098+09:00",
+      "auto": true
+    },
+    "한국오츠카제약": {
+      "display_name": "한국오츠카제약",
+      "status": "o",
+      "matched_name": "한국오츠카제약",
+      "updated_at": "2026-06-05T10:06:30.693131+09:00",
+      "auto": true
+    },
+    "경기도": {
+      "display_name": "경기도",
+      "status": "maybe",
+      "matched_name": "경기도청",
+      "updated_at": "2026-06-05T10:06:30.694608+09:00",
       "auto": true
     }
   },
@@ -1841,6 +1862,24 @@
       "advertiser": "SOL: enchant",
       "status": "x",
       "updated_at": "2026-06-04T12:02:22.619799+09:00",
+      "auto": true
+    },
+    "1019148": {
+      "advertiser": "노스페이스 코리아 ",
+      "status": "x",
+      "updated_at": "2026-06-05T10:06:30.691883+09:00",
+      "auto": true
+    },
+    "1019124": {
+      "advertiser": "아스테라시스",
+      "status": "x",
+      "updated_at": "2026-06-05T10:06:30.697374+09:00",
+      "auto": true
+    },
+    "1019123": {
+      "advertiser": "한국수산회",
+      "status": "x",
+      "updated_at": "2026-06-05T10:06:30.700132+09:00",
       "auto": true
     }
   }
