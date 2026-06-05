@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T10:06:30.701033+09:00",
+  "updated_at": "2026-06-05T17:04:45.699528+09:00",
   "count": 108,
-  "x_count": 189,
+  "x_count": 193,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1880,6 +1880,30 @@
       "advertiser": "한국수산회",
       "status": "x",
       "updated_at": "2026-06-05T10:06:30.700132+09:00",
+      "auto": true
+    },
+    "1019194": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.690013+09:00",
+      "auto": true
+    },
+    "1019191": {
+      "advertiser": "CJ문화재단",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.692872+09:00",
+      "auto": true
+    },
+    "1019182": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.695692+09:00",
+      "auto": true
+    },
+    "1019170": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.698544+09:00",
       "auto": true
     }
   }
