@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T17:04:45.699528+09:00",
-  "count": 108,
+  "updated_at": "2026-06-06T12:03:35.571663+09:00",
+  "count": 112,
   "x_count": 193,
   "decisions": {
     "하이트진로": {
@@ -748,6 +748,34 @@
       "status": "maybe",
       "matched_name": "경기도청",
       "updated_at": "2026-06-05T10:06:30.694608+09:00",
+      "auto": true
+    },
+    "mg새마을금고": {
+      "display_name": "MG새마을금고",
+      "status": "maybe",
+      "matched_name": "엠지새마을금고(MG새마을금고)",
+      "updated_at": "2026-06-06T12:03:35.564952+09:00",
+      "auto": true
+    },
+    "파파존스": {
+      "display_name": "파파존스",
+      "status": "o",
+      "matched_name": "파파존스",
+      "updated_at": "2026-06-06T12:03:35.566157+09:00",
+      "auto": true
+    },
+    "현대자동차그룹": {
+      "display_name": "현대자동차그룹",
+      "status": "maybe",
+      "matched_name": "현대자동차",
+      "updated_at": "2026-06-06T12:03:35.569057+09:00",
+      "auto": true
+    },
+    "sk": {
+      "display_name": "SK",
+      "status": "maybe",
+      "matched_name": "글락소스미스클라인(GSK)",
+      "updated_at": "2026-06-06T12:03:35.570671+09:00",
       "auto": true
     }
   },

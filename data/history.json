@@ -1,5 +1,43 @@
 [
   {
+    "ad_id": "1019219",
+    "prefix": "bi1193",
+    "url": "https://tvcf.co.kr/play/bi1193-1019219",
+    "card_title": "MG새마을금고MG새마을금고양 밴드 - 사회를 고양시키는 금융, MG새마을금고양!",
+    "onair": "06.05",
+    "registered_short": "06.05",
+    "brand": "MG새마을금고",
+    "campaign": null,
+    "registered_date": "2026-06-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "MG새마을금고",
+    "advertiser_code": "4176025",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-06T12:03:35.553458+09:00"
+  },
+  {
+    "ad_id": "1019211",
+    "prefix": "bi1114",
+    "url": "https://tvcf.co.kr/play/bi1114-1019211",
+    "card_title": "현대자동차그룹미래는 지금 여기서부터 | Hyundai X FIFA 월드컵 2026",
+    "onair": "06.05",
+    "registered_short": "06.05",
+    "brand": "현대자동차그룹",
+    "campaign": null,
+    "registered_date": "2026-06-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "현대자동차그룹",
+    "advertiser_code": "C000010115",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-06T12:03:35.553471+09:00"
+  },
+  {
     "ad_id": "1019191",
     "prefix": "bi1912",
     "url": "https://tvcf.co.kr/play/bi1912-1019191",
@@ -331,6 +369,25 @@
     "collected_at": "2026-06-04T12:02:22.609826+09:00"
   },
   {
+    "ad_id": "1019129",
+    "prefix": "bi1293",
+    "url": "https://tvcf.co.kr/play/bi1293-1019129",
+    "card_title": "LG AI TV2026 LG AI TV Playbook | Generative AI with Google Gemini",
+    "onair": "06.02",
+    "registered_short": "06.04",
+    "brand": "LG AI TV",
+    "campaign": null,
+    "registered_date": "2026-06-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-06T12:03:35.553478+09:00"
+  },
+  {
     "ad_id": "1019127",
     "prefix": "bi1271",
     "url": "https://tvcf.co.kr/play/bi1271-1019127",
@@ -614,6 +671,69 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-06-02T17:02:32.819229+09:00"
+  },
+  {
+    "ad_id": "1019218",
+    "prefix": "ai1182",
+    "url": "https://tvcf.co.kr/play/ai1182-1019218",
+    "card_title": "파파존스아메리칸 프리미엄 시리즈_빌보드 편",
+    "onair": "06.01",
+    "registered_short": "06.05",
+    "brand": "파파존스",
+    "campaign": null,
+    "registered_date": "2026-06-01",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "파파존스",
+    "advertiser_code": "C000011817",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1019209",
+        "url": "https://tvcf.co.kr/play/bi292-1019209",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스녹진한 치즈와 풍성한 고기, 존스 페이버릿"
+      },
+      {
+        "ad_id": "1019205",
+        "url": "https://tvcf.co.kr/play/bi257-1019205",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스실패 없는 조합, 치킨 바베큐"
+      },
+      {
+        "ad_id": "1019204",
+        "url": "https://tvcf.co.kr/play/ai246-1019204",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스감.다.살, 아이리쉬 포테이토"
+      },
+      {
+        "ad_id": "1019201",
+        "url": "https://tvcf.co.kr/play/bi213-1019201",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스도우 끝까지 간다, 올미트"
+      },
+      {
+        "ad_id": "1019199",
+        "url": "https://tvcf.co.kr/play/bi1991-1019199",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스완벽한 밸런스, 수퍼 파파스"
+      },
+      {
+        "ad_id": "1019203",
+        "url": "https://tvcf.co.kr/play/bi235-1019203",
+        "brand": "파파존스",
+        "campaign": null,
+        "card_title": "파파존스부드럽게 때리는, 스파이시 치킨랜치"
+      }
+    ],
+    "variant_count": 7,
+    "collected_at": "2026-06-06T12:03:35.553466+09:00"
   },
   {
     "ad_id": "1019194",
@@ -1595,6 +1715,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-31T10:01:19.317384+09:00"
+  },
+  {
+    "ad_id": "1019214",
+    "prefix": "ai1147",
+    "url": "https://tvcf.co.kr/play/ai1147-1019214",
+    "card_title": "국민은행KB국민은행 × 장항준&김은희] 국민감독과 국민작가 티징 편",
+    "onair": "05.29",
+    "registered_short": "06.05",
+    "brand": "국민은행",
+    "campaign": null,
+    "registered_date": "2026-05-29",
+    "media_type": "공중파",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "KB국민은행",
+    "advertiser_code": "C000006336",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-06T12:03:35.553469+09:00"
   },
   {
     "ad_id": "1019108",
@@ -2813,6 +2952,34 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-05-27T17:02:12.708247+09:00"
+  },
+  {
+    "ad_id": "1019210",
+    "prefix": "ai2103",
+    "url": "https://tvcf.co.kr/play/ai2103-1019210",
+    "card_title": "SKWhat's in my AI 2화 본",
+    "onair": "05.26",
+    "registered_short": "06.05",
+    "brand": "SK",
+    "campaign": null,
+    "registered_date": "2026-05-26",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "SK",
+    "advertiser_code": "C000001511",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1019208",
+        "url": "https://tvcf.co.kr/play/ai281-1019208",
+        "brand": "SK",
+        "campaign": null,
+        "card_title": "SKWhat's in my AI 2화 예고"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-06T12:03:35.553473+09:00"
   },
   {
     "ad_id": "1018509",
@@ -8029,6 +8196,34 @@
     "brand": "메르세데스 벤츠",
     "advertiser_code": "C000015965",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1019200",
+    "prefix": "ai302",
+    "url": "https://tvcf.co.kr/play/ai302-1019200",
+    "card_title": "SKWhat's in my AI 1화 예고",
+    "onair": "04.16",
+    "registered_short": "06.05",
+    "brand": "SK",
+    "campaign": null,
+    "registered_date": "2026-04-16",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "SK",
+    "advertiser_code": "C000001511",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1019206",
+        "url": "https://tvcf.co.kr/play/ai268-1019206",
+        "brand": "SK",
+        "campaign": null,
+        "card_title": "SKWhat's in my AI 1화 본"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-06T12:03:35.553476+09:00"
   },
   {
     "ad_id": "1018623",
