@@ -388,6 +388,25 @@
     "collected_at": "2026-06-06T12:03:35.553478+09:00"
   },
   {
+    "ad_id": "1019128",
+    "prefix": "ai1282",
+    "url": "https://tvcf.co.kr/play/ai1282-1019128",
+    "card_title": "LG AI TV2026 LG AI TV Playbook | Connect Fitness Gear",
+    "onair": "06.02",
+    "registered_short": "06.04",
+    "brand": "LG AI TV",
+    "campaign": null,
+    "registered_date": "2026-06-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-06T17:01:12.170557+09:00"
+  },
+  {
     "ad_id": "1019127",
     "prefix": "bi1271",
     "url": "https://tvcf.co.kr/play/bi1271-1019127",
