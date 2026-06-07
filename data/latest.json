@@ -1,25 +1,181 @@
 {
-  "run_at": "2026-06-07T12:01:21.398691+09:00",
-  "count": 1,
-  "count_total_before_dedup": 1,
+  "run_at": "2026-06-07T17:02:54.391013+09:00",
+  "count": 7,
+  "count_total_before_dedup": 13,
   "new_ads": [
     {
-      "ad_id": "1019238",
-      "prefix": "ai1384",
-      "url": "https://tvcf.co.kr/play/ai1384-1019238",
-      "card_title": "농심 배홍동 비빔면우리는 막국수도 배홍동으로 간다",
+      "ad_id": "1019252",
+      "prefix": "ai1529",
+      "url": "https://tvcf.co.kr/play/ai1529-1019252",
+      "card_title": "트립닷컴🍊제주 Trip.은 진짜여야 해, 제주 호텔은 Trip.이어야 해🏨 ｜ Trip.com",
       "onair": "06.05",
       "registered_short": "06.07",
-      "brand": "농심 배홍동 비빔면",
+      "brand": "트립닷컴",
       "campaign": null,
       "registered_date": "2026-06-05",
-      "media_type": "시보광고",
-      "main_category": "식품/제과",
+      "media_type": "디지털(인터넷)",
+      "main_category": "서비스/유통/레저",
       "sub_categories": [],
-      "advertiser": "농심",
-      "advertiser_code": "C000001146",
+      "advertiser": "트립닷컴",
+      "advertiser_code": "C000018778",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1019251",
+          "url": "https://tvcf.co.kr/play/bi1518-1019251",
+          "brand": "트립닷컴",
+          "campaign": null,
+          "card_title": "트립닷컴🧘‍♀️치앙마이 Trip.은 진짜여야 해, 치앙마이 호텔은 Trip.이어야 해🏨 ｜ Trip.com"
+        },
+        {
+          "ad_id": "1019249",
+          "url": "https://tvcf.co.kr/play/bi1496-1019249",
+          "brand": "트립닷컴",
+          "campaign": null,
+          "card_title": "트립닷컴🏰영국 Trip.은 진짜여야 해, 영국 호텔은 Trip.이어야 해🏨"
+        },
+        {
+          "ad_id": "1019250",
+          "url": "https://tvcf.co.kr/play/ai2507-1019250",
+          "brand": "트립닷컴",
+          "campaign": null,
+          "card_title": "트립닷컴🎁상하이 Trip.은 진짜여야 해, 상하이 호텔은 Trip.이어야 해🏨 ｜ Trip.com"
+        }
+      ],
+      "variant_count": 4
+    },
+    {
+      "ad_id": "1019242",
+      "prefix": "ai1428",
+      "url": "https://tvcf.co.kr/play/ai1428-1019242",
+      "card_title": "불스원샷국내 유일을 넘어 세계 최고를 향해",
+      "onair": "06.05",
+      "registered_short": "06.07",
+      "brand": "불스원샷",
+      "campaign": null,
+      "registered_date": "2026-06-05",
+      "media_type": "공중파",
+      "main_category": "자동차/정유",
+      "sub_categories": [],
+      "advertiser": "불스원",
+      "advertiser_code": "C000003000",
       "advertiser_fallback": false,
       "variant_count": 1
+    },
+    {
+      "ad_id": "1019234",
+      "prefix": "ai1349",
+      "url": "https://tvcf.co.kr/play/ai1349-1019234",
+      "card_title": "KBS 2026 FIFA 북중미 월드컵대한민국 vs 체코",
+      "onair": "06.05",
+      "registered_short": "06.07",
+      "brand": "KBS 2026 FIFA 북중미 월드컵",
+      "campaign": null,
+      "registered_date": "2026-06-05",
+      "media_type": "공중파",
+      "main_category": "출판/교육/문화",
+      "sub_categories": [],
+      "advertiser": "신한금융그룹",
+      "advertiser_code": "C000011597",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1019237",
+      "prefix": "bi1373",
+      "url": "https://tvcf.co.kr/play/bi1373-1019237",
+      "card_title": "오뚜기 LIGHT&JOY 고기 가득 마녀스프마녀스프, 이제 간편하게 LIGHT NOW!",
+      "onair": "06.05",
+      "registered_short": "06.07",
+      "brand": "오뚜기 LIGHT&JOY 고기 가득 마녀스프",
+      "campaign": null,
+      "registered_date": "2026-06-05",
+      "media_type": "공중파",
+      "main_category": "식품/제과",
+      "sub_categories": [],
+      "advertiser": "오뚜기",
+      "advertiser_code": "C000002694",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1019239",
+          "url": "https://tvcf.co.kr/play/bi1395-1019239",
+          "brand": "오뚜기 LIGHT&JOY 저당컵누들 불닭맛",
+          "campaign": null,
+          "card_title": "오뚜기 LIGHT&JOY 저당컵누들 불닭맛식단관리 중 유일하게 허락된 도파민! 저당 컵누들 불닭맛"
+        },
+        {
+          "ad_id": "1019240",
+          "url": "https://tvcf.co.kr/play/ai2406-1019240",
+          "brand": "오뚜기 LIGHT JOY 저당 파스타소스",
+          "campaign": null,
+          "card_title": "오뚜기 LIGHT JOY 저당 파스타소스파스타도 망설임 없이, 라이트하게!"
+        }
+      ],
+      "variant_count": 3
+    },
+    {
+      "ad_id": "1019235",
+      "prefix": "bi1351",
+      "url": "https://tvcf.co.kr/play/bi1351-1019235",
+      "card_title": "KBS 2026 FIFA 북중미 월드컵대한민국을 하나로 월드컵은 KBS - KBS 프로그램 출연진",
+      "onair": "06.05",
+      "registered_short": "06.07",
+      "brand": "KBS 2026 FIFA 북중미 월드컵",
+      "campaign": null,
+      "registered_date": "2026-06-05",
+      "media_type": "공중파",
+      "main_category": "출판/교육/문화",
+      "sub_categories": [],
+      "advertiser": "KBS",
+      "advertiser_code": "C000003995",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1019244",
+      "prefix": "ai1441",
+      "url": "https://tvcf.co.kr/play/ai1441-1019244",
+      "card_title": "프롬바이오 위건강엔 매스틱위 건강을 위한 단하나의 기준, 위엔 매스틱15s ver",
+      "onair": "06.05",
+      "registered_short": "06.07",
+      "brand": "프롬바이오 위건강엔 매스틱",
+      "campaign": null,
+      "registered_date": "2026-06-05",
+      "media_type": "공중파",
+      "main_category": "제약/의료/복지",
+      "sub_categories": [],
+      "advertiser": "프롬바이오",
+      "advertiser_code": "C000017392",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1019243",
+      "prefix": "bi1439",
+      "url": "https://tvcf.co.kr/play/bi1439-1019243",
+      "card_title": "당근마켓이 가게 사장님이 찐이었어..(감동)",
+      "onair": "06.04",
+      "registered_short": "06.07",
+      "brand": "당근마켓",
+      "campaign": null,
+      "registered_date": "2026-06-04",
+      "media_type": "디지털(인터넷)",
+      "main_category": "",
+      "sub_categories": [],
+      "advertiser": "당근마켓",
+      "advertiser_code": "C000015430",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1019241",
+          "url": "https://tvcf.co.kr/play/bi1417-1019241",
+          "brand": "당근마켓",
+          "campaign": null,
+          "card_title": "당근마켓이웃은 진짜 가게를 알아보는 법, 찐당근"
+        }
+      ],
+      "variant_count": 2
     }
   ]
 }

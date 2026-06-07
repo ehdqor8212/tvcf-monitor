@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-07T10:01:36.328397+09:00",
+  "updated_at": "2026-06-07T17:02:54.410893+09:00",
   "count": 113,
-  "x_count": 193,
+  "x_count": 196,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1939,6 +1939,24 @@
       "advertiser": "투썸플레이스",
       "status": "x",
       "updated_at": "2026-06-05T17:04:45.698544+09:00",
+      "auto": true
+    },
+    "1019242": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-07T17:02:54.404220+09:00",
+      "auto": true
+    },
+    "1019235": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-06-07T17:02:54.407067+09:00",
+      "auto": true
+    },
+    "1019244": {
+      "advertiser": "프롬바이오",
+      "status": "x",
+      "updated_at": "2026-06-07T17:02:54.409899+09:00",
       "auto": true
     }
   }
