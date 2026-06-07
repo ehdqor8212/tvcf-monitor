@@ -1,5 +1,54 @@
 [
   {
+    "ad_id": "1019227",
+    "prefix": "bi1272",
+    "url": "https://tvcf.co.kr/play/bi1272-1019227",
+    "card_title": "아웃백스테이크하우스바삭하게 찾아온 꿀 같은 오늘 l Hunny Together Happy Today",
+    "onair": "06.06",
+    "registered_short": "06.06",
+    "brand": "아웃백스테이크하우스",
+    "campaign": null,
+    "registered_date": "2026-06-06",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "아웃백스테이크하우스",
+    "advertiser_code": "C000009111",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1019226",
+        "url": "https://tvcf.co.kr/play/ai1261-1019226",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스꿀 떨어지는 이 순간 l Hunny Together Happy Today"
+      },
+      {
+        "ad_id": "1019225",
+        "url": "https://tvcf.co.kr/play/bi1259-1019225",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스바삭한 즐거움, 스며드는 달콤함 l Hunny Together Happy Today"
+      },
+      {
+        "ad_id": "1019224",
+        "url": "https://tvcf.co.kr/play/ai1248-1019224",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스Hunny Together Happy Today_15s ver."
+      },
+      {
+        "ad_id": "1019223",
+        "url": "https://tvcf.co.kr/play/bi1237-1019223",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스Hunny Together Happy Today_30s ver."
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-06-07T10:01:36.316625+09:00"
+  },
+  {
     "ad_id": "1019219",
     "prefix": "bi1193",
     "url": "https://tvcf.co.kr/play/bi1193-1019219",
