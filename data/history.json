@@ -49,6 +49,25 @@
     "collected_at": "2026-06-07T10:01:36.316625+09:00"
   },
   {
+    "ad_id": "1019238",
+    "prefix": "ai1384",
+    "url": "https://tvcf.co.kr/play/ai1384-1019238",
+    "card_title": "농심 배홍동 비빔면우리는 막국수도 배홍동으로 간다",
+    "onair": "06.05",
+    "registered_short": "06.07",
+    "brand": "농심 배홍동 비빔면",
+    "campaign": null,
+    "registered_date": "2026-06-05",
+    "media_type": "시보광고",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "농심",
+    "advertiser_code": "C000001146",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-07T12:01:21.415060+09:00"
+  },
+  {
     "ad_id": "1019219",
     "prefix": "bi1193",
     "url": "https://tvcf.co.kr/play/bi1193-1019219",
