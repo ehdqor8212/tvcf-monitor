@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-07T17:02:54.410893+09:00",
-  "count": 113,
-  "x_count": 196,
+  "updated_at": "2026-06-08T17:10:09.712431+09:00",
+  "count": 119,
+  "x_count": 203,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -783,6 +783,48 @@
       "status": "o",
       "matched_name": "아웃백스테이크하우스",
       "updated_at": "2026-06-07T10:01:36.327359+09:00",
+      "auto": true
+    },
+    "코스모앤컴퍼니": {
+      "display_name": "코스모앤컴퍼니",
+      "status": "o",
+      "matched_name": "코스모앤컴퍼니",
+      "updated_at": "2026-06-08T17:10:09.684740+09:00",
+      "auto": true
+    },
+    "신한은행": {
+      "display_name": "신한은행",
+      "status": "o",
+      "matched_name": "신한은행",
+      "updated_at": "2026-06-08T17:10:09.685339+09:00",
+      "auto": true
+    },
+    "넥슨": {
+      "display_name": "넥슨",
+      "status": "o",
+      "matched_name": "넥슨",
+      "updated_at": "2026-06-08T17:10:09.685557+09:00",
+      "auto": true
+    },
+    "cj대한통운": {
+      "display_name": "CJ대한통운",
+      "status": "maybe",
+      "matched_name": "씨제이대한통운(CJ대한통운)",
+      "updated_at": "2026-06-08T17:10:09.693186+09:00",
+      "auto": true
+    },
+    "여기어때컴퍼니": {
+      "display_name": "여기어때컴퍼니",
+      "status": "maybe",
+      "matched_name": "여기어때",
+      "updated_at": "2026-06-08T17:10:09.703724+09:00",
+      "auto": true
+    },
+    "에프앤에프": {
+      "display_name": "에프앤에프",
+      "status": "maybe",
+      "matched_name": "에프앤에프(F&F)",
+      "updated_at": "2026-06-08T17:10:09.705845+09:00",
       "auto": true
     }
   },
@@ -1957,6 +1999,48 @@
       "advertiser": "프롬바이오",
       "status": "x",
       "updated_at": "2026-06-07T17:02:54.409899+09:00",
+      "auto": true
+    },
+    "1019430": {
+      "advertiser": "면사랑 ",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.688356+09:00",
+      "auto": true
+    },
+    "1019418": {
+      "advertiser": "현대렌탈케어",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.691181+09:00",
+      "auto": true
+    },
+    "1019422": {
+      "advertiser": "그레이스",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.695964+09:00",
+      "auto": true
+    },
+    "1019402": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.698745+09:00",
+      "auto": true
+    },
+    "1018895": {
+      "advertiser": "디올",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.701532+09:00",
+      "auto": true
+    },
+    "1019388": {
+      "advertiser": "카스",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.708635+09:00",
+      "auto": true
+    },
+    "1019228": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.711424+09:00",
       "auto": true
     }
   }
