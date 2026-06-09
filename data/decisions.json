@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-08T17:10:09.712431+09:00",
-  "count": 119,
-  "x_count": 203,
+  "updated_at": "2026-06-09T17:06:29.360945+09:00",
+  "count": 123,
+  "x_count": 207,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -825,6 +825,34 @@
       "status": "maybe",
       "matched_name": "에프앤에프(F&F)",
       "updated_at": "2026-06-08T17:10:09.705845+09:00",
+      "auto": true
+    },
+    "kt": {
+      "display_name": "KT",
+      "status": "maybe",
+      "matched_name": "케이티(KT)",
+      "updated_at": "2026-06-09T17:06:29.346591+09:00",
+      "auto": true
+    },
+    "교보생명": {
+      "display_name": "교보생명",
+      "status": "o",
+      "matched_name": "교보생명",
+      "updated_at": "2026-06-09T17:06:29.349524+09:00",
+      "auto": true
+    },
+    "한독약품": {
+      "display_name": "한독약품",
+      "status": "maybe",
+      "matched_name": "한독",
+      "updated_at": "2026-06-09T17:06:29.354937+09:00",
+      "auto": true
+    },
+    "유니온페이인터내셔널코리아": {
+      "display_name": "유니온페이인터내셔널코리아",
+      "status": "maybe",
+      "matched_name": "유니온페이",
+      "updated_at": "2026-06-09T17:06:29.359892+09:00",
       "auto": true
     }
   },
@@ -2041,6 +2069,30 @@
       "advertiser": "우림에프엠지",
       "status": "x",
       "updated_at": "2026-06-08T17:10:09.711424+09:00",
+      "auto": true
+    },
+    "1019500": {
+      "advertiser": "CASS",
+      "status": "x",
+      "updated_at": "2026-06-09T17:06:29.344135+09:00",
+      "auto": true
+    },
+    "1019494": {
+      "advertiser": "아우디코리아",
+      "status": "x",
+      "updated_at": "2026-06-09T17:06:29.349381+09:00",
+      "auto": true
+    },
+    "1019470": {
+      "advertiser": "대우건설",
+      "status": "x",
+      "updated_at": "2026-06-09T17:06:29.352260+09:00",
+      "auto": true
+    },
+    "1019477": {
+      "advertiser": "하리보",
+      "status": "x",
+      "updated_at": "2026-06-09T17:06:29.357661+09:00",
       "auto": true
     }
   }
