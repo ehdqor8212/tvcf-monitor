@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T10:05:35.163694+09:00",
-  "count": 123,
-  "x_count": 210,
+  "updated_at": "2026-06-10T12:02:04.149022+09:00",
+  "count": 124,
+  "x_count": 211,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -853,6 +853,13 @@
       "status": "maybe",
       "matched_name": "유니온페이",
       "updated_at": "2026-06-09T17:06:29.359892+09:00",
+      "auto": true
+    },
+    "종근당건강": {
+      "display_name": "종근당건강",
+      "status": "o",
+      "matched_name": "종근당건강",
+      "updated_at": "2026-06-10T12:02:04.147854+09:00",
       "auto": true
     }
   },
@@ -2111,6 +2118,12 @@
       "advertiser": "파리크라상",
       "status": "x",
       "updated_at": "2026-06-10T10:05:35.162552+09:00",
+      "auto": true
+    },
+    "1019677": {
+      "advertiser": "화이트",
+      "status": "x",
+      "updated_at": "2026-06-10T12:02:04.146818+09:00",
       "auto": true
     }
   }
