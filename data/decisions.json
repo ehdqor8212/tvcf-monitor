@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T17:06:29.360945+09:00",
+  "updated_at": "2026-06-10T10:05:35.163694+09:00",
   "count": 123,
-  "x_count": 207,
+  "x_count": 210,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2093,6 +2093,24 @@
       "advertiser": "하리보",
       "status": "x",
       "updated_at": "2026-06-09T17:06:29.357661+09:00",
+      "auto": true
+    },
+    "1019664": {
+      "advertiser": "정선군",
+      "status": "x",
+      "updated_at": "2026-06-10T10:05:35.156762+09:00",
+      "auto": true
+    },
+    "1019663": {
+      "advertiser": "대한결핵협회",
+      "status": "x",
+      "updated_at": "2026-06-10T10:05:35.159648+09:00",
+      "auto": true
+    },
+    "1019564": {
+      "advertiser": "파리크라상",
+      "status": "x",
+      "updated_at": "2026-06-10T10:05:35.162552+09:00",
       "auto": true
     }
   }
