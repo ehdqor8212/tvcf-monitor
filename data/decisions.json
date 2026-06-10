@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T12:02:04.149022+09:00",
-  "count": 124,
-  "x_count": 211,
+  "updated_at": "2026-06-10T17:04:36.560801+09:00",
+  "count": 125,
+  "x_count": 215,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -860,6 +860,13 @@
       "status": "o",
       "matched_name": "종근당건강",
       "updated_at": "2026-06-10T12:02:04.147854+09:00",
+      "auto": true
+    },
+    "팔도": {
+      "display_name": "팔도",
+      "status": "o",
+      "matched_name": "팔도",
+      "updated_at": "2026-06-10T17:04:36.557208+09:00",
       "auto": true
     }
   },
@@ -2124,6 +2131,30 @@
       "advertiser": "화이트",
       "status": "x",
       "updated_at": "2026-06-10T12:02:04.146818+09:00",
+      "auto": true
+    },
+    "1019708": {
+      "advertiser": "아메리칸 미트스토리",
+      "status": "x",
+      "updated_at": "2026-06-10T17:04:36.551136+09:00",
+      "auto": true
+    },
+    "1019726": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-06-10T17:04:36.553654+09:00",
+      "auto": true
+    },
+    "1019709": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-06-10T17:04:36.556194+09:00",
+      "auto": true
+    },
+    "1019676": {
+      "advertiser": "에이치케이디코리아",
+      "status": "x",
+      "updated_at": "2026-06-10T17:04:36.559755+09:00",
       "auto": true
     }
   }
