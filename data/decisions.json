@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T17:04:36.560801+09:00",
-  "count": 125,
-  "x_count": 215,
+  "updated_at": "2026-06-11T17:05:59.759900+09:00",
+  "count": 127,
+  "x_count": 220,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -867,6 +867,20 @@
       "status": "o",
       "matched_name": "팔도",
       "updated_at": "2026-06-10T17:04:36.557208+09:00",
+      "auto": true
+    },
+    "스포티파이": {
+      "display_name": "스포티파이",
+      "status": "o",
+      "matched_name": "스포티파이",
+      "updated_at": "2026-06-11T17:05:59.747251+09:00",
+      "auto": true
+    },
+    "노모어에프앤비": {
+      "display_name": "노모어에프앤비",
+      "status": "o",
+      "matched_name": "노모어에프앤비",
+      "updated_at": "2026-06-11T17:05:59.753130+09:00",
       "auto": true
     }
   },
@@ -2155,6 +2169,36 @@
       "advertiser": "에이치케이디코리아",
       "status": "x",
       "updated_at": "2026-06-10T17:04:36.559755+09:00",
+      "auto": true
+    },
+    "1019791": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.746660+09:00",
+      "auto": true
+    },
+    "1019781": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.750085+09:00",
+      "auto": true
+    },
+    "1019780": {
+      "advertiser": "현대렌탈케어",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.752894+09:00",
+      "auto": true
+    },
+    "1019758": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.755947+09:00",
+      "auto": true
+    },
+    "1019752": {
+      "advertiser": "하리보",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.758752+09:00",
       "auto": true
     }
   }
