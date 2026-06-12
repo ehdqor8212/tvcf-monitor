@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-11T17:05:59.759900+09:00",
-  "count": 127,
-  "x_count": 220,
+  "updated_at": "2026-06-12T10:02:58.493075+09:00",
+  "count": 129,
+  "x_count": 224,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -881,6 +881,20 @@
       "status": "o",
       "matched_name": "노모어에프앤비",
       "updated_at": "2026-06-11T17:05:59.753130+09:00",
+      "auto": true
+    },
+    "코카콜라": {
+      "display_name": "코카콜라",
+      "status": "maybe",
+      "matched_name": "한국코카콜라",
+      "updated_at": "2026-06-12T10:02:58.479337+09:00",
+      "auto": true
+    },
+    "한솔": {
+      "display_name": "한솔",
+      "status": "maybe",
+      "matched_name": "한솔홀딩스",
+      "updated_at": "2026-06-12T10:02:58.486887+09:00",
       "auto": true
     }
   },
@@ -2199,6 +2213,30 @@
       "advertiser": "하리보",
       "status": "x",
       "updated_at": "2026-06-11T17:05:59.758752+09:00",
+      "auto": true
+    },
+    "1019997": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.481861+09:00",
+      "auto": true
+    },
+    "1019999": {
+      "advertiser": "IPARK현대산업개발",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.484420+09:00",
+      "auto": true
+    },
+    "1019992": {
+      "advertiser": "나무엑스",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.489366+09:00",
+      "auto": true
+    },
+    "1019905": {
+      "advertiser": "소산퍼시픽",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.491948+09:00",
       "auto": true
     }
   }
