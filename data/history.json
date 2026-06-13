@@ -1,5 +1,392 @@
 [
   {
+    "ad_id": "1020098",
+    "prefix": "ai3988",
+    "url": "https://tvcf.co.kr/play/ai3988-1020098",
+    "card_title": "CJ제일제당고메 소바바 황금홀릭 통합편: 낭만을 지킬'계'",
+    "onair": "06.12",
+    "registered_short": "06.13",
+    "brand": "CJ제일제당",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020101",
+        "url": "https://tvcf.co.kr/play/bi312-1020101",
+        "brand": "CJ제일제당",
+        "campaign": null,
+        "card_title": "CJ제일제당고메 소바바 황금홀릭 EP3: 그 남자의 '계'산법"
+      },
+      {
+        "ad_id": "1020099",
+        "url": "https://tvcf.co.kr/play/bi3999-1020099",
+        "brand": "CJ제일제당",
+        "campaign": null,
+        "card_title": "CJ제일제당고메 소바바 황금홀릭 EP2: '계'빠르게 구해줄게"
+      },
+      {
+        "ad_id": "1020100",
+        "url": "https://tvcf.co.kr/play/ai401-1020100",
+        "brand": "CJ제일제당",
+        "campaign": null,
+        "card_title": "CJ제일제당고메 소바바 황금홀릭 EP1: ‘계‘측불가 로맨스"
+      },
+      {
+        "ad_id": "1020097",
+        "url": "https://tvcf.co.kr/play/bi3977-1020097",
+        "brand": "CJ제일제당",
+        "campaign": null,
+        "card_title": "CJ제일제당고메 소바바 황금홀릭 티저: 다시 태어날'계'"
+      },
+      {
+        "ad_id": "1020033",
+        "url": "https://tvcf.co.kr/play/bi3336-1020033",
+        "brand": "고메 소바바 황금홀릭",
+        "campaign": null,
+        "card_title": "고메 소바바 황금홀릭유튜브에서 재밌다고 난리난 치킨애니 정주행"
+      },
+      {
+        "ad_id": "1020031",
+        "url": "https://tvcf.co.kr/play/bi3314-1020031",
+        "brand": "고메 소바바 황금홀릭",
+        "campaign": null,
+        "card_title": "고메 소바바 황금홀릭[소바바치킨 애니 EP 2] 속도의 군계일학: 빨라봤자 배달이지(나레이션: 황민현)"
+      },
+      {
+        "ad_id": "1020032",
+        "url": "https://tvcf.co.kr/play/ai3325-1020032",
+        "brand": "고메 소바바 황금홀릭",
+        "campaign": null,
+        "card_title": "고메 소바바 황금홀릭[소바바치킨 애니 EP 3] 가격의 군계일학: 비싼 치킨은 낭만이 없어 (나레이션: 황민현)"
+      },
+      {
+        "ad_id": "1020030",
+        "url": "https://tvcf.co.kr/play/ai4303-1020030",
+        "brand": "고메 소바바 황금홀릭",
+        "campaign": null,
+        "card_title": "고메 소바바 황금홀릭[소바바치킨 애니 EP 1] 바삭함의 군계일학: 울지마, 눅눅해지잖아(나레이션: 황민현)"
+      },
+      {
+        "ad_id": "1020029",
+        "url": "https://tvcf.co.kr/play/bi3292-1020029",
+        "brand": "고메 소바바 황금홀릭",
+        "campaign": null,
+        "card_title": "고메 소바바 황금홀릭[소바바치킨 신작 애니 EP 0] 마침내, 군계일학: 치킨들의 장난은 여기까지"
+      }
+    ],
+    "variant_count": 10,
+    "collected_at": "2026-06-13T10:17:59.684241+09:00"
+  },
+  {
+    "ad_id": "1020083",
+    "prefix": "bi3832",
+    "url": "https://tvcf.co.kr/play/bi3832-1020083",
+    "card_title": "YouserYouser",
+    "onair": "06.12",
+    "registered_short": "06.13",
+    "brand": "Youser",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "Youser",
+    "advertiser_code": "4183995",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684251+09:00"
+  },
+  {
+    "ad_id": "1020078",
+    "prefix": "ai3786",
+    "url": "https://tvcf.co.kr/play/ai3786-1020078",
+    "card_title": "스핀들어느 날, 손주가 집채만큼 커졌다 [머슬포비아 할아버지 편(15s)]",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "스핀들",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "스핀들",
+    "advertiser_code": "4183860",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020077",
+        "url": "https://tvcf.co.kr/play/bi3775-1020077",
+        "brand": "스핀들",
+        "campaign": null,
+        "card_title": "스핀들어느 날, 손주가 집채만큼 커졌다 [머슬포비아 할아버지 편(30s)]"
+      },
+      {
+        "ad_id": "1020076",
+        "url": "https://tvcf.co.kr/play/ai3764-1020076",
+        "brand": "스핀들",
+        "campaign": null,
+        "card_title": "스핀들어느 날, 손주가 집채만큼 커졌다 [머슬포비아 할아버지 편(15s)]"
+      },
+      {
+        "ad_id": "1020075",
+        "url": "https://tvcf.co.kr/play/bi3753-1020075",
+        "brand": "스핀들",
+        "campaign": null,
+        "card_title": "스핀들어느 날, 손주가 집채만큼 커졌다 [머슬포비아 할아버지 편(30s)]"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-13T10:17:59.684260+09:00"
+  },
+  {
+    "ad_id": "1020071",
+    "prefix": "bi3718",
+    "url": "https://tvcf.co.kr/play/bi3718-1020071",
+    "card_title": "불스원샷불스원샷 30주년 캠페인 15\" (2026)",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "불스원샷",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "불스원",
+    "advertiser_code": "C000003000",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020069",
+        "url": "https://tvcf.co.kr/play/bi3696-1020069",
+        "brand": "불스원샷",
+        "campaign": null,
+        "card_title": "불스원샷불스원샷 30주년 캠페인 30\" (2026)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684265+09:00"
+  },
+  {
+    "ad_id": "1020064",
+    "prefix": "ai3641",
+    "url": "https://tvcf.co.kr/play/ai3641-1020064",
+    "card_title": "아로나민 씨플러스피로회복 부터 기미,주근깨 완화까지! 해결도 한번에",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "아로나민 씨플러스",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "일동제약",
+    "advertiser_code": "C000001350",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684267+09:00"
+  },
+  {
+    "ad_id": "1020053",
+    "prefix": "bi3538",
+    "url": "https://tvcf.co.kr/play/bi3538-1020053",
+    "card_title": "메가MGC커피승리를 노래해 MGC X SON X EXO",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "메가MGC커피",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "케이블",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "메가MGC커피",
+    "advertiser_code": "C000040962",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020054",
+        "url": "https://tvcf.co.kr/play/ai3549-1020054",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피승리를 노래해 MGC X SON X EXO | 30s"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684271+09:00"
+  },
+  {
+    "ad_id": "1020023",
+    "prefix": "bi3235",
+    "url": "https://tvcf.co.kr/play/bi3235-1020023",
+    "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 [CHANGE]",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "쿨페이즈",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "아스테라시스",
+    "advertiser_code": "C000169587",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020020",
+        "url": "https://tvcf.co.kr/play/ai4202-1020020",
+        "brand": "쿨페이즈",
+        "campaign": null,
+        "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 [HOLIDAY]"
+      },
+      {
+        "ad_id": "1020019",
+        "url": "https://tvcf.co.kr/play/bi3191-1020019",
+        "brand": "쿨페이즈",
+        "campaign": null,
+        "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 [HABIT]"
+      },
+      {
+        "ad_id": "1020016",
+        "url": "https://tvcf.co.kr/play/ai3167-1020016",
+        "brand": "쿨페이즈",
+        "campaign": null,
+        "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 (30')"
+      },
+      {
+        "ad_id": "1020015",
+        "url": "https://tvcf.co.kr/play/bi3156-1020015",
+        "brand": "쿨페이즈",
+        "campaign": null,
+        "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 (full)"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-06-13T10:17:59.684280+09:00"
+  },
+  {
+    "ad_id": "1020067",
+    "prefix": "bi3674",
+    "url": "https://tvcf.co.kr/play/bi3674-1020067",
+    "card_title": "딘시Dinsee X 전여빈 | 슬로우에이징 핑크 볼륨 세럼 6s Ver.",
+    "onair": "06.11",
+    "registered_short": "06.12",
+    "brand": "딘시",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "디지털 범퍼",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "유한양행",
+    "advertiser_code": "C000001343",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020068",
+        "url": "https://tvcf.co.kr/play/ai3685-1020068",
+        "brand": "딘시",
+        "campaign": null,
+        "card_title": "딘시Dinsee X 전여빈 | 겉파속촉 블루 톤업 선크림"
+      },
+      {
+        "ad_id": "1020066",
+        "url": "https://tvcf.co.kr/play/ai3663-1020066",
+        "brand": "딘시",
+        "campaign": null,
+        "card_title": "딘시Dinsee X 전여빈 | 슬로우에이징 핑크 볼륨 세럼 15s Ver."
+      },
+      {
+        "ad_id": "1020065",
+        "url": "https://tvcf.co.kr/play/bi3652-1020065",
+        "brand": "딘시",
+        "campaign": null,
+        "card_title": "딘시Dinsee X 전여빈 | 슬로우에이징 핑크 볼륨 세럼 Full Ver."
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-13T10:17:59.684264+09:00"
+  },
+  {
+    "ad_id": "1020008",
+    "prefix": "ai488",
+    "url": "https://tvcf.co.kr/play/ai488-1020008",
+    "card_title": "타이틀리스트 Pro V1ULTIMATE SCORING POWER",
+    "onair": "06.11",
+    "registered_short": "06.12",
+    "brand": "타이틀리스트 Pro V1",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "공중파",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "아쿠쉬네트코리아",
+    "advertiser_code": "C000011627",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684286+09:00"
+  },
+  {
+    "ad_id": "1020006",
+    "prefix": "ai466",
+    "url": "https://tvcf.co.kr/play/ai466-1020006",
+    "card_title": "메르세데스 벤츠 S-CLASS140 YEARS OF INNOVATION",
+    "onair": "06.11",
+    "registered_short": "06.12",
+    "brand": "메르세데스 벤츠 S-CLASS",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "공중파",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "메르세데스 벤츠코리아",
+    "advertiser_code": "C000011426",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684287+09:00"
+  },
+  {
+    "ad_id": "1020005",
+    "prefix": "bi455",
+    "url": "https://tvcf.co.kr/play/bi455-1020005",
+    "card_title": "SBS 2026 신한 SOL KBO 리그끝날 때까지 끝난 게 아니다",
+    "onair": "06.11",
+    "registered_short": "06.12",
+    "brand": "SBS 2026 신한 SOL KBO 리그",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "공중파",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "SBS",
+    "advertiser_code": "C000005547",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684289+09:00"
+  },
+  {
+    "ad_id": "1020001",
+    "prefix": "bi411",
+    "url": "https://tvcf.co.kr/play/bi411-1020001",
+    "card_title": "카스 0.00오전 경기에는 NEW 카스 제로",
+    "onair": "06.11",
+    "registered_short": "06.12",
+    "brand": "카스 0.00",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "가상광고",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "오비맥주",
+    "advertiser_code": "C000001331",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684291+09:00"
+  },
+  {
     "ad_id": "1019999",
     "prefix": "bi1999",
     "url": "https://tvcf.co.kr/play/bi1999-1019999",
@@ -1108,6 +1495,34 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-06-08T17:10:09.673403+09:00"
+  },
+  {
+    "ad_id": "1020025",
+    "prefix": "bi3257",
+    "url": "https://tvcf.co.kr/play/bi3257-1020025",
+    "card_title": "써브웨이로티세리 치킨 더블치즈 그레인 샐러드, 든든한 한 끼로 재탄생! #shorts",
+    "onair": "06.07",
+    "registered_short": "06.12",
+    "brand": "써브웨이",
+    "campaign": null,
+    "registered_date": "2026-06-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "써브웨이코리아",
+    "advertiser_code": "C000012475",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020024",
+        "url": "https://tvcf.co.kr/play/ai3246-1020024",
+        "brand": "써브웨이",
+        "campaign": null,
+        "card_title": "써브웨이쉬림프 아보카도 그레인 샐러드, 든든한 한 끼로 재탄생! #shorts"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684278+09:00"
   },
   {
     "ad_id": "1019492",
@@ -2470,6 +2885,25 @@
     "collected_at": "2026-06-02T17:02:32.819229+09:00"
   },
   {
+    "ad_id": "1020026",
+    "prefix": "ai3268",
+    "url": "https://tvcf.co.kr/play/ai3268-1020026",
+    "card_title": "써브웨이샐러드, 든든한 한 끼로 풀체인지! (15s ver.) #shorts",
+    "onair": "06.01",
+    "registered_short": "06.12",
+    "brand": "써브웨이",
+    "campaign": null,
+    "registered_date": "2026-06-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "써브웨이코리아",
+    "advertiser_code": "C000012475",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684276+09:00"
+  },
+  {
     "ad_id": "1019771",
     "prefix": "bi1716",
     "url": "https://tvcf.co.kr/play/bi1716-1019771",
@@ -3557,6 +3991,34 @@
     "collected_at": "2026-06-01T10:02:40.418513+09:00"
   },
   {
+    "ad_id": "1020027",
+    "prefix": "bi3279",
+    "url": "https://tvcf.co.kr/play/bi3279-1020027",
+    "card_title": "써브웨이샐러드, 든든한 한 끼로 풀체인지! (6s ver.) #shorts",
+    "onair": "05.31",
+    "registered_short": "06.12",
+    "brand": "써브웨이",
+    "campaign": null,
+    "registered_date": "2026-05-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "써브웨이코리아",
+    "advertiser_code": "C000012475",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020022",
+        "url": "https://tvcf.co.kr/play/ai3224-1020022",
+        "brand": "써브웨이",
+        "campaign": null,
+        "card_title": "써브웨이샐러드, 든든한 한 끼로 풀체인지! (6s ver.)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684274+09:00"
+  },
+  {
     "ad_id": "1018745",
     "prefix": "bi1457",
     "url": "https://tvcf.co.kr/play/bi1457-1018745",
@@ -3669,6 +4131,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-31T10:01:19.317384+09:00"
+  },
+  {
+    "ad_id": "1020074",
+    "prefix": "ai3742",
+    "url": "https://tvcf.co.kr/play/ai3742-1020074",
+    "card_title": "트웬티케이채수빈과 함께하는 피부 본연의 윤기를 깨우는 캐비어 라인",
+    "onair": "05.29",
+    "registered_short": "06.12",
+    "brand": "트웬티케이",
+    "campaign": null,
+    "registered_date": "2026-05-29",
+    "media_type": "바이럴",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "디알코스메틱",
+    "advertiser_code": "4183803",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020072",
+        "url": "https://tvcf.co.kr/play/ai3729-1020072",
+        "brand": "트웬티케이",
+        "campaign": null,
+        "card_title": "트웬티케이채수빈과 함께하는 피부 본연의 윤기를 깨우는 캐비어 라인"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684262+09:00"
   },
   {
     "ad_id": "1019214",
@@ -4467,6 +4957,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-28T10:02:31.030352+09:00"
+  },
+  {
+    "ad_id": "1020080",
+    "prefix": "ai4808",
+    "url": "https://tvcf.co.kr/play/ai4808-1020080",
+    "card_title": "퍼시스[보이지 않는 혁신가들에게] Brand Film",
+    "onair": "05.27",
+    "registered_short": "06.12",
+    "brand": "퍼시스",
+    "campaign": null,
+    "registered_date": "2026-05-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "FURSYS",
+    "advertiser_code": "C000054416",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684257+09:00"
   },
   {
     "ad_id": "1019107",
@@ -8004,6 +8513,53 @@
     "collected_at": "2026-05-20T12:02:15.082244+09:00"
   },
   {
+    "ad_id": "1020038",
+    "prefix": "ai3382",
+    "url": "https://tvcf.co.kr/play/ai3382-1020038",
+    "card_title": "유니클로2026 유니클로 감사제",
+    "onair": "05.14",
+    "registered_short": "06.12",
+    "brand": "유니클로",
+    "campaign": null,
+    "registered_date": "2026-05-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "에프알엘코리아",
+    "advertiser_code": "C000010404",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684272+09:00"
+  },
+  {
+    "ad_id": "1020012",
+    "prefix": "ai3123",
+    "url": "https://tvcf.co.kr/play/ai3123-1020012",
+    "card_title": "우리카드해외 여행 필수템, 국경 없는 SUPER 급 할인!, 카드의정석 2 SUPER",
+    "onair": "05.14",
+    "registered_short": "06.12",
+    "brand": "우리카드",
+    "campaign": null,
+    "registered_date": "2026-05-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "우리카드",
+    "advertiser_code": "C000001544",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020014",
+        "url": "https://tvcf.co.kr/play/ai3145-1020014",
+        "brand": "우리카드",
+        "campaign": null,
+        "card_title": "우리카드쇼핑부터 외식, 주유까지! 선넘는 혜택, 카드의정석2 SUPER"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684282+09:00"
+  },
+  {
     "ad_id": "1018685",
     "prefix": "bi1851",
     "url": "https://tvcf.co.kr/play/bi1851-1018685",
@@ -9039,6 +9595,25 @@
     "advertiser_fallback": false
   },
   {
+    "ad_id": "1020082",
+    "prefix": "ai3821",
+    "url": "https://tvcf.co.kr/play/ai3821-1020082",
+    "card_title": "미에로화이바TWS와 함께 매일 챙기는 식이섬유 루틴!",
+    "onair": "05.11",
+    "registered_short": "06.13",
+    "brand": "미에로화이바",
+    "campaign": null,
+    "registered_date": "2026-05-11",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "현대약품",
+    "advertiser_code": "C000001478",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684255+09:00"
+  },
+  {
     "ad_id": "1019791",
     "prefix": "bi1918",
     "url": "https://tvcf.co.kr/play/bi1918-1019791",
@@ -9929,6 +10504,25 @@
     "collected_at": "2026-05-21T17:03:59.384287+09:00"
   },
   {
+    "ad_id": "1020010",
+    "prefix": "ai4101",
+    "url": "https://tvcf.co.kr/play/ai4101-1020010",
+    "card_title": "우리카드[TEASER] 세상에 없던 카드돌의 등장, WEASY",
+    "onair": "05.01",
+    "registered_short": "06.12",
+    "brand": "우리카드",
+    "campaign": null,
+    "registered_date": "2026-05-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "우리카드",
+    "advertiser_code": "C000001544",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-13T10:17:59.684284+09:00"
+  },
+  {
     "ad_id": "1019428",
     "prefix": "ai1285",
     "url": "https://tvcf.co.kr/play/ai1285-1019428",
@@ -10414,6 +11008,34 @@
     "brand": "깨노니 쿨",
     "advertiser_code": "C000001363",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1020063",
+    "prefix": "bi3639",
+    "url": "https://tvcf.co.kr/play/bi3639-1020063",
+    "card_title": "한돈세계적 식재료 가장 가까이에_한돈몰",
+    "onair": "04.28",
+    "registered_short": "06.12",
+    "brand": "한돈",
+    "campaign": null,
+    "registered_date": "2026-04-28",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "한돈자조금관리위원회",
+    "advertiser_code": "C000010980",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020062",
+        "url": "https://tvcf.co.kr/play/ai3628-1020062",
+        "brand": "한돈",
+        "campaign": null,
+        "card_title": "한돈세계적 식재료 가장 가까이에_풍미"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-13T10:17:59.684269+09:00"
   },
   {
     "ad_id": "1017444",

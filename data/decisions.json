@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-12T10:02:58.493075+09:00",
-  "count": 129,
-  "x_count": 224,
+  "updated_at": "2026-06-13T10:17:59.734591+09:00",
+  "count": 134,
+  "x_count": 234,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -895,6 +895,41 @@
       "status": "maybe",
       "matched_name": "한솔홀딩스",
       "updated_at": "2026-06-12T10:02:58.486887+09:00",
+      "auto": true
+    },
+    "cj제일제당": {
+      "display_name": "CJ제일제당",
+      "status": "maybe",
+      "matched_name": "씨제이제일제당(CJ제일제당)",
+      "updated_at": "2026-06-13T10:17:59.698491+09:00",
+      "auto": true
+    },
+    "현대약품": {
+      "display_name": "현대약품",
+      "status": "o",
+      "matched_name": "현대약품",
+      "updated_at": "2026-06-13T10:17:59.702870+09:00",
+      "auto": true
+    },
+    "유한양행": {
+      "display_name": "유한양행",
+      "status": "o",
+      "matched_name": "유한양행",
+      "updated_at": "2026-06-13T10:17:59.712588+09:00",
+      "auto": true
+    },
+    "에프알엘코리아": {
+      "display_name": "에프알엘코리아",
+      "status": "maybe",
+      "matched_name": "에프알엘코리아(FRL코리아)",
+      "updated_at": "2026-06-13T10:17:59.723600+09:00",
+      "auto": true
+    },
+    "우리카드": {
+      "display_name": "우리카드",
+      "status": "o",
+      "matched_name": "우리카드",
+      "updated_at": "2026-06-13T10:17:59.727463+09:00",
       "auto": true
     }
   },
@@ -2237,6 +2272,66 @@
       "advertiser": "소산퍼시픽",
       "status": "x",
       "updated_at": "2026-06-12T10:02:58.491948+09:00",
+      "auto": true
+    },
+    "1020083": {
+      "advertiser": "Youser",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.701449+09:00",
+      "auto": true
+    },
+    "1020080": {
+      "advertiser": "FURSYS",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.705839+09:00",
+      "auto": true
+    },
+    "1020078": {
+      "advertiser": "스핀들",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.708752+09:00",
+      "auto": true
+    },
+    "1020074": {
+      "advertiser": "디알코스메틱",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.711663+09:00",
+      "auto": true
+    },
+    "1020071": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.715508+09:00",
+      "auto": true
+    },
+    "1020063": {
+      "advertiser": "한돈자조금관리위원회",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.718439+09:00",
+      "auto": true
+    },
+    "1020053": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.721373+09:00",
+      "auto": true
+    },
+    "1020023": {
+      "advertiser": "아스테라시스",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.726572+09:00",
+      "auto": true
+    },
+    "1020008": {
+      "advertiser": "아쿠쉬네트코리아",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.730388+09:00",
+      "auto": true
+    },
+    "1020005": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.733314+09:00",
       "auto": true
     }
   }
