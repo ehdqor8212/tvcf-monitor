@@ -1,5 +1,75 @@
 [
   {
+    "ad_id": "1020111",
+    "prefix": "bi2113",
+    "url": "https://tvcf.co.kr/play/bi2113-1020111",
+    "card_title": "메이플스토리OVERDRIVE 개편사항 | 메이플스토리 OVERDRIVE",
+    "onair": "06.13",
+    "registered_short": "06.13",
+    "brand": "메이플스토리",
+    "campaign": null,
+    "registered_date": "2026-06-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020109",
+        "url": "https://tvcf.co.kr/play/bi391-1020109",
+        "brand": "메이플스토리",
+        "campaign": null,
+        "card_title": "메이플스토리하이퍼 블링크 & 버닝 BEYOND | 메이플스토리 OVERDRIVE"
+      },
+      {
+        "ad_id": "1020110",
+        "url": "https://tvcf.co.kr/play/ai3102-1020110",
+        "brand": "메이플스토리",
+        "campaign": null,
+        "card_title": "메이플스토리챌린저스 월드 시즌 4 X 시즌 보스 메이린 | 메이플스토리 OVERDRIVE"
+      },
+      {
+        "ad_id": "1020105",
+        "url": "https://tvcf.co.kr/play/bi356-1020105",
+        "brand": "메이플스토리",
+        "campaign": null,
+        "card_title": "메이플스토리신규 3rd 스킬 코어 | 메이플스토리 OVERDRIVE"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-14T12:02:25.212979+09:00"
+  },
+  {
+    "ad_id": "1020100",
+    "prefix": "ai401",
+    "url": "https://tvcf.co.kr/play/ai401-1020100",
+    "card_title": "CJ제일제당고메 소바바 황금홀릭 EP1: ‘계‘측불가 로맨스",
+    "onair": "06.12",
+    "registered_short": "06.13",
+    "brand": "CJ제일제당",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020097",
+        "url": "https://tvcf.co.kr/play/bi3977-1020097",
+        "brand": "CJ제일제당",
+        "campaign": null,
+        "card_title": "CJ제일제당고메 소바바 황금홀릭 티저: 다시 태어날'계'"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-14T12:02:25.212983+09:00"
+  },
+  {
     "ad_id": "1020098",
     "prefix": "ai3988",
     "url": "https://tvcf.co.kr/play/ai3988-1020098",
@@ -269,6 +339,25 @@
     "collected_at": "2026-06-13T10:17:59.684280+09:00"
   },
   {
+    "ad_id": "1020019",
+    "prefix": "bi3191",
+    "url": "https://tvcf.co.kr/play/bi3191-1020019",
+    "card_title": "쿨페이즈[아스테라시스] 2026 쿨페이즈 X 하지원 쿨하게 나의 페이스대로 [HABIT]",
+    "onair": "06.12",
+    "registered_short": "06.12",
+    "brand": "쿨페이즈",
+    "campaign": null,
+    "registered_date": "2026-06-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "아스테라시스",
+    "advertiser_code": "C000169587",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-14T12:02:25.212986+09:00"
+  },
+  {
     "ad_id": "1020067",
     "prefix": "bi3674",
     "url": "https://tvcf.co.kr/play/bi3674-1020067",
@@ -366,6 +455,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-13T10:17:59.684289+09:00"
+  },
+  {
+    "ad_id": "1020002",
+    "prefix": "ai422",
+    "url": "https://tvcf.co.kr/play/ai422-1020002",
+    "card_title": "스포티파이끌리는 대로 끌려가 보자, 스포티파이",
+    "onair": "06.11",
+    "registered_short": "06.14",
+    "brand": "스포티파이",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "스포티파이",
+    "advertiser_code": "C000020501",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020103",
+        "url": "https://tvcf.co.kr/play/bi334-1020103",
+        "brand": "스포티파이",
+        "campaign": null,
+        "card_title": "스포티파이끌리는 대로 끌려가 보자, 스포티파이"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-14T12:02:25.212969+09:00"
   },
   {
     "ad_id": "1020001",

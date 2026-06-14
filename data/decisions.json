@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T10:17:59.734591+09:00",
+  "updated_at": "2026-06-14T12:02:25.229251+09:00",
   "count": 134,
-  "x_count": 234,
+  "x_count": 235,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2332,6 +2332,12 @@
       "advertiser": "SBS",
       "status": "x",
       "updated_at": "2026-06-13T10:17:59.733314+09:00",
+      "auto": true
+    },
+    "1020019": {
+      "advertiser": "아스테라시스",
+      "status": "x",
+      "updated_at": "2026-06-14T12:02:25.228022+09:00",
       "auto": true
     }
   }
