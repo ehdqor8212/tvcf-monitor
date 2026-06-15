@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-14T12:02:25.229251+09:00",
-  "count": 134,
-  "x_count": 235,
+  "updated_at": "2026-06-15T12:06:40.830330+09:00",
+  "count": 142,
+  "x_count": 240,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -930,6 +930,62 @@
       "status": "o",
       "matched_name": "우리카드",
       "updated_at": "2026-06-13T10:17:59.727463+09:00",
+      "auto": true
+    },
+    "삼양식품": {
+      "display_name": "삼양식품",
+      "status": "o",
+      "matched_name": "삼양식품",
+      "updated_at": "2026-06-15T12:06:40.811545+09:00",
+      "auto": true
+    },
+    "피알앤디컴퍼니": {
+      "display_name": "피알앤디컴퍼니",
+      "status": "o",
+      "matched_name": "피알앤디컴퍼니",
+      "updated_at": "2026-06-15T12:06:40.814592+09:00",
+      "auto": true
+    },
+    "도루코리빙": {
+      "display_name": "도루코리빙 ",
+      "status": "maybe",
+      "matched_name": "도루코",
+      "updated_at": "2026-06-15T12:06:40.815825+09:00",
+      "auto": true
+    },
+    "sk텔레콤": {
+      "display_name": "sk텔레콤",
+      "status": "maybe",
+      "matched_name": "에스케이텔레콤(SK텔레콤)",
+      "updated_at": "2026-06-15T12:06:40.817400+09:00",
+      "auto": true
+    },
+    "르노코리아": {
+      "display_name": "르노코리아",
+      "status": "o",
+      "matched_name": "르노코리아",
+      "updated_at": "2026-06-15T12:06:40.819766+09:00",
+      "auto": true
+    },
+    "명인제약": {
+      "display_name": "명인제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 명인제약",
+      "updated_at": "2026-06-15T12:06:40.820808+09:00",
+      "auto": true
+    },
+    "샤넬": {
+      "display_name": "샤넬",
+      "status": "maybe",
+      "matched_name": "샤넬코리아",
+      "updated_at": "2026-06-15T12:06:40.822226+09:00",
+      "auto": true
+    },
+    "청호나이스": {
+      "display_name": "청호나이스",
+      "status": "o",
+      "matched_name": "청호나이스",
+      "updated_at": "2026-06-15T12:06:40.825085+09:00",
       "auto": true
     }
   },
@@ -2338,6 +2394,36 @@
       "advertiser": "아스테라시스",
       "status": "x",
       "updated_at": "2026-06-14T12:02:25.228022+09:00",
+      "auto": true
+    },
+    "1020175": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.813680+09:00",
+      "auto": true
+    },
+    "1020146": {
+      "advertiser": "한일전기",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.819507+09:00",
+      "auto": true
+    },
+    "1020135": {
+      "advertiser": "아쿠쉬네트코리아",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.824347+09:00",
+      "auto": true
+    },
+    "1020120": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.827167+09:00",
+      "auto": true
+    },
+    "1020000": {
+      "advertiser": "일동후디스",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.829248+09:00",
       "auto": true
     }
   }
