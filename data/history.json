@@ -1,5 +1,125 @@
 [
   {
+    "ad_id": "1020357",
+    "prefix": "bi2576",
+    "url": "https://tvcf.co.kr/play/bi2576-1020357",
+    "card_title": "제주 삼다수제주삼다수] 2026 디지털 CF_삼제페 6월 스페셜 이벤트",
+    "onair": "06.15",
+    "registered_short": "06.16",
+    "brand": "제주 삼다수",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "공중파",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "광동제약",
+    "advertiser_code": "C000001115",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748510+09:00"
+  },
+  {
+    "ad_id": "1020276",
+    "prefix": "ai2766",
+    "url": "https://tvcf.co.kr/play/ai2766-1020276",
+    "card_title": "지센[Dear Myself] 서현 (1) #디어마이셀프 #지센 #zishen",
+    "onair": "06.15",
+    "registered_short": "06.15",
+    "brand": "지센",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "디지털 범퍼",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "위비스",
+    "advertiser_code": "C000011753",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020275",
+        "url": "https://tvcf.co.kr/play/bi2755-1020275",
+        "brand": "지센",
+        "campaign": null,
+        "card_title": "지센[Dear Myself] 서현 (1) #디어마이셀프 #지센 #zishen"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-16T10:05:54.748515+09:00"
+  },
+  {
+    "ad_id": "1020274",
+    "prefix": "ai2744",
+    "url": "https://tvcf.co.kr/play/ai2744-1020274",
+    "card_title": "뉴케어 당플랜당신의 당뇨관리식, 제대로 따져보셨습니까? (15s)",
+    "onair": "06.15",
+    "registered_short": "06.15",
+    "brand": "뉴케어 당플랜",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "대상 웰라이프",
+    "advertiser_code": "C000012094",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020268",
+        "url": "https://tvcf.co.kr/play/ai2687-1020268",
+        "brand": "뉴케어 당플랜",
+        "campaign": null,
+        "card_title": "뉴케어 당플랜당신의 당뇨관리식, 제대로 따져보셨습니까? (Vertical)"
+      },
+      {
+        "ad_id": "1020265",
+        "url": "https://tvcf.co.kr/play/bi2654-1020265",
+        "brand": "뉴케어 당플랜",
+        "campaign": null,
+        "card_title": "뉴케어 당플랜당신의 당뇨관리식, 제대로 따져보셨습니까? (Full)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-06-16T10:05:54.748518+09:00"
+  },
+  {
+    "ad_id": "1020244",
+    "prefix": "ai2441",
+    "url": "https://tvcf.co.kr/play/ai2441-1020244",
+    "card_title": "SK매직 투워터 정수기투워터 정수기 X 변우석 TVC 메이킹필름",
+    "onair": "06.15",
+    "registered_short": "06.15",
+    "brand": "SK매직 투워터 정수기",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "SK매직",
+    "advertiser_code": "C000016996",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748532+09:00"
+  },
+  {
+    "ad_id": "1020194",
+    "prefix": "ai2945",
+    "url": "https://tvcf.co.kr/play/ai2945-1020194",
+    "card_title": "청주 한양립스 더 벨루체더:블 생활 프리미엄",
+    "onair": "06.15",
+    "registered_short": "06.15",
+    "brand": "청주 한양립스 더 벨루체",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "케이블",
+    "main_category": "아파트/건설",
+    "sub_categories": [],
+    "advertiser": "한양건설",
+    "advertiser_code": "C000020837",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748546+09:00"
+  },
+  {
     "ad_id": "1020146",
     "prefix": "ai2462",
     "url": "https://tvcf.co.kr/play/ai2462-1020146",
@@ -17,6 +137,53 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-15T12:06:40.800602+09:00"
+  },
+  {
+    "ad_id": "1020218",
+    "prefix": "ai2182",
+    "url": "https://tvcf.co.kr/play/ai2182-1020218",
+    "card_title": "시몬스[시몬스 ESG 캠페인] 하이파이브 셰어링 프로젝트 | 소녀와 스프링맨의 특별한 하이파이브",
+    "onair": "06.14",
+    "registered_short": "06.15",
+    "brand": "시몬스",
+    "campaign": null,
+    "registered_date": "2026-06-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "시몬스침대",
+    "advertiser_code": "C000009110",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748539+09:00"
+  },
+  {
+    "ad_id": "1020215",
+    "prefix": "bi2158",
+    "url": "https://tvcf.co.kr/play/bi2158-1020215",
+    "card_title": "맥도날드축구 레전드가 함께하는 FIFA 월드컵 세트(15's)",
+    "onair": "06.14",
+    "registered_short": "06.15",
+    "brand": "맥도날드",
+    "campaign": null,
+    "registered_date": "2026-06-14",
+    "media_type": "케이블",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "맥도날드",
+    "advertiser_code": "C000002212",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020196",
+        "url": "https://tvcf.co.kr/play/ai2967-1020196",
+        "brand": "맥도날드",
+        "campaign": null,
+        "card_title": "맥도날드축구 레전드가 함께하는 FIFA 월드컵 세트(15's)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-16T10:05:54.748541+09:00"
   },
   {
     "ad_id": "1020175",
@@ -52,6 +219,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-06-15T12:06:40.800587+09:00"
+  },
+  {
+    "ad_id": "1020193",
+    "prefix": "bi2934",
+    "url": "https://tvcf.co.kr/play/bi2934-1020193",
+    "card_title": "FiJi 모락셀라 냄세제거 부스터빨래 쉰내까지 뿌리뽑는 압도적 세척력!",
+    "onair": "06.13",
+    "registered_short": "06.15",
+    "brand": "FiJi 모락셀라 냄세제거 부스터",
+    "campaign": null,
+    "registered_date": "2026-06-13",
+    "media_type": "공중파",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "LG생활건강",
+    "advertiser_code": "C000003564",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748551+09:00"
   },
   {
     "ad_id": "1020174",
@@ -99,6 +285,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-15T12:06:40.800604+09:00"
+  },
+  {
+    "ad_id": "1020138",
+    "prefix": "ai2383",
+    "url": "https://tvcf.co.kr/play/ai2383-1020138",
+    "card_title": "파크로쉬익숙한 삶에서 나다운 삶으로",
+    "onair": "06.13",
+    "registered_short": "06.15",
+    "brand": "파크로쉬",
+    "campaign": null,
+    "registered_date": "2026-06-13",
+    "media_type": "공중파",
+    "main_category": "아파트/건설",
+    "sub_categories": [],
+    "advertiser": "IPARK현대산업개발",
+    "advertiser_code": "C000169699",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748548+09:00"
   },
   {
     "ad_id": "1020111",
@@ -601,6 +806,44 @@
     "collected_at": "2026-06-14T12:02:25.212986+09:00"
   },
   {
+    "ad_id": "1020243",
+    "prefix": "bi2439",
+    "url": "https://tvcf.co.kr/play/bi2439-1020243",
+    "card_title": "SK매직 투워터 정수기MEGA ICE 얼음정수기 X 변우석 TVC 메이킹필름",
+    "onair": "06.11",
+    "registered_short": "06.15",
+    "brand": "SK매직 투워터 정수기",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "SK매직",
+    "advertiser_code": "C000016996",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748534+09:00"
+  },
+  {
+    "ad_id": "1020104",
+    "prefix": "ai345",
+    "url": "https://tvcf.co.kr/play/ai345-1020104",
+    "card_title": "스포티파이끌리는 대로 끌려가 보자, 스포티파이",
+    "onair": "06.11",
+    "registered_short": "06.15",
+    "brand": "스포티파이",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "디지털 범퍼",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "스포티파이",
+    "advertiser_code": "C000020501",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748553+09:00"
+  },
+  {
     "ad_id": "1020067",
     "prefix": "bi3674",
     "url": "https://tvcf.co.kr/play/bi3674-1020067",
@@ -1000,6 +1243,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-11T17:05:59.732474+09:00"
+  },
+  {
+    "ad_id": "1020257",
+    "prefix": "bi2575",
+    "url": "https://tvcf.co.kr/play/bi2575-1020257",
+    "card_title": "아우디 Q3Love Live Curate Your Life",
+    "onair": "06.10",
+    "registered_short": "06.15",
+    "brand": "아우디 Q3",
+    "campaign": null,
+    "registered_date": "2026-06-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "AUDI",
+    "advertiser_code": "C000015913",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748530+09:00"
   },
   {
     "ad_id": "1019911",
@@ -1464,6 +1726,48 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-06-09T17:06:29.330833+09:00"
+  },
+  {
+    "ad_id": "1020227",
+    "prefix": "bi2272",
+    "url": "https://tvcf.co.kr/play/bi2272-1020227",
+    "card_title": "삼성 Micro RGB비교할수록 삼성 Micro RGB - 에너지효율 1등급",
+    "onair": "06.08",
+    "registered_short": "06.15",
+    "brand": "삼성 Micro RGB",
+    "campaign": null,
+    "registered_date": "2026-06-08",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020228",
+        "url": "https://tvcf.co.kr/play/ai2283-1020228",
+        "brand": "삼성 Micro RGB",
+        "campaign": null,
+        "card_title": "삼성 Micro RGB비교할수록 삼성 Micro RGB - AI 축구 모드"
+      },
+      {
+        "ad_id": "1020226",
+        "url": "https://tvcf.co.kr/play/ai2261-1020226",
+        "brand": "삼성 OLED",
+        "campaign": null,
+        "card_title": "삼성 OLED비교할수록 삼성 OLED - 무반사 기술"
+      },
+      {
+        "ad_id": "1020225",
+        "url": "https://tvcf.co.kr/play/bi2259-1020225",
+        "brand": "삼성 AI TV",
+        "campaign": null,
+        "card_title": "삼성 AI TV비교할수록 삼성 AI TV - AI 사운드 컨트롤"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-16T10:05:54.748537+09:00"
   },
   {
     "ad_id": "1019904",
@@ -2134,6 +2438,48 @@
     "collected_at": "2026-06-07T10:01:36.316625+09:00"
   },
   {
+    "ad_id": "1020272",
+    "prefix": "ai2722",
+    "url": "https://tvcf.co.kr/play/ai2722-1020272",
+    "card_title": "구글 제미나이Google Gemini | BTS THE CITY BUSAN I Gemini로 여행의 맛을 찾아봐 15s",
+    "onair": "06.05",
+    "registered_short": "06.16",
+    "brand": "구글 제미나이",
+    "campaign": null,
+    "registered_date": "2026-06-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "구글코리아",
+    "advertiser_code": "C000008256",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020271",
+        "url": "https://tvcf.co.kr/play/bi2711-1020271",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Google Gemini | BTS THE CITY ARIRANG I Gemini로 여행의 맛을 찾아봐 FULL"
+      },
+      {
+        "ad_id": "1020269",
+        "url": "https://tvcf.co.kr/play/bi2698-1020269",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Google Gemini | BTS THE CITY BUSAN I Gemini로 너만의 부산 여행을 만들어봐"
+      },
+      {
+        "ad_id": "1020270",
+        "url": "https://tvcf.co.kr/play/ai3709-1020270",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Google Gemini | BTS THE CITY BUSAN I Gemini로 너만의 추억을 만들어봐"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-16T10:05:54.748499+09:00"
+  },
+  {
     "ad_id": "1019992",
     "prefix": "ai1922",
     "url": "https://tvcf.co.kr/play/ai1922-1019992",
@@ -2580,6 +2926,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-05T12:13:54.035742+09:00"
+  },
+  {
+    "ad_id": "1020195",
+    "prefix": "bi2956",
+    "url": "https://tvcf.co.kr/play/bi2956-1020195",
+    "card_title": "현대자동차School of Football | 메이킹 필름",
+    "onair": "06.04",
+    "registered_short": "06.15",
+    "brand": "현대자동차",
+    "campaign": null,
+    "registered_date": "2026-06-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "현대자동차",
+    "advertiser_code": "C000001480",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748543+09:00"
   },
   {
     "ad_id": "1019444",
@@ -9099,6 +9464,25 @@
     "collected_at": "2026-05-20T12:02:15.082244+09:00"
   },
   {
+    "ad_id": "1020264",
+    "prefix": "ai2643",
+    "url": "https://tvcf.co.kr/play/ai2643-1020264",
+    "card_title": "미에로화이바영재는 이런 기분전환 좋아요!",
+    "onair": "05.14",
+    "registered_short": "06.15",
+    "brand": "미에로화이바",
+    "campaign": null,
+    "registered_date": "2026-05-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "현대약품",
+    "advertiser_code": "C000001478",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748522+09:00"
+  },
+  {
     "ad_id": "1020038",
     "prefix": "ai3382",
     "url": "https://tvcf.co.kr/play/ai3382-1020038",
@@ -9400,6 +9784,25 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-05-14T14:43:24.067779+09:00"
+  },
+  {
+    "ad_id": "1020263",
+    "prefix": "bi2632",
+    "url": "https://tvcf.co.kr/play/bi2632-1020263",
+    "card_title": "미에로화이바도훈이는 식이섬유 가득한 걸루!",
+    "onair": "05.13",
+    "registered_short": "06.15",
+    "brand": "미에로화이바",
+    "campaign": null,
+    "registered_date": "2026-05-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "현대약품",
+    "advertiser_code": "C000001478",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748527+09:00"
   },
   {
     "ad_id": "1020162",
@@ -9782,6 +10185,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-05-13T14:25:12.461400+09:00"
+  },
+  {
+    "ad_id": "1020262",
+    "prefix": "ai2621",
+    "url": "https://tvcf.co.kr/play/ai2621-1020262",
+    "card_title": "미에로화이바신유의 요즘 모닝 루틴",
+    "onair": "05.12",
+    "registered_short": "06.15",
+    "brand": "미에로화이바",
+    "campaign": null,
+    "registered_date": "2026-05-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "현대약품",
+    "advertiser_code": "C000001478",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748525+09:00"
   },
   {
     "ad_id": "1018149",
@@ -11172,6 +11594,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-06-15T12:06:40.800593+09:00"
+  },
+  {
+    "ad_id": "1020158",
+    "prefix": "ai2585",
+    "url": "https://tvcf.co.kr/play/ai2585-1020158",
+    "card_title": "삼양식품 MEP[MEP x ENHYPEN] 정원 Stan comments",
+    "onair": "05.04",
+    "registered_short": "06.15",
+    "brand": "삼양식품 MEP",
+    "campaign": null,
+    "registered_date": "2026-05-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "삼양식품",
+    "advertiser_code": "C000001268",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-16T10:05:54.748555+09:00"
   },
   {
     "ad_id": "1018735",

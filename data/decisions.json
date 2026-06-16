@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15T12:06:40.830330+09:00",
-  "count": 142,
-  "x_count": 240,
+  "updated_at": "2026-06-16T10:05:54.782412+09:00",
+  "count": 146,
+  "x_count": 246,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -986,6 +986,34 @@
       "status": "o",
       "matched_name": "청호나이스",
       "updated_at": "2026-06-15T12:06:40.825085+09:00",
+      "auto": true
+    },
+    "광동제약": {
+      "display_name": "광동제약",
+      "status": "o",
+      "matched_name": "광동제약",
+      "updated_at": "2026-06-16T10:05:54.762120+09:00",
+      "auto": true
+    },
+    "대상웰라이프": {
+      "display_name": "대상 웰라이프",
+      "status": "o",
+      "matched_name": "대상웰라이프",
+      "updated_at": "2026-06-16T10:05:54.764874+09:00",
+      "auto": true
+    },
+    "시몬스침대": {
+      "display_name": "시몬스침대",
+      "status": "maybe",
+      "matched_name": "시몬스",
+      "updated_at": "2026-06-16T10:05:54.774276+09:00",
+      "auto": true
+    },
+    "lg생활건강": {
+      "display_name": "LG생활건강",
+      "status": "maybe",
+      "matched_name": "엘지생활건강(LG생활건강)",
+      "updated_at": "2026-06-16T10:05:54.781235+09:00",
       "auto": true
     }
   },
@@ -2424,6 +2452,42 @@
       "advertiser": "일동후디스",
       "status": "x",
       "updated_at": "2026-06-15T12:06:40.829248+09:00",
+      "auto": true
+    },
+    "1020276": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.764652+09:00",
+      "auto": true
+    },
+    "1020257": {
+      "advertiser": "AUDI",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.767429+09:00",
+      "auto": true
+    },
+    "1020244": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.769955+09:00",
+      "auto": true
+    },
+    "1020243": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.772523+09:00",
+      "auto": true
+    },
+    "1020194": {
+      "advertiser": "한양건설",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.776754+09:00",
+      "auto": true
+    },
+    "1020138": {
+      "advertiser": "IPARK현대산업개발",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.779242+09:00",
       "auto": true
     }
   }
