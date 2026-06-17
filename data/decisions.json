@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-16T10:05:54.782412+09:00",
-  "count": 146,
-  "x_count": 246,
+  "updated_at": "2026-06-17T12:07:04.974883+09:00",
+  "count": 150,
+  "x_count": 250,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1014,6 +1014,34 @@
       "status": "maybe",
       "matched_name": "엘지생활건강(LG생활건강)",
       "updated_at": "2026-06-16T10:05:54.781235+09:00",
+      "auto": true
+    },
+    "그리티": {
+      "display_name": "그리티",
+      "status": "o",
+      "matched_name": "그리티",
+      "updated_at": "2026-06-17T12:07:04.958761+09:00",
+      "auto": true
+    },
+    "유니레버": {
+      "display_name": "유니레버",
+      "status": "maybe",
+      "matched_name": "유니레버코리아",
+      "updated_at": "2026-06-17T12:07:04.961064+09:00",
+      "auto": true
+    },
+    "gs리테일": {
+      "display_name": "gs리테일",
+      "status": "maybe",
+      "matched_name": "지에스리테일(GS리테일)",
+      "updated_at": "2026-06-17T12:07:04.972103+09:00",
+      "auto": true
+    },
+    "한국토요타자동차": {
+      "display_name": "한국토요타자동차",
+      "status": "o",
+      "matched_name": "한국토요타자동차",
+      "updated_at": "2026-06-17T12:07:04.973406+09:00",
       "auto": true
     }
   },
@@ -2488,6 +2516,30 @@
       "advertiser": "IPARK현대산업개발",
       "status": "x",
       "updated_at": "2026-06-16T10:05:54.779242+09:00",
+      "auto": true
+    },
+    "1020468": {
+      "advertiser": "드리미코리아",
+      "status": "x",
+      "updated_at": "2026-06-17T12:07:04.958565+09:00",
+      "auto": true
+    },
+    "1020420": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-06-17T12:07:04.963977+09:00",
+      "auto": true
+    },
+    "1020421": {
+      "advertiser": "바이노텍",
+      "status": "x",
+      "updated_at": "2026-06-17T12:07:04.966865+09:00",
+      "auto": true
+    },
+    "1020416": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-06-17T12:07:04.969683+09:00",
       "auto": true
     }
   }
