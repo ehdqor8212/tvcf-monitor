@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T12:07:04.974883+09:00",
-  "count": 150,
-  "x_count": 250,
+  "updated_at": "2026-06-17T17:03:55.367480+09:00",
+  "count": 153,
+  "x_count": 254,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1042,6 +1042,27 @@
       "status": "o",
       "matched_name": "한국토요타자동차",
       "updated_at": "2026-06-17T12:07:04.973406+09:00",
+      "auto": true
+    },
+    "퍼시스": {
+      "display_name": "퍼시스",
+      "status": "o",
+      "matched_name": "퍼시스",
+      "updated_at": "2026-06-17T17:03:55.353307+09:00",
+      "auto": true
+    },
+    "카버코리아": {
+      "display_name": "카버코리아",
+      "status": "o",
+      "matched_name": "카버코리아",
+      "updated_at": "2026-06-17T17:03:55.360083+09:00",
+      "auto": true
+    },
+    "대한적십자사": {
+      "display_name": "대한적십자사",
+      "status": "o",
+      "matched_name": "대한적십자사",
+      "updated_at": "2026-06-17T17:03:55.366051+09:00",
       "auto": true
     }
   },
@@ -2540,6 +2561,30 @@
       "advertiser": "SK하이닉스",
       "status": "x",
       "updated_at": "2026-06-17T12:07:04.969683+09:00",
+      "auto": true
+    },
+    "1020483": {
+      "advertiser": "츠바키",
+      "status": "x",
+      "updated_at": "2026-06-17T17:03:55.356187+09:00",
+      "auto": true
+    },
+    "1020482": {
+      "advertiser": "닥터지 ",
+      "status": "x",
+      "updated_at": "2026-06-17T17:03:55.359053+09:00",
+      "auto": true
+    },
+    "1020477": {
+      "advertiser": "이케아코리아 ",
+      "status": "x",
+      "updated_at": "2026-06-17T17:03:55.362932+09:00",
+      "auto": true
+    },
+    "1020475": {
+      "advertiser": "차살때",
+      "status": "x",
+      "updated_at": "2026-06-17T17:03:55.365760+09:00",
       "auto": true
     }
   }

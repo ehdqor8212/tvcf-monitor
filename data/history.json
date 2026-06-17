@@ -1,5 +1,82 @@
 [
   {
+    "ad_id": "1020475",
+    "prefix": "bi2757",
+    "url": "https://tvcf.co.kr/play/bi2757-1020475",
+    "card_title": "차살때차살때 TVC [차 살 땐, 차살때 본편] 6B”",
+    "onair": "06.16",
+    "registered_short": "06.17",
+    "brand": "차살때",
+    "campaign": null,
+    "registered_date": "2026-06-16",
+    "media_type": "디지털 범퍼",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "차살때",
+    "advertiser_code": "4187875",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020474",
+        "url": "https://tvcf.co.kr/play/ai2746-1020474",
+        "brand": "차살때",
+        "campaign": null,
+        "card_title": "차살때차살때 TVC [차 살 땐, 차살때] 본편 6A”"
+      },
+      {
+        "ad_id": "1020473",
+        "url": "https://tvcf.co.kr/play/bi2735-1020473",
+        "brand": "차살때",
+        "campaign": null,
+        "card_title": "차살때차살때 TVC [차 살 땐, 차살때] 본편 15”"
+      },
+      {
+        "ad_id": "1020472",
+        "url": "https://tvcf.co.kr/play/ai2724-1020472",
+        "brand": "차살때",
+        "campaign": null,
+        "card_title": "차살때차살때 TVC [차 살 땐, 차살때] 본편 30”"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-17T17:03:55.338673+09:00"
+  },
+  {
+    "ad_id": "1020471",
+    "prefix": "bi2713",
+    "url": "https://tvcf.co.kr/play/bi2713-1020471",
+    "card_title": "대한적십자사뿌듯하루_30s",
+    "onair": "06.16",
+    "registered_short": "06.17",
+    "brand": "대한적십자사",
+    "campaign": null,
+    "registered_date": "2026-06-16",
+    "media_type": "케이블",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "대한적십자사",
+    "advertiser_code": "C000001165",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020470",
+        "url": "https://tvcf.co.kr/play/ai3702-1020470",
+        "brand": "대한적십자사",
+        "campaign": null,
+        "card_title": "대한적십자사뿌듯하루_약속"
+      },
+      {
+        "ad_id": "1020469",
+        "url": "https://tvcf.co.kr/play/bi2691-1020469",
+        "brand": "대한적십자사",
+        "campaign": null,
+        "card_title": "대한적십자사뿌듯하루_자존감"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-06-17T17:03:55.338675+09:00"
+  },
+  {
     "ad_id": "1020435",
     "prefix": "bi2353",
     "url": "https://tvcf.co.kr/play/bi2353-1020435",
@@ -254,6 +331,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-17T12:07:04.942575+09:00"
+  },
+  {
+    "ad_id": "1020358",
+    "prefix": "ai2587",
+    "url": "https://tvcf.co.kr/play/ai2587-1020358",
+    "card_title": "혈행건강 프로메가프로가 만든 오메가3 뭐가 다를까?",
+    "onair": "06.15",
+    "registered_short": "06.17",
+    "brand": "혈행건강 프로메가",
+    "campaign": null,
+    "registered_date": "2026-06-15",
+    "media_type": "공중파",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "종근당건강",
+    "advertiser_code": "C000005426",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-17T17:03:55.338650+09:00"
   },
   {
     "ad_id": "1020357",
@@ -2807,6 +2903,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-06-07T10:01:36.316625+09:00"
+  },
+  {
+    "ad_id": "1020487",
+    "prefix": "bi2871",
+    "url": "https://tvcf.co.kr/play/bi2871-1020487",
+    "card_title": "퍼시스[보이지 않는 혁신가들에게] Clapping Trophy Film",
+    "onair": "06.05",
+    "registered_short": "06.17",
+    "brand": "퍼시스",
+    "campaign": null,
+    "registered_date": "2026-06-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "퍼시스",
+    "advertiser_code": "C000018560",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-17T17:03:55.338659+09:00"
   },
   {
     "ad_id": "1020272",
@@ -12445,6 +12560,48 @@
     "collected_at": "2026-05-14T14:43:24.067783+09:00"
   },
   {
+    "ad_id": "1020477",
+    "prefix": "bi2779",
+    "url": "https://tvcf.co.kr/play/bi2779-1020477",
+    "card_title": "이케아집 좀 아는 사람들",
+    "onair": "04.30",
+    "registered_short": "06.17",
+    "brand": "이케아",
+    "campaign": null,
+    "registered_date": "2026-04-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "이케아코리아 ",
+    "advertiser_code": "C000016533",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020476",
+        "url": "https://tvcf.co.kr/play/ai2768-1020476",
+        "brand": "이케아",
+        "campaign": null,
+        "card_title": "이케아집 좀 아는 사람들"
+      },
+      {
+        "ad_id": "1020479",
+        "url": "https://tvcf.co.kr/play/bi2792-1020479",
+        "brand": "이케아",
+        "campaign": null,
+        "card_title": "이케아집 좀 아는 사람들"
+      },
+      {
+        "ad_id": "1020478",
+        "url": "https://tvcf.co.kr/play/ai2781-1020478",
+        "brand": "이케아",
+        "campaign": null,
+        "card_title": "이케아집 좀 아는 사람들"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-17T17:03:55.338670+09:00"
+  },
+  {
     "ad_id": "1019708",
     "prefix": "ai286",
     "url": "https://tvcf.co.kr/play/ai286-1019708",
@@ -13335,6 +13492,25 @@
     "collected_at": "2026-05-22T12:05:21.605298+09:00"
   },
   {
+    "ad_id": "1020482",
+    "prefix": "ai2825",
+    "url": "https://tvcf.co.kr/play/ai2825-1020482",
+    "card_title": "닥터지닥터지x쫀냐미",
+    "onair": "03.01",
+    "registered_short": "06.17",
+    "brand": "닥터지",
+    "campaign": null,
+    "registered_date": "2026-03-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "닥터지 ",
+    "advertiser_code": "C000026505",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-17T17:03:55.338665+09:00"
+  },
+  {
     "ad_id": "1017837",
     "prefix": "bi1379",
     "url": "https://tvcf.co.kr/play/bi1379-1017837",
@@ -13535,6 +13711,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-21T17:03:59.384291+09:00"
+  },
+  {
+    "ad_id": "1020483",
+    "prefix": "bi2836",
+    "url": "https://tvcf.co.kr/play/bi2836-1020483",
+    "card_title": "츠바키TSUBAKI 20th anniversary",
+    "onair": "01.01",
+    "registered_short": "06.17",
+    "brand": "츠바키",
+    "campaign": null,
+    "registered_date": "2026-01-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variant_count": 1,
+    "collected_at": "2026-06-17T17:03:55.338662+09:00"
+  },
+  {
+    "ad_id": "1020481",
+    "prefix": "bi2814",
+    "url": "https://tvcf.co.kr/play/bi2814-1020481",
+    "card_title": "AHC풀 리프트 아이크림 포 페이스",
+    "onair": "01.01",
+    "registered_short": "06.17",
+    "brand": "AHC",
+    "campaign": null,
+    "registered_date": "2026-01-01",
+    "media_type": "케이블",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "카버코리아",
+    "advertiser_code": "C000011789",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-17T17:03:55.338668+09:00"
   },
   {
     "ad_id": "1016614",
