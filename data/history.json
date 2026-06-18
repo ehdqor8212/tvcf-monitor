@@ -1,5 +1,165 @@
 [
   {
+    "ad_id": "1020539",
+    "prefix": "bi2398",
+    "url": "https://tvcf.co.kr/play/bi2398-1020539",
+    "card_title": "센시아붓고 아픈 다리엔, 센시아!",
+    "onair": "06.17",
+    "registered_short": "06.18",
+    "brand": "센시아",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "공중파",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "동국제약",
+    "advertiser_code": "C000001174",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-18T12:04:10.573948+09:00"
+  },
+  {
+    "ad_id": "1020533",
+    "prefix": "bi2332",
+    "url": "https://tvcf.co.kr/play/bi2332-1020533",
+    "card_title": "신한은행super 금융 시대를 여는 신한 super SOL (15s)ㅣ신한 super SOL X 박보검",
+    "onair": "06.17",
+    "registered_short": "06.18",
+    "brand": "신한은행",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "공중파",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "신한은행",
+    "advertiser_code": "C000001300",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-18T12:04:10.573959+09:00"
+  },
+  {
+    "ad_id": "1020531",
+    "prefix": "bi2319",
+    "url": "https://tvcf.co.kr/play/bi2319-1020531",
+    "card_title": "SBS 2026 신한 SOL KBO 리그LG 트윈스 vs KIA 타이거즈",
+    "onair": "06.17",
+    "registered_short": "06.18",
+    "brand": "SBS 2026 신한 SOL KBO 리그",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "공중파",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "신한금융그룹",
+    "advertiser_code": "C000011597",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-18T12:04:10.573956+09:00"
+  },
+  {
+    "ad_id": "1020524",
+    "prefix": "ai2242",
+    "url": "https://tvcf.co.kr/play/ai2242-1020524",
+    "card_title": "스핀들 근력엔 아커만시아어느 날, 세상이 무거워졌다 [머슬포비아 장보기 편 Shorts ver. (15s)]",
+    "onair": "06.17",
+    "registered_short": "06.17",
+    "brand": "스핀들 근력엔 아커만시아",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "디지털 범퍼",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "삼양식품",
+    "advertiser_code": "C000001268",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020523",
+        "url": "https://tvcf.co.kr/play/bi2231-1020523",
+        "brand": "스핀들 근력엔 아커만시아",
+        "campaign": null,
+        "card_title": "스핀들 근력엔 아커만시아어느 날, 세상이 무거워졌다 [머슬포비아 장보기 편 Shorts ver. (30s)]"
+      },
+      {
+        "ad_id": "1020522",
+        "url": "https://tvcf.co.kr/play/ai2229-1020522",
+        "brand": "스핀들 근력엔 아커만시아",
+        "campaign": null,
+        "card_title": "스핀들 근력엔 아커만시아어느 날, 세상이 무거워졌다 [머슬포비아 장보기 편(15s)]"
+      },
+      {
+        "ad_id": "1020521",
+        "url": "https://tvcf.co.kr/play/bi2218-1020521",
+        "brand": "스핀들 근력엔 아커만시아",
+        "campaign": null,
+        "card_title": "스핀들 근력엔 아커만시아어느 날, 세상이 무거워졌다 [머슬포비아 장보기 편(30s)]"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-18T12:04:10.573964+09:00"
+  },
+  {
+    "ad_id": "1020520",
+    "prefix": "ai3207",
+    "url": "https://tvcf.co.kr/play/ai3207-1020520",
+    "card_title": "코웨이뮤지컬 더매너 (THE MANNER MAKES MANNER) | Official Teaser",
+    "onair": "06.17",
+    "registered_short": "06.17",
+    "brand": "코웨이",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "코웨이",
+    "advertiser_code": "C000004037",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-18T12:04:10.573966+09:00"
+  },
+  {
+    "ad_id": "1020530",
+    "prefix": "ai3308",
+    "url": "https://tvcf.co.kr/play/ai3308-1020530",
+    "card_title": "실리팟종합ㅣ실리팟 더블락 지퍼백",
+    "onair": "06.16",
+    "registered_short": "06.18",
+    "brand": "실리팟",
+    "campaign": null,
+    "registered_date": "2026-06-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "신성실리콘",
+    "advertiser_code": "4188486",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020529",
+        "url": "https://tvcf.co.kr/play/bi2297-1020529",
+        "brand": "실리팟",
+        "campaign": null,
+        "card_title": "실리팟[음식만 넣는거 아니야?]ㅣ 실리팟 더블락 지퍼백"
+      },
+      {
+        "ad_id": "1020528",
+        "url": "https://tvcf.co.kr/play/ai2286-1020528",
+        "brand": "실리팟",
+        "campaign": null,
+        "card_title": "실리팟[돌려도 될까?]ㅣ 실리팟 더블락 지퍼백"
+      },
+      {
+        "ad_id": "1020527",
+        "url": "https://tvcf.co.kr/play/bi2275-1020527",
+        "brand": "실리팟",
+        "campaign": null,
+        "card_title": "실리팟[새지 않을까?]ㅣ실리팟 더블락 지퍼백"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-18T12:04:10.573961+09:00"
+  },
+  {
     "ad_id": "1020475",
     "prefix": "bi2757",
     "url": "https://tvcf.co.kr/play/bi2757-1020475",
@@ -508,6 +668,48 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-15T12:06:40.800602+09:00"
+  },
+  {
+    "ad_id": "1020517",
+    "prefix": "bi2174",
+    "url": "https://tvcf.co.kr/play/bi2174-1020517",
+    "card_title": "그레고리오래 사랑받는 클래식 백팩, 그레고리 데이팩",
+    "onair": "06.14",
+    "registered_short": "06.17",
+    "brand": "그레고리",
+    "campaign": null,
+    "registered_date": "2026-06-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "쌤소나이트 코리아",
+    "advertiser_code": "C000010039",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1020516",
+        "url": "https://tvcf.co.kr/play/ai2163-1020516",
+        "brand": "그레고리",
+        "campaign": null,
+        "card_title": "그레고리이 백팩이 오래 사랑받는 이유"
+      },
+      {
+        "ad_id": "1020515",
+        "url": "https://tvcf.co.kr/play/bi2152-1020515",
+        "brand": "그레고리",
+        "campaign": null,
+        "card_title": "그레고리요즘 다시 찾는 클래식 백팩, 그레고리 데이팩"
+      },
+      {
+        "ad_id": "1020513",
+        "url": "https://tvcf.co.kr/play/bi2139-1020513",
+        "brand": "그레고리",
+        "campaign": null,
+        "card_title": "그레고리데이팩"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-06-18T12:04:10.573970+09:00"
   },
   {
     "ad_id": "1020218",
@@ -2673,6 +2875,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-06-08T17:10:09.673403+09:00"
+  },
+  {
+    "ad_id": "1020518",
+    "prefix": "ai2185",
+    "url": "https://tvcf.co.kr/play/ai2185-1020518",
+    "card_title": "알마 오푸스20s",
+    "onair": "06.07",
+    "registered_short": "06.17",
+    "brand": "알마 오푸스",
+    "campaign": null,
+    "registered_date": "2026-06-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "메디컬노바",
+    "advertiser_code": "C000166415",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-18T12:04:10.573968+09:00"
   },
   {
     "ad_id": "1020025",

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T17:03:55.367480+09:00",
+  "updated_at": "2026-06-18T12:04:10.595920+09:00",
   "count": 153,
-  "x_count": 254,
+  "x_count": 257,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2585,6 +2585,24 @@
       "advertiser": "차살때",
       "status": "x",
       "updated_at": "2026-06-17T17:03:55.365760+09:00",
+      "auto": true
+    },
+    "1020530": {
+      "advertiser": "신성실리콘",
+      "status": "x",
+      "updated_at": "2026-06-18T12:04:10.589803+09:00",
+      "auto": true
+    },
+    "1020518": {
+      "advertiser": "메디컬노바",
+      "status": "x",
+      "updated_at": "2026-06-18T12:04:10.592220+09:00",
+      "auto": true
+    },
+    "1020517": {
+      "advertiser": "쌤소나이트 코리아",
+      "status": "x",
+      "updated_at": "2026-06-18T12:04:10.594644+09:00",
       "auto": true
     }
   }
