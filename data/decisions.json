@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-18T12:04:10.595920+09:00",
-  "count": 153,
-  "x_count": 257,
+  "updated_at": "2026-06-18T17:03:31.731214+09:00",
+  "count": 156,
+  "x_count": 263,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1063,6 +1063,27 @@
       "status": "o",
       "matched_name": "대한적십자사",
       "updated_at": "2026-06-17T17:03:55.366051+09:00",
+      "auto": true
+    },
+    "유엔난민기구": {
+      "display_name": "유엔난민기구",
+      "status": "o",
+      "matched_name": "유엔난민기구",
+      "updated_at": "2026-06-18T17:03:31.711758+09:00",
+      "auto": true
+    },
+    "gs건설": {
+      "display_name": "GS건설",
+      "status": "maybe",
+      "matched_name": "지에스건설(GS건설)",
+      "updated_at": "2026-06-18T17:03:31.716594+09:00",
+      "auto": true
+    },
+    "지엔엠라이프": {
+      "display_name": "지엔엠라이프",
+      "status": "maybe",
+      "matched_name": "지엔엠라이프(GNM라이프)",
+      "updated_at": "2026-06-18T17:03:31.724584+09:00",
       "auto": true
     }
   },
@@ -2603,6 +2624,42 @@
       "advertiser": "쌤소나이트 코리아",
       "status": "x",
       "updated_at": "2026-06-18T12:04:10.594644+09:00",
+      "auto": true
+    },
+    "1020599": {
+      "advertiser": "폴리페놀팩토리",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.710928+09:00",
+      "auto": true
+    },
+    "1020595": {
+      "advertiser": "드리미코리아",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.714368+09:00",
+      "auto": true
+    },
+    "1020570": {
+      "advertiser": "SK브로드밴드_B tv",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.719205+09:00",
+      "auto": true
+    },
+    "1020568": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.721923+09:00",
+      "auto": true
+    },
+    "1020556": {
+      "advertiser": "한국엡손",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.727188+09:00",
+      "auto": true
+    },
+    "1020473": {
+      "advertiser": "차살때",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.729812+09:00",
       "auto": true
     }
   }
