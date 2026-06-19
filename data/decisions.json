@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-18T17:03:31.731214+09:00",
+  "updated_at": "2026-06-19T10:04:44.221717+09:00",
   "count": 156,
-  "x_count": 263,
+  "x_count": 265,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2660,6 +2660,18 @@
       "advertiser": "차살때",
       "status": "x",
       "updated_at": "2026-06-18T17:03:31.729812+09:00",
+      "auto": true
+    },
+    "1020704": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-06-19T10:04:44.217297+09:00",
+      "auto": true
+    },
+    "1020616": {
+      "advertiser": "BEANPOLE 빈폴",
+      "status": "x",
+      "updated_at": "2026-06-19T10:04:44.220211+09:00",
       "auto": true
     }
   }
