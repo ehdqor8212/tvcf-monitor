@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T10:04:44.221717+09:00",
+  "updated_at": "2026-06-19T12:03:43.350627+09:00",
   "count": 156,
-  "x_count": 265,
+  "x_count": 269,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2672,6 +2672,30 @@
       "advertiser": "BEANPOLE 빈폴",
       "status": "x",
       "updated_at": "2026-06-19T10:04:44.220211+09:00",
+      "auto": true
+    },
+    "1020719": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-06-19T12:03:43.341153+09:00",
+      "auto": true
+    },
+    "1020709": {
+      "advertiser": "지엔터프라이즈",
+      "status": "x",
+      "updated_at": "2026-06-19T12:03:43.343818+09:00",
+      "auto": true
+    },
+    "1020715": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-06-19T12:03:43.346443+09:00",
+      "auto": true
+    },
+    "1020529": {
+      "advertiser": "신성실리콘",
+      "status": "x",
+      "updated_at": "2026-06-19T12:03:43.349104+09:00",
       "auto": true
     }
   }
