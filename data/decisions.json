@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T12:03:43.350627+09:00",
-  "count": 156,
-  "x_count": 269,
+  "updated_at": "2026-06-19T17:02:40.917138+09:00",
+  "count": 158,
+  "x_count": 273,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1084,6 +1084,20 @@
       "status": "maybe",
       "matched_name": "지엔엠라이프(GNM라이프)",
       "updated_at": "2026-06-18T17:03:31.724584+09:00",
+      "auto": true
+    },
+    "우정사업본부": {
+      "display_name": "우정사업본부",
+      "status": "o",
+      "matched_name": "우정사업본부",
+      "updated_at": "2026-06-19T17:02:40.909078+09:00",
+      "auto": true
+    },
+    "뉴트리원": {
+      "display_name": "뉴트리원",
+      "status": "maybe",
+      "matched_name": "뉴트리",
+      "updated_at": "2026-06-19T17:02:40.915471+09:00",
       "auto": true
     }
   },
@@ -2696,6 +2710,30 @@
       "advertiser": "신성실리콘",
       "status": "x",
       "updated_at": "2026-06-19T12:03:43.349104+09:00",
+      "auto": true
+    },
+    "1020922": {
+      "advertiser": "아우디코리아",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.905808+09:00",
+      "auto": true
+    },
+    "1020829": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.908298+09:00",
+      "auto": true
+    },
+    "1020815": {
+      "advertiser": "삼성E&A",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.911552+09:00",
+      "auto": true
+    },
+    "1020813": {
+      "advertiser": "OPPO",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.914062+09:00",
       "auto": true
     }
   }
