@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T17:02:40.917138+09:00",
+  "updated_at": "2026-06-20T10:02:50.376823+09:00",
   "count": 158,
-  "x_count": 273,
+  "x_count": 275,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2734,6 +2734,18 @@
       "advertiser": "OPPO",
       "status": "x",
       "updated_at": "2026-06-19T17:02:40.914062+09:00",
+      "auto": true
+    },
+    "1020935": {
+      "advertiser": "여기어떄컴퍼니",
+      "status": "x",
+      "updated_at": "2026-06-20T10:02:50.374391+09:00",
+      "auto": true
+    },
+    "1020923": {
+      "advertiser": "spc삼립",
+      "status": "x",
+      "updated_at": "2026-06-20T10:02:50.375922+09:00",
       "auto": true
     }
   }
