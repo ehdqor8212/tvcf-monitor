@@ -1,6 +1,25 @@
 {
-  "run_at": "2026-06-21T10:01:03.249550+09:00",
-  "new_ads": [],
-  "count": 0,
-  "count_total_before_dedup": 0
+  "run_at": "2026-06-21T12:01:07.637875+09:00",
+  "count": 1,
+  "count_total_before_dedup": 1,
+  "new_ads": [
+    {
+      "ad_id": "1020936",
+      "prefix": "ai2369",
+      "url": "https://tvcf.co.kr/play/ai2369-1020936",
+      "card_title": "LG 퓨리케어 오브제컬렉션 냉동얼음정수기당신의 얼음 정수기엔 냉동실이 있나요? 30\"",
+      "onair": "06.19",
+      "registered_short": "06.21",
+      "brand": "LG 퓨리케어 오브제컬렉션 냉동얼음정수기",
+      "campaign": null,
+      "registered_date": "2026-06-19",
+      "media_type": "공중파",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    }
+  ]
 }
