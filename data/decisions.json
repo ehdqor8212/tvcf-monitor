@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-22T10:02:15.057695+09:00",
-  "count": 158,
-  "x_count": 280,
+  "updated_at": "2026-06-22T17:03:52.235083+09:00",
+  "count": 159,
+  "x_count": 287,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1098,6 +1098,13 @@
       "status": "maybe",
       "matched_name": "뉴트리",
       "updated_at": "2026-06-19T17:02:40.915471+09:00",
+      "auto": true
+    },
+    "샘표식품": {
+      "display_name": "샘표식품",
+      "status": "maybe",
+      "matched_name": "샘표",
+      "updated_at": "2026-06-22T17:03:52.233444+09:00",
       "auto": true
     }
   },
@@ -2776,6 +2783,48 @@
       "advertiser": "월트디즈니컴패니코리아",
       "status": "x",
       "updated_at": "2026-06-22T10:02:15.056156+09:00",
+      "auto": true
+    },
+    "1021113": {
+      "advertiser": "소야트",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.213859+09:00",
+      "auto": true
+    },
+    "1021116": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.216816+09:00",
+      "auto": true
+    },
+    "1021070": {
+      "advertiser": "마이예진",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.219724+09:00",
+      "auto": true
+    },
+    "1021071": {
+      "advertiser": "로로케이크",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.222670+09:00",
+      "auto": true
+    },
+    "1021072": {
+      "advertiser": "펫포레스트",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.225606+09:00",
+      "auto": true
+    },
+    "1021073": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.228522+09:00",
+      "auto": true
+    },
+    "1020365": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.231444+09:00",
       "auto": true
     }
   }
