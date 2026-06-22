@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T12:01:19.992905+09:00",
+  "updated_at": "2026-06-22T10:02:15.057695+09:00",
   "count": 158,
-  "x_count": 276,
+  "x_count": 280,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2752,6 +2752,30 @@
       "advertiser": "지엔터프라이즈",
       "status": "x",
       "updated_at": "2026-06-20T12:01:19.991053+09:00",
+      "auto": true
+    },
+    "1021043": {
+      "advertiser": "홍천군",
+      "status": "x",
+      "updated_at": "2026-06-22T10:02:15.048240+09:00",
+      "auto": true
+    },
+    "1020172": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-06-22T10:02:15.050969+09:00",
+      "auto": true
+    },
+    "1021042": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-06-22T10:02:15.053563+09:00",
+      "auto": true
+    },
+    "1020938": {
+      "advertiser": "월트디즈니컴패니코리아",
+      "status": "x",
+      "updated_at": "2026-06-22T10:02:15.056156+09:00",
       "auto": true
     }
   }
