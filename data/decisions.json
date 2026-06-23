@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T12:03:00.673220+09:00",
-  "count": 160,
-  "x_count": 293,
+  "updated_at": "2026-06-23T17:03:46.432015+09:00",
+  "count": 161,
+  "x_count": 299,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1112,6 +1112,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 고려은단헬스케어",
       "updated_at": "2026-06-23T10:02:07.382986+09:00",
+      "auto": true
+    },
+    "제너시스": {
+      "display_name": "제너시스",
+      "status": "maybe",
+      "matched_name": "제너시스비비큐",
+      "updated_at": "2026-06-23T17:03:46.427287+09:00",
       "auto": true
     }
   },
@@ -2868,6 +2875,42 @@
       "advertiser": "국가데이터처",
       "status": "x",
       "updated_at": "2026-06-23T12:03:00.671572+09:00",
+      "auto": true
+    },
+    "1021220": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.413307+09:00",
+      "auto": true
+    },
+    "1021219": {
+      "advertiser": "아도르",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.416212+09:00",
+      "auto": true
+    },
+    "1021216": {
+      "advertiser": "메디톡스",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.419094+09:00",
+      "auto": true
+    },
+    "1021205": {
+      "advertiser": "소노인터네셔널",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.421983+09:00",
+      "auto": true
+    },
+    "1021151": {
+      "advertiser": "한국보훈복지의료공단",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.424876+09:00",
+      "auto": true
+    },
+    "1021158": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.430170+09:00",
       "auto": true
     }
   }
