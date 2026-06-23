@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T10:02:07.384772+09:00",
+  "updated_at": "2026-06-23T12:03:00.673220+09:00",
   "count": 160,
-  "x_count": 288,
+  "x_count": 293,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2838,6 +2838,36 @@
       "advertiser": "대우건설",
       "status": "x",
       "updated_at": "2026-06-23T10:02:07.381528+09:00",
+      "auto": true
+    },
+    "1021166": {
+      "advertiser": "KUNA",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.660850+09:00",
+      "auto": true
+    },
+    "1021168": {
+      "advertiser": "소야트",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.663532+09:00",
+      "auto": true
+    },
+    "1021165": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.666211+09:00",
+      "auto": true
+    },
+    "1021161": {
+      "advertiser": "코티코리아 ",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.668904+09:00",
+      "auto": true
+    },
+    "1021163": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.671572+09:00",
       "auto": true
     }
   }
