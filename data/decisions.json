@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T12:01:41.535031+09:00",
-  "count": 161,
-  "x_count": 305,
+  "updated_at": "2026-06-24T17:02:14.801658+09:00",
+  "count": 162,
+  "x_count": 307,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1119,6 +1119,13 @@
       "status": "maybe",
       "matched_name": "제너시스비비큐",
       "updated_at": "2026-06-23T17:03:46.427287+09:00",
+      "auto": true
+    },
+    "에버랜드": {
+      "display_name": "에버랜드",
+      "status": "maybe",
+      "matched_name": "삼성물산에버랜드리조트",
+      "updated_at": "2026-06-24T17:02:14.797136+09:00",
       "auto": true
     }
   },
@@ -2947,6 +2954,18 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-06-24T12:01:41.533351+09:00",
+      "auto": true
+    },
+    "1021325": {
+      "advertiser": "보바스 기념병원",
+      "status": "x",
+      "updated_at": "2026-06-24T17:02:14.795230+09:00",
+      "auto": true
+    },
+    "1021301": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-06-24T17:02:14.799928+09:00",
       "auto": true
     }
   }
