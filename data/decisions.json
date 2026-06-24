@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T17:03:46.432015+09:00",
+  "updated_at": "2026-06-24T10:02:57.539719+09:00",
   "count": 161,
-  "x_count": 299,
+  "x_count": 304,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2911,6 +2911,36 @@
       "advertiser": "한국관광공사",
       "status": "x",
       "updated_at": "2026-06-23T17:03:46.430170+09:00",
+      "auto": true
+    },
+    "1021264": {
+      "advertiser": "oppo",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.527041+09:00",
+      "auto": true
+    },
+    "1021237": {
+      "advertiser": "제이피씨",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.529803+09:00",
+      "auto": true
+    },
+    "1021239": {
+      "advertiser": "안동MBC",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.532556+09:00",
+      "auto": true
+    },
+    "1021238": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.535298+09:00",
+      "auto": true
+    },
+    "1021215": {
+      "advertiser": "메디톡스",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.538062+09:00",
       "auto": true
     }
   }
