@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T17:02:14.801658+09:00",
+  "updated_at": "2026-06-25T10:01:51.702992+09:00",
   "count": 162,
-  "x_count": 307,
+  "x_count": 311,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2966,6 +2966,30 @@
       "advertiser": "롯데면세점",
       "status": "x",
       "updated_at": "2026-06-24T17:02:14.799928+09:00",
+      "auto": true
+    },
+    "1021350": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.693791+09:00",
+      "auto": true
+    },
+    "1021347": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.696301+09:00",
+      "auto": true
+    },
+    "1021345": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.698849+09:00",
+      "auto": true
+    },
+    "1021159": {
+      "advertiser": "소야트",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.701381+09:00",
       "auto": true
     }
   }
