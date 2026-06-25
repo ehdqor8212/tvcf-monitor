@@ -19,6 +19,25 @@
     "collected_at": "2026-06-25T10:01:51.674488+09:00"
   },
   {
+    "ad_id": "1021365",
+    "prefix": "bi1655",
+    "url": "https://tvcf.co.kr/play/bi1655-1021365",
+    "card_title": "뉴케어 스포식스[스포식스X민호] 운동에 진심, 스포식스_ Pro",
+    "onair": "06.23",
+    "registered_short": "06.25",
+    "brand": "뉴케어 스포식스",
+    "campaign": null,
+    "registered_date": "2026-06-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "대상웰라이프",
+    "advertiser_code": "C000024002",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-25T12:01:27.424568+09:00"
+  },
+  {
     "ad_id": "1021301",
     "prefix": "bi214",
     "url": "https://tvcf.co.kr/play/bi214-1021301",
@@ -523,6 +542,25 @@
     "collected_at": "2026-06-22T10:02:15.030845+09:00"
   },
   {
+    "ad_id": "1021366",
+    "prefix": "ai1666",
+    "url": "https://tvcf.co.kr/play/ai1666-1021366",
+    "card_title": "뉴케어 스포식스[스포식스X민호] 운동에 진심, 스포식스_ 15s",
+    "onair": "06.19",
+    "registered_short": "06.25",
+    "brand": "뉴케어 스포식스",
+    "campaign": null,
+    "registered_date": "2026-06-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "대상웰라이프",
+    "advertiser_code": "C000024002",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-25T12:01:27.424578+09:00"
+  },
+  {
     "ad_id": "1021347",
     "prefix": "bi1475",
     "url": "https://tvcf.co.kr/play/bi1475-1021347",
@@ -597,6 +635,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-23T17:03:46.391397+09:00"
+  },
+  {
+    "ad_id": "1021167",
+    "prefix": "bi1675",
+    "url": "https://tvcf.co.kr/play/bi1675-1021167",
+    "card_title": "국가데이터처경제총조사와 함께 UP될 준비 되셨나요? - 자영업",
+    "onair": "06.19",
+    "registered_short": "06.23",
+    "brand": "국가데이터처",
+    "campaign": null,
+    "registered_date": "2026-06-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "국가데이터처",
+    "advertiser_code": "C000169376",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-25T12:01:27.424582+09:00"
   },
   {
     "ad_id": "1021165",
