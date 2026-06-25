@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T12:01:27.444902+09:00",
-  "count": 162,
-  "x_count": 312,
+  "updated_at": "2026-06-25T17:02:52.955577+09:00",
+  "count": 164,
+  "x_count": 314,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1126,6 +1126,20 @@
       "status": "maybe",
       "matched_name": "삼성물산에버랜드리조트",
       "updated_at": "2026-06-24T17:02:14.797136+09:00",
+      "auto": true
+    },
+    "카카오게임즈": {
+      "display_name": "카카오게임즈",
+      "status": "o",
+      "matched_name": "카카오게임즈",
+      "updated_at": "2026-06-25T17:02:52.950046+09:00",
+      "auto": true
+    },
+    "풀무원": {
+      "display_name": "풀무원",
+      "status": "o",
+      "matched_name": "풀무원",
+      "updated_at": "2026-06-25T17:02:52.951195+09:00",
       "auto": true
     }
   },
@@ -2996,6 +3010,18 @@
       "advertiser": "국가데이터처",
       "status": "x",
       "updated_at": "2026-06-25T12:01:27.443154+09:00",
+      "auto": true
+    },
+    "1021404": {
+      "advertiser": "그레인온",
+      "status": "x",
+      "updated_at": "2026-06-25T17:02:52.949052+09:00",
+      "auto": true
+    },
+    "1021370": {
+      "advertiser": "와이즈미디어커머스",
+      "status": "x",
+      "updated_at": "2026-06-25T17:02:52.953943+09:00",
       "auto": true
     }
   }
