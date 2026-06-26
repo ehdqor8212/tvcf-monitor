@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T12:02:11.536399+09:00",
-  "count": 165,
-  "x_count": 318,
+  "updated_at": "2026-06-26T17:02:13.825036+09:00",
+  "count": 166,
+  "x_count": 321,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1147,6 +1147,13 @@
       "status": "o",
       "matched_name": "지마켓",
       "updated_at": "2026-06-26T12:02:11.531862+09:00",
+      "auto": true
+    },
+    "식품의약품안전처": {
+      "display_name": "식품의약품안전처",
+      "status": "o",
+      "matched_name": "식품의약품안전처",
+      "updated_at": "2026-06-26T17:02:13.820489+09:00",
       "auto": true
     }
   },
@@ -3053,6 +3060,24 @@
       "advertiser": "유니세프",
       "status": "x",
       "updated_at": "2026-06-26T12:02:11.534650+09:00",
+      "auto": true
+    },
+    "1021458": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-26T17:02:13.817110+09:00",
+      "auto": true
+    },
+    "1021457": {
+      "advertiser": "BYD 코리아",
+      "status": "x",
+      "updated_at": "2026-06-26T17:02:13.819917+09:00",
+      "auto": true
+    },
+    "1021447": {
+      "advertiser": "픽셀버터",
+      "status": "x",
+      "updated_at": "2026-06-26T17:02:13.823280+09:00",
       "auto": true
     }
   }
