@@ -1,43 +1,6 @@
 {
-  "run_at": "2026-06-27T12:01:23.787264+09:00",
-  "count": 2,
-  "count_total_before_dedup": 2,
-  "new_ads": [
-    {
-      "ad_id": "1021458",
-      "prefix": "ai1588",
-      "url": "https://tvcf.co.kr/play/ai1588-1021458",
-      "card_title": "버거킹Originals 150g 엘파소 치폴레",
-      "onair": "05.21",
-      "registered_short": "06.26",
-      "brand": "버거킹",
-      "campaign": null,
-      "registered_date": "2026-05-21",
-      "media_type": "디지털(인터넷)",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "버거킹",
-      "advertiser_code": "C000005006",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1021288",
-      "prefix": "ai1889",
-      "url": "https://tvcf.co.kr/play/ai1889-1021288",
-      "card_title": "카스카스 2026 FIFA WORLD CUP Campaign",
-      "onair": "06.11",
-      "registered_short": "06.24",
-      "brand": "카스",
-      "campaign": null,
-      "registered_date": "2026-06-11",
-      "media_type": "옥외(OOH,OUT DOOR)",
-      "main_category": "음료/기호식품",
-      "sub_categories": [],
-      "advertiser": "오비맥주",
-      "advertiser_code": "C000001331",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    }
-  ]
+  "run_at": "2026-06-27T17:01:08.183275+09:00",
+  "new_ads": [],
+  "count": 0,
+  "count_total_before_dedup": 0
 }
