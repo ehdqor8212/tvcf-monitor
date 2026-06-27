@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T17:02:13.825036+09:00",
+  "updated_at": "2026-06-27T10:02:32.869966+09:00",
   "count": 166,
-  "x_count": 321,
+  "x_count": 324,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3078,6 +3078,24 @@
       "advertiser": "픽셀버터",
       "status": "x",
       "updated_at": "2026-06-26T17:02:13.823280+09:00",
+      "auto": true
+    },
+    "1021507": {
+      "advertiser": "드리클로 DRICLOR KOREA",
+      "status": "x",
+      "updated_at": "2026-06-27T10:02:32.864867+09:00",
+      "auto": true
+    },
+    "1021479": {
+      "advertiser": "비올메디컬",
+      "status": "x",
+      "updated_at": "2026-06-27T10:02:32.866797+09:00",
+      "auto": true
+    },
+    "1020532": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-06-27T10:02:32.868711+09:00",
       "auto": true
     }
   }
