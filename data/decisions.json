@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-27T10:02:32.869966+09:00",
+  "updated_at": "2026-06-28T10:01:08.580426+09:00",
   "count": 166,
-  "x_count": 324,
+  "x_count": 325,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3096,6 +3096,12 @@
       "advertiser": "SBS",
       "status": "x",
       "updated_at": "2026-06-27T10:02:32.868711+09:00",
+      "auto": true
+    },
+    "1021509": {
+      "advertiser": "BYD 코리아",
+      "status": "x",
+      "updated_at": "2026-06-28T10:01:08.578751+09:00",
       "auto": true
     }
   }
