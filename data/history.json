@@ -1,5 +1,33 @@
 [
   {
+    "ad_id": "1021519",
+    "prefix": "bi1196",
+    "url": "https://tvcf.co.kr/play/bi1196-1021519",
+    "card_title": "한국주택금융공사아빠도 독립할래? ('30)",
+    "onair": "06.26",
+    "registered_short": "06.28",
+    "brand": "한국주택금융공사",
+    "campaign": null,
+    "registered_date": "2026-06-26",
+    "media_type": "공중파",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "한국주택금융공사",
+    "advertiser_code": "C000005394",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021508",
+        "url": "https://tvcf.co.kr/play/ai284-1021508",
+        "brand": "한국주택금융공사",
+        "campaign": null,
+        "card_title": "한국주택금융공사아빠도 독립할래? ('15)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-28T17:01:22.120475+09:00"
+  },
+  {
     "ad_id": "1021509",
     "prefix": "bi295",
     "url": "https://tvcf.co.kr/play/bi295-1021509",
