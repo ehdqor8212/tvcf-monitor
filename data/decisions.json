@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T10:01:28.889887+09:00",
-  "count": 168,
-  "x_count": 325,
+  "updated_at": "2026-06-29T12:02:29.654503+09:00",
+  "count": 169,
+  "x_count": 329,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1168,6 +1168,13 @@
       "status": "o",
       "matched_name": "바비톡",
       "updated_at": "2026-06-29T10:01:28.888124+09:00",
+      "auto": true
+    },
+    "뤼튼테크놀로지스": {
+      "display_name": "뤼튼테크놀로지스",
+      "status": "o",
+      "matched_name": "뤼튼테크놀로지스",
+      "updated_at": "2026-06-29T12:02:29.644567+09:00",
       "auto": true
     }
   },
@@ -3116,6 +3123,30 @@
       "advertiser": "BYD 코리아",
       "status": "x",
       "updated_at": "2026-06-28T10:01:08.578751+09:00",
+      "auto": true
+    },
+    "1021558": {
+      "advertiser": "푸라닭치킨",
+      "status": "x",
+      "updated_at": "2026-06-29T12:02:29.644229+09:00",
+      "auto": true
+    },
+    "1021550": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-06-29T12:02:29.647310+09:00",
+      "auto": true
+    },
+    "1021551": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-06-29T12:02:29.650035+09:00",
+      "auto": true
+    },
+    "1021548": {
+      "advertiser": "유사나헬스사이언스",
+      "status": "x",
+      "updated_at": "2026-06-29T12:02:29.652775+09:00",
       "auto": true
     }
   }
