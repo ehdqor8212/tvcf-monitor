@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T17:01:22.138774+09:00",
-  "count": 167,
+  "updated_at": "2026-06-29T10:01:28.889887+09:00",
+  "count": 168,
   "x_count": 325,
   "decisions": {
     "하이트진로": {
@@ -1161,6 +1161,13 @@
       "status": "o",
       "matched_name": "한국주택금융공사",
       "updated_at": "2026-06-28T17:01:22.136956+09:00",
+      "auto": true
+    },
+    "바비톡": {
+      "display_name": "바비톡",
+      "status": "o",
+      "matched_name": "바비톡",
+      "updated_at": "2026-06-29T10:01:28.888124+09:00",
       "auto": true
     }
   },
