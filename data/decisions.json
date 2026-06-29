@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T12:02:29.654503+09:00",
-  "count": 169,
-  "x_count": 329,
+  "updated_at": "2026-06-29T17:03:44.852305+09:00",
+  "count": 170,
+  "x_count": 337,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1175,6 +1175,13 @@
       "status": "o",
       "matched_name": "뤼튼테크놀로지스",
       "updated_at": "2026-06-29T12:02:29.644567+09:00",
+      "auto": true
+    },
+    "잡코리아": {
+      "display_name": "잡코리아",
+      "status": "o",
+      "matched_name": "잡코리아",
+      "updated_at": "2026-06-29T17:03:44.838149+09:00",
       "auto": true
     }
   },
@@ -3147,6 +3154,54 @@
       "advertiser": "유사나헬스사이언스",
       "status": "x",
       "updated_at": "2026-06-29T12:02:29.652775+09:00",
+      "auto": true
+    },
+    "1021607": {
+      "advertiser": "파인네스트",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.832339+09:00",
+      "auto": true
+    },
+    "1021597": {
+      "advertiser": "아이코닉스",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.834840+09:00",
+      "auto": true
+    },
+    "1021598": {
+      "advertiser": "아이코닉스",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.837336+09:00",
+      "auto": true
+    },
+    "1021589": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.840630+09:00",
+      "auto": true
+    },
+    "1021588": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.843136+09:00",
+      "auto": true
+    },
+    "1021587": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.845633+09:00",
+      "auto": true
+    },
+    "1021586": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.848113+09:00",
+      "auto": true
+    },
+    "1021559": {
+      "advertiser": "어딕션컴퍼니",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.850568+09:00",
       "auto": true
     }
   }
