@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T12:02:23.829660+09:00",
-  "count": 173,
-  "x_count": 340,
+  "updated_at": "2026-06-30T17:02:26.531962+09:00",
+  "count": 175,
+  "x_count": 344,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1203,6 +1203,20 @@
       "status": "maybe",
       "matched_name": "(미집행) 넥센타이어",
       "updated_at": "2026-06-30T10:03:25.370376+09:00",
+      "auto": true
+    },
+    "kb손해보험": {
+      "display_name": "KB손해보험",
+      "status": "maybe",
+      "matched_name": "케이비손해보험(KB손해보험)",
+      "updated_at": "2026-06-30T17:02:26.523401+09:00",
+      "auto": true
+    },
+    "퓨젠바이오": {
+      "display_name": "퓨젠바이오",
+      "status": "o",
+      "matched_name": "퓨젠바이오",
+      "updated_at": "2026-06-30T17:02:26.524595+09:00",
       "auto": true
     }
   },
@@ -3241,6 +3255,30 @@
       "advertiser": "라그나로크",
       "status": "x",
       "updated_at": "2026-06-30T12:02:23.827879+09:00",
+      "auto": true
+    },
+    "1021723": {
+      "advertiser": "Kling AI",
+      "status": "x",
+      "updated_at": "2026-06-30T17:02:26.518163+09:00",
+      "auto": true
+    },
+    "1021714": {
+      "advertiser": "소노바컨슈머히어링코리아",
+      "status": "x",
+      "updated_at": "2026-06-30T17:02:26.520978+09:00",
+      "auto": true
+    },
+    "1021699": {
+      "advertiser": "서울특별시 상수도 사업본부",
+      "status": "x",
+      "updated_at": "2026-06-30T17:02:26.527361+09:00",
+      "auto": true
+    },
+    "1021698": {
+      "advertiser": "링글",
+      "status": "x",
+      "updated_at": "2026-06-30T17:02:26.530103+09:00",
       "auto": true
     }
   }
