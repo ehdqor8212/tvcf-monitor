@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T17:03:44.852305+09:00",
-  "count": 170,
-  "x_count": 337,
+  "updated_at": "2026-06-30T10:03:25.372311+09:00",
+  "count": 173,
+  "x_count": 338,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1182,6 +1182,27 @@
       "status": "o",
       "matched_name": "잡코리아",
       "updated_at": "2026-06-29T17:03:44.838149+09:00",
+      "auto": true
+    },
+    "쿠팡": {
+      "display_name": "쿠팡",
+      "status": "o",
+      "matched_name": "쿠팡",
+      "updated_at": "2026-06-30T10:03:25.363521+09:00",
+      "auto": true
+    },
+    "폴스타코리아": {
+      "display_name": "폴스타코리아",
+      "status": "maybe",
+      "matched_name": "폴스타",
+      "updated_at": "2026-06-30T10:03:25.366133+09:00",
+      "auto": true
+    },
+    "넥센타이어": {
+      "display_name": "넥센타이어",
+      "status": "maybe",
+      "matched_name": "(미집행) 넥센타이어",
+      "updated_at": "2026-06-30T10:03:25.370376+09:00",
       "auto": true
     }
   },
@@ -3202,6 +3223,12 @@
       "advertiser": "어딕션컴퍼니",
       "status": "x",
       "updated_at": "2026-06-29T17:03:44.850568+09:00",
+      "auto": true
+    },
+    "1021670": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-06-30T10:03:25.368955+09:00",
       "auto": true
     }
   }

@@ -1,5 +1,113 @@
 [
   {
+    "ad_id": "1021684",
+    "prefix": "ai1849",
+    "url": "https://tvcf.co.kr/play/ai1849-1021684",
+    "card_title": "쿠팡와멤데? 와야돼! 티징",
+    "onair": "06.29",
+    "registered_short": "06.30",
+    "brand": "쿠팡",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "쿠팡",
+    "advertiser_code": "C000010793",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-30T10:03:25.344657+09:00"
+  },
+  {
+    "ad_id": "1021678",
+    "prefix": "ai1783",
+    "url": "https://tvcf.co.kr/play/ai1783-1021678",
+    "card_title": "넥센타이어The All New Nexen N'Priz S (KR 15\")",
+    "onair": "06.29",
+    "registered_short": "06.29",
+    "brand": "넥센타이어",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "넥센타이어",
+    "advertiser_code": "C000004185",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021683",
+        "url": "https://tvcf.co.kr/play/bi1838-1021683",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (EN 15\")"
+      },
+      {
+        "ad_id": "1021682",
+        "url": "https://tvcf.co.kr/play/ai1827-1021682",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (EN 30\")"
+      },
+      {
+        "ad_id": "1021681",
+        "url": "https://tvcf.co.kr/play/bi1816-1021681",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (DIR VER.)"
+      },
+      {
+        "ad_id": "1021680",
+        "url": "https://tvcf.co.kr/play/ai2805-1021680",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (KR FULL VER.)"
+      },
+      {
+        "ad_id": "1021679",
+        "url": "https://tvcf.co.kr/play/bi1794-1021679",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (KR 30\")"
+      },
+      {
+        "ad_id": "1021677",
+        "url": "https://tvcf.co.kr/play/bi1772-1021677",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (EN FULL VER.)"
+      },
+      {
+        "ad_id": "1021674",
+        "url": "https://tvcf.co.kr/play/ai1748-1021674",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (USP)"
+      }
+    ],
+    "variant_count": 8,
+    "collected_at": "2026-06-30T10:03:25.344670+09:00"
+  },
+  {
+    "ad_id": "1021639",
+    "prefix": "bi1399",
+    "url": "https://tvcf.co.kr/play/bi1399-1021639",
+    "card_title": "메이플스토리메이플스토리 시작하신다면 바로 지금! | 메이플스토리 OVERDRIVE",
+    "onair": "06.29",
+    "registered_short": "06.29",
+    "brand": "메이플스토리",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-30T10:03:25.344676+09:00"
+  },
+  {
     "ad_id": "1021602",
     "prefix": "ai228",
     "url": "https://tvcf.co.kr/play/ai228-1021602",
@@ -279,6 +387,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-29T10:01:28.870748+09:00"
+  },
+  {
+    "ad_id": "1021670",
+    "prefix": "ai2704",
+    "url": "https://tvcf.co.kr/play/ai2704-1021670",
+    "card_title": "SamsungSemiconductor",
+    "onair": "06.26",
+    "registered_short": "06.29",
+    "brand": "Samsung",
+    "campaign": null,
+    "registered_date": "2026-06-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "Samsung",
+    "advertiser_code": "C000015897",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-30T10:03:25.344668+09:00"
   },
   {
     "ad_id": "1021607",
@@ -684,6 +811,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-26T10:01:53.076553+09:00"
+  },
+  {
+    "ad_id": "1021686",
+    "prefix": "ai1862",
+    "url": "https://tvcf.co.kr/play/ai1862-1021686",
+    "card_title": "폴스타Polester TEASER",
+    "onair": "06.25",
+    "registered_short": "06.29",
+    "brand": "폴스타",
+    "campaign": null,
+    "registered_date": "2026-06-25",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "폴스타코리아",
+    "advertiser_code": "C000047667",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-30T10:03:25.344665+09:00"
   },
   {
     "ad_id": "1021507",
