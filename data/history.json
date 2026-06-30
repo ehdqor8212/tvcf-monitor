@@ -1,5 +1,52 @@
 [
   {
+    "ad_id": "1021693",
+    "prefix": "bi1939",
+    "url": "https://tvcf.co.kr/play/bi1939-1021693",
+    "card_title": "라그나로크Ragnarok The New World Teaser",
+    "onair": "06.30",
+    "registered_short": "06.30",
+    "brand": "라그나로크",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "라그나로크",
+    "advertiser_code": "4196656",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021692",
+        "url": "https://tvcf.co.kr/play/ai1928-1021692",
+        "brand": "라그나로크",
+        "campaign": null,
+        "card_title": "라그나로크Ragnarok The New World"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-30T12:02:23.803774+09:00"
+  },
+  {
+    "ad_id": "1021691",
+    "prefix": "bi1917",
+    "url": "https://tvcf.co.kr/play/bi1917-1021691",
+    "card_title": "쿠팡와멤데? 와야돼! 티징",
+    "onair": "06.29",
+    "registered_short": "06.30",
+    "brand": "쿠팡",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "쿠팡",
+    "advertiser_code": "C000010793",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-06-30T12:02:23.803777+09:00"
+  },
+  {
     "ad_id": "1021684",
     "prefix": "ai1849",
     "url": "https://tvcf.co.kr/play/ai1849-1021684",
@@ -17,6 +64,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-30T10:03:25.344657+09:00"
+  },
+  {
+    "ad_id": "1021683",
+    "prefix": "bi1838",
+    "url": "https://tvcf.co.kr/play/bi1838-1021683",
+    "card_title": "넥센타이어The All New Nexen N'Priz S (EN 15\")",
+    "onair": "06.29",
+    "registered_short": "06.29",
+    "brand": "넥센타이어",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "넥센타이어",
+    "advertiser_code": "C000004185",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021677",
+        "url": "https://tvcf.co.kr/play/bi1772-1021677",
+        "brand": "넥센타이어",
+        "campaign": null,
+        "card_title": "넥센타이어The All New Nexen N'Priz S (EN FULL VER.)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-30T12:02:23.803783+09:00"
   },
   {
     "ad_id": "1021678",
@@ -292,6 +367,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-29T10:01:28.870768+09:00"
+  },
+  {
+    "ad_id": "1021696",
+    "prefix": "ai1963",
+    "url": "https://tvcf.co.kr/play/ai1963-1021696",
+    "card_title": "링글새해편",
+    "onair": "06.27",
+    "registered_short": "06.30",
+    "brand": "링글",
+    "campaign": null,
+    "registered_date": "2026-06-27",
+    "media_type": "바이럴",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "링글",
+    "advertiser_code": "C000166371",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021695",
+        "url": "https://tvcf.co.kr/play/bi1952-1021695",
+        "brand": "링글",
+        "campaign": null,
+        "card_title": "링글노력편"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-06-30T12:02:23.803766+09:00"
   },
   {
     "ad_id": "1021559",
