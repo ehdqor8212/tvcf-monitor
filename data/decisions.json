@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:24:43.030Z",
-  "count": 172,
-  "x_count": 365,
+  "updated_at": "2026-07-01T06:25:00.851Z",
+  "count": 171,
+  "x_count": 366,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -245,13 +245,6 @@
       "status": "o",
       "matched_name": "휴젤",
       "updated_at": "2026-05-19T17:10:22.950208+09:00",
-      "auto": true
-    },
-    "오뚜기": {
-      "display_name": "오뚜기",
-      "status": "maybe",
-      "matched_name": "(미집행) 오뚜기",
-      "updated_at": "2026-05-19T17:10:22.953889+09:00",
       "auto": true
     },
     "맥도날드": {
@@ -2341,6 +2334,11 @@
       "status": "x",
       "updated_at": "2026-06-07T17:02:54.407067+09:00",
       "auto": true
+    },
+    "1019237": {
+      "advertiser": "오뚜기",
+      "status": "x",
+      "updated_at": "2026-07-01T06:25:00.443Z"
     },
     "1019242": {
       "advertiser": "불스원",
