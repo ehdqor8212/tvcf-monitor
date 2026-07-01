@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:22:37.930Z",
+  "updated_at": "2026-07-01T06:22:45.168Z",
   "count": 173,
   "x_count": 364,
   "decisions": {
@@ -444,10 +444,9 @@
     },
     "kb증권": {
       "display_name": "KB증권",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "케이비증권(KB증권)",
-      "updated_at": "2026-05-24T10:02:37.381767+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:22:44.779Z"
     },
     "dermafirm더마펌": {
       "display_name": "DERMAFIRM 더마펌",
