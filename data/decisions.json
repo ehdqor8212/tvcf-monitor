@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:29:43.689Z",
-  "count": 165,
-  "x_count": 375,
+  "updated_at": "2026-07-01T06:29:55.715Z",
+  "count": 164,
+  "x_count": 376,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -687,13 +687,6 @@
       "status": "o",
       "matched_name": "현대자동차",
       "updated_at": "2026-07-01T06:18:37.695Z"
-    },
-    "sk": {
-      "display_name": "SK",
-      "status": "maybe",
-      "matched_name": "글락소스미스클라인(GSK)",
-      "updated_at": "2026-06-06T12:03:35.570671+09:00",
-      "auto": true
     },
     "아웃백스테이크하우스": {
       "display_name": "아웃백스테이크하우스",
@@ -2310,6 +2303,11 @@
       "status": "x",
       "updated_at": "2026-06-05T17:04:45.690013+09:00",
       "auto": true
+    },
+    "1019210": {
+      "advertiser": "SK",
+      "status": "x",
+      "updated_at": "2026-07-01T06:29:55.414Z"
     },
     "1019228": {
       "advertiser": "우림에프엠지",
