@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:33:15.761Z",
+  "updated_at": "2026-07-01T06:33:29.426Z",
   "count": 162,
   "x_count": 382,
   "decisions": {
@@ -282,10 +282,9 @@
     },
     "삼성화재다이렉트": {
       "display_name": "삼성화재 다이렉트",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "삼성화재",
-      "updated_at": "2026-05-20T12:02:15.087344+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:33:29.133Z"
     },
     "삼성자산운용": {
       "display_name": "삼성자산운용",
