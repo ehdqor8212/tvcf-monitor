@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:27:33.239Z",
+  "updated_at": "2026-07-01T06:27:51.050Z",
   "count": 168,
-  "x_count": 369,
+  "x_count": 370,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2113,6 +2113,11 @@
       "status": "x",
       "updated_at": "2026-06-01T17:04:58.195357+09:00",
       "auto": true
+    },
+    "1018754": {
+      "advertiser": "롯데마트",
+      "status": "x",
+      "updated_at": "2026-07-01T06:27:50.635Z"
     },
     "1018755": {
       "advertiser": "JTBC",
