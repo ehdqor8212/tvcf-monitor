@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:22:17.089Z",
+  "updated_at": "2026-07-01T06:22:28.032Z",
   "count": 173,
   "x_count": 364,
   "decisions": {
@@ -868,10 +868,9 @@
     },
     "한솔": {
       "display_name": "한솔",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한솔홀딩스",
-      "updated_at": "2026-06-12T10:02:58.486887+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:22:27.625Z"
     },
     "cj제일제당": {
       "display_name": "CJ제일제당",
