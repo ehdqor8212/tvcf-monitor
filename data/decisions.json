@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T17:02:26.531962+09:00",
-  "count": 175,
-  "x_count": 344,
+  "updated_at": "2026-07-01T10:03:37.957694+09:00",
+  "count": 177,
+  "x_count": 352,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1217,6 +1217,20 @@
       "status": "o",
       "matched_name": "퓨젠바이오",
       "updated_at": "2026-06-30T17:02:26.524595+09:00",
+      "auto": true
+    },
+    "한화피플라이프": {
+      "display_name": "한화피플라이프",
+      "status": "maybe",
+      "matched_name": "피플라이프",
+      "updated_at": "2026-07-01T10:03:37.946866+09:00",
+      "auto": true
+    },
+    "cj온스타일": {
+      "display_name": "CJ온스타일 ",
+      "status": "maybe",
+      "matched_name": "온스타일",
+      "updated_at": "2026-07-01T10:03:37.953581+09:00",
       "auto": true
     }
   },
@@ -3279,6 +3293,54 @@
       "advertiser": "링글",
       "status": "x",
       "updated_at": "2026-06-30T17:02:26.530103+09:00",
+      "auto": true
+    },
+    "1021722": {
+      "advertiser": "Kling AI",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.934781+09:00",
+      "auto": true
+    },
+    "1021766": {
+      "advertiser": "트렉스타 제로타이",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.937214+09:00",
+      "auto": true
+    },
+    "1021717": {
+      "advertiser": "HL 디앤아이한라",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.939647+09:00",
+      "auto": true
+    },
+    "1021730": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.942055+09:00",
+      "auto": true
+    },
+    "1021742": {
+      "advertiser": "인천도시공사",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.944504+09:00",
+      "auto": true
+    },
+    "1021733": {
+      "advertiser": "에이아이케이스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.949293+09:00",
+      "auto": true
+    },
+    "1021725": {
+      "advertiser": "한국부동산원",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.951688+09:00",
+      "auto": true
+    },
+    "1021728": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.955981+09:00",
       "auto": true
     }
   }
