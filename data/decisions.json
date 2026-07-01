@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:34:34.612Z",
+  "updated_at": "2026-07-01T06:34:51.788Z",
   "count": 161,
   "x_count": 384,
   "decisions": {
@@ -155,10 +155,9 @@
     },
     "에치와이": {
       "display_name": "에치와이",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "에치와이(HY)",
-      "updated_at": "2026-05-14T22:36:11.029733+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:34:50.912Z"
     },
     "종근당": {
       "display_name": "종근당",
