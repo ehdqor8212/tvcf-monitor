@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:33:29.426Z",
+  "updated_at": "2026-07-01T06:33:34.832Z",
   "count": 162,
   "x_count": 382,
   "decisions": {
@@ -169,10 +169,9 @@
     },
     "종근당": {
       "display_name": "종근당",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "종근당건강",
-      "updated_at": "2026-05-14T22:36:11.035079+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:33:34.515Z"
     },
     "lg유플러스": {
       "display_name": "LG유플러스",
