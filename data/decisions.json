@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:26:39.157Z",
-  "count": 169,
-  "x_count": 368,
+  "updated_at": "2026-07-01T06:27:01.006Z",
+  "count": 168,
+  "x_count": 369,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -362,13 +362,6 @@
       "status": "o",
       "matched_name": "빙그레",
       "updated_at": "2026-05-21T12:03:00.837816+09:00",
-      "auto": true
-    },
-    "대상": {
-      "display_name": "대상",
-      "status": "maybe",
-      "matched_name": "(미집행) 대상",
-      "updated_at": "2026-05-21T12:03:00.839236+09:00",
       "auto": true
     },
     "윌리엄그랜트앤선즈코리아": {
@@ -2370,6 +2363,11 @@
       "status": "x",
       "updated_at": "2026-06-08T17:10:09.688356+09:00",
       "auto": true
+    },
+    "1019432": {
+      "advertiser": "대상",
+      "status": "x",
+      "updated_at": "2026-07-01T06:27:00.677Z"
     },
     "1019470": {
       "advertiser": "대우건설",
