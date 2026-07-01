@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:30:52.185Z",
+  "updated_at": "2026-07-01T06:31:02.033Z",
   "count": 163,
   "x_count": 378,
   "decisions": {
@@ -448,10 +448,9 @@
     },
     "nh농협": {
       "display_name": "NH농협",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엔에이치농협손해보험(NH농협손해보험)",
-      "updated_at": "2026-05-25T10:01:17.365854+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:31:01.535Z"
     },
     "더네이쳐홀딩스": {
       "display_name": "더네이쳐홀딩스",
