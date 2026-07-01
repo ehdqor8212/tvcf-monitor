@@ -123,14 +123,17 @@ tbody tr:last-child td { border-bottom: none; }
 tbody tr.legacy-row { background: #fafafa; }
 tbody tr.legacy-row:hover { background: #f3f3f3; }
 tbody tr.legacy-row td { color: var(--ink-soft); }
+tbody tr.history-row { background: #fbfbfd; }
+tbody tr.history-row:hover { background: #f4f4f8; }
 
-td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); }
+/* [UI 수정] 광고주/브랜드 셀 정렬 통일 */
+td { padding: 12px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); line-height: 1.4; }
 td.year { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); font-weight: 500; text-align: center; }
 td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
-td.advertiser { font-weight: 600; color: var(--ink); }
-td.brand { color: var(--ink-soft); font-size: 13px; }
+td.advertiser { font-weight: 600; color: var(--ink); font-size: 13px; line-height: 1.4; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 260px; }
+td.brand { color: var(--ink-soft); font-size: 13px; line-height: 1.4; vertical-align: middle; font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 320px; }
 
-.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; }
+.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; vertical-align: middle; }
 .cat-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; }
 
 .status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; }
@@ -278,11 +281,9 @@ function escapeHtml(text) {
 }
 
 function getDecision(name, adId) {
-  // 1. X 결정 (ad_id 기준) 우선 확인
   if (adId && state.x_decisions[adId]) {
     return { status: 'x', matched_name: null };
   }
-  // 2. O/⚠ 결정 (광고주명 기준) 확인
   if (!name) return null;
   const key = normalizeName(name);
   return state.decisions[key] || null;
@@ -322,7 +323,6 @@ async function loadData() {
       state.historyAds = await historyResp.json();
     } else { state.historyAds = []; }
 
-    // latest + history(최근 N일) 합치기 (중복 제거)
     const latestIds = new Set(latestAds.map(a => a.ad_id));
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - RECENT_DAYS);
@@ -332,7 +332,6 @@ async function loadData() {
       const reg = ad.registered_date || '';
       return reg.slice(0, 10) >= cutoffStr;
     });
-    // 광고주+날짜 기준 추가 dedup
     const combined = [...latestAds, ...recentFromHistory];
     state.ads = dedupByAdvertiserDate(combined);
 
@@ -369,7 +368,6 @@ function enrichAndRender() {
     if (decision) {
       match = { status: decision.status, matched: decision.matched_name };
     } else {
-      // 결정이 없으면 unknown 표시 (작업자가 아직 매칭 안 한 광고)
       match = { status: 'unknown', matched: null };
     }
     return { ...ad, matchKey, match };
@@ -388,6 +386,9 @@ function updateCounts() {
   $('#countO').textContent = counts.o;
 }
 
+// [수정 포인트] getCurrentRows:
+//   history 광고 → from_history 플래그. decisions 기반 match 그대로.
+//   legacy 광고 → from_legacy 플래그.
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
 
@@ -406,13 +407,15 @@ function getCurrentRows() {
       matchKey,
       match,
       is_legacy: true,
-      legacy_exec_status: '',
+      from_history: true,
     };
   });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, isLegacy: true },
+    is_legacy: true,
+    from_legacy: true,
   }));
 
   return [...state.enriched, ...olderHistory, ...legacyEnriched];
@@ -466,9 +469,18 @@ function render() {
   });
 }
 
+// [수정 포인트] renderRow:
+//   from_legacy (진짜 옛날 CSV) → legacy_exec_status 사용
+//   그 외 (신규 + from_history) → decisions status로 O/X/⚠ 라벨 표시
 function renderRow(ad, idx) {
+  const isFromLegacy = ad.from_legacy === true;
+  const isFromHistory = ad.from_history === true;
   const isLegacy = ad.is_legacy === true;
-  const rowCls = isLegacy ? 'legacy-row' : '';
+
+  let rowCls = '';
+  if (isFromLegacy) rowCls = 'legacy-row';
+  else if (isFromHistory) rowCls = 'history-row';
+
   const year = getYear(ad);
   const date = ad.registered_date || '—';
 
@@ -482,7 +494,7 @@ function renderRow(ad, idx) {
     advertiserCell = '<span style="color:var(--muted)">미확인</span>';
   }
 
-  const brandText = ad.brand || '—';
+  const brandText = ad.brand || ad.advertiser || '—';
   let brandCell = escapeHtml(brandText);
   if (ad.variant_count && ad.variant_count > 1) {
     brandCell += `<span class="variant-badge" title="같은 광고주의 다른 광고 ${ad.variant_count}건 통합">+${ad.variant_count - 1}</span>`;
@@ -493,11 +505,13 @@ function renderRow(ad, idx) {
   let statusHtml = '';
   const status = ad.match.status;
 
-  if (isLegacy) {
+  if (isFromLegacy) {
+    // 진짜 옛날 CSV → 원본 legacy_exec_status 사용
     const legacyLabel = ad.legacy_exec_status || '?';
     const cls = status === 'o' ? 'o' : (status === 'x' ? 'x' : 'unknown');
     statusHtml = `<span class="status-badge ${cls}">${escapeHtml(legacyLabel)}</span>`;
   } else {
+    // 신규 + from_history → decisions status 기준 라벨
     let label = '';
     let cls = status;
     if (status === 'o') label = 'O 집행';
@@ -571,7 +585,7 @@ function exportExcel() {
 
   const rows = filtered.map(ad => {
     let exec = '';
-    if (ad.is_legacy) {
+    if (ad.from_legacy) {
       exec = ad.legacy_exec_status || '';
     } else {
       const s = ad.match.status;
