@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:14:57.169Z",
+  "updated_at": "2026-07-01T06:15:06.405Z",
   "count": 176,
   "x_count": 360,
   "decisions": {
@@ -220,10 +220,9 @@
     },
     "애플코리아": {
       "display_name": "애플 코리아",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "애플",
-      "updated_at": "2026-05-19T17:10:22.939486+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:15:05.153Z"
     },
     "농심": {
       "display_name": "농심",
