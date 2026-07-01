@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:26:13.151Z",
+  "updated_at": "2026-07-01T06:26:23.740Z",
   "count": 169,
   "x_count": 368,
   "decisions": {
@@ -332,10 +332,9 @@
     },
     "nh농협은행": {
       "display_name": "NH농협은행",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엔에이치농협은행(NH농협은행)",
-      "updated_at": "2026-05-20T17:07:26.409691+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:26:23.406Z"
     },
     "에이스침대": {
       "display_name": "에이스침대",
