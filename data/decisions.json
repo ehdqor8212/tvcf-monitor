@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:33:34.832Z",
+  "updated_at": "2026-07-01T06:33:44.128Z",
   "count": 162,
   "x_count": 382,
   "decisions": {
@@ -795,10 +795,9 @@
     },
     "에프알엘코리아": {
       "display_name": "에프알엘코리아",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "에프알엘코리아(FRL코리아)",
-      "updated_at": "2026-06-13T10:17:59.723600+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:33:43.729Z"
     },
     "우리카드": {
       "display_name": "우리카드",
