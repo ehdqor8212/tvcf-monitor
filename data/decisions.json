@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:34:51.788Z",
+  "updated_at": "2026-07-01T06:35:10.966Z",
   "count": 161,
   "x_count": 384,
   "decisions": {
@@ -454,10 +454,9 @@
     },
     "nh투자증권": {
       "display_name": "NH투자증권",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엔에이치투자증권(NH투자증권)",
-      "updated_at": "2026-05-27T10:02:24.251028+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:35:10.623Z"
     },
     "써브웨이코리아": {
       "display_name": "써브웨이코리아",
