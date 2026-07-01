@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:29:04.873Z",
-  "count": 167,
-  "x_count": 373,
+  "updated_at": "2026-07-01T06:29:25.548Z",
+  "count": 166,
+  "x_count": 374,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -465,13 +465,6 @@
       "status": "o",
       "matched_name": "동국제약",
       "updated_at": "2026-05-26T10:03:07.088777+09:00",
-      "auto": true
-    },
-    "네이버파이넨셜": {
-      "display_name": "네이버파이넨셜",
-      "status": "maybe",
-      "matched_name": "네이버",
-      "updated_at": "2026-05-26T12:02:39.476702+09:00",
       "auto": true
     },
     "bgf리테일": {
@@ -1888,6 +1881,11 @@
       "status": "x",
       "updated_at": "2026-05-28T10:02:31.046659+09:00",
       "auto": true
+    },
+    "1018480": {
+      "advertiser": "네이버파이넨셜",
+      "status": "x",
+      "updated_at": "2026-07-01T06:29:24.644Z"
     },
     "1018485": {
       "advertiser": "KBS",
