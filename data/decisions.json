@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:20:57.658Z",
+  "updated_at": "2026-07-01T06:21:07.791Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -258,10 +258,9 @@
     },
     "맥도날드": {
       "display_name": "맥도날드",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한국맥도날드",
-      "updated_at": "2026-05-19T17:10:22.958610+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:21:07.470Z"
     },
     "크래프톤": {
       "display_name": "크래프톤",
