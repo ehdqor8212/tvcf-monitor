@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:31:54.878Z",
+  "updated_at": "2026-07-01T06:32:14.717Z",
   "count": 162,
-  "x_count": 379,
+  "x_count": 380,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1494,6 +1494,11 @@
       "status": "x",
       "updated_at": "2026-05-20T10:03:35.045673+09:00",
       "auto": true
+    },
+    "1017669": {
+      "advertiser": "오뚜기",
+      "status": "x",
+      "updated_at": "2026-07-01T06:32:14.379Z"
     },
     "1017670": {
       "advertiser": "SBS",
