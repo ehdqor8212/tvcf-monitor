@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:28:17.366Z",
+  "updated_at": "2026-07-01T06:28:30.636Z",
   "count": 168,
-  "x_count": 371,
+  "x_count": 372,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1968,6 +1968,11 @@
       "status": "x",
       "updated_at": "2026-05-29T10:03:25.887928+09:00",
       "auto": true
+    },
+    "1018579": {
+      "advertiser": "롯데마트",
+      "status": "x",
+      "updated_at": "2026-07-01T06:28:30.330Z"
     },
     "1018580": {
       "advertiser": "더불어민주당",
