@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:22:07.532Z",
+  "updated_at": "2026-07-01T06:22:17.089Z",
   "count": 173,
   "x_count": 364,
   "decisions": {
@@ -862,10 +862,9 @@
     },
     "코카콜라": {
       "display_name": "코카콜라",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한국코카콜라",
-      "updated_at": "2026-06-12T10:02:58.479337+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:22:16.744Z"
     },
     "한솔": {
       "display_name": "한솔",
