@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:15:06.405Z",
+  "updated_at": "2026-07-01T06:15:28.329Z",
   "count": 176,
   "x_count": 360,
   "decisions": {
@@ -806,10 +806,9 @@
     },
     "여기어때컴퍼니": {
       "display_name": "여기어때컴퍼니",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "여기어때",
-      "updated_at": "2026-06-08T17:10:09.703724+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:15:27.904Z"
     },
     "에프앤에프": {
       "display_name": "에프앤에프",
