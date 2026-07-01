@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:25:37.926Z",
+  "updated_at": "2026-07-01T06:25:44.320Z",
   "count": 170,
   "x_count": 367,
   "decisions": {
@@ -673,8 +673,7 @@
       "display_name": "한국산업은행 ",
       "status": "maybe",
       "matched_name": "한국산업은행(KDB산업은행)",
-      "updated_at": "2026-06-04T10:02:14.081411+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:25:43.999Z"
     },
     "넷마블": {
       "display_name": "넷마블",
