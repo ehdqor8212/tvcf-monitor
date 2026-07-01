@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:27:11.182Z",
+  "updated_at": "2026-07-01T06:27:33.239Z",
   "count": 168,
   "x_count": 369,
   "decisions": {
@@ -654,10 +654,9 @@
     },
     "bmw": {
       "display_name": "BMW",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "비엠더블유코리아(BMW)",
-      "updated_at": "2026-06-04T10:02:14.075793+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:27:32.915Z"
     },
     "한국산업은행": {
       "display_name": "한국산업은행 ",
