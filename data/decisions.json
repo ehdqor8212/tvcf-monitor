@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:31:38.474Z",
-  "count": 163,
-  "x_count": 378,
+  "updated_at": "2026-07-01T06:31:54.878Z",
+  "count": 162,
+  "x_count": 379,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -401,13 +401,6 @@
       "status": "o",
       "matched_name": "브랜드웍스코리아",
       "updated_at": "2026-05-22T17:03:30.096558+09:00",
-      "auto": true
-    },
-    "헨켈홈케어코리아": {
-      "display_name": "헨켈홈케어코리아",
-      "status": "maybe",
-      "matched_name": "(미집행) 헨켈홈케어코리아",
-      "updated_at": "2026-05-22T17:03:30.097880+09:00",
       "auto": true
     },
     "유니레버코리아": {
@@ -1693,6 +1686,11 @@
       "status": "x",
       "updated_at": "2026-05-22T12:05:21.612609+09:00",
       "auto": true
+    },
+    "1018060": {
+      "advertiser": "헨켈홈케어코리아",
+      "status": "x",
+      "updated_at": "2026-07-01T06:31:54.000Z"
     },
     "1018087": {
       "advertiser": "Lotte E&C",
