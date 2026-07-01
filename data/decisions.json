@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:21:57.865Z",
+  "updated_at": "2026-07-01T06:22:07.532Z",
   "count": 173,
   "x_count": 364,
   "decisions": {
@@ -129,10 +129,9 @@
     },
     "오비맥주": {
       "display_name": "오비맥주",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "오비맥주(OB맥주)",
-      "updated_at": "2026-05-14T22:36:10.995611+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:22:06.281Z"
     },
     "삼양그룹": {
       "display_name": "삼양그룹",
