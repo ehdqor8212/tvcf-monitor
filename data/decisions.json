@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:17:29.029Z",
+  "updated_at": "2026-07-01T06:17:42.577Z",
   "count": 174,
   "x_count": 362,
   "decisions": {
@@ -205,10 +205,9 @@
     },
     "삼성전자": {
       "display_name": "삼성전자",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "삼성전자_한국총괄",
-      "updated_at": "2026-05-19T17:10:22.932694+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:17:42.210Z"
     },
     "애플코리아": {
       "display_name": "애플 코리아",
