@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:14:28.336Z",
+  "updated_at": "2026-07-01T06:14:57.169Z",
   "count": 176,
-  "x_count": 359,
+  "x_count": 360,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3170,6 +3170,11 @@
       "status": "x",
       "updated_at": "2026-06-28T10:01:08.578751+09:00",
       "auto": true
+    },
+    "1021537": {
+      "advertiser": "롯데마트",
+      "status": "x",
+      "updated_at": "2026-07-01T06:14:56.860Z"
     },
     "1021548": {
       "advertiser": "유사나헬스사이언스",
