@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:17:42.577Z",
+  "updated_at": "2026-07-01T06:17:55.924Z",
   "count": 174,
   "x_count": 362,
   "decisions": {
@@ -1081,10 +1081,9 @@
     },
     "샘표식품": {
       "display_name": "샘표식품",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "샘표",
-      "updated_at": "2026-06-22T17:03:52.233444+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:17:55.055Z"
     },
     "제너시스": {
       "display_name": "제너시스",
