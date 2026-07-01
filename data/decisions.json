@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:29:55.715Z",
+  "updated_at": "2026-07-01T06:30:10.588Z",
   "count": 164,
-  "x_count": 376,
+  "x_count": 377,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1807,6 +1807,11 @@
       "status": "x",
       "updated_at": "2026-05-26T10:03:07.091549+09:00",
       "auto": true
+    },
+    "1018203": {
+      "advertiser": "네이버파이넨셜",
+      "status": "x",
+      "updated_at": "2026-07-01T06:30:09.698Z"
     },
     "1018209": {
       "advertiser": "KFC",
