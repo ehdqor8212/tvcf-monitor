@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:21:23.148Z",
+  "updated_at": "2026-07-01T06:21:37.905Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -986,10 +986,9 @@
     },
     "lg생활건강": {
       "display_name": "LG생활건강",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엘지생활건강(LG생활건강)",
-      "updated_at": "2026-06-16T10:05:54.781235+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:21:37.461Z"
     },
     "그리티": {
       "display_name": "그리티",
