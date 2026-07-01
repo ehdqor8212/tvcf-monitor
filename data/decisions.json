@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T10:03:37.957694+09:00",
-  "count": 177,
-  "x_count": 352,
+  "updated_at": "2026-07-01T12:03:27.070101+09:00",
+  "count": 179,
+  "x_count": 355,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1231,6 +1231,20 @@
       "status": "maybe",
       "matched_name": "온스타일",
       "updated_at": "2026-07-01T10:03:37.953581+09:00",
+      "auto": true
+    },
+    "카카오페이": {
+      "display_name": "카카오페이",
+      "status": "o",
+      "matched_name": "카카오페이",
+      "updated_at": "2026-07-01T12:03:27.060638+09:00",
+      "auto": true
+    },
+    "금호타이어": {
+      "display_name": "금호타이어",
+      "status": "o",
+      "matched_name": "금호타이어",
+      "updated_at": "2026-07-01T12:03:27.063287+09:00",
       "auto": true
     }
   },
@@ -3341,6 +3355,24 @@
       "advertiser": "롯데리아",
       "status": "x",
       "updated_at": "2026-07-01T10:03:37.955981+09:00",
+      "auto": true
+    },
+    "1021787": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-07-01T12:03:27.063123+09:00",
+      "auto": true
+    },
+    "1021779": {
+      "advertiser": "한화비전",
+      "status": "x",
+      "updated_at": "2026-07-01T12:03:27.065806+09:00",
+      "auto": true
+    },
+    "1021777": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-07-01T12:03:27.068281+09:00",
       "auto": true
     }
   }

@@ -1,5 +1,136 @@
 [
   {
+    "ad_id": "1021787",
+    "prefix": "bi1874",
+    "url": "https://tvcf.co.kr/play/bi1874-1021787",
+    "card_title": "SK이노베이션SKI 기업문화 캠페인 - '우리가 이곳에 온 이유'",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "SK이노베이션",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "SK이노베이션",
+    "advertiser_code": "C000010143",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-01T12:03:27.041681+09:00"
+  },
+  {
+    "ad_id": "1021783",
+    "prefix": "bi1839",
+    "url": "https://tvcf.co.kr/play/bi1839-1021783",
+    "card_title": "금호타이어[금호타이어&넷플릭스] 넷플릭스 정주행 안전가이드 - 시청후",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "금호타이어",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "금호타이어",
+    "advertiser_code": "C000003781",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021781",
+        "url": "https://tvcf.co.kr/play/bi1817-1021781",
+        "brand": "금호타이어",
+        "campaign": null,
+        "card_title": "금호타이어[금호타이어&넷플릭스] 넷플릭스 정주행 안전가이드 - 시청전"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-01T12:03:27.041689+09:00"
+  },
+  {
+    "ad_id": "1021782",
+    "prefix": "ai1828",
+    "url": "https://tvcf.co.kr/play/ai1828-1021782",
+    "card_title": "바비톡자기관리 시술의 시작 | 15's",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "바비톡",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "바비톡",
+    "advertiser_code": "C000142409",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021774",
+        "url": "https://tvcf.co.kr/play/ai1749-1021774",
+        "brand": "바비톡",
+        "campaign": null,
+        "card_title": "바비톡톡한자만 살아남는다 | Full ver."
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-01T12:03:27.041686+09:00"
+  },
+  {
+    "ad_id": "1021779",
+    "prefix": "bi1795",
+    "url": "https://tvcf.co.kr/play/bi1795-1021779",
+    "card_title": "한화비전CCTV의 시대교체, 한화비전 키퍼",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "한화비전",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "공중파",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variants": [
+      {
+        "ad_id": "1021778",
+        "url": "https://tvcf.co.kr/play/ai1784-1021778",
+        "brand": "한화비전",
+        "campaign": null,
+        "card_title": "한화비전CCTV의 시대교체, 한화비전 키퍼"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-01T12:03:27.041696+09:00"
+  },
+  {
+    "ad_id": "1021777",
+    "prefix": "bi1773",
+    "url": "https://tvcf.co.kr/play/bi1773-1021777",
+    "card_title": "유니세프희망의 자국 이덕화",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "유니세프",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "케이블",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "유니세프",
+    "advertiser_code": "C000012207",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021776",
+        "url": "https://tvcf.co.kr/play/ai1762-1021776",
+        "brand": "유니세프",
+        "campaign": null,
+        "card_title": "유니세프희망의 자국 박주미"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-01T12:03:27.041698+09:00"
+  },
+  {
     "ad_id": "1021766",
     "prefix": "ai1661",
     "url": "https://tvcf.co.kr/play/ai1661-1021766",
@@ -106,6 +237,44 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-07-01T10:03:37.916112+09:00"
+  },
+  {
+    "ad_id": "1021780",
+    "prefix": "ai2806",
+    "url": "https://tvcf.co.kr/play/ai2806-1021780",
+    "card_title": "카카오페이굿딜 좋아 죽겠어~ 최성곤 라이브 대공개",
+    "onair": "06.30",
+    "registered_short": "07.01",
+    "brand": "카카오페이",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "카카오페이",
+    "advertiser_code": "C000016899",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-01T12:03:27.041670+09:00"
+  },
+  {
+    "ad_id": "1021775",
+    "prefix": "bi1751",
+    "url": "https://tvcf.co.kr/play/bi1751-1021775",
+    "card_title": "SBS 2026 신한 SOL KBO 리그이것이 우리의 야구",
+    "onair": "06.30",
+    "registered_short": "07.01",
+    "brand": "SBS 2026 신한 SOL KBO 리그",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "공중파",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "신한금융그룹",
+    "advertiser_code": "C000011597",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-01T12:03:27.041700+09:00"
   },
   {
     "ad_id": "1021772",
@@ -333,6 +502,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-06-30T12:02:23.803783+09:00"
+  },
+  {
+    "ad_id": "1021680",
+    "prefix": "ai2805",
+    "url": "https://tvcf.co.kr/play/ai2805-1021680",
+    "card_title": "넥센타이어The All New Nexen N'Priz S (KR FULL VER.)",
+    "onair": "06.29",
+    "registered_short": "06.29",
+    "brand": "넥센타이어",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "넥센타이어",
+    "advertiser_code": "C000004185",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-01T12:03:27.041702+09:00"
   },
   {
     "ad_id": "1021678",
