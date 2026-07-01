@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T12:03:27.070101+09:00",
+  "updated_at": "2026-07-01T05:57:24.254Z",
   "count": 179,
   "x_count": 355,
   "decisions": {
@@ -899,10 +899,9 @@
     },
     "cj제일제당": {
       "display_name": "CJ제일제당",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "씨제이제일제당(CJ제일제당)",
-      "updated_at": "2026-06-13T10:17:59.698491+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T05:57:23.963Z"
     },
     "현대약품": {
       "display_name": "현대약품",
@@ -1249,16 +1248,154 @@
     }
   },
   "x_decisions": {
+    "1016375": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.679434+09:00",
+      "auto": true
+    },
+    "1016449": {
+      "advertiser": "백년농가",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.046157+09:00",
+      "auto": true
+    },
+    "1016468": {
+      "advertiser": "젠하이저코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.074806+09:00",
+      "auto": true
+    },
+    "1016469": {
+      "advertiser": "젠하이저코리아",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.071841+09:00",
+      "auto": true
+    },
+    "1016473": {
+      "advertiser": "크리에이티브힐",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.017525+09:00",
+      "auto": true
+    },
+    "1016476": {
+      "advertiser": "케이에스국민신발",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.014629+09:00",
+      "auto": true
+    },
+    "1016480": {
+      "advertiser": "콕스웨이브",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.991829+09:00",
+      "auto": true
+    },
+    "1016481": {
+      "advertiser": "더파운더즈",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.001990+09:00",
+      "auto": true
+    },
+    "1016556": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.986965+09:00",
+      "auto": true
+    },
+    "1016578": {
+      "advertiser": "한국엡손",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.043248+09:00",
+      "auto": true
+    },
+    "1016584": {
+      "advertiser": "롯데손해보험",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.984062+09:00",
+      "auto": true
+    },
+    "1016599": {
+      "advertiser": "라온시스템",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.027533+09:00",
+      "auto": true
+    },
+    "1016600": {
+      "advertiser": "라온시스템",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.024636+09:00",
+      "auto": true
+    },
+    "1016601": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.978265+09:00",
+      "auto": true
+    },
+    "1016602": {
+      "advertiser": "에이더블유더블유",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.981165+09:00",
+      "auto": true
+    },
+    "1016603": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.975365+09:00",
+      "auto": true
+    },
+    "1016604": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.972433+09:00",
+      "auto": true
+    },
+    "1016605": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.969530+09:00",
+      "auto": true
+    },
+    "1016607": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.966614+09:00",
+      "auto": true
+    },
+    "1016608": {
+      "advertiser": "빌리프랩",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:10.963697+09:00",
+      "auto": true
+    },
     "1016609": {
       "advertiser": "빌리프랩",
       "status": "x",
       "updated_at": "2026-05-14T12:43:07.129Z",
       "auto": true
     },
+    "1016610": {
+      "advertiser": "핑크원더",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.066419+09:00",
+      "auto": true
+    },
+    "1016614": {
+      "advertiser": "핑크원더",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.063530+09:00",
+      "auto": true
+    },
     "1016625": {
       "advertiser": "LG CNS",
       "status": "x",
       "updated_at": "2026-05-14T12:43:07.129Z",
+      "auto": true
+    },
+    "1016638": {
+      "advertiser": "Mercedes-Benz",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.040352+09:00",
       "auto": true
     },
     "1016639": {
@@ -1288,6 +1425,36 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-05-14T12:43:07.129Z",
+      "auto": true
+    },
+    "1016660": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.060638+09:00",
+      "auto": true
+    },
+    "1016661": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.057742+09:00",
+      "auto": true
+    },
+    "1016662": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.054840+09:00",
+      "auto": true
+    },
+    "1016663": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.051947+09:00",
+      "auto": true
+    },
+    "1016664": {
+      "advertiser": "ALDO ",
+      "status": "x",
+      "updated_at": "2026-05-14T22:36:11.049052+09:00",
       "auto": true
     },
     "1016706": {
@@ -1341,118 +1508,10 @@
       "updated_at": "2026-05-14T13:24:53.994Z",
       "auto": true
     },
-    "1016608": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.963697+09:00",
-      "auto": true
-    },
-    "1016607": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.966614+09:00",
-      "auto": true
-    },
-    "1016605": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.969530+09:00",
-      "auto": true
-    },
-    "1016604": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.972433+09:00",
-      "auto": true
-    },
-    "1016603": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.975365+09:00",
-      "auto": true
-    },
-    "1016601": {
-      "advertiser": "빌리프랩",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.978265+09:00",
-      "auto": true
-    },
-    "1016602": {
-      "advertiser": "에이더블유더블유",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.981165+09:00",
-      "auto": true
-    },
-    "1016584": {
-      "advertiser": "롯데손해보험",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.984062+09:00",
-      "auto": true
-    },
-    "1016556": {
-      "advertiser": "MBC",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.986965+09:00",
-      "auto": true
-    },
-    "1016480": {
-      "advertiser": "콕스웨이브",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.991829+09:00",
-      "auto": true
-    },
-    "1017102": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:10.999054+09:00",
-      "auto": true
-    },
-    "1016481": {
-      "advertiser": "더파운더즈",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.001990+09:00",
-      "auto": true
-    },
-    "1017101": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.004900+09:00",
-      "auto": true
-    },
-    "1017100": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.007827+09:00",
-      "auto": true
-    },
-    "1016476": {
-      "advertiser": "케이에스국민신발",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.014629+09:00",
-      "auto": true
-    },
-    "1016473": {
-      "advertiser": "크리에이티브힐",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.017525+09:00",
-      "auto": true
-    },
     "1017098": {
       "advertiser": "에이스푸드",
       "status": "x",
       "updated_at": "2026-05-14T22:36:11.020409+09:00",
-      "auto": true
-    },
-    "1016600": {
-      "advertiser": "라온시스템",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.024636+09:00",
-      "auto": true
-    },
-    "1016599": {
-      "advertiser": "라온시스템",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.027533+09:00",
       "auto": true
     },
     "1017099": {
@@ -1461,136 +1520,28 @@
       "updated_at": "2026-05-14T22:36:11.032633+09:00",
       "auto": true
     },
-    "1016638": {
-      "advertiser": "Mercedes-Benz",
+    "1017100": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-05-14T22:36:11.040352+09:00",
+      "updated_at": "2026-05-14T22:36:11.007827+09:00",
       "auto": true
     },
-    "1016578": {
-      "advertiser": "한국엡손",
+    "1017101": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-05-14T22:36:11.043248+09:00",
+      "updated_at": "2026-05-14T22:36:11.004900+09:00",
       "auto": true
     },
-    "1016449": {
-      "advertiser": "백년농가",
+    "1017102": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-05-14T22:36:11.046157+09:00",
+      "updated_at": "2026-05-14T22:36:10.999054+09:00",
       "auto": true
     },
-    "1016664": {
-      "advertiser": "ALDO ",
+    "1017149": {
+      "advertiser": "사단법인 시민",
       "status": "x",
-      "updated_at": "2026-05-14T22:36:11.049052+09:00",
-      "auto": true
-    },
-    "1016663": {
-      "advertiser": "ALDO ",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.051947+09:00",
-      "auto": true
-    },
-    "1016662": {
-      "advertiser": "ALDO ",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.054840+09:00",
-      "auto": true
-    },
-    "1016661": {
-      "advertiser": "ALDO ",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.057742+09:00",
-      "auto": true
-    },
-    "1016660": {
-      "advertiser": "ALDO ",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.060638+09:00",
-      "auto": true
-    },
-    "1016614": {
-      "advertiser": "핑크원더",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.063530+09:00",
-      "auto": true
-    },
-    "1016610": {
-      "advertiser": "핑크원더",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.066419+09:00",
-      "auto": true
-    },
-    "1016469": {
-      "advertiser": "젠하이저코리아",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.071841+09:00",
-      "auto": true
-    },
-    "1016468": {
-      "advertiser": "젠하이저코리아",
-      "status": "x",
-      "updated_at": "2026-05-14T22:36:11.074806+09:00",
-      "auto": true
-    },
-    "1017512": {
-      "advertiser": "더리본",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.924127+09:00",
-      "auto": true
-    },
-    "1017445": {
-      "advertiser": "SK D&D",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.928609+09:00",
-      "auto": true
-    },
-    "1017444": {
-      "advertiser": "SK D&D",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.931046+09:00",
-      "auto": true
-    },
-    "1017416": {
-      "advertiser": "KBS",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.935133+09:00",
-      "auto": true
-    },
-    "1017415": {
-      "advertiser": "국토교통부",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.937696+09:00",
-      "auto": true
-    },
-    "1017414": {
-      "advertiser": "산토리 글로벌 스피리츠",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.942112+09:00",
-      "auto": true
-    },
-    "1017409": {
-      "advertiser": "산토리 글로벌 스피리츠",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.945814+09:00",
-      "auto": true
-    },
-    "1017357": {
-      "advertiser": "요아정",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.949012+09:00",
-      "auto": true
-    },
-    "1017302": {
-      "advertiser": "황금가지",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.952635+09:00",
-      "auto": true
-    },
-    "1017279": {
-      "advertiser": "대현",
-      "status": "x",
-      "updated_at": "2026-05-19T17:10:22.956315+09:00",
+      "updated_at": "2026-05-19T17:10:22.967353+09:00",
       "auto": true
     },
     "1017150": {
@@ -1605,64 +1556,16 @@
       "updated_at": "2026-05-19T17:10:22.963463+09:00",
       "auto": true
     },
-    "1017149": {
-      "advertiser": "사단법인 시민",
+    "1017279": {
+      "advertiser": "대현",
       "status": "x",
-      "updated_at": "2026-05-19T17:10:22.967353+09:00",
+      "updated_at": "2026-05-19T17:10:22.956315+09:00",
       "auto": true
     },
-    "1017333": {
-      "advertiser": "SBS",
+    "1017302": {
+      "advertiser": "황금가지",
       "status": "x",
-      "updated_at": "2026-05-19T17:10:22.969777+09:00",
-      "auto": true
-    },
-    "1017659": {
-      "advertiser": "scent9",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.037363+09:00",
-      "auto": true
-    },
-    "1017670": {
-      "advertiser": "SBS",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.040136+09:00",
-      "auto": true
-    },
-    "1017652": {
-      "advertiser": "KB금융그룹",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.042932+09:00",
-      "auto": true
-    },
-    "1017660": {
-      "advertiser": "KBS",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.045673+09:00",
-      "auto": true
-    },
-    "1017657": {
-      "advertiser": "OHIR",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.048642+09:00",
-      "auto": true
-    },
-    "1017569": {
-      "advertiser": "사각코퍼레이션",
-      "status": "x",
-      "updated_at": "2026-05-20T10:03:35.051352+09:00",
-      "auto": true
-    },
-    "1017678": {
-      "advertiser": "아이아이컴바인드",
-      "status": "x",
-      "updated_at": "2026-05-20T12:02:15.089853+09:00",
-      "auto": true
-    },
-    "1017675": {
-      "advertiser": "국가데이터처",
-      "status": "x",
-      "updated_at": "2026-05-20T12:02:15.092338+09:00",
+      "updated_at": "2026-05-19T17:10:22.952635+09:00",
       "auto": true
     },
     "1017314": {
@@ -1671,34 +1574,118 @@
       "updated_at": "2026-05-20T12:02:15.094826+09:00",
       "auto": true
     },
-    "1017777": {
-      "advertiser": "GS25",
+    "1017333": {
+      "advertiser": "SBS",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.389967+09:00",
+      "updated_at": "2026-05-19T17:10:22.969777+09:00",
       "auto": true
     },
-    "1017760": {
-      "advertiser": "한국경제신문",
+    "1017357": {
+      "advertiser": "요아정",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.395296+09:00",
+      "updated_at": "2026-05-19T17:10:22.949012+09:00",
       "auto": true
     },
-    "1017754": {
-      "advertiser": "한국경제신문",
+    "1017409": {
+      "advertiser": "산토리 글로벌 스피리츠",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.398138+09:00",
+      "updated_at": "2026-05-19T17:10:22.945814+09:00",
       "auto": true
     },
-    "1017753": {
-      "advertiser": "한국경제신문",
+    "1017414": {
+      "advertiser": "산토리 글로벌 스피리츠",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.400987+09:00",
+      "updated_at": "2026-05-19T17:10:22.942112+09:00",
       "auto": true
     },
-    "1017741": {
-      "advertiser": "큐앤드비인터내셔날",
+    "1017415": {
+      "advertiser": "국토교통부",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.407535+09:00",
+      "updated_at": "2026-05-19T17:10:22.937696+09:00",
+      "auto": true
+    },
+    "1017416": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-19T17:10:22.935133+09:00",
+      "auto": true
+    },
+    "1017444": {
+      "advertiser": "SK D&D",
+      "status": "x",
+      "updated_at": "2026-05-19T17:10:22.931046+09:00",
+      "auto": true
+    },
+    "1017445": {
+      "advertiser": "SK D&D",
+      "status": "x",
+      "updated_at": "2026-05-19T17:10:22.928609+09:00",
+      "auto": true
+    },
+    "1017512": {
+      "advertiser": "더리본",
+      "status": "x",
+      "updated_at": "2026-05-19T17:10:22.924127+09:00",
+      "auto": true
+    },
+    "1017569": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.051352+09:00",
+      "auto": true
+    },
+    "1017652": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.042932+09:00",
+      "auto": true
+    },
+    "1017657": {
+      "advertiser": "OHIR",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.048642+09:00",
+      "auto": true
+    },
+    "1017659": {
+      "advertiser": "scent9",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.037363+09:00",
+      "auto": true
+    },
+    "1017660": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.045673+09:00",
+      "auto": true
+    },
+    "1017670": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-05-20T10:03:35.040136+09:00",
+      "auto": true
+    },
+    "1017675": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-05-20T12:02:15.092338+09:00",
+      "auto": true
+    },
+    "1017678": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-05-20T12:02:15.089853+09:00",
+      "auto": true
+    },
+    "1017684": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.420962+09:00",
+      "auto": true
+    },
+    "1017687": {
+      "advertiser": "세븐일레븐",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.418139+09:00",
       "auto": true
     },
     "1017689": {
@@ -1713,16 +1700,46 @@
       "updated_at": "2026-05-20T17:07:26.415320+09:00",
       "auto": true
     },
-    "1017687": {
-      "advertiser": "세븐일레븐",
+    "1017741": {
+      "advertiser": "큐앤드비인터내셔날",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.418139+09:00",
+      "updated_at": "2026-05-20T17:07:26.407535+09:00",
       "auto": true
     },
-    "1017684": {
-      "advertiser": "아이아이컴바인드",
+    "1017753": {
+      "advertiser": "한국경제신문",
       "status": "x",
-      "updated_at": "2026-05-20T17:07:26.420962+09:00",
+      "updated_at": "2026-05-20T17:07:26.400987+09:00",
+      "auto": true
+    },
+    "1017754": {
+      "advertiser": "한국경제신문",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.398138+09:00",
+      "auto": true
+    },
+    "1017760": {
+      "advertiser": "한국경제신문",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.395296+09:00",
+      "auto": true
+    },
+    "1017777": {
+      "advertiser": "GS25",
+      "status": "x",
+      "updated_at": "2026-05-20T17:07:26.389967+09:00",
+      "auto": true
+    },
+    "1017783": {
+      "advertiser": "더불정보기술",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.686013+09:00",
+      "auto": true
+    },
+    "1017786": {
+      "advertiser": "요헤미티",
+      "status": "x",
+      "updated_at": "2026-05-21T10:02:02.683202+09:00",
       "auto": true
     },
     "1017807": {
@@ -1737,28 +1754,10 @@
       "updated_at": "2026-05-21T10:02:02.676609+09:00",
       "auto": true
     },
-    "1016375": {
-      "advertiser": "넷플릭스서비시스코리아",
-      "status": "x",
-      "updated_at": "2026-05-21T10:02:02.679434+09:00",
-      "auto": true
-    },
-    "1017786": {
-      "advertiser": "요헤미티",
-      "status": "x",
-      "updated_at": "2026-05-21T10:02:02.683202+09:00",
-      "auto": true
-    },
-    "1017783": {
-      "advertiser": "더불정보기술",
-      "status": "x",
-      "updated_at": "2026-05-21T10:02:02.686013+09:00",
-      "auto": true
-    },
-    "1017828": {
+    "1017824": {
       "advertiser": "팀홀튼 코리아",
       "status": "x",
-      "updated_at": "2026-05-21T12:03:00.842077+09:00",
+      "updated_at": "2026-05-21T12:03:00.847854+09:00",
       "auto": true
     },
     "1017827": {
@@ -1767,16 +1766,10 @@
       "updated_at": "2026-05-21T12:03:00.845038+09:00",
       "auto": true
     },
-    "1017824": {
+    "1017828": {
       "advertiser": "팀홀튼 코리아",
       "status": "x",
-      "updated_at": "2026-05-21T12:03:00.847854+09:00",
-      "auto": true
-    },
-    "1017908": {
-      "advertiser": "OUI Inc.",
-      "status": "x",
-      "updated_at": "2026-05-21T17:03:59.391450+09:00",
+      "updated_at": "2026-05-21T12:03:00.842077+09:00",
       "auto": true
     },
     "1017841": {
@@ -1785,22 +1778,40 @@
       "updated_at": "2026-05-21T17:03:59.394226+09:00",
       "auto": true
     },
-    "1018048": {
-      "advertiser": "스파이더",
+    "1017908": {
+      "advertiser": "OUI Inc.",
       "status": "x",
-      "updated_at": "2026-05-22T12:05:21.612609+09:00",
+      "updated_at": "2026-05-21T17:03:59.391450+09:00",
       "auto": true
     },
-    "1018043": {
+    "1017911": {
+      "advertiser": "비엔케이스포츠",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.642139+09:00",
+      "auto": true
+    },
+    "1017937": {
+      "advertiser": "볼보자동차코리아",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.638811+09:00",
+      "auto": true
+    },
+    "1017944": {
       "advertiser": "JTBC",
       "status": "x",
-      "updated_at": "2026-05-22T12:05:21.617138+09:00",
+      "updated_at": "2026-05-22T12:05:21.634345+09:00",
       "auto": true
     },
-    "1018042": {
-      "advertiser": "SBS",
+    "1017946": {
+      "advertiser": "NC소프트",
       "status": "x",
-      "updated_at": "2026-05-22T12:05:21.619631+09:00",
+      "updated_at": "2026-05-22T12:05:21.629452+09:00",
+      "auto": true
+    },
+    "1017947": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-05-22T12:05:21.631903+09:00",
       "auto": true
     },
     "1017951": {
@@ -1821,46 +1832,22 @@
       "updated_at": "2026-05-22T12:05:21.627003+09:00",
       "auto": true
     },
-    "1017946": {
-      "advertiser": "NC소프트",
+    "1018042": {
+      "advertiser": "SBS",
       "status": "x",
-      "updated_at": "2026-05-22T12:05:21.629452+09:00",
+      "updated_at": "2026-05-22T12:05:21.619631+09:00",
       "auto": true
     },
-    "1017947": {
-      "advertiser": "NC소프트",
-      "status": "x",
-      "updated_at": "2026-05-22T12:05:21.631903+09:00",
-      "auto": true
-    },
-    "1017944": {
+    "1018043": {
       "advertiser": "JTBC",
       "status": "x",
-      "updated_at": "2026-05-22T12:05:21.634345+09:00",
+      "updated_at": "2026-05-22T12:05:21.617138+09:00",
       "auto": true
     },
-    "1017937": {
-      "advertiser": "볼보자동차코리아",
-      "status": "x",
-      "updated_at": "2026-05-22T12:05:21.638811+09:00",
-      "auto": true
-    },
-    "1017911": {
-      "advertiser": "비엔케이스포츠",
-      "status": "x",
-      "updated_at": "2026-05-22T12:05:21.642139+09:00",
-      "auto": true
-    },
-    "1018097": {
-      "advertiser": "레토피아살롱",
-      "status": "x",
-      "updated_at": "2026-05-22T17:03:30.088343+09:00",
-      "auto": true
-    },
-    "1018096": {
+    "1018048": {
       "advertiser": "스파이더",
       "status": "x",
-      "updated_at": "2026-05-22T17:03:30.090889+09:00",
+      "updated_at": "2026-05-22T12:05:21.612609+09:00",
       "auto": true
     },
     "1018087": {
@@ -1869,10 +1856,22 @@
       "updated_at": "2026-05-22T17:03:30.096144+09:00",
       "auto": true
     },
-    "1018149": {
-      "advertiser": "SK telecom",
+    "1018096": {
+      "advertiser": "스파이더",
       "status": "x",
-      "updated_at": "2026-05-23T10:01:56.189375+09:00",
+      "updated_at": "2026-05-22T17:03:30.090889+09:00",
+      "auto": true
+    },
+    "1018097": {
+      "advertiser": "레토피아살롱",
+      "status": "x",
+      "updated_at": "2026-05-22T17:03:30.088343+09:00",
+      "auto": true
+    },
+    "1018141": {
+      "advertiser": "삼성SDS",
+      "status": "x",
+      "updated_at": "2026-05-23T10:01:56.195070+09:00",
       "auto": true
     },
     "1018148": {
@@ -1881,10 +1880,10 @@
       "updated_at": "2026-05-23T10:01:56.192235+09:00",
       "auto": true
     },
-    "1018141": {
-      "advertiser": "삼성SDS",
+    "1018149": {
+      "advertiser": "SK telecom",
       "status": "x",
-      "updated_at": "2026-05-23T10:01:56.195070+09:00",
+      "updated_at": "2026-05-23T10:01:56.189375+09:00",
       "auto": true
     },
     "1018153": {
@@ -1897,6 +1896,12 @@
       "advertiser": "국가데이터처",
       "status": "x",
       "updated_at": "2026-05-24T10:02:37.387103+09:00",
+      "auto": true
+    },
+    "1018160": {
+      "advertiser": "경주축산농협",
+      "status": "x",
+      "updated_at": "2026-05-24T17:01:16.432670+09:00",
       "auto": true
     },
     "1018161": {
@@ -1915,12 +1920,6 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-05-24T10:02:37.395123+09:00",
-      "auto": true
-    },
-    "1018160": {
-      "advertiser": "경주축산농협",
-      "status": "x",
-      "updated_at": "2026-05-24T17:01:16.432670+09:00",
       "auto": true
     },
     "1018174": {
@@ -1959,16 +1958,16 @@
       "updated_at": "2026-05-26T12:02:39.475336+09:00",
       "auto": true
     },
-    "1018271": {
-      "advertiser": "신한자산운용",
-      "status": "x",
-      "updated_at": "2026-05-26T17:01:48.375432+09:00",
-      "auto": true
-    },
     "1018227": {
       "advertiser": "캔트비블루 can't be blue",
       "status": "x",
       "updated_at": "2026-05-26T17:01:48.377945+09:00",
+      "auto": true
+    },
+    "1018271": {
+      "advertiser": "신한자산운용",
+      "status": "x",
+      "updated_at": "2026-05-26T17:01:48.375432+09:00",
       "auto": true
     },
     "1018285": {
@@ -1977,22 +1976,16 @@
       "updated_at": "2026-05-27T10:02:24.248821+09:00",
       "auto": true
     },
-    "1018287": {
-      "advertiser": "JTBC",
-      "status": "x",
-      "updated_at": "2026-05-27T12:01:27.378468+09:00",
-      "auto": true
-    },
     "1018286": {
       "advertiser": "JTBC",
       "status": "x",
       "updated_at": "2026-05-27T12:01:27.381677+09:00",
       "auto": true
     },
-    "1018355": {
-      "advertiser": "카카오뱅크",
+    "1018287": {
+      "advertiser": "JTBC",
       "status": "x",
-      "updated_at": "2026-05-27T17:02:12.716218+09:00",
+      "updated_at": "2026-05-27T12:01:27.378468+09:00",
       "auto": true
     },
     "1018320": {
@@ -2001,16 +1994,16 @@
       "updated_at": "2026-05-27T17:02:12.718788+09:00",
       "auto": true
     },
-    "1018485": {
-      "advertiser": "KBS",
+    "1018354": {
+      "advertiser": "DYPNF",
       "status": "x",
-      "updated_at": "2026-05-28T10:02:31.039035+09:00",
+      "updated_at": "2026-05-28T10:02:31.049150+09:00",
       "auto": true
     },
-    "1018489": {
-      "advertiser": "우리금융그룹",
+    "1018355": {
+      "advertiser": "카카오뱅크",
       "status": "x",
-      "updated_at": "2026-05-28T10:02:31.041548+09:00",
+      "updated_at": "2026-05-27T17:02:12.716218+09:00",
       "auto": true
     },
     "1018376": {
@@ -2019,58 +2012,10 @@
       "updated_at": "2026-05-28T10:02:31.046659+09:00",
       "auto": true
     },
-    "1018354": {
-      "advertiser": "DYPNF",
+    "1018485": {
+      "advertiser": "KBS",
       "status": "x",
-      "updated_at": "2026-05-28T10:02:31.049150+09:00",
-      "auto": true
-    },
-    "1018508": {
-      "advertiser": "SK매직",
-      "status": "x",
-      "updated_at": "2026-05-28T12:02:23.192825+09:00",
-      "auto": true
-    },
-    "1018506": {
-      "advertiser": "홍천군",
-      "status": "x",
-      "updated_at": "2026-05-28T12:02:23.195360+09:00",
-      "auto": true
-    },
-    "1018505": {
-      "advertiser": "국민의힘",
-      "status": "x",
-      "updated_at": "2026-05-28T12:02:23.197868+09:00",
-      "auto": true
-    },
-    "1018502": {
-      "advertiser": "Unilever",
-      "status": "x",
-      "updated_at": "2026-05-28T12:02:23.202405+09:00",
-      "auto": true
-    },
-    "1018514": {
-      "advertiser": "LG Global",
-      "status": "x",
-      "updated_at": "2026-05-28T17:03:01.135800+09:00",
-      "auto": true
-    },
-    "1018512": {
-      "advertiser": "LG Global",
-      "status": "x",
-      "updated_at": "2026-05-28T17:03:01.138317+09:00",
-      "auto": true
-    },
-    "1018510": {
-      "advertiser": "세일즈포스",
-      "status": "x",
-      "updated_at": "2026-05-28T17:03:01.140909+09:00",
-      "auto": true
-    },
-    "1018580": {
-      "advertiser": "더불어민주당",
-      "status": "x",
-      "updated_at": "2026-05-29T10:03:25.881411+09:00",
+      "updated_at": "2026-05-28T10:02:31.039035+09:00",
       "auto": true
     },
     "1018487": {
@@ -2079,16 +2024,70 @@
       "updated_at": "2026-05-29T10:03:25.885435+09:00",
       "auto": true
     },
-    "1018576": {
-      "advertiser": "휴스튜디오",
+    "1018489": {
+      "advertiser": "우리금융그룹",
       "status": "x",
-      "updated_at": "2026-05-29T10:03:25.887928+09:00",
+      "updated_at": "2026-05-28T10:02:31.041548+09:00",
+      "auto": true
+    },
+    "1018502": {
+      "advertiser": "Unilever",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.202405+09:00",
+      "auto": true
+    },
+    "1018505": {
+      "advertiser": "국민의힘",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.197868+09:00",
+      "auto": true
+    },
+    "1018506": {
+      "advertiser": "홍천군",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.195360+09:00",
+      "auto": true
+    },
+    "1018508": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-05-28T12:02:23.192825+09:00",
+      "auto": true
+    },
+    "1018510": {
+      "advertiser": "세일즈포스",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.140909+09:00",
+      "auto": true
+    },
+    "1018512": {
+      "advertiser": "LG Global",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.138317+09:00",
+      "auto": true
+    },
+    "1018514": {
+      "advertiser": "LG Global",
+      "status": "x",
+      "updated_at": "2026-05-28T17:03:01.135800+09:00",
       "auto": true
     },
     "1018542": {
       "advertiser": "우유자조금관리위원회",
       "status": "x",
       "updated_at": "2026-05-29T10:03:25.891721+09:00",
+      "auto": true
+    },
+    "1018576": {
+      "advertiser": "휴스튜디오",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.887928+09:00",
+      "auto": true
+    },
+    "1018580": {
+      "advertiser": "더불어민주당",
+      "status": "x",
+      "updated_at": "2026-05-29T10:03:25.881411+09:00",
       "auto": true
     },
     "1018581": {
@@ -2103,16 +2102,10 @@
       "updated_at": "2026-05-29T17:03:39.245614+09:00",
       "auto": true
     },
-    "1018690": {
-      "advertiser": "LG유플러스 (LG Uplus)",
+    "1018684": {
+      "advertiser": "SK telecom",
       "status": "x",
-      "updated_at": "2026-05-30T12:02:01.637391+09:00",
-      "auto": true
-    },
-    "1018687": {
-      "advertiser": "지센",
-      "status": "x",
-      "updated_at": "2026-05-30T12:02:01.641900+09:00",
+      "updated_at": "2026-05-30T12:02:01.648098+09:00",
       "auto": true
     },
     "1018685": {
@@ -2121,10 +2114,16 @@
       "updated_at": "2026-05-30T12:02:01.644674+09:00",
       "auto": true
     },
-    "1018684": {
-      "advertiser": "SK telecom",
+    "1018687": {
+      "advertiser": "지센",
       "status": "x",
-      "updated_at": "2026-05-30T12:02:01.648098+09:00",
+      "updated_at": "2026-05-30T12:02:01.641900+09:00",
+      "auto": true
+    },
+    "1018690": {
+      "advertiser": "LG유플러스 (LG Uplus)",
+      "status": "x",
+      "updated_at": "2026-05-30T12:02:01.637391+09:00",
       "auto": true
     },
     "1018691": {
@@ -2145,28 +2144,22 @@
       "updated_at": "2026-05-31T17:02:08.898028+09:00",
       "auto": true
     },
-    "1018701": {
-      "advertiser": "지방 하나만, 365mc",
-      "status": "x",
-      "updated_at": "2026-05-31T17:02:08.901388+09:00",
-      "auto": true
-    },
     "1018700": {
       "advertiser": "EA SPORTS FC 온라인",
       "status": "x",
       "updated_at": "2026-05-31T17:02:08.904340+09:00",
       "auto": true
     },
-    "1018710": {
-      "advertiser": "서울시교육청",
+    "1018701": {
+      "advertiser": "지방 하나만, 365mc",
       "status": "x",
-      "updated_at": "2026-06-01T10:02:40.429569+09:00",
+      "updated_at": "2026-05-31T17:02:08.901388+09:00",
       "auto": true
     },
-    "1018708": {
-      "advertiser": "단국대학교",
+    "1018703": {
+      "advertiser": "KBS",
       "status": "x",
-      "updated_at": "2026-06-01T10:02:40.432210+09:00",
+      "updated_at": "2026-06-01T10:02:40.437519+09:00",
       "auto": true
     },
     "1018705": {
@@ -2175,10 +2168,28 @@
       "updated_at": "2026-06-01T10:02:40.434874+09:00",
       "auto": true
     },
-    "1018703": {
-      "advertiser": "KBS",
+    "1018708": {
+      "advertiser": "단국대학교",
       "status": "x",
-      "updated_at": "2026-06-01T10:02:40.437519+09:00",
+      "updated_at": "2026-06-01T10:02:40.432210+09:00",
+      "auto": true
+    },
+    "1018710": {
+      "advertiser": "서울시교육청",
+      "status": "x",
+      "updated_at": "2026-06-01T10:02:40.429569+09:00",
+      "auto": true
+    },
+    "1018723": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.207418+09:00",
+      "auto": true
+    },
+    "1018726": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-01T12:03:31.390352+09:00",
       "auto": true
     },
     "1018727": {
@@ -2193,42 +2204,6 @@
       "updated_at": "2026-06-01T12:03:31.387614+09:00",
       "auto": true
     },
-    "1018726": {
-      "advertiser": "국가데이터처",
-      "status": "x",
-      "updated_at": "2026-06-01T12:03:31.390352+09:00",
-      "auto": true
-    },
-    "1018815": {
-      "advertiser": "블러온",
-      "status": "x",
-      "updated_at": "2026-06-01T17:04:58.187502+09:00",
-      "auto": true
-    },
-    "1018799": {
-      "advertiser": "롯데건설",
-      "status": "x",
-      "updated_at": "2026-06-01T17:04:58.190168+09:00",
-      "auto": true
-    },
-    "1018755": {
-      "advertiser": "JTBC",
-      "status": "x",
-      "updated_at": "2026-06-01T17:04:58.192727+09:00",
-      "auto": true
-    },
-    "1018753": {
-      "advertiser": "JTBC",
-      "status": "x",
-      "updated_at": "2026-06-01T17:04:58.195357+09:00",
-      "auto": true
-    },
-    "1018752": {
-      "advertiser": "리뉴파이",
-      "status": "x",
-      "updated_at": "2026-06-01T17:04:58.197900+09:00",
-      "auto": true
-    },
     "1018734": {
       "advertiser": "팜베이",
       "status": "x",
@@ -2241,16 +2216,82 @@
       "updated_at": "2026-06-01T17:04:58.203015+09:00",
       "auto": true
     },
-    "1018723": {
-      "advertiser": "국가데이터처",
+    "1018752": {
+      "advertiser": "리뉴파이",
       "status": "x",
-      "updated_at": "2026-06-01T17:04:58.207418+09:00",
+      "updated_at": "2026-06-01T17:04:58.197900+09:00",
+      "auto": true
+    },
+    "1018753": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.195357+09:00",
+      "auto": true
+    },
+    "1018755": {
+      "advertiser": "JTBC",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.192727+09:00",
       "auto": true
     },
     "1018798": {
       "advertiser": "한국수출입은행",
       "status": "x",
       "updated_at": "2026-06-02T10:04:54.841483+09:00",
+      "auto": true
+    },
+    "1018799": {
+      "advertiser": "롯데건설",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.190168+09:00",
+      "auto": true
+    },
+    "1018815": {
+      "advertiser": "블러온",
+      "status": "x",
+      "updated_at": "2026-06-01T17:04:58.187502+09:00",
+      "auto": true
+    },
+    "1018819": {
+      "advertiser": "지센",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.866570+09:00",
+      "auto": true
+    },
+    "1018821": {
+      "advertiser": "하이모",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.863660+09:00",
+      "auto": true
+    },
+    "1018830": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-06-02T17:02:32.839042+09:00",
+      "auto": true
+    },
+    "1018832": {
+      "advertiser": "사각코퍼레이션",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.860747+09:00",
+      "auto": true
+    },
+    "1018836": {
+      "advertiser": "우버코리아",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.857374+09:00",
+      "auto": true
+    },
+    "1018837": {
+      "advertiser": "도미노피자",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.854476+09:00",
+      "auto": true
+    },
+    "1018843": {
+      "advertiser": "콘텐츠캐리어",
+      "status": "x",
+      "updated_at": "2026-06-02T10:04:54.851582+09:00",
       "auto": true
     },
     "1018845": {
@@ -2265,52 +2306,10 @@
       "updated_at": "2026-06-02T10:04:54.848687+09:00",
       "auto": true
     },
-    "1018843": {
-      "advertiser": "콘텐츠캐리어",
+    "1018881": {
+      "advertiser": "세종기프트",
       "status": "x",
-      "updated_at": "2026-06-02T10:04:54.851582+09:00",
-      "auto": true
-    },
-    "1018837": {
-      "advertiser": "도미노피자",
-      "status": "x",
-      "updated_at": "2026-06-02T10:04:54.854476+09:00",
-      "auto": true
-    },
-    "1018836": {
-      "advertiser": "우버코리아",
-      "status": "x",
-      "updated_at": "2026-06-02T10:04:54.857374+09:00",
-      "auto": true
-    },
-    "1018832": {
-      "advertiser": "사각코퍼레이션",
-      "status": "x",
-      "updated_at": "2026-06-02T10:04:54.860747+09:00",
-      "auto": true
-    },
-    "1018821": {
-      "advertiser": "하이모",
-      "status": "x",
-      "updated_at": "2026-06-02T10:04:54.863660+09:00",
-      "auto": true
-    },
-    "1018819": {
-      "advertiser": "지센",
-      "status": "x",
-      "updated_at": "2026-06-02T10:04:54.866570+09:00",
-      "auto": true
-    },
-    "1018894": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-06-02T12:02:59.188629+09:00",
-      "auto": true
-    },
-    "1018891": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-06-02T12:02:59.191367+09:00",
+      "updated_at": "2026-06-02T12:02:59.197025+09:00",
       "auto": true
     },
     "1018882": {
@@ -2319,16 +2318,22 @@
       "updated_at": "2026-06-02T12:02:59.194045+09:00",
       "auto": true
     },
-    "1018881": {
-      "advertiser": "세종기프트",
+    "1018891": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-06-02T12:02:59.197025+09:00",
+      "updated_at": "2026-06-02T12:02:59.191367+09:00",
       "auto": true
     },
-    "1018931": {
-      "advertiser": "코렐",
+    "1018894": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-06-02T17:02:32.830975+09:00",
+      "updated_at": "2026-06-02T12:02:59.188629+09:00",
+      "auto": true
+    },
+    "1018895": {
+      "advertiser": "디올",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.701532+09:00",
       "auto": true
     },
     "1018901": {
@@ -2337,10 +2342,10 @@
       "updated_at": "2026-06-02T17:02:32.833883+09:00",
       "auto": true
     },
-    "1018830": {
-      "advertiser": "사각코퍼레이션",
+    "1018931": {
+      "advertiser": "코렐",
       "status": "x",
-      "updated_at": "2026-06-02T17:02:32.839042+09:00",
+      "updated_at": "2026-06-02T17:02:32.830975+09:00",
       "auto": true
     },
     "1018969": {
@@ -2361,10 +2366,10 @@
       "updated_at": "2026-06-04T12:02:22.619799+09:00",
       "auto": true
     },
-    "1019148": {
-      "advertiser": "노스페이스 코리아 ",
+    "1019123": {
+      "advertiser": "한국수산회",
       "status": "x",
-      "updated_at": "2026-06-05T10:06:30.691883+09:00",
+      "updated_at": "2026-06-05T10:06:30.700132+09:00",
       "auto": true
     },
     "1019124": {
@@ -2373,28 +2378,10 @@
       "updated_at": "2026-06-05T10:06:30.697374+09:00",
       "auto": true
     },
-    "1019123": {
-      "advertiser": "한국수산회",
+    "1019148": {
+      "advertiser": "노스페이스 코리아 ",
       "status": "x",
-      "updated_at": "2026-06-05T10:06:30.700132+09:00",
-      "auto": true
-    },
-    "1019194": {
-      "advertiser": "SK매직",
-      "status": "x",
-      "updated_at": "2026-06-05T17:04:45.690013+09:00",
-      "auto": true
-    },
-    "1019191": {
-      "advertiser": "CJ문화재단",
-      "status": "x",
-      "updated_at": "2026-06-05T17:04:45.692872+09:00",
-      "auto": true
-    },
-    "1019182": {
-      "advertiser": "SK매직",
-      "status": "x",
-      "updated_at": "2026-06-05T17:04:45.695692+09:00",
+      "updated_at": "2026-06-05T10:06:30.691883+09:00",
       "auto": true
     },
     "1019170": {
@@ -2403,10 +2390,28 @@
       "updated_at": "2026-06-05T17:04:45.698544+09:00",
       "auto": true
     },
-    "1019242": {
-      "advertiser": "불스원",
+    "1019182": {
+      "advertiser": "SK매직",
       "status": "x",
-      "updated_at": "2026-06-07T17:02:54.404220+09:00",
+      "updated_at": "2026-06-05T17:04:45.695692+09:00",
+      "auto": true
+    },
+    "1019191": {
+      "advertiser": "CJ문화재단",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.692872+09:00",
+      "auto": true
+    },
+    "1019194": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-05T17:04:45.690013+09:00",
+      "auto": true
+    },
+    "1019228": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.711424+09:00",
       "auto": true
     },
     "1019235": {
@@ -2415,16 +2420,28 @@
       "updated_at": "2026-06-07T17:02:54.407067+09:00",
       "auto": true
     },
+    "1019242": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-07T17:02:54.404220+09:00",
+      "auto": true
+    },
     "1019244": {
       "advertiser": "프롬바이오",
       "status": "x",
       "updated_at": "2026-06-07T17:02:54.409899+09:00",
       "auto": true
     },
-    "1019430": {
-      "advertiser": "면사랑 ",
+    "1019388": {
+      "advertiser": "카스",
       "status": "x",
-      "updated_at": "2026-06-08T17:10:09.688356+09:00",
+      "updated_at": "2026-06-08T17:10:09.708635+09:00",
+      "auto": true
+    },
+    "1019402": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-06-08T17:10:09.698745+09:00",
       "auto": true
     },
     "1019418": {
@@ -2439,40 +2456,10 @@
       "updated_at": "2026-06-08T17:10:09.695964+09:00",
       "auto": true
     },
-    "1019402": {
-      "advertiser": "투썸플레이스",
+    "1019430": {
+      "advertiser": "면사랑 ",
       "status": "x",
-      "updated_at": "2026-06-08T17:10:09.698745+09:00",
-      "auto": true
-    },
-    "1018895": {
-      "advertiser": "디올",
-      "status": "x",
-      "updated_at": "2026-06-08T17:10:09.701532+09:00",
-      "auto": true
-    },
-    "1019388": {
-      "advertiser": "카스",
-      "status": "x",
-      "updated_at": "2026-06-08T17:10:09.708635+09:00",
-      "auto": true
-    },
-    "1019228": {
-      "advertiser": "우림에프엠지",
-      "status": "x",
-      "updated_at": "2026-06-08T17:10:09.711424+09:00",
-      "auto": true
-    },
-    "1019500": {
-      "advertiser": "CASS",
-      "status": "x",
-      "updated_at": "2026-06-09T17:06:29.344135+09:00",
-      "auto": true
-    },
-    "1019494": {
-      "advertiser": "아우디코리아",
-      "status": "x",
-      "updated_at": "2026-06-09T17:06:29.349381+09:00",
+      "updated_at": "2026-06-08T17:10:09.688356+09:00",
       "auto": true
     },
     "1019470": {
@@ -2487,10 +2474,22 @@
       "updated_at": "2026-06-09T17:06:29.357661+09:00",
       "auto": true
     },
-    "1019664": {
-      "advertiser": "정선군",
+    "1019494": {
+      "advertiser": "아우디코리아",
       "status": "x",
-      "updated_at": "2026-06-10T10:05:35.156762+09:00",
+      "updated_at": "2026-06-09T17:06:29.349381+09:00",
+      "auto": true
+    },
+    "1019500": {
+      "advertiser": "CASS",
+      "status": "x",
+      "updated_at": "2026-06-09T17:06:29.344135+09:00",
+      "auto": true
+    },
+    "1019564": {
+      "advertiser": "파리크라상",
+      "status": "x",
+      "updated_at": "2026-06-10T10:05:35.162552+09:00",
       "auto": true
     },
     "1019663": {
@@ -2499,10 +2498,16 @@
       "updated_at": "2026-06-10T10:05:35.159648+09:00",
       "auto": true
     },
-    "1019564": {
-      "advertiser": "파리크라상",
+    "1019664": {
+      "advertiser": "정선군",
       "status": "x",
-      "updated_at": "2026-06-10T10:05:35.162552+09:00",
+      "updated_at": "2026-06-10T10:05:35.156762+09:00",
+      "auto": true
+    },
+    "1019676": {
+      "advertiser": "에이치케이디코리아",
+      "status": "x",
+      "updated_at": "2026-06-10T17:04:36.559755+09:00",
       "auto": true
     },
     "1019677": {
@@ -2517,40 +2522,22 @@
       "updated_at": "2026-06-10T17:04:36.551136+09:00",
       "auto": true
     },
-    "1019726": {
-      "advertiser": "투썸플레이스",
-      "status": "x",
-      "updated_at": "2026-06-10T17:04:36.553654+09:00",
-      "auto": true
-    },
     "1019709": {
       "advertiser": "SK하이닉스",
       "status": "x",
       "updated_at": "2026-06-10T17:04:36.556194+09:00",
       "auto": true
     },
-    "1019676": {
-      "advertiser": "에이치케이디코리아",
+    "1019726": {
+      "advertiser": "투썸플레이스",
       "status": "x",
-      "updated_at": "2026-06-10T17:04:36.559755+09:00",
+      "updated_at": "2026-06-10T17:04:36.553654+09:00",
       "auto": true
     },
-    "1019791": {
-      "advertiser": "SK이노베이션",
+    "1019752": {
+      "advertiser": "하리보",
       "status": "x",
-      "updated_at": "2026-06-11T17:05:59.746660+09:00",
-      "auto": true
-    },
-    "1019781": {
-      "advertiser": "아이아이컴바인드",
-      "status": "x",
-      "updated_at": "2026-06-11T17:05:59.750085+09:00",
-      "auto": true
-    },
-    "1019780": {
-      "advertiser": "현대렌탈케어",
-      "status": "x",
-      "updated_at": "2026-06-11T17:05:59.752894+09:00",
+      "updated_at": "2026-06-11T17:05:59.758752+09:00",
       "auto": true
     },
     "1019758": {
@@ -2559,10 +2546,34 @@
       "updated_at": "2026-06-11T17:05:59.755947+09:00",
       "auto": true
     },
-    "1019752": {
-      "advertiser": "하리보",
+    "1019780": {
+      "advertiser": "현대렌탈케어",
       "status": "x",
-      "updated_at": "2026-06-11T17:05:59.758752+09:00",
+      "updated_at": "2026-06-11T17:05:59.752894+09:00",
+      "auto": true
+    },
+    "1019781": {
+      "advertiser": "아이아이컴바인드",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.750085+09:00",
+      "auto": true
+    },
+    "1019791": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-06-11T17:05:59.746660+09:00",
+      "auto": true
+    },
+    "1019905": {
+      "advertiser": "소산퍼시픽",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.491948+09:00",
+      "auto": true
+    },
+    "1019992": {
+      "advertiser": "나무엑스",
+      "status": "x",
+      "updated_at": "2026-06-12T10:02:58.489366+09:00",
       "auto": true
     },
     "1019997": {
@@ -2577,70 +2588,10 @@
       "updated_at": "2026-06-12T10:02:58.484420+09:00",
       "auto": true
     },
-    "1019992": {
-      "advertiser": "나무엑스",
+    "1020000": {
+      "advertiser": "일동후디스",
       "status": "x",
-      "updated_at": "2026-06-12T10:02:58.489366+09:00",
-      "auto": true
-    },
-    "1019905": {
-      "advertiser": "소산퍼시픽",
-      "status": "x",
-      "updated_at": "2026-06-12T10:02:58.491948+09:00",
-      "auto": true
-    },
-    "1020083": {
-      "advertiser": "Youser",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.701449+09:00",
-      "auto": true
-    },
-    "1020080": {
-      "advertiser": "FURSYS",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.705839+09:00",
-      "auto": true
-    },
-    "1020078": {
-      "advertiser": "스핀들",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.708752+09:00",
-      "auto": true
-    },
-    "1020074": {
-      "advertiser": "디알코스메틱",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.711663+09:00",
-      "auto": true
-    },
-    "1020071": {
-      "advertiser": "불스원",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.715508+09:00",
-      "auto": true
-    },
-    "1020063": {
-      "advertiser": "한돈자조금관리위원회",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.718439+09:00",
-      "auto": true
-    },
-    "1020053": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.721373+09:00",
-      "auto": true
-    },
-    "1020023": {
-      "advertiser": "아스테라시스",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.726572+09:00",
-      "auto": true
-    },
-    "1020008": {
-      "advertiser": "아쿠쉬네트코리아",
-      "status": "x",
-      "updated_at": "2026-06-13T10:17:59.730388+09:00",
+      "updated_at": "2026-06-15T12:06:40.829248+09:00",
       "auto": true
     },
     "1020005": {
@@ -2649,28 +2600,64 @@
       "updated_at": "2026-06-13T10:17:59.733314+09:00",
       "auto": true
     },
+    "1020008": {
+      "advertiser": "아쿠쉬네트코리아",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.730388+09:00",
+      "auto": true
+    },
     "1020019": {
       "advertiser": "아스테라시스",
       "status": "x",
       "updated_at": "2026-06-14T12:02:25.228022+09:00",
       "auto": true
     },
-    "1020175": {
-      "advertiser": "NC소프트",
+    "1020023": {
+      "advertiser": "아스테라시스",
       "status": "x",
-      "updated_at": "2026-06-15T12:06:40.813680+09:00",
+      "updated_at": "2026-06-13T10:17:59.726572+09:00",
       "auto": true
     },
-    "1020146": {
-      "advertiser": "한일전기",
+    "1020053": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-06-15T12:06:40.819507+09:00",
+      "updated_at": "2026-06-13T10:17:59.721373+09:00",
       "auto": true
     },
-    "1020135": {
-      "advertiser": "아쿠쉬네트코리아",
+    "1020063": {
+      "advertiser": "한돈자조금관리위원회",
       "status": "x",
-      "updated_at": "2026-06-15T12:06:40.824347+09:00",
+      "updated_at": "2026-06-13T10:17:59.718439+09:00",
+      "auto": true
+    },
+    "1020071": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.715508+09:00",
+      "auto": true
+    },
+    "1020074": {
+      "advertiser": "디알코스메틱",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.711663+09:00",
+      "auto": true
+    },
+    "1020078": {
+      "advertiser": "스핀들",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.708752+09:00",
+      "auto": true
+    },
+    "1020080": {
+      "advertiser": "FURSYS",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.705839+09:00",
+      "auto": true
+    },
+    "1020083": {
+      "advertiser": "Youser",
+      "status": "x",
+      "updated_at": "2026-06-13T10:17:59.701449+09:00",
       "auto": true
     },
     "1020120": {
@@ -2679,40 +2666,10 @@
       "updated_at": "2026-06-15T12:06:40.827167+09:00",
       "auto": true
     },
-    "1020000": {
-      "advertiser": "일동후디스",
+    "1020135": {
+      "advertiser": "아쿠쉬네트코리아",
       "status": "x",
-      "updated_at": "2026-06-15T12:06:40.829248+09:00",
-      "auto": true
-    },
-    "1020276": {
-      "advertiser": "위비스",
-      "status": "x",
-      "updated_at": "2026-06-16T10:05:54.764652+09:00",
-      "auto": true
-    },
-    "1020257": {
-      "advertiser": "AUDI",
-      "status": "x",
-      "updated_at": "2026-06-16T10:05:54.767429+09:00",
-      "auto": true
-    },
-    "1020244": {
-      "advertiser": "SK매직",
-      "status": "x",
-      "updated_at": "2026-06-16T10:05:54.769955+09:00",
-      "auto": true
-    },
-    "1020243": {
-      "advertiser": "SK매직",
-      "status": "x",
-      "updated_at": "2026-06-16T10:05:54.772523+09:00",
-      "auto": true
-    },
-    "1020194": {
-      "advertiser": "한양건설",
-      "status": "x",
-      "updated_at": "2026-06-16T10:05:54.776754+09:00",
+      "updated_at": "2026-06-15T12:06:40.824347+09:00",
       "auto": true
     },
     "1020138": {
@@ -2721,10 +2678,64 @@
       "updated_at": "2026-06-16T10:05:54.779242+09:00",
       "auto": true
     },
-    "1020468": {
-      "advertiser": "드리미코리아",
+    "1020146": {
+      "advertiser": "한일전기",
       "status": "x",
-      "updated_at": "2026-06-17T12:07:04.958565+09:00",
+      "updated_at": "2026-06-15T12:06:40.819507+09:00",
+      "auto": true
+    },
+    "1020172": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-06-22T10:02:15.050969+09:00",
+      "auto": true
+    },
+    "1020175": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-06-15T12:06:40.813680+09:00",
+      "auto": true
+    },
+    "1020194": {
+      "advertiser": "한양건설",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.776754+09:00",
+      "auto": true
+    },
+    "1020243": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.772523+09:00",
+      "auto": true
+    },
+    "1020244": {
+      "advertiser": "SK매직",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.769955+09:00",
+      "auto": true
+    },
+    "1020257": {
+      "advertiser": "AUDI",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.767429+09:00",
+      "auto": true
+    },
+    "1020276": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-06-16T10:05:54.764652+09:00",
+      "auto": true
+    },
+    "1020365": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.231444+09:00",
+      "auto": true
+    },
+    "1020416": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-06-17T12:07:04.969683+09:00",
       "auto": true
     },
     "1020420": {
@@ -2739,82 +2750,10 @@
       "updated_at": "2026-06-17T12:07:04.966865+09:00",
       "auto": true
     },
-    "1020416": {
-      "advertiser": "SK하이닉스",
-      "status": "x",
-      "updated_at": "2026-06-17T12:07:04.969683+09:00",
-      "auto": true
-    },
-    "1020483": {
-      "advertiser": "츠바키",
-      "status": "x",
-      "updated_at": "2026-06-17T17:03:55.356187+09:00",
-      "auto": true
-    },
-    "1020482": {
-      "advertiser": "닥터지 ",
-      "status": "x",
-      "updated_at": "2026-06-17T17:03:55.359053+09:00",
-      "auto": true
-    },
-    "1020477": {
-      "advertiser": "이케아코리아 ",
-      "status": "x",
-      "updated_at": "2026-06-17T17:03:55.362932+09:00",
-      "auto": true
-    },
-    "1020475": {
-      "advertiser": "차살때",
-      "status": "x",
-      "updated_at": "2026-06-17T17:03:55.365760+09:00",
-      "auto": true
-    },
-    "1020530": {
-      "advertiser": "신성실리콘",
-      "status": "x",
-      "updated_at": "2026-06-18T12:04:10.589803+09:00",
-      "auto": true
-    },
-    "1020518": {
-      "advertiser": "메디컬노바",
-      "status": "x",
-      "updated_at": "2026-06-18T12:04:10.592220+09:00",
-      "auto": true
-    },
-    "1020517": {
-      "advertiser": "쌤소나이트 코리아",
-      "status": "x",
-      "updated_at": "2026-06-18T12:04:10.594644+09:00",
-      "auto": true
-    },
-    "1020599": {
-      "advertiser": "폴리페놀팩토리",
-      "status": "x",
-      "updated_at": "2026-06-18T17:03:31.710928+09:00",
-      "auto": true
-    },
-    "1020595": {
+    "1020468": {
       "advertiser": "드리미코리아",
       "status": "x",
-      "updated_at": "2026-06-18T17:03:31.714368+09:00",
-      "auto": true
-    },
-    "1020570": {
-      "advertiser": "SK브로드밴드_B tv",
-      "status": "x",
-      "updated_at": "2026-06-18T17:03:31.719205+09:00",
-      "auto": true
-    },
-    "1020568": {
-      "advertiser": "유니세프",
-      "status": "x",
-      "updated_at": "2026-06-18T17:03:31.721923+09:00",
-      "auto": true
-    },
-    "1020556": {
-      "advertiser": "한국엡손",
-      "status": "x",
-      "updated_at": "2026-06-18T17:03:31.727188+09:00",
+      "updated_at": "2026-06-17T12:07:04.958565+09:00",
       "auto": true
     },
     "1020473": {
@@ -2823,34 +2762,40 @@
       "updated_at": "2026-06-18T17:03:31.729812+09:00",
       "auto": true
     },
-    "1020704": {
-      "advertiser": "공익광고협의회",
+    "1020475": {
+      "advertiser": "차살때",
       "status": "x",
-      "updated_at": "2026-06-19T10:04:44.217297+09:00",
+      "updated_at": "2026-06-17T17:03:55.365760+09:00",
       "auto": true
     },
-    "1020616": {
-      "advertiser": "BEANPOLE 빈폴",
+    "1020477": {
+      "advertiser": "이케아코리아 ",
       "status": "x",
-      "updated_at": "2026-06-19T10:04:44.220211+09:00",
+      "updated_at": "2026-06-17T17:03:55.362932+09:00",
       "auto": true
     },
-    "1020719": {
-      "advertiser": "공익광고협의회",
+    "1020482": {
+      "advertiser": "닥터지 ",
       "status": "x",
-      "updated_at": "2026-06-19T12:03:43.341153+09:00",
+      "updated_at": "2026-06-17T17:03:55.359053+09:00",
       "auto": true
     },
-    "1020709": {
-      "advertiser": "지엔터프라이즈",
+    "1020483": {
+      "advertiser": "츠바키",
       "status": "x",
-      "updated_at": "2026-06-19T12:03:43.343818+09:00",
+      "updated_at": "2026-06-17T17:03:55.356187+09:00",
       "auto": true
     },
-    "1020715": {
-      "advertiser": "SBS",
+    "1020517": {
+      "advertiser": "쌤소나이트 코리아",
       "status": "x",
-      "updated_at": "2026-06-19T12:03:43.346443+09:00",
+      "updated_at": "2026-06-18T12:04:10.594644+09:00",
+      "auto": true
+    },
+    "1020518": {
+      "advertiser": "메디컬노바",
+      "status": "x",
+      "updated_at": "2026-06-18T12:04:10.592220+09:00",
       "auto": true
     },
     "1020529": {
@@ -2859,40 +2804,64 @@
       "updated_at": "2026-06-19T12:03:43.349104+09:00",
       "auto": true
     },
-    "1020922": {
-      "advertiser": "아우디코리아",
+    "1020530": {
+      "advertiser": "신성실리콘",
       "status": "x",
-      "updated_at": "2026-06-19T17:02:40.905808+09:00",
+      "updated_at": "2026-06-18T12:04:10.589803+09:00",
       "auto": true
     },
-    "1020829": {
+    "1020532": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-06-27T10:02:32.868711+09:00",
+      "auto": true
+    },
+    "1020556": {
+      "advertiser": "한국엡손",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.727188+09:00",
+      "auto": true
+    },
+    "1020568": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.721923+09:00",
+      "auto": true
+    },
+    "1020570": {
+      "advertiser": "SK브로드밴드_B tv",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.719205+09:00",
+      "auto": true
+    },
+    "1020595": {
+      "advertiser": "드리미코리아",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.714368+09:00",
+      "auto": true
+    },
+    "1020599": {
+      "advertiser": "폴리페놀팩토리",
+      "status": "x",
+      "updated_at": "2026-06-18T17:03:31.710928+09:00",
+      "auto": true
+    },
+    "1020616": {
+      "advertiser": "BEANPOLE 빈폴",
+      "status": "x",
+      "updated_at": "2026-06-19T10:04:44.220211+09:00",
+      "auto": true
+    },
+    "1020704": {
       "advertiser": "공익광고협의회",
       "status": "x",
-      "updated_at": "2026-06-19T17:02:40.908298+09:00",
+      "updated_at": "2026-06-19T10:04:44.217297+09:00",
       "auto": true
     },
-    "1020815": {
-      "advertiser": "삼성E&A",
+    "1020709": {
+      "advertiser": "지엔터프라이즈",
       "status": "x",
-      "updated_at": "2026-06-19T17:02:40.911552+09:00",
-      "auto": true
-    },
-    "1020813": {
-      "advertiser": "OPPO",
-      "status": "x",
-      "updated_at": "2026-06-19T17:02:40.914062+09:00",
-      "auto": true
-    },
-    "1020935": {
-      "advertiser": "여기어떄컴퍼니",
-      "status": "x",
-      "updated_at": "2026-06-20T10:02:50.374391+09:00",
-      "auto": true
-    },
-    "1020923": {
-      "advertiser": "spc삼립",
-      "status": "x",
-      "updated_at": "2026-06-20T10:02:50.375922+09:00",
+      "updated_at": "2026-06-19T12:03:43.343818+09:00",
       "auto": true
     },
     "1020711": {
@@ -2901,22 +2870,58 @@
       "updated_at": "2026-06-20T12:01:19.991053+09:00",
       "auto": true
     },
-    "1021043": {
-      "advertiser": "홍천군",
+    "1020715": {
+      "advertiser": "SBS",
       "status": "x",
-      "updated_at": "2026-06-22T10:02:15.048240+09:00",
+      "updated_at": "2026-06-19T12:03:43.346443+09:00",
       "auto": true
     },
-    "1020172": {
-      "advertiser": "넷플릭스서비시스코리아",
+    "1020716": {
+      "advertiser": "지앤지엔터프라이즈",
       "status": "x",
-      "updated_at": "2026-06-22T10:02:15.050969+09:00",
+      "updated_at": "2026-06-26T10:01:53.098466+09:00",
       "auto": true
     },
-    "1021042": {
-      "advertiser": "KBS",
+    "1020719": {
+      "advertiser": "공익광고협의회",
       "status": "x",
-      "updated_at": "2026-06-22T10:02:15.053563+09:00",
+      "updated_at": "2026-06-19T12:03:43.341153+09:00",
+      "auto": true
+    },
+    "1020813": {
+      "advertiser": "OPPO",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.914062+09:00",
+      "auto": true
+    },
+    "1020815": {
+      "advertiser": "삼성E&A",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.911552+09:00",
+      "auto": true
+    },
+    "1020829": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.908298+09:00",
+      "auto": true
+    },
+    "1020922": {
+      "advertiser": "아우디코리아",
+      "status": "x",
+      "updated_at": "2026-06-19T17:02:40.905808+09:00",
+      "auto": true
+    },
+    "1020923": {
+      "advertiser": "spc삼립",
+      "status": "x",
+      "updated_at": "2026-06-20T10:02:50.375922+09:00",
+      "auto": true
+    },
+    "1020935": {
+      "advertiser": "여기어떄컴퍼니",
+      "status": "x",
+      "updated_at": "2026-06-20T10:02:50.374391+09:00",
       "auto": true
     },
     "1020938": {
@@ -2925,16 +2930,22 @@
       "updated_at": "2026-06-22T10:02:15.056156+09:00",
       "auto": true
     },
-    "1021113": {
-      "advertiser": "소야트",
+    "1021042": {
+      "advertiser": "KBS",
       "status": "x",
-      "updated_at": "2026-06-22T17:03:52.213859+09:00",
+      "updated_at": "2026-06-22T10:02:15.053563+09:00",
       "auto": true
     },
-    "1021116": {
-      "advertiser": "버거킹",
+    "1021043": {
+      "advertiser": "홍천군",
       "status": "x",
-      "updated_at": "2026-06-22T17:03:52.216816+09:00",
+      "updated_at": "2026-06-22T10:02:15.048240+09:00",
+      "auto": true
+    },
+    "1021044": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-06-24T12:01:41.533351+09:00",
       "auto": true
     },
     "1021070": {
@@ -2961,70 +2972,22 @@
       "updated_at": "2026-06-22T17:03:52.228522+09:00",
       "auto": true
     },
-    "1020365": {
-      "advertiser": "넷플릭스서비시스코리아",
+    "1021113": {
+      "advertiser": "소야트",
       "status": "x",
-      "updated_at": "2026-06-22T17:03:52.231444+09:00",
+      "updated_at": "2026-06-22T17:03:52.213859+09:00",
+      "auto": true
+    },
+    "1021116": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-22T17:03:52.216816+09:00",
       "auto": true
     },
     "1021135": {
       "advertiser": "대우건설",
       "status": "x",
       "updated_at": "2026-06-23T10:02:07.381528+09:00",
-      "auto": true
-    },
-    "1021166": {
-      "advertiser": "KUNA",
-      "status": "x",
-      "updated_at": "2026-06-23T12:03:00.660850+09:00",
-      "auto": true
-    },
-    "1021168": {
-      "advertiser": "소야트",
-      "status": "x",
-      "updated_at": "2026-06-23T12:03:00.663532+09:00",
-      "auto": true
-    },
-    "1021165": {
-      "advertiser": "국가데이터처",
-      "status": "x",
-      "updated_at": "2026-06-23T12:03:00.666211+09:00",
-      "auto": true
-    },
-    "1021161": {
-      "advertiser": "코티코리아 ",
-      "status": "x",
-      "updated_at": "2026-06-23T12:03:00.668904+09:00",
-      "auto": true
-    },
-    "1021163": {
-      "advertiser": "국가데이터처",
-      "status": "x",
-      "updated_at": "2026-06-23T12:03:00.671572+09:00",
-      "auto": true
-    },
-    "1021220": {
-      "advertiser": "NC소프트",
-      "status": "x",
-      "updated_at": "2026-06-23T17:03:46.413307+09:00",
-      "auto": true
-    },
-    "1021219": {
-      "advertiser": "아도르",
-      "status": "x",
-      "updated_at": "2026-06-23T17:03:46.416212+09:00",
-      "auto": true
-    },
-    "1021216": {
-      "advertiser": "메디톡스",
-      "status": "x",
-      "updated_at": "2026-06-23T17:03:46.419094+09:00",
-      "auto": true
-    },
-    "1021205": {
-      "advertiser": "소노인터네셔널",
-      "status": "x",
-      "updated_at": "2026-06-23T17:03:46.421983+09:00",
       "auto": true
     },
     "1021151": {
@@ -3039,76 +3002,34 @@
       "updated_at": "2026-06-23T17:03:46.430170+09:00",
       "auto": true
     },
-    "1021264": {
-      "advertiser": "oppo",
-      "status": "x",
-      "updated_at": "2026-06-24T10:02:57.527041+09:00",
-      "auto": true
-    },
-    "1021237": {
-      "advertiser": "제이피씨",
-      "status": "x",
-      "updated_at": "2026-06-24T10:02:57.529803+09:00",
-      "auto": true
-    },
-    "1021239": {
-      "advertiser": "안동MBC",
-      "status": "x",
-      "updated_at": "2026-06-24T10:02:57.532556+09:00",
-      "auto": true
-    },
-    "1021238": {
-      "advertiser": "불스원",
-      "status": "x",
-      "updated_at": "2026-06-24T10:02:57.535298+09:00",
-      "auto": true
-    },
-    "1021215": {
-      "advertiser": "메디톡스",
-      "status": "x",
-      "updated_at": "2026-06-24T10:02:57.538062+09:00",
-      "auto": true
-    },
-    "1021044": {
-      "advertiser": "넷플릭스서비시스코리아",
-      "status": "x",
-      "updated_at": "2026-06-24T12:01:41.533351+09:00",
-      "auto": true
-    },
-    "1021325": {
-      "advertiser": "보바스 기념병원",
-      "status": "x",
-      "updated_at": "2026-06-24T17:02:14.795230+09:00",
-      "auto": true
-    },
-    "1021301": {
-      "advertiser": "롯데면세점",
-      "status": "x",
-      "updated_at": "2026-06-24T17:02:14.799928+09:00",
-      "auto": true
-    },
-    "1021350": {
-      "advertiser": "버거킹",
-      "status": "x",
-      "updated_at": "2026-06-25T10:01:51.693791+09:00",
-      "auto": true
-    },
-    "1021347": {
-      "advertiser": "한국관광공사",
-      "status": "x",
-      "updated_at": "2026-06-25T10:01:51.696301+09:00",
-      "auto": true
-    },
-    "1021345": {
-      "advertiser": "한국관광공사",
-      "status": "x",
-      "updated_at": "2026-06-25T10:01:51.698849+09:00",
-      "auto": true
-    },
     "1021159": {
       "advertiser": "소야트",
       "status": "x",
       "updated_at": "2026-06-25T10:01:51.701381+09:00",
+      "auto": true
+    },
+    "1021161": {
+      "advertiser": "코티코리아 ",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.668904+09:00",
+      "auto": true
+    },
+    "1021163": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.671572+09:00",
+      "auto": true
+    },
+    "1021165": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.666211+09:00",
+      "auto": true
+    },
+    "1021166": {
+      "advertiser": "KUNA",
+      "status": "x",
+      "updated_at": "2026-06-23T12:03:00.660850+09:00",
       "auto": true
     },
     "1021167": {
@@ -3117,10 +3038,94 @@
       "updated_at": "2026-06-25T12:01:27.443154+09:00",
       "auto": true
     },
-    "1021404": {
-      "advertiser": "그레인온",
+    "1021168": {
+      "advertiser": "소야트",
       "status": "x",
-      "updated_at": "2026-06-25T17:02:52.949052+09:00",
+      "updated_at": "2026-06-23T12:03:00.663532+09:00",
+      "auto": true
+    },
+    "1021205": {
+      "advertiser": "소노인터네셔널",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.421983+09:00",
+      "auto": true
+    },
+    "1021215": {
+      "advertiser": "메디톡스",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.538062+09:00",
+      "auto": true
+    },
+    "1021216": {
+      "advertiser": "메디톡스",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.419094+09:00",
+      "auto": true
+    },
+    "1021219": {
+      "advertiser": "아도르",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.416212+09:00",
+      "auto": true
+    },
+    "1021220": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-06-23T17:03:46.413307+09:00",
+      "auto": true
+    },
+    "1021237": {
+      "advertiser": "제이피씨",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.529803+09:00",
+      "auto": true
+    },
+    "1021238": {
+      "advertiser": "불스원",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.535298+09:00",
+      "auto": true
+    },
+    "1021239": {
+      "advertiser": "안동MBC",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.532556+09:00",
+      "auto": true
+    },
+    "1021264": {
+      "advertiser": "oppo",
+      "status": "x",
+      "updated_at": "2026-06-24T10:02:57.527041+09:00",
+      "auto": true
+    },
+    "1021301": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-06-24T17:02:14.799928+09:00",
+      "auto": true
+    },
+    "1021325": {
+      "advertiser": "보바스 기념병원",
+      "status": "x",
+      "updated_at": "2026-06-24T17:02:14.795230+09:00",
+      "auto": true
+    },
+    "1021345": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.698849+09:00",
+      "auto": true
+    },
+    "1021347": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.696301+09:00",
+      "auto": true
+    },
+    "1021350": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-25T10:01:51.693791+09:00",
       "auto": true
     },
     "1021370": {
@@ -3129,22 +3134,16 @@
       "updated_at": "2026-06-25T17:02:52.953943+09:00",
       "auto": true
     },
+    "1021404": {
+      "advertiser": "그레인온",
+      "status": "x",
+      "updated_at": "2026-06-25T17:02:52.949052+09:00",
+      "auto": true
+    },
     "1021432": {
       "advertiser": "버거킹",
       "status": "x",
       "updated_at": "2026-06-26T10:01:53.095939+09:00",
-      "auto": true
-    },
-    "1020716": {
-      "advertiser": "지앤지엔터프라이즈",
-      "status": "x",
-      "updated_at": "2026-06-26T10:01:53.098466+09:00",
-      "auto": true
-    },
-    "1021446": {
-      "advertiser": "버거킹",
-      "status": "x",
-      "updated_at": "2026-06-26T12:02:11.530887+09:00",
       "auto": true
     },
     "1021441": {
@@ -3153,16 +3152,10 @@
       "updated_at": "2026-06-26T12:02:11.534650+09:00",
       "auto": true
     },
-    "1021458": {
+    "1021446": {
       "advertiser": "버거킹",
       "status": "x",
-      "updated_at": "2026-06-26T17:02:13.817110+09:00",
-      "auto": true
-    },
-    "1021457": {
-      "advertiser": "BYD 코리아",
-      "status": "x",
-      "updated_at": "2026-06-26T17:02:13.819917+09:00",
+      "updated_at": "2026-06-26T12:02:11.530887+09:00",
       "auto": true
     },
     "1021447": {
@@ -3171,10 +3164,16 @@
       "updated_at": "2026-06-26T17:02:13.823280+09:00",
       "auto": true
     },
-    "1021507": {
-      "advertiser": "드리클로 DRICLOR KOREA",
+    "1021457": {
+      "advertiser": "BYD 코리아",
       "status": "x",
-      "updated_at": "2026-06-27T10:02:32.864867+09:00",
+      "updated_at": "2026-06-26T17:02:13.819917+09:00",
+      "auto": true
+    },
+    "1021458": {
+      "advertiser": "버거킹",
+      "status": "x",
+      "updated_at": "2026-06-26T17:02:13.817110+09:00",
       "auto": true
     },
     "1021479": {
@@ -3183,10 +3182,10 @@
       "updated_at": "2026-06-27T10:02:32.866797+09:00",
       "auto": true
     },
-    "1020532": {
-      "advertiser": "SBS",
+    "1021507": {
+      "advertiser": "드리클로 DRICLOR KOREA",
       "status": "x",
-      "updated_at": "2026-06-27T10:02:32.868711+09:00",
+      "updated_at": "2026-06-27T10:02:32.864867+09:00",
       "auto": true
     },
     "1021509": {
@@ -3195,10 +3194,10 @@
       "updated_at": "2026-06-28T10:01:08.578751+09:00",
       "auto": true
     },
-    "1021558": {
-      "advertiser": "푸라닭치킨",
+    "1021548": {
+      "advertiser": "유사나헬스사이언스",
       "status": "x",
-      "updated_at": "2026-06-29T12:02:29.644229+09:00",
+      "updated_at": "2026-06-29T12:02:29.652775+09:00",
       "auto": true
     },
     "1021550": {
@@ -3213,16 +3212,40 @@
       "updated_at": "2026-06-29T12:02:29.650035+09:00",
       "auto": true
     },
-    "1021548": {
-      "advertiser": "유사나헬스사이언스",
+    "1021558": {
+      "advertiser": "푸라닭치킨",
       "status": "x",
-      "updated_at": "2026-06-29T12:02:29.652775+09:00",
+      "updated_at": "2026-06-29T12:02:29.644229+09:00",
       "auto": true
     },
-    "1021607": {
-      "advertiser": "파인네스트",
+    "1021559": {
+      "advertiser": "어딕션컴퍼니",
       "status": "x",
-      "updated_at": "2026-06-29T17:03:44.832339+09:00",
+      "updated_at": "2026-06-29T17:03:44.850568+09:00",
+      "auto": true
+    },
+    "1021586": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.848113+09:00",
+      "auto": true
+    },
+    "1021587": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.845633+09:00",
+      "auto": true
+    },
+    "1021588": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.843136+09:00",
+      "auto": true
+    },
+    "1021589": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-06-29T17:03:44.840630+09:00",
       "auto": true
     },
     "1021597": {
@@ -3237,34 +3260,10 @@
       "updated_at": "2026-06-29T17:03:44.837336+09:00",
       "auto": true
     },
-    "1021589": {
-      "advertiser": "롯데리아",
+    "1021607": {
+      "advertiser": "파인네스트",
       "status": "x",
-      "updated_at": "2026-06-29T17:03:44.840630+09:00",
-      "auto": true
-    },
-    "1021588": {
-      "advertiser": "롯데리아",
-      "status": "x",
-      "updated_at": "2026-06-29T17:03:44.843136+09:00",
-      "auto": true
-    },
-    "1021587": {
-      "advertiser": "롯데리아",
-      "status": "x",
-      "updated_at": "2026-06-29T17:03:44.845633+09:00",
-      "auto": true
-    },
-    "1021586": {
-      "advertiser": "롯데리아",
-      "status": "x",
-      "updated_at": "2026-06-29T17:03:44.848113+09:00",
-      "auto": true
-    },
-    "1021559": {
-      "advertiser": "어딕션컴퍼니",
-      "status": "x",
-      "updated_at": "2026-06-29T17:03:44.850568+09:00",
+      "updated_at": "2026-06-29T17:03:44.832339+09:00",
       "auto": true
     },
     "1021670": {
@@ -3273,34 +3272,16 @@
       "updated_at": "2026-06-30T10:03:25.368955+09:00",
       "auto": true
     },
-    "1021696": {
-      "advertiser": "링글",
-      "status": "x",
-      "updated_at": "2026-06-30T12:02:23.825365+09:00",
-      "auto": true
-    },
     "1021693": {
       "advertiser": "라그나로크",
       "status": "x",
       "updated_at": "2026-06-30T12:02:23.827879+09:00",
       "auto": true
     },
-    "1021723": {
-      "advertiser": "Kling AI",
+    "1021696": {
+      "advertiser": "링글",
       "status": "x",
-      "updated_at": "2026-06-30T17:02:26.518163+09:00",
-      "auto": true
-    },
-    "1021714": {
-      "advertiser": "소노바컨슈머히어링코리아",
-      "status": "x",
-      "updated_at": "2026-06-30T17:02:26.520978+09:00",
-      "auto": true
-    },
-    "1021699": {
-      "advertiser": "서울특별시 상수도 사업본부",
-      "status": "x",
-      "updated_at": "2026-06-30T17:02:26.527361+09:00",
+      "updated_at": "2026-06-30T12:02:23.825365+09:00",
       "auto": true
     },
     "1021698": {
@@ -3309,16 +3290,16 @@
       "updated_at": "2026-06-30T17:02:26.530103+09:00",
       "auto": true
     },
-    "1021722": {
-      "advertiser": "Kling AI",
+    "1021699": {
+      "advertiser": "서울특별시 상수도 사업본부",
       "status": "x",
-      "updated_at": "2026-07-01T10:03:37.934781+09:00",
+      "updated_at": "2026-06-30T17:02:26.527361+09:00",
       "auto": true
     },
-    "1021766": {
-      "advertiser": "트렉스타 제로타이",
+    "1021714": {
+      "advertiser": "소노바컨슈머히어링코리아",
       "status": "x",
-      "updated_at": "2026-07-01T10:03:37.937214+09:00",
+      "updated_at": "2026-06-30T17:02:26.520978+09:00",
       "auto": true
     },
     "1021717": {
@@ -3327,22 +3308,16 @@
       "updated_at": "2026-07-01T10:03:37.939647+09:00",
       "auto": true
     },
-    "1021730": {
-      "advertiser": "국가데이터처",
+    "1021722": {
+      "advertiser": "Kling AI",
       "status": "x",
-      "updated_at": "2026-07-01T10:03:37.942055+09:00",
+      "updated_at": "2026-07-01T10:03:37.934781+09:00",
       "auto": true
     },
-    "1021742": {
-      "advertiser": "인천도시공사",
+    "1021723": {
+      "advertiser": "Kling AI",
       "status": "x",
-      "updated_at": "2026-07-01T10:03:37.944504+09:00",
-      "auto": true
-    },
-    "1021733": {
-      "advertiser": "에이아이케이스튜디오",
-      "status": "x",
-      "updated_at": "2026-07-01T10:03:37.949293+09:00",
+      "updated_at": "2026-06-30T17:02:26.518163+09:00",
       "auto": true
     },
     "1021725": {
@@ -3357,10 +3332,34 @@
       "updated_at": "2026-07-01T10:03:37.955981+09:00",
       "auto": true
     },
-    "1021787": {
-      "advertiser": "SK이노베이션",
+    "1021730": {
+      "advertiser": "국가데이터처",
       "status": "x",
-      "updated_at": "2026-07-01T12:03:27.063123+09:00",
+      "updated_at": "2026-07-01T10:03:37.942055+09:00",
+      "auto": true
+    },
+    "1021733": {
+      "advertiser": "에이아이케이스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.949293+09:00",
+      "auto": true
+    },
+    "1021742": {
+      "advertiser": "인천도시공사",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.944504+09:00",
+      "auto": true
+    },
+    "1021766": {
+      "advertiser": "트렉스타 제로타이",
+      "status": "x",
+      "updated_at": "2026-07-01T10:03:37.937214+09:00",
+      "auto": true
+    },
+    "1021777": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-07-01T12:03:27.068281+09:00",
       "auto": true
     },
     "1021779": {
@@ -3369,10 +3368,10 @@
       "updated_at": "2026-07-01T12:03:27.065806+09:00",
       "auto": true
     },
-    "1021777": {
-      "advertiser": "유니세프",
+    "1021787": {
+      "advertiser": "SK이노베이션",
       "status": "x",
-      "updated_at": "2026-07-01T12:03:27.068281+09:00",
+      "updated_at": "2026-07-01T12:03:27.063123+09:00",
       "auto": true
     }
   }
