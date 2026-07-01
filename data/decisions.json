@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:23:24.498Z",
+  "updated_at": "2026-07-01T06:24:01.968Z",
   "count": 172,
   "x_count": 365,
   "decisions": {
@@ -816,10 +816,9 @@
     },
     "한독약품": {
       "display_name": "한독약품",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한독",
-      "updated_at": "2026-06-09T17:06:29.354937+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:24:01.047Z"
     },
     "유니온페이인터내셔널코리아": {
       "display_name": "유니온페이인터내셔널코리아",
