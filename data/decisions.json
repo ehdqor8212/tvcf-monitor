@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:21:07.791Z",
+  "updated_at": "2026-07-01T06:21:23.148Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -980,10 +980,9 @@
     },
     "시몬스침대": {
       "display_name": "시몬스침대",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "시몬스",
-      "updated_at": "2026-06-16T10:05:54.774276+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:21:22.731Z"
     },
     "lg생활건강": {
       "display_name": "LG생활건강",
