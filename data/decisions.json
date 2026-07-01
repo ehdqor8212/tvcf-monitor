@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:28:02.200Z",
+  "updated_at": "2026-07-01T06:28:17.366Z",
   "count": 168,
   "x_count": 371,
   "decisions": {
@@ -552,10 +552,9 @@
     },
     "유플러스": {
       "display_name": "유플러스",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엘지유플러스(LG유플러스)",
-      "updated_at": "2026-05-30T12:02:01.639367+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:28:17.032Z"
     },
     "맘스터치앤컴퍼니": {
       "display_name": "맘스터치앤컴퍼니",
