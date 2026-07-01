@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:31:02.033Z",
+  "updated_at": "2026-07-01T06:31:14.210Z",
   "count": 163,
   "x_count": 378,
   "decisions": {
@@ -196,10 +196,9 @@
     },
     "이삭토스트": {
       "display_name": "이삭토스트",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "이삭",
-      "updated_at": "2026-05-19T17:10:22.926165+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:31:13.847Z"
     },
     "삼성전자": {
       "display_name": "삼성전자",
