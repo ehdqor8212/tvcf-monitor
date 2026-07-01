@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:20:37.379Z",
+  "updated_at": "2026-07-01T06:20:44.611Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -789,10 +789,9 @@
     },
     "cj대한통운": {
       "display_name": "CJ대한통운",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "씨제이대한통운(CJ대한통운)",
-      "updated_at": "2026-06-08T17:10:09.693186+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:20:44.275Z"
     },
     "여기어때컴퍼니": {
       "display_name": "여기어때컴퍼니",
