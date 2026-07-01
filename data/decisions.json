@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:25:57.090Z",
-  "count": 170,
-  "x_count": 367,
+  "updated_at": "2026-07-01T06:26:13.151Z",
+  "count": 169,
+  "x_count": 368,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -680,13 +680,6 @@
       "status": "o",
       "matched_name": "넷마블",
       "updated_at": "2026-06-04T12:02:22.619958+09:00",
-      "auto": true
-    },
-    "대원제약": {
-      "display_name": "대원제약",
-      "status": "maybe",
-      "matched_name": "(미집행) 대원제약",
-      "updated_at": "2026-06-04T17:03:34.873008+09:00",
       "auto": true
     },
     "자코모": {
@@ -2270,6 +2263,11 @@
       "status": "x",
       "updated_at": "2026-06-04T12:02:22.619799+09:00",
       "auto": true
+    },
+    "1019112": {
+      "advertiser": "대원제약",
+      "status": "x",
+      "updated_at": "2026-07-01T06:26:12.718Z"
     },
     "1019123": {
       "advertiser": "한국수산회",
