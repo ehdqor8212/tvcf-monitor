@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:25:10.068Z",
+  "updated_at": "2026-07-01T06:25:26.247Z",
   "count": 171,
   "x_count": 366,
   "decisions": {
@@ -658,10 +658,9 @@
     },
     "당근마켓": {
       "display_name": "당근마켓",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "당근",
-      "updated_at": "2026-06-03T12:01:12.124961+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:25:25.909Z"
     },
     "bmw": {
       "display_name": "BMW",
