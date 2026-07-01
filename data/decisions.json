@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:22:57.252Z",
+  "updated_at": "2026-07-01T06:23:15.709Z",
   "count": 172,
   "x_count": 365,
   "decisions": {
@@ -402,10 +402,9 @@
     },
     "롯데월드": {
       "display_name": "롯데월드",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "호텔롯데롯데월드",
-      "updated_at": "2026-05-22T17:03:30.093407+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:23:15.294Z"
     },
     "국세청": {
       "display_name": "국세청",
