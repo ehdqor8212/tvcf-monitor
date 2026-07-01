@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:17:17.385Z",
-  "count": 175,
-  "x_count": 361,
+  "updated_at": "2026-07-01T06:17:29.029Z",
+  "count": 174,
+  "x_count": 362,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1085,13 +1085,6 @@
       "status": "maybe",
       "matched_name": "샘표",
       "updated_at": "2026-06-22T17:03:52.233444+09:00",
-      "auto": true
-    },
-    "고려은단": {
-      "display_name": "고려은단",
-      "status": "maybe",
-      "matched_name": "(미집행) 고려은단헬스케어",
-      "updated_at": "2026-06-23T10:02:07.382986+09:00",
       "auto": true
     },
     "제너시스": {
@@ -2953,6 +2946,11 @@
       "status": "x",
       "updated_at": "2026-06-23T10:02:07.381528+09:00",
       "auto": true
+    },
+    "1021138": {
+      "advertiser": "고려은단",
+      "status": "x",
+      "updated_at": "2026-07-01T06:17:28.016Z"
     },
     "1021151": {
       "advertiser": "한국보훈복지의료공단",
