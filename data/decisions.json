@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:18:38.004Z",
-  "count": 174,
-  "x_count": 362,
+  "updated_at": "2026-07-01T06:19:57.190Z",
+  "count": 173,
+  "x_count": 363,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1069,13 +1069,6 @@
       "status": "o",
       "matched_name": "우정사업본부",
       "updated_at": "2026-06-19T17:02:40.909078+09:00",
-      "auto": true
-    },
-    "뉴트리원": {
-      "display_name": "뉴트리원",
-      "status": "maybe",
-      "matched_name": "뉴트리",
-      "updated_at": "2026-06-19T17:02:40.915471+09:00",
       "auto": true
     },
     "샘표식품": {
@@ -2840,6 +2833,11 @@
       "status": "x",
       "updated_at": "2026-06-19T12:03:43.341153+09:00",
       "auto": true
+    },
+    "1020723": {
+      "advertiser": "뉴트리원",
+      "status": "x",
+      "updated_at": "2026-07-01T06:19:56.839Z"
     },
     "1020813": {
       "advertiser": "OPPO",
