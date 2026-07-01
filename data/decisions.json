@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:31:32.269Z",
+  "updated_at": "2026-07-01T06:31:38.474Z",
   "count": 163,
   "x_count": 378,
   "decisions": {
@@ -834,10 +834,9 @@
     },
     "도루코리빙": {
       "display_name": "도루코리빙 ",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "도루코",
-      "updated_at": "2026-06-15T12:06:40.815825+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:31:38.077Z"
     },
     "sk텔레콤": {
       "display_name": "sk텔레콤",
