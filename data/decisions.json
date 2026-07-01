@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:24:34.841Z",
-  "count": 173,
-  "x_count": 364,
+  "updated_at": "2026-07-01T06:24:43.030Z",
+  "count": 172,
+  "x_count": 365,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1161,12 +1161,6 @@
       "matched_name": "금호타이어",
       "updated_at": "2026-07-01T12:03:27.063287+09:00",
       "auto": true
-    },
-    "현대렌탈케어": {
-      "display_name": "현대렌탈케어",
-      "status": "o",
-      "matched_name": null,
-      "updated_at": "2026-07-01T06:24:25.967Z"
     },
     "kt": {
       "display_name": "KT",
@@ -2371,6 +2365,11 @@
       "status": "x",
       "updated_at": "2026-06-08T17:10:09.698745+09:00",
       "auto": true
+    },
+    "1019418": {
+      "advertiser": "현대렌탈케어",
+      "status": "x",
+      "updated_at": "2026-07-01T06:24:41.745Z"
     },
     "1019422": {
       "advertiser": "그레이스",
