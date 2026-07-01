@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:19:57.190Z",
+  "updated_at": "2026-07-01T06:20:21.101Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -1052,10 +1052,9 @@
     },
     "gs건설": {
       "display_name": "GS건설",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "지에스건설(GS건설)",
-      "updated_at": "2026-06-18T17:03:31.716594+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:20:20.197Z"
     },
     "지엔엠라이프": {
       "display_name": "지엔엠라이프",
