@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:32:33.609Z",
+  "updated_at": "2026-07-01T06:32:50.916Z",
   "count": 162,
   "x_count": 381,
   "decisions": {
@@ -324,10 +324,9 @@
     },
     "맘스터치": {
       "display_name": "맘스터치",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "맘스터치앤컴퍼니",
-      "updated_at": "2026-05-20T17:07:26.404710+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:32:50.527Z"
     },
     "nh농협은행": {
       "display_name": "NH농협은행",
