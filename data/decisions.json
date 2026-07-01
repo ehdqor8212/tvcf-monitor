@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:26:23.740Z",
+  "updated_at": "2026-07-01T06:26:32.605Z",
   "count": 169,
   "x_count": 368,
   "decisions": {
@@ -650,10 +650,9 @@
     },
     "에어비앤비": {
       "display_name": "에어비앤비",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "에어비앤비코리아",
-      "updated_at": "2026-06-02T17:02:32.836166+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:26:32.293Z"
     },
     "당근마켓": {
       "display_name": "당근마켓",
