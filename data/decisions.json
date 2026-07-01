@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:28:49.458Z",
+  "updated_at": "2026-07-01T06:29:04.873Z",
   "count": 167,
   "x_count": 373,
   "decisions": {
@@ -517,10 +517,9 @@
     },
     "cj올리브영": {
       "display_name": "CJ올리브영",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "올리브영",
-      "updated_at": "2026-05-28T12:02:23.199887+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:29:03.931Z"
     },
     "동서식품": {
       "display_name": "동서식품",
