@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:27:01.006Z",
+  "updated_at": "2026-07-01T06:27:11.182Z",
   "count": 168,
   "x_count": 369,
   "decisions": {
@@ -573,10 +573,9 @@
     },
     "쓰리에이치": {
       "display_name": "쓰리에이치",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "쓰리에이치(3H)",
-      "updated_at": "2026-06-01T12:03:31.392154+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:27:10.856Z"
     },
     "청오디피케이": {
       "display_name": "청오디피케이",
