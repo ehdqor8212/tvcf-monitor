@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T05:58:33.524Z",
-  "count": 178,
-  "x_count": 356,
+  "updated_at": "2026-07-01T05:58:56.158Z",
+  "count": 177,
+  "x_count": 357,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1187,13 +1187,6 @@
       "status": "maybe",
       "matched_name": "폴스타",
       "updated_at": "2026-06-30T10:03:25.366133+09:00",
-      "auto": true
-    },
-    "넥센타이어": {
-      "display_name": "넥센타이어",
-      "status": "maybe",
-      "matched_name": "(미집행) 넥센타이어",
-      "updated_at": "2026-06-30T10:03:25.370376+09:00",
       "auto": true
     },
     "kb손해보험": {
@@ -3262,6 +3255,11 @@
       "status": "x",
       "updated_at": "2026-06-30T10:03:25.368955+09:00",
       "auto": true
+    },
+    "1021680": {
+      "advertiser": "넥센타이어",
+      "status": "x",
+      "updated_at": "2026-07-01T05:58:55.813Z"
     },
     "1021693": {
       "advertiser": "라그나로크",
