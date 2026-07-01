@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:25:26.247Z",
-  "count": 171,
-  "x_count": 366,
+  "updated_at": "2026-07-01T06:25:37.926Z",
+  "count": 170,
+  "x_count": 367,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -709,13 +709,6 @@
       "status": "o",
       "matched_name": "한국오츠카제약",
       "updated_at": "2026-06-05T10:06:30.693131+09:00",
-      "auto": true
-    },
-    "경기도": {
-      "display_name": "경기도",
-      "status": "maybe",
-      "matched_name": "경기도청",
-      "updated_at": "2026-06-05T10:06:30.694608+09:00",
       "auto": true
     },
     "mg새마을금고": {
@@ -2290,6 +2283,11 @@
       "status": "x",
       "updated_at": "2026-06-05T10:06:30.697374+09:00",
       "auto": true
+    },
+    "1019125": {
+      "advertiser": "경기도",
+      "status": "x",
+      "updated_at": "2026-07-01T06:25:37.592Z"
     },
     "1019148": {
       "advertiser": "노스페이스 코리아 ",
