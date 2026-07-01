@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:16:08.034Z",
+  "updated_at": "2026-07-01T06:16:33.146Z",
   "count": 175,
   "x_count": 361,
   "decisions": {
@@ -937,10 +937,9 @@
     },
     "sk텔레콤": {
       "display_name": "sk텔레콤",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "에스케이텔레콤(SK텔레콤)",
-      "updated_at": "2026-06-15T12:06:40.817400+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:16:32.355Z"
     },
     "르노코리아": {
       "display_name": "르노코리아",
