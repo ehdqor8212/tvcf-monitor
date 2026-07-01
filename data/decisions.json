@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:28:30.636Z",
-  "count": 168,
-  "x_count": 372,
+  "updated_at": "2026-07-01T06:28:49.458Z",
+  "count": 167,
+  "x_count": 373,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -527,13 +527,6 @@
       "status": "o",
       "matched_name": "동서식품",
       "updated_at": "2026-05-28T17:03:01.133237+09:00",
-      "auto": true
-    },
-    "롯데렌탈": {
-      "display_name": "롯데렌탈",
-      "status": "maybe",
-      "matched_name": "(미집행) 롯데렌탈",
-      "updated_at": "2026-05-29T10:03:25.889178+09:00",
       "auto": true
     },
     "아모레퍼시픽": {
@@ -1962,6 +1955,11 @@
       "status": "x",
       "updated_at": "2026-05-29T10:03:25.891721+09:00",
       "auto": true
+    },
+    "1018549": {
+      "advertiser": "롯데렌탈",
+      "status": "x",
+      "updated_at": "2026-07-01T06:28:49.084Z"
     },
     "1018576": {
       "advertiser": "휴스튜디오",
