@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:30:33.500Z",
-  "count": 164,
-  "x_count": 377,
+  "updated_at": "2026-07-01T06:30:52.185Z",
+  "count": 163,
+  "x_count": 378,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -465,13 +465,6 @@
       "status": "o",
       "matched_name": "동국제약",
       "updated_at": "2026-05-26T10:03:07.088777+09:00",
-      "auto": true
-    },
-    "bgf리테일": {
-      "display_name": "BGF리테일",
-      "status": "maybe",
-      "matched_name": "(미집행) 비지에프리테일(BGF리테일)",
-      "updated_at": "2026-05-26T12:02:39.477919+09:00",
       "auto": true
     },
     "농심켈로그": {
@@ -1811,6 +1804,11 @@
       "advertiser": "네이버파이넨셜",
       "status": "x",
       "updated_at": "2026-07-01T06:30:09.698Z"
+    },
+    "1018205": {
+      "advertiser": "BGF리테일",
+      "status": "x",
+      "updated_at": "2026-07-01T06:30:51.777Z"
     },
     "1018209": {
       "advertiser": "KFC",
