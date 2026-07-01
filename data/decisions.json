@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:15:28.329Z",
+  "updated_at": "2026-07-01T06:15:49.421Z",
   "count": 176,
   "x_count": 360,
   "decisions": {
@@ -1182,10 +1182,9 @@
     },
     "폴스타코리아": {
       "display_name": "폴스타코리아",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "폴스타",
-      "updated_at": "2026-06-30T10:03:25.366133+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:15:48.940Z"
     },
     "kb손해보험": {
       "display_name": "KB손해보험",
