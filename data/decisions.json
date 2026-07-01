@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T05:58:04.121Z",
+  "updated_at": "2026-07-01T05:58:14.074Z",
   "count": 178,
   "x_count": 356,
   "decisions": {
@@ -1220,10 +1220,9 @@
     },
     "cj온스타일": {
       "display_name": "CJ온스타일 ",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "온스타일",
-      "updated_at": "2026-07-01T10:03:37.953581+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T05:58:13.742Z"
     },
     "카카오페이": {
       "display_name": "카카오페이",
