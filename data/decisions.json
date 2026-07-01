@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T05:58:56.158Z",
+  "updated_at": "2026-07-01T06:14:18.608Z",
   "count": 177,
-  "x_count": 357,
+  "x_count": 358,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3260,6 +3260,11 @@
       "advertiser": "넥센타이어",
       "status": "x",
       "updated_at": "2026-07-01T05:58:55.813Z"
+    },
+    "1021683": {
+      "advertiser": "넥센타이어",
+      "status": "x",
+      "updated_at": "2026-07-01T06:14:18.280Z"
     },
     "1021693": {
       "advertiser": "라그나로크",
