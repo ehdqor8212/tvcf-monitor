@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:35:10.966Z",
+  "updated_at": "2026-07-01T06:35:25.090Z",
   "count": 161,
   "x_count": 384,
   "decisions": {
@@ -307,10 +307,9 @@
     },
     "서울특별시": {
       "display_name": "서울특별시",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "서울특별시청",
-      "updated_at": "2026-05-20T17:07:26.402930+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:35:24.759Z"
     },
     "맘스터치": {
       "display_name": "맘스터치",
