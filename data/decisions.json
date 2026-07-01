@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:21:37.905Z",
+  "updated_at": "2026-07-01T06:21:47.314Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -952,10 +952,9 @@
     },
     "샤넬": {
       "display_name": "샤넬",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "샤넬코리아",
-      "updated_at": "2026-06-15T12:06:40.822226+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:21:46.987Z"
     },
     "청호나이스": {
       "display_name": "청호나이스",
