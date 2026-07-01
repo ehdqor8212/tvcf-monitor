@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:17:55.924Z",
+  "updated_at": "2026-07-01T06:18:22.919Z",
   "count": 174,
   "x_count": 362,
   "decisions": {
@@ -1093,10 +1093,9 @@
     },
     "에버랜드": {
       "display_name": "에버랜드",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "삼성물산에버랜드리조트",
-      "updated_at": "2026-06-24T17:02:14.797136+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:18:22.567Z"
     },
     "카카오게임즈": {
       "display_name": "카카오게임즈",
