@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:22:28.032Z",
+  "updated_at": "2026-07-01T06:22:37.930Z",
   "count": 173,
   "x_count": 364,
   "decisions": {
@@ -176,10 +176,9 @@
     },
     "lg유플러스": {
       "display_name": "LG유플러스",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "엘지유플러스(LG유플러스)",
-      "updated_at": "2026-05-14T22:36:11.037454+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:22:37.056Z"
     },
     "캐논코리아컨슈머이미징": {
       "display_name": "캐논코리아 컨슈머이미징",
