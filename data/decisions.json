@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:21:47.314Z",
+  "updated_at": "2026-07-01T06:21:57.865Z",
   "count": 173,
-  "x_count": 363,
+  "x_count": 364,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2603,6 +2603,11 @@
       "status": "x",
       "updated_at": "2026-06-15T12:06:40.827167+09:00",
       "auto": true
+    },
+    "1020128": {
+      "advertiser": "일동제약",
+      "status": "x",
+      "updated_at": "2026-07-01T06:21:57.532Z"
     },
     "1020135": {
       "advertiser": "아쿠쉬네트코리아",
