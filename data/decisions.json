@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T05:58:14.074Z",
+  "updated_at": "2026-07-01T05:58:33.524Z",
   "count": 178,
   "x_count": 356,
   "decisions": {
@@ -234,10 +234,9 @@
     },
     "lg전자": {
       "display_name": "LG전자",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "LG전자_UF",
-      "updated_at": "2026-05-19T17:10:22.943390+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T05:58:33.100Z"
     },
     "삼성화재": {
       "display_name": "삼성화재",
