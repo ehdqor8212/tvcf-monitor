@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T05:57:24.254Z",
-  "count": 179,
-  "x_count": 355,
+  "updated_at": "2026-07-01T05:58:04.121Z",
+  "count": 178,
+  "x_count": 356,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -559,13 +559,6 @@
       "status": "o",
       "matched_name": "동서식품",
       "updated_at": "2026-05-28T17:03:01.133237+09:00",
-      "auto": true
-    },
-    "롯데마트": {
-      "display_name": "롯데마트",
-      "status": "maybe",
-      "matched_name": "롯데마트 (롯데쇼핑 자회사..)",
-      "updated_at": "2026-05-29T10:03:25.882937+09:00",
       "auto": true
     },
     "롯데렌탈": {
@@ -3355,6 +3348,11 @@
       "status": "x",
       "updated_at": "2026-07-01T10:03:37.937214+09:00",
       "auto": true
+    },
+    "1021772": {
+      "advertiser": "롯데마트",
+      "status": "x",
+      "updated_at": "2026-07-01T05:58:03.758Z"
     },
     "1021777": {
       "advertiser": "유니세프",
