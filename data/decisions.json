@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:33:44.128Z",
+  "updated_at": "2026-07-01T06:33:59.072Z",
   "count": 162,
-  "x_count": 382,
+  "x_count": 383,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1972,6 +1972,11 @@
       "status": "x",
       "updated_at": "2026-05-29T12:01:47.030815+09:00",
       "auto": true
+    },
+    "1018586": {
+      "advertiser": "헨켈홈케어코리아",
+      "status": "x",
+      "updated_at": "2026-07-01T06:33:58.760Z"
     },
     "1018597": {
       "advertiser": "나무엑스",
