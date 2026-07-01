@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:31:14.210Z",
+  "updated_at": "2026-07-01T06:31:32.269Z",
   "count": 163,
   "x_count": 378,
   "decisions": {
@@ -365,10 +365,9 @@
     },
     "윌리엄그랜트앤선즈코리아": {
       "display_name": "윌리엄그랜트앤선즈코리아 ",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "윌리엄그랜트앤선즈코리아(WG&S)",
-      "updated_at": "2026-05-22T12:05:21.614668+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:31:31.872Z"
     },
     "이마트자연주의": {
       "display_name": "이마트 자연주의",
