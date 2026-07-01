@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T17:04:39.828121+09:00",
+  "updated_at": "2026-07-01T08:42:28.349Z",
   "count": 172,
   "x_count": 388,
   "decisions": {
@@ -1069,10 +1069,9 @@
     },
     "기아kiakorea": {
       "display_name": "기아 (Kia Korea)",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "기아",
-      "updated_at": "2026-07-01T17:04:39.806179+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T08:42:28.342Z"
     },
     "현대카드": {
       "display_name": "현대카드",
@@ -3416,16 +3415,10 @@
       "updated_at": "2026-07-01T12:03:27.063123+09:00",
       "auto": true
     },
-    "1021842": {
-      "advertiser": "Casillero del Diablo",
+    "1021797": {
+      "advertiser": "HYUNDAI E&C",
       "status": "x",
-      "updated_at": "2026-07-01T17:04:39.804790+09:00",
-      "auto": true
-    },
-    "1021829": {
-      "advertiser": "롯데리아",
-      "status": "x",
-      "updated_at": "2026-07-01T17:04:39.808731+09:00",
+      "updated_at": "2026-07-01T17:04:39.815988+09:00",
       "auto": true
     },
     "1021805": {
@@ -3434,10 +3427,16 @@
       "updated_at": "2026-07-01T17:04:39.813442+09:00",
       "auto": true
     },
-    "1021797": {
-      "advertiser": "HYUNDAI E&C",
+    "1021829": {
+      "advertiser": "롯데리아",
       "status": "x",
-      "updated_at": "2026-07-01T17:04:39.815988+09:00",
+      "updated_at": "2026-07-01T17:04:39.808731+09:00",
+      "auto": true
+    },
+    "1021842": {
+      "advertiser": "Casillero del Diablo",
+      "status": "x",
+      "updated_at": "2026-07-01T17:04:39.804790+09:00",
       "auto": true
     }
   }
