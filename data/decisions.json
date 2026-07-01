@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:20:21.101Z",
+  "updated_at": "2026-07-01T06:20:32.512Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -1003,10 +1003,9 @@
     },
     "유니레버": {
       "display_name": "유니레버",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "유니레버코리아",
-      "updated_at": "2026-06-17T12:07:04.961064+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:20:32.189Z"
     },
     "gs리테일": {
       "display_name": "gs리테일",
