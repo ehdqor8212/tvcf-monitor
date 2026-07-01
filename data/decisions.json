@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:14:18.608Z",
-  "count": 177,
-  "x_count": 358,
+  "updated_at": "2026-07-01T06:14:28.336Z",
+  "count": 176,
+  "x_count": 359,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1201,13 +1201,6 @@
       "status": "o",
       "matched_name": "퓨젠바이오",
       "updated_at": "2026-06-30T17:02:26.524595+09:00",
-      "auto": true
-    },
-    "한화피플라이프": {
-      "display_name": "한화피플라이프",
-      "status": "maybe",
-      "matched_name": "피플라이프",
-      "updated_at": "2026-07-01T10:03:37.946866+09:00",
       "auto": true
     },
     "cj온스타일": {
@@ -3337,6 +3330,11 @@
       "status": "x",
       "updated_at": "2026-07-01T10:03:37.949293+09:00",
       "auto": true
+    },
+    "1021736": {
+      "advertiser": "한화피플라이프",
+      "status": "x",
+      "updated_at": "2026-07-01T06:14:27.850Z"
     },
     "1021742": {
       "advertiser": "인천도시공사",
