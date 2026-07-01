@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:16:33.146Z",
+  "updated_at": "2026-07-01T06:17:05.116Z",
   "count": 175,
   "x_count": 361,
   "decisions": {
@@ -1097,10 +1097,9 @@
     },
     "제너시스": {
       "display_name": "제너시스",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "제너시스비비큐",
-      "updated_at": "2026-06-23T17:03:46.427287+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:17:04.690Z"
     },
     "에버랜드": {
       "display_name": "에버랜드",
