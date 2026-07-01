@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:32:14.717Z",
+  "updated_at": "2026-07-01T06:32:33.609Z",
   "count": 162,
-  "x_count": 380,
+  "x_count": 381,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2402,6 +2402,11 @@
       "status": "x",
       "updated_at": "2026-06-10T10:05:35.162552+09:00",
       "auto": true
+    },
+    "1019661": {
+      "advertiser": "대상",
+      "status": "x",
+      "updated_at": "2026-07-01T06:32:33.316Z"
     },
     "1019663": {
       "advertiser": "대한결핵협회",
