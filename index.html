@@ -133,14 +133,17 @@ tbody tr:last-child td { border-bottom: none; }
 tbody tr.legacy-row { background: #fafafa; }
 tbody tr.legacy-row:hover { background: #f3f3f3; }
 tbody tr.legacy-row td { color: var(--ink-soft); }
+tbody tr.history-row { background: #fbfbfd; }
+tbody tr.history-row:hover { background: #f4f4f8; }
 
+/* [UI 수정] 광고주/브랜드 셀 정렬 통일 - 폰트 크기/라인하이트/vertical-align 명시 */
 td { padding: 10px 16px; vertical-align: middle; border-bottom: 1px solid var(--line); height: 44px; line-height: 1.4; }
 td.year { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); font-weight: 500; text-align: center; }
 td.date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
-td.advertiser { font-weight: 600; color: var(--ink); }
-td.brand { color: var(--ink-soft); font-size: 13px; }
+td.advertiser { font-weight: 600; color: var(--ink); font-size: 13px; line-height: 1.4; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 260px; }
+td.brand { color: var(--ink-soft); font-size: 13px; line-height: 1.4; vertical-align: middle; font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 320px; }
 
-.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; }
+.variant-badge { display: inline-block; font-size: 10px; padding: 1px 6px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); border-radius: 3px; margin-left: 6px; font-family: 'JetBrains Mono', monospace; vertical-align: middle; }
 
 .cat-badge { display: inline-flex; align-items: center; padding: 4px 8px; border-radius: 4px; font-size: 11px; background: #f5f5f5; color: var(--ink-soft); border: 1px solid var(--line); white-space: nowrap; height: 22px; line-height: 1; }
 
@@ -404,23 +407,15 @@ const HISTORY_URL = './data/history.json';
 const DECISIONS_URL = './data/decisions.json';
 const ERROR_STATUS_URL = './data/error_status.json';
 // 기본 화면에 표시할 최근 N일 (history.json에서 추출)
-// 1 = 어제 + 오늘 (legacy.json에 5/11 이전 데이터 있음)
 const RECENT_DAYS = 2;
 
 const STORAGE_KEY = 'tvcf_master_advertisers_v1';
 const STORAGE_META_KEY = 'tvcf_master_meta_v1';
 const TOKEN_KEY = 'tvcf_github_token_v1';
 
-/* 의미 정리 (v10 - X는 1회용):
-   - O 결정 → decisions[광고주명] 에 저장 (영구 기억)
-   - ⚠ 결정 → decisions[광고주명] 에 저장 (영구 기억, 수동 변경이니까)
-   - X 결정 → x_decisions[ad_id] 에 저장 (그 광고에만 적용, 1회용)
-     같은 광고주가 다른 ad_id로 또 나오면 자동 매칭 다시 시도
-*/
-
 const state = {
-  ads: [],            // latest.json (이번 크롤링 결과)
-  historyAds: [],     // history.json (누적 — 한 번 들어가면 보존됨)
+  ads: [],
+  historyAds: [],
   legacyAds: [],
   enriched: [],
   masterList: [],
@@ -429,8 +424,8 @@ const state = {
   sort: { col: 'registered_date', dir: 'desc' },
   runAt: null,
   showHistory: false,
-  decisions: {},       // 광고주명 -> {status, matched_name, ...} (O, ⚠ 영구)
-  x_decisions: {},     // ad_id -> {advertiser, ...} (X 결정, 1회용)
+  decisions: {},
+  x_decisions: {},
   decisionsSha: null,
   token: null,
   openMenuId: null,
@@ -557,7 +552,6 @@ function closeTokenModal() {
 
 // =================== DECISIONS (GitHub Sync) ===================
 
-// 페이지 로드 시 GitHub의 decisions.json 가져오기 (토큰 없이 public read)
 async function loadDecisions() {
   try {
     const ts = Date.now();
@@ -574,7 +568,6 @@ async function loadDecisions() {
     state.x_decisions = {};
   }
 
-  // 토큰이 있으면 SHA도 함께 가져오기 (commit용)
   if (state.token) {
     try {
       const resp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
@@ -598,15 +591,11 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
 
   const key = normalizeName(advertiserName);
 
-  // 결정 적용 로직:
-  // - status === null (자동으로): decisions와 x_decisions 둘 다에서 제거
-  // - status === 'x': x_decisions[ad_id]에 저장, decisions에서는 제거
-  // - status === 'o' or 'maybe': decisions[광고주명]에 저장, x_decisions에서는 제거
   if (status === null || status === 'auto') {
     delete state.decisions[key];
     if (adId) delete state.x_decisions[adId];
   } else if (status === 'x') {
-    delete state.decisions[key];  // 영구 X 결정은 만들지 않음
+    delete state.decisions[key];
     if (adId) {
       state.x_decisions[adId] = {
         advertiser: advertiserName,
@@ -615,7 +604,6 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
       };
     }
   } else {
-    // o or maybe → 영구 기억
     state.decisions[key] = {
       display_name: advertiserName,
       status: status,
@@ -625,7 +613,6 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
     if (adId) delete state.x_decisions[adId];
   }
 
-  // 가장 최신 SHA 다시 가져오기 (충돌 방지)
   try {
     const shaResp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
       headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json' }
@@ -638,7 +625,6 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
     }
   } catch (e) {}
 
-  // 파일 내용 만들기
   const payload = {
     updated_at: new Date().toISOString(),
     count: Object.keys(state.decisions).length,
@@ -679,11 +665,9 @@ async function saveDecisionToGitHub(advertiserName, status, matchedName, adId) {
 }
 
 function getDecision(name, adId) {
-  // 1. X 결정 (ad_id 기준) 우선 확인
   if (adId && state.x_decisions[adId]) {
     return { status: 'x', matched_name: null, source: 'x_decision' };
   }
-  // 2. O/⚠ 결정 (광고주명 기준) 확인
   if (!name) return null;
   const key = normalizeName(name);
   if (state.decisions[key]) {
@@ -694,7 +678,6 @@ function getDecision(name, adId) {
 
 // =================== DATA LOADING ===================
 
-// 광고주+날짜 기준 중복 제거 (같은 광고주가 같은 날 여러 광고 → 1건만)
 function dedupByAdvertiserDate(ads) {
   const seen = new Map();
   for (const ad of ads) {
@@ -702,7 +685,6 @@ function dedupByAdvertiserDate(ads) {
     if (!seen.has(key)) {
       seen.set(key, ad);
     } else {
-      // 기존 항목의 variant_count 증가
       const existing = seen.get(key);
       existing.variant_count = (existing.variant_count || 1) + 1;
     }
@@ -721,25 +703,22 @@ async function loadData() {
     const latestAds = data.new_ads || [];
     state.runAt = data.run_at;
 
-    // history.json (누적 데이터) 로드
     try {
       const hResp = await fetch(`${HISTORY_URL}?t=${ts}`);
       if (hResp.ok) state.historyAds = await hResp.json();
     } catch (e) { state.historyAds = []; }
 
-    // 기본 화면 데이터 = latest + history(최근 N일)
     const latestIds = new Set(latestAds.map(a => a.ad_id));
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - RECENT_DAYS);
     const cutoffStr = cutoffDate.toISOString().slice(0, 10);
 
     const recentFromHistory = state.historyAds.filter(ad => {
-      if (latestIds.has(ad.ad_id)) return false; // 중복 제거 (ad_id)
+      if (latestIds.has(ad.ad_id)) return false;
       const reg = ad.registered_date || '';
-      return reg.slice(0, 10) >= cutoffStr; // 최근 N일
+      return reg.slice(0, 10) >= cutoffStr;
     });
 
-    // 광고주+날짜 기준으로 추가 dedup (서로 다른 ad_id이지만 같은 광고주/날짜)
     const combined = [...latestAds, ...recentFromHistory];
     state.ads = dedupByAdvertiserDate(combined);
 
@@ -753,9 +732,6 @@ async function loadData() {
     $('#lastRun').textContent = data.run_at ? fmtDate(data.run_at) : '—';
     $('#totalCount').textContent = state.ads.length;
 
-    // 신규 광고 알림: 두 가지 케이스 구분
-    // 1) TVCF에 아예 광고가 안 올라온 경우 (count_total_before_dedup === 0)
-    // 2) 광고는 있지만 신규 광고주가 0건인 경우 (count_total_before_dedup > 0 && new_ads === 0)
     const todayLatestCount = latestAds.length;
     const tvcfTotalToday = data.count_total_before_dedup;
 
@@ -765,10 +741,8 @@ async function loadData() {
       const dd = String(runDate.getDate()).padStart(2, '0');
 
       if (tvcfTotalToday === 0) {
-        // 케이스 1: TVCF 사이트에 아예 신규 등록이 없음
         showAlert(`📭 오늘(${mm}/${dd}) TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다.`, 'info', false);
       } else {
-        // 케이스 2: TVCF에 광고는 있지만 모두 기존 광고주
         showAlert(`💼 오늘(${mm}/${dd}) TVCF에 ${tvcfTotalToday}건의 광고가 올라왔지만, 모두 기존에 추적 중인 광고주입니다. 신규 광고주 없음.`, 'info', false);
       }
     } else if (state.ads.length === 0) {
@@ -776,8 +750,6 @@ async function loadData() {
     }
 
     enrichAndRender();
-
-    // 크롤링 에러 상태 확인 (서버에서 기록된 error_status.json)
     checkCrawlErrorStatus();
   } catch (err) {
     console.error(err);
@@ -786,20 +758,17 @@ async function loadData() {
   }
 }
 
-// 크롤링 에러 상태를 확인하고 배너 표시
 async function checkCrawlErrorStatus() {
   try {
     const ts = Date.now();
     const resp = await fetch(`${ERROR_STATUS_URL}?t=${ts}`);
     if (!resp.ok) {
-      // 파일이 없으면 정상 상태 (에러 없음)
       hideCrawlErrorBanner();
       return;
     }
     const data = await resp.json();
     showCrawlErrorBanner(data);
   } catch (e) {
-    // 파일 없거나 파싱 실패 → 정상 상태로 간주
     hideCrawlErrorBanner();
   }
 }
@@ -812,7 +781,6 @@ function showCrawlErrorBanner(errorData) {
   banner.id = 'crawlErrorBanner';
   banner.className = 'crawl-error-banner';
 
-  // 에러 발생 시각 포맷
   let timeStr = '';
   try {
     const d = new Date(errorData.error_at);
@@ -834,7 +802,6 @@ function showCrawlErrorBanner(errorData) {
     </div>
   `;
 
-  // alertBox 위쪽에 삽입
   const alertBox = $('#alertBox');
   if (alertBox && alertBox.parentNode) {
     alertBox.parentNode.insertBefore(banner, alertBox);
@@ -864,25 +831,16 @@ function enrichAndRender() {
   updateCounts();
   render();
 
-  // 자동 매칭된 결과를 GitHub에 자동 저장 (외부 공유 페이지에서도 보이도록)
-  // 토큰이 있고, 청약마스터가 업로드되어 있고, 결정이 아직 안 된 항목만 처리
   autoSyncMatchResults();
 }
 
-// 자동 매칭 결과를 GitHub decisions.json에 자동으로 저장
-// - 토큰이 있을 때만 동작 (없으면 그냥 패스)
-// - 결정이 이미 있는 항목은 건드리지 않음
-// - 자동 매칭 결과(O/X/maybe)를 한 번에 모아서 1회 commit
 async function autoSyncMatchResults() {
-  // 자동 동기화 중이면 중복 실행 방지
   if (state._autoSyncing) return;
   if (!state.token) return;
   if (!state.masterList.length) return;
 
-  // 결정이 아직 안 된 항목 중 자동 매칭 결과가 있는 것들 추출
   const toSync = [];
   for (const ad of state.enriched) {
-    // 이미 사용자가 명시적으로 결정한 항목은 건드리지 않음
     if (ad.match.isOverride) continue;
     if (!ad.autoMatch) continue;
 
@@ -892,7 +850,6 @@ async function autoSyncMatchResults() {
 
     const key = normalizeName(ad.matchKey);
 
-    // 이미 decisions에 있거나 x_decisions에 있으면 패스
     if (state.decisions[key]) continue;
     if (ad.ad_id && state.x_decisions[ad.ad_id]) continue;
 
@@ -908,7 +865,6 @@ async function autoSyncMatchResults() {
   console.log(`[AutoSync] ${toSync.length}건 자동 매칭 결과 GitHub 동기화 시작`);
   state._autoSyncing = true;
 
-  // 로컬 state 먼저 업데이트 (UI 즉시 반영)
   for (const item of toSync) {
     const key = normalizeName(item.ad.matchKey);
     if (item.status === 'x') {
@@ -921,7 +877,6 @@ async function autoSyncMatchResults() {
         };
       }
     } else {
-      // o or maybe
       state.decisions[key] = {
         display_name: item.ad.matchKey,
         status: item.status,
@@ -932,9 +887,7 @@ async function autoSyncMatchResults() {
     }
   }
 
-  // GitHub에 commit (한 번에 모아서)
   try {
-    // 최신 SHA 가져오기
     const shaResp = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DECISIONS_PATH}`, {
       headers: { 'Authorization': `Bearer ${state.token}`, 'Accept': 'application/vnd.github+json' }
     });
@@ -1020,13 +973,14 @@ function updateCounts() {
   $('#countO').textContent = counts.o;
 }
 
+// [수정 포인트] getCurrentRows:
+//   from_history 광고에도 decisions 기반 match 그대로 적용하고
+//   숨김 처리 안 함. is_legacy 라벨은 유지하되 편집 가능하게.
 function getCurrentRows() {
   if (!state.showHistory) return state.enriched;
 
-  // 누적 보기: enriched(최근 N일) + history(나머지 누적, PAST 표시) + legacy(과거, PAST 표시)
   const enrichedIds = new Set(state.enriched.map(a => a.ad_id));
 
-  // history.json 중 enriched에 없는 것 (= 2일 넘은 것) → PAST 라벨 부여
   const olderHistoryRaw = state.historyAds.filter(ad => !enrichedIds.has(ad.ad_id));
   const olderHistoryDeduped = dedupByAdvertiserDate(olderHistoryRaw);
 
@@ -1040,36 +994,24 @@ function getCurrentRows() {
     return {
       ...ad,
       matchKey,
+      autoMatch,
       match,
-      is_legacy: true,            // PAST 라벨 붙이기
-      legacy_exec_status: '',     // legacy 표시 (집행여부는 자동 매칭 따름)
-      from_history: true,         // history.json에서 온 데이터임을 표시
+      is_legacy: true,
+      from_history: true,
     };
   });
 
   const legacyEnriched = state.legacyAds.map(ad => ({
     ...ad,
     match: { status: ad.legacy_match_status || 'unknown', matched: null, confidence: 0, isLegacy: true },
-    from_legacy: true,            // legacy.json에서 온 데이터임을 표시
+    from_legacy: true,
+    is_legacy: true,
   }));
 
-  // 외부 공유용 깔끔한 페이지를 위해 "값 없음" 항목 숨김
-  // 케이스 1: legacy.json의 항목 중 legacy_exec_status가 빈 값인 것 (342건)
-  // 케이스 2: history.json의 PAST 항목 중 청약마스터 미매칭으로 "값 없음" 표시되는 것
   const allRows = [...state.enriched, ...olderHistory, ...legacyEnriched];
   return allRows.filter(ad => {
-    if (!ad.is_legacy) return true; // 신규 데이터는 항상 표시
-
-    // legacy.json 항목: legacy_exec_status가 빈 값이면 숨김
+    // 진짜 옛날 CSV(legacy.json)이면서 legacy_exec_status가 빈 값이면 숨김
     if (ad.from_legacy && !ad.legacy_exec_status) return false;
-
-    // history.json의 오래된 PAST 항목: 청약마스터 미업로드라 "대기"/"값 없음"으로 표시될 것들 숨김
-    // (status가 'unknown'이거나 master 미업로드 상태)
-    if (ad.from_history) {
-      const status = ad.match && ad.match.status;
-      if (status === 'unknown' || !state.masterList.length) return false;
-    }
-
     return true;
   });
 }
@@ -1130,9 +1072,19 @@ function render() {
   });
 }
 
+// [수정 포인트] renderRow:
+//   from_legacy (진짜 옛날 CSV) → 수정 불가 (legacy-badge)
+//   from_history (크롤링 축적분) → 수정 가능 (editable) + 청약마스터 매칭 반영
+//   신규 (최근 2일) → 수정 가능 (기존과 동일)
 function renderRow(ad, idx) {
   const isLegacy = ad.is_legacy === true;
-  const rowCls = isLegacy ? 'legacy-row' : '';
+  const isFromLegacy = ad.from_legacy === true;   // 진짜 옛날 CSV
+  const isFromHistory = ad.from_history === true; // 크롤링 축적
+
+  let rowCls = '';
+  if (isFromLegacy) rowCls = 'legacy-row';
+  else if (isFromHistory) rowCls = 'history-row';
+
   const year = getYear(ad);
   const date = ad.registered_date || '—';
 
@@ -1146,7 +1098,6 @@ function renderRow(ad, idx) {
     advertiserCell = '<span style="color:var(--muted)">미확인</span>';
   }
 
-  // 브랜드가 비어있으면 광고주명으로 채워서 표시
   const brandText = ad.brand || ad.advertiser || '—';
   let brandCell = escapeHtml(brandText);
   if (ad.variant_count && ad.variant_count > 1) {
@@ -1159,8 +1110,8 @@ function renderRow(ad, idx) {
   const status = ad.match.status;
   const isOverride = ad.match.isOverride;
 
-  if (isLegacy) {
-    // 과거 데이터 — 집행여부 값에 따라 표시
+  if (isFromLegacy) {
+    // 진짜 옛날 CSV → 수정 불가
     const rawStatus = ad.legacy_exec_status || '';
     if (rawStatus === 'O') {
       statusHtml = `<span class="status-badge o legacy-badge" data-tooltip="과거 데이터 (수정 불가)">O 집행</span>`;
@@ -1169,12 +1120,13 @@ function renderRow(ad, idx) {
     } else if (rawStatus.startsWith('⚠')) {
       statusHtml = `<span class="status-badge maybe legacy-badge" data-tooltip="과거 데이터 (수정 불가)">${escapeHtml(rawStatus)}</span>`;
     } else {
-      // 빈 값 → "값 없음" 표시
       statusHtml = `<span class="status-badge no-data legacy-badge" data-tooltip="원본 시트에 집행여부 기록 없음">값 없음</span>`;
     }
   } else if (!state.masterList.length) {
+    // 청약마스터 미업로드
     statusHtml = '<span class="status-badge unknown">대기</span>';
   } else {
+    // 신규 + from_history (크롤링) 광고 → 모두 수정 가능
     let label = '';
     let badgeCls = status;
     if (status === 'o') label = 'O 집행';
@@ -1184,7 +1136,7 @@ function renderRow(ad, idx) {
 
     const tip = ad.match.matched
       ? `매칭: ${escapeHtml(ad.match.matched)}${isOverride ? ' (수동)' : ''}`
-      : (isOverride ? '수동 변경됨' : '');
+      : (isOverride ? '수동 변경됨' : (isFromHistory ? '과거 광고 — 클릭해서 판단 가능' : ''));
     const mark = isOverride ? '<span class="override-mark">✎</span>' : '';
 
     statusHtml = `<span class="status-badge ${badgeCls} editable" data-ad-idx="${idx}" data-tooltip="${tip}">${label}${mark}</span>`;
@@ -1206,6 +1158,8 @@ function renderRow(ad, idx) {
   `;
 }
 
+// [수정 포인트] toggleStatusMenu:
+//   from_legacy만 수정 차단. from_history는 수정 허용.
 function toggleStatusMenu(idx, badgeEl) {
   closeAllMenus();
   if (state.openMenuId === idx) { state.openMenuId = null; return; }
@@ -1213,7 +1167,9 @@ function toggleStatusMenu(idx, badgeEl) {
 
   const sorted = applySort(applyFilters(getCurrentRows()));
   const ad = sorted[idx];
-  if (!ad || ad.is_legacy) return;
+  if (!ad) return;
+  // from_legacy만 차단
+  if (ad.from_legacy) return;
 
   const key = ad.matchKey || ad.advertiser || ad.brand;
   if (!key) return;
@@ -1413,7 +1369,7 @@ function exportExcel() {
 
   const rows = filtered.map(ad => {
     let exec = '';
-    if (ad.is_legacy) {
+    if (ad.from_legacy) {
       exec = ad.legacy_exec_status || '';
     } else if (state.masterList.length === 0) {
       exec = '';
