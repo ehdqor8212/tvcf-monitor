@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:33:59.072Z",
-  "count": 162,
-  "x_count": 383,
+  "updated_at": "2026-07-01T06:34:14.274Z",
+  "count": 161,
+  "x_count": 384,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -118,13 +118,6 @@
       "status": "o",
       "matched_name": "자비스앤빌런즈",
       "updated_at": "2026-05-14T22:36:10.988928+09:00",
-      "auto": true
-    },
-    "카카오": {
-      "display_name": "카카오",
-      "status": "maybe",
-      "matched_name": "(미집행) 카카오",
-      "updated_at": "2026-05-14T22:36:10.993322+09:00",
       "auto": true
     },
     "오비맥주": {
@@ -1091,6 +1084,11 @@
       "status": "x",
       "updated_at": "2026-05-14T22:36:11.046157+09:00",
       "auto": true
+    },
+    "1016455": {
+      "advertiser": "카카오",
+      "status": "x",
+      "updated_at": "2026-07-01T06:34:13.856Z"
     },
     "1016468": {
       "advertiser": "젠하이저코리아",
