@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:23:15.709Z",
+  "updated_at": "2026-07-01T06:23:24.498Z",
   "count": 172,
   "x_count": 365,
   "decisions": {
@@ -519,10 +519,9 @@
     },
     "써브웨이코리아": {
       "display_name": "써브웨이코리아",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "써브웨이",
-      "updated_at": "2026-05-28T10:02:31.043326+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:23:24.147Z"
     },
     "자생한방병원": {
       "display_name": "자생한방병원",
