@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:30:10.588Z",
+  "updated_at": "2026-07-01T06:30:33.500Z",
   "count": 164,
   "x_count": 377,
   "decisions": {
@@ -916,10 +916,9 @@
     },
     "gs리테일": {
       "display_name": "gs리테일",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "지에스리테일(GS리테일)",
-      "updated_at": "2026-06-17T12:07:04.972103+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:30:33.192Z"
     },
     "한국토요타자동차": {
       "display_name": "한국토요타자동차",
