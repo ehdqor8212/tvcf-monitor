@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:29:25.548Z",
-  "count": 166,
-  "x_count": 374,
+  "updated_at": "2026-07-01T06:29:43.689Z",
+  "count": 165,
+  "x_count": 375,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -486,13 +486,6 @@
       "status": "maybe",
       "matched_name": "엔에이치투자증권(NH투자증권)",
       "updated_at": "2026-05-27T10:02:24.251028+09:00",
-      "auto": true
-    },
-    "쎌바이오텍듀오락": {
-      "display_name": "쎌바이오텍 듀오락 ",
-      "status": "maybe",
-      "matched_name": "쎌바이오텍",
-      "updated_at": "2026-05-27T17:02:12.720609+09:00",
       "auto": true
     },
     "써브웨이코리아": {
@@ -1863,6 +1856,11 @@
       "status": "x",
       "updated_at": "2026-05-27T17:02:12.718788+09:00",
       "auto": true
+    },
+    "1018326": {
+      "advertiser": "쎌바이오텍 듀오락 ",
+      "status": "x",
+      "updated_at": "2026-07-01T06:29:43.293Z"
     },
     "1018354": {
       "advertiser": "DYPNF",
