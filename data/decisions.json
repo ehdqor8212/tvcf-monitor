@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:15:49.421Z",
-  "count": 176,
-  "x_count": 360,
+  "updated_at": "2026-07-01T06:16:08.034Z",
+  "count": 175,
+  "x_count": 361,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -105,13 +105,6 @@
       "status": "o",
       "matched_name": "신세계",
       "updated_at": "2026-05-14T13:26:18.283Z"
-    },
-    "일동제약": {
-      "display_name": "일동제약",
-      "status": "maybe",
-      "matched_name": "(미집행) 일동제약",
-      "updated_at": "2026-05-14T22:36:10.960750+09:00",
-      "auto": true
     },
     "중앙선거관리위원회": {
       "display_name": "중앙선거관리위원회",
@@ -3119,6 +3112,11 @@
       "status": "x",
       "updated_at": "2026-06-26T10:01:53.095939+09:00",
       "auto": true
+    },
+    "1021440": {
+      "advertiser": "일동제약",
+      "status": "x",
+      "updated_at": "2026-07-01T06:16:07.731Z"
     },
     "1021441": {
       "advertiser": "유니세프",
