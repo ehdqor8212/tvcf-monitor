@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:20:44.611Z",
+  "updated_at": "2026-07-01T06:20:57.658Z",
   "count": 173,
   "x_count": 363,
   "decisions": {
@@ -1056,10 +1056,9 @@
     },
     "지엔엠라이프": {
       "display_name": "지엔엠라이프",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "지엔엠라이프(GNM라이프)",
-      "updated_at": "2026-06-18T17:03:31.724584+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:20:57.249Z"
     },
     "우정사업본부": {
       "display_name": "우정사업본부",
