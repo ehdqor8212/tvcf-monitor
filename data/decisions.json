@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:33:06.656Z",
+  "updated_at": "2026-07-01T06:33:15.761Z",
   "count": 162,
-  "x_count": 381,
+  "x_count": 382,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1396,6 +1396,11 @@
       "status": "x",
       "updated_at": "2026-05-19T17:10:22.956315+09:00",
       "auto": true
+    },
+    "1017292": {
+      "advertiser": "오뚜기",
+      "status": "x",
+      "updated_at": "2026-07-01T06:33:15.447Z"
     },
     "1017302": {
       "advertiser": "황금가지",
