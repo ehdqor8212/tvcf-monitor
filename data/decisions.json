@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:17:05.116Z",
+  "updated_at": "2026-07-01T06:17:17.385Z",
   "count": 175,
   "x_count": 361,
   "decisions": {
@@ -150,10 +150,9 @@
     },
     "한국msd": {
       "display_name": "한국MSD",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한국엠에스디(한국MSD)",
-      "updated_at": "2026-05-14T22:36:11.011728+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:17:17.012Z"
     },
     "한국코카콜라": {
       "display_name": "한국코카콜라",
