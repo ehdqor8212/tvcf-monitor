@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:22:45.168Z",
-  "count": 173,
-  "x_count": 364,
+  "updated_at": "2026-07-01T06:22:57.252Z",
+  "count": 172,
+  "x_count": 365,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -936,13 +936,6 @@
       "status": "o",
       "matched_name": "르노코리아",
       "updated_at": "2026-06-15T12:06:40.819766+09:00",
-      "auto": true
-    },
-    "명인제약": {
-      "display_name": "명인제약",
-      "status": "maybe",
-      "matched_name": "(미집행) 명인제약",
-      "updated_at": "2026-06-15T12:06:40.820808+09:00",
       "auto": true
     },
     "샤넬": {
@@ -2472,6 +2465,11 @@
       "status": "x",
       "updated_at": "2026-06-11T17:05:59.758752+09:00",
       "auto": true
+    },
+    "1019757": {
+      "advertiser": "명인제약",
+      "status": "x",
+      "updated_at": "2026-07-01T06:22:56.895Z"
     },
     "1019758": {
       "advertiser": "KB금융그룹",
