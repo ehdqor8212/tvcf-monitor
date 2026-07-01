@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:24:26.854Z",
-  "count": 172,
-  "x_count": 365,
+  "updated_at": "2026-07-01T06:24:34.841Z",
+  "count": 173,
+  "x_count": 364,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1167,6 +1167,12 @@
       "status": "o",
       "matched_name": null,
       "updated_at": "2026-07-01T06:24:25.967Z"
+    },
+    "kt": {
+      "display_name": "KT",
+      "status": "o",
+      "matched_name": null,
+      "updated_at": "2026-07-01T06:24:34.517Z"
     }
   },
   "x_decisions": {
@@ -2395,11 +2401,6 @@
       "status": "x",
       "updated_at": "2026-06-09T17:06:29.349381+09:00",
       "auto": true
-    },
-    "1019495": {
-      "advertiser": "KT",
-      "status": "x",
-      "updated_at": "2026-07-01T06:24:17.882Z"
     },
     "1019500": {
       "advertiser": "CASS",
