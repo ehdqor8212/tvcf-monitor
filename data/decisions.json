@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:34:14.274Z",
+  "updated_at": "2026-07-01T06:34:34.612Z",
   "count": 161,
   "x_count": 384,
   "decisions": {
@@ -702,10 +702,9 @@
     },
     "에프앤에프": {
       "display_name": "에프앤에프",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "에프앤에프(F&F)",
-      "updated_at": "2026-06-08T17:10:09.705845+09:00",
-      "auto": true
+      "updated_at": "2026-07-01T06:34:34.278Z"
     },
     "교보생명": {
       "display_name": "교보생명",
