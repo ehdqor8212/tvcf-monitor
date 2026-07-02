@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T08:42:28.349Z",
-  "count": 172,
-  "x_count": 388,
+  "updated_at": "2026-07-02T10:06:05.080003+09:00",
+  "count": 177,
+  "x_count": 393,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1141,6 +1141,41 @@
       "status": "maybe",
       "matched_name": "롯데마트 (롯데쇼핑 자회사..)",
       "updated_at": "2026-07-01T17:04:39.828078+09:00",
+      "auto": true
+    },
+    "다이슨코리아": {
+      "display_name": "다이슨코리아",
+      "status": "maybe",
+      "matched_name": "다이슨",
+      "updated_at": "2026-07-02T10:06:05.062809+09:00",
+      "auto": true
+    },
+    "서울우유": {
+      "display_name": "서울우유",
+      "status": "maybe",
+      "matched_name": "(미집행) 서울우유",
+      "updated_at": "2026-07-02T10:06:05.064169+09:00",
+      "auto": true
+    },
+    "명인제약": {
+      "display_name": "명인제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 명인제약",
+      "updated_at": "2026-07-02T10:06:05.073627+09:00",
+      "auto": true
+    },
+    "뉴트리원": {
+      "display_name": "뉴트리원",
+      "status": "maybe",
+      "matched_name": "뉴트리",
+      "updated_at": "2026-07-02T10:06:05.077841+09:00",
+      "auto": true
+    },
+    "롯데웰푸드": {
+      "display_name": "롯데웰푸드",
+      "status": "o",
+      "matched_name": "롯데웰푸드",
+      "updated_at": "2026-07-02T10:06:05.078154+09:00",
       "auto": true
     }
   },
@@ -3437,6 +3472,36 @@
       "advertiser": "Casillero del Diablo",
       "status": "x",
       "updated_at": "2026-07-01T17:04:39.804790+09:00",
+      "auto": true
+    },
+    "1021883": {
+      "advertiser": "모그라미",
+      "status": "x",
+      "updated_at": "2026-07-02T10:06:05.061249+09:00",
+      "auto": true
+    },
+    "1021872": {
+      "advertiser": "싱컴바인",
+      "status": "x",
+      "updated_at": "2026-07-02T10:06:05.066903+09:00",
+      "auto": true
+    },
+    "1021873": {
+      "advertiser": "슈올즈",
+      "status": "x",
+      "updated_at": "2026-07-02T10:06:05.069592+09:00",
+      "auto": true
+    },
+    "1021809": {
+      "advertiser": "한국마약퇴치운동본부",
+      "status": "x",
+      "updated_at": "2026-07-02T10:06:05.072290+09:00",
+      "auto": true
+    },
+    "1021862": {
+      "advertiser": "삼성전기",
+      "status": "x",
+      "updated_at": "2026-07-02T10:06:05.076310+09:00",
       "auto": true
     }
   }
