@@ -4,21 +4,30 @@ on:
   # GitHub cron은 시간이 부정확하므로 제거됨
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Send Slack notification
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           python scripts/notify.py
+      - name: Commit and push sent.json
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sent.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Notify: update sent.json $(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST')"
+            git push
+          fi
