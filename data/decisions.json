@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T12:02:26.627138+09:00",
-  "count": 177,
-  "x_count": 395,
+  "updated_at": "2026-07-02T04:41:41.312Z",
+  "count": 176,
+  "x_count": 396,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1160,13 +1160,6 @@
       "status": "maybe",
       "matched_name": "(미집행) 명인제약",
       "updated_at": "2026-07-02T10:06:05.073627+09:00",
-      "auto": true
-    },
-    "뉴트리원": {
-      "display_name": "뉴트리원",
-      "status": "maybe",
-      "matched_name": "뉴트리",
-      "updated_at": "2026-07-02T10:06:05.077841+09:00",
       "auto": true
     },
     "롯데웰푸드": {
@@ -3478,10 +3471,21 @@
       "updated_at": "2026-07-01T17:04:39.804790+09:00",
       "auto": true
     },
+    "1021861": {
+      "advertiser": "뉴트리원",
+      "status": "x",
+      "updated_at": "2026-07-02T04:41:41.305Z"
+    },
     "1021862": {
       "advertiser": "삼성전기",
       "status": "x",
       "updated_at": "2026-07-02T10:06:05.076310+09:00",
+      "auto": true
+    },
+    "1021871": {
+      "advertiser": "르망고",
+      "status": "x",
+      "updated_at": "2026-07-02T12:02:26.625146+09:00",
       "auto": true
     },
     "1021872": {
@@ -3496,22 +3500,16 @@
       "updated_at": "2026-07-02T10:06:05.069592+09:00",
       "auto": true
     },
-    "1021883": {
-      "advertiser": "모그라미",
-      "status": "x",
-      "updated_at": "2026-07-02T10:06:05.061249+09:00",
-      "auto": true
-    },
     "1021875": {
       "advertiser": "랜드로버 코리아",
       "status": "x",
       "updated_at": "2026-07-02T12:02:26.622333+09:00",
       "auto": true
     },
-    "1021871": {
-      "advertiser": "르망고",
+    "1021883": {
+      "advertiser": "모그라미",
       "status": "x",
-      "updated_at": "2026-07-02T12:02:26.625146+09:00",
+      "updated_at": "2026-07-02T10:06:05.061249+09:00",
       "auto": true
     }
   }
