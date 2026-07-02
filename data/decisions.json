@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T01:38:50.037Z",
+  "updated_at": "2026-07-02T01:39:52.602Z",
   "count": 177,
   "x_count": 393,
   "decisions": {
@@ -1151,10 +1151,9 @@
     },
     "서울우유": {
       "display_name": "서울우유",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "(미집행) 서울우유",
-      "updated_at": "2026-07-02T10:06:05.064169+09:00",
-      "auto": true
+      "updated_at": "2026-07-02T01:39:51.690Z"
     },
     "명인제약": {
       "display_name": "명인제약",
