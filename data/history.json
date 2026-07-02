@@ -1,5 +1,80 @@
 [
   {
+    "ad_id": "1021893",
+    "prefix": "bi1932",
+    "url": "https://tvcf.co.kr/play/bi1932-1021893",
+    "card_title": "CJ올리브영하루를 바꾸는 베러 한 입, 올리브베러",
+    "onair": "07.02",
+    "registered_short": "07.02",
+    "brand": "CJ올리브영",
+    "campaign": null,
+    "registered_date": "2026-07-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "CJ올리브영",
+    "advertiser_code": "C000012459",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1021896",
+        "url": "https://tvcf.co.kr/play/ai1965-1021896",
+        "brand": "CJ올리브영",
+        "campaign": null,
+        "card_title": "CJ올리브영하루를 바꾸는 베러 한 입, 올리브베러"
+      },
+      {
+        "ad_id": "1021895",
+        "url": "https://tvcf.co.kr/play/bi1954-1021895",
+        "brand": "CJ올리브영",
+        "campaign": null,
+        "card_title": "CJ올리브영잘 먹는 선택의 시작, 올리브영"
+      },
+      {
+        "ad_id": "1021892",
+        "url": "https://tvcf.co.kr/play/ai1921-1021892",
+        "brand": "CJ올리브영",
+        "campaign": null,
+        "card_title": "CJ올리브영잘 먹는 선택의 시작, 올리브영"
+      },
+      {
+        "ad_id": "1021894",
+        "url": "https://tvcf.co.kr/play/ai1943-1021894",
+        "brand": "CJ올리브영",
+        "campaign": null,
+        "card_title": "CJ올리브영하루를 바꾸는 베러 한 입, 올리브베러"
+      },
+      {
+        "ad_id": "1021891",
+        "url": "https://tvcf.co.kr/play/bi1919-1021891",
+        "brand": "CJ올리브영",
+        "campaign": null,
+        "card_title": "CJ올리브영잘 먹는 선택의 시작, 올리브영"
+      }
+    ],
+    "variant_count": 6,
+    "collected_at": "2026-07-02T12:02:26.600727+09:00"
+  },
+  {
+    "ad_id": "1021889",
+    "prefix": "bi1897",
+    "url": "https://tvcf.co.kr/play/bi1897-1021889",
+    "card_title": "메르세데스벤츠메르세데스 벤츠 제 40회 한국여자오픈골프선수권 대회",
+    "onair": "07.02",
+    "registered_short": "07.02",
+    "brand": "메르세데스벤츠",
+    "campaign": null,
+    "registered_date": "2026-07-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "메르세데스벤츠코리아 ",
+    "advertiser_code": "C000020583",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-02T12:02:26.600779+09:00"
+  },
+  {
     "ad_id": "1021868",
     "prefix": "ai1684",
     "url": "https://tvcf.co.kr/play/ai1684-1021868",
@@ -54,6 +129,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-02T10:06:05.042576+09:00"
+  },
+  {
+    "ad_id": "1021875",
+    "prefix": "bi1752",
+    "url": "https://tvcf.co.kr/play/bi1752-1021875",
+    "card_title": "2026 랜드로버 레인지로버주행의 품격",
+    "onair": "07.01",
+    "registered_short": "07.02",
+    "brand": "2026 랜드로버 레인지로버",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "공중파",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "랜드로버 코리아",
+    "advertiser_code": "C000012320",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-02T12:02:26.600783+09:00"
   },
   {
     "ad_id": "1021873",
@@ -139,6 +233,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-02T10:06:05.042601+09:00"
+  },
+  {
+    "ad_id": "1021859",
+    "prefix": "bi1594",
+    "url": "https://tvcf.co.kr/play/bi1594-1021859",
+    "card_title": "설레임[설레임 X 기안84] 2026 설레임RUN COMING SOON (Full ver.)",
+    "onair": "07.01",
+    "registered_short": "07.01",
+    "brand": "설레임",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "롯데웰푸드",
+    "advertiser_code": "C000162045",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-02T12:02:26.600789+09:00"
   },
   {
     "ad_id": "1021858",
@@ -19746,6 +19859,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-24T10:02:57.508129+09:00"
+  },
+  {
+    "ad_id": "1021871",
+    "prefix": "bi1717",
+    "url": "https://tvcf.co.kr/play/bi1717-1021871",
+    "card_title": "We always make you shine",
+    "onair": "07.01",
+    "registered_short": "07.02",
+    "brand": "TVCF",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "르망고",
+    "advertiser_code": "C000169742",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-02T12:02:26.600786+09:00"
   },
   {
     "ad_id": "1020595",

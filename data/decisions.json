@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T01:39:52.602Z",
+  "updated_at": "2026-07-02T12:02:26.627138+09:00",
   "count": 177,
-  "x_count": 393,
+  "x_count": 395,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3500,6 +3500,18 @@
       "advertiser": "모그라미",
       "status": "x",
       "updated_at": "2026-07-02T10:06:05.061249+09:00",
+      "auto": true
+    },
+    "1021875": {
+      "advertiser": "랜드로버 코리아",
+      "status": "x",
+      "updated_at": "2026-07-02T12:02:26.622333+09:00",
+      "auto": true
+    },
+    "1021871": {
+      "advertiser": "르망고",
+      "status": "x",
+      "updated_at": "2026-07-02T12:02:26.625146+09:00",
       "auto": true
     }
   }
