@@ -3,8 +3,16 @@ TVCF 미집행 광고주 슬랙 알림 스크립트
 - 매일 평일 KST 13시에 실행 (cron-job.org -> GitHub Actions)
 - latest.json + history.json + decisions.json 조합해서 슬랙으로 전송
 - 미집행 → 집행 → 확인 필요 → 검토 필요 순서로 표시
-- 월요일에는 주말(토·일·월) 데이터까지 합쳐서 전송
-- 평일에는 당일 데이터만
+
+[발송 이력(sent.json) 기반 로직]
+- "아직 슬랙에 보내지 않은 광고 전부"를 대상으로 함 (온에어 날짜 무관)
+- 발송한 광고의 ad_id는 sent.json에 기록 → 다음 실행 때 제외
+- 이렇게 하면 직전 알림 이후 추가/갱신된 광고도 누락 없이 다음 알림에 포함됨
+- 평일에만 실행되므로, 주말에 쌓인 광고는 월요일에 한꺼번에 발송됨 (자동)
+
+[첫 실행 폭탄 방지]
+- SINCE_DATE 이전(온에어 기준)의 광고는 "이미 처리된 것"으로 간주하고 발송하지 않음
+- sent.json이 없거나 비어있어도, SINCE_DATE 이전 광고는 대상에서 제외됨
 """
 import os
 import sys
@@ -21,11 +29,16 @@ KST = timezone(timedelta(hours=9))
 SLACK_WEBHOOK_URL = os.environ.get('SLACK_WEBHOOK_URL', '')
 SHAREPOINT_URL = "https://ehdqor8212.github.io/tvcf-monitor/share.html"
 
+# 발송 대상 기준일 (이 날짜 이전 온에어 광고는 이미 처리된 것으로 간주, 발송 안 함)
+# 6/30까지는 처리 완료로 보고, 7/1부터 발송 대상
+SINCE_DATE = '2026-07-01'
+
 # 파일 경로
 DATA_DIR = Path('data')
 LATEST_FILE = DATA_DIR / 'latest.json'
 HISTORY_FILE = DATA_DIR / 'history.json'
 DECISIONS_FILE = DATA_DIR / 'decisions.json'
+SENT_FILE = DATA_DIR / 'sent.json'
 
 
 def normalize_name(name):
@@ -53,22 +66,6 @@ def format_date_kr(date_str):
         return f"{d.month}/{d.day}"
     except Exception:
         return date_str
-
-
-def get_target_dates(today):
-    """알림 대상 날짜 범위 결정
-    - 월요일(weekday=0): 토(-2), 일(-1), 월(0) 3일치
-    - 그 외 평일: 당일만
-    """
-    if today.weekday() == 0:  # 월요일
-        target_dates = [
-            (today - timedelta(days=2)).date(),  # 토
-            (today - timedelta(days=1)).date(),  # 일
-            today.date(),                         # 월
-        ]
-    else:
-        target_dates = [today.date()]
-    return target_dates
 
 
 def classify_ad(ad, decisions, x_decisions):
@@ -148,31 +145,70 @@ def group_ads_by_advertiser(ads):
     return merged_ads
 
 
-def collect_ads_for_dates(target_dates):
-    """대상 날짜의 광고를 latest.json + history.json에서 수집
+def load_sent_ids():
+    """이미 발송한 ad_id 집합 로드"""
+    if SENT_FILE.exists():
+        try:
+            with open(SENT_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return set(str(x) for x in data.get('sent_ad_ids', []))
+        except Exception as e:
+            print(f"⚠ sent.json 읽기 실패 (빈 목록으로 시작): {e}")
+    return set()
+
+
+def save_sent_ids(sent_ids, newly_sent_count):
+    """발송한 ad_id 집합 저장"""
+    payload = {
+        'updated_at': datetime.now(KST).isoformat(),
+        'count': len(sent_ids),
+        'last_sent_count': newly_sent_count,
+        'sent_ad_ids': sorted(sent_ids),
+    }
+    DATA_DIR.mkdir(exist_ok=True)
+    with open(SENT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"💾 sent.json 저장: 누적 {len(sent_ids)}건 (이번 발송 {newly_sent_count}건)")
+
+
+def collect_unsent_ads(sent_ids):
+    """아직 발송하지 않은 광고를 latest.json + history.json에서 수집
+    - SINCE_DATE 이전(온에어 기준) 광고는 제외 (첫 실행 폭탄 방지)
+    - sent_ids에 있는 광고는 제외 (이미 발송함)
     - 같은 ad_id 중복 제거
     """
-    target_date_strs = {d.strftime('%Y-%m-%d') for d in target_dates}
-
     collected = {}  # ad_id -> ad
+
+    def consider(ad):
+        ad_id = ad.get('ad_id')
+        if ad_id is None:
+            return
+        ad_id_str = str(ad_id)
+        # 이미 발송한 광고 제외
+        if ad_id_str in sent_ids:
+            return
+        # 이미 수집된 광고면 스킵 (latest 우선)
+        if ad_id_str in collected:
+            return
+        # SINCE_DATE 이전 온에어 광고는 제외
+        reg_date = (ad.get('registered_date') or '')[:10]
+        if reg_date and reg_date < SINCE_DATE:
+            return
+        collected[ad_id_str] = ad
 
     # 1. latest.json 우선 (최신 정보)
     if LATEST_FILE.exists():
         with open(LATEST_FILE, 'r', encoding='utf-8') as f:
             latest = json.load(f)
         for ad in latest.get('new_ads', []):
-            reg_date = (ad.get('registered_date') or '')[:10]
-            if reg_date in target_date_strs:
-                collected[ad['ad_id']] = ad
+            consider(ad)
 
     # 2. history.json에서 보충 (latest에 없는 것)
     if HISTORY_FILE.exists():
         with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
             history = json.load(f)
         for ad in history:
-            reg_date = (ad.get('registered_date') or '')[:10]
-            if reg_date in target_date_strs and ad['ad_id'] not in collected:
-                collected[ad['ad_id']] = ad
+            consider(ad)
 
     return list(collected.values())
 
@@ -181,21 +217,20 @@ def sort_ads_by_date_desc(ads):
     """등록일 내림차순 정렬 (최신순)"""
     return sorted(
         ads,
-        key=lambda a: (a.get('registered_date') or '', a.get('ad_id', '')),
+        key=lambda a: (a.get('registered_date') or '', str(a.get('ad_id', ''))),
         reverse=True
     )
 
 
-def build_slack_message(today_str, ads, decisions, x_decisions, tvcf_total, is_monday):
+def build_slack_message(today_str, ads, decisions, x_decisions, tvcf_total):
     """슬랙 메시지 본문 생성
 
     Args:
         today_str: "5/14(목)" 형식
-        ads: 알림 대상 광고 목록
+        ads: 알림 대상 광고 목록 (아직 발송 안 한 것)
         decisions: 영구 결정 (광고주명 기준)
         x_decisions: 1회용 X 결정 (ad_id 기준)
         tvcf_total: 오늘 크롤링한 TVCF 전체 광고 수 (count_total_before_dedup)
-        is_monday: 월요일이면 True (주말 합쳐서 알림)
     """
 
     # 분류
@@ -233,16 +268,15 @@ def build_slack_message(today_str, ads, decisions, x_decisions, tvcf_total, is_m
     # 광고가 0건일 때 — 두 가지 케이스 구분
     # ============================================================
     if total == 0:
-        period_label = "주말~월요일 동안" if is_monday else "오늘"
         if tvcf_total == 0:
             return (
                 f"*[공유] {today_str} TVCF 내역 공유 — 📭 신규 등록 광고 없음*\n"
-                f"_{period_label} TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다._"
+                f"_직전 알림 이후 TVCF에 새로 올라온 광고가 없습니다. 자동 크롤링은 정상 동작했습니다._"
             )
         else:
             return (
                 f"*[공유] {today_str} TVCF 내역 공유 — 💼 신규 광고주 없음*\n"
-                f"_{period_label} TVCF에 {tvcf_total}건의 광고가 올라왔지만, 모두 기존에 추적 중인 광고주입니다._"
+                f"_직전 알림 이후 TVCF에 올라온 광고는 모두 기존에 추적 중인 광고주입니다._"
             )
 
     # ============================================================
@@ -299,12 +333,8 @@ def send_to_slack(message):
 def main():
     today = datetime.now(KST)
     today_str = f"{today.month}/{today.day}({get_weekday_kr(today)})"
-    is_monday = today.weekday() == 0
-    print(f"📅 오늘: {today_str} (월요일={is_monday})")
-
-    # 대상 날짜 범위 결정
-    target_dates = get_target_dates(today)
-    print(f"📆 알림 대상 날짜: {[d.strftime('%Y-%m-%d') for d in target_dates]}")
+    print(f"📅 오늘: {today_str}")
+    print(f"📌 발송 기준일(SINCE_DATE): {SINCE_DATE} 이후 온에어만 대상")
 
     # latest.json 메타 정보 (TVCF 전체 광고 수)
     tvcf_total = 0
@@ -316,9 +346,13 @@ def main():
         except Exception as e:
             print(f"⚠ latest.json 읽기 실패: {e}")
 
-    # 대상 날짜의 광고 수집
-    ads = collect_ads_for_dates(target_dates)
-    print(f"📊 대상 광고 수집: {len(ads)}건 / TVCF 오늘 전체: {tvcf_total}건")
+    # 발송 이력 로드
+    sent_ids = load_sent_ids()
+    print(f"📮 기존 발송 이력: {len(sent_ids)}건")
+
+    # 아직 발송 안 한 광고 수집
+    ads = collect_unsent_ads(sent_ids)
+    print(f"📊 이번 발송 대상(미발송): {len(ads)}건 / TVCF 오늘 전체: {tvcf_total}건")
 
     # decisions.json 읽기
     decisions = {}
@@ -335,7 +369,7 @@ def main():
 
     # 메시지 생성
     message = build_slack_message(
-        today_str, ads, decisions, x_decisions, tvcf_total, is_monday
+        today_str, ads, decisions, x_decisions, tvcf_total
     )
     print("\n=== 슬랙으로 전송할 메시지 ===")
     print(message)
@@ -343,6 +377,12 @@ def main():
 
     # 전송
     send_to_slack(message)
+
+    # 발송 성공 후 이력 갱신 (이번에 대상이 된 ad_id 전부 기록)
+    newly_sent = [str(a.get('ad_id')) for a in ads if a.get('ad_id') is not None]
+    sent_ids.update(newly_sent)
+    save_sent_ids(sent_ids, len(newly_sent))
+
     print("✅ 완료!")
 
 
