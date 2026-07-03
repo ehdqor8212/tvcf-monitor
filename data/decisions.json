@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T01:36:59.625Z",
-  "count": 174,
-  "x_count": 407,
+  "updated_at": "2026-07-03T01:37:22.239Z",
+  "count": 176,
+  "x_count": 405,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1122,6 +1122,13 @@
       "updated_at": "2026-07-01T17:04:39.825200+09:00",
       "auto": true
     },
+    "대상": {
+      "display_name": "대상",
+      "status": "maybe",
+      "matched_name": "(미집행) 대상",
+      "updated_at": "2026-07-01T17:04:39.826457+09:00",
+      "auto": true
+    },
     "롯데마트": {
       "display_name": "롯데마트",
       "status": "maybe",
@@ -1153,6 +1160,13 @@
       "status": "o",
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
+      "auto": true
+    },
+    "한화피플라이프": {
+      "display_name": "한화피플라이프",
+      "status": "maybe",
+      "matched_name": "피플라이프",
+      "updated_at": "2026-07-03T10:05:08.083458+09:00",
       "auto": true
     }
   },
@@ -3510,11 +3524,6 @@
       "updated_at": "2026-07-03T10:05:08.097202+09:00",
       "auto": true
     },
-    "1021916": {
-      "advertiser": "대상",
-      "status": "x",
-      "updated_at": "2026-07-03T01:36:59.120Z"
-    },
     "1021923": {
       "advertiser": "롯데리아",
       "status": "x",
@@ -3539,11 +3548,6 @@
       "updated_at": "2026-07-03T10:05:08.086217+09:00",
       "auto": true
     },
-    "1021972": {
-      "advertiser": "한화피플라이프",
-      "status": "x",
-      "updated_at": "2026-07-03T01:36:55.431Z"
-    },
     "1021973": {
       "advertiser": "보험클리닉",
       "status": "x",
@@ -3559,7 +3563,7 @@
     "1022076": {
       "advertiser": "SK",
       "status": "x",
-      "updated_at": "2026-07-03T01:36:22.977Z"
+      "updated_at": "2026-07-03T01:37:22.234Z"
     }
   }
 }
