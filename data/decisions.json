@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T01:38:01.221Z",
+  "updated_at": "2026-07-03T01:38:26.091Z",
   "count": 176,
   "x_count": 405,
   "decisions": {
@@ -1115,18 +1115,18 @@
       "updated_at": "2026-07-01T17:04:39.822426+09:00",
       "auto": true
     },
+    "sk": {
+      "display_name": "SK",
+      "status": "maybe",
+      "matched_name": "글락소스미스클라인(GSK)",
+      "updated_at": "2026-07-01T17:04:39.823951+09:00",
+      "auto": true
+    },
     "대원제약": {
       "display_name": "대원제약",
       "status": "maybe",
       "matched_name": "(미집행) 대원제약",
       "updated_at": "2026-07-01T17:04:39.825200+09:00",
-      "auto": true
-    },
-    "대상": {
-      "display_name": "대상",
-      "status": "maybe",
-      "matched_name": "(미집행) 대상",
-      "updated_at": "2026-07-01T17:04:39.826457+09:00",
       "auto": true
     },
     "롯데마트": {
@@ -3524,6 +3524,11 @@
       "updated_at": "2026-07-03T10:05:08.097202+09:00",
       "auto": true
     },
+    "1021916": {
+      "advertiser": "대상",
+      "status": "x",
+      "updated_at": "2026-07-03T01:38:26.084Z"
+    },
     "1021923": {
       "advertiser": "롯데리아",
       "status": "x",
@@ -3559,11 +3564,6 @@
       "status": "x",
       "updated_at": "2026-07-03T10:05:08.078103+09:00",
       "auto": true
-    },
-    "1022076": {
-      "advertiser": "SK",
-      "status": "x",
-      "updated_at": "2026-07-03T01:38:01.216Z"
     }
   }
 }
