@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T10:05:08.102066+09:00",
-  "count": 177,
-  "x_count": 404,
+  "updated_at": "2026-07-03T01:36:22.989Z",
+  "count": 176,
+  "x_count": 405,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1113,13 +1113,6 @@
       "status": "maybe",
       "matched_name": "(미집행) 카카오",
       "updated_at": "2026-07-01T17:04:39.822426+09:00",
-      "auto": true
-    },
-    "sk": {
-      "display_name": "SK",
-      "status": "maybe",
-      "matched_name": "글락소스미스클라인(GSK)",
-      "updated_at": "2026-07-01T17:04:39.823951+09:00",
       "auto": true
     },
     "대원제약": {
@@ -3472,6 +3465,12 @@
       "updated_at": "2026-07-01T17:04:39.808731+09:00",
       "auto": true
     },
+    "1021830": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.099930+09:00",
+      "auto": true
+    },
     "1021842": {
       "advertiser": "Casillero del Diablo",
       "status": "x",
@@ -3519,34 +3518,10 @@
       "updated_at": "2026-07-02T10:06:05.061249+09:00",
       "auto": true
     },
-    "1021974": {
-      "advertiser": "보험클리닉",
+    "1021906": {
+      "advertiser": "JCB카드",
       "status": "x",
-      "updated_at": "2026-07-03T10:05:08.078103+09:00",
-      "auto": true
-    },
-    "1021973": {
-      "advertiser": "보험클리닉",
-      "status": "x",
-      "updated_at": "2026-07-03T10:05:08.080870+09:00",
-      "auto": true
-    },
-    "1021969": {
-      "advertiser": "카사베르디 레드와인비니거",
-      "status": "x",
-      "updated_at": "2026-07-03T10:05:08.086217+09:00",
-      "auto": true
-    },
-    "1021960": {
-      "advertiser": "주영앤에스",
-      "status": "x",
-      "updated_at": "2026-07-03T10:05:08.088973+09:00",
-      "auto": true
-    },
-    "1021956": {
-      "advertiser": "LIG 디펜스&에어로스페이스",
-      "status": "x",
-      "updated_at": "2026-07-03T10:05:08.091731+09:00",
+      "updated_at": "2026-07-03T10:05:08.097202+09:00",
       "auto": true
     },
     "1021923": {
@@ -3555,17 +3530,40 @@
       "updated_at": "2026-07-03T10:05:08.094471+09:00",
       "auto": true
     },
-    "1021906": {
-      "advertiser": "JCB카드",
+    "1021956": {
+      "advertiser": "LIG 디펜스&에어로스페이스",
       "status": "x",
-      "updated_at": "2026-07-03T10:05:08.097202+09:00",
+      "updated_at": "2026-07-03T10:05:08.091731+09:00",
       "auto": true
     },
-    "1021830": {
-      "advertiser": "P&G",
+    "1021960": {
+      "advertiser": "주영앤에스",
       "status": "x",
-      "updated_at": "2026-07-03T10:05:08.099930+09:00",
+      "updated_at": "2026-07-03T10:05:08.088973+09:00",
       "auto": true
+    },
+    "1021969": {
+      "advertiser": "카사베르디 레드와인비니거",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.086217+09:00",
+      "auto": true
+    },
+    "1021973": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.080870+09:00",
+      "auto": true
+    },
+    "1021974": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.078103+09:00",
+      "auto": true
+    },
+    "1022076": {
+      "advertiser": "SK",
+      "status": "x",
+      "updated_at": "2026-07-03T01:36:22.977Z"
     }
   }
 }
