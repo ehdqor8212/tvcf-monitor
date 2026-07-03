@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T01:39:08.223Z",
-  "count": 176,
-  "x_count": 405,
+  "updated_at": "2026-07-03T01:39:11.621Z",
+  "count": 175,
+  "x_count": 406,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1160,13 +1160,6 @@
       "status": "o",
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
-      "auto": true
-    },
-    "한화피플라이프": {
-      "display_name": "한화피플라이프",
-      "status": "maybe",
-      "matched_name": "피플라이프",
-      "updated_at": "2026-07-03T10:05:08.083458+09:00",
       "auto": true
     }
   },
@@ -3552,6 +3545,11 @@
       "status": "x",
       "updated_at": "2026-07-03T10:05:08.086217+09:00",
       "auto": true
+    },
+    "1021972": {
+      "advertiser": "한화피플라이프",
+      "status": "x",
+      "updated_at": "2026-07-03T01:39:11.307Z"
     },
     "1021973": {
       "advertiser": "보험클리닉",
