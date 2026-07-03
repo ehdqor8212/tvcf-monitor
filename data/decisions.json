@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T04:31:42.349Z",
-  "count": 177,
-  "x_count": 409,
+  "updated_at": "2026-07-03T04:31:51.103Z",
+  "count": 176,
+  "x_count": 410,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1154,12 +1154,6 @@
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
       "auto": true
-    },
-    "hd현대": {
-      "display_name": "HD현대",
-      "status": "o",
-      "matched_name": "(미집행) HD현대",
-      "updated_at": "2026-07-03T04:31:42.330Z"
     },
     "대상": {
       "display_name": "대상",
@@ -3592,6 +3586,11 @@
       "status": "x",
       "updated_at": "2026-07-03T12:02:37.775636+09:00",
       "auto": true
+    },
+    "1022090": {
+      "advertiser": "HD현대",
+      "status": "x",
+      "updated_at": "2026-07-03T04:31:50.769Z"
     }
   }
 }
