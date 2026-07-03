@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T01:39:11.621Z",
-  "count": 175,
-  "x_count": 406,
+  "updated_at": "2026-07-03T01:39:15.162Z",
+  "count": 174,
+  "x_count": 407,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1113,13 +1113,6 @@
       "status": "maybe",
       "matched_name": "(미집행) 카카오",
       "updated_at": "2026-07-01T17:04:39.822426+09:00",
-      "auto": true
-    },
-    "sk": {
-      "display_name": "SK",
-      "status": "maybe",
-      "matched_name": "글락소스미스클라인(GSK)",
-      "updated_at": "2026-07-01T17:04:39.823951+09:00",
       "auto": true
     },
     "대원제약": {
@@ -3562,6 +3555,11 @@
       "status": "x",
       "updated_at": "2026-07-03T10:05:08.078103+09:00",
       "auto": true
+    },
+    "1022076": {
+      "advertiser": "SK",
+      "status": "x",
+      "updated_at": "2026-07-03T01:39:14.803Z"
     }
   }
 }
