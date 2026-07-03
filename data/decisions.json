@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T04:54:13.567Z",
-  "count": 176,
-  "x_count": 410,
+  "updated_at": "2026-07-03T17:05:00.415316+09:00",
+  "count": 179,
+  "x_count": 413,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1167,6 +1167,27 @@
       "status": "maybe",
       "matched_name": "글락소스미스클라인(GSK)",
       "updated_at": "2026-07-03T12:02:37.782449+09:00",
+      "auto": true
+    },
+    "gsk": {
+      "display_name": "GSK",
+      "status": "maybe",
+      "matched_name": "글락소스미스클라인(GSK)",
+      "updated_at": "2026-07-03T17:05:00.404920+09:00",
+      "auto": true
+    },
+    "애경": {
+      "display_name": "애경",
+      "status": "maybe",
+      "matched_name": "애경산업",
+      "updated_at": "2026-07-03T17:05:00.409181+09:00",
+      "auto": true
+    },
+    "삼성물산": {
+      "display_name": "삼성물산",
+      "status": "maybe",
+      "matched_name": "삼성물산에버랜드리조트",
+      "updated_at": "2026-07-03T17:05:00.410830+09:00",
       "auto": true
     }
   },
@@ -3591,6 +3612,24 @@
       "advertiser": "HD현대",
       "status": "x",
       "updated_at": "2026-07-03T04:54:13.234Z"
+    },
+    "1022147": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-03T17:05:00.403563+09:00",
+      "auto": true
+    },
+    "1022118": {
+      "advertiser": "파로돈탁스",
+      "status": "x",
+      "updated_at": "2026-07-03T17:05:00.407387+09:00",
+      "auto": true
+    },
+    "1022109": {
+      "advertiser": "마이크로킥보드",
+      "status": "x",
+      "updated_at": "2026-07-03T17:05:00.413266+09:00",
+      "auto": true
     }
   }
 }
