@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T12:02:37.782652+09:00",
+  "updated_at": "2026-07-03T04:31:42.349Z",
   "count": 177,
   "x_count": 409,
   "decisions": {
@@ -1157,10 +1157,9 @@
     },
     "hd현대": {
       "display_name": "HD현대",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "(미집행) HD현대",
-      "updated_at": "2026-07-03T12:02:37.773083+09:00",
-      "auto": true
+      "updated_at": "2026-07-03T04:31:42.330Z"
     },
     "대상": {
       "display_name": "대상",
@@ -2453,6 +2452,12 @@
       "updated_at": "2026-06-08T17:10:09.708635+09:00",
       "auto": true
     },
+    "1019395": {
+      "advertiser": "전국푸드뱅크",
+      "status": "x",
+      "updated_at": "2026-07-03T12:02:37.778123+09:00",
+      "auto": true
+    },
     "1019402": {
       "advertiser": "투썸플레이스",
       "status": "x",
@@ -3586,12 +3591,6 @@
       "advertiser": "코인원",
       "status": "x",
       "updated_at": "2026-07-03T12:02:37.775636+09:00",
-      "auto": true
-    },
-    "1019395": {
-      "advertiser": "전국푸드뱅크",
-      "status": "x",
-      "updated_at": "2026-07-03T12:02:37.778123+09:00",
       "auto": true
     }
   }
