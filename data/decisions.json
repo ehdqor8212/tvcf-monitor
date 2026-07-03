@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T09:57:03.806Z",
-  "count": 176,
-  "x_count": 396,
+  "updated_at": "2026-07-03T10:05:08.102066+09:00",
+  "count": 177,
+  "x_count": 404,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1167,6 +1167,13 @@
       "status": "o",
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
+      "auto": true
+    },
+    "한화피플라이프": {
+      "display_name": "한화피플라이프",
+      "status": "maybe",
+      "matched_name": "피플라이프",
+      "updated_at": "2026-07-03T10:05:08.083458+09:00",
       "auto": true
     }
   },
@@ -3510,6 +3517,54 @@
       "advertiser": "모그라미",
       "status": "x",
       "updated_at": "2026-07-02T10:06:05.061249+09:00",
+      "auto": true
+    },
+    "1021974": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.078103+09:00",
+      "auto": true
+    },
+    "1021973": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.080870+09:00",
+      "auto": true
+    },
+    "1021969": {
+      "advertiser": "카사베르디 레드와인비니거",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.086217+09:00",
+      "auto": true
+    },
+    "1021960": {
+      "advertiser": "주영앤에스",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.088973+09:00",
+      "auto": true
+    },
+    "1021956": {
+      "advertiser": "LIG 디펜스&에어로스페이스",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.091731+09:00",
+      "auto": true
+    },
+    "1021923": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.094471+09:00",
+      "auto": true
+    },
+    "1021906": {
+      "advertiser": "JCB카드",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.097202+09:00",
+      "auto": true
+    },
+    "1021830": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-07-03T10:05:08.099930+09:00",
       "auto": true
     }
   }
