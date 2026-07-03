@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T01:38:38.009Z",
-  "count": 174,
-  "x_count": 407,
+  "updated_at": "2026-07-03T01:39:08.223Z",
+  "count": 176,
+  "x_count": 405,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1115,6 +1115,13 @@
       "updated_at": "2026-07-01T17:04:39.822426+09:00",
       "auto": true
     },
+    "sk": {
+      "display_name": "SK",
+      "status": "maybe",
+      "matched_name": "글락소스미스클라인(GSK)",
+      "updated_at": "2026-07-01T17:04:39.823951+09:00",
+      "auto": true
+    },
     "대원제약": {
       "display_name": "대원제약",
       "status": "maybe",
@@ -1153,6 +1160,13 @@
       "status": "o",
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
+      "auto": true
+    },
+    "한화피플라이프": {
+      "display_name": "한화피플라이프",
+      "status": "maybe",
+      "matched_name": "피플라이프",
+      "updated_at": "2026-07-03T10:05:08.083458+09:00",
       "auto": true
     }
   },
@@ -3513,7 +3527,7 @@
     "1021916": {
       "advertiser": "대상",
       "status": "x",
-      "updated_at": "2026-07-03T01:38:26.084Z"
+      "updated_at": "2026-07-03T01:39:08.218Z"
     },
     "1021923": {
       "advertiser": "롯데리아",
@@ -3539,11 +3553,6 @@
       "updated_at": "2026-07-03T10:05:08.086217+09:00",
       "auto": true
     },
-    "1021972": {
-      "advertiser": "한화피플라이프",
-      "status": "x",
-      "updated_at": "2026-07-03T01:38:34.458Z"
-    },
     "1021973": {
       "advertiser": "보험클리닉",
       "status": "x",
@@ -3555,11 +3564,6 @@
       "status": "x",
       "updated_at": "2026-07-03T10:05:08.078103+09:00",
       "auto": true
-    },
-    "1022076": {
-      "advertiser": "SK",
-      "status": "x",
-      "updated_at": "2026-07-03T01:38:37.712Z"
     }
   }
 }
