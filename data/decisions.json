@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T01:39:15.162Z",
-  "count": 174,
-  "x_count": 407,
+  "updated_at": "2026-07-03T12:02:37.782652+09:00",
+  "count": 177,
+  "x_count": 409,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1153,6 +1153,27 @@
       "status": "o",
       "matched_name": "롯데웰푸드",
       "updated_at": "2026-07-02T10:06:05.078154+09:00",
+      "auto": true
+    },
+    "hd현대": {
+      "display_name": "HD현대",
+      "status": "maybe",
+      "matched_name": "(미집행) HD현대",
+      "updated_at": "2026-07-03T12:02:37.773083+09:00",
+      "auto": true
+    },
+    "대상": {
+      "display_name": "대상",
+      "status": "maybe",
+      "matched_name": "(미집행) 대상",
+      "updated_at": "2026-07-03T12:02:37.779355+09:00",
+      "auto": true
+    },
+    "sk": {
+      "display_name": "SK",
+      "status": "maybe",
+      "matched_name": "글락소스미스클라인(GSK)",
+      "updated_at": "2026-07-03T12:02:37.782449+09:00",
       "auto": true
     }
   },
@@ -3560,6 +3581,18 @@
       "advertiser": "SK",
       "status": "x",
       "updated_at": "2026-07-03T01:39:14.803Z"
+    },
+    "1022088": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-07-03T12:02:37.775636+09:00",
+      "auto": true
+    },
+    "1019395": {
+      "advertiser": "전국푸드뱅크",
+      "status": "x",
+      "updated_at": "2026-07-03T12:02:37.778123+09:00",
+      "auto": true
     }
   }
 }
