@@ -1,5 +1,40 @@
 [
   {
+    "ad_id": "1022155",
+    "prefix": "bi1552",
+    "url": "https://tvcf.co.kr/play/bi1552-1022155",
+    "card_title": "BHC치킨별점 만점 예상되는 큰 거 옵니다!_Teaser",
+    "onair": "07.03",
+    "registered_short": "07.03",
+    "brand": "BHC치킨",
+    "campaign": null,
+    "registered_date": "2026-07-03",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "비에이치씨",
+    "advertiser_code": "C000011964",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022154",
+        "url": "https://tvcf.co.kr/play/ai1541-1022154",
+        "brand": "BHC치킨",
+        "campaign": null,
+        "card_title": "BHC치킨기대하시라, 새로운 플레이버의 등장!_Teaser"
+      },
+      {
+        "ad_id": "1022153",
+        "url": "https://tvcf.co.kr/play/bi1539-1022153",
+        "brand": "BHC치킨",
+        "campaign": null,
+        "card_title": "BHC치킨올 여름, 새로운 플레이버의 등장_Teaser"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-04T10:02:01.582507+09:00"
+  },
+  {
     "ad_id": "1022147",
     "prefix": "bi1473",
     "url": "https://tvcf.co.kr/play/bi1473-1022147",
@@ -19877,6 +19912,62 @@
     "brand": "캐논 EOS R6 Mark III",
     "advertiser_code": "C000010043",
     "advertiser_fallback": false
+  },
+  {
+    "ad_id": "1022150",
+    "prefix": "ai2506",
+    "url": "https://tvcf.co.kr/play/ai2506-1022150",
+    "card_title": "토리든2025 올리브영 1등 누구? 저요, 다이브인 세럼",
+    "onair": "2025.11.28",
+    "registered_short": "07.03",
+    "brand": "토리든",
+    "campaign": null,
+    "registered_date": "2025-11-28",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "토리든",
+    "advertiser_code": "C000048999",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022149",
+        "url": "https://tvcf.co.kr/play/bi1495-1022149",
+        "brand": "토리든",
+        "campaign": null,
+        "card_title": "토리든2025 쓰리스타 탄생스토리,,,,"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-04T10:02:01.582517+09:00"
+  },
+  {
+    "ad_id": "1022152",
+    "prefix": "ai1528",
+    "url": "https://tvcf.co.kr/play/ai1528-1022152",
+    "card_title": "토리든여러분들의 입술을 책임질 2025 올리브영 1등 립 케어.",
+    "onair": "2025.11.27",
+    "registered_short": "07.03",
+    "brand": "토리든",
+    "campaign": null,
+    "registered_date": "2025-11-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "토리든",
+    "advertiser_code": "C000048999",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022151",
+        "url": "https://tvcf.co.kr/play/bi1517-1022151",
+        "brand": "토리든",
+        "campaign": null,
+        "card_title": "토리든2025 올리브영 어워즈 2년 연속 1등 마스크팩"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-04T10:02:01.582520+09:00"
   },
   {
     "ad_id": "1017832",
