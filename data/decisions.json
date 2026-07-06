@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T10:03:01.968336+09:00",
+  "updated_at": "2026-07-06T12:03:18.138642+09:00",
   "count": 180,
-  "x_count": 420,
+  "x_count": 424,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3677,6 +3677,30 @@
       "advertiser": "더바이오",
       "status": "x",
       "updated_at": "2026-07-06T10:03:01.966211+09:00",
+      "auto": true
+    },
+    "1022195": {
+      "advertiser": "루마버텍스",
+      "status": "x",
+      "updated_at": "2026-07-06T12:03:18.129540+09:00",
+      "auto": true
+    },
+    "1022193": {
+      "advertiser": "토리든",
+      "status": "x",
+      "updated_at": "2026-07-06T12:03:18.131951+09:00",
+      "auto": true
+    },
+    "1022179": {
+      "advertiser": "글램팜",
+      "status": "x",
+      "updated_at": "2026-07-06T12:03:18.134403+09:00",
+      "auto": true
+    },
+    "1022167": {
+      "advertiser": "ABC마트",
+      "status": "x",
+      "updated_at": "2026-07-06T12:03:18.136807+09:00",
       "auto": true
     }
   }
