@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T12:03:18.138642+09:00",
-  "count": 180,
-  "x_count": 424,
+  "updated_at": "2026-07-06T17:04:49.740009+09:00",
+  "count": 181,
+  "x_count": 429,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1194,6 +1194,13 @@
       "status": "maybe",
       "matched_name": "제이와이중외제약(JW중외제약)",
       "updated_at": "2026-07-06T10:03:01.958019+09:00",
+      "auto": true
+    },
+    "폴스타오토모티브코리아": {
+      "display_name": "폴스타오토모티브코리아",
+      "status": "maybe",
+      "matched_name": "폴스타",
+      "updated_at": "2026-07-06T17:04:49.729531+09:00",
       "auto": true
     }
   },
@@ -3701,6 +3708,36 @@
       "advertiser": "ABC마트",
       "status": "x",
       "updated_at": "2026-07-06T12:03:18.136807+09:00",
+      "auto": true
+    },
+    "1022211": {
+      "advertiser": "멘소래담",
+      "status": "x",
+      "updated_at": "2026-07-06T17:04:49.724000+09:00",
+      "auto": true
+    },
+    "1022210": {
+      "advertiser": "멘소래담",
+      "status": "x",
+      "updated_at": "2026-07-06T17:04:49.726939+09:00",
+      "auto": true
+    },
+    "1022205": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-07-06T17:04:49.732317+09:00",
+      "auto": true
+    },
+    "1022171": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-06T17:04:49.735117+09:00",
+      "auto": true
+    },
+    "1022149": {
+      "advertiser": "토리든",
+      "status": "x",
+      "updated_at": "2026-07-06T17:04:49.737864+09:00",
       "auto": true
     }
   }
