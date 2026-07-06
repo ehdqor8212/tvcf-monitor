@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T08:52:02.085Z",
-  "count": 179,
-  "x_count": 416,
+  "updated_at": "2026-07-06T10:03:01.968336+09:00",
+  "count": 180,
+  "x_count": 420,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1188,6 +1188,13 @@
       "status": "o",
       "matched_name": "삼성물산에버랜드리조트",
       "updated_at": "2026-07-05T08:52:02.078Z"
+    },
+    "중외제약": {
+      "display_name": "중외제약",
+      "status": "maybe",
+      "matched_name": "제이와이중외제약(JW중외제약)",
+      "updated_at": "2026-07-06T10:03:01.958019+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -3646,6 +3653,30 @@
       "advertiser": "비에이치씨",
       "status": "x",
       "updated_at": "2026-07-04T10:02:01.604897+09:00",
+      "auto": true
+    },
+    "1022170": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-06T10:03:01.955750+09:00",
+      "auto": true
+    },
+    "1022159": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-06T10:03:01.960738+09:00",
+      "auto": true
+    },
+    "1022163": {
+      "advertiser": "중소기업중앙회",
+      "status": "x",
+      "updated_at": "2026-07-06T10:03:01.963447+09:00",
+      "auto": true
+    },
+    "1022157": {
+      "advertiser": "더바이오",
+      "status": "x",
+      "updated_at": "2026-07-06T10:03:01.966211+09:00",
       "auto": true
     }
   }
