@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T10:03:32.015770+09:00",
-  "count": 183,
-  "x_count": 432,
+  "updated_at": "2026-07-07T12:02:26.844818+09:00",
+  "count": 184,
+  "x_count": 433,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1214,6 +1214,13 @@
       "status": "o",
       "matched_name": "엘코리아",
       "updated_at": "2026-07-07T10:03:32.010991+09:00",
+      "auto": true
+    },
+    "제너시스비비큐": {
+      "display_name": "제너시스비비큐 ",
+      "status": "o",
+      "matched_name": "제너시스비비큐",
+      "updated_at": "2026-07-07T12:02:26.839711+09:00",
       "auto": true
     }
   },
@@ -3769,6 +3776,12 @@
       "advertiser": "ABC마트",
       "status": "x",
       "updated_at": "2026-07-07T10:03:32.013697+09:00",
+      "auto": true
+    },
+    "1022261": {
+      "advertiser": "제네시스 ",
+      "status": "x",
+      "updated_at": "2026-07-07T12:02:26.842576+09:00",
       "auto": true
     }
   }
