@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T10:36:36.463Z",
-  "count": 181,
-  "x_count": 429,
+  "updated_at": "2026-07-07T10:03:32.015770+09:00",
+  "count": 183,
+  "x_count": 432,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1201,6 +1201,20 @@
       "status": "o",
       "matched_name": "폴스타",
       "updated_at": "2026-07-06T10:36:35.847Z"
+    },
+    "매일유업": {
+      "display_name": "매일유업",
+      "status": "o",
+      "matched_name": "매일유업",
+      "updated_at": "2026-07-07T10:03:32.004795+09:00",
+      "auto": true
+    },
+    "엘코리아": {
+      "display_name": "엘코리아",
+      "status": "o",
+      "matched_name": "엘코리아",
+      "updated_at": "2026-07-07T10:03:32.010991+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -3737,6 +3751,24 @@
       "advertiser": "멘소래담",
       "status": "x",
       "updated_at": "2026-07-06T17:04:49.724000+09:00",
+      "auto": true
+    },
+    "1022235": {
+      "advertiser": "호원플래닛",
+      "status": "x",
+      "updated_at": "2026-07-07T10:03:32.007521+09:00",
+      "auto": true
+    },
+    "1022244": {
+      "advertiser": "청정원",
+      "status": "x",
+      "updated_at": "2026-07-07T10:03:32.010221+09:00",
+      "auto": true
+    },
+    "1022168": {
+      "advertiser": "ABC마트",
+      "status": "x",
+      "updated_at": "2026-07-07T10:03:32.013697+09:00",
       "auto": true
     }
   }
