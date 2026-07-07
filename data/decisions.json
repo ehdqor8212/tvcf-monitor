@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T12:02:26.844818+09:00",
+  "updated_at": "2026-07-07T17:04:58.240721+09:00",
   "count": 184,
-  "x_count": 433,
+  "x_count": 438,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3782,6 +3782,36 @@
       "advertiser": "제네시스 ",
       "status": "x",
       "updated_at": "2026-07-07T12:02:26.842576+09:00",
+      "auto": true
+    },
+    "1022191": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-07T17:04:58.228085+09:00",
+      "auto": true
+    },
+    "1022287": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-07-07T17:04:58.230752+09:00",
+      "auto": true
+    },
+    "1022286": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-07-07T17:04:58.233385+09:00",
+      "auto": true
+    },
+    "1022274": {
+      "advertiser": "제네시스 ",
+      "status": "x",
+      "updated_at": "2026-07-07T17:04:58.236047+09:00",
+      "auto": true
+    },
+    "1022275": {
+      "advertiser": "GH경기주택도시공사",
+      "status": "x",
+      "updated_at": "2026-07-07T17:04:58.238705+09:00",
       "auto": true
     }
   }
