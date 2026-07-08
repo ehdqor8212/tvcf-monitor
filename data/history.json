@@ -1,5 +1,85 @@
 [
   {
+    "ad_id": "1022314",
+    "prefix": "ai1148",
+    "url": "https://tvcf.co.kr/play/ai1148-1022314",
+    "card_title": "한화[한화그룹 광고]  대한민국 성장 네트워크",
+    "onair": "07.08",
+    "registered_short": "07.08",
+    "brand": "한화",
+    "campaign": null,
+    "registered_date": "2026-07-08",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "한화",
+    "advertiser_code": "C000001462",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-08T17:03:23.512235+09:00"
+  },
+  {
+    "ad_id": "1022312",
+    "prefix": "ai1126",
+    "url": "https://tvcf.co.kr/play/ai1126-1022312",
+    "card_title": "IBK기업은행AIBK_기업",
+    "onair": "07.08",
+    "registered_short": "07.08",
+    "brand": "IBK기업은행",
+    "campaign": null,
+    "registered_date": "2026-07-08",
+    "media_type": "케이블",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "IBK기업은행",
+    "advertiser_code": "C000016651",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022310",
+        "url": "https://tvcf.co.kr/play/ai2104-1022310",
+        "brand": "IBK기업은행",
+        "campaign": null,
+        "card_title": "IBK기업은행AIBK_종합"
+      },
+      {
+        "ad_id": "1022311",
+        "url": "https://tvcf.co.kr/play/bi1115-1022311",
+        "brand": "IBK기업은행",
+        "campaign": null,
+        "card_title": "IBK기업은행AIBK_개인"
+      },
+      {
+        "ad_id": "1022309",
+        "url": "https://tvcf.co.kr/play/bi293-1022309",
+        "brand": "IBK기업은행",
+        "campaign": null,
+        "card_title": "IBK기업은행AIBK"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-07-08T17:03:23.512238+09:00"
+  },
+  {
+    "ad_id": "1022315",
+    "prefix": "bi1159",
+    "url": "https://tvcf.co.kr/play/bi1159-1022315",
+    "card_title": "하나카드2026년 여름 세계를 하나로",
+    "onair": "07.07",
+    "registered_short": "07.08",
+    "brand": "하나카드",
+    "campaign": null,
+    "registered_date": "2026-07-07",
+    "media_type": "공중파",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "하나카드",
+    "advertiser_code": "C000009124",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-08T17:03:23.512233+09:00"
+  },
+  {
     "ad_id": "1022302",
     "prefix": "ai225",
     "url": "https://tvcf.co.kr/play/ai225-1022302",
@@ -1694,6 +1774,25 @@
     "collected_at": "2026-07-02T10:06:05.042593+09:00"
   },
   {
+    "ad_id": "1022341",
+    "prefix": "bi1418",
+    "url": "https://tvcf.co.kr/play/bi1418-1022341",
+    "card_title": "롯데카드CHECK IN SEOUL",
+    "onair": "07.01",
+    "registered_short": "07.08",
+    "brand": "롯데카드",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "엠비언트",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "롯데카드",
+    "advertiser_code": "C000007415",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-08T17:03:23.512220+09:00"
+  },
+  {
     "ad_id": "1022287",
     "prefix": "bi1878",
     "url": "https://tvcf.co.kr/play/bi1878-1022287",
@@ -3068,6 +3167,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-06-30T12:02:23.803774+09:00"
+  },
+  {
+    "ad_id": "1022307",
+    "prefix": "bi271",
+    "url": "https://tvcf.co.kr/play/bi271-1022307",
+    "card_title": "신한자산운용SOL 200타겟 위클리커버드콜 ETF",
+    "onair": "06.29",
+    "registered_short": "07.08",
+    "brand": "신한자산운용",
+    "campaign": null,
+    "registered_date": "2026-06-29",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "신한자산운용",
+    "advertiser_code": "C000162961",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-08T17:03:23.512240+09:00"
   },
   {
     "ad_id": "1021691",
@@ -20393,6 +20511,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-19T17:10:22.917895+09:00"
+  },
+  {
+    "ad_id": "1022329",
+    "prefix": "bi1295",
+    "url": "https://tvcf.co.kr/play/bi1295-1022329",
+    "card_title": "한국전력공사전력을 다합니다",
+    "onair": "04.15",
+    "registered_short": "07.08",
+    "brand": "한국전력공사",
+    "campaign": null,
+    "registered_date": "2026-04-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "한국전력공사",
+    "advertiser_code": "C000001422",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-08T17:03:23.512229+09:00"
   },
   {
     "ad_id": "1019458",

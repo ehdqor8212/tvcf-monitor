@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T10:03:07.390071+09:00",
-  "count": 184,
-  "x_count": 441,
+  "updated_at": "2026-07-08T17:03:23.548533+09:00",
+  "count": 186,
+  "x_count": 445,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1221,6 +1221,20 @@
       "status": "o",
       "matched_name": "제너시스비비큐",
       "updated_at": "2026-07-07T12:02:26.839711+09:00",
+      "auto": true
+    },
+    "롯데카드": {
+      "display_name": "롯데카드",
+      "status": "o",
+      "matched_name": "롯데카드",
+      "updated_at": "2026-07-08T17:03:23.532796+09:00",
+      "auto": true
+    },
+    "한화": {
+      "display_name": "한화",
+      "status": "maybe",
+      "matched_name": "한화그룹",
+      "updated_at": "2026-07-08T17:03:23.540853+09:00",
       "auto": true
     }
   },
@@ -3830,6 +3844,30 @@
       "advertiser": "제네시스 ",
       "status": "x",
       "updated_at": "2026-07-08T10:03:07.387805+09:00",
+      "auto": true
+    },
+    "1022329": {
+      "advertiser": "한국전력공사",
+      "status": "x",
+      "updated_at": "2026-07-08T17:03:23.535513+09:00",
+      "auto": true
+    },
+    "1022315": {
+      "advertiser": "하나카드",
+      "status": "x",
+      "updated_at": "2026-07-08T17:03:23.538210+09:00",
+      "auto": true
+    },
+    "1022312": {
+      "advertiser": "IBK기업은행",
+      "status": "x",
+      "updated_at": "2026-07-08T17:03:23.543546+09:00",
+      "auto": true
+    },
+    "1022307": {
+      "advertiser": "신한자산운용",
+      "status": "x",
+      "updated_at": "2026-07-08T17:03:23.546239+09:00",
       "auto": true
     }
   }
