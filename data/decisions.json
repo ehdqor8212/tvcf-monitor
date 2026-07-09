@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T10:02:53.363575+09:00",
-  "count": 186,
-  "x_count": 448,
+  "updated_at": "2026-07-09T17:04:08.023950+09:00",
+  "count": 188,
+  "x_count": 450,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1235,6 +1235,20 @@
       "status": "o",
       "matched_name": "한화그룹",
       "updated_at": "2026-07-08T08:27:44.759Z"
+    },
+    "비와이엔블랙야크": {
+      "display_name": "비와이엔블랙야크",
+      "status": "o",
+      "matched_name": "비와이엔블랙야크",
+      "updated_at": "2026-07-09T17:04:08.014655+09:00",
+      "auto": true
+    },
+    "힐링페이퍼": {
+      "display_name": "힐링페이퍼",
+      "status": "o",
+      "matched_name": "힐링페이퍼",
+      "updated_at": "2026-07-09T17:04:08.016033+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -3885,6 +3899,18 @@
       "advertiser": "제네시스 ",
       "status": "x",
       "updated_at": "2026-07-09T10:02:53.361392+09:00",
+      "auto": true
+    },
+    "1022367": {
+      "advertiser": "제닉 ",
+      "status": "x",
+      "updated_at": "2026-07-09T17:04:08.018834+09:00",
+      "auto": true
+    },
+    "1022362": {
+      "advertiser": "카사베르디 레드와인비니거",
+      "status": "x",
+      "updated_at": "2026-07-09T17:04:08.021640+09:00",
       "auto": true
     }
   }
