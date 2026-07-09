@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T08:27:44.777Z",
+  "updated_at": "2026-07-09T10:02:53.363575+09:00",
   "count": 186,
-  "x_count": 445,
+  "x_count": 448,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3867,6 +3867,24 @@
       "advertiser": "한국전력공사",
       "status": "x",
       "updated_at": "2026-07-08T17:03:23.535513+09:00",
+      "auto": true
+    },
+    "1022353": {
+      "advertiser": "아이닉",
+      "status": "x",
+      "updated_at": "2026-07-09T10:02:53.355893+09:00",
+      "auto": true
+    },
+    "1022348": {
+      "advertiser": "피알피사이언스",
+      "status": "x",
+      "updated_at": "2026-07-09T10:02:53.358646+09:00",
+      "auto": true
+    },
+    "1022266": {
+      "advertiser": "제네시스 ",
+      "status": "x",
+      "updated_at": "2026-07-09T10:02:53.361392+09:00",
       "auto": true
     }
   }
