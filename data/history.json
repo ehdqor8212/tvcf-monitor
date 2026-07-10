@@ -1,5 +1,24 @@
 [
   {
+    "ad_id": "1022401",
+    "prefix": "bi215",
+    "url": "https://tvcf.co.kr/play/bi215-1022401",
+    "card_title": "노란우산2026 노란우산 TV CF - '잘 됐으면 좋겠다!' Full",
+    "onair": "07.09",
+    "registered_short": "07.10",
+    "brand": "노란우산",
+    "campaign": null,
+    "registered_date": "2026-07-09",
+    "media_type": "공중파",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "중소기업중앙회",
+    "advertiser_code": "C000011726",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T10:02:07.759105+09:00"
+  },
+  {
     "ad_id": "1022379",
     "prefix": "bi1791",
     "url": "https://tvcf.co.kr/play/bi1791-1022379",
@@ -922,6 +941,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-07T10:03:31.984626+09:00"
+  },
+  {
+    "ad_id": "1022209",
+    "prefix": "bi292",
+    "url": "https://tvcf.co.kr/play/bi292-1022209",
+    "card_title": "넷플릭스오싹한 연애",
+    "onair": "07.05",
+    "registered_short": "07.10",
+    "brand": "넷플릭스",
+    "campaign": null,
+    "registered_date": "2026-07-05",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "넷플릭스서비시스코리아",
+    "advertiser_code": "C000162453",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T10:02:07.759091+09:00"
   },
   {
     "ad_id": "1022237",
@@ -2027,6 +2065,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-02T10:06:05.042593+09:00"
+  },
+  {
+    "ad_id": "1022413",
+    "prefix": "bi1138",
+    "url": "https://tvcf.co.kr/play/bi1138-1022413",
+    "card_title": "스카트우리집엔 스카트가 산다",
+    "onair": "07.01",
+    "registered_short": "07.10",
+    "brand": "스카트",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "유한킴벌리",
+    "advertiser_code": "C000001344",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T10:02:07.759082+09:00"
   },
   {
     "ad_id": "1022341",
@@ -20013,6 +20070,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-07-09T17:04:07.994789+09:00"
+  },
+  {
+    "ad_id": "1022372",
+    "prefix": "ai1723",
+    "url": "https://tvcf.co.kr/play/ai1723-1022372",
+    "card_title": "블랙야크STILL BLUE : 30s",
+    "onair": "05.01",
+    "registered_short": "07.09",
+    "brand": "블랙야크",
+    "campaign": null,
+    "registered_date": "2026-05-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "비와이엔블랙야크",
+    "advertiser_code": "C000160360",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T10:02:07.759108+09:00"
   },
   {
     "ad_id": "1020010",
