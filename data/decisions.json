@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T10:02:07.786472+09:00",
+  "updated_at": "2026-07-10T17:04:39.842258+09:00",
   "count": 188,
-  "x_count": 452,
+  "x_count": 455,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -3923,6 +3923,24 @@
       "advertiser": "중소기업중앙회",
       "status": "x",
       "updated_at": "2026-07-10T10:02:07.784081+09:00",
+      "auto": true
+    },
+    "1021924": {
+      "advertiser": "한국수출입은행",
+      "status": "x",
+      "updated_at": "2026-07-10T17:04:39.835887+09:00",
+      "auto": true
+    },
+    "1022162": {
+      "advertiser": "디즈니 플러스 코리아",
+      "status": "x",
+      "updated_at": "2026-07-10T17:04:39.838163+09:00",
+      "auto": true
+    },
+    "1022415": {
+      "advertiser": "NH농협카드",
+      "status": "x",
+      "updated_at": "2026-07-10T17:04:39.840397+09:00",
       "auto": true
     }
   }

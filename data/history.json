@@ -1,5 +1,185 @@
 [
   {
+    "ad_id": "1022441",
+    "prefix": "bi1419",
+    "url": "https://tvcf.co.kr/play/bi1419-1022441",
+    "card_title": "갤럭시갤럭시 언팩 - 하츠투하츠편",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "갤럭시",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022440",
+        "url": "https://tvcf.co.kr/play/ai2408-1022440",
+        "brand": "갤럭시",
+        "campaign": null,
+        "card_title": "갤럭시갤럭시 언팩 - 라이즈편"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-10T17:04:39.815455+09:00"
+  },
+  {
+    "ad_id": "1022425",
+    "prefix": "bi1252",
+    "url": "https://tvcf.co.kr/play/bi1252-1022425",
+    "card_title": "다이슨스타일의 끝, NEW 올인원 에어랩 2x",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "다이슨",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "다이슨코리아",
+    "advertiser_code": "C000014103",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022424",
+        "url": "https://tvcf.co.kr/play/ai1241-1022424",
+        "brand": "다이슨",
+        "campaign": null,
+        "card_title": "다이슨스타일의 끝, NEW 올인원 에어랩 2x"
+      },
+      {
+        "ad_id": "1022423",
+        "url": "https://tvcf.co.kr/play/bi1239-1022423",
+        "brand": "다이슨",
+        "campaign": null,
+        "card_title": "다이슨스타일의 끝, NEW 올인원 에어랩 2x"
+      },
+      {
+        "ad_id": "1022418",
+        "url": "https://tvcf.co.kr/play/ai1184-1022418",
+        "brand": "다이슨",
+        "campaign": null,
+        "card_title": "다이슨새로운 툴로 완성된 NEW 올인원 에어랩 2x Fast dryer"
+      },
+      {
+        "ad_id": "1022416",
+        "url": "https://tvcf.co.kr/play/ai1162-1022416",
+        "brand": "다이슨",
+        "campaign": null,
+        "card_title": "다이슨새로운 툴로 완성된 NEW 올인원 에어랩 2x AirStraight"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-07-10T17:04:39.815471+09:00"
+  },
+  {
+    "ad_id": "1022422",
+    "prefix": "ai1228",
+    "url": "https://tvcf.co.kr/play/ai1228-1022422",
+    "card_title": "크랙너… 나 좋아하는 거 아니었어? | 크랙 쵸단 편 (30s ver.)",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "크랙",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "뤼튼테크놀로지스",
+    "advertiser_code": "C000168369",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022421",
+        "url": "https://tvcf.co.kr/play/bi1217-1022421",
+        "brand": "크랙",
+        "campaign": null,
+        "card_title": "크랙옥상으로 왜 불렀는데? | 크랙 쵸단 (15s ver.)"
+      },
+      {
+        "ad_id": "1022420",
+        "url": "https://tvcf.co.kr/play/ai2206-1022420",
+        "brand": "크랙",
+        "campaign": null,
+        "card_title": "크랙너… 나 좋아하는 거 아니었어? | 크랙 쵸단 편 (Full ver.)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-10T17:04:39.815473+09:00"
+  },
+  {
+    "ad_id": "1022415",
+    "prefix": "bi1151",
+    "url": "https://tvcf.co.kr/play/bi1151-1022415",
+    "card_title": "NH농협카드 zgm 저장체크카드내 지갑속에 저장!",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "NH농협카드 zgm 저장체크카드",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "NH농협카드",
+    "advertiser_code": "C000018688",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T17:04:39.815478+09:00"
+  },
+  {
+    "ad_id": "1022438",
+    "prefix": "ai1386",
+    "url": "https://tvcf.co.kr/play/ai1386-1022438",
+    "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - 보자기",
+    "onair": "07.09",
+    "registered_short": "07.10",
+    "brand": "삼성 갤럭시",
+    "campaign": null,
+    "registered_date": "2026-07-09",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022437",
+        "url": "https://tvcf.co.kr/play/bi1375-1022437",
+        "brand": "삼성 갤럭시",
+        "campaign": null,
+        "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - 한옥"
+      },
+      {
+        "ad_id": "1022436",
+        "url": "https://tvcf.co.kr/play/ai1364-1022436",
+        "brand": "삼성 갤럭시",
+        "campaign": null,
+        "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - 절편"
+      },
+      {
+        "ad_id": "1022435",
+        "url": "https://tvcf.co.kr/play/bi1353-1022435",
+        "brand": "삼성 갤럭시",
+        "campaign": null,
+        "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - 자개함"
+      },
+      {
+        "ad_id": "1022431",
+        "url": "https://tvcf.co.kr/play/bi1318-1022431",
+        "brand": "삼성 갤럭시",
+        "campaign": null,
+        "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - 족자"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-07-10T17:04:39.815467+09:00"
+  },
+  {
     "ad_id": "1022401",
     "prefix": "bi215",
     "url": "https://tvcf.co.kr/play/bi215-1022401",
@@ -962,6 +1142,25 @@
     "collected_at": "2026-07-10T10:02:07.759091+09:00"
   },
   {
+    "ad_id": "1022428",
+    "prefix": "ai1285",
+    "url": "https://tvcf.co.kr/play/ai1285-1022428",
+    "card_title": "네이버2026 FIFA 북중미 월드컵, 영광의 순간을 치지직에서",
+    "onair": "07.04",
+    "registered_short": "07.10",
+    "brand": "네이버",
+    "campaign": null,
+    "registered_date": "2026-07-04",
+    "media_type": "케이블",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "네이버",
+    "advertiser_code": "C000012216",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T17:04:39.815469+09:00"
+  },
+  {
     "ad_id": "1022237",
     "prefix": "bi1373",
     "url": "https://tvcf.co.kr/play/bi1373-1022237",
@@ -1308,6 +1507,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-06T10:03:01.934424+09:00"
+  },
+  {
+    "ad_id": "1022162",
+    "prefix": "ai1629",
+    "url": "https://tvcf.co.kr/play/ai1629-1022162",
+    "card_title": "디즈니플러스킬러들의 쇼핑몰 시즌2",
+    "onair": "07.03",
+    "registered_short": "07.10",
+    "brand": "디즈니플러스",
+    "campaign": null,
+    "registered_date": "2026-07-03",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "디즈니 플러스 코리아",
+    "advertiser_code": "C000018053",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T17:04:39.815476+09:00"
   },
   {
     "ad_id": "1022160",
@@ -2223,6 +2441,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-03T10:05:08.012149+09:00"
+  },
+  {
+    "ad_id": "1021924",
+    "prefix": "ai1246",
+    "url": "https://tvcf.co.kr/play/ai1246-1021924",
+    "card_title": "한국수출입은행50년의 동행 15s",
+    "onair": "07.01",
+    "registered_short": "07.10",
+    "brand": "한국수출입은행",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "공중파",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "한국수출입은행",
+    "advertiser_code": "C000011855",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-10T17:04:39.815474+09:00"
   },
   {
     "ad_id": "1021906",
@@ -8586,6 +8823,41 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-14T12:02:25.212986+09:00"
+  },
+  {
+    "ad_id": "1022434",
+    "prefix": "ai1342",
+    "url": "https://tvcf.co.kr/play/ai1342-1022434",
+    "card_title": "챔프어머니 챔교육 영상",
+    "onair": "06.11",
+    "registered_short": "07.10",
+    "brand": "챔프",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "동아제약",
+    "advertiser_code": "C000003814",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022430",
+        "url": "https://tvcf.co.kr/play/ai2307-1022430",
+        "brand": "챔프",
+        "campaign": null,
+        "card_title": "챔프부모님 챔교육 영상"
+      },
+      {
+        "ad_id": "1022433",
+        "url": "https://tvcf.co.kr/play/bi1331-1022433",
+        "brand": "챔프",
+        "campaign": null,
+        "card_title": "챔프아버지 챔교육 영상"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-10T17:04:39.815464+09:00"
   },
   {
     "ad_id": "1022211",
