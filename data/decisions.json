@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T17:04:39.842258+09:00",
-  "count": 188,
-  "x_count": 455,
+  "updated_at": "2026-07-11T10:02:32.088660+09:00",
+  "count": 190,
+  "x_count": 457,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1248,6 +1248,20 @@
       "status": "o",
       "matched_name": "힐링페이퍼",
       "updated_at": "2026-07-09T17:04:08.016033+09:00",
+      "auto": true
+    },
+    "이팝소프트": {
+      "display_name": "이팝소프트",
+      "status": "o",
+      "matched_name": "이팝소프트",
+      "updated_at": "2026-07-11T10:02:32.080584+09:00",
+      "auto": true
+    },
+    "뉴트리": {
+      "display_name": "뉴트리",
+      "status": "o",
+      "matched_name": "뉴트리",
+      "updated_at": "2026-07-11T10:02:32.080821+09:00",
       "auto": true
     }
   },
@@ -3941,6 +3955,18 @@
       "advertiser": "NH농협카드",
       "status": "x",
       "updated_at": "2026-07-10T17:04:39.840397+09:00",
+      "auto": true
+    },
+    "1022460": {
+      "advertiser": "코이카",
+      "status": "x",
+      "updated_at": "2026-07-11T10:02:32.083609+09:00",
+      "auto": true
+    },
+    "1022456": {
+      "advertiser": "데이비드골프",
+      "status": "x",
+      "updated_at": "2026-07-11T10:02:32.086394+09:00",
       "auto": true
     }
   }

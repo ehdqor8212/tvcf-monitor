@@ -1,5 +1,115 @@
 [
   {
+    "ad_id": "1022464",
+    "prefix": "ai1645",
+    "url": "https://tvcf.co.kr/play/ai1645-1022464",
+    "card_title": "에버콜라겐GPH 콜라겐은 에버콜라겐 15초",
+    "onair": "07.10",
+    "registered_short": "07.11",
+    "brand": "에버콜라겐",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "공중파",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "뉴트리",
+    "advertiser_code": "C000168254",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022463",
+        "url": "https://tvcf.co.kr/play/bi1634-1022463",
+        "brand": "에버콜라겐",
+        "campaign": null,
+        "card_title": "에버콜라겐GPH 콜라겐은 에버콜라겐 Full ver."
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-11T10:02:32.059470+09:00"
+  },
+  {
+    "ad_id": "1022460",
+    "prefix": "ai2601",
+    "url": "https://tvcf.co.kr/play/ai2601-1022460",
+    "card_title": "코이카대한민국, 코이카로 답하다_15s",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "코이카",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "코이카",
+    "advertiser_code": "C000010860",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022444",
+        "url": "https://tvcf.co.kr/play/ai1443-1022444",
+        "brand": "코이카",
+        "campaign": null,
+        "card_title": "코이카대한민국, 코이카로 답하다"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-11T10:02:32.059480+09:00"
+  },
+  {
+    "ad_id": "1022459",
+    "prefix": "bi1599",
+    "url": "https://tvcf.co.kr/play/bi1599-1022459",
+    "card_title": "삼성전자Why SamsungㅣAI로 오래 쓰는 가전",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "삼성전자",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022458",
+        "url": "https://tvcf.co.kr/play/ai1588-1022458",
+        "brand": "삼성전자",
+        "campaign": null,
+        "card_title": "삼성전자Why Samsungㅣ가전 원격 진단"
+      },
+      {
+        "ad_id": "1022447",
+        "url": "https://tvcf.co.kr/play/bi1476-1022447",
+        "brand": "삼성전자",
+        "campaign": null,
+        "card_title": "삼성전자Why Samsungㅣ7년 간의 소프트웨어 업데이트"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-11T10:02:32.059477+09:00"
+  },
+  {
+    "ad_id": "1022456",
+    "prefix": "ai1566",
+    "url": "https://tvcf.co.kr/play/ai1566-1022456",
+    "card_title": "데이비드골프스코어 체인저, 어드밴서 7세대 우디아이언",
+    "onair": "07.10",
+    "registered_short": "07.10",
+    "brand": "데이비드골프",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "데이비드골프",
+    "advertiser_code": "4205969",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-11T10:02:32.059483+09:00"
+  },
+  {
     "ad_id": "1022441",
     "prefix": "bi1419",
     "url": "https://tvcf.co.kr/play/bi1419-1022441",
@@ -129,6 +239,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-10T17:04:39.815478+09:00"
+  },
+  {
+    "ad_id": "1022462",
+    "prefix": "ai1623",
+    "url": "https://tvcf.co.kr/play/ai1623-1022462",
+    "card_title": "한맥 HANMAC[한맥X모솔연애2] 답답함에 가슴치는 중? (과몰입엔) 한맥과 스무스하게",
+    "onair": "07.09",
+    "registered_short": "07.11",
+    "brand": "한맥 HANMAC",
+    "campaign": null,
+    "registered_date": "2026-07-09",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "오비맥주",
+    "advertiser_code": "C000001331",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-11T10:02:32.059474+09:00"
   },
   {
     "ad_id": "1022438",
@@ -475,6 +604,25 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-07-08T17:03:23.512238+09:00"
+  },
+  {
+    "ad_id": "1022461",
+    "prefix": "bi1612",
+    "url": "https://tvcf.co.kr/play/bi1612-1022461",
+    "card_title": "말해보카여행은 예측할 수 없는 관계와 마주하는 것",
+    "onair": "07.07",
+    "registered_short": "07.11",
+    "brand": "말해보카",
+    "campaign": null,
+    "registered_date": "2026-07-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "이팝소프트",
+    "advertiser_code": "C000160861",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-11T10:02:32.059460+09:00"
   },
   {
     "ad_id": "1022344",
@@ -8858,6 +9006,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-07-10T17:04:39.815464+09:00"
+  },
+  {
+    "ad_id": "1022433",
+    "prefix": "bi1331",
+    "url": "https://tvcf.co.kr/play/bi1331-1022433",
+    "card_title": "챔프아버지 챔교육 영상",
+    "onair": "06.11",
+    "registered_short": "07.10",
+    "brand": "챔프",
+    "campaign": null,
+    "registered_date": "2026-06-11",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "동아제약",
+    "advertiser_code": "C000003814",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-11T10:02:32.059486+09:00"
   },
   {
     "ad_id": "1022211",
