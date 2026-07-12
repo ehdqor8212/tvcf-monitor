@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T10:01:36.983506+09:00",
-  "count": 190,
-  "x_count": 458,
+  "updated_at": "2026-07-12T17:02:17.211435+09:00",
+  "count": 192,
+  "x_count": 461,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1262,6 +1262,20 @@
       "status": "o",
       "matched_name": "뉴트리",
       "updated_at": "2026-07-11T10:02:32.080821+09:00",
+      "auto": true
+    },
+    "케이카": {
+      "display_name": "케이카",
+      "status": "o",
+      "matched_name": "케이카",
+      "updated_at": "2026-07-12T17:02:17.201928+09:00",
+      "auto": true
+    },
+    "주영엔에스": {
+      "display_name": "주영엔에스",
+      "status": "maybe",
+      "matched_name": "(미집행) 주영엔에스",
+      "updated_at": "2026-07-12T17:02:17.209094+09:00",
       "auto": true
     }
   },
@@ -3973,6 +3987,24 @@
       "advertiser": "인천도시공사",
       "status": "x",
       "updated_at": "2026-07-12T10:01:36.982184+09:00",
+      "auto": true
+    },
+    "1022477": {
+      "advertiser": "라쉬반코리아",
+      "status": "x",
+      "updated_at": "2026-07-12T17:02:17.200885+09:00",
+      "auto": true
+    },
+    "1022475": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-07-12T17:02:17.204841+09:00",
+      "auto": true
+    },
+    "1022474": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-07-12T17:02:17.207649+09:00",
       "auto": true
     }
   }
