@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T17:02:17.211435+09:00",
-  "count": 192,
-  "x_count": 461,
+  "updated_at": "2026-07-13T10:02:37.208780+09:00",
+  "count": 194,
+  "x_count": 466,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1276,6 +1276,20 @@
       "status": "maybe",
       "matched_name": "(미집행) 주영엔에스",
       "updated_at": "2026-07-12T17:02:17.209094+09:00",
+      "auto": true
+    },
+    "국방부": {
+      "display_name": "국방부",
+      "status": "o",
+      "matched_name": "국방부",
+      "updated_at": "2026-07-13T10:02:37.191318+09:00",
+      "auto": true
+    },
+    "헨켈홈케어코리아": {
+      "display_name": "헨켈홈케어코리아",
+      "status": "maybe",
+      "matched_name": "(미집행) 헨켈홈케어코리아",
+      "updated_at": "2026-07-13T10:02:37.195461+09:00",
       "auto": true
     }
   },
@@ -4005,6 +4019,36 @@
       "advertiser": "KB금융그룹",
       "status": "x",
       "updated_at": "2026-07-12T17:02:17.207649+09:00",
+      "auto": true
+    },
+    "1022492": {
+      "advertiser": "알바천국",
+      "status": "x",
+      "updated_at": "2026-07-13T10:02:37.194053+09:00",
+      "auto": true
+    },
+    "1022487": {
+      "advertiser": "KRUPS",
+      "status": "x",
+      "updated_at": "2026-07-13T10:02:37.198166+09:00",
+      "auto": true
+    },
+    "1022479": {
+      "advertiser": "홍익대학교 & 중앙대학교 & 한국영상대학교 & 동국대학교",
+      "status": "x",
+      "updated_at": "2026-07-13T10:02:37.200880+09:00",
+      "auto": true
+    },
+    "1022481": {
+      "advertiser": "홍익대학교 & 한국영상대학교 & 중앙대학교",
+      "status": "x",
+      "updated_at": "2026-07-13T10:02:37.203592+09:00",
+      "auto": true
+    },
+    "1022480": {
+      "advertiser": "홍익대학교 & 한국영상대학교 & 고려대학교 세종캠퍼스 & 중앙대학교",
+      "status": "x",
+      "updated_at": "2026-07-13T10:02:37.206321+09:00",
       "auto": true
     }
   }
