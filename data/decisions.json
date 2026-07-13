@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T04:28:28.780Z",
+  "updated_at": "2026-07-13T17:05:44.348200+09:00",
   "count": 193,
-  "x_count": 467,
+  "x_count": 478,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4047,6 +4047,72 @@
       "advertiser": "알바천국",
       "status": "x",
       "updated_at": "2026-07-13T10:02:37.194053+09:00",
+      "auto": true
+    },
+    "1022656": {
+      "advertiser": "신미글로벌",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.318650+09:00",
+      "auto": true
+    },
+    "1022646": {
+      "advertiser": "쿠나이앤티",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.321375+09:00",
+      "auto": true
+    },
+    "1022628": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.324081+09:00",
+      "auto": true
+    },
+    "1022625": {
+      "advertiser": "토리든",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.326800+09:00",
+      "auto": true
+    },
+    "1022624": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.329503+09:00",
+      "auto": true
+    },
+    "1022622": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.332198+09:00",
+      "auto": true
+    },
+    "1022604": {
+      "advertiser": "토리든",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.334947+09:00",
+      "auto": true
+    },
+    "1022483": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.337655+09:00",
+      "auto": true
+    },
+    "1022478": {
+      "advertiser": "요헤미티",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.340354+09:00",
+      "auto": true
+    },
+    "1022603": {
+      "advertiser": "루시드코리아",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.343053+09:00",
+      "auto": true
+    },
+    "1022599": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-13T17:05:44.345924+09:00",
       "auto": true
     }
   }
