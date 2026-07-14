@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T17:05:44.348200+09:00",
-  "count": 193,
-  "x_count": 478,
+  "updated_at": "2026-07-14T17:09:20.016225+09:00",
+  "count": 194,
+  "x_count": 490,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1283,6 +1283,13 @@
       "status": "o",
       "matched_name": "국방부",
       "updated_at": "2026-07-13T10:02:37.191318+09:00",
+      "auto": true
+    },
+    "라티그래": {
+      "display_name": "라티그래",
+      "status": "o",
+      "matched_name": "라티그래",
+      "updated_at": "2026-07-14T17:09:19.989022+09:00",
       "auto": true
     }
   },
@@ -4113,6 +4120,78 @@
       "advertiser": "롯데리아",
       "status": "x",
       "updated_at": "2026-07-13T17:05:44.345924+09:00",
+      "auto": true
+    },
+    "1022770": {
+      "advertiser": "피치스초이스",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.983082+09:00",
+      "auto": true
+    },
+    "1022766": {
+      "advertiser": "피치스초이스",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.985901+09:00",
+      "auto": true
+    },
+    "1022765": {
+      "advertiser": "인터오리진아이엔씨",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.988715+09:00",
+      "auto": true
+    },
+    "1022759": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.991794+09:00",
+      "auto": true
+    },
+    "1022745": {
+      "advertiser": "알바천국",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.994553+09:00",
+      "auto": true
+    },
+    "1022730": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:19.997294+09:00",
+      "auto": true
+    },
+    "1022729": {
+      "advertiser": "유한실버",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.000086+09:00",
+      "auto": true
+    },
+    "1022403": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.002856+09:00",
+      "auto": true
+    },
+    "1022702": {
+      "advertiser": "양양군",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.005608+09:00",
+      "auto": true
+    },
+    "1022698": {
+      "advertiser": "에이이브랜드코리아",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.008366+09:00",
+      "auto": true
+    },
+    "1022685": {
+      "advertiser": "신한자산운용",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.011109+09:00",
+      "auto": true
+    },
+    "1022688": {
+      "advertiser": "롯데백화점",
+      "status": "x",
+      "updated_at": "2026-07-14T17:09:20.013868+09:00",
       "auto": true
     }
   }
