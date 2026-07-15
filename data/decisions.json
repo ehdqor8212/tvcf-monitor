@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T10:03:10.873111+09:00",
-  "count": 194,
-  "x_count": 494,
+  "updated_at": "2026-07-15T17:03:37.970924+09:00",
+  "count": 196,
+  "x_count": 497,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1290,6 +1290,20 @@
       "status": "o",
       "matched_name": "라티그래",
       "updated_at": "2026-07-14T17:09:19.989022+09:00",
+      "auto": true
+    },
+    "현대약품주": {
+      "display_name": "현대약품 (주)",
+      "status": "maybe",
+      "matched_name": "현대약품",
+      "updated_at": "2026-07-15T17:03:37.959845+09:00",
+      "auto": true
+    },
+    "우아한형제들": {
+      "display_name": "우아한형제들",
+      "status": "o",
+      "matched_name": "우아한형제들",
+      "updated_at": "2026-07-15T17:03:37.963307+09:00",
       "auto": true
     }
   },
@@ -4216,6 +4230,24 @@
       "advertiser": "SBS",
       "status": "x",
       "updated_at": "2026-07-15T10:03:10.871039+09:00",
+      "auto": true
+    },
+    "1022872": {
+      "advertiser": "novita",
+      "status": "x",
+      "updated_at": "2026-07-15T17:03:37.962503+09:00",
+      "auto": true
+    },
+    "1022851": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-07-15T17:03:37.965945+09:00",
+      "auto": true
+    },
+    "1022850": {
+      "advertiser": "롯데면세점",
+      "status": "x",
+      "updated_at": "2026-07-15T17:03:37.968594+09:00",
       "auto": true
     }
   }
