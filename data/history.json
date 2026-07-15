@@ -1,5 +1,52 @@
 [
   {
+    "ad_id": "1022809",
+    "prefix": "bi298",
+    "url": "https://tvcf.co.kr/play/bi298-1022809",
+    "card_title": "코웨이[COWAY] 습기로운 생활의 해답 (feat. 코웨이 인버터 제습기)",
+    "onair": "07.14",
+    "registered_short": "07.14",
+    "brand": "코웨이",
+    "campaign": null,
+    "registered_date": "2026-07-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "코웨이",
+    "advertiser_code": "C000004037",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839578+09:00"
+  },
+  {
+    "ad_id": "1022807",
+    "prefix": "bi276",
+    "url": "https://tvcf.co.kr/play/bi276-1022807",
+    "card_title": "지센[Dear Myself] 희주 (2) #디어마이셀프 #지센 #zishen",
+    "onair": "07.14",
+    "registered_short": "07.14",
+    "brand": "지센",
+    "campaign": null,
+    "registered_date": "2026-07-14",
+    "media_type": "디지털 범퍼",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "위비스",
+    "advertiser_code": "C000011753",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022806",
+        "url": "https://tvcf.co.kr/play/ai265-1022806",
+        "brand": "지센",
+        "campaign": null,
+        "card_title": "지센희주 (2) #디어마이셀프 #지센 #zishen"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-15T10:03:10.839588+09:00"
+  },
+  {
     "ad_id": "1022766",
     "prefix": "ai1661",
     "url": "https://tvcf.co.kr/play/ai1661-1022766",
@@ -218,6 +265,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-07-14T17:09:19.954282+09:00"
+  },
+  {
+    "ad_id": "1022742",
+    "prefix": "ai1424",
+    "url": "https://tvcf.co.kr/play/ai1424-1022742",
+    "card_title": "삼성 갤럭시곧 새롭게 펼쳐집니다 - SKT 초콜릿",
+    "onair": "07.14",
+    "registered_short": "07.14",
+    "brand": "삼성 갤럭시",
+    "campaign": null,
+    "registered_date": "2026-07-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839596+09:00"
   },
   {
     "ad_id": "1022729",
@@ -702,6 +768,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-07-14T17:09:19.954242+09:00"
+  },
+  {
+    "ad_id": "1022768",
+    "prefix": "ai1683",
+    "url": "https://tvcf.co.kr/play/ai1683-1022768",
+    "card_title": "룰루피치프라이빗 워터젤 비데, 룰루피치",
+    "onair": "07.11",
+    "registered_short": "07.14",
+    "brand": "룰루피치",
+    "campaign": null,
+    "registered_date": "2026-07-11",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "피치스초이스",
+    "advertiser_code": "4209159",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839591+09:00"
   },
   {
     "ad_id": "1022745",
@@ -1559,6 +1644,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-09T17:04:07.994811+09:00"
+  },
+  {
+    "ad_id": "1022355",
+    "prefix": "bi1554",
+    "url": "https://tvcf.co.kr/play/bi1554-1022355",
+    "card_title": "죽은 시인의 사회시대를 초월한 깊은 공감의 메시지",
+    "onair": "07.08",
+    "registered_short": "07.14",
+    "brand": "죽은 시인의 사회",
+    "campaign": null,
+    "registered_date": "2026-07-08",
+    "media_type": "공중파",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "SBS",
+    "advertiser_code": "C000005547",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839593+09:00"
   },
   {
     "ad_id": "1022350",
@@ -7015,6 +7119,41 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-22T17:03:52.195043+09:00"
+  },
+  {
+    "ad_id": "1022801",
+    "prefix": "bi219",
+    "url": "https://tvcf.co.kr/play/bi219-1022801",
+    "card_title": "링티 나잇티베토벤에게 필요한 건?",
+    "onair": "06.20",
+    "registered_short": "07.14",
+    "brand": "링티 나잇티",
+    "campaign": null,
+    "registered_date": "2026-06-20",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "링티",
+    "advertiser_code": "C000162009",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022802",
+        "url": "https://tvcf.co.kr/play/ai221-1022802",
+        "brand": "링티 나잇티",
+        "campaign": null,
+        "card_title": "링티 나잇티진주귀걸이를 한 소녀에게 필요한 건?"
+      },
+      {
+        "ad_id": "1022800",
+        "url": "https://tvcf.co.kr/play/ai308-1022800",
+        "brand": "링티 나잇티",
+        "campaign": null,
+        "card_title": "링티 나잇티모나리자에게 필요한 건?"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-15T10:03:10.839585+09:00"
   },
   {
     "ad_id": "1022799",
@@ -13107,6 +13246,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-07-14T17:09:19.954280+09:00"
+  },
+  {
+    "ad_id": "1022740",
+    "prefix": "ai2402",
+    "url": "https://tvcf.co.kr/play/ai2402-1022740",
+    "card_title": "일리윤일리윤 세라마이드 아토 선로션 백탁&이염 테스트",
+    "onair": "06.02",
+    "registered_short": "07.14",
+    "brand": "일리윤",
+    "campaign": null,
+    "registered_date": "2026-06-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "아모레퍼시픽",
+    "advertiser_code": "C000008915",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839595+09:00"
   },
   {
     "ad_id": "1019673",
@@ -22928,6 +23086,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-21T12:03:00.832221+09:00"
+  },
+  {
+    "ad_id": "1022805",
+    "prefix": "bi254",
+    "url": "https://tvcf.co.kr/play/bi254-1022805",
+    "card_title": "그라노벨로 필리니방과 후 태리쌤 X 그라노벨로",
+    "onair": "03.26",
+    "registered_short": "07.14",
+    "brand": "그라노벨로 필리니",
+    "campaign": null,
+    "registered_date": "2026-03-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "그레인온",
+    "advertiser_code": "C000166274",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-15T10:03:10.839589+09:00"
   },
   {
     "ad_id": "1018028",

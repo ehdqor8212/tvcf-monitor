@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T17:09:20.016225+09:00",
+  "updated_at": "2026-07-15T10:03:10.873111+09:00",
   "count": 194,
-  "x_count": 490,
+  "x_count": 494,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4192,6 +4192,30 @@
       "advertiser": "롯데백화점",
       "status": "x",
       "updated_at": "2026-07-14T17:09:20.013868+09:00",
+      "auto": true
+    },
+    "1022807": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-07-15T10:03:10.864140+09:00",
+      "auto": true
+    },
+    "1022805": {
+      "advertiser": "그레인온",
+      "status": "x",
+      "updated_at": "2026-07-15T10:03:10.866340+09:00",
+      "auto": true
+    },
+    "1022768": {
+      "advertiser": "피치스초이스",
+      "status": "x",
+      "updated_at": "2026-07-15T10:03:10.868541+09:00",
+      "auto": true
+    },
+    "1022355": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-07-15T10:03:10.871039+09:00",
       "auto": true
     }
   }
