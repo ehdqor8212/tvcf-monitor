@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T04:30:19.463Z",
-  "count": 196,
-  "x_count": 500,
+  "updated_at": "2026-07-16T17:07:32.765546+09:00",
+  "count": 200,
+  "x_count": 509,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1304,6 +1304,34 @@
       "status": "o",
       "matched_name": "제스프리인터내셔날코리아",
       "updated_at": "2026-07-16T04:30:06.412Z"
+    },
+    "국민건강보험": {
+      "display_name": "국민건강보험",
+      "status": "maybe",
+      "matched_name": "국민건강보험공단",
+      "updated_at": "2026-07-16T17:07:32.745192+09:00",
+      "auto": true
+    },
+    "포르쉐코리아": {
+      "display_name": "포르쉐코리아 ",
+      "status": "o",
+      "matched_name": "포르쉐코리아",
+      "updated_at": "2026-07-16T17:07:32.746219+09:00",
+      "auto": true
+    },
+    "온브릭스": {
+      "display_name": "온브릭스",
+      "status": "o",
+      "matched_name": "온브릭스",
+      "updated_at": "2026-07-16T17:07:32.756728+09:00",
+      "auto": true
+    },
+    "넥센타이어": {
+      "display_name": "넥센타이어",
+      "status": "maybe",
+      "matched_name": "(미집행) 넥센타이어",
+      "updated_at": "2026-07-16T17:07:32.763585+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -4264,6 +4292,60 @@
       "advertiser": "가상",
       "status": "x",
       "updated_at": "2026-07-16T10:02:52.914475+09:00",
+      "auto": true
+    },
+    "1023082": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.738796+09:00",
+      "auto": true
+    },
+    "1023066": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.741290+09:00",
+      "auto": true
+    },
+    "1023064": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.743766+09:00",
+      "auto": true
+    },
+    "1023055": {
+      "advertiser": "아마존",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.748684+09:00",
+      "auto": true
+    },
+    "1023060": {
+      "advertiser": "True Aussie Beef Korea",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.751111+09:00",
+      "auto": true
+    },
+    "1023027": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.753569+09:00",
+      "auto": true
+    },
+    "1023020": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.756019+09:00",
+      "auto": true
+    },
+    "1022986": {
+      "advertiser": "앳홈",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.759172+09:00",
+      "auto": true
+    },
+    "1022985": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.761800+09:00",
       "auto": true
     }
   }

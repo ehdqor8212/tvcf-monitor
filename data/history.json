@@ -1,5 +1,99 @@
 [
   {
+    "ad_id": "1023082",
+    "prefix": "ai2821",
+    "url": "https://tvcf.co.kr/play/ai2821-1023082",
+    "card_title": "양반 100밥바꾸자 (15s)",
+    "onair": "07.16",
+    "registered_short": "07.16",
+    "brand": "양반 100밥",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "케이블",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동원F&B",
+    "advertiser_code": "C000002583",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023049",
+        "url": "https://tvcf.co.kr/play/bi2494-1023049",
+        "brand": "양반 100밥",
+        "campaign": null,
+        "card_title": "양반 100밥바꾸자 (30s)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-16T17:07:32.712815+09:00"
+  },
+  {
+    "ad_id": "1023081",
+    "prefix": "bi2819",
+    "url": "https://tvcf.co.kr/play/bi2819-1023081",
+    "card_title": "삼성 갤럭시New Hope Unfolds | 삼성전자",
+    "onair": "07.16",
+    "registered_short": "07.16",
+    "brand": "삼성 갤럭시",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털 범퍼",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712828+09:00"
+  },
+  {
+    "ad_id": "1022992",
+    "prefix": "ai1922",
+    "url": "https://tvcf.co.kr/play/ai1922-1022992",
+    "card_title": "온브릭스딱복 vs 물복, 세기의 라이벌이 on다!",
+    "onair": "07.16",
+    "registered_short": "07.16",
+    "brand": "온브릭스",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "온브릭스",
+    "advertiser_code": "C000168760",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712850+09:00"
+  },
+  {
+    "ad_id": "1022985",
+    "prefix": "bi1854",
+    "url": "https://tvcf.co.kr/play/bi1854-1022985",
+    "card_title": "롯데리아롯데리아 X 악뮤 [리아두툼새우 30\"] 지금 이 맛에 집중해봐! 리아 두툼새우",
+    "onair": "07.16",
+    "registered_short": "07.16",
+    "brand": "롯데리아",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "롯데리아",
+    "advertiser_code": "C000001210",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022984",
+        "url": "https://tvcf.co.kr/play/ai1843-1022984",
+        "brand": "롯데리아",
+        "campaign": null,
+        "card_title": "롯데리아롯데리아 X 악뮤 [리아두툼새우 15\"] 통통 튀는 새우 패티로 두툼하게! 리아 두툼새우"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-16T17:07:32.712854+09:00"
+  },
+  {
     "ad_id": "1022977",
     "prefix": "bi1775",
     "url": "https://tvcf.co.kr/play/bi1775-1022977",
@@ -17,6 +111,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-16T10:02:52.887463+09:00"
+  },
+  {
+    "ad_id": "1022986",
+    "prefix": "ai1865",
+    "url": "https://tvcf.co.kr/play/ai1865-1022986",
+    "card_title": "미닉스나는 안 해, 미닉스가 해 (Full Ver)",
+    "onair": "07.15",
+    "registered_short": "07.16",
+    "brand": "미닉스",
+    "campaign": null,
+    "registered_date": "2026-07-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "앳홈",
+    "advertiser_code": "C000169544",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1022987",
+        "url": "https://tvcf.co.kr/play/bi1876-1022987",
+        "brand": "미닉스",
+        "campaign": null,
+        "card_title": "미닉스나는 안 해, 미닉스가 해 (15s)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-16T17:07:32.712852+09:00"
   },
   {
     "ad_id": "1022978",
@@ -2122,6 +2244,55 @@
     "collected_at": "2026-07-08T17:03:23.512238+09:00"
   },
   {
+    "ad_id": "1023077",
+    "prefix": "bi2775",
+    "url": "https://tvcf.co.kr/play/bi2775-1023077",
+    "card_title": "폴리덴트New 폴리덴트 파워클린 교정기용 세정제 15s 세로형",
+    "onair": "07.07",
+    "registered_short": "07.16",
+    "brand": "폴리덴트",
+    "campaign": null,
+    "registered_date": "2026-07-07",
+    "media_type": "케이블",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "GSK",
+    "advertiser_code": "C000011160",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023079",
+        "url": "https://tvcf.co.kr/play/bi2797-1023079",
+        "brand": "폴리덴트",
+        "campaign": null,
+        "card_title": "폴리덴트New 폴리덴트 파워클린 의치용 세정제 15s 세로형"
+      },
+      {
+        "ad_id": "1023080",
+        "url": "https://tvcf.co.kr/play/ai3808-1023080",
+        "brand": "폴리덴트",
+        "campaign": null,
+        "card_title": "폴리덴트New 폴리덴트 파워클린 의치용 6s"
+      },
+      {
+        "ad_id": "1023071",
+        "url": "https://tvcf.co.kr/play/bi2718-1023071",
+        "brand": "폴리덴트",
+        "campaign": null,
+        "card_title": "폴리덴트New 폴리덴트 파워클린 교정기용 세정제 full version"
+      },
+      {
+        "ad_id": "1023072",
+        "url": "https://tvcf.co.kr/play/ai2729-1023072",
+        "brand": "폴리덴트",
+        "campaign": null,
+        "card_title": "폴리덴트New 폴리덴트 파워클린 교정기용 세정제 15s"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-07-16T17:07:32.712818+09:00"
+  },
+  {
     "ad_id": "1022461",
     "prefix": "bi1612",
     "url": "https://tvcf.co.kr/play/bi1612-1022461",
@@ -3036,6 +3207,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-06T10:03:01.934414+09:00"
+  },
+  {
+    "ad_id": "1023078",
+    "prefix": "ai2786",
+    "url": "https://tvcf.co.kr/play/ai2786-1023078",
+    "card_title": "폴리덴트New 폴리덴트 파워클린 의치용 세정제 15s",
+    "onair": "07.03",
+    "registered_short": "07.16",
+    "brand": "폴리덴트",
+    "campaign": null,
+    "registered_date": "2026-07-03",
+    "media_type": "케이블",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "GSK",
+    "advertiser_code": "C000011160",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712821+09:00"
   },
   {
     "ad_id": "1022295",
@@ -4008,6 +4198,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-02T10:06:05.042593+09:00"
+  },
+  {
+    "ad_id": "1023027",
+    "prefix": "bi2279",
+    "url": "https://tvcf.co.kr/play/bi2279-1023027",
+    "card_title": "현대건설현대건설 압구정 'OWN THE ONE' 변하지 않는 가치를 지키다",
+    "onair": "07.01",
+    "registered_short": "07.16",
+    "brand": "현대건설",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "아파트/건설",
+    "sub_categories": [],
+    "advertiser": "현대건설",
+    "advertiser_code": "C000001473",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712846+09:00"
   },
   {
     "ad_id": "1022413",
@@ -7159,6 +7368,48 @@
     "collected_at": "2026-06-25T10:01:51.674520+09:00"
   },
   {
+    "ad_id": "1023067",
+    "prefix": "bi2674",
+    "url": "https://tvcf.co.kr/play/bi2674-1023067",
+    "card_title": "비비고bibigo X Chef Talk trailer",
+    "onair": "06.22",
+    "registered_short": "07.16",
+    "brand": "비비고",
+    "campaign": null,
+    "registered_date": "2026-06-22",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023075",
+        "url": "https://tvcf.co.kr/play/bi2753-1023075",
+        "brand": "비비고",
+        "campaign": null,
+        "card_title": "비비고bibigo X Chef Talk ep.1"
+      },
+      {
+        "ad_id": "1023076",
+        "url": "https://tvcf.co.kr/play/ai2764-1023076",
+        "brand": "비비고",
+        "campaign": null,
+        "card_title": "비비고bibigo X Chef Talk ep.2"
+      },
+      {
+        "ad_id": "1023074",
+        "url": "https://tvcf.co.kr/play/ai2742-1023074",
+        "brand": "비비고",
+        "campaign": null,
+        "card_title": "비비고bibigo X Chef Talk trailer"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-07-16T17:07:32.712806+09:00"
+  },
+  {
     "ad_id": "1021714",
     "prefix": "ai1143",
     "url": "https://tvcf.co.kr/play/ai1143-1021714",
@@ -7588,6 +7839,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-22T10:02:15.030845+09:00"
+  },
+  {
+    "ad_id": "1023073",
+    "prefix": "bi2731",
+    "url": "https://tvcf.co.kr/play/bi2731-1023073",
+    "card_title": "비비고UNPACK the Chef’s Tips with Chef. Beau",
+    "onair": "06.19",
+    "registered_short": "07.16",
+    "brand": "비비고",
+    "campaign": null,
+    "registered_date": "2026-06-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712829+09:00"
   },
   {
     "ad_id": "1021853",
@@ -8091,6 +8361,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-06-19T12:03:43.322305+09:00"
+  },
+  {
+    "ad_id": "1023062",
+    "prefix": "ai2628",
+    "url": "https://tvcf.co.kr/play/ai2628-1023062",
+    "card_title": "비비고Unpack the Chef V-log with Chef. Junghyun Park",
+    "onair": "06.18",
+    "registered_short": "07.16",
+    "brand": "비비고",
+    "campaign": null,
+    "registered_date": "2026-06-18",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712833+09:00"
   },
   {
     "ad_id": "1021399",
@@ -8676,6 +8965,25 @@
     "collected_at": "2026-06-18T17:03:31.691924+09:00"
   },
   {
+    "ad_id": "1023051",
+    "prefix": "bi2516",
+    "url": "https://tvcf.co.kr/play/bi2516-1023051",
+    "card_title": "비비고Unpack the Chef V-log with Chef. Beau",
+    "onair": "06.17",
+    "registered_short": "07.16",
+    "brand": "비비고",
+    "campaign": null,
+    "registered_date": "2026-06-17",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712843+09:00"
+  },
+  {
     "ad_id": "1020706",
     "prefix": "ai364",
     "url": "https://tvcf.co.kr/play/ai364-1020706",
@@ -8830,6 +9138,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-18T12:04:10.573966+09:00"
+  },
+  {
+    "ad_id": "1023061",
+    "prefix": "bi2617",
+    "url": "https://tvcf.co.kr/play/bi2617-1023061",
+    "card_title": "비비고Unpack the Chef V-log with Chef. Yongwook Yoo",
+    "onair": "06.16",
+    "registered_short": "07.16",
+    "brand": "비비고",
+    "campaign": null,
+    "registered_date": "2026-06-16",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712837+09:00"
   },
   {
     "ad_id": "1022353",
@@ -12544,6 +12871,25 @@
     ],
     "variant_count": 9,
     "collected_at": "2026-06-08T17:10:09.673458+09:00"
+  },
+  {
+    "ad_id": "1023066",
+    "prefix": "ai2663",
+    "url": "https://tvcf.co.kr/play/ai2663-1023066",
+    "card_title": "SK하이닉스[HY-FOCUS on COMPUTEX 2026] SK hynix at the Heart of AI",
+    "onair": "06.06",
+    "registered_short": "07.16",
+    "brand": "SK하이닉스",
+    "campaign": null,
+    "registered_date": "2026-06-06",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "SK하이닉스",
+    "advertiser_code": "C000012696",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712823+09:00"
   },
   {
     "ad_id": "1019365",
@@ -22256,6 +22602,25 @@
     "collected_at": "2026-05-21T17:03:59.384287+09:00"
   },
   {
+    "ad_id": "1023020",
+    "prefix": "ai3202",
+    "url": "https://tvcf.co.kr/play/ai3202-1023020",
+    "card_title": "현대건설압구정 현대 갤러리아 Teaser Film",
+    "onair": "05.01",
+    "registered_short": "07.16",
+    "brand": "현대건설",
+    "campaign": null,
+    "registered_date": "2026-05-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "아파트/건설",
+    "sub_categories": [],
+    "advertiser": "현대건설",
+    "advertiser_code": "C000001473",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712848+09:00"
+  },
+  {
     "ad_id": "1022378",
     "prefix": "ai1789",
     "url": "https://tvcf.co.kr/play/ai1789-1022378",
@@ -23265,6 +23630,25 @@
     "collected_at": "2026-06-08T17:10:09.673373+09:00"
   },
   {
+    "ad_id": "1023064",
+    "prefix": "ai2641",
+    "url": "https://tvcf.co.kr/play/ai2641-1023064",
+    "card_title": "SK하이닉스[반도체 인문학] AI 시대, 인간은 두 종류로 진화한다 | 뇌과학박사 장동선",
+    "onair": "04.09",
+    "registered_short": "07.16",
+    "brand": "SK하이닉스",
+    "campaign": null,
+    "registered_date": "2026-04-09",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "SK하이닉스",
+    "advertiser_code": "C000012696",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712825+09:00"
+  },
+  {
     "ad_id": "1022210",
     "prefix": "ai2103",
     "url": "https://tvcf.co.kr/play/ai2103-1022210",
@@ -23966,6 +24350,44 @@
     "collected_at": "2026-07-15T17:03:37.936706+09:00"
   },
   {
+    "ad_id": "1023063",
+    "prefix": "bi2639",
+    "url": "https://tvcf.co.kr/play/bi2639-1023063",
+    "card_title": "국민건강보험[HEALTH CODE 2] 지식으로 증명하라! 국민건강보험 헬스코드 2",
+    "onair": "01.28",
+    "registered_short": "07.16",
+    "brand": "국민건강보험",
+    "campaign": null,
+    "registered_date": "2026-01-28",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "국민건강보험",
+    "advertiser_code": "C000019308",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712831+09:00"
+  },
+  {
+    "ad_id": "1023056",
+    "prefix": "ai2562",
+    "url": "https://tvcf.co.kr/play/ai2562-1023056",
+    "card_title": "포르쉐 SSCL[SSCL프렌즈] 포르쉐 타이칸, 정준원 심장을 3초 만에 뛰게 한 이유?!",
+    "onair": "01.23",
+    "registered_short": "07.16",
+    "brand": "포르쉐 SSCL",
+    "campaign": null,
+    "registered_date": "2026-01-23",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "포르쉐코리아 ",
+    "advertiser_code": "C000016647",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712835+09:00"
+  },
+  {
     "ad_id": "1021797",
     "prefix": "bi1975",
     "url": "https://tvcf.co.kr/play/bi1975-1021797",
@@ -24283,6 +24705,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-26T12:02:39.467394+09:00"
+  },
+  {
+    "ad_id": "1023055",
+    "prefix": "bi2551",
+    "url": "https://tvcf.co.kr/play/bi2551-1023055",
+    "card_title": "아마존 글로벌셀링아마존 넥스트셀러 예고편 | K-뷰티 브랜드 서바이벌",
+    "onair": "2025.11.20",
+    "registered_short": "07.16",
+    "brand": "아마존 글로벌셀링",
+    "campaign": null,
+    "registered_date": "2025-11-20",
+    "media_type": "바이럴",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "아마존",
+    "advertiser_code": "C000042281",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712838+09:00"
   },
   {
     "ad_id": "1021072",
@@ -24874,6 +25315,25 @@
     "collected_at": "2026-06-01T17:04:58.177265+09:00"
   },
   {
+    "ad_id": "1023019",
+    "prefix": "bi2191",
+    "url": "https://tvcf.co.kr/play/bi2191-1023019",
+    "card_title": "HMG 드라이빙 익스피리언스Drive To Race | Ep.0 PRACTICE",
+    "onair": "2024.10.16",
+    "registered_short": "07.16",
+    "brand": "HMG 드라이빙 익스피리언스",
+    "campaign": null,
+    "registered_date": "2024-10-16",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "현대자동차",
+    "advertiser_code": "C000001480",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712845+09:00"
+  },
+  {
     "ad_id": "1021236",
     "prefix": "ai1362",
     "url": "https://tvcf.co.kr/play/ai1362-1021236",
@@ -25100,6 +25560,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-24T10:02:57.508129+09:00"
+  },
+  {
+    "ad_id": "1023060",
+    "prefix": "ai3606",
+    "url": "https://tvcf.co.kr/play/ai3606-1023060",
+    "card_title": "호주청정우Kids love beef",
+    "onair": "2010.09.13",
+    "registered_short": "07.16",
+    "brand": "호주청정우",
+    "campaign": null,
+    "registered_date": "2010-09-13",
+    "media_type": "케이블",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "True Aussie Beef Korea",
+    "advertiser_code": "4211906",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-16T17:07:32.712840+09:00"
   },
   {
     "ad_id": "1022113",
