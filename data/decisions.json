@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T17:03:37.970924+09:00",
-  "count": 196,
-  "x_count": 497,
+  "updated_at": "2026-07-16T10:02:52.919163+09:00",
+  "count": 197,
+  "x_count": 499,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1304,6 +1304,13 @@
       "status": "o",
       "matched_name": "우아한형제들",
       "updated_at": "2026-07-15T17:03:37.963307+09:00",
+      "auto": true
+    },
+    "제스프리": {
+      "display_name": "제스프리",
+      "status": "maybe",
+      "matched_name": "제스프리인터내셔날코리아",
+      "updated_at": "2026-07-16T10:02:52.912020+09:00",
       "auto": true
     }
   },
@@ -4248,6 +4255,18 @@
       "advertiser": "롯데면세점",
       "status": "x",
       "updated_at": "2026-07-15T17:03:37.968594+09:00",
+      "auto": true
+    },
+    "1022977": {
+      "advertiser": "가상",
+      "status": "x",
+      "updated_at": "2026-07-16T10:02:52.914475+09:00",
+      "auto": true
+    },
+    "1022909": {
+      "advertiser": "굽네",
+      "status": "x",
+      "updated_at": "2026-07-16T10:02:52.916899+09:00",
       "auto": true
     }
   }
