@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T17:07:32.765546+09:00",
-  "count": 200,
-  "x_count": 509,
+  "updated_at": "2026-07-17T10:04:25.284935+09:00",
+  "count": 203,
+  "x_count": 518,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1331,6 +1331,27 @@
       "status": "maybe",
       "matched_name": "(미집행) 넥센타이어",
       "updated_at": "2026-07-16T17:07:32.763585+09:00",
+      "auto": true
+    },
+    "빔산토리코리아": {
+      "display_name": "빔산토리코리아",
+      "status": "o",
+      "matched_name": "빔산토리코리아",
+      "updated_at": "2026-07-17T10:04:25.256836+09:00",
+      "auto": true
+    },
+    "국민건강보험공단": {
+      "display_name": "국민건강보험공단",
+      "status": "o",
+      "matched_name": "국민건강보험공단",
+      "updated_at": "2026-07-17T10:04:25.265332+09:00",
+      "auto": true
+    },
+    "듀오정보": {
+      "display_name": "듀오정보",
+      "status": "o",
+      "matched_name": "듀오정보",
+      "updated_at": "2026-07-17T10:04:25.265651+09:00",
       "auto": true
     }
   },
@@ -4346,6 +4367,60 @@
       "advertiser": "롯데리아",
       "status": "x",
       "updated_at": "2026-07-16T17:07:32.761800+09:00",
+      "auto": true
+    },
+    "1023118": {
+      "advertiser": "cj웰케어",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.259643+09:00",
+      "auto": true
+    },
+    "1023117": {
+      "advertiser": "CJ웰케어",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.262413+09:00",
+      "auto": true
+    },
+    "1023094": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.265180+09:00",
+      "auto": true
+    },
+    "1023091": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.268387+09:00",
+      "auto": true
+    },
+    "1023090": {
+      "advertiser": "럭스틸",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.271187+09:00",
+      "auto": true
+    },
+    "1023088": {
+      "advertiser": "럭스틸",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.273934+09:00",
+      "auto": true
+    },
+    "1023086": {
+      "advertiser": "한국콜마그룹",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.276709+09:00",
+      "auto": true
+    },
+    "1023085": {
+      "advertiser": "SK에코플랜트",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.279493+09:00",
+      "auto": true
+    },
+    "1022984": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.282258+09:00",
       "auto": true
     }
   }
