@@ -2851,6 +2851,41 @@
     "collected_at": "2026-07-07T12:02:26.820135+09:00"
   },
   {
+    "ad_id": "1023143",
+    "prefix": "bi1438",
+    "url": "https://tvcf.co.kr/play/bi1438-1023143",
+    "card_title": "리즈다리즈다와 함께한 이서의 아이돌로그",
+    "onair": "07.06",
+    "registered_short": "07.18",
+    "brand": "리즈다",
+    "campaign": null,
+    "registered_date": "2026-07-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "리즈다",
+    "advertiser_code": "4212611",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023135",
+        "url": "https://tvcf.co.kr/play/bi1359-1023135",
+        "brand": "리즈다",
+        "campaign": null,
+        "card_title": "리즈다리즈다와 함께한 이서의 아이돌로그"
+      },
+      {
+        "ad_id": "1023133",
+        "url": "https://tvcf.co.kr/play/bi1337-1023133",
+        "brand": "리즈다",
+        "campaign": null,
+        "card_title": "리즈다리즈다와 함께한 이서의 아이돌로그"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-18T10:01:32.066857+09:00"
+  },
+  {
     "ad_id": "1022897",
     "prefix": "bi1976",
     "url": "https://tvcf.co.kr/play/bi1976-1022897",
