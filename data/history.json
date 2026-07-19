@@ -2851,6 +2851,41 @@
     "collected_at": "2026-07-07T12:02:26.820135+09:00"
   },
   {
+    "ad_id": "1023154",
+    "prefix": "ai1541",
+    "url": "https://tvcf.co.kr/play/ai1541-1023154",
+    "card_title": "키움증권[Shorts Ver.2] 나 퇴직연금, 언제까지 묶어 둘거야?",
+    "onair": "07.06",
+    "registered_short": "07.19",
+    "brand": "키움증권",
+    "campaign": null,
+    "registered_date": "2026-07-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "키움증권",
+    "advertiser_code": "C000010193",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023155",
+        "url": "https://tvcf.co.kr/play/bi1552-1023155",
+        "brand": "키움증권",
+        "campaign": null,
+        "card_title": "키움증권[Shorts Ver.3] 나 퇴직연금, 언제까지 재우기만 할거야?"
+      },
+      {
+        "ad_id": "1023153",
+        "url": "https://tvcf.co.kr/play/bi1539-1023153",
+        "brand": "키움증권",
+        "campaign": null,
+        "card_title": "키움증권[Shorts Ver.1] 나 퇴직연금, 더 이상 갇혀 있을 순 없다"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-19T17:01:30.624058+09:00"
+  },
+  {
     "ad_id": "1023143",
     "prefix": "bi1438",
     "url": "https://tvcf.co.kr/play/bi1438-1023143",
