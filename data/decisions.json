@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-18T10:01:32.094944+09:00",
+  "updated_at": "2026-07-20T10:02:36.918215+09:00",
   "count": 203,
-  "x_count": 519,
+  "x_count": 521,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4427,6 +4427,18 @@
       "advertiser": "리즈다",
       "status": "x",
       "updated_at": "2026-07-18T10:01:32.092383+09:00",
+      "auto": true
+    },
+    "1023158": {
+      "advertiser": "KRIV",
+      "status": "x",
+      "updated_at": "2026-07-20T10:02:36.912543+09:00",
+      "auto": true
+    },
+    "1023145": {
+      "advertiser": "제주개발공사",
+      "status": "x",
+      "updated_at": "2026-07-20T10:02:36.915404+09:00",
       "auto": true
     }
   }
