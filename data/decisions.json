@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T10:02:36.918215+09:00",
-  "count": 203,
-  "x_count": 521,
+  "updated_at": "2026-07-20T17:06:48.490045+09:00",
+  "count": 205,
+  "x_count": 534,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1352,6 +1352,20 @@
       "status": "o",
       "matched_name": "듀오정보",
       "updated_at": "2026-07-17T10:04:25.265651+09:00",
+      "auto": true
+    },
+    "로보락": {
+      "display_name": "로보락",
+      "status": "maybe",
+      "matched_name": "로보락코리아",
+      "updated_at": "2026-07-20T17:06:48.452193+09:00",
+      "auto": true
+    },
+    "신성통상": {
+      "display_name": "신성통상",
+      "status": "maybe",
+      "matched_name": "(미집행) 신성통상",
+      "updated_at": "2026-07-20T17:06:48.464812+09:00",
       "auto": true
     }
   },
@@ -4439,6 +4453,84 @@
       "advertiser": "제주개발공사",
       "status": "x",
       "updated_at": "2026-07-20T10:02:36.915404+09:00",
+      "auto": true
+    },
+    "1023229": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.450485+09:00",
+      "auto": true
+    },
+    "1023193": {
+      "advertiser": "아쿠쉬네트코리아",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.454989+09:00",
+      "auto": true
+    },
+    "1023178": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.457801+09:00",
+      "auto": true
+    },
+    "1023177": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.460590+09:00",
+      "auto": true
+    },
+    "1023110": {
+      "advertiser": "셀트리온",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.463391+09:00",
+      "auto": true
+    },
+    "1023104": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.467629+09:00",
+      "auto": true
+    },
+    "1023103": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.470429+09:00",
+      "auto": true
+    },
+    "1023106": {
+      "advertiser": "덴티스테 ",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.473270+09:00",
+      "auto": true
+    },
+    "1023167": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.476049+09:00",
+      "auto": true
+    },
+    "1023171": {
+      "advertiser": "빅히트 뮤직",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.478832+09:00",
+      "auto": true
+    },
+    "1023161": {
+      "advertiser": "아메리칸 미트스토리",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.481599+09:00",
+      "auto": true
+    },
+    "1023160": {
+      "advertiser": "아메리칸 미트스토리",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.484382+09:00",
+      "auto": true
+    },
+    "1023159": {
+      "advertiser": "의왕역 SK VIEW",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.487166+09:00",
       "auto": true
     }
   }
