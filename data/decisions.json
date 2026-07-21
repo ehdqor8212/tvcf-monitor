@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T04:13:32.750Z",
-  "count": 205,
-  "x_count": 539,
+  "updated_at": "2026-07-21T17:05:07.773453+09:00",
+  "count": 206,
+  "x_count": 545,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1365,6 +1365,13 @@
       "status": "o",
       "matched_name": "한국발명진흥회(KIPA)",
       "updated_at": "2026-07-21T04:13:21.284Z"
+    },
+    "한국에너지공단": {
+      "display_name": "한국에너지공단",
+      "status": "o",
+      "matched_name": "한국에너지공단",
+      "updated_at": "2026-07-21T17:05:07.762785+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -4558,6 +4565,42 @@
       "advertiser": "PUBG",
       "status": "x",
       "updated_at": "2026-07-21T10:04:10.132429+09:00",
+      "auto": true
+    },
+    "1023506": {
+      "advertiser": "도미노피자",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.756178+09:00",
+      "auto": true
+    },
+    "1023500": {
+      "advertiser": "도미노피자",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.758882+09:00",
+      "auto": true
+    },
+    "1023274": {
+      "advertiser": "KRIV",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.761569+09:00",
+      "auto": true
+    },
+    "1023278": {
+      "advertiser": "KFC",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.765467+09:00",
+      "auto": true
+    },
+    "1023277": {
+      "advertiser": "KFC",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.768155+09:00",
+      "auto": true
+    },
+    "1023272": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-07-21T17:05:07.770837+09:00",
       "auto": true
     }
   }
