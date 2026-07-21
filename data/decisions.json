@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T17:06:48.490045+09:00",
-  "count": 205,
-  "x_count": 534,
+  "updated_at": "2026-07-21T10:04:10.139699+09:00",
+  "count": 206,
+  "x_count": 538,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1366,6 +1366,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 신성통상",
       "updated_at": "2026-07-20T17:06:48.464812+09:00",
+      "auto": true
+    },
+    "한국발명진흥회": {
+      "display_name": "한국발명진흥회",
+      "status": "maybe",
+      "matched_name": "한국발명진흥회(KIPA)",
+      "updated_at": "2026-07-21T10:04:10.127498+09:00",
       "auto": true
     }
   },
@@ -4531,6 +4538,30 @@
       "advertiser": "의왕역 SK VIEW",
       "status": "x",
       "updated_at": "2026-07-20T17:06:48.487166+09:00",
+      "auto": true
+    },
+    "1023247": {
+      "advertiser": "PUBG",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.129934+09:00",
+      "auto": true
+    },
+    "1023248": {
+      "advertiser": "PUBG",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.132429+09:00",
+      "auto": true
+    },
+    "1023246": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.134862+09:00",
+      "auto": true
+    },
+    "1023245": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.137285+09:00",
       "auto": true
     }
   }
