@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T04:09:58.504Z",
+  "updated_at": "2026-07-21T04:13:21.290Z",
   "count": 206,
   "x_count": 538,
   "decisions": {
@@ -1369,10 +1369,9 @@
     },
     "한국발명진흥회": {
       "display_name": "한국발명진흥회",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "한국발명진흥회(KIPA)",
-      "updated_at": "2026-07-21T10:04:10.127498+09:00",
-      "auto": true
+      "updated_at": "2026-07-21T04:13:21.284Z"
     }
   },
   "x_decisions": {
