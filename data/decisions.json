@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T10:04:10.139699+09:00",
+  "updated_at": "2026-07-21T04:09:58.504Z",
   "count": 206,
   "x_count": 538,
   "decisions": {
@@ -1356,10 +1356,9 @@
     },
     "로보락": {
       "display_name": "로보락",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "로보락코리아",
-      "updated_at": "2026-07-20T17:06:48.452193+09:00",
-      "auto": true
+      "updated_at": "2026-07-21T04:09:58.495Z"
     },
     "신성통상": {
       "display_name": "신성통상",
@@ -4336,22 +4335,34 @@
       "updated_at": "2026-07-16T10:02:52.914475+09:00",
       "auto": true
     },
-    "1023082": {
-      "advertiser": "동원F&B",
+    "1022984": {
+      "advertiser": "롯데리아",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.738796+09:00",
+      "updated_at": "2026-07-17T10:04:25.282258+09:00",
       "auto": true
     },
-    "1023066": {
-      "advertiser": "SK하이닉스",
+    "1022985": {
+      "advertiser": "롯데리아",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.741290+09:00",
+      "updated_at": "2026-07-16T17:07:32.761800+09:00",
       "auto": true
     },
-    "1023064": {
-      "advertiser": "SK하이닉스",
+    "1022986": {
+      "advertiser": "앳홈",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.743766+09:00",
+      "updated_at": "2026-07-16T17:07:32.759172+09:00",
+      "auto": true
+    },
+    "1023020": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.756019+09:00",
+      "auto": true
+    },
+    "1023027": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-16T17:07:32.753569+09:00",
       "auto": true
     },
     "1023055": {
@@ -4366,70 +4377,22 @@
       "updated_at": "2026-07-16T17:07:32.751111+09:00",
       "auto": true
     },
-    "1023027": {
-      "advertiser": "현대건설",
+    "1023064": {
+      "advertiser": "SK하이닉스",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.753569+09:00",
+      "updated_at": "2026-07-16T17:07:32.743766+09:00",
       "auto": true
     },
-    "1023020": {
-      "advertiser": "현대건설",
+    "1023066": {
+      "advertiser": "SK하이닉스",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.756019+09:00",
+      "updated_at": "2026-07-16T17:07:32.741290+09:00",
       "auto": true
     },
-    "1022986": {
-      "advertiser": "앳홈",
+    "1023082": {
+      "advertiser": "동원F&B",
       "status": "x",
-      "updated_at": "2026-07-16T17:07:32.759172+09:00",
-      "auto": true
-    },
-    "1022985": {
-      "advertiser": "롯데리아",
-      "status": "x",
-      "updated_at": "2026-07-16T17:07:32.761800+09:00",
-      "auto": true
-    },
-    "1023118": {
-      "advertiser": "cj웰케어",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.259643+09:00",
-      "auto": true
-    },
-    "1023117": {
-      "advertiser": "CJ웰케어",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.262413+09:00",
-      "auto": true
-    },
-    "1023094": {
-      "advertiser": "한솔그룹",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.265180+09:00",
-      "auto": true
-    },
-    "1023091": {
-      "advertiser": "한솔그룹",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.268387+09:00",
-      "auto": true
-    },
-    "1023090": {
-      "advertiser": "럭스틸",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.271187+09:00",
-      "auto": true
-    },
-    "1023088": {
-      "advertiser": "럭스틸",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.273934+09:00",
-      "auto": true
-    },
-    "1023086": {
-      "advertiser": "한국콜마그룹",
-      "status": "x",
-      "updated_at": "2026-07-17T10:04:25.276709+09:00",
+      "updated_at": "2026-07-16T17:07:32.738796+09:00",
       "auto": true
     },
     "1023085": {
@@ -4438,64 +4401,34 @@
       "updated_at": "2026-07-17T10:04:25.279493+09:00",
       "auto": true
     },
-    "1022984": {
-      "advertiser": "롯데리아",
+    "1023086": {
+      "advertiser": "한국콜마그룹",
       "status": "x",
-      "updated_at": "2026-07-17T10:04:25.282258+09:00",
+      "updated_at": "2026-07-17T10:04:25.276709+09:00",
       "auto": true
     },
-    "1023143": {
-      "advertiser": "리즈다",
+    "1023088": {
+      "advertiser": "럭스틸",
       "status": "x",
-      "updated_at": "2026-07-18T10:01:32.092383+09:00",
+      "updated_at": "2026-07-17T10:04:25.273934+09:00",
       "auto": true
     },
-    "1023158": {
-      "advertiser": "KRIV",
+    "1023090": {
+      "advertiser": "럭스틸",
       "status": "x",
-      "updated_at": "2026-07-20T10:02:36.912543+09:00",
+      "updated_at": "2026-07-17T10:04:25.271187+09:00",
       "auto": true
     },
-    "1023145": {
-      "advertiser": "제주개발공사",
-      "status": "x",
-      "updated_at": "2026-07-20T10:02:36.915404+09:00",
-      "auto": true
-    },
-    "1023229": {
-      "advertiser": "SK하이닉스",
-      "status": "x",
-      "updated_at": "2026-07-20T17:06:48.450485+09:00",
-      "auto": true
-    },
-    "1023193": {
-      "advertiser": "아쿠쉬네트코리아",
-      "status": "x",
-      "updated_at": "2026-07-20T17:06:48.454989+09:00",
-      "auto": true
-    },
-    "1023178": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-07-20T17:06:48.457801+09:00",
-      "auto": true
-    },
-    "1023177": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-07-20T17:06:48.460590+09:00",
-      "auto": true
-    },
-    "1023110": {
-      "advertiser": "셀트리온",
-      "status": "x",
-      "updated_at": "2026-07-20T17:06:48.463391+09:00",
-      "auto": true
-    },
-    "1023104": {
+    "1023091": {
       "advertiser": "한솔그룹",
       "status": "x",
-      "updated_at": "2026-07-20T17:06:48.467629+09:00",
+      "updated_at": "2026-07-17T10:04:25.268387+09:00",
+      "auto": true
+    },
+    "1023094": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.265180+09:00",
       "auto": true
     },
     "1023103": {
@@ -4504,10 +4437,70 @@
       "updated_at": "2026-07-20T17:06:48.470429+09:00",
       "auto": true
     },
+    "1023104": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.467629+09:00",
+      "auto": true
+    },
     "1023106": {
       "advertiser": "덴티스테 ",
       "status": "x",
       "updated_at": "2026-07-20T17:06:48.473270+09:00",
+      "auto": true
+    },
+    "1023110": {
+      "advertiser": "셀트리온",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.463391+09:00",
+      "auto": true
+    },
+    "1023117": {
+      "advertiser": "CJ웰케어",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.262413+09:00",
+      "auto": true
+    },
+    "1023118": {
+      "advertiser": "cj웰케어",
+      "status": "x",
+      "updated_at": "2026-07-17T10:04:25.259643+09:00",
+      "auto": true
+    },
+    "1023143": {
+      "advertiser": "리즈다",
+      "status": "x",
+      "updated_at": "2026-07-18T10:01:32.092383+09:00",
+      "auto": true
+    },
+    "1023145": {
+      "advertiser": "제주개발공사",
+      "status": "x",
+      "updated_at": "2026-07-20T10:02:36.915404+09:00",
+      "auto": true
+    },
+    "1023158": {
+      "advertiser": "KRIV",
+      "status": "x",
+      "updated_at": "2026-07-20T10:02:36.912543+09:00",
+      "auto": true
+    },
+    "1023159": {
+      "advertiser": "의왕역 SK VIEW",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.487166+09:00",
+      "auto": true
+    },
+    "1023160": {
+      "advertiser": "아메리칸 미트스토리",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.484382+09:00",
+      "auto": true
+    },
+    "1023161": {
+      "advertiser": "아메리칸 미트스토리",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.481599+09:00",
       "auto": true
     },
     "1023167": {
@@ -4522,22 +4515,40 @@
       "updated_at": "2026-07-20T17:06:48.478832+09:00",
       "auto": true
     },
-    "1023161": {
-      "advertiser": "아메리칸 미트스토리",
+    "1023177": {
+      "advertiser": "서울관광재단",
       "status": "x",
-      "updated_at": "2026-07-20T17:06:48.481599+09:00",
+      "updated_at": "2026-07-20T17:06:48.460590+09:00",
       "auto": true
     },
-    "1023160": {
-      "advertiser": "아메리칸 미트스토리",
+    "1023178": {
+      "advertiser": "서울관광재단",
       "status": "x",
-      "updated_at": "2026-07-20T17:06:48.484382+09:00",
+      "updated_at": "2026-07-20T17:06:48.457801+09:00",
       "auto": true
     },
-    "1023159": {
-      "advertiser": "의왕역 SK VIEW",
+    "1023193": {
+      "advertiser": "아쿠쉬네트코리아",
       "status": "x",
-      "updated_at": "2026-07-20T17:06:48.487166+09:00",
+      "updated_at": "2026-07-20T17:06:48.454989+09:00",
+      "auto": true
+    },
+    "1023229": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-07-20T17:06:48.450485+09:00",
+      "auto": true
+    },
+    "1023245": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.137285+09:00",
+      "auto": true
+    },
+    "1023246": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-07-21T10:04:10.134862+09:00",
       "auto": true
     },
     "1023247": {
@@ -4550,18 +4561,6 @@
       "advertiser": "PUBG",
       "status": "x",
       "updated_at": "2026-07-21T10:04:10.132429+09:00",
-      "auto": true
-    },
-    "1023246": {
-      "advertiser": "현대건설",
-      "status": "x",
-      "updated_at": "2026-07-21T10:04:10.134862+09:00",
-      "auto": true
-    },
-    "1023245": {
-      "advertiser": "넷플릭스서비시스코리아",
-      "status": "x",
-      "updated_at": "2026-07-21T10:04:10.137285+09:00",
       "auto": true
     }
   }
