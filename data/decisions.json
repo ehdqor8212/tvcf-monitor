@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T04:13:21.290Z",
-  "count": 206,
-  "x_count": 538,
+  "updated_at": "2026-07-21T04:13:32.750Z",
+  "count": 205,
+  "x_count": 539,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1359,13 +1359,6 @@
       "status": "o",
       "matched_name": "로보락코리아",
       "updated_at": "2026-07-21T04:09:58.495Z"
-    },
-    "신성통상": {
-      "display_name": "신성통상",
-      "status": "maybe",
-      "matched_name": "(미집행) 신성통상",
-      "updated_at": "2026-07-20T17:06:48.464812+09:00",
-      "auto": true
     },
     "한국발명진흥회": {
       "display_name": "한국발명진흥회",
@@ -4447,6 +4440,11 @@
       "status": "x",
       "updated_at": "2026-07-20T17:06:48.473270+09:00",
       "auto": true
+    },
+    "1023108": {
+      "advertiser": "신성통상",
+      "status": "x",
+      "updated_at": "2026-07-21T04:13:32.423Z"
     },
     "1023110": {
       "advertiser": "셀트리온",
