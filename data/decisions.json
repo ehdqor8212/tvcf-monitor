@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T17:05:07.773453+09:00",
-  "count": 206,
-  "x_count": 545,
+  "updated_at": "2026-07-22T17:03:34.619486+09:00",
+  "count": 208,
+  "x_count": 547,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1371,6 +1371,20 @@
       "status": "o",
       "matched_name": "한국에너지공단",
       "updated_at": "2026-07-21T17:05:07.762785+09:00",
+      "auto": true
+    },
+    "디아지오코리아": {
+      "display_name": "디아지오코리아",
+      "status": "o",
+      "matched_name": "디아지오코리아",
+      "updated_at": "2026-07-22T17:03:34.613542+09:00",
+      "auto": true
+    },
+    "데상트코리아": {
+      "display_name": "데상트코리아",
+      "status": "o",
+      "matched_name": "데상트코리아",
+      "updated_at": "2026-07-22T17:03:34.613803+09:00",
       "auto": true
     }
   },
@@ -4601,6 +4615,18 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-07-21T17:05:07.770837+09:00",
+      "auto": true
+    },
+    "1023558": {
+      "advertiser": "프랭크 에프앤비",
+      "status": "x",
+      "updated_at": "2026-07-22T17:03:34.613229+09:00",
+      "auto": true
+    },
+    "1023548": {
+      "advertiser": "프랭크 에프앤비",
+      "status": "x",
+      "updated_at": "2026-07-22T17:03:34.616628+09:00",
       "auto": true
     }
   }
