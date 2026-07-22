@@ -551,6 +551,25 @@
     "collected_at": "2026-07-20T10:02:36.885060+09:00"
   },
   {
+    "ad_id": "1023529",
+    "prefix": "bi1297",
+    "url": "https://tvcf.co.kr/play/bi1297-1023529",
+    "card_title": "LG유플러스형제가 해외 여행 가면 생기는 일",
+    "onair": "07.16",
+    "registered_short": "07.21",
+    "brand": "LG유플러스",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "LG유플러스",
+    "advertiser_code": "C000009765",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-22T10:01:47.579032+09:00"
+  },
+  {
     "ad_id": "1023507",
     "prefix": "bi273",
     "url": "https://tvcf.co.kr/play/bi273-1023507",
@@ -2743,6 +2762,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-10T17:04:39.815478+09:00"
+  },
+  {
+    "ad_id": "1023530",
+    "prefix": "ai2308",
+    "url": "https://tvcf.co.kr/play/ai2308-1023530",
+    "card_title": "열혈강호 넥스트장항준 x 유해진 차기작 발표 현장 공개!",
+    "onair": "07.09",
+    "registered_short": "07.21",
+    "brand": "열혈강호 넥스트",
+    "campaign": null,
+    "registered_date": "2026-07-09",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "카카오게임즈",
+    "advertiser_code": "C000017089",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-22T10:01:47.579024+09:00"
   },
   {
     "ad_id": "1022625",
