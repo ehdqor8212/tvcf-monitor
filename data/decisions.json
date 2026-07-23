@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T10:01:51.895833+09:00",
+  "updated_at": "2026-07-23T17:06:13.812579+09:00",
   "count": 208,
-  "x_count": 550,
+  "x_count": 554,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4645,6 +4645,30 @@
       "advertiser": "지앤지365",
       "status": "x",
       "updated_at": "2026-07-23T10:01:51.893103+09:00",
+      "auto": true
+    },
+    "1023748": {
+      "advertiser": "케이에스국민신발",
+      "status": "x",
+      "updated_at": "2026-07-23T17:06:13.801598+09:00",
+      "auto": true
+    },
+    "1023739": {
+      "advertiser": "KB부동산신탁",
+      "status": "x",
+      "updated_at": "2026-07-23T17:06:13.804353+09:00",
+      "auto": true
+    },
+    "1023716": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-07-23T17:06:13.807108+09:00",
+      "auto": true
+    },
+    "1023710": {
+      "advertiser": "케이뱅크",
+      "status": "x",
+      "updated_at": "2026-07-23T17:06:13.809831+09:00",
       "auto": true
     }
   }
