@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T17:03:34.619486+09:00",
+  "updated_at": "2026-07-23T10:01:51.895833+09:00",
   "count": 208,
-  "x_count": 547,
+  "x_count": 550,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4627,6 +4627,24 @@
       "advertiser": "프랭크 에프앤비",
       "status": "x",
       "updated_at": "2026-07-22T17:03:34.616628+09:00",
+      "auto": true
+    },
+    "1023623": {
+      "advertiser": "OpenAI",
+      "status": "x",
+      "updated_at": "2026-07-23T10:01:51.887525+09:00",
+      "auto": true
+    },
+    "1023605": {
+      "advertiser": "Heineken",
+      "status": "x",
+      "updated_at": "2026-07-23T10:01:51.890312+09:00",
+      "auto": true
+    },
+    "1023598": {
+      "advertiser": "지앤지365",
+      "status": "x",
+      "updated_at": "2026-07-23T10:01:51.893103+09:00",
       "auto": true
     }
   }
