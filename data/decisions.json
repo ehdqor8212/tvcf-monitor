@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T17:06:13.812579+09:00",
-  "count": 208,
-  "x_count": 554,
+  "updated_at": "2026-07-24T10:02:30.477947+09:00",
+  "count": 209,
+  "x_count": 556,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1385,6 +1385,13 @@
       "status": "o",
       "matched_name": "데상트코리아",
       "updated_at": "2026-07-22T17:03:34.613803+09:00",
+      "auto": true
+    },
+    "영원아웃도어": {
+      "display_name": "영원아웃도어",
+      "status": "o",
+      "matched_name": "영원아웃도어",
+      "updated_at": "2026-07-24T10:02:30.469920+09:00",
       "auto": true
     }
   },
@@ -4669,6 +4676,18 @@
       "advertiser": "케이뱅크",
       "status": "x",
       "updated_at": "2026-07-23T17:06:13.809831+09:00",
+      "auto": true
+    },
+    "1023782": {
+      "advertiser": "소노호텔앤리조트",
+      "status": "x",
+      "updated_at": "2026-07-24T10:02:30.472516+09:00",
+      "auto": true
+    },
+    "1023777": {
+      "advertiser": "아스테라시스",
+      "status": "x",
+      "updated_at": "2026-07-24T10:02:30.475153+09:00",
       "auto": true
     }
   }
