@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-24T10:02:30.477947+09:00",
+  "updated_at": "2026-07-24T17:02:52.481456+09:00",
   "count": 209,
-  "x_count": 556,
+  "x_count": 558,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4688,6 +4688,18 @@
       "advertiser": "아스테라시스",
       "status": "x",
       "updated_at": "2026-07-24T10:02:30.475153+09:00",
+      "auto": true
+    },
+    "1023787": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-24T17:02:52.476350+09:00",
+      "auto": true
+    },
+    "1023786": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-24T17:02:52.478846+09:00",
       "auto": true
     }
   }
