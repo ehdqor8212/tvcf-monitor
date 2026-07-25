@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-24T17:02:52.481456+09:00",
-  "count": 209,
-  "x_count": 558,
+  "updated_at": "2026-07-25T10:02:26.984435+09:00",
+  "count": 210,
+  "x_count": 560,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1392,6 +1392,13 @@
       "status": "o",
       "matched_name": "영원아웃도어",
       "updated_at": "2026-07-24T10:02:30.469920+09:00",
+      "auto": true
+    },
+    "애경산업": {
+      "display_name": "애경산업 ",
+      "status": "o",
+      "matched_name": "애경산업",
+      "updated_at": "2026-07-25T10:02:26.976741+09:00",
       "auto": true
     }
   },
@@ -4700,6 +4707,18 @@
       "advertiser": "롯데리아",
       "status": "x",
       "updated_at": "2026-07-24T17:02:52.478846+09:00",
+      "auto": true
+    },
+    "1023813": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-07-25T10:02:26.979249+09:00",
+      "auto": true
+    },
+    "1023774": {
+      "advertiser": "아스테라시스",
+      "status": "x",
+      "updated_at": "2026-07-25T10:02:26.981705+09:00",
       "auto": true
     }
   }
