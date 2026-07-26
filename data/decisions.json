@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-25T10:02:26.984435+09:00",
+  "updated_at": "2026-07-26T17:01:56.129703+09:00",
   "count": 210,
-  "x_count": 560,
+  "x_count": 561,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4719,6 +4719,12 @@
       "advertiser": "아스테라시스",
       "status": "x",
       "updated_at": "2026-07-25T10:02:26.981705+09:00",
+      "auto": true
+    },
+    "1023853": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-07-26T17:01:56.126777+09:00",
       "auto": true
     }
   }
