@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T04:41:09.138Z",
-  "count": 209,
-  "x_count": 565,
+  "updated_at": "2026-07-27T17:04:51.802892+09:00",
+  "count": 210,
+  "x_count": 568,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1391,6 +1391,13 @@
       "status": "o",
       "matched_name": "애경산업",
       "updated_at": "2026-07-25T10:02:26.976741+09:00",
+      "auto": true
+    },
+    "주영엔에스": {
+      "display_name": "주영엔에스",
+      "status": "maybe",
+      "matched_name": "(미집행) 주영엔에스",
+      "updated_at": "2026-07-27T17:04:51.801052+09:00",
       "auto": true
     }
   },
@@ -4740,6 +4747,24 @@
       "advertiser": "대한민국정부",
       "status": "x",
       "updated_at": "2026-07-27T10:02:17.389262+09:00",
+      "auto": true
+    },
+    "1023995": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-07-27T17:04:51.793930+09:00",
+      "auto": true
+    },
+    "1023707": {
+      "advertiser": "볼보자동차코리아",
+      "status": "x",
+      "updated_at": "2026-07-27T17:04:51.796400+09:00",
+      "auto": true
+    },
+    "1023957": {
+      "advertiser": "나무엑스",
+      "status": "x",
+      "updated_at": "2026-07-27T17:04:51.798897+09:00",
       "auto": true
     }
   }

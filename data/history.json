@@ -1,5 +1,134 @@
 [
   {
+    "ad_id": "1023995",
+    "prefix": "bi1955",
+    "url": "https://tvcf.co.kr/play/bi1955-1023995",
+    "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO SEHUN",
+    "onair": "07.27",
+    "registered_short": "07.27",
+    "brand": "메가MGC커피",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "메가MGC커피",
+    "advertiser_code": "C000040962",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023994",
+        "url": "https://tvcf.co.kr/play/ai1944-1023994",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO KAI"
+      },
+      {
+        "ad_id": "1023990",
+        "url": "https://tvcf.co.kr/play/ai2909-1023990",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO D.O."
+      },
+      {
+        "ad_id": "1023989",
+        "url": "https://tvcf.co.kr/play/bi1898-1023989",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO SUHO"
+      },
+      {
+        "ad_id": "1023986",
+        "url": "https://tvcf.co.kr/play/ai1865-1023986",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO CHANYEOL"
+      },
+      {
+        "ad_id": "1023980",
+        "url": "https://tvcf.co.kr/play/ai2808-1023980",
+        "brand": "메가MGC커피",
+        "campaign": null,
+        "card_title": "메가MGC커피EXTRAORDINARY( : summer ) | EXO 여름을 노래해"
+      }
+    ],
+    "variant_count": 6,
+    "collected_at": "2026-07-27T17:04:51.766630+09:00"
+  },
+  {
+    "ad_id": "1023978",
+    "prefix": "ai1786",
+    "url": "https://tvcf.co.kr/play/ai1786-1023978",
+    "card_title": "엑스텐드AI 영상 - 나의 피트니스에 타협은 없다",
+    "onair": "07.27",
+    "registered_short": "07.27",
+    "brand": "엑스텐드",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "동아제약",
+    "advertiser_code": "C000003814",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766642+09:00"
+  },
+  {
+    "ad_id": "1023959",
+    "prefix": "bi1595",
+    "url": "https://tvcf.co.kr/play/bi1595-1023959",
+    "card_title": "현대자동차그룹The Moving Room",
+    "onair": "07.27",
+    "registered_short": "07.27",
+    "brand": "현대자동차그룹",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "현대자동차그룹",
+    "advertiser_code": "C000010115",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766651+09:00"
+  },
+  {
+    "ad_id": "1023953",
+    "prefix": "bi1538",
+    "url": "https://tvcf.co.kr/play/bi1538-1023953",
+    "card_title": "메이플스토리 M[Episode 1.] 소대 축구",
+    "onair": "07.27",
+    "registered_short": "07.27",
+    "brand": "메이플스토리 M",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023952",
+        "url": "https://tvcf.co.kr/play/ai1527-1023952",
+        "brand": "메이플스토리 M",
+        "campaign": null,
+        "card_title": "메이플스토리 M[Episode 3.] 야간 행군"
+      },
+      {
+        "ad_id": "1023951",
+        "url": "https://tvcf.co.kr/play/bi1516-1023951",
+        "brand": "메이플스토리 M",
+        "campaign": null,
+        "card_title": "메이플스토리 M[Episode 2.] 저녁 점호"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-27T17:04:51.766659+09:00"
+  },
+  {
     "ad_id": "1023861",
     "prefix": "bi1616",
     "url": "https://tvcf.co.kr/play/bi1616-1023861",
@@ -17,6 +146,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-27T10:02:17.357275+09:00"
+  },
+  {
+    "ad_id": "1023977",
+    "prefix": "bi1775",
+    "url": "https://tvcf.co.kr/play/bi1775-1023977",
+    "card_title": "르노 그랑 콜레오스 하이브리드 E-Tech르노가 자신 있게 제안하는 60일 반납보장 프로그램",
+    "onair": "07.25",
+    "registered_short": "07.27",
+    "brand": "르노 그랑 콜레오스 하이브리드 E-Tech",
+    "campaign": null,
+    "registered_date": "2026-07-25",
+    "media_type": "공중파",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "르노코리아",
+    "advertiser_code": "C000004313",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766645+09:00"
   },
   {
     "ad_id": "1023864",
@@ -90,6 +238,34 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-07-25T10:02:26.947882+09:00"
+  },
+  {
+    "ad_id": "1023957",
+    "prefix": "bi1573",
+    "url": "https://tvcf.co.kr/play/bi1573-1023957",
+    "card_title": "나무엑스[나무엑스] 로봇과 사는 시대 -우리 집 첫 번째 로봇 나무엑스 (30')",
+    "onair": "07.24",
+    "registered_short": "07.27",
+    "brand": "나무엑스",
+    "campaign": null,
+    "registered_date": "2026-07-24",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "나무엑스",
+    "advertiser_code": "C000168658",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1023956",
+        "url": "https://tvcf.co.kr/play/ai1562-1023956",
+        "brand": "나무엑스",
+        "campaign": null,
+        "card_title": "나무엑스[나무엑스] 로봇과 사는 시대 -우리 집 첫 번째 로봇 나무엑스 (full ver.)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-27T17:04:51.766655+09:00"
   },
   {
     "ad_id": "1023862",
@@ -882,6 +1058,25 @@
     "collected_at": "2026-07-23T17:06:13.773187+09:00"
   },
   {
+    "ad_id": "1023707",
+    "prefix": "bi275",
+    "url": "https://tvcf.co.kr/play/bi275-1023707",
+    "card_title": "볼보  ES90[VOLVO] 완전히 새로운 볼보 ES90을 만나보세요",
+    "onair": "07.22",
+    "registered_short": "07.27",
+    "brand": "볼보  ES90",
+    "campaign": null,
+    "registered_date": "2026-07-22",
+    "media_type": "공중파",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "볼보자동차코리아",
+    "advertiser_code": "C000011470",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766639+09:00"
+  },
+  {
     "ad_id": "1023623",
     "prefix": "bi1232",
     "url": "https://tvcf.co.kr/play/bi1232-1023623",
@@ -1573,6 +1768,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-20T10:02:36.885060+09:00"
+  },
+  {
+    "ad_id": "1023955",
+    "prefix": "bi1551",
+    "url": "https://tvcf.co.kr/play/bi1551-1023955",
+    "card_title": "메이플스토리 M2026 Summer Update 「RE:BOOST」 Prologue I 사전등록 오픈",
+    "onair": "07.16",
+    "registered_short": "07.27",
+    "brand": "메이플스토리 M",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766657+09:00"
   },
   {
     "ad_id": "1023805",
@@ -2697,6 +2911,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-14T17:09:19.954277+09:00"
+  },
+  {
+    "ad_id": "1023958",
+    "prefix": "ai1584",
+    "url": "https://tvcf.co.kr/play/ai1584-1023958",
+    "card_title": "홈스타 맥스클리너배수관 오염, 손 안대고 한 방에 싹!",
+    "onair": "07.13",
+    "registered_short": "07.27",
+    "brand": "홈스타 맥스클리너",
+    "campaign": null,
+    "registered_date": "2026-07-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "LG생활건강",
+    "advertiser_code": "C000003564",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766653+09:00"
   },
   {
     "ad_id": "1023748",
@@ -7890,6 +8123,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-01T10:03:37.916104+09:00"
+  },
+  {
+    "ad_id": "1021765",
+    "prefix": "bi1659",
+    "url": "https://tvcf.co.kr/play/bi1659-1021765",
+    "card_title": "소바바 황금홀릭소바바 황금홀릭 EP2: '계'빠르게 구해줄게 30s",
+    "onair": "06.30",
+    "registered_short": "07.27",
+    "brand": "소바바 황금홀릭",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "공중파",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "CJ제일제당",
+    "advertiser_code": "C000001361",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766649+09:00"
   },
   {
     "ad_id": "1021764",
@@ -25229,6 +25481,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-21T17:03:59.384287+09:00"
+  },
+  {
+    "ad_id": "1023856",
+    "prefix": "ai1561",
+    "url": "https://tvcf.co.kr/play/ai1561-1023856",
+    "card_title": "삼성화재새로고침 100세 큰병안심플랜",
+    "onair": "05.01",
+    "registered_short": "07.27",
+    "brand": "삼성화재",
+    "campaign": null,
+    "registered_date": "2026-05-01",
+    "media_type": "케이블",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "삼성화재",
+    "advertiser_code": "C000001264",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-27T17:04:51.766647+09:00"
   },
   {
     "ad_id": "1023598",
