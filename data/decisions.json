@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T04:39:44.156Z",
-  "count": 210,
-  "x_count": 564,
+  "updated_at": "2026-07-27T04:41:09.138Z",
+  "count": 209,
+  "x_count": 565,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1261,13 +1261,6 @@
       "status": "o",
       "matched_name": "케이카",
       "updated_at": "2026-07-12T17:02:17.201928+09:00",
-      "auto": true
-    },
-    "주영엔에스": {
-      "display_name": "주영엔에스",
-      "status": "maybe",
-      "matched_name": "(미집행) 주영엔에스",
-      "updated_at": "2026-07-12T17:02:17.209094+09:00",
       "auto": true
     },
     "국방부": {
@@ -4719,6 +4712,11 @@
       "status": "x",
       "updated_at": "2026-07-25T10:02:26.979249+09:00",
       "auto": true
+    },
+    "1023844": {
+      "advertiser": "주영엔에스",
+      "status": "x",
+      "updated_at": "2026-07-27T04:41:08.700Z"
     },
     "1023853": {
       "advertiser": "Samsung",
