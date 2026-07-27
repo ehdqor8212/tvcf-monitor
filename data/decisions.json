@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T17:01:56.129703+09:00",
+  "updated_at": "2026-07-27T10:02:17.394988+09:00",
   "count": 210,
-  "x_count": 561,
+  "x_count": 564,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4725,6 +4725,24 @@
       "advertiser": "Samsung",
       "status": "x",
       "updated_at": "2026-07-26T17:01:56.126777+09:00",
+      "auto": true
+    },
+    "1023860": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-07-27T10:02:17.386452+09:00",
+      "auto": true
+    },
+    "1023864": {
+      "advertiser": "대한민국정부",
+      "status": "x",
+      "updated_at": "2026-07-27T10:02:17.389262+09:00",
+      "auto": true
+    },
+    "1023863": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-07-27T10:02:17.392051+09:00",
       "auto": true
     }
   }
