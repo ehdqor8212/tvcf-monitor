@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T10:04:00.231035+09:00",
-  "count": 210,
-  "x_count": 575,
+  "updated_at": "2026-07-28T17:05:17.214483+09:00",
+  "count": 211,
+  "x_count": 582,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1398,6 +1398,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 주영엔에스",
       "updated_at": "2026-07-27T17:04:51.801052+09:00",
+      "auto": true
+    },
+    "신한투자증권": {
+      "display_name": "신한투자증권",
+      "status": "o",
+      "matched_name": "신한투자증권",
+      "updated_at": "2026-07-28T17:05:17.209334+09:00",
       "auto": true
     }
   },
@@ -4807,6 +4814,48 @@
       "advertiser": "SK브로드밴드",
       "status": "x",
       "updated_at": "2026-07-28T10:04:00.228170+09:00",
+      "auto": true
+    },
+    "1024055": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.196613+09:00",
+      "auto": true
+    },
+    "1024054": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.199069+09:00",
+      "auto": true
+    },
+    "1024042": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.201489+09:00",
+      "auto": true
+    },
+    "1024050": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.203950+09:00",
+      "auto": true
+    },
+    "1024049": {
+      "advertiser": "데이비드",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.206398+09:00",
+      "auto": true
+    },
+    "1024041": {
+      "advertiser": "피치스초이스",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.208829+09:00",
+      "auto": true
+    },
+    "1024027": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.211769+09:00",
       "auto": true
     }
   }

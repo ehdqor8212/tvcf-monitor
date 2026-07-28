@@ -1,5 +1,99 @@
 [
   {
+    "ad_id": "1024062",
+    "prefix": "ai2628",
+    "url": "https://tvcf.co.kr/play/ai2628-1024062",
+    "card_title": "LG유플러스모두에게 심플한 AI｜쓰고 싶은 AI를 가볍게 시작하는 구글원+보상패스 혜택",
+    "onair": "07.28",
+    "registered_short": "07.28",
+    "brand": "LG유플러스",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "케이블",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "LG유플러스",
+    "advertiser_code": "C000009765",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024061",
+        "url": "https://tvcf.co.kr/play/bi2617-1024061",
+        "brand": "LG유플러스",
+        "campaign": null,
+        "card_title": "LG유플러스모두에게 심플한 AI｜U+에서 AI로 심플해진 일상"
+      },
+      {
+        "ad_id": "1024060",
+        "url": "https://tvcf.co.kr/play/ai3606-1024060",
+        "brand": "LG유플러스",
+        "campaign": null,
+        "card_title": "LG유플러스[갤럭시 Z 폴드8] 모두에게 심플한 AI | 유튜브프리미엄 + 구글 AI Pro 편 (사전예약 15s)"
+      },
+      {
+        "ad_id": "1024059",
+        "url": "https://tvcf.co.kr/play/bi2595-1024059",
+        "brand": "LG유플러스",
+        "campaign": null,
+        "card_title": "LG유플러스[갤럭시 Z 폴드8] 모두에게 심플한 AI | 유튜브프리미엄 + 구글 AI Pro 편 (사전예약 30s)"
+      },
+      {
+        "ad_id": "1024058",
+        "url": "https://tvcf.co.kr/play/ai2584-1024058",
+        "brand": "LG유플러스",
+        "campaign": null,
+        "card_title": "LG유플러스[갤럭시 Z 폴드8] 모두에게 심플한 AI | 구글원+보상패스 혜택 편 (사전예약 15s)"
+      },
+      {
+        "ad_id": "1024057",
+        "url": "https://tvcf.co.kr/play/bi2573-1024057",
+        "brand": "LG유플러스",
+        "campaign": null,
+        "card_title": "LG유플러스[갤럭시 Z 폴드8] 모두에게 심플한 AI | 구글원+보상패스 혜택 편 (사전예약 30s)"
+      }
+    ],
+    "variant_count": 6,
+    "collected_at": "2026-07-28T17:05:17.167207+09:00"
+  },
+  {
+    "ad_id": "1024051",
+    "prefix": "bi2516",
+    "url": "https://tvcf.co.kr/play/bi2516-1024051",
+    "card_title": "The all-new 아반떼For Me, AVANTE - Teaser",
+    "onair": "07.28",
+    "registered_short": "07.28",
+    "brand": "The all-new 아반떼",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "케이블",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "현대자동차",
+    "advertiser_code": "C000001480",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167230+09:00"
+  },
+  {
+    "ad_id": "1024049",
+    "prefix": "bi2494",
+    "url": "https://tvcf.co.kr/play/bi2494-1024049",
+    "card_title": "데이비드골프스코어 체인저, 어드밴서 7세대 우디아이언 편",
+    "onair": "07.28",
+    "registered_short": "07.28",
+    "brand": "데이비드골프",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "디지털 범퍼",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "데이비드",
+    "advertiser_code": "C000052939",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167241+09:00"
+  },
+  {
     "ad_id": "1024011",
     "prefix": "bi2112",
     "url": "https://tvcf.co.kr/play/bi2112-1024011",
@@ -17,6 +111,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-28T10:04:00.184334+09:00"
+  },
+  {
+    "ad_id": "1024041",
+    "prefix": "bi2415",
+    "url": "https://tvcf.co.kr/play/bi2415-1024041",
+    "card_title": "룰루피치홍콩 느와르",
+    "onair": "07.27",
+    "registered_short": "07.28",
+    "brand": "룰루피치",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "피치스초이스",
+    "advertiser_code": "4219186",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167243+09:00"
+  },
+  {
+    "ad_id": "1024039",
+    "prefix": "bi2393",
+    "url": "https://tvcf.co.kr/play/bi2393-1024039",
+    "card_title": "신한 프리미어(무음) AI 영상 - 브랜드 로고 플레이",
+    "onair": "07.27",
+    "registered_short": "07.28",
+    "brand": "신한 프리미어",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "신한투자증권",
+    "advertiser_code": "C000160549",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167245+09:00"
   },
   {
     "ad_id": "1024038",
@@ -304,6 +436,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-07-25T10:02:26.947882+09:00"
+  },
+  {
+    "ad_id": "1024040",
+    "prefix": "ai3404",
+    "url": "https://tvcf.co.kr/play/ai3404-1024040",
+    "card_title": "현대카드지마켓 쇼핑 혜택의 명작",
+    "onair": "07.24",
+    "registered_short": "07.28",
+    "brand": "현대카드",
+    "campaign": null,
+    "registered_date": "2026-07-24",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "현대카드",
+    "advertiser_code": "C000002425",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167239+09:00"
   },
   {
     "ad_id": "1023957",
@@ -1723,6 +1874,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-28T10:04:00.184340+09:00"
+  },
+  {
+    "ad_id": "1024027",
+    "prefix": "bi2279",
+    "url": "https://tvcf.co.kr/play/bi2279-1024027",
+    "card_title": "SK브로드밴드[B다이렉트샵] 노홍철의 B다이렉트샵 365설치 SONG (마리아치 ver.)",
+    "onair": "07.18",
+    "registered_short": "07.27",
+    "brand": "SK브로드밴드",
+    "campaign": null,
+    "registered_date": "2026-07-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "SK브로드밴드",
+    "advertiser_code": "C000009138",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167247+09:00"
   },
   {
     "ad_id": "1023171",
@@ -8141,6 +8311,25 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-07-01T10:03:37.916112+09:00"
+  },
+  {
+    "ad_id": "1024055",
+    "prefix": "bi2551",
+    "url": "https://tvcf.co.kr/play/bi2551-1024055",
+    "card_title": "한국관광공사KAI 카이 & SEHUN 세훈 in 순천(SUNCHEON) | 'FOUND THE PLACE, DEEP IN THE MOMENT' Trailer",
+    "onair": "06.30",
+    "registered_short": "07.28",
+    "brand": "한국관광공사",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "한국관광공사",
+    "advertiser_code": "C000006043",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167218+09:00"
   },
   {
     "ad_id": "1022243",
@@ -20055,6 +20244,41 @@
     "collected_at": "2026-05-27T17:02:12.708247+09:00"
   },
   {
+    "ad_id": "1024042",
+    "prefix": "ai2426",
+    "url": "https://tvcf.co.kr/play/ai2426-1024042",
+    "card_title": "르무통걸음마다 이어지는 기분 좋은 쾌적함, 르무통 워크",
+    "onair": "05.26",
+    "registered_short": "07.28",
+    "brand": "르무통",
+    "campaign": null,
+    "registered_date": "2026-05-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "우주텍",
+    "advertiser_code": "C000161975",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024045",
+        "url": "https://tvcf.co.kr/play/bi2459-1024045",
+        "brand": "르무통",
+        "campaign": null,
+        "card_title": "르무통하루가 더 쉬워지는 발걸음, 르무통 이지"
+      },
+      {
+        "ad_id": "1024044",
+        "url": "https://tvcf.co.kr/play/ai2448-1024044",
+        "brand": "르무통",
+        "campaign": null,
+        "card_title": "르무통편안함이 만든 매일의 습관, 에브리데이"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-28T17:05:17.167234+09:00"
+  },
+  {
     "ad_id": "1023739",
     "prefix": "bi1391",
     "url": "https://tvcf.co.kr/play/bi1391-1023739",
@@ -27079,6 +27303,25 @@
     "collected_at": "2026-07-15T10:03:10.839589+09:00"
   },
   {
+    "ad_id": "1024050",
+    "prefix": "ai3505",
+    "url": "https://tvcf.co.kr/play/ai3505-1024050",
+    "card_title": "퓨리토 서울New York: West Village Popup",
+    "onair": "03.20",
+    "registered_short": "07.28",
+    "brand": "퓨리토 서울",
+    "campaign": null,
+    "registered_date": "2026-03-20",
+    "media_type": "바이럴",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "퓨리토 서울",
+    "advertiser_code": "C000167791",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167237+09:00"
+  },
+  {
     "ad_id": "1023161",
     "prefix": "bi1618",
     "url": "https://tvcf.co.kr/play/bi1618-1023161",
@@ -28375,6 +28618,34 @@
     "collected_at": "2026-07-17T10:04:25.235101+09:00"
   },
   {
+    "ad_id": "1024054",
+    "prefix": "ai2549",
+    "url": "https://tvcf.co.kr/play/ai2549-1024054",
+    "card_title": "르무통문경새재의 여름을 걷다",
+    "onair": "2025.07.24",
+    "registered_short": "07.28",
+    "brand": "르무통",
+    "campaign": null,
+    "registered_date": "2025-07-24",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "우주텍",
+    "advertiser_code": "C000161975",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024053",
+        "url": "https://tvcf.co.kr/play/bi2538-1024053",
+        "brand": "르무통",
+        "campaign": null,
+        "card_title": "르무통르무통 마루"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-28T17:05:17.167223+09:00"
+  },
+  {
     "ad_id": "1023088",
     "prefix": "ai2887",
     "url": "https://tvcf.co.kr/play/ai2887-1023088",
@@ -29075,6 +29346,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-16T17:07:32.712840+09:00"
+  },
+  {
+    "ad_id": "1024047",
+    "prefix": "bi2472",
+    "url": "https://tvcf.co.kr/play/bi2472-1024047",
+    "card_title": "LG 오브제컬렉션LG전자 오브제컬렉션 멤버스 유현준",
+    "onair": "2010.09.01",
+    "registered_short": "07.28",
+    "brand": "LG 오브제컬렉션",
+    "campaign": null,
+    "registered_date": "2010-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-28T17:05:17.167226+09:00"
   },
   {
     "ad_id": "1022113",
