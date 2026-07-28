@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T17:04:51.802892+09:00",
+  "updated_at": "2026-07-28T10:04:00.231035+09:00",
   "count": 210,
-  "x_count": 568,
+  "x_count": 575,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4765,6 +4765,48 @@
       "advertiser": "나무엑스",
       "status": "x",
       "updated_at": "2026-07-27T17:04:51.798897+09:00",
+      "auto": true
+    },
+    "1023533": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.211636+09:00",
+      "auto": true
+    },
+    "1024031": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.214406+09:00",
+      "auto": true
+    },
+    "1024032": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.217158+09:00",
+      "auto": true
+    },
+    "1024033": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.219931+09:00",
+      "auto": true
+    },
+    "1024028": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.222682+09:00",
+      "auto": true
+    },
+    "1024029": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.225424+09:00",
+      "auto": true
+    },
+    "1024024": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.228170+09:00",
       "auto": true
     }
   }
