@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T17:05:17.214483+09:00",
+  "updated_at": "2026-07-29T10:04:39.627510+09:00",
   "count": 211,
-  "x_count": 582,
+  "x_count": 587,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4856,6 +4856,36 @@
       "advertiser": "SK브로드밴드",
       "status": "x",
       "updated_at": "2026-07-28T17:05:17.211769+09:00",
+      "auto": true
+    },
+    "1024065": {
+      "advertiser": "성평등가족부",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.614606+09:00",
+      "auto": true
+    },
+    "1024090": {
+      "advertiser": "앤돌핀 스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.617107+09:00",
+      "auto": true
+    },
+    "1024089": {
+      "advertiser": "앤돌핀 스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.619587+09:00",
+      "auto": true
+    },
+    "1024069": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.622047+09:00",
+      "auto": true
+    },
+    "1024068": {
+      "advertiser": "골프존",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.624572+09:00",
       "auto": true
     }
   }

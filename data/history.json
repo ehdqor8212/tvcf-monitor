@@ -1,5 +1,71 @@
 [
   {
+    "ad_id": "1024092",
+    "prefix": "ai2922",
+    "url": "https://tvcf.co.kr/play/ai2922-1024092",
+    "card_title": "SK텔레콤[SKT × Galaxy Z Fold8] 이제, 또 다른 세상을 만날 시간",
+    "onair": "07.28",
+    "registered_short": "07.29",
+    "brand": "SK텔레콤",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "sk텔레콤",
+    "advertiser_code": "C000003568",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024093",
+        "url": "https://tvcf.co.kr/play/bi2933-1024093",
+        "brand": "SK텔레콤",
+        "campaign": null,
+        "card_title": "SK텔레콤[SKT × Galaxy Z Fold8] 새로운 종의 출현"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-29T10:04:39.580756+09:00"
+  },
+  {
+    "ad_id": "1024091",
+    "prefix": "bi2911",
+    "url": "https://tvcf.co.kr/play/bi2911-1024091",
+    "card_title": "KT김우빈의 요즘 [KT 초이스 더블 with Galaxy Z Fold 8]",
+    "onair": "07.28",
+    "registered_short": "07.29",
+    "brand": "KT",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "KT",
+    "advertiser_code": "C000001890",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580753+09:00"
+  },
+  {
+    "ad_id": "1024063",
+    "prefix": "bi2639",
+    "url": "https://tvcf.co.kr/play/bi2639-1024063",
+    "card_title": "LG유플러스모두에게 심플한 AI｜국내 최대 U+ AI 구독 플랫폼 유독",
+    "onair": "07.28",
+    "registered_short": "07.28",
+    "brand": "LG유플러스",
+    "campaign": null,
+    "registered_date": "2026-07-28",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "LG유플러스",
+    "advertiser_code": "C000009765",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580774+09:00"
+  },
+  {
     "ad_id": "1024062",
     "prefix": "ai2628",
     "url": "https://tvcf.co.kr/play/ai2628-1024062",
@@ -111,6 +177,88 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-28T10:04:00.184334+09:00"
+  },
+  {
+    "ad_id": "1024069",
+    "prefix": "bi2696",
+    "url": "https://tvcf.co.kr/play/bi2696-1024069",
+    "card_title": "동원 리얼 관자크랩스리얼 I 세상에 없던 관자 맛살의 탄생 ! 리얼 관자크랩스",
+    "onair": "07.27",
+    "registered_short": "07.28",
+    "brand": "동원 리얼 관자크랩스",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동원F&B",
+    "advertiser_code": "C000002583",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024071",
+        "url": "https://tvcf.co.kr/play/bi2718-1024071",
+        "brand": "동원 어델리",
+        "campaign": null,
+        "card_title": "동원 어델리어델리 l 큼직한 식감의 압도적 원물의 맛, 프리미엄 델리 어묵 어델리!"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-29T10:04:39.580769+09:00"
+  },
+  {
+    "ad_id": "1024068",
+    "prefix": "ai2685",
+    "url": "https://tvcf.co.kr/play/ai2685-1024068",
+    "card_title": "골프존투비전NX Plus",
+    "onair": "07.27",
+    "registered_short": "07.28",
+    "brand": "골프존",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "케이블",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "골프존",
+    "advertiser_code": "C000009419",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024067",
+        "url": "https://tvcf.co.kr/play/bi2674-1024067",
+        "brand": "골프존",
+        "campaign": null,
+        "card_title": "골프존투비전NX Plus"
+      },
+      {
+        "ad_id": "1024066",
+        "url": "https://tvcf.co.kr/play/ai2663-1024066",
+        "brand": "골프존",
+        "campaign": null,
+        "card_title": "골프존투비전NX Plus"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-07-29T10:04:39.580771+09:00"
+  },
+  {
+    "ad_id": "1024064",
+    "prefix": "ai2641",
+    "url": "https://tvcf.co.kr/play/ai2641-1024064",
+    "card_title": "현대자동차 N퍼포먼스로 또 한 번 증명하다",
+    "onair": "07.27",
+    "registered_short": "07.28",
+    "brand": "현대자동차 N",
+    "campaign": null,
+    "registered_date": "2026-07-27",
+    "media_type": "브랜디드 컨텐츠",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "현대자동차",
+    "advertiser_code": "C000001480",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580773+09:00"
   },
   {
     "ad_id": "1024041",
@@ -1127,6 +1275,34 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-23T17:06:13.773191+09:00"
+  },
+  {
+    "ad_id": "1024087",
+    "prefix": "bi2876",
+    "url": "https://tvcf.co.kr/play/bi2876-1024087",
+    "card_title": "삼성 갤럭시 Z 폴드8 울트라All-day battery  | 쇼핑편",
+    "onair": "07.22",
+    "registered_short": "07.28",
+    "brand": "삼성 갤럭시 Z 폴드8 울트라",
+    "campaign": null,
+    "registered_date": "2026-07-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024088",
+        "url": "https://tvcf.co.kr/play/ai2887-1024088",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8Samsung Care+ | 해외여행편"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-07-29T10:04:39.580767+09:00"
   },
   {
     "ad_id": "1024016",
@@ -4030,6 +4206,25 @@
     "collected_at": "2026-07-12T10:01:36.968959+09:00"
   },
   {
+    "ad_id": "1024090",
+    "prefix": "ai3909",
+    "url": "https://tvcf.co.kr/play/ai3909-1024090",
+    "card_title": "앤돌핀 스튜디오[모션그래픽,인포그래픽,애니메이션] 사디세 어드벤처. 시크릿데저트를 구해줘!",
+    "onair": "07.10",
+    "registered_short": "07.29",
+    "brand": "앤돌핀 스튜디오",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "앤돌핀 스튜디오",
+    "advertiser_code": "4219977",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580763+09:00"
+  },
+  {
     "ad_id": "1024031",
     "prefix": "bi2314",
     "url": "https://tvcf.co.kr/play/bi2314-1024031",
@@ -6133,6 +6328,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-06T10:03:01.934414+09:00"
+  },
+  {
+    "ad_id": "1024089",
+    "prefix": "bi2898",
+    "url": "https://tvcf.co.kr/play/bi2898-1024089",
+    "card_title": "앤돌핀 스튜디오[모션그래픽,인포그래픽,애니메이션] 사디세 어드벤처. 에티케이브를 구해줘!",
+    "onair": "07.03",
+    "registered_short": "07.29",
+    "brand": "앤돌핀 스튜디오",
+    "campaign": null,
+    "registered_date": "2026-07-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "앤돌핀 스튜디오",
+    "advertiser_code": "4219976",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580765+09:00"
   },
   {
     "ad_id": "1024028",
@@ -29308,6 +29522,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-24T10:02:57.508127+09:00"
+  },
+  {
+    "ad_id": "1024065",
+    "prefix": "bi2652",
+    "url": "https://tvcf.co.kr/play/bi2652-1024065",
+    "card_title": "성평등가족부학교생활 힘들어? 1388로 연락줘! #김혜윤 #청소년상담 #임솔",
+    "onair": "2019.05.22",
+    "registered_short": "07.29",
+    "brand": "성평등가족부",
+    "campaign": null,
+    "registered_date": "2019-05-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "성평등가족부",
+    "advertiser_code": "4219985",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-07-29T10:04:39.580744+09:00"
   },
   {
     "ad_id": "1021239",
