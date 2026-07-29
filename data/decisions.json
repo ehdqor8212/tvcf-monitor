@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T10:04:39.627510+09:00",
+  "updated_at": "2026-07-29T17:13:55.653983+09:00",
   "count": 211,
-  "x_count": 587,
+  "x_count": 589,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4886,6 +4886,18 @@
       "advertiser": "골프존",
       "status": "x",
       "updated_at": "2026-07-29T10:04:39.624572+09:00",
+      "auto": true
+    },
+    "1024134": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-07-29T17:13:55.648408+09:00",
+      "auto": true
+    },
+    "1024053": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-29T17:13:55.651107+09:00",
       "auto": true
     }
   }
