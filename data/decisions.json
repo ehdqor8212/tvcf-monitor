@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T10:02:40.912051+09:00",
+  "updated_at": "2026-07-30T17:03:56.723572+09:00",
   "count": 211,
-  "x_count": 591,
+  "x_count": 595,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4910,6 +4910,30 @@
       "advertiser": "우주텍",
       "status": "x",
       "updated_at": "2026-07-30T10:02:40.909086+09:00",
+      "auto": true
+    },
+    "1024285": {
+      "advertiser": "브이티 코스메틱 ",
+      "status": "x",
+      "updated_at": "2026-07-30T17:03:56.713411+09:00",
+      "auto": true
+    },
+    "1024271": {
+      "advertiser": "윈윈정형외과",
+      "status": "x",
+      "updated_at": "2026-07-30T17:03:56.715873+09:00",
+      "auto": true
+    },
+    "1024036": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-07-30T17:03:56.718356+09:00",
+      "auto": true
+    },
+    "1024269": {
+      "advertiser": "브이티 코스메틱 ",
+      "status": "x",
+      "updated_at": "2026-07-30T17:03:56.720828+09:00",
       "auto": true
     }
   }
