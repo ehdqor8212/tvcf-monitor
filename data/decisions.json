@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T17:13:55.653983+09:00",
+  "updated_at": "2026-07-30T10:02:40.912051+09:00",
   "count": 211,
-  "x_count": 589,
+  "x_count": 591,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4898,6 +4898,18 @@
       "advertiser": "우주텍",
       "status": "x",
       "updated_at": "2026-07-29T17:13:55.651107+09:00",
+      "auto": true
+    },
+    "1024158": {
+      "advertiser": "에스더블유헬스케어",
+      "status": "x",
+      "updated_at": "2026-07-30T10:02:40.906304+09:00",
+      "auto": true
+    },
+    "1024045": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-30T10:02:40.909086+09:00",
       "auto": true
     }
   }
