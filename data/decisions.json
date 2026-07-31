@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T10:02:29.471989+09:00",
+  "updated_at": "2026-07-31T02:02:34.406Z",
   "count": 212,
   "x_count": 596,
   "decisions": {
@@ -1409,10 +1409,9 @@
     },
     "라이나생명보험": {
       "display_name": "라이나생명보험",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "라이나생명",
-      "updated_at": "2026-07-31T10:02:29.468870+09:00",
-      "auto": true
+      "updated_at": "2026-07-31T02:02:34.396Z"
     }
   },
   "x_decisions": {
@@ -4644,6 +4643,12 @@
       "updated_at": "2026-07-21T17:05:07.756178+09:00",
       "auto": true
     },
+    "1023533": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.211636+09:00",
+      "auto": true
+    },
     "1023548": {
       "advertiser": "프랭크 에프앤비",
       "status": "x",
@@ -4672,6 +4677,12 @@
       "advertiser": "OpenAI",
       "status": "x",
       "updated_at": "2026-07-23T10:01:51.887525+09:00",
+      "auto": true
+    },
+    "1023707": {
+      "advertiser": "볼보자동차코리아",
+      "status": "x",
+      "updated_at": "2026-07-27T17:04:51.796400+09:00",
       "auto": true
     },
     "1023710": {
@@ -4763,28 +4774,40 @@
       "updated_at": "2026-07-27T10:02:17.389262+09:00",
       "auto": true
     },
-    "1023995": {
-      "advertiser": "메가MGC커피",
-      "status": "x",
-      "updated_at": "2026-07-27T17:04:51.793930+09:00",
-      "auto": true
-    },
-    "1023707": {
-      "advertiser": "볼보자동차코리아",
-      "status": "x",
-      "updated_at": "2026-07-27T17:04:51.796400+09:00",
-      "auto": true
-    },
     "1023957": {
       "advertiser": "나무엑스",
       "status": "x",
       "updated_at": "2026-07-27T17:04:51.798897+09:00",
       "auto": true
     },
-    "1023533": {
-      "advertiser": "SBS",
+    "1023995": {
+      "advertiser": "메가MGC커피",
       "status": "x",
-      "updated_at": "2026-07-28T10:04:00.211636+09:00",
+      "updated_at": "2026-07-27T17:04:51.793930+09:00",
+      "auto": true
+    },
+    "1024024": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.228170+09:00",
+      "auto": true
+    },
+    "1024027": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.211769+09:00",
+      "auto": true
+    },
+    "1024028": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.222682+09:00",
+      "auto": true
+    },
+    "1024029": {
+      "advertiser": "SK브로드밴드",
+      "status": "x",
+      "updated_at": "2026-07-28T10:04:00.225424+09:00",
       "auto": true
     },
     "1024031": {
@@ -4805,52 +4828,10 @@
       "updated_at": "2026-07-28T10:04:00.219931+09:00",
       "auto": true
     },
-    "1024028": {
-      "advertiser": "SK브로드밴드",
+    "1024036": {
+      "advertiser": "동원F&B",
       "status": "x",
-      "updated_at": "2026-07-28T10:04:00.222682+09:00",
-      "auto": true
-    },
-    "1024029": {
-      "advertiser": "SK브로드밴드",
-      "status": "x",
-      "updated_at": "2026-07-28T10:04:00.225424+09:00",
-      "auto": true
-    },
-    "1024024": {
-      "advertiser": "SK브로드밴드",
-      "status": "x",
-      "updated_at": "2026-07-28T10:04:00.228170+09:00",
-      "auto": true
-    },
-    "1024055": {
-      "advertiser": "한국관광공사",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.196613+09:00",
-      "auto": true
-    },
-    "1024054": {
-      "advertiser": "우주텍",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.199069+09:00",
-      "auto": true
-    },
-    "1024042": {
-      "advertiser": "우주텍",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.201489+09:00",
-      "auto": true
-    },
-    "1024050": {
-      "advertiser": "퓨리토 서울",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.203950+09:00",
-      "auto": true
-    },
-    "1024049": {
-      "advertiser": "데이비드",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.206398+09:00",
+      "updated_at": "2026-07-30T17:03:56.718356+09:00",
       "auto": true
     },
     "1024041": {
@@ -4859,58 +4840,10 @@
       "updated_at": "2026-07-28T17:05:17.208829+09:00",
       "auto": true
     },
-    "1024027": {
-      "advertiser": "SK브로드밴드",
-      "status": "x",
-      "updated_at": "2026-07-28T17:05:17.211769+09:00",
-      "auto": true
-    },
-    "1024065": {
-      "advertiser": "성평등가족부",
-      "status": "x",
-      "updated_at": "2026-07-29T10:04:39.614606+09:00",
-      "auto": true
-    },
-    "1024090": {
-      "advertiser": "앤돌핀 스튜디오",
-      "status": "x",
-      "updated_at": "2026-07-29T10:04:39.617107+09:00",
-      "auto": true
-    },
-    "1024089": {
-      "advertiser": "앤돌핀 스튜디오",
-      "status": "x",
-      "updated_at": "2026-07-29T10:04:39.619587+09:00",
-      "auto": true
-    },
-    "1024069": {
-      "advertiser": "동원F&B",
-      "status": "x",
-      "updated_at": "2026-07-29T10:04:39.622047+09:00",
-      "auto": true
-    },
-    "1024068": {
-      "advertiser": "골프존",
-      "status": "x",
-      "updated_at": "2026-07-29T10:04:39.624572+09:00",
-      "auto": true
-    },
-    "1024134": {
-      "advertiser": "유니세프",
-      "status": "x",
-      "updated_at": "2026-07-29T17:13:55.648408+09:00",
-      "auto": true
-    },
-    "1024053": {
+    "1024042": {
       "advertiser": "우주텍",
       "status": "x",
-      "updated_at": "2026-07-29T17:13:55.651107+09:00",
-      "auto": true
-    },
-    "1024158": {
-      "advertiser": "에스더블유헬스케어",
-      "status": "x",
-      "updated_at": "2026-07-30T10:02:40.906304+09:00",
+      "updated_at": "2026-07-28T17:05:17.201489+09:00",
       "auto": true
     },
     "1024045": {
@@ -4919,10 +4852,82 @@
       "updated_at": "2026-07-30T10:02:40.909086+09:00",
       "auto": true
     },
-    "1024285": {
+    "1024049": {
+      "advertiser": "데이비드",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.206398+09:00",
+      "auto": true
+    },
+    "1024050": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.203950+09:00",
+      "auto": true
+    },
+    "1024053": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-29T17:13:55.651107+09:00",
+      "auto": true
+    },
+    "1024054": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.199069+09:00",
+      "auto": true
+    },
+    "1024055": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-07-28T17:05:17.196613+09:00",
+      "auto": true
+    },
+    "1024065": {
+      "advertiser": "성평등가족부",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.614606+09:00",
+      "auto": true
+    },
+    "1024068": {
+      "advertiser": "골프존",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.624572+09:00",
+      "auto": true
+    },
+    "1024069": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.622047+09:00",
+      "auto": true
+    },
+    "1024089": {
+      "advertiser": "앤돌핀 스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.619587+09:00",
+      "auto": true
+    },
+    "1024090": {
+      "advertiser": "앤돌핀 스튜디오",
+      "status": "x",
+      "updated_at": "2026-07-29T10:04:39.617107+09:00",
+      "auto": true
+    },
+    "1024134": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-07-29T17:13:55.648408+09:00",
+      "auto": true
+    },
+    "1024158": {
+      "advertiser": "에스더블유헬스케어",
+      "status": "x",
+      "updated_at": "2026-07-30T10:02:40.906304+09:00",
+      "auto": true
+    },
+    "1024269": {
       "advertiser": "브이티 코스메틱 ",
       "status": "x",
-      "updated_at": "2026-07-30T17:03:56.713411+09:00",
+      "updated_at": "2026-07-30T17:03:56.720828+09:00",
       "auto": true
     },
     "1024271": {
@@ -4931,16 +4936,10 @@
       "updated_at": "2026-07-30T17:03:56.715873+09:00",
       "auto": true
     },
-    "1024036": {
-      "advertiser": "동원F&B",
-      "status": "x",
-      "updated_at": "2026-07-30T17:03:56.718356+09:00",
-      "auto": true
-    },
-    "1024269": {
+    "1024285": {
       "advertiser": "브이티 코스메틱 ",
       "status": "x",
-      "updated_at": "2026-07-30T17:03:56.720828+09:00",
+      "updated_at": "2026-07-30T17:03:56.713411+09:00",
       "auto": true
     },
     "1024299": {
