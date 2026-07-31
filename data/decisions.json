@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T17:03:56.723572+09:00",
-  "count": 211,
-  "x_count": 595,
+  "updated_at": "2026-07-31T10:02:29.471989+09:00",
+  "count": 212,
+  "x_count": 596,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1405,6 +1405,13 @@
       "status": "o",
       "matched_name": "신한투자증권",
       "updated_at": "2026-07-28T17:05:17.209334+09:00",
+      "auto": true
+    },
+    "라이나생명보험": {
+      "display_name": "라이나생명보험",
+      "status": "maybe",
+      "matched_name": "라이나생명",
+      "updated_at": "2026-07-31T10:02:29.468870+09:00",
       "auto": true
     }
   },
@@ -4934,6 +4941,12 @@
       "advertiser": "브이티 코스메틱 ",
       "status": "x",
       "updated_at": "2026-07-30T17:03:56.720828+09:00",
+      "auto": true
+    },
+    "1024299": {
+      "advertiser": "인터오리진아이엔씨",
+      "status": "x",
+      "updated_at": "2026-07-31T10:02:29.467125+09:00",
       "auto": true
     }
   }
