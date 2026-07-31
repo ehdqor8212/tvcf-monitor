@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T02:02:34.406Z",
+  "updated_at": "2026-07-31T17:01:42.910416+09:00",
   "count": 212,
-  "x_count": 596,
+  "x_count": 599,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -4946,6 +4946,24 @@
       "advertiser": "인터오리진아이엔씨",
       "status": "x",
       "updated_at": "2026-07-31T10:02:29.467125+09:00",
+      "auto": true
+    },
+    "1024310": {
+      "advertiser": "한국건강증진개발원",
+      "status": "x",
+      "updated_at": "2026-07-31T17:01:42.902465+09:00",
+      "auto": true
+    },
+    "1024306": {
+      "advertiser": "퍼시픽링스 코리아",
+      "status": "x",
+      "updated_at": "2026-07-31T17:01:42.904968+09:00",
+      "auto": true
+    },
+    "1024305": {
+      "advertiser": "퍼시픽링스 코리아",
+      "status": "x",
+      "updated_at": "2026-07-31T17:01:42.907481+09:00",
       "auto": true
     }
   }
