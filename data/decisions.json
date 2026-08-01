@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T17:01:42.910416+09:00",
-  "count": 212,
-  "x_count": 599,
+  "updated_at": "2026-08-01T10:03:03.889129+09:00",
+  "count": 214,
+  "x_count": 600,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1412,6 +1412,20 @@
       "status": "o",
       "matched_name": "라이나생명",
       "updated_at": "2026-07-31T02:02:34.396Z"
+    },
+    "써브웨이": {
+      "display_name": "써브웨이",
+      "status": "o",
+      "matched_name": "써브웨이",
+      "updated_at": "2026-08-01T10:03:03.885544+09:00",
+      "auto": true
+    },
+    "하이트진로음료": {
+      "display_name": "하이트진로음료",
+      "status": "o",
+      "matched_name": "하이트진로음료",
+      "updated_at": "2026-08-01T10:03:03.886515+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -4964,6 +4978,12 @@
       "advertiser": "퍼시픽링스 코리아",
       "status": "x",
       "updated_at": "2026-07-31T17:01:42.907481+09:00",
+      "auto": true
+    },
+    "1024344": {
+      "advertiser": "컬럼비아",
+      "status": "x",
+      "updated_at": "2026-08-01T10:03:03.885010+09:00",
       "auto": true
     }
   }

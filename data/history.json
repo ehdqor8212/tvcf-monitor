@@ -1,5 +1,59 @@
 [
   {
+    "ad_id": "1024351",
+    "prefix": "bi1519",
+    "url": "https://tvcf.co.kr/play/bi1519-1024351",
+    "card_title": "빙그레대한의 가장 빛나는 여권 | 빙그레 (Full)",
+    "onair": "08.01",
+    "registered_short": "08.01",
+    "brand": "빙그레",
+    "campaign": null,
+    "registered_date": "2026-08-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variants": [
+      {
+        "ad_id": "1024350",
+        "url": "https://tvcf.co.kr/play/ai2508-1024350",
+        "brand": "빙그레",
+        "campaign": null,
+        "card_title": "빙그레대한의 가장 빛나는 여권 | 빙그레 (Main)"
+      },
+      {
+        "ad_id": "1024349",
+        "url": "https://tvcf.co.kr/play/bi1497-1024349",
+        "brand": "빙그레",
+        "campaign": null,
+        "card_title": "빙그레대한의 가장 빛나는 여권 | 빙그레 (30s)"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-01T10:03:03.855985+09:00"
+  },
+  {
+    "ad_id": "1024344",
+    "prefix": "ai1442",
+    "url": "https://tvcf.co.kr/play/ai1442-1024344",
+    "card_title": "컬럼비아당신의 발 밑에 구름을 깝니다",
+    "onair": "07.31",
+    "registered_short": "07.31",
+    "brand": "컬럼비아",
+    "campaign": null,
+    "registered_date": "2026-07-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "컬럼비아",
+    "advertiser_code": "C000017260",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-01T10:03:03.855997+09:00"
+  },
+  {
     "ad_id": "1024310",
     "prefix": "ai2104",
     "url": "https://tvcf.co.kr/play/ai2104-1024310",
@@ -17,6 +71,67 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-31T17:01:42.871899+09:00"
+  },
+  {
+    "ad_id": "1024343",
+    "prefix": "bi1431",
+    "url": "https://tvcf.co.kr/play/bi1431-1024343",
+    "card_title": "써브웨이[써브웨이] 프로틴 따라 따라 따라와",
+    "onair": "07.30",
+    "registered_short": "07.31",
+    "brand": "써브웨이",
+    "campaign": null,
+    "registered_date": "2026-07-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "써브웨이",
+    "advertiser_code": "C000101860",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-01T10:03:03.856001+09:00"
+  },
+  {
+    "ad_id": "1024341",
+    "prefix": "bi1418",
+    "url": "https://tvcf.co.kr/play/bi1418-1024341",
+    "card_title": "테라 제로 0.00why not? 테라 제로 : 통합본 (6”)",
+    "onair": "07.30",
+    "registered_short": "07.31",
+    "brand": "테라 제로 0.00",
+    "campaign": null,
+    "registered_date": "2026-07-30",
+    "media_type": "디지털 범퍼",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "하이트진로음료",
+    "advertiser_code": "C000035249",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024340",
+        "url": "https://tvcf.co.kr/play/ai2407-1024340",
+        "brand": "테라 제로 0.00",
+        "campaign": null,
+        "card_title": "테라 제로 0.00why not? 테라 제로 : 번뇌 제로 (30”)"
+      },
+      {
+        "ad_id": "1024339",
+        "url": "https://tvcf.co.kr/play/bi1396-1024339",
+        "brand": "테라 제로 0.00",
+        "campaign": null,
+        "card_title": "테라 제로 0.00why not? 테라 제로 : 월요병 제로 (30”)"
+      },
+      {
+        "ad_id": "1024338",
+        "url": "https://tvcf.co.kr/play/ai1385-1024338",
+        "brand": "테라 제로 0.00",
+        "campaign": null,
+        "card_title": "테라 제로 0.00why not? 테라 제로 : 갈증 제로 (30”)"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-08-01T10:03:03.856007+09:00"
   },
   {
     "ad_id": "1024306",
