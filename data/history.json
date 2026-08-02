@@ -16455,6 +16455,25 @@
     "collected_at": "2026-08-02T10:04:04.996842+09:00"
   },
   {
+    "ad_id": "1024393",
+    "prefix": "bi1936",
+    "url": "https://tvcf.co.kr/play/bi1936-1024393",
+    "card_title": "아디다스[ADIDAS 26WC] I HREAD 이강인편",
+    "onair": "06.09",
+    "registered_short": "08.01",
+    "brand": "아디다스",
+    "campaign": null,
+    "registered_date": "2026-06-09",
+    "media_type": "케이블",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "아디다스",
+    "advertiser_code": "C000001313",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-02T17:01:20.319027+09:00"
+  },
+  {
     "ad_id": "1020416",
     "prefix": "ai2162",
     "url": "https://tvcf.co.kr/play/ai2162-1020416",
