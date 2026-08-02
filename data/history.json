@@ -16322,6 +16322,139 @@
     "collected_at": "2026-06-10T10:05:35.143234+09:00"
   },
   {
+    "ad_id": "1024394",
+    "prefix": "ai1947",
+    "url": "https://tvcf.co.kr/play/ai1947-1024394",
+    "card_title": "아디다스[ADIDAS 26WC] 모두의 함성 (15s)",
+    "onair": "06.09",
+    "registered_short": "08.01",
+    "brand": "아디다스",
+    "campaign": null,
+    "registered_date": "2026-06-09",
+    "media_type": "케이블",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "아디다스",
+    "advertiser_code": "C000001313",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024395",
+        "url": "https://tvcf.co.kr/play/bi1958-1024395",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] 모두의 함성"
+      },
+      {
+        "ad_id": "1024391",
+        "url": "https://tvcf.co.kr/play/bi1914-1024391",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 손흥민편"
+      },
+      {
+        "ad_id": "1024392",
+        "url": "https://tvcf.co.kr/play/ai1925-1024392",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] 모두의 함성 (6s)"
+      },
+      {
+        "ad_id": "1024393",
+        "url": "https://tvcf.co.kr/play/bi1936-1024393",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 이강인편"
+      },
+      {
+        "ad_id": "1024389",
+        "url": "https://tvcf.co.kr/play/bi1892-1024389",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 손흥민편 6s"
+      },
+      {
+        "ad_id": "1024388",
+        "url": "https://tvcf.co.kr/play/ai1881-1024388",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 이강인편 (6s)"
+      },
+      {
+        "ad_id": "1024390",
+        "url": "https://tvcf.co.kr/play/ai2903-1024390",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 구자철편"
+      },
+      {
+        "ad_id": "1024387",
+        "url": "https://tvcf.co.kr/play/bi1879-1024387",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD 구자철편 (6s)"
+      },
+      {
+        "ad_id": "1024384",
+        "url": "https://tvcf.co.kr/play/ai1846-1024384",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD (6s Ver2)"
+      },
+      {
+        "ad_id": "1024385",
+        "url": "https://tvcf.co.kr/play/bi1857-1024385",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD FELIX편 (6s)"
+      },
+      {
+        "ad_id": "1024386",
+        "url": "https://tvcf.co.kr/play/ai1868-1024386",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] I HREAD FELIX편"
+      },
+      {
+        "ad_id": "1024382",
+        "url": "https://tvcf.co.kr/play/ai1824-1024382",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD (15s Ver2)"
+      },
+      {
+        "ad_id": "1024383",
+        "url": "https://tvcf.co.kr/play/bi1835-1024383",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD (6s)"
+      },
+      {
+        "ad_id": "1024381",
+        "url": "https://tvcf.co.kr/play/bi1813-1024381",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD (15s)"
+      },
+      {
+        "ad_id": "1024380",
+        "url": "https://tvcf.co.kr/play/ai2802-1024380",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD"
+      },
+      {
+        "ad_id": "1024379",
+        "url": "https://tvcf.co.kr/play/bi1791-1024379",
+        "brand": "아디다스",
+        "campaign": null,
+        "card_title": "아디다스[ADIDAS 26WC] ASSEMBLE OUR KOREAN SQUAD (Director's)"
+      }
+    ],
+    "variant_count": 17,
+    "collected_at": "2026-08-02T10:04:04.996842+09:00"
+  },
+  {
     "ad_id": "1020416",
     "prefix": "ai2162",
     "url": "https://tvcf.co.kr/play/ai2162-1020416",
