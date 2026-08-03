@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T10:04:08.940467+09:00",
-  "count": 219,
-  "x_count": 608,
+  "updated_at": "2026-08-03T17:06:01.063935+09:00",
+  "count": 220,
+  "x_count": 613,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1460,6 +1460,13 @@
       "status": "o",
       "matched_name": "사회복지공동모금회",
       "updated_at": "2026-08-03T10:04:08.936070+09:00",
+      "auto": true
+    },
+    "클래시스": {
+      "display_name": "클래시스",
+      "status": "o",
+      "matched_name": "클래시스",
+      "updated_at": "2026-08-03T17:06:01.055520+09:00",
       "auto": true
     }
   },
@@ -5067,6 +5074,36 @@
       "advertiser": "면사랑 ",
       "status": "x",
       "updated_at": "2026-08-03T10:04:08.938011+09:00",
+      "auto": true
+    },
+    "1024587": {
+      "advertiser": "IBK기업은행",
+      "status": "x",
+      "updated_at": "2026-08-03T17:06:01.049036+09:00",
+      "auto": true
+    },
+    "1024588": {
+      "advertiser": "머시론 ",
+      "status": "x",
+      "updated_at": "2026-08-03T17:06:01.051755+09:00",
+      "auto": true
+    },
+    "1024586": {
+      "advertiser": "머시론 ",
+      "status": "x",
+      "updated_at": "2026-08-03T17:06:01.054455+09:00",
+      "auto": true
+    },
+    "1024524": {
+      "advertiser": "팀홀튼 코리아",
+      "status": "x",
+      "updated_at": "2026-08-03T17:06:01.058261+09:00",
+      "auto": true
+    },
+    "1024342": {
+      "advertiser": "에이이브랜드코리아",
+      "status": "x",
+      "updated_at": "2026-08-03T17:06:01.060954+09:00",
       "auto": true
     }
   }

@@ -1,5 +1,141 @@
 [
   {
+    "ad_id": "1024587",
+    "prefix": "bi1872",
+    "url": "https://tvcf.co.kr/play/bi1872-1024587",
+    "card_title": "IBK기업은행IBK기업은행이 무료로 다 알아서 Full ver.",
+    "onair": "08.03",
+    "registered_short": "08.03",
+    "brand": "IBK기업은행",
+    "campaign": null,
+    "registered_date": "2026-08-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "IBK기업은행",
+    "advertiser_code": "4224552",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019175+09:00"
+  },
+  {
+    "ad_id": "1024546",
+    "prefix": "ai1466",
+    "url": "https://tvcf.co.kr/play/ai1466-1024546",
+    "card_title": "슈링크UP될 준비 됐어? (종합)",
+    "onair": "08.03",
+    "registered_short": "08.03",
+    "brand": "슈링크",
+    "campaign": null,
+    "registered_date": "2026-08-03",
+    "media_type": "디지털 범퍼",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "클래시스",
+    "advertiser_code": "4224079",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024545",
+        "url": "https://tvcf.co.kr/play/bi1455-1024545",
+        "brand": "슈링크",
+        "campaign": null,
+        "card_title": "슈링크UP될 준비 됐어? (종합)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-03T17:06:01.019206+09:00"
+  },
+  {
+    "ad_id": "1024506",
+    "prefix": "ai262",
+    "url": "https://tvcf.co.kr/play/ai262-1024506",
+    "card_title": "롯데 꼬깔콘우리 시대의 낭만 스낵, 꼬깔콘 (Digital Film Ver.)",
+    "onair": "08.03",
+    "registered_short": "08.03",
+    "brand": "롯데 꼬깔콘",
+    "campaign": null,
+    "registered_date": "2026-08-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "롯데웰푸드",
+    "advertiser_code": "C000162045",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019220+09:00"
+  },
+  {
+    "ad_id": "1024570",
+    "prefix": "ai2703",
+    "url": "https://tvcf.co.kr/play/ai2703-1024570",
+    "card_title": "현대엘리베이터모든 엘리베이터와 Goodbye_6s(안전의 기준 편)",
+    "onair": "08.01",
+    "registered_short": "08.03",
+    "brand": "현대엘리베이터",
+    "campaign": null,
+    "registered_date": "2026-08-01",
+    "media_type": "디지털 범퍼",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "현대엘리베이터",
+    "advertiser_code": "C000001479",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024569",
+        "url": "https://tvcf.co.kr/play/bi1692-1024569",
+        "brand": "현대엘리베이터",
+        "campaign": null,
+        "card_title": "현대엘리베이터모든 엘리베이터와 Goodbye_6s(건축의 시간 편)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-03T17:06:01.019191+09:00"
+  },
+  {
+    "ad_id": "1024526",
+    "prefix": "ai1264",
+    "url": "https://tvcf.co.kr/play/ai1264-1024526",
+    "card_title": "CJ 올리브영제약사 설계 데일리 색소 집중 케어 Advanced Derma",
+    "onair": "08.01",
+    "registered_short": "08.03",
+    "brand": "CJ 올리브영",
+    "campaign": null,
+    "registered_date": "2026-08-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "CJ올리브영",
+    "advertiser_code": "C000012459",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024525",
+        "url": "https://tvcf.co.kr/play/bi1253-1024525",
+        "brand": "CJ 올리브영",
+        "campaign": null,
+        "card_title": "CJ 올리브영제약사 설계 데일리 트러블 표적 케어 Advanced Derma"
+      },
+      {
+        "ad_id": "1024528",
+        "url": "https://tvcf.co.kr/play/ai1286-1024528",
+        "brand": "CJ 올리브영",
+        "campaign": null,
+        "card_title": "CJ 올리브영제약사 설계 데일리 피부 장벽 케어 Advanced Derma"
+      },
+      {
+        "ad_id": "1024527",
+        "url": "https://tvcf.co.kr/play/bi1275-1024527",
+        "brand": "CJ 올리브영",
+        "campaign": null,
+        "card_title": "CJ 올리브영제약사 설계 데일리 고기능 관리템 Advanced Derma"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-08-03T17:06:01.019213+09:00"
+  },
+  {
     "ad_id": "1024503",
     "prefix": "bi238",
     "url": "https://tvcf.co.kr/play/bi238-1024503",
@@ -261,6 +397,25 @@
     "collected_at": "2026-08-01T10:03:03.855985+09:00"
   },
   {
+    "ad_id": "1024524",
+    "prefix": "ai1242",
+    "url": "https://tvcf.co.kr/play/ai1242-1024524",
+    "card_title": "팀홀튼1914년 캐나다에서 시작된 실화, 아기 흑곰 위니와 한 군인의 특별한 우정",
+    "onair": "07.31",
+    "registered_short": "08.03",
+    "brand": "팀홀튼",
+    "campaign": null,
+    "registered_date": "2026-07-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "팀홀튼 코리아",
+    "advertiser_code": "C000166368",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019216+09:00"
+  },
+  {
     "ad_id": "1024362",
     "prefix": "ai1622",
     "url": "https://tvcf.co.kr/play/ai1622-1024362",
@@ -373,6 +528,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-01T10:03:03.856001+09:00"
+  },
+  {
+    "ad_id": "1024342",
+    "prefix": "ai1429",
+    "url": "https://tvcf.co.kr/play/ai1429-1024342",
+    "card_title": "코젤G.O.A.T에게 GOAT를",
+    "onair": "07.30",
+    "registered_short": "08.03",
+    "brand": "코젤",
+    "campaign": null,
+    "registered_date": "2026-07-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "음료/기호식품",
+    "sub_categories": [],
+    "advertiser": "에이이브랜드코리아",
+    "advertiser_code": "4222228",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019222+09:00"
   },
   {
     "ad_id": "1024341",
@@ -6004,6 +6178,25 @@
     "collected_at": "2026-07-09T17:04:07.994802+09:00"
   },
   {
+    "ad_id": "1024531",
+    "prefix": "bi1319",
+    "url": "https://tvcf.co.kr/play/bi1319-1024531",
+    "card_title": "넥센타이어본질이 강한 타이어_주유비지원금 프로모션(15초)",
+    "onair": "07.08",
+    "registered_short": "08.03",
+    "brand": "넥센타이어",
+    "campaign": null,
+    "registered_date": "2026-07-08",
+    "media_type": "케이블",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "넥센타이어",
+    "advertiser_code": "C000004185",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019209+09:00"
+  },
+  {
     "ad_id": "1022698",
     "prefix": "ai1985",
     "url": "https://tvcf.co.kr/play/ai1985-1022698",
@@ -6699,6 +6892,34 @@
     "collected_at": "2026-07-07T12:02:26.820135+09:00"
   },
   {
+    "ad_id": "1024588",
+    "prefix": "ai1883",
+    "url": "https://tvcf.co.kr/play/ai1883-1024588",
+    "card_title": "머시론나의 멋을 지키는 이론, 머시론 (15s)",
+    "onair": "07.06",
+    "registered_short": "08.03",
+    "brand": "머시론",
+    "campaign": null,
+    "registered_date": "2026-07-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "머시론 ",
+    "advertiser_code": "C000034065",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024580",
+        "url": "https://tvcf.co.kr/play/ai2804-1024580",
+        "brand": "머시론",
+        "campaign": null,
+        "card_title": "머시론나의 멋을 지키는 이론, 머시론 (Full.ver)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-03T17:06:01.019183+09:00"
+  },
+  {
     "ad_id": "1023251",
     "prefix": "bi1518",
     "url": "https://tvcf.co.kr/play/bi1518-1023251",
@@ -7132,6 +7353,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-06T12:03:18.108765+09:00"
+  },
+  {
+    "ad_id": "1024586",
+    "prefix": "ai1861",
+    "url": "https://tvcf.co.kr/play/ai1861-1024586",
+    "card_title": "머시론나의 멋을 지키는 이론, 머시론 (6s)",
+    "onair": "07.05",
+    "registered_short": "08.03",
+    "brand": "머시론",
+    "campaign": null,
+    "registered_date": "2026-07-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "머시론 ",
+    "advertiser_code": "C000034065",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-03T17:06:01.019187+09:00"
   },
   {
     "ad_id": "1022238",
@@ -8398,6 +8638,76 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-02T10:06:05.042593+09:00"
+  },
+  {
+    "ad_id": "1024576",
+    "prefix": "ai1769",
+    "url": "https://tvcf.co.kr/play/ai1769-1024576",
+    "card_title": "웰라쥬카니 리얼 히알루로닉 블루 100 앰플",
+    "onair": "07.01",
+    "registered_short": "08.03",
+    "brand": "웰라쥬",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "휴젤",
+    "advertiser_code": "C000146289",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024575",
+        "url": "https://tvcf.co.kr/play/bi1758-1024575",
+        "brand": "웰라쥬",
+        "campaign": null,
+        "card_title": "웰라쥬카니 리얼 히알루로닉 수딩크림"
+      },
+      {
+        "ad_id": "1024574",
+        "url": "https://tvcf.co.kr/play/ai1747-1024574",
+        "brand": "웰라쥬",
+        "campaign": null,
+        "card_title": "웰라쥬카니 리얼 히알루로닉 수딩크림"
+      },
+      {
+        "ad_id": "1024572",
+        "url": "https://tvcf.co.kr/play/ai1725-1024572",
+        "brand": "웰라쥬",
+        "campaign": null,
+        "card_title": "웰라쥬카니 리얼 히알루로닉 블루 100 앰플"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-08-03T17:06:01.019199+09:00"
+  },
+  {
+    "ad_id": "1024566",
+    "prefix": "ai1668",
+    "url": "https://tvcf.co.kr/play/ai1668-1024566",
+    "card_title": "T station싹 다 되는 타이어서비스, T스테이션(휴일지킴서비스)",
+    "onair": "07.01",
+    "registered_short": "08.03",
+    "brand": "T station",
+    "campaign": null,
+    "registered_date": "2026-07-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "한국타이어",
+    "advertiser_code": "C000001430",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024565",
+        "url": "https://tvcf.co.kr/play/bi1657-1024565",
+        "brand": "T station",
+        "campaign": null,
+        "card_title": "T station싹 다 되는 타이어서비스, T스테이션 (픽업앤딜리버리)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-03T17:06:01.019203+09:00"
   },
   {
     "ad_id": "1024024",
@@ -30820,6 +31130,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-28T17:05:17.167226+09:00"
+  },
+  {
+    "ad_id": "1024568",
+    "prefix": "ai1681",
+    "url": "https://tvcf.co.kr/play/ai1681-1024568",
+    "card_title": "현대엘리베이터모든 엘리베이터와 Goodbye_15s",
+    "onair": "08.01",
+    "registered_short": "08.03",
+    "brand": "TVCF",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "현대엘리베이터",
+    "advertiser_code": "C000001479",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024551",
+        "url": "https://tvcf.co.kr/play/bi1512-1024551",
+        "brand": "TVCF",
+        "campaign": null,
+        "card_title": "현대엘리베이터모든 엘리베이터와 Goodbye_30s"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-03T17:06:01.019195+09:00"
   },
   {
     "ad_id": "1022113",
