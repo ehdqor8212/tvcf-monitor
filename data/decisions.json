@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-02T10:04:05.028249+09:00",
-  "count": 215,
-  "x_count": 602,
+  "updated_at": "2026-08-03T10:04:08.940467+09:00",
+  "count": 219,
+  "x_count": 608,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1432,6 +1432,34 @@
       "status": "maybe",
       "matched_name": "아디다스코리아",
       "updated_at": "2026-08-02T10:04:05.025726+09:00",
+      "auto": true
+    },
+    "한국하겐다즈": {
+      "display_name": "한국하겐다즈",
+      "status": "o",
+      "matched_name": "한국하겐다즈",
+      "updated_at": "2026-08-03T10:04:08.924224+09:00",
+      "auto": true
+    },
+    "템퍼코리아": {
+      "display_name": "템퍼코리아",
+      "status": "o",
+      "matched_name": "템퍼코리아",
+      "updated_at": "2026-08-03T10:04:08.934789+09:00",
+      "auto": true
+    },
+    "현대엘리베이터": {
+      "display_name": "현대엘리베이터",
+      "status": "o",
+      "matched_name": "현대엘리베이터",
+      "updated_at": "2026-08-03T10:04:08.935725+09:00",
+      "auto": true
+    },
+    "사회복지공동모금회": {
+      "display_name": "사회복지공동모금회",
+      "status": "o",
+      "matched_name": "사회복지공동모금회",
+      "updated_at": "2026-08-03T10:04:08.936070+09:00",
       "auto": true
     }
   },
@@ -5003,6 +5031,42 @@
       "advertiser": "피에스인터네셔널",
       "status": "x",
       "updated_at": "2026-08-01T17:01:53.454693+09:00",
+      "auto": true
+    },
+    "1024376": {
+      "advertiser": "KCC건설",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.926178+09:00",
+      "auto": true
+    },
+    "1024405": {
+      "advertiser": "콘텐츠캐리어",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.928163+09:00",
+      "auto": true
+    },
+    "1024402": {
+      "advertiser": "타이어뱅크",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.930128+09:00",
+      "auto": true
+    },
+    "1024401": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.932093+09:00",
+      "auto": true
+    },
+    "1024502": {
+      "advertiser": "하이모",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.934029+09:00",
+      "auto": true
+    },
+    "1024105": {
+      "advertiser": "면사랑 ",
+      "status": "x",
+      "updated_at": "2026-08-03T10:04:08.938011+09:00",
       "auto": true
     }
   }
