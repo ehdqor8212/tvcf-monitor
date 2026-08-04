@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T17:06:01.063935+09:00",
-  "count": 220,
-  "x_count": 613,
+  "updated_at": "2026-08-04T10:02:45.141024+09:00",
+  "count": 221,
+  "x_count": 614,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1467,6 +1467,13 @@
       "status": "o",
       "matched_name": "클래시스",
       "updated_at": "2026-08-03T17:06:01.055520+09:00",
+      "auto": true
+    },
+    "도루코": {
+      "display_name": "도루코",
+      "status": "o",
+      "matched_name": "도루코",
+      "updated_at": "2026-08-04T10:02:45.136612+09:00",
       "auto": true
     }
   },
@@ -5104,6 +5111,12 @@
       "advertiser": "에이이브랜드코리아",
       "status": "x",
       "updated_at": "2026-08-03T17:06:01.060954+09:00",
+      "auto": true
+    },
+    "1024590": {
+      "advertiser": "한국엡손",
+      "status": "x",
+      "updated_at": "2026-08-04T10:02:45.138577+09:00",
       "auto": true
     }
   }
