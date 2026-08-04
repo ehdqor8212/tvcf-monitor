@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T10:02:45.141024+09:00",
-  "count": 221,
-  "x_count": 614,
+  "updated_at": "2026-08-04T17:06:22.934511+09:00",
+  "count": 223,
+  "x_count": 618,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1474,6 +1474,20 @@
       "status": "o",
       "matched_name": "도루코",
       "updated_at": "2026-08-04T10:02:45.136612+09:00",
+      "auto": true
+    },
+    "경기도": {
+      "display_name": "경기도",
+      "status": "maybe",
+      "matched_name": "경기도청",
+      "updated_at": "2026-08-04T17:06:22.921341+09:00",
+      "auto": true
+    },
+    "오뚜기": {
+      "display_name": "오뚜기",
+      "status": "maybe",
+      "matched_name": "(미집행) 오뚜기",
+      "updated_at": "2026-08-04T17:06:22.928351+09:00",
       "auto": true
     }
   },
@@ -5117,6 +5131,30 @@
       "advertiser": "한국엡손",
       "status": "x",
       "updated_at": "2026-08-04T10:02:45.138577+09:00",
+      "auto": true
+    },
+    "1024631": {
+      "advertiser": "극지연구소",
+      "status": "x",
+      "updated_at": "2026-08-04T17:06:22.919848+09:00",
+      "auto": true
+    },
+    "1024613": {
+      "advertiser": "Vaseline",
+      "status": "x",
+      "updated_at": "2026-08-04T17:06:22.924135+09:00",
+      "auto": true
+    },
+    "1024610": {
+      "advertiser": "시아베리어",
+      "status": "x",
+      "updated_at": "2026-08-04T17:06:22.926923+09:00",
+      "auto": true
+    },
+    "1024601": {
+      "advertiser": "IBK기업은행",
+      "status": "x",
+      "updated_at": "2026-08-04T17:06:22.931122+09:00",
       "auto": true
     }
   }
