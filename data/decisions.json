@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T05:37:51.469Z",
+  "updated_at": "2026-08-05T17:03:26.879830+09:00",
   "count": 225,
-  "x_count": 623,
+  "x_count": 626,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5198,6 +5198,24 @@
       "advertiser": "SERIAN | 세리안",
       "status": "x",
       "updated_at": "2026-08-05T10:05:23.394635+09:00",
+      "auto": true
+    },
+    "1024694": {
+      "advertiser": "부산광역시",
+      "status": "x",
+      "updated_at": "2026-08-05T17:03:26.871107+09:00",
+      "auto": true
+    },
+    "1024688": {
+      "advertiser": "쿠첸",
+      "status": "x",
+      "updated_at": "2026-08-05T17:03:26.873882+09:00",
+      "auto": true
+    },
+    "1024604": {
+      "advertiser": "중소벤처기업부",
+      "status": "x",
+      "updated_at": "2026-08-05T17:03:26.876682+09:00",
       "auto": true
     }
   }
