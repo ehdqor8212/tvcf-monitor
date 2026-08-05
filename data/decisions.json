@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T17:06:22.934511+09:00",
-  "count": 223,
-  "x_count": 618,
+  "updated_at": "2026-08-05T10:05:23.402529+09:00",
+  "count": 225,
+  "x_count": 623,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1488,6 +1488,20 @@
       "status": "maybe",
       "matched_name": "(미집행) 오뚜기",
       "updated_at": "2026-08-04T17:06:22.928351+09:00",
+      "auto": true
+    },
+    "보건복": {
+      "display_name": "보건복",
+      "status": "maybe",
+      "matched_name": "보건복지부",
+      "updated_at": "2026-08-05T10:05:23.398743+09:00",
+      "auto": true
+    },
+    "익수제약": {
+      "display_name": "익수제약",
+      "status": "o",
+      "matched_name": "익수제약",
+      "updated_at": "2026-08-05T10:05:23.399237+09:00",
       "auto": true
     }
   },
@@ -5155,6 +5169,36 @@
       "advertiser": "IBK기업은행",
       "status": "x",
       "updated_at": "2026-08-04T17:06:22.931122+09:00",
+      "auto": true
+    },
+    "1024651": {
+      "advertiser": "우리투자증권",
+      "status": "x",
+      "updated_at": "2026-08-05T10:05:23.393076+09:00",
+      "auto": true
+    },
+    "1024671": {
+      "advertiser": "SERIAN | 세리안",
+      "status": "x",
+      "updated_at": "2026-08-05T10:05:23.394635+09:00",
+      "auto": true
+    },
+    "1024670": {
+      "advertiser": "SERIAN | 세리안",
+      "status": "x",
+      "updated_at": "2026-08-05T10:05:23.396183+09:00",
+      "auto": true
+    },
+    "1024668": {
+      "advertiser": "한국관광공사",
+      "status": "x",
+      "updated_at": "2026-08-05T10:05:23.397730+09:00",
+      "auto": true
+    },
+    "1024650": {
+      "advertiser": "KCC건설",
+      "status": "x",
+      "updated_at": "2026-08-05T10:05:23.400780+09:00",
       "auto": true
     }
   }

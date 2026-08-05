@@ -1,5 +1,113 @@
 [
   {
+    "ad_id": "1024651",
+    "prefix": "bi1513",
+    "url": "https://tvcf.co.kr/play/bi1513-1024651",
+    "card_title": "우리투자증권우리, 투자하자. 우리투자,하자_말",
+    "onair": "08.05",
+    "registered_short": "08.05",
+    "brand": "우리투자증권",
+    "campaign": null,
+    "registered_date": "2026-08-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "우리투자증권",
+    "advertiser_code": "C000005938",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024653",
+        "url": "https://tvcf.co.kr/play/bi1535-1024653",
+        "brand": "우리투자증권",
+        "campaign": null,
+        "card_title": "우리투자증권우리,투자하다. 우리투자,하자_기도편"
+      },
+      {
+        "ad_id": "1024652",
+        "url": "https://tvcf.co.kr/play/ai1524-1024652",
+        "brand": "우리투자증권",
+        "campaign": null,
+        "card_title": "우리투자증권우리,투자하자.우리투자,하자"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-05T10:05:23.370129+09:00"
+  },
+  {
+    "ad_id": "1024659",
+    "prefix": "bi1592",
+    "url": "https://tvcf.co.kr/play/bi1592-1024659",
+    "card_title": "보건복지부 금연캠페인[노담소셜클럽] 궤도의 노담 사이언스클럽",
+    "onair": "08.04",
+    "registered_short": "08.04",
+    "brand": "보건복지부 금연캠페인",
+    "campaign": null,
+    "registered_date": "2026-08-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "보건복지부",
+    "advertiser_code": "C000005772",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024658",
+        "url": "https://tvcf.co.kr/play/ai1581-1024658",
+        "brand": "보건복지부 금연캠페인",
+        "campaign": null,
+        "card_title": "보건복지부 금연캠페인[노담소셜클럽] 이승국의 노담 무비클럽"
+      },
+      {
+        "ad_id": "1024656",
+        "url": "https://tvcf.co.kr/play/ai1568-1024656",
+        "brand": "보건복지부 금연캠페인",
+        "campaign": null,
+        "card_title": "보건복지부 금연캠페인[노담소셜클럽] 션의 노담 러닝클럽"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-05T10:05:23.370148+09:00"
+  },
+  {
+    "ad_id": "1024657",
+    "prefix": "bi1579",
+    "url": "https://tvcf.co.kr/play/bi1579-1024657",
+    "card_title": "보건복지부 금연캠페인[노담소셜클럽] 김민경의 노담 북클럽",
+    "onair": "08.04",
+    "registered_short": "08.04",
+    "brand": "보건복지부 금연캠페인",
+    "campaign": null,
+    "registered_date": "2026-08-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "보건복",
+    "advertiser_code": "4225674",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370149+09:00"
+  },
+  {
+    "ad_id": "1024650",
+    "prefix": "ai2502",
+    "url": "https://tvcf.co.kr/play/ai2502-1024650",
+    "card_title": "스위첸위대한 집안일(Full)",
+    "onair": "08.04",
+    "registered_short": "08.04",
+    "brand": "스위첸",
+    "campaign": null,
+    "registered_date": "2026-08-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "아파트/건설",
+    "sub_categories": [],
+    "advertiser": "KCC건설",
+    "advertiser_code": "C000008562",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370153+09:00"
+  },
+  {
     "ad_id": "1024633",
     "prefix": "bi1333",
     "url": "https://tvcf.co.kr/play/bi1333-1024633",
@@ -108,6 +216,25 @@
     "collected_at": "2026-08-04T17:06:22.886747+09:00"
   },
   {
+    "ad_id": "1024614",
+    "prefix": "ai1142",
+    "url": "https://tvcf.co.kr/play/ai1142-1024614",
+    "card_title": "삼성 갤럭시 Z 폴드8새로 펼침 - 파손보상 15s",
+    "onair": "08.04",
+    "registered_short": "08.04",
+    "brand": "삼성 갤럭시 Z 폴드8",
+    "campaign": null,
+    "registered_date": "2026-08-04",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370154+09:00"
+  },
+  {
     "ad_id": "1024610",
     "prefix": "ai2107",
     "url": "https://tvcf.co.kr/play/ai2107-1024610",
@@ -160,6 +287,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-08-04T17:06:22.886760+09:00"
+  },
+  {
+    "ad_id": "1024670",
+    "prefix": "ai2704",
+    "url": "https://tvcf.co.kr/play/ai2704-1024670",
+    "card_title": "SERIAN | 세리안SERIAN Brand Film",
+    "onair": "08.03",
+    "registered_short": "08.04",
+    "brand": "SERIAN",
+    "campaign": null,
+    "registered_date": "2026-08-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "SERIAN | 세리안",
+    "advertiser_code": "4225862",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370138+09:00"
   },
   {
     "ad_id": "1024613",
@@ -717,6 +863,25 @@
     "collected_at": "2026-08-01T10:03:03.855985+09:00"
   },
   {
+    "ad_id": "1024668",
+    "prefix": "ai1682",
+    "url": "https://tvcf.co.kr/play/ai1682-1024668",
+    "card_title": "한국관광공사Discover your own inspiration in Korea",
+    "onair": "07.31",
+    "registered_short": "08.04",
+    "brand": "한국관광공사",
+    "campaign": null,
+    "registered_date": "2026-07-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "한국관광공사",
+    "advertiser_code": "C000006043",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370140+09:00"
+  },
+  {
     "ad_id": "1024590",
     "prefix": "ai2905",
     "url": "https://tvcf.co.kr/play/ai2905-1024590",
@@ -848,6 +1013,41 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-31T17:01:42.871899+09:00"
+  },
+  {
+    "ad_id": "1024667",
+    "prefix": "bi1671",
+    "url": "https://tvcf.co.kr/play/bi1671-1024667",
+    "card_title": "메이플스토리 M2026 Summer Update 「RE:BOOST」I What’s New (30s ver.)",
+    "onair": "07.30",
+    "registered_short": "08.04",
+    "brand": "메이플스토리 M",
+    "campaign": null,
+    "registered_date": "2026-07-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024666",
+        "url": "https://tvcf.co.kr/play/ai1669-1024666",
+        "brand": "메이플스토리 M",
+        "campaign": null,
+        "card_title": "메이플스토리 M2026 Summer Update 「RE:BOOST」I What’s New"
+      },
+      {
+        "ad_id": "1024664",
+        "url": "https://tvcf.co.kr/play/ai1647-1024664",
+        "brand": "메이플스토리 M",
+        "campaign": null,
+        "card_title": "메이플스토리 M신규 캐릭터「렌(LEN)」Full ver."
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-05T10:05:23.370142+09:00"
   },
   {
     "ad_id": "1024630",
@@ -2214,6 +2414,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-24T10:02:30.442398+09:00"
+  },
+  {
+    "ad_id": "1024662",
+    "prefix": "ai1625",
+    "url": "https://tvcf.co.kr/play/ai1625-1024662",
+    "card_title": "삼성전자Galaxy Z Fold8 Ultra | Galaxy for Business | Samsung",
+    "onair": "07.23",
+    "registered_short": "08.04",
+    "brand": "삼성전자",
+    "campaign": null,
+    "registered_date": "2026-07-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024661",
+        "url": "https://tvcf.co.kr/play/bi1614-1024661",
+        "brand": "삼성전자",
+        "campaign": null,
+        "card_title": "삼성전자Galaxy Z Fold8 | Galaxy for Business | Samsung"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-05T10:05:23.370146+09:00"
   },
   {
     "ad_id": "1024622",
@@ -3819,6 +4047,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-20T10:02:36.885060+09:00"
+  },
+  {
+    "ad_id": "1024663",
+    "prefix": "bi1636",
+    "url": "https://tvcf.co.kr/play/bi1636-1024663",
+    "card_title": "메이플스토리 M신규 캐릭터「렌(LEN)」Teaser",
+    "onair": "07.16",
+    "registered_short": "08.04",
+    "brand": "메이플스토리 M",
+    "campaign": null,
+    "registered_date": "2026-07-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024665",
+        "url": "https://tvcf.co.kr/play/bi1658-1024665",
+        "brand": "메이플스토리 M",
+        "campaign": null,
+        "card_title": "메이플스토리 M신규 캐릭터「렌(LEN)」short ver."
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-05T10:05:23.370144+09:00"
   },
   {
     "ad_id": "1024302",
@@ -5831,6 +6087,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-12T10:01:36.968959+09:00"
+  },
+  {
+    "ad_id": "1024654",
+    "prefix": "ai1546",
+    "url": "https://tvcf.co.kr/play/ai1546-1024654",
+    "card_title": "익수제약 취어스후회말고 취어스 한방으로",
+    "onair": "07.10",
+    "registered_short": "08.04",
+    "brand": "익수제약 취어스",
+    "campaign": null,
+    "registered_date": "2026-07-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "익수제약",
+    "advertiser_code": "C000167875",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370151+09:00"
   },
   {
     "ad_id": "1024090",
@@ -19764,6 +20039,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-06-02T17:02:32.819229+09:00"
+  },
+  {
+    "ad_id": "1024671",
+    "prefix": "bi1715",
+    "url": "https://tvcf.co.kr/play/bi1715-1024671",
+    "card_title": "SERIAN | 세리안SERIAN Brand Film",
+    "onair": "06.01",
+    "registered_short": "08.05",
+    "brand": "SERIAN",
+    "campaign": null,
+    "registered_date": "2026-06-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "SERIAN | 세리안",
+    "advertiser_code": "4225894",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-05T10:05:23.370136+09:00"
   },
   {
     "ad_id": "1021929",
