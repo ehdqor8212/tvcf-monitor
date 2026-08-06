@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-06T10:02:55.663891+09:00",
-  "count": 227,
-  "x_count": 628,
+  "updated_at": "2026-08-06T17:06:22.953900+09:00",
+  "count": 229,
+  "x_count": 629,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1515,6 +1515,20 @@
       "status": "maybe",
       "matched_name": "엔씨소프트(Ncsoft)",
       "updated_at": "2026-08-06T10:02:55.660632+09:00",
+      "auto": true
+    },
+    "이마트": {
+      "display_name": "이마트",
+      "status": "o",
+      "matched_name": "이마트",
+      "updated_at": "2026-08-06T17:06:22.949143+09:00",
+      "auto": true
+    },
+    "에이스바이옴": {
+      "display_name": "에이스바이옴",
+      "status": "o",
+      "matched_name": "에이스바이옴",
+      "updated_at": "2026-08-06T17:06:22.949652+09:00",
       "auto": true
     }
   },
@@ -5242,6 +5256,12 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-08-06T10:02:55.656578+09:00",
+      "auto": true
+    },
+    "1024685": {
+      "advertiser": "소니픽처스코리아",
+      "status": "x",
+      "updated_at": "2026-08-06T17:06:22.951580+09:00",
       "auto": true
     }
   }
