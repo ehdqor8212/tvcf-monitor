@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T17:03:26.879830+09:00",
-  "count": 225,
-  "x_count": 626,
+  "updated_at": "2026-08-06T10:02:55.663891+09:00",
+  "count": 227,
+  "x_count": 628,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1501,6 +1501,20 @@
       "status": "o",
       "matched_name": "익수제약",
       "updated_at": "2026-08-05T10:05:23.399237+09:00",
+      "auto": true
+    },
+    "소니": {
+      "display_name": "소니",
+      "status": "maybe",
+      "matched_name": "소니픽쳐스엔터테인먼트코리아",
+      "updated_at": "2026-08-06T10:02:55.658516+09:00",
+      "auto": true
+    },
+    "엔씨소프트": {
+      "display_name": "엔씨소프트",
+      "status": "maybe",
+      "matched_name": "엔씨소프트(Ncsoft)",
+      "updated_at": "2026-08-06T10:02:55.660632+09:00",
       "auto": true
     }
   },
@@ -5216,6 +5230,18 @@
       "advertiser": "중소벤처기업부",
       "status": "x",
       "updated_at": "2026-08-05T17:03:26.876682+09:00",
+      "auto": true
+    },
+    "1024813": {
+      "advertiser": "행정안전부",
+      "status": "x",
+      "updated_at": "2026-08-06T10:02:55.653810+09:00",
+      "auto": true
+    },
+    "1024811": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-06T10:02:55.656578+09:00",
       "auto": true
     }
   }
