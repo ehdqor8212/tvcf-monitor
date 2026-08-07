@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T10:04:17.026447+09:00",
-  "count": 230,
-  "x_count": 632,
+  "updated_at": "2026-08-07T17:05:55.679173+09:00",
+  "count": 231,
+  "x_count": 633,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1536,6 +1536,13 @@
       "status": "o",
       "matched_name": "티웨이항공",
       "updated_at": "2026-08-07T10:04:17.014909+09:00",
+      "auto": true
+    },
+    "현대자동차hyundaikorea": {
+      "display_name": "현대자동차 (hyundai korea)",
+      "status": "maybe",
+      "matched_name": "현대자동차",
+      "updated_at": "2026-08-07T17:05:55.675999+09:00",
       "auto": true
     }
   },
@@ -5287,6 +5294,12 @@
       "advertiser": "지센",
       "status": "x",
       "updated_at": "2026-08-07T10:04:17.023207+09:00",
+      "auto": true
+    },
+    "1024889": {
+      "advertiser": "은성글로벌",
+      "status": "x",
+      "updated_at": "2026-08-07T17:05:55.673299+09:00",
       "auto": true
     }
   }
