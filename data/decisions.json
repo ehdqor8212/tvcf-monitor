@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-06T17:06:22.953900+09:00",
-  "count": 229,
-  "x_count": 629,
+  "updated_at": "2026-08-07T10:04:17.026447+09:00",
+  "count": 230,
+  "x_count": 632,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1529,6 +1529,13 @@
       "status": "o",
       "matched_name": "에이스바이옴",
       "updated_at": "2026-08-06T17:06:22.949652+09:00",
+      "auto": true
+    },
+    "티웨이항공": {
+      "display_name": "티웨이항공",
+      "status": "o",
+      "matched_name": "티웨이항공",
+      "updated_at": "2026-08-07T10:04:17.014909+09:00",
       "auto": true
     }
   },
@@ -5262,6 +5269,24 @@
       "advertiser": "소니픽처스코리아",
       "status": "x",
       "updated_at": "2026-08-06T17:06:22.951580+09:00",
+      "auto": true
+    },
+    "1024854": {
+      "advertiser": "에이치케이디코리아",
+      "status": "x",
+      "updated_at": "2026-08-07T10:04:17.017669+09:00",
+      "auto": true
+    },
+    "1024855": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-08-07T10:04:17.020452+09:00",
+      "auto": true
+    },
+    "1024852": {
+      "advertiser": "지센",
+      "status": "x",
+      "updated_at": "2026-08-07T10:04:17.023207+09:00",
       "auto": true
     }
   }
