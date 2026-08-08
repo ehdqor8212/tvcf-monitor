@@ -293,6 +293,25 @@
     "collected_at": "2026-08-07T17:05:55.641611+09:00"
   },
   {
+    "ad_id": "1024868",
+    "prefix": "ai1684",
+    "url": "https://tvcf.co.kr/play/ai1684-1024868",
+    "card_title": "현대카드다이닝 라이프를 위한 D, 알파벳카드D",
+    "onair": "08.06",
+    "registered_short": "08.07",
+    "brand": "현대카드",
+    "campaign": null,
+    "registered_date": "2026-08-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "현대카드",
+    "advertiser_code": "C000002425",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-08T17:01:39.408630+09:00"
+  },
+  {
     "ad_id": "1024863",
     "prefix": "bi1638",
     "url": "https://tvcf.co.kr/play/bi1638-1024863",
