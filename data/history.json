@@ -1,5 +1,24 @@
 [
   {
+    "ad_id": "1024901",
+    "prefix": "bi211",
+    "url": "https://tvcf.co.kr/play/bi211-1024901",
+    "card_title": "윙스탑Rhyme The Review",
+    "onair": "08.07",
+    "registered_short": "08.07",
+    "brand": "윙스탑",
+    "campaign": null,
+    "registered_date": "2026-08-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "윙스탑",
+    "advertiser_code": "4229307",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-08T10:02:21.106133+09:00"
+  },
+  {
     "ad_id": "1024891",
     "prefix": "bi1919",
     "url": "https://tvcf.co.kr/play/bi1919-1024891",
@@ -118,6 +137,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-07T10:04:16.983035+09:00"
+  },
+  {
+    "ad_id": "1024881",
+    "prefix": "bi1818",
+    "url": "https://tvcf.co.kr/play/bi1818-1024881",
+    "card_title": "현대카드간편결제 라이프를 위한 P, 알파벳카드P",
+    "onair": "08.06",
+    "registered_short": "08.07",
+    "brand": "현대카드",
+    "campaign": null,
+    "registered_date": "2026-08-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "현대카드",
+    "advertiser_code": "C000002425",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1024882",
+        "url": "https://tvcf.co.kr/play/ai1829-1024882",
+        "brand": "현대카드",
+        "campaign": null,
+        "card_title": "현대카드정기결제 라이프를 위한 R, 알파벳카드R"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-08T10:02:21.106150+09:00"
   },
   {
     "ad_id": "1024876",
