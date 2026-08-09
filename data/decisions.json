@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-08T10:02:21.144536+09:00",
+  "updated_at": "2026-08-09T10:01:38.102370+09:00",
   "count": 231,
-  "x_count": 634,
+  "x_count": 635,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5306,6 +5306,12 @@
       "advertiser": "윙스탑",
       "status": "x",
       "updated_at": "2026-08-08T10:02:21.141036+09:00",
+      "auto": true
+    },
+    "1024404": {
+      "advertiser": "파인네스트",
+      "status": "x",
+      "updated_at": "2026-08-09T10:01:38.099077+09:00",
       "auto": true
     }
   }
