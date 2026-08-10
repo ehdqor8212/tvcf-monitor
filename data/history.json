@@ -19,6 +19,25 @@
     "collected_at": "2026-08-10T10:02:23.143868+09:00"
   },
   {
+    "ad_id": "1025023",
+    "prefix": "bi2235",
+    "url": "https://tvcf.co.kr/play/bi2235-1025023",
+    "card_title": "포켓몬 카드 게임[공식] 2026 포켓몬 카드 게임 브랜드 필름 : 세대초월 배틀! EPISODE.1 배틀 초대장✉│포켓몬 카드 게임 Pokémon Card Game",
+    "onair": "08.08",
+    "registered_short": "08.10",
+    "brand": "포켓몬 카드 게임",
+    "campaign": null,
+    "registered_date": "2026-08-08",
+    "media_type": "케이블",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "포켓몬코리아",
+    "advertiser_code": "C000168229",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-10T17:02:57.329044+09:00"
+  },
+  {
     "ad_id": "1025017",
     "prefix": "bi2178",
     "url": "https://tvcf.co.kr/play/bi2178-1025017",
@@ -1186,6 +1205,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-08-04T17:06:22.886760+09:00"
+  },
+  {
+    "ad_id": "1024900",
+    "prefix": "ai309",
+    "url": "https://tvcf.co.kr/play/ai309-1024900",
+    "card_title": "강진 하맥축제단돈 만원에 맥주가 무제한!? 한여름 밤을 시원하게 적실 제4회 강진 하맥축제!",
+    "onair": "08.03",
+    "registered_short": "08.10",
+    "brand": "강진 하맥축제",
+    "campaign": null,
+    "registered_date": "2026-08-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "출판/교육/문화",
+    "sub_categories": [],
+    "advertiser": "강진군",
+    "advertiser_code": "C000074929",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-10T17:02:57.329046+09:00"
   },
   {
     "ad_id": "1024818",
@@ -8686,6 +8724,34 @@
     "collected_at": "2026-07-07T12:02:26.820135+09:00"
   },
   {
+    "ad_id": "1025030",
+    "prefix": "ai3303",
+    "url": "https://tvcf.co.kr/play/ai3303-1025030",
+    "card_title": "GH경기주택도시공사New TVC - 도시의 내일을 바꾸는 진짜 실력 GH가 보여드립니다",
+    "onair": "07.06",
+    "registered_short": "08.10",
+    "brand": "GH경기주택도시공사",
+    "campaign": null,
+    "registered_date": "2026-07-06",
+    "media_type": "케이블",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "GH경기주택도시공사",
+    "advertiser_code": "C000061455",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025029",
+        "url": "https://tvcf.co.kr/play/bi2292-1025029",
+        "brand": "GH경기주택도시공사",
+        "campaign": null,
+        "card_title": "GH경기주택도시공사New TVC - 도시의 내일을 바꾸는 진짜 실력 GH가 보여드립니다"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-10T17:02:57.329035+09:00"
+  },
+  {
     "ad_id": "1024588",
     "prefix": "ai1883",
     "url": "https://tvcf.co.kr/play/ai1883-1024588",
@@ -14323,6 +14389,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-22T10:02:15.030845+09:00"
+  },
+  {
+    "ad_id": "1025040",
+    "prefix": "ai3404",
+    "url": "https://tvcf.co.kr/play/ai3404-1025040",
+    "card_title": "FC 온라인여전히 우리의 가슴을 뛰게 하는 건 축구밖에 없으니까",
+    "onair": "06.19",
+    "registered_short": "08.10",
+    "brand": "FC 온라인",
+    "campaign": null,
+    "registered_date": "2026-06-19",
+    "media_type": "케이블",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025039",
+        "url": "https://tvcf.co.kr/play/bi2393-1025039",
+        "brand": "FC 온라인",
+        "campaign": null,
+        "card_title": "FC 온라인여전히 우리는 축구를 좋아하니까 | FC온라인"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-10T17:02:57.329014+09:00"
   },
   {
     "ad_id": "1023252",
@@ -22842,6 +22936,25 @@
     "collected_at": "2026-05-29T17:03:39.232546+09:00"
   },
   {
+    "ad_id": "1025037",
+    "prefix": "bi2371",
+    "url": "https://tvcf.co.kr/play/bi2371-1025037",
+    "card_title": "FC 온라인마지막이라 가장 뜨거운 불꽃 | Last Flame | FC온라인 (15\")",
+    "onair": "05.28",
+    "registered_short": "08.10",
+    "brand": "FC 온라인",
+    "campaign": null,
+    "registered_date": "2026-05-28",
+    "media_type": "케이블",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-10T17:02:57.329032+09:00"
+  },
+  {
     "ad_id": "1023160",
     "prefix": "ai2607",
     "url": "https://tvcf.co.kr/play/ai2607-1023160",
@@ -26831,6 +26944,34 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-05-19T17:10:22.917906+09:00"
+  },
+  {
+    "ad_id": "1025038",
+    "prefix": "ai2382",
+    "url": "https://tvcf.co.kr/play/ai2382-1025038",
+    "card_title": "라미실 원스선인장",
+    "onair": "05.16",
+    "registered_short": "08.10",
+    "brand": "라미실 원스",
+    "campaign": null,
+    "registered_date": "2026-05-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "지피테라퓨틱스코리아",
+    "advertiser_code": "C000166600",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025036",
+        "url": "https://tvcf.co.kr/play/ai2369-1025036",
+        "brand": "라미실 원스",
+        "campaign": null,
+        "card_title": "라미실 원스원스로 한 번에 라미실 원스_콘크리트"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-10T17:02:57.329028+09:00"
   },
   {
     "ad_id": "1020376",
