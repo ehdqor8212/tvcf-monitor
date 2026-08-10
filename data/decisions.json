@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-09T17:02:20.658843+09:00",
+  "updated_at": "2026-08-10T10:02:23.174913+09:00",
   "count": 231,
-  "x_count": 637,
+  "x_count": 639,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5324,6 +5324,18 @@
       "advertiser": "럭시플로라바이오 유한책임회사",
       "status": "x",
       "updated_at": "2026-08-09T17:02:20.655386+09:00",
+      "auto": true
+    },
+    "1025015": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-10T10:02:23.170690+09:00",
+      "auto": true
+    },
+    "1025017": {
+      "advertiser": "하이로닉코리아",
+      "status": "x",
+      "updated_at": "2026-08-10T10:02:23.172635+09:00",
       "auto": true
     }
   }
