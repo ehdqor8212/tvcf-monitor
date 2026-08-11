@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T10:03:09.982346+09:00",
-  "count": 231,
-  "x_count": 645,
+  "updated_at": "2026-08-11T17:03:22.288546+09:00",
+  "count": 232,
+  "x_count": 647,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1543,6 +1543,13 @@
       "status": "maybe",
       "matched_name": "현대자동차",
       "updated_at": "2026-08-07T17:05:55.675999+09:00",
+      "auto": true
+    },
+    "우리은행": {
+      "display_name": "우리은행",
+      "status": "maybe",
+      "matched_name": "(미집행) 우리은행",
+      "updated_at": "2026-08-11T17:03:22.282256+09:00",
       "auto": true
     }
   },
@@ -5372,6 +5379,18 @@
       "advertiser": "에코디엠랩",
       "status": "x",
       "updated_at": "2026-08-11T10:03:09.979039+09:00",
+      "auto": true
+    },
+    "1025075": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-08-11T17:03:22.280814+09:00",
+      "auto": true
+    },
+    "1025059": {
+      "advertiser": "인천광역시",
+      "status": "x",
+      "updated_at": "2026-08-11T17:03:22.285079+09:00",
       "auto": true
     }
   }
