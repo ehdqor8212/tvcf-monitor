@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T17:02:57.372003+09:00",
+  "updated_at": "2026-08-11T10:03:09.982346+09:00",
   "count": 231,
-  "x_count": 642,
+  "x_count": 645,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5354,6 +5354,24 @@
       "advertiser": "강진군",
       "status": "x",
       "updated_at": "2026-08-10T17:02:57.369029+09:00",
+      "auto": true
+    },
+    "1025064": {
+      "advertiser": "지바이크",
+      "status": "x",
+      "updated_at": "2026-08-11T10:03:09.973417+09:00",
+      "auto": true
+    },
+    "1025062": {
+      "advertiser": "에코디엠랩",
+      "status": "x",
+      "updated_at": "2026-08-11T10:03:09.976234+09:00",
+      "auto": true
+    },
+    "1025061": {
+      "advertiser": "에코디엠랩",
+      "status": "x",
+      "updated_at": "2026-08-11T10:03:09.979039+09:00",
       "auto": true
     }
   }
