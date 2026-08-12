@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T10:04:21.250872+09:00",
+  "updated_at": "2026-08-12T17:03:45.423344+09:00",
   "count": 232,
-  "x_count": 662,
+  "x_count": 664,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5481,6 +5481,18 @@
       "advertiser": "Mercedes-Benz Korea",
       "status": "x",
       "updated_at": "2026-08-12T10:04:21.247611+09:00",
+      "auto": true
+    },
+    "1025177": {
+      "advertiser": "SC제일은행",
+      "status": "x",
+      "updated_at": "2026-08-12T17:03:45.419457+09:00",
+      "auto": true
+    },
+    "1025067": {
+      "advertiser": "피알피사이언스",
+      "status": "x",
+      "updated_at": "2026-08-12T17:03:45.421218+09:00",
       "auto": true
     }
   }
