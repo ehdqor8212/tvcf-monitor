@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T17:03:22.288546+09:00",
+  "updated_at": "2026-08-12T10:04:21.250872+09:00",
   "count": 232,
-  "x_count": 647,
+  "x_count": 662,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5391,6 +5391,96 @@
       "advertiser": "인천광역시",
       "status": "x",
       "updated_at": "2026-08-11T17:03:22.285079+09:00",
+      "auto": true
+    },
+    "1025134": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.212663+09:00",
+      "auto": true
+    },
+    "1025133": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.215189+09:00",
+      "auto": true
+    },
+    "1025132": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.217702+09:00",
+      "auto": true
+    },
+    "1025131": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.220212+09:00",
+      "auto": true
+    },
+    "1025130": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.222693+09:00",
+      "auto": true
+    },
+    "1025129": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.225186+09:00",
+      "auto": true
+    },
+    "1025128": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.227665+09:00",
+      "auto": true
+    },
+    "1025127": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.230158+09:00",
+      "auto": true
+    },
+    "1025126": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.232675+09:00",
+      "auto": true
+    },
+    "1025125": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.235173+09:00",
+      "auto": true
+    },
+    "1025124": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.237671+09:00",
+      "auto": true
+    },
+    "1025123": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.240137+09:00",
+      "auto": true
+    },
+    "1025122": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.242611+09:00",
+      "auto": true
+    },
+    "1025121": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.245124+09:00",
+      "auto": true
+    },
+    "1025120": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.247611+09:00",
       "auto": true
     }
   }
