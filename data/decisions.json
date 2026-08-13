@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T10:01:14.487768+09:00",
+  "updated_at": "2026-08-13T17:02:37.630073+09:00",
   "count": 232,
-  "x_count": 665,
+  "x_count": 668,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5499,6 +5499,24 @@
       "advertiser": "(주)은성글로벌",
       "status": "x",
       "updated_at": "2026-08-13T10:01:14.484265+09:00",
+      "auto": true
+    },
+    "1025216": {
+      "advertiser": "은성글로벌",
+      "status": "x",
+      "updated_at": "2026-08-13T17:02:37.620975+09:00",
+      "auto": true
+    },
+    "1025208": {
+      "advertiser": "중소벤처기업부",
+      "status": "x",
+      "updated_at": "2026-08-13T17:02:37.623753+09:00",
+      "auto": true
+    },
+    "1025205": {
+      "advertiser": "OpenAI",
+      "status": "x",
+      "updated_at": "2026-08-13T17:02:37.626528+09:00",
       "auto": true
     }
   }
