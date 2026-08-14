@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T17:02:37.630073+09:00",
+  "updated_at": "2026-08-14T10:02:17.221816+09:00",
   "count": 232,
-  "x_count": 668,
+  "x_count": 669,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5517,6 +5517,12 @@
       "advertiser": "OpenAI",
       "status": "x",
       "updated_at": "2026-08-13T17:02:37.626528+09:00",
+      "auto": true
+    },
+    "1025344": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-14T10:02:17.218191+09:00",
       "auto": true
     }
   }
