@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T10:02:17.221816+09:00",
-  "count": 232,
-  "x_count": 669,
+  "updated_at": "2026-08-15T10:03:32.357460+09:00",
+  "count": 233,
+  "x_count": 673,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1550,6 +1550,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 우리은행",
       "updated_at": "2026-08-11T17:03:22.282256+09:00",
+      "auto": true
+    },
+    "한국인삼공사": {
+      "display_name": "한국인삼공사",
+      "status": "o",
+      "matched_name": "한국인삼공사",
+      "updated_at": "2026-08-15T10:03:32.354654+09:00",
       "auto": true
     }
   },
@@ -5523,6 +5530,30 @@
       "advertiser": "동원F&B",
       "status": "x",
       "updated_at": "2026-08-14T10:02:17.218191+09:00",
+      "auto": true
+    },
+    "1025401": {
+      "advertiser": "(주)은성글로벌",
+      "status": "x",
+      "updated_at": "2026-08-15T10:03:32.346874+09:00",
+      "auto": true
+    },
+    "1025378": {
+      "advertiser": "캐비어그립",
+      "status": "x",
+      "updated_at": "2026-08-15T10:03:32.349110+09:00",
+      "auto": true
+    },
+    "1025376": {
+      "advertiser": "LG화학",
+      "status": "x",
+      "updated_at": "2026-08-15T10:03:32.351366+09:00",
+      "auto": true
+    },
+    "1025355": {
+      "advertiser": "코스맥스엔비티",
+      "status": "x",
+      "updated_at": "2026-08-15T10:03:32.353646+09:00",
       "auto": true
     }
   }
