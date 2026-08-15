@@ -1,105 +1,15 @@
 {
-  "run_at": "2026-08-15T10:03:32.303816+09:00",
-  "count": 8,
-  "count_total_before_dedup": 12,
+  "run_at": "2026-08-15T17:01:20.538176+09:00",
+  "count": 1,
+  "count_total_before_dedup": 1,
   "new_ads": [
     {
-      "ad_id": "1025401",
-      "prefix": "bi215",
-      "url": "https://tvcf.co.kr/play/bi215-1025401",
-      "card_title": "울트라인자연스럽게 나답게, 울트라인_손예진",
-      "onair": "08.14",
-      "registered_short": "08.14",
-      "brand": "울트라인",
-      "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "디지털 범퍼",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "(주)은성글로벌",
-      "advertiser_code": "C000071973",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1025378",
-      "prefix": "ai1789",
-      "url": "https://tvcf.co.kr/play/ai1789-1025378",
-      "card_title": "캐비어골프그립골프 비거리 질주 본능이 시작된다",
-      "onair": "08.13",
-      "registered_short": "08.14",
-      "brand": "캐비어골프그립",
-      "campaign": null,
-      "registered_date": "2026-08-13",
-      "media_type": "케이블",
-      "main_category": "패션/스포츠",
-      "sub_categories": [],
-      "advertiser": "캐비어그립",
-      "advertiser_code": "C000169476",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1025377",
-      "prefix": "bi1778",
-      "url": "https://tvcf.co.kr/play/bi1778-1025377",
-      "card_title": "테일러메이드BUILT BETTER, 그것은 우리들의 미션",
-      "onair": "08.13",
-      "registered_short": "08.14",
-      "brand": "테일러메이드",
-      "campaign": null,
-      "registered_date": "2026-08-13",
-      "media_type": "케이블",
-      "main_category": "패션/스포츠",
-      "sub_categories": [],
-      "advertiser": "테일러메이드 코리아",
-      "advertiser_code": "C000011806",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1025376",
-      "prefix": "ai1767",
-      "url": "https://tvcf.co.kr/play/ai1767-1025376",
-      "card_title": "LG화학AI의 가능성을 가능하게!",
-      "onair": "08.14",
-      "registered_short": "08.14",
-      "brand": "LG화학",
-      "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "LG화학",
-      "advertiser_code": "C000001510",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1025355",
-      "prefix": "bi1554",
-      "url": "https://tvcf.co.kr/play/bi1554-1025355",
-      "card_title": "젤라토닌잠 잘 오세요? 잠들기 어려운 밤, 수면 루틴을 위한 젤리",
-      "onair": "08.13",
-      "registered_short": "08.14",
-      "brand": "젤라토닌",
-      "campaign": null,
-      "registered_date": "2026-08-13",
-      "media_type": "케이블",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "코스맥스엔비티",
-      "advertiser_code": "C000166548",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1025343",
-      "prefix": "bi1431",
-      "url": "https://tvcf.co.kr/play/bi1431-1025343",
+      "ad_id": "1025342",
+      "prefix": "ai1429",
+      "url": "https://tvcf.co.kr/play/ai1429-1025342",
       "card_title": "구글 제미나이BTS & Gemini | It starts with you",
       "onair": "08.13",
-      "registered_short": "08.14",
+      "registered_short": "08.15",
       "brand": "구글 제미나이",
       "campaign": null,
       "registered_date": "2026-08-13",
@@ -109,77 +19,7 @@
       "advertiser": "구글코리아",
       "advertiser_code": "C000008256",
       "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1025113",
-          "url": "https://tvcf.co.kr/play/bi1135-1025113",
-          "brand": "구글 제미나이",
-          "campaign": null,
-          "card_title": "구글 제미나이BTS & Gemini | It starts with you"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1025349",
-      "prefix": "bi1497",
-      "url": "https://tvcf.co.kr/play/bi1497-1025349",
-      "card_title": "정관장정관장은 합니다, 과학적으로 (설계)",
-      "onair": "08.14",
-      "registered_short": "08.14",
-      "brand": "정관장",
-      "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "케이블",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "한국인삼공사",
-      "advertiser_code": "C000007458",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1025351",
-          "url": "https://tvcf.co.kr/play/bi1519-1025351",
-          "brand": "정관장",
-          "campaign": null,
-          "card_title": "정관장정관장은 합니다, 과학적으로 (안전)"
-        },
-        {
-          "ad_id": "1025350",
-          "url": "https://tvcf.co.kr/play/ai2508-1025350",
-          "brand": "정관장",
-          "campaign": null,
-          "card_title": "정관장정관장은 합니다, 과학적으로 (연구)"
-        }
-      ],
-      "variant_count": 3
-    },
-    {
-      "ad_id": "1025177",
-      "prefix": "bi1776",
-      "url": "https://tvcf.co.kr/play/bi1776-1025177",
-      "card_title": "SC제일은행SC제일은행 도곡 프라이빗 뱅킹 센터 오픈",
-      "onair": "07.22",
-      "registered_short": "08.12",
-      "brand": "SC제일은행",
-      "campaign": null,
-      "registered_date": "2026-07-22",
-      "media_type": "디지털(인터넷)",
-      "main_category": "금융/보험",
-      "sub_categories": [],
-      "advertiser": "SC제일은행",
-      "advertiser_code": "C000017514",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1025176",
-          "url": "https://tvcf.co.kr/play/ai1765-1025176",
-          "brand": "SC제일은행",
-          "campaign": null,
-          "card_title": "SC제일은행글로벌 자산관리의 새로운 기준이 보입니다"
-        }
-      ],
-      "variant_count": 2
+      "variant_count": 1
     }
   ]
 }
