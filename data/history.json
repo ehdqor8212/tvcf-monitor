@@ -1,5 +1,33 @@
 [
   {
+    "ad_id": "1025415",
+    "prefix": "bi1151",
+    "url": "https://tvcf.co.kr/play/bi1151-1025415",
+    "card_title": "신한은행이것은 광고인가..? 아니면 훈련인가..? ㅣ신한 나라사랑카드 인터뷰편",
+    "onair": "08.14",
+    "registered_short": "08.16",
+    "brand": "신한은행",
+    "campaign": null,
+    "registered_date": "2026-08-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "신한은행",
+    "advertiser_code": "C000001300",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025414",
+        "url": "https://tvcf.co.kr/play/ai1149-1025414",
+        "brand": "신한은행",
+        "campaign": null,
+        "card_title": "신한은행신한 나라사랑카드모델 유나, 그렇게 군인이 된다."
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-16T10:01:25.034886+09:00"
+  },
+  {
     "ad_id": "1025401",
     "prefix": "bi215",
     "url": "https://tvcf.co.kr/play/bi215-1025401",
