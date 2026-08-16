@@ -1,34 +1,25 @@
 {
-  "run_at": "2026-08-16T10:01:25.034203+09:00",
+  "run_at": "2026-08-16T17:01:16.932118+09:00",
   "count": 1,
-  "count_total_before_dedup": 2,
+  "count_total_before_dedup": 1,
   "new_ads": [
     {
-      "ad_id": "1025415",
-      "prefix": "bi1151",
-      "url": "https://tvcf.co.kr/play/bi1151-1025415",
-      "card_title": "신한은행이것은 광고인가..? 아니면 훈련인가..? ㅣ신한 나라사랑카드 인터뷰편",
-      "onair": "08.14",
-      "registered_short": "08.16",
-      "brand": "신한은행",
+      "ad_id": "1025128",
+      "prefix": "ai1282",
+      "url": "https://tvcf.co.kr/play/ai1282-1025128",
+      "card_title": "메르세데스 벤츠Mercedes-Benz SUV Experience 2026년 상반기 티켓 오픈",
+      "onair": "03.10",
+      "registered_short": "08.11",
+      "brand": "메르세데스 벤츠",
       "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "디지털(인터넷)",
-      "main_category": "",
+      "registered_date": "2026-03-10",
+      "media_type": "브랜디드 컨텐츠",
+      "main_category": "자동차/정유",
       "sub_categories": [],
-      "advertiser": "신한은행",
-      "advertiser_code": "C000001300",
+      "advertiser": "메르세데스 벤츠코리아",
+      "advertiser_code": "C000011426",
       "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1025414",
-          "url": "https://tvcf.co.kr/play/ai1149-1025414",
-          "brand": "신한은행",
-          "campaign": null,
-          "card_title": "신한은행신한 나라사랑카드모델 유나, 그렇게 군인이 된다."
-        }
-      ],
-      "variant_count": 2
+      "variant_count": 1
     }
   ]
 }
