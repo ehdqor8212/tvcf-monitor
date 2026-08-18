@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T10:01:38.671337+09:00",
-  "count": 233,
-  "x_count": 674,
+  "updated_at": "2026-08-18T10:06:29.710002+09:00",
+  "count": 234,
+  "x_count": 681,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1557,6 +1557,13 @@
       "status": "o",
       "matched_name": "한국인삼공사",
       "updated_at": "2026-08-15T10:03:32.354654+09:00",
+      "auto": true
+    },
+    "한국수력원자력": {
+      "display_name": "한국수력원자력",
+      "status": "o",
+      "matched_name": "한국수력원자력",
+      "updated_at": "2026-08-18T10:06:29.693133+09:00",
       "auto": true
     }
   },
@@ -5560,6 +5567,48 @@
       "advertiser": "경기도어린이박물관",
       "status": "x",
       "updated_at": "2026-08-17T10:01:38.667819+09:00",
+      "auto": true
+    },
+    "1025404": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.689250+09:00",
+      "auto": true
+    },
+    "1025403": {
+      "advertiser": "한국생명의전화",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.691955+09:00",
+      "auto": true
+    },
+    "1025412": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.695847+09:00",
+      "auto": true
+    },
+    "1025423": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.698574+09:00",
+      "auto": true
+    },
+    "1025434": {
+      "advertiser": "OpenAI",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.701253+09:00",
+      "auto": true
+    },
+    "1025438": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.703942+09:00",
+      "auto": true
+    },
+    "1025529": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.706634+09:00",
       "auto": true
     }
   }
