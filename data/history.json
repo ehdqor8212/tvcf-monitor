@@ -1,5 +1,117 @@
 [
   {
+    "ad_id": "1025593",
+    "prefix": "bi1938",
+    "url": "https://tvcf.co.kr/play/bi1938-1025593",
+    "card_title": "구글 제미나이Look what JungKook can do",
+    "onair": "08.18",
+    "registered_short": "08.18",
+    "brand": "구글 제미나이",
+    "campaign": null,
+    "registered_date": "2026-08-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "구글코리아",
+    "advertiser_code": "C000008256",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025592",
+        "url": "https://tvcf.co.kr/play/ai1927-1025592",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Look what j-hope can do"
+      },
+      {
+        "ad_id": "1025591",
+        "url": "https://tvcf.co.kr/play/bi1916-1025591",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Look what V can do"
+      },
+      {
+        "ad_id": "1025590",
+        "url": "https://tvcf.co.kr/play/ai2905-1025590",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Look what Jimin can do"
+      },
+      {
+        "ad_id": "1025581",
+        "url": "https://tvcf.co.kr/play/bi1815-1025581",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Look what SUGA can do"
+      },
+      {
+        "ad_id": "1025574",
+        "url": "https://tvcf.co.kr/play/ai1747-1025574",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이Look what Jin can do"
+      }
+    ],
+    "variant_count": 6,
+    "collected_at": "2026-08-18T17:05:25.722649+09:00"
+  },
+  {
+    "ad_id": "1025555",
+    "prefix": "bi1556",
+    "url": "https://tvcf.co.kr/play/bi1556-1025555",
+    "card_title": "콜대원콜대원 감기의 소리를 찾아서 - 도자기 30\"",
+    "onair": "08.18",
+    "registered_short": "08.18",
+    "brand": "콜대원",
+    "campaign": null,
+    "registered_date": "2026-08-18",
+    "media_type": "케이블",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "대원제약",
+    "advertiser_code": "C000011360",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025549",
+        "url": "https://tvcf.co.kr/play/bi1499-1025549",
+        "brand": "콜대원",
+        "campaign": null,
+        "card_title": "콜대원콜대원 감기의 소리를 찾아서 - 도자기 15\""
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-18T17:05:25.722669+09:00"
+  },
+  {
+    "ad_id": "1025547",
+    "prefix": "bi1477",
+    "url": "https://tvcf.co.kr/play/bi1477-1025547",
+    "card_title": "코인원코인을 넘어 금융으로 | 주식 연결 30’’",
+    "onair": "08.18",
+    "registered_short": "08.18",
+    "brand": "코인원",
+    "campaign": null,
+    "registered_date": "2026-08-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "코인원",
+    "advertiser_code": "C000028253",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025546",
+        "url": "https://tvcf.co.kr/play/ai1466-1025546",
+        "brand": "코인원",
+        "campaign": null,
+        "card_title": "코인원코인을 넘어 금융으로 | 주식 연결 15’’"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-18T17:05:25.722672+09:00"
+  },
+  {
     "ad_id": "1025530",
     "prefix": "ai2308",
     "url": "https://tvcf.co.kr/play/ai2308-1025530",
@@ -36,6 +148,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-18T10:06:29.655620+09:00"
+  },
+  {
+    "ad_id": "1025588",
+    "prefix": "ai1883",
+    "url": "https://tvcf.co.kr/play/ai1883-1025588",
+    "card_title": "유니세프나 하나의 시작",
+    "onair": "08.16",
+    "registered_short": "08.18",
+    "brand": "유니세프",
+    "campaign": null,
+    "registered_date": "2026-08-16",
+    "media_type": "케이블",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722663+09:00"
+  },
+  {
+    "ad_id": "1025542",
+    "prefix": "ai1422",
+    "url": "https://tvcf.co.kr/play/ai1422-1025542",
+    "card_title": "양반 100밥무첨가 (30s)",
+    "onair": "08.16",
+    "registered_short": "08.18",
+    "brand": "양반 100밥",
+    "campaign": null,
+    "registered_date": "2026-08-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동원F&B",
+    "advertiser_code": "C000002583",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722677+09:00"
   },
   {
     "ad_id": "1025440",
@@ -194,6 +344,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-18T10:06:29.655612+09:00"
+  },
+  {
+    "ad_id": "1025539",
+    "prefix": "bi1398",
+    "url": "https://tvcf.co.kr/play/bi1398-1025539",
+    "card_title": "신한은행신한의 사랑이 담긴 군가 ‘나라사랑해’",
+    "onair": "08.14",
+    "registered_short": "08.18",
+    "brand": "신한은행",
+    "campaign": null,
+    "registered_date": "2026-08-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "신한은행",
+    "advertiser_code": "C000001300",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722680+09:00"
   },
   {
     "ad_id": "1025421",
@@ -437,6 +606,44 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-08-15T10:03:32.304615+09:00"
+  },
+  {
+    "ad_id": "1025559",
+    "prefix": "bi1591",
+    "url": "https://tvcf.co.kr/play/bi1591-1025559",
+    "card_title": "현대카드지마켓 쇼핑 혜택의 명작",
+    "onair": "08.13",
+    "registered_short": "08.18",
+    "brand": "현대카드",
+    "campaign": null,
+    "registered_date": "2026-08-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "현대카드",
+    "advertiser_code": "C000002425",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722666+09:00"
+  },
+  {
+    "ad_id": "1025548",
+    "prefix": "ai1488",
+    "url": "https://tvcf.co.kr/play/ai1488-1025548",
+    "card_title": "동원참치BTS JIN&TUNA LOG - 바다단백질 받아!",
+    "onair": "08.13",
+    "registered_short": "08.18",
+    "brand": "동원참치",
+    "campaign": null,
+    "registered_date": "2026-08-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동원F&B",
+    "advertiser_code": "C000002583",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722675+09:00"
   },
   {
     "ad_id": "1025378",
@@ -2817,6 +3024,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-04T17:06:22.886757+09:00"
+  },
+  {
+    "ad_id": "1025589",
+    "prefix": "bi1894",
+    "url": "https://tvcf.co.kr/play/bi1894-1025589",
+    "card_title": "유니세프백신의 출발지",
+    "onair": "08.01",
+    "registered_short": "08.18",
+    "brand": "유니세프",
+    "campaign": null,
+    "registered_date": "2026-08-01",
+    "media_type": "케이블",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variant_count": 1,
+    "collected_at": "2026-08-18T17:05:25.722658+09:00"
   },
   {
     "ad_id": "1025249",

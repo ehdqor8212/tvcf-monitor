@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T10:06:29.710002+09:00",
+  "updated_at": "2026-08-18T17:05:25.772794+09:00",
   "count": 234,
-  "x_count": 681,
+  "x_count": 686,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5609,6 +5609,36 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-08-18T10:06:29.706634+09:00",
+      "auto": true
+    },
+    "1025589": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.758650+09:00",
+      "auto": true
+    },
+    "1025588": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.761384+09:00",
+      "auto": true
+    },
+    "1025547": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.764110+09:00",
+      "auto": true
+    },
+    "1025548": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.766758+09:00",
+      "auto": true
+    },
+    "1025542": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.769398+09:00",
       "auto": true
     }
   }
