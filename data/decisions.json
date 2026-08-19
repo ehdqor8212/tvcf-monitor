@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T10:03:57.385242+09:00",
+  "updated_at": "2026-08-19T17:08:11.428684+09:00",
   "count": 236,
-  "x_count": 687,
+  "x_count": 700,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5659,6 +5659,84 @@
       "advertiser": "메트라이프생명",
       "status": "x",
       "updated_at": "2026-08-19T10:03:57.379533+09:00",
+      "auto": true
+    },
+    "1025673": {
+      "advertiser": "한솔그룹",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.393040+09:00",
+      "auto": true
+    },
+    "1025679": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.395732+09:00",
+      "auto": true
+    },
+    "1025677": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.398405+09:00",
+      "auto": true
+    },
+    "1025676": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.401043+09:00",
+      "auto": true
+    },
+    "1025678": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.403734+09:00",
+      "auto": true
+    },
+    "1025640": {
+      "advertiser": "오늘의집",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.406366+09:00",
+      "auto": true
+    },
+    "1025639": {
+      "advertiser": "오늘의집",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.408998+09:00",
+      "auto": true
+    },
+    "1025629": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.411638+09:00",
+      "auto": true
+    },
+    "1025631": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.414306+09:00",
+      "auto": true
+    },
+    "1025630": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.416962+09:00",
+      "auto": true
+    },
+    "1025632": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.419595+09:00",
+      "auto": true
+    },
+    "1025625": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.422241+09:00",
+      "auto": true
+    },
+    "1025024": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.424897+09:00",
       "auto": true
     }
   }
