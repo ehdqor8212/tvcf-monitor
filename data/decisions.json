@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T17:05:25.772794+09:00",
-  "count": 234,
-  "x_count": 686,
+  "updated_at": "2026-08-19T10:03:57.385242+09:00",
+  "count": 236,
+  "x_count": 687,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1564,6 +1564,20 @@
       "status": "o",
       "matched_name": "한국수력원자력",
       "updated_at": "2026-08-18T10:06:29.693133+09:00",
+      "auto": true
+    },
+    "익스트림": {
+      "display_name": "익스트림",
+      "status": "o",
+      "matched_name": "익스트림",
+      "updated_at": "2026-08-19T10:03:57.376835+09:00",
+      "auto": true
+    },
+    "익스트림올인원포맨": {
+      "display_name": "익스트림 올인원 포 맨",
+      "status": "maybe",
+      "matched_name": "익스트림",
+      "updated_at": "2026-08-19T10:03:57.381739+09:00",
       "auto": true
     }
   },
@@ -5639,6 +5653,12 @@
       "advertiser": "동원F&B",
       "status": "x",
       "updated_at": "2026-08-18T17:05:25.769398+09:00",
+      "auto": true
+    },
+    "1025601": {
+      "advertiser": "메트라이프생명",
+      "status": "x",
+      "updated_at": "2026-08-19T10:03:57.379533+09:00",
       "auto": true
     }
   }
