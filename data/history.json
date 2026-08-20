@@ -1,5 +1,180 @@
 [
   {
+    "ad_id": "1025710",
+    "prefix": "ai2108",
+    "url": "https://tvcf.co.kr/play/ai2108-1025710",
+    "card_title": "네이처 메이드비타민C도 네이처메이드 고함량 구미로",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "네이처 메이드",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "한국오츠카제약",
+    "advertiser_code": "C000011034",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025711",
+        "url": "https://tvcf.co.kr/play/bi1119-1025711",
+        "brand": "네이처 메이드",
+        "campaign": null,
+        "card_title": "네이처 메이드비타민B12도 네이처메이드 고함량 구미로"
+      },
+      {
+        "ad_id": "1025713",
+        "url": "https://tvcf.co.kr/play/bi1132-1025713",
+        "brand": "네이처 메이드",
+        "campaign": null,
+        "card_title": "네이처 메이드비오틴도 네이처메이드 고함량 구미로"
+      },
+      {
+        "ad_id": "1025707",
+        "url": "https://tvcf.co.kr/play/bi275-1025707",
+        "brand": "네이처 메이드",
+        "campaign": null,
+        "card_title": "네이처 메이드이 모든 비타민을 이제 고함량 구미로! 네이처메이드 비타민 구미"
+      },
+      {
+        "ad_id": "1025712",
+        "url": "https://tvcf.co.kr/play/ai1121-1025712",
+        "brand": "네이처 메이드",
+        "campaign": null,
+        "card_title": "네이처 메이드비타민D3도 네이처메이드 고함량 구미로"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-08-20T10:04:51.657996+09:00"
+  },
+  {
+    "ad_id": "1025696",
+    "prefix": "ai1963",
+    "url": "https://tvcf.co.kr/play/ai1963-1025696",
+    "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "유심사",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "가제트코리아",
+    "advertiser_code": "C000166912",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025701",
+        "url": "https://tvcf.co.kr/play/bi218-1025701",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      },
+      {
+        "ad_id": "1025700",
+        "url": "https://tvcf.co.kr/play/ai307-1025700",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      },
+      {
+        "ad_id": "1025702",
+        "url": "https://tvcf.co.kr/play/ai229-1025702",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      },
+      {
+        "ad_id": "1025703",
+        "url": "https://tvcf.co.kr/play/bi231-1025703",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      },
+      {
+        "ad_id": "1025704",
+        "url": "https://tvcf.co.kr/play/ai242-1025704",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      },
+      {
+        "ad_id": "1025705",
+        "url": "https://tvcf.co.kr/play/bi253-1025705",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - MAKING FILM"
+      },
+      {
+        "ad_id": "1025706",
+        "url": "https://tvcf.co.kr/play/ai264-1025706",
+        "brand": "유심사",
+        "campaign": null,
+        "card_title": "유심사[유심사 x 고윤정] 요즘, 유심사는 법 - 여행을 켜는 유심사"
+      }
+    ],
+    "variant_count": 8,
+    "collected_at": "2026-08-20T10:04:51.657992+09:00"
+  },
+  {
+    "ad_id": "1025715",
+    "prefix": "bi1154",
+    "url": "https://tvcf.co.kr/play/bi1154-1025715",
+    "card_title": "메이빌 영동복숭아과일이 영동하다는건, 달콤함으로 물드는거야 여름이 왔다는건 영동복숭아 계절이라는 것!",
+    "onair": "08.19",
+    "registered_short": "08.20",
+    "brand": "메이빌 영동복숭아",
+    "campaign": null,
+    "registered_date": "2026-08-19",
+    "media_type": "공중파",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "영동군",
+    "advertiser_code": "C000010217",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025717",
+        "url": "https://tvcf.co.kr/play/bi1176-1025717",
+        "brand": "메이빌",
+        "campaign": null,
+        "card_title": "메이빌영동이 키우고 메이빌이 담았다"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-20T10:04:51.657983+09:00"
+  },
+  {
+    "ad_id": "1025698",
+    "prefix": "ai1985",
+    "url": "https://tvcf.co.kr/play/ai1985-1025698",
+    "card_title": "토스뱅크눈앞에서 펼쳐지는 토스뱅크 해외송금",
+    "onair": "08.19",
+    "registered_short": "08.19",
+    "brand": "토스뱅크",
+    "campaign": null,
+    "registered_date": "2026-08-19",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "토스뱅크",
+    "advertiser_code": "C000162739",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025697",
+        "url": "https://tvcf.co.kr/play/bi1974-1025697",
+        "brand": "토스뱅크",
+        "campaign": null,
+        "card_title": "토스뱅크눈앞에서 펼쳐지는 토스뱅크 해외송금"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-20T10:04:51.658000+09:00"
+  },
+  {
     "ad_id": "1025673",
     "prefix": "bi1737",
     "url": "https://tvcf.co.kr/play/bi1737-1025673",
@@ -6033,6 +6208,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-07-23T17:06:13.773191+09:00"
+  },
+  {
+    "ad_id": "1025709",
+    "prefix": "bi297",
+    "url": "https://tvcf.co.kr/play/bi297-1025709",
+    "card_title": "삼성전자Samsung Jinju Unveil",
+    "onair": "07.22",
+    "registered_short": "08.19",
+    "brand": "삼성전자",
+    "campaign": null,
+    "registered_date": "2026-07-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T10:04:51.657998+09:00"
   },
   {
     "ad_id": "1025177",

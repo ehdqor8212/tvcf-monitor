@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T17:08:11.428684+09:00",
-  "count": 236,
-  "x_count": 700,
+  "updated_at": "2026-08-20T10:04:51.701476+09:00",
+  "count": 237,
+  "x_count": 702,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1578,6 +1578,13 @@
       "status": "maybe",
       "matched_name": "익스트림",
       "updated_at": "2026-08-19T10:03:57.381739+09:00",
+      "auto": true
+    },
+    "토스뱅크": {
+      "display_name": "토스뱅크",
+      "status": "maybe",
+      "matched_name": "토스",
+      "updated_at": "2026-08-20T10:04:51.698120+09:00",
       "auto": true
     }
   },
@@ -5737,6 +5744,18 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-08-19T17:08:11.424897+09:00",
+      "auto": true
+    },
+    "1025715": {
+      "advertiser": "영동군",
+      "status": "x",
+      "updated_at": "2026-08-20T10:04:51.693363+09:00",
+      "auto": true
+    },
+    "1025696": {
+      "advertiser": "가제트코리아",
+      "status": "x",
+      "updated_at": "2026-08-20T10:04:51.695886+09:00",
       "auto": true
     }
   }
