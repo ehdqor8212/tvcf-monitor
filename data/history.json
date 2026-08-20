@@ -1,5 +1,132 @@
 [
   {
+    "ad_id": "1026023",
+    "prefix": "bi2235",
+    "url": "https://tvcf.co.kr/play/bi2235-1026023",
+    "card_title": "도깨비의세계반란",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "도깨비의세계",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "카카오게임즈",
+    "advertiser_code": "C000017089",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835673+09:00"
+  },
+  {
+    "ad_id": "1025866",
+    "prefix": "ai1662",
+    "url": "https://tvcf.co.kr/play/ai1662-1025866",
+    "card_title": "모두의창업기술만 있어도 도전할 수 있으니까! 되면 창업 안돼도 스펙 | 모두의 창업 2차 테크",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "모두의창업",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "중소벤처기업부",
+    "advertiser_code": "C000016809",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025861",
+        "url": "https://tvcf.co.kr/play/bi1616-1025861",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업기술만 있어도 도전할 수 있으니까!"
+      },
+      {
+        "ad_id": "1025836",
+        "url": "https://tvcf.co.kr/play/ai1368-1025836",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업되면 창업 안돼도 스펙! 당신의 아이디어가 시작되는 곳 | 모두의 창업 2차(30s)"
+      },
+      {
+        "ad_id": "1025829",
+        "url": "https://tvcf.co.kr/play/bi1291-1025829",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업다시 도전해도 되냐고? 무한 재도전 리스펙!"
+      },
+      {
+        "ad_id": "1025827",
+        "url": "https://tvcf.co.kr/play/bi1278-1025827",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업내 아이디어, 어디서 시작하지?"
+      },
+      {
+        "ad_id": "1025826",
+        "url": "https://tvcf.co.kr/play/ai1267-1025826",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업창업, 생각보다 가볍게 시작해도 되니까!"
+      },
+      {
+        "ad_id": "1025825",
+        "url": "https://tvcf.co.kr/play/bi1256-1025825",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업아이디어만 있다면, 가까운 곳에서 시작! 되면 창업 안돼도 스펙 | 모두의 창업 2차 로컬"
+      },
+      {
+        "ad_id": "1025823",
+        "url": "https://tvcf.co.kr/play/bi1234-1025823",
+        "brand": "모두의창업",
+        "campaign": null,
+        "card_title": "모두의창업되면 창업 안돼도 스펙! 당신의 아이디어가 시작되는 곳 | 모두의 창업 2차"
+      }
+    ],
+    "variant_count": 8,
+    "collected_at": "2026-08-20T17:05:33.835675+09:00"
+  },
+  {
+    "ad_id": "1025835",
+    "prefix": "bi1357",
+    "url": "https://tvcf.co.kr/play/bi1357-1025835",
+    "card_title": "오스템파마잇몸이 바로 옥치시다",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "오스템파마",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "바이럴",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "오스템파마",
+    "advertiser_code": "4237404",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835679+09:00"
+  },
+  {
+    "ad_id": "1025832",
+    "prefix": "ai1324",
+    "url": "https://tvcf.co.kr/play/ai1324-1025832",
+    "card_title": "에이블리T1이었던 내가 에이블리에서는 신입사원",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "에이블리",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "바이럴",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "에이블리",
+    "advertiser_code": "C000003459",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835681+09:00"
+  },
+  {
     "ad_id": "1025710",
     "prefix": "ai2108",
     "url": "https://tvcf.co.kr/play/ai2108-1025710",
@@ -119,6 +246,53 @@
     "collected_at": "2026-08-20T10:04:51.657992+09:00"
   },
   {
+    "ad_id": "1025925",
+    "prefix": "bi1257",
+    "url": "https://tvcf.co.kr/play/bi1257-1025925",
+    "card_title": "Ollocdam[올록담] 올리브오일도 복스럽게 먹어 (15s)",
+    "onair": "08.19",
+    "registered_short": "08.20",
+    "brand": "Ollocdam",
+    "campaign": null,
+    "registered_date": "2026-08-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "Ollocdam",
+    "advertiser_code": "4237725",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1025837",
+        "url": "https://tvcf.co.kr/play/bi1379-1025837",
+        "brand": "Ollocdam",
+        "campaign": null,
+        "card_title": "Ollocdam[올록담] 아침 공복엔 올리브3 (15s)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-08-20T17:05:33.835677+09:00"
+  },
+  {
+    "ad_id": "1025818",
+    "prefix": "ai1188",
+    "url": "https://tvcf.co.kr/play/ai1188-1025818",
+    "card_title": "라이나생명 무배당 브레인케어 건강보험(해지환급금미지급형)뉴스",
+    "onair": "08.19",
+    "registered_short": "08.20",
+    "brand": "라이나생명 무배당 브레인케어 건강보험(해지환급금미지급형)",
+    "campaign": null,
+    "registered_date": "2026-08-19",
+    "media_type": "공중파",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "라이나생명보험",
+    "advertiser_code": "C000002966",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835685+09:00"
+  },
+  {
     "ad_id": "1025715",
     "prefix": "bi1154",
     "url": "https://tvcf.co.kr/play/bi1154-1025715",
@@ -208,6 +382,41 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-08-19T17:08:11.356040+09:00"
+  },
+  {
+    "ad_id": "1026028",
+    "prefix": "ai2281",
+    "url": "https://tvcf.co.kr/play/ai2281-1026028",
+    "card_title": "발렌타인좋아하는 사람들을 위해 준비하는 요리, 함께 둘러앉아 나누는 한 잔.",
+    "onair": "08.18",
+    "registered_short": "08.20",
+    "brand": "발렌타인",
+    "campaign": null,
+    "registered_date": "2026-08-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "발렌타인",
+    "advertiser_code": "C000017148",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026030",
+        "url": "https://tvcf.co.kr/play/ai3303-1026030",
+        "brand": "발렌타인",
+        "campaign": null,
+        "card_title": "발렌타인좋아하는 사람들과 나누는 축하의 시간, 함께 한 잔을 나누는 시간"
+      },
+      {
+        "ad_id": "1026031",
+        "url": "https://tvcf.co.kr/play/bi2314-1026031",
+        "brand": "발렌타인",
+        "campaign": null,
+        "card_title": "발렌타인좋아하는 사람과 마주 앉아 나누는 한 잔, 시간 가는 줄 모르고 이어지는 이야기"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-20T17:05:33.835670+09:00"
   },
   {
     "ad_id": "1025640",
@@ -598,6 +807,25 @@
     "collected_at": "2026-08-18T10:06:29.655620+09:00"
   },
   {
+    "ad_id": "1025528",
+    "prefix": "ai1286",
+    "url": "https://tvcf.co.kr/play/ai1286-1025528",
+    "card_title": "올록담 올리브3올리브오일도 복스럽게 먹어 (15s)",
+    "onair": "08.17",
+    "registered_short": "08.20",
+    "brand": "올록담 올리브3",
+    "campaign": null,
+    "registered_date": "2026-08-17",
+    "media_type": "공중파",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "올록담",
+    "advertiser_code": "C000169790",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835683+09:00"
+  },
+  {
     "ad_id": "1025588",
     "prefix": "ai1883",
     "url": "https://tvcf.co.kr/play/ai1883-1025588",
@@ -792,6 +1020,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-18T10:06:29.655612+09:00"
+  },
+  {
+    "ad_id": "1026033",
+    "prefix": "bi2336",
+    "url": "https://tvcf.co.kr/play/bi2336-1026033",
+    "card_title": "메르세데스 벤츠Mercedes-Benz Studio Seoul에 누가 찾아왔게🖤 (힌트:🧑🏻‍🍳🐶🍰)",
+    "onair": "08.14",
+    "registered_short": "08.20",
+    "brand": "메르세데스 벤츠",
+    "campaign": null,
+    "registered_date": "2026-08-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "Mercedes-Benz Korea",
+    "advertiser_code": "4238121",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835662+09:00"
   },
   {
     "ad_id": "1025678",
@@ -1073,6 +1320,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-08-15T10:03:32.304615+09:00"
+  },
+  {
+    "ad_id": "1026032",
+    "prefix": "ai2325",
+    "url": "https://tvcf.co.kr/play/ai2325-1026032",
+    "card_title": "메르세데스 벤츠The New Launch🪽 | The New S-Class",
+    "onair": "08.13",
+    "registered_short": "08.20",
+    "brand": "메르세데스 벤츠",
+    "campaign": null,
+    "registered_date": "2026-08-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "Mercedes-Benz Korea",
+    "advertiser_code": "4238103",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835666+09:00"
   },
   {
     "ad_id": "1025625",
@@ -1780,6 +2046,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-08-10T10:02:23.143848+09:00"
+  },
+  {
+    "ad_id": "1026035",
+    "prefix": "bi2358",
+    "url": "https://tvcf.co.kr/play/bi2358-1026035",
+    "card_title": "구달흔적, 남기 전에 TXA 세럼 - 트러블 흔적 편",
+    "onair": "08.07",
+    "registered_short": "08.20",
+    "brand": "구달",
+    "campaign": null,
+    "registered_date": "2026-08-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "구달 ",
+    "advertiser_code": "C000023718",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835653+09:00"
   },
   {
     "ad_id": "1025437",
@@ -4116,6 +4401,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-31T17:01:42.871899+09:00"
+  },
+  {
+    "ad_id": "1026029",
+    "prefix": "bi2292",
+    "url": "https://tvcf.co.kr/play/bi2292-1026029",
+    "card_title": "DB손해보험PROMISE Series - Keep You SAFE",
+    "onair": "07.30",
+    "registered_short": "08.20",
+    "brand": "DB손해보험",
+    "campaign": null,
+    "registered_date": "2026-07-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "프로미TV-DB손해보험",
+    "advertiser_code": "4238085",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-20T17:05:33.835668+09:00"
   },
   {
     "ad_id": "1024838",

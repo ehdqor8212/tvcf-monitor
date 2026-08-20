@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T04:30:05.072Z",
-  "count": 234,
-  "x_count": 705,
+  "updated_at": "2026-08-20T17:05:33.905420+09:00",
+  "count": 236,
+  "x_count": 715,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1564,6 +1564,20 @@
       "status": "o",
       "matched_name": "익스트림",
       "updated_at": "2026-08-20T04:29:37.061Z"
+    },
+    "일동제약": {
+      "display_name": "일동제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 일동제약",
+      "updated_at": "2026-08-20T17:05:33.902314+09:00",
+      "auto": true
+    },
+    "대원제약": {
+      "display_name": "대원제약",
+      "status": "maybe",
+      "matched_name": "(미집행) 대원제약",
+      "updated_at": "2026-08-20T17:05:33.905068+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -5749,6 +5763,66 @@
       "advertiser": "영동군",
       "status": "x",
       "updated_at": "2026-08-20T10:04:51.693363+09:00",
+      "auto": true
+    },
+    "1026035": {
+      "advertiser": "구달 ",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.874277+09:00",
+      "auto": true
+    },
+    "1026033": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.877005+09:00",
+      "auto": true
+    },
+    "1026032": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.879750+09:00",
+      "auto": true
+    },
+    "1026029": {
+      "advertiser": "프로미TV-DB손해보험",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.882489+09:00",
+      "auto": true
+    },
+    "1026028": {
+      "advertiser": "발렌타인",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.885214+09:00",
+      "auto": true
+    },
+    "1025866": {
+      "advertiser": "중소벤처기업부",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.887941+09:00",
+      "auto": true
+    },
+    "1025925": {
+      "advertiser": "Ollocdam",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.890648+09:00",
+      "auto": true
+    },
+    "1025835": {
+      "advertiser": "오스템파마",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.893373+09:00",
+      "auto": true
+    },
+    "1025832": {
+      "advertiser": "에이블리",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.896096+09:00",
+      "auto": true
+    },
+    "1025528": {
+      "advertiser": "올록담",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.898821+09:00",
       "auto": true
     }
   }
