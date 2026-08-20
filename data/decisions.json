@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T10:04:51.701476+09:00",
-  "count": 237,
-  "x_count": 702,
+  "updated_at": "2026-08-20T04:28:32.613Z",
+  "count": 236,
+  "x_count": 703,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1578,13 +1578,6 @@
       "status": "maybe",
       "matched_name": "익스트림",
       "updated_at": "2026-08-19T10:03:57.381739+09:00",
-      "auto": true
-    },
-    "토스뱅크": {
-      "display_name": "토스뱅크",
-      "status": "maybe",
-      "matched_name": "토스",
-      "updated_at": "2026-08-20T10:04:51.698120+09:00",
       "auto": true
     }
   },
@@ -5188,6 +5181,12 @@
       "updated_at": "2026-08-03T10:04:08.930128+09:00",
       "auto": true
     },
+    "1024404": {
+      "advertiser": "파인네스트",
+      "status": "x",
+      "updated_at": "2026-08-09T10:01:38.099077+09:00",
+      "auto": true
+    },
     "1024405": {
       "advertiser": "콘텐츠캐리어",
       "status": "x",
@@ -5234,6 +5233,12 @@
       "advertiser": "IBK기업은행",
       "status": "x",
       "updated_at": "2026-08-04T17:06:22.931122+09:00",
+      "auto": true
+    },
+    "1024604": {
+      "advertiser": "중소벤처기업부",
+      "status": "x",
+      "updated_at": "2026-08-05T17:03:26.876682+09:00",
       "auto": true
     },
     "1024610": {
@@ -5284,10 +5289,10 @@
       "updated_at": "2026-08-05T10:05:23.394635+09:00",
       "auto": true
     },
-    "1024694": {
-      "advertiser": "부산광역시",
+    "1024685": {
+      "advertiser": "소니픽처스코리아",
       "status": "x",
-      "updated_at": "2026-08-05T17:03:26.871107+09:00",
+      "updated_at": "2026-08-06T17:06:22.951580+09:00",
       "auto": true
     },
     "1024688": {
@@ -5296,16 +5301,10 @@
       "updated_at": "2026-08-05T17:03:26.873882+09:00",
       "auto": true
     },
-    "1024604": {
-      "advertiser": "중소벤처기업부",
+    "1024694": {
+      "advertiser": "부산광역시",
       "status": "x",
-      "updated_at": "2026-08-05T17:03:26.876682+09:00",
-      "auto": true
-    },
-    "1024813": {
-      "advertiser": "행정안전부",
-      "status": "x",
-      "updated_at": "2026-08-06T10:02:55.653810+09:00",
+      "updated_at": "2026-08-05T17:03:26.871107+09:00",
       "auto": true
     },
     "1024811": {
@@ -5314,10 +5313,16 @@
       "updated_at": "2026-08-06T10:02:55.656578+09:00",
       "auto": true
     },
-    "1024685": {
-      "advertiser": "소니픽처스코리아",
+    "1024813": {
+      "advertiser": "행정안전부",
       "status": "x",
-      "updated_at": "2026-08-06T17:06:22.951580+09:00",
+      "updated_at": "2026-08-06T10:02:55.653810+09:00",
+      "auto": true
+    },
+    "1024852": {
+      "advertiser": "지센",
+      "status": "x",
+      "updated_at": "2026-08-07T10:04:17.023207+09:00",
       "auto": true
     },
     "1024854": {
@@ -5332,28 +5337,22 @@
       "updated_at": "2026-08-07T10:04:17.020452+09:00",
       "auto": true
     },
-    "1024852": {
-      "advertiser": "지센",
-      "status": "x",
-      "updated_at": "2026-08-07T10:04:17.023207+09:00",
-      "auto": true
-    },
     "1024889": {
       "advertiser": "은성글로벌",
       "status": "x",
       "updated_at": "2026-08-07T17:05:55.673299+09:00",
       "auto": true
     },
+    "1024900": {
+      "advertiser": "강진군",
+      "status": "x",
+      "updated_at": "2026-08-10T17:02:57.369029+09:00",
+      "auto": true
+    },
     "1024901": {
       "advertiser": "윙스탑",
       "status": "x",
       "updated_at": "2026-08-08T10:02:21.141036+09:00",
-      "auto": true
-    },
-    "1024404": {
-      "advertiser": "파인네스트",
-      "status": "x",
-      "updated_at": "2026-08-09T10:01:38.099077+09:00",
       "auto": true
     },
     "1024902": {
@@ -5380,46 +5379,22 @@
       "updated_at": "2026-08-10T10:02:23.172635+09:00",
       "auto": true
     },
-    "1025030": {
-      "advertiser": "GH경기주택도시공사",
-      "status": "x",
-      "updated_at": "2026-08-10T17:02:57.364106+09:00",
-      "auto": true
-    },
     "1025023": {
       "advertiser": "포켓몬코리아",
       "status": "x",
       "updated_at": "2026-08-10T17:02:57.366573+09:00",
       "auto": true
     },
-    "1024900": {
-      "advertiser": "강진군",
+    "1025024": {
+      "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
-      "updated_at": "2026-08-10T17:02:57.369029+09:00",
+      "updated_at": "2026-08-19T17:08:11.424897+09:00",
       "auto": true
     },
-    "1025064": {
-      "advertiser": "지바이크",
+    "1025030": {
+      "advertiser": "GH경기주택도시공사",
       "status": "x",
-      "updated_at": "2026-08-11T10:03:09.973417+09:00",
-      "auto": true
-    },
-    "1025062": {
-      "advertiser": "에코디엠랩",
-      "status": "x",
-      "updated_at": "2026-08-11T10:03:09.976234+09:00",
-      "auto": true
-    },
-    "1025061": {
-      "advertiser": "에코디엠랩",
-      "status": "x",
-      "updated_at": "2026-08-11T10:03:09.979039+09:00",
-      "auto": true
-    },
-    "1025075": {
-      "advertiser": "NC소프트",
-      "status": "x",
-      "updated_at": "2026-08-11T17:03:22.280814+09:00",
+      "updated_at": "2026-08-10T17:02:57.364106+09:00",
       "auto": true
     },
     "1025059": {
@@ -5428,100 +5403,22 @@
       "updated_at": "2026-08-11T17:03:22.285079+09:00",
       "auto": true
     },
-    "1025134": {
-      "advertiser": "Mercedes-Benz Korea",
+    "1025061": {
+      "advertiser": "에코디엠랩",
       "status": "x",
-      "updated_at": "2026-08-12T10:04:21.212663+09:00",
+      "updated_at": "2026-08-11T10:03:09.979039+09:00",
       "auto": true
     },
-    "1025133": {
-      "advertiser": "Mercedes-Benz Korea",
+    "1025062": {
+      "advertiser": "에코디엠랩",
       "status": "x",
-      "updated_at": "2026-08-12T10:04:21.215189+09:00",
+      "updated_at": "2026-08-11T10:03:09.976234+09:00",
       "auto": true
     },
-    "1025132": {
-      "advertiser": "Mercedes-Benz Korea",
+    "1025064": {
+      "advertiser": "지바이크",
       "status": "x",
-      "updated_at": "2026-08-12T10:04:21.217702+09:00",
-      "auto": true
-    },
-    "1025131": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.220212+09:00",
-      "auto": true
-    },
-    "1025130": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.222693+09:00",
-      "auto": true
-    },
-    "1025129": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.225186+09:00",
-      "auto": true
-    },
-    "1025128": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.227665+09:00",
-      "auto": true
-    },
-    "1025127": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.230158+09:00",
-      "auto": true
-    },
-    "1025126": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.232675+09:00",
-      "auto": true
-    },
-    "1025125": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.235173+09:00",
-      "auto": true
-    },
-    "1025124": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.237671+09:00",
-      "auto": true
-    },
-    "1025123": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.240137+09:00",
-      "auto": true
-    },
-    "1025122": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.242611+09:00",
-      "auto": true
-    },
-    "1025121": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.245124+09:00",
-      "auto": true
-    },
-    "1025120": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-12T10:04:21.247611+09:00",
-      "auto": true
-    },
-    "1025177": {
-      "advertiser": "SC제일은행",
-      "status": "x",
-      "updated_at": "2026-08-12T17:03:45.419457+09:00",
+      "updated_at": "2026-08-11T10:03:09.973417+09:00",
       "auto": true
     },
     "1025067": {
@@ -5530,22 +5427,112 @@
       "updated_at": "2026-08-12T17:03:45.421218+09:00",
       "auto": true
     },
+    "1025075": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-08-11T17:03:22.280814+09:00",
+      "auto": true
+    },
+    "1025120": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.247611+09:00",
+      "auto": true
+    },
+    "1025121": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.245124+09:00",
+      "auto": true
+    },
+    "1025122": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.242611+09:00",
+      "auto": true
+    },
+    "1025123": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.240137+09:00",
+      "auto": true
+    },
+    "1025124": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.237671+09:00",
+      "auto": true
+    },
+    "1025125": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.235173+09:00",
+      "auto": true
+    },
+    "1025126": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.232675+09:00",
+      "auto": true
+    },
+    "1025127": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.230158+09:00",
+      "auto": true
+    },
+    "1025128": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.227665+09:00",
+      "auto": true
+    },
+    "1025129": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.225186+09:00",
+      "auto": true
+    },
+    "1025130": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.222693+09:00",
+      "auto": true
+    },
+    "1025131": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.220212+09:00",
+      "auto": true
+    },
+    "1025132": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.217702+09:00",
+      "auto": true
+    },
+    "1025133": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.215189+09:00",
+      "auto": true
+    },
+    "1025134": {
+      "advertiser": "Mercedes-Benz Korea",
+      "status": "x",
+      "updated_at": "2026-08-12T10:04:21.212663+09:00",
+      "auto": true
+    },
+    "1025177": {
+      "advertiser": "SC제일은행",
+      "status": "x",
+      "updated_at": "2026-08-12T17:03:45.419457+09:00",
+      "auto": true
+    },
     "1025197": {
       "advertiser": "(주)은성글로벌",
       "status": "x",
       "updated_at": "2026-08-13T10:01:14.484265+09:00",
-      "auto": true
-    },
-    "1025216": {
-      "advertiser": "은성글로벌",
-      "status": "x",
-      "updated_at": "2026-08-13T17:02:37.620975+09:00",
-      "auto": true
-    },
-    "1025208": {
-      "advertiser": "중소벤처기업부",
-      "status": "x",
-      "updated_at": "2026-08-13T17:02:37.623753+09:00",
       "auto": true
     },
     "1025205": {
@@ -5554,28 +5541,22 @@
       "updated_at": "2026-08-13T17:02:37.626528+09:00",
       "auto": true
     },
+    "1025208": {
+      "advertiser": "중소벤처기업부",
+      "status": "x",
+      "updated_at": "2026-08-13T17:02:37.623753+09:00",
+      "auto": true
+    },
+    "1025216": {
+      "advertiser": "은성글로벌",
+      "status": "x",
+      "updated_at": "2026-08-13T17:02:37.620975+09:00",
+      "auto": true
+    },
     "1025344": {
       "advertiser": "동원F&B",
       "status": "x",
       "updated_at": "2026-08-14T10:02:17.218191+09:00",
-      "auto": true
-    },
-    "1025401": {
-      "advertiser": "(주)은성글로벌",
-      "status": "x",
-      "updated_at": "2026-08-15T10:03:32.346874+09:00",
-      "auto": true
-    },
-    "1025378": {
-      "advertiser": "캐비어그립",
-      "status": "x",
-      "updated_at": "2026-08-15T10:03:32.349110+09:00",
-      "auto": true
-    },
-    "1025376": {
-      "advertiser": "LG화학",
-      "status": "x",
-      "updated_at": "2026-08-15T10:03:32.351366+09:00",
       "auto": true
     },
     "1025355": {
@@ -5584,22 +5565,34 @@
       "updated_at": "2026-08-15T10:03:32.353646+09:00",
       "auto": true
     },
-    "1025437": {
-      "advertiser": "경기도어린이박물관",
+    "1025376": {
+      "advertiser": "LG화학",
       "status": "x",
-      "updated_at": "2026-08-17T10:01:38.667819+09:00",
+      "updated_at": "2026-08-15T10:03:32.351366+09:00",
       "auto": true
     },
-    "1025404": {
-      "advertiser": "KBS",
+    "1025378": {
+      "advertiser": "캐비어그립",
       "status": "x",
-      "updated_at": "2026-08-18T10:06:29.689250+09:00",
+      "updated_at": "2026-08-15T10:03:32.349110+09:00",
+      "auto": true
+    },
+    "1025401": {
+      "advertiser": "(주)은성글로벌",
+      "status": "x",
+      "updated_at": "2026-08-15T10:03:32.346874+09:00",
       "auto": true
     },
     "1025403": {
       "advertiser": "한국생명의전화",
       "status": "x",
       "updated_at": "2026-08-18T10:06:29.691955+09:00",
+      "auto": true
+    },
+    "1025404": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-18T10:06:29.689250+09:00",
       "auto": true
     },
     "1025412": {
@@ -5620,6 +5613,12 @@
       "updated_at": "2026-08-18T10:06:29.701253+09:00",
       "auto": true
     },
+    "1025437": {
+      "advertiser": "경기도어린이박물관",
+      "status": "x",
+      "updated_at": "2026-08-17T10:01:38.667819+09:00",
+      "auto": true
+    },
     "1025438": {
       "advertiser": "KBS",
       "status": "x",
@@ -5632,16 +5631,10 @@
       "updated_at": "2026-08-18T10:06:29.706634+09:00",
       "auto": true
     },
-    "1025589": {
-      "advertiser": "유니세프",
+    "1025542": {
+      "advertiser": "동원F&B",
       "status": "x",
-      "updated_at": "2026-08-18T17:05:25.758650+09:00",
-      "auto": true
-    },
-    "1025588": {
-      "advertiser": "유니세프",
-      "status": "x",
-      "updated_at": "2026-08-18T17:05:25.761384+09:00",
+      "updated_at": "2026-08-18T17:05:25.769398+09:00",
       "auto": true
     },
     "1025547": {
@@ -5656,10 +5649,16 @@
       "updated_at": "2026-08-18T17:05:25.766758+09:00",
       "auto": true
     },
-    "1025542": {
-      "advertiser": "동원F&B",
+    "1025588": {
+      "advertiser": "유니세프",
       "status": "x",
-      "updated_at": "2026-08-18T17:05:25.769398+09:00",
+      "updated_at": "2026-08-18T17:05:25.761384+09:00",
+      "auto": true
+    },
+    "1025589": {
+      "advertiser": "유니세프",
+      "status": "x",
+      "updated_at": "2026-08-18T17:05:25.758650+09:00",
       "auto": true
     },
     "1025601": {
@@ -5668,46 +5667,10 @@
       "updated_at": "2026-08-19T10:03:57.379533+09:00",
       "auto": true
     },
-    "1025673": {
-      "advertiser": "한솔그룹",
+    "1025625": {
+      "advertiser": "SK이노베이션",
       "status": "x",
-      "updated_at": "2026-08-19T17:08:11.393040+09:00",
-      "auto": true
-    },
-    "1025679": {
-      "advertiser": "KB국민카드",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.395732+09:00",
-      "auto": true
-    },
-    "1025677": {
-      "advertiser": "KB국민카드",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.398405+09:00",
-      "auto": true
-    },
-    "1025676": {
-      "advertiser": "KB국민카드",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.401043+09:00",
-      "auto": true
-    },
-    "1025678": {
-      "advertiser": "KB국민카드",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.403734+09:00",
-      "auto": true
-    },
-    "1025640": {
-      "advertiser": "오늘의집",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.406366+09:00",
-      "auto": true
-    },
-    "1025639": {
-      "advertiser": "오늘의집",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.408998+09:00",
+      "updated_at": "2026-08-19T17:08:11.422241+09:00",
       "auto": true
     },
     "1025629": {
@@ -5716,16 +5679,16 @@
       "updated_at": "2026-08-19T17:08:11.411638+09:00",
       "auto": true
     },
-    "1025631": {
-      "advertiser": "퓨리토 서울",
-      "status": "x",
-      "updated_at": "2026-08-19T17:08:11.414306+09:00",
-      "auto": true
-    },
     "1025630": {
       "advertiser": "퓨리토 서울",
       "status": "x",
       "updated_at": "2026-08-19T17:08:11.416962+09:00",
+      "auto": true
+    },
+    "1025631": {
+      "advertiser": "퓨리토 서울",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.414306+09:00",
       "auto": true
     },
     "1025632": {
@@ -5734,28 +5697,63 @@
       "updated_at": "2026-08-19T17:08:11.419595+09:00",
       "auto": true
     },
-    "1025625": {
-      "advertiser": "SK이노베이션",
+    "1025639": {
+      "advertiser": "오늘의집",
       "status": "x",
-      "updated_at": "2026-08-19T17:08:11.422241+09:00",
+      "updated_at": "2026-08-19T17:08:11.408998+09:00",
       "auto": true
     },
-    "1025024": {
-      "advertiser": "넷플릭스서비시스코리아",
+    "1025640": {
+      "advertiser": "오늘의집",
       "status": "x",
-      "updated_at": "2026-08-19T17:08:11.424897+09:00",
+      "updated_at": "2026-08-19T17:08:11.406366+09:00",
       "auto": true
     },
-    "1025715": {
-      "advertiser": "영동군",
+    "1025673": {
+      "advertiser": "한솔그룹",
       "status": "x",
-      "updated_at": "2026-08-20T10:04:51.693363+09:00",
+      "updated_at": "2026-08-19T17:08:11.393040+09:00",
+      "auto": true
+    },
+    "1025676": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.401043+09:00",
+      "auto": true
+    },
+    "1025677": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.398405+09:00",
+      "auto": true
+    },
+    "1025678": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.403734+09:00",
+      "auto": true
+    },
+    "1025679": {
+      "advertiser": "KB국민카드",
+      "status": "x",
+      "updated_at": "2026-08-19T17:08:11.395732+09:00",
       "auto": true
     },
     "1025696": {
       "advertiser": "가제트코리아",
       "status": "x",
       "updated_at": "2026-08-20T10:04:51.695886+09:00",
+      "auto": true
+    },
+    "1025698": {
+      "advertiser": "토스뱅크",
+      "status": "x",
+      "updated_at": "2026-08-20T04:28:32.605Z"
+    },
+    "1025715": {
+      "advertiser": "영동군",
+      "status": "x",
+      "updated_at": "2026-08-20T10:04:51.693363+09:00",
       "auto": true
     }
   }
