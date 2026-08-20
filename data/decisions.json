@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T04:28:32.613Z",
-  "count": 236,
-  "x_count": 703,
+  "updated_at": "2026-08-20T04:28:49.568Z",
+  "count": 235,
+  "x_count": 704,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1092,13 +1092,6 @@
       "status": "o",
       "matched_name": "한국스포츠레저",
       "updated_at": "2026-07-01T17:04:39.817090+09:00",
-      "auto": true
-    },
-    "일동제약": {
-      "display_name": "일동제약",
-      "status": "maybe",
-      "matched_name": "(미집행) 일동제약",
-      "updated_at": "2026-07-01T17:04:39.820111+09:00",
       "auto": true
     },
     "카카오": {
@@ -5666,6 +5659,11 @@
       "status": "x",
       "updated_at": "2026-08-19T10:03:57.379533+09:00",
       "auto": true
+    },
+    "1025606": {
+      "advertiser": "일동제약",
+      "status": "x",
+      "updated_at": "2026-08-20T04:28:49.199Z"
     },
     "1025625": {
       "advertiser": "SK이노베이션",
