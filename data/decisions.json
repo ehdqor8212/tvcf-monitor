@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T04:28:49.568Z",
+  "updated_at": "2026-08-20T04:29:37.553Z",
   "count": 235,
   "x_count": 704,
   "decisions": {
@@ -1568,10 +1568,9 @@
     },
     "익스트림올인원포맨": {
       "display_name": "익스트림 올인원 포 맨",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "익스트림",
-      "updated_at": "2026-08-19T10:03:57.381739+09:00",
-      "auto": true
+      "updated_at": "2026-08-20T04:29:37.061Z"
     }
   },
   "x_decisions": {
