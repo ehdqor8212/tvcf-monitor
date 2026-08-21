@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T17:05:33.905420+09:00",
-  "count": 236,
-  "x_count": 715,
+  "updated_at": "2026-08-21T10:05:53.954762+09:00",
+  "count": 240,
+  "x_count": 721,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1577,6 +1577,34 @@
       "status": "maybe",
       "matched_name": "(미집행) 대원제약",
       "updated_at": "2026-08-20T17:05:33.905068+09:00",
+      "auto": true
+    },
+    "gc녹십자": {
+      "display_name": "GC녹십자",
+      "status": "maybe",
+      "matched_name": "지씨녹십자(GC녹십자)",
+      "updated_at": "2026-08-21T10:05:53.938417+09:00",
+      "auto": true
+    },
+    "루트로닉": {
+      "display_name": "루트로닉",
+      "status": "o",
+      "matched_name": "루트로닉",
+      "updated_at": "2026-08-21T10:05:53.941434+09:00",
+      "auto": true
+    },
+    "아정네트웍스": {
+      "display_name": "아정네트웍스",
+      "status": "o",
+      "matched_name": "아정네트웍스",
+      "updated_at": "2026-08-21T10:05:53.942067+09:00",
+      "auto": true
+    },
+    "클리오": {
+      "display_name": "클리오",
+      "status": "o",
+      "matched_name": "클리오",
+      "updated_at": "2026-08-21T10:05:53.951071+09:00",
       "auto": true
     }
   },
@@ -5823,6 +5851,42 @@
       "advertiser": "올록담",
       "status": "x",
       "updated_at": "2026-08-20T17:05:33.898821+09:00",
+      "auto": true
+    },
+    "1026076": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.933412+09:00",
+      "auto": true
+    },
+    "1026080": {
+      "advertiser": "영동군",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.936096+09:00",
+      "auto": true
+    },
+    "1026074": {
+      "advertiser": "가제트코리아",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.941102+09:00",
+      "auto": true
+    },
+    "1026044": {
+      "advertiser": "구달",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.944714+09:00",
+      "auto": true
+    },
+    "1026045": {
+      "advertiser": "구달 ",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.947377+09:00",
+      "auto": true
+    },
+    "1026039": {
+      "advertiser": "구달",
+      "status": "x",
+      "updated_at": "2026-08-21T10:05:53.950041+09:00",
       "auto": true
     }
   }
