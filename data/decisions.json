@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T10:05:53.954762+09:00",
-  "count": 240,
-  "x_count": 721,
+  "updated_at": "2026-08-21T17:06:13.483907+09:00",
+  "count": 241,
+  "x_count": 729,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1605,6 +1605,13 @@
       "status": "o",
       "matched_name": "클리오",
       "updated_at": "2026-08-21T10:05:53.951071+09:00",
+      "auto": true
+    },
+    "한화손해보험": {
+      "display_name": "한화손해보험",
+      "status": "o",
+      "matched_name": "한화손해보험",
+      "updated_at": "2026-08-21T17:06:13.468690+09:00",
       "auto": true
     }
   },
@@ -5887,6 +5894,54 @@
       "advertiser": "구달",
       "status": "x",
       "updated_at": "2026-08-21T10:05:53.950041+09:00",
+      "auto": true
+    },
+    "1026150": {
+      "advertiser": "아이비전",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.458730+09:00",
+      "auto": true
+    },
+    "1026148": {
+      "advertiser": "미미월드",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.461613+09:00",
+      "auto": true
+    },
+    "1026145": {
+      "advertiser": "아이비젼",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.464474+09:00",
+      "auto": true
+    },
+    "1026137": {
+      "advertiser": "세종기프트",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.467337+09:00",
+      "auto": true
+    },
+    "1026125": {
+      "advertiser": "팔레트",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.471550+09:00",
+      "auto": true
+    },
+    "1026126": {
+      "advertiser": "일동후디스",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.474410+09:00",
+      "auto": true
+    },
+    "1026120": {
+      "advertiser": "일동후디스",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.477268+09:00",
+      "auto": true
+    },
+    "1026088": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.480162+09:00",
       "auto": true
     }
   }
