@@ -127,6 +127,25 @@
     "collected_at": "2026-08-21T17:06:13.424020+09:00"
   },
   {
+    "ad_id": "1026138",
+    "prefix": "ai1383",
+    "url": "https://tvcf.co.kr/play/ai1383-1026138",
+    "card_title": "미미월드NEW 크리스탈 레진아트 시리즈 2종 펄레진아트 3종 출시",
+    "onair": "08.20",
+    "registered_short": "08.21",
+    "brand": "미미월드",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "케이블",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "미미월드",
+    "advertiser_code": "C000005774",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T17:01:29.718878+09:00"
+  },
+  {
     "ad_id": "1026137",
     "prefix": "bi1372",
     "url": "https://tvcf.co.kr/play/bi1372-1026137",
@@ -382,6 +401,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-08-21T10:05:53.896900+09:00"
+  },
+  {
+    "ad_id": "1026069",
+    "prefix": "bi2696",
+    "url": "https://tvcf.co.kr/play/bi2696-1026069",
+    "card_title": "포스트 그래놀라제로도 역시, 포스트다",
+    "onair": "08.20",
+    "registered_short": "08.20",
+    "brand": "포스트 그래놀라",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "케이블",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동서식품",
+    "advertiser_code": "C000001179",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T17:01:29.718888+09:00"
   },
   {
     "ad_id": "1026045",
