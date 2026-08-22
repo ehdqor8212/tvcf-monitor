@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T17:06:13.483907+09:00",
+  "updated_at": "2026-08-22T10:03:31.900985+09:00",
   "count": 241,
-  "x_count": 729,
+  "x_count": 735,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5942,6 +5942,42 @@
       "advertiser": "MBC",
       "status": "x",
       "updated_at": "2026-08-21T17:06:13.480162+09:00",
+      "auto": true
+    },
+    "1026164": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.882821+09:00",
+      "auto": true
+    },
+    "1026159": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.885668+09:00",
+      "auto": true
+    },
+    "1026168": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.888506+09:00",
+      "auto": true
+    },
+    "1026161": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.891355+09:00",
+      "auto": true
+    },
+    "1026160": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.894190+09:00",
+      "auto": true
+    },
+    "1026152": {
+      "advertiser": "VisitSeoul TV",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.896992+09:00",
       "auto": true
     }
   }

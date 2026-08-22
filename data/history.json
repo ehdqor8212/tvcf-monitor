@@ -2562,6 +2562,25 @@
     "collected_at": "2026-08-10T10:02:23.143848+09:00"
   },
   {
+    "ad_id": "1026170",
+    "prefix": "ai2708",
+    "url": "https://tvcf.co.kr/play/ai2708-1026170",
+    "card_title": "스너글 스파클 플러스 섬유유연제한 달 내내 포근향을 깨우자곰! 스너글 스파클 플러스 섬유유연제",
+    "onair": "08.07",
+    "registered_short": "08.22",
+    "brand": "스너글 스파클 플러스 섬유유연제",
+    "campaign": null,
+    "registered_date": "2026-08-07",
+    "media_type": "디지털(인터넷)",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "유니레버 코리아",
+    "advertiser_code": "C000011695",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T10:03:31.824820+09:00"
+  },
+  {
     "ad_id": "1026039",
     "prefix": "bi2393",
     "url": "https://tvcf.co.kr/play/bi2393-1026039",
@@ -35873,6 +35892,74 @@
     "collected_at": "2026-08-12T10:04:21.178303+09:00"
   },
   {
+    "ad_id": "1026159",
+    "prefix": "bi1596",
+    "url": "https://tvcf.co.kr/play/bi1596-1026159",
+    "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser",
+    "onair": "2025.07.31",
+    "registered_short": "08.21",
+    "brand": "서울관광재단",
+    "campaign": null,
+    "registered_date": "2025-07-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울관광재단",
+    "advertiser_code": "C000168735",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026158",
+        "url": "https://tvcf.co.kr/play/ai1585-1026158",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser"
+      },
+      {
+        "ad_id": "1026156",
+        "url": "https://tvcf.co.kr/play/ai1563-1026156",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser"
+      },
+      {
+        "ad_id": "1026155",
+        "url": "https://tvcf.co.kr/play/bi1552-1026155",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser"
+      },
+      {
+        "ad_id": "1026157",
+        "url": "https://tvcf.co.kr/play/bi1574-1026157",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-08-22T10:03:31.824832+09:00"
+  },
+  {
+    "ad_id": "1026152",
+    "prefix": "ai1528",
+    "url": "https://tvcf.co.kr/play/ai1528-1026152",
+    "card_title": "VisitSeoul TV[SEOUL x JENNIE] Absolutely in SEOUL - Teaser",
+    "onair": "2025.07.31",
+    "registered_short": "08.21",
+    "brand": "VisitSeoul TV",
+    "campaign": null,
+    "registered_date": "2025-07-31",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "VisitSeoul TV",
+    "advertiser_code": "4239163",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T10:03:31.824840+09:00"
+  },
+  {
     "ad_id": "1023089",
     "prefix": "bi2898",
     "url": "https://tvcf.co.kr/play/bi2898-1023089",
@@ -36375,6 +36462,67 @@
     "collected_at": "2026-07-17T10:04:25.235105+09:00"
   },
   {
+    "ad_id": "1026168",
+    "prefix": "ai1686",
+    "url": "https://tvcf.co.kr/play/ai1686-1026168",
+    "card_title": "VisitSeoul TVThis is how you take photo booth selfies 😎",
+    "onair": "2024.09.13",
+    "registered_short": "08.21",
+    "brand": "VisitSeoul TV",
+    "campaign": null,
+    "registered_date": "2024-09-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "서울관광재단",
+    "advertiser_code": "C000018897",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T10:03:31.824834+09:00"
+  },
+  {
+    "ad_id": "1026164",
+    "prefix": "ai1642",
+    "url": "https://tvcf.co.kr/play/ai1642-1026164",
+    "card_title": "서울관광재단Jin poster makes appearance in Gwanghwamun! 👀",
+    "onair": "2024.08.23",
+    "registered_short": "08.21",
+    "brand": "서울관광재단",
+    "campaign": null,
+    "registered_date": "2024-08-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울관광재단",
+    "advertiser_code": "C000018897",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026163",
+        "url": "https://tvcf.co.kr/play/bi1631-1026163",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단Jin poster makes appearance in Gwanghwamun! 👀"
+      },
+      {
+        "ad_id": "1026167",
+        "url": "https://tvcf.co.kr/play/bi1675-1026167",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단Jin poster makes appearance in Gwanghwamun! 👀"
+      },
+      {
+        "ad_id": "1026162",
+        "url": "https://tvcf.co.kr/play/ai1629-1026162",
+        "brand": "서울관광재단",
+        "campaign": null,
+        "card_title": "서울관광재단Jin poster makes appearance in Gwanghwamun! 👀"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-08-22T10:03:31.824829+09:00"
+  },
+  {
     "ad_id": "1021236",
     "prefix": "ai1362",
     "url": "https://tvcf.co.kr/play/ai1362-1021236",
@@ -36392,6 +36540,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-23T17:03:46.391370+09:00"
+  },
+  {
+    "ad_id": "1026161",
+    "prefix": "bi1618",
+    "url": "https://tvcf.co.kr/play/bi1618-1026161",
+    "card_title": "서울관광재단Giant balloon spotted from Hangang River Park!",
+    "onair": "2024.08.22",
+    "registered_short": "08.21",
+    "brand": "서울관광재단",
+    "campaign": null,
+    "registered_date": "2024-08-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울관광재단",
+    "advertiser_code": "C000168735",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T10:03:31.824836+09:00"
+  },
+  {
+    "ad_id": "1026160",
+    "prefix": "ai2607",
+    "url": "https://tvcf.co.kr/play/ai2607-1026160",
+    "card_title": "서울관광재단Seoul My Soul - Feel Soul Good M/V",
+    "onair": "2024.08.19",
+    "registered_short": "08.21",
+    "brand": "서울관광재단",
+    "campaign": null,
+    "registered_date": "2024-08-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울관광재단",
+    "advertiser_code": "C000018897",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-22T10:03:31.824838+09:00"
   },
   {
     "ad_id": "1020721",
