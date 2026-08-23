@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T17:01:29.760272+09:00",
+  "updated_at": "2026-08-23T17:01:53.350967+09:00",
   "count": 241,
-  "x_count": 736,
+  "x_count": 738,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -5984,6 +5984,18 @@
       "advertiser": "미미월드",
       "status": "x",
       "updated_at": "2026-08-22T17:01:29.756361+09:00",
+      "auto": true
+    },
+    "1026084": {
+      "advertiser": "TEASER",
+      "status": "x",
+      "updated_at": "2026-08-23T17:01:53.344664+09:00",
+      "auto": true
+    },
+    "1026254": {
+      "advertiser": "영동군",
+      "status": "x",
+      "updated_at": "2026-08-23T17:01:53.347306+09:00",
       "auto": true
     }
   }
