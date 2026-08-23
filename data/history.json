@@ -1,5 +1,24 @@
 [
   {
+    "ad_id": "1026249",
+    "prefix": "bi1496",
+    "url": "https://tvcf.co.kr/play/bi1496-1026249",
+    "card_title": "티웨이항공익숙했던 이름에서 새로운 이름으로 | TRINITY AIRWAYS",
+    "onair": "08.21",
+    "registered_short": "08.22",
+    "brand": "티웨이항공",
+    "campaign": null,
+    "registered_date": "2026-08-21",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "티웨이항공",
+    "advertiser_code": "C000013370",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-23T10:01:25.133553+09:00"
+  },
+  {
     "ad_id": "1026125",
     "prefix": "bi1258",
     "url": "https://tvcf.co.kr/play/bi1258-1026125",
