@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T10:04:24.112892+09:00",
-  "count": 244,
-  "x_count": 755,
+  "updated_at": "2026-08-25T04:13:41.978Z",
+  "count": 243,
+  "x_count": 756,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1612,13 +1612,6 @@
       "status": "o",
       "matched_name": "한화손해보험",
       "updated_at": "2026-08-21T17:06:13.468690+09:00",
-      "auto": true
-    },
-    "토스뱅크": {
-      "display_name": "토스뱅크",
-      "status": "maybe",
-      "matched_name": "토스",
-      "updated_at": "2026-08-24T17:06:38.462695+09:00",
       "auto": true
     },
     "현대해상": {
@@ -5680,6 +5673,12 @@
       "updated_at": "2026-08-18T10:06:29.703942+09:00",
       "auto": true
     },
+    "1025528": {
+      "advertiser": "올록담",
+      "status": "x",
+      "updated_at": "2026-08-20T17:05:33.898821+09:00",
+      "auto": true
+    },
     "1025529": {
       "advertiser": "KBS",
       "status": "x",
@@ -5821,34 +5820,16 @@
       "updated_at": "2026-08-20T10:04:51.693363+09:00",
       "auto": true
     },
-    "1026035": {
-      "advertiser": "구달 ",
+    "1025832": {
+      "advertiser": "에이블리",
       "status": "x",
-      "updated_at": "2026-08-20T17:05:33.874277+09:00",
+      "updated_at": "2026-08-20T17:05:33.896096+09:00",
       "auto": true
     },
-    "1026033": {
-      "advertiser": "Mercedes-Benz Korea",
+    "1025835": {
+      "advertiser": "오스템파마",
       "status": "x",
-      "updated_at": "2026-08-20T17:05:33.877005+09:00",
-      "auto": true
-    },
-    "1026032": {
-      "advertiser": "Mercedes-Benz Korea",
-      "status": "x",
-      "updated_at": "2026-08-20T17:05:33.879750+09:00",
-      "auto": true
-    },
-    "1026029": {
-      "advertiser": "프로미TV-DB손해보험",
-      "status": "x",
-      "updated_at": "2026-08-20T17:05:33.882489+09:00",
-      "auto": true
-    },
-    "1026028": {
-      "advertiser": "발렌타인",
-      "status": "x",
-      "updated_at": "2026-08-20T17:05:33.885214+09:00",
+      "updated_at": "2026-08-20T17:05:33.893373+09:00",
       "auto": true
     },
     "1025866": {
@@ -5863,40 +5844,40 @@
       "updated_at": "2026-08-20T17:05:33.890648+09:00",
       "auto": true
     },
-    "1025835": {
-      "advertiser": "오스템파마",
+    "1026028": {
+      "advertiser": "발렌타인",
       "status": "x",
-      "updated_at": "2026-08-20T17:05:33.893373+09:00",
+      "updated_at": "2026-08-20T17:05:33.885214+09:00",
       "auto": true
     },
-    "1025832": {
-      "advertiser": "에이블리",
+    "1026029": {
+      "advertiser": "프로미TV-DB손해보험",
       "status": "x",
-      "updated_at": "2026-08-20T17:05:33.896096+09:00",
+      "updated_at": "2026-08-20T17:05:33.882489+09:00",
       "auto": true
     },
-    "1025528": {
-      "advertiser": "올록담",
+    "1026032": {
+      "advertiser": "Mercedes-Benz Korea",
       "status": "x",
-      "updated_at": "2026-08-20T17:05:33.898821+09:00",
+      "updated_at": "2026-08-20T17:05:33.879750+09:00",
       "auto": true
     },
-    "1026076": {
-      "advertiser": "KBS",
+    "1026033": {
+      "advertiser": "Mercedes-Benz Korea",
       "status": "x",
-      "updated_at": "2026-08-21T10:05:53.933412+09:00",
+      "updated_at": "2026-08-20T17:05:33.877005+09:00",
       "auto": true
     },
-    "1026080": {
-      "advertiser": "영동군",
+    "1026035": {
+      "advertiser": "구달 ",
       "status": "x",
-      "updated_at": "2026-08-21T10:05:53.936096+09:00",
+      "updated_at": "2026-08-20T17:05:33.874277+09:00",
       "auto": true
     },
-    "1026074": {
-      "advertiser": "가제트코리아",
+    "1026039": {
+      "advertiser": "구달",
       "status": "x",
-      "updated_at": "2026-08-21T10:05:53.941102+09:00",
+      "updated_at": "2026-08-21T10:05:53.950041+09:00",
       "auto": true
     },
     "1026044": {
@@ -5911,34 +5892,40 @@
       "updated_at": "2026-08-21T10:05:53.947377+09:00",
       "auto": true
     },
-    "1026039": {
-      "advertiser": "구달",
+    "1026074": {
+      "advertiser": "가제트코리아",
       "status": "x",
-      "updated_at": "2026-08-21T10:05:53.950041+09:00",
+      "updated_at": "2026-08-21T10:05:53.941102+09:00",
       "auto": true
     },
-    "1026150": {
-      "advertiser": "아이비전",
+    "1026076": {
+      "advertiser": "KBS",
       "status": "x",
-      "updated_at": "2026-08-21T17:06:13.458730+09:00",
+      "updated_at": "2026-08-21T10:05:53.933412+09:00",
       "auto": true
     },
-    "1026148": {
-      "advertiser": "미미월드",
+    "1026080": {
+      "advertiser": "영동군",
       "status": "x",
-      "updated_at": "2026-08-21T17:06:13.461613+09:00",
+      "updated_at": "2026-08-21T10:05:53.936096+09:00",
       "auto": true
     },
-    "1026145": {
-      "advertiser": "아이비젼",
+    "1026084": {
+      "advertiser": "TEASER",
       "status": "x",
-      "updated_at": "2026-08-21T17:06:13.464474+09:00",
+      "updated_at": "2026-08-23T17:01:53.344664+09:00",
       "auto": true
     },
-    "1026137": {
-      "advertiser": "세종기프트",
+    "1026088": {
+      "advertiser": "MBC",
       "status": "x",
-      "updated_at": "2026-08-21T17:06:13.467337+09:00",
+      "updated_at": "2026-08-21T17:06:13.480162+09:00",
+      "auto": true
+    },
+    "1026120": {
+      "advertiser": "일동후디스",
+      "status": "x",
+      "updated_at": "2026-08-21T17:06:13.477268+09:00",
       "auto": true
     },
     "1026125": {
@@ -5953,52 +5940,10 @@
       "updated_at": "2026-08-21T17:06:13.474410+09:00",
       "auto": true
     },
-    "1026120": {
-      "advertiser": "일동후디스",
+    "1026137": {
+      "advertiser": "세종기프트",
       "status": "x",
-      "updated_at": "2026-08-21T17:06:13.477268+09:00",
-      "auto": true
-    },
-    "1026088": {
-      "advertiser": "MBC",
-      "status": "x",
-      "updated_at": "2026-08-21T17:06:13.480162+09:00",
-      "auto": true
-    },
-    "1026164": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.882821+09:00",
-      "auto": true
-    },
-    "1026159": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.885668+09:00",
-      "auto": true
-    },
-    "1026168": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.888506+09:00",
-      "auto": true
-    },
-    "1026161": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.891355+09:00",
-      "auto": true
-    },
-    "1026160": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.894190+09:00",
-      "auto": true
-    },
-    "1026152": {
-      "advertiser": "VisitSeoul TV",
-      "status": "x",
-      "updated_at": "2026-08-22T10:03:31.896992+09:00",
+      "updated_at": "2026-08-21T17:06:13.467337+09:00",
       "auto": true
     },
     "1026138": {
@@ -6007,70 +5952,28 @@
       "updated_at": "2026-08-22T17:01:29.756361+09:00",
       "auto": true
     },
-    "1026084": {
-      "advertiser": "TEASER",
+    "1026145": {
+      "advertiser": "아이비젼",
       "status": "x",
-      "updated_at": "2026-08-23T17:01:53.344664+09:00",
+      "updated_at": "2026-08-21T17:06:13.464474+09:00",
       "auto": true
     },
-    "1026254": {
-      "advertiser": "영동군",
+    "1026148": {
+      "advertiser": "미미월드",
       "status": "x",
-      "updated_at": "2026-08-23T17:01:53.347306+09:00",
+      "updated_at": "2026-08-21T17:06:13.461613+09:00",
       "auto": true
     },
-    "1026288": {
-      "advertiser": "백년화편",
+    "1026150": {
+      "advertiser": "아이비전",
       "status": "x",
-      "updated_at": "2026-08-24T17:06:38.455065+09:00",
+      "updated_at": "2026-08-21T17:06:13.458730+09:00",
       "auto": true
     },
-    "1026276": {
-      "advertiser": "한수원 KHNP",
+    "1026152": {
+      "advertiser": "VisitSeoul TV",
       "status": "x",
-      "updated_at": "2026-08-24T17:06:38.457704+09:00",
-      "auto": true
-    },
-    "1026273": {
-      "advertiser": "SK브로드밴드",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.460333+09:00",
-      "auto": true
-    },
-    "1026283": {
-      "advertiser": "포켓몬코리아",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.465418+09:00",
-      "auto": true
-    },
-    "1026284": {
-      "advertiser": "Houry",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.468156+09:00",
-      "auto": true
-    },
-    "1026280": {
-      "advertiser": "SK이노베이션",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.470792+09:00",
-      "auto": true
-    },
-    "1026279": {
-      "advertiser": "포켓몬코리아",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.473423+09:00",
-      "auto": true
-    },
-    "1026277": {
-      "advertiser": "국가보훈부",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.476047+09:00",
-      "auto": true
-    },
-    "1026165": {
-      "advertiser": "서울관광재단",
-      "status": "x",
-      "updated_at": "2026-08-24T17:06:38.478677+09:00",
+      "updated_at": "2026-08-22T10:03:31.896992+09:00",
       "auto": true
     },
     "1026153": {
@@ -6079,10 +5982,52 @@
       "updated_at": "2026-08-24T17:06:38.481300+09:00",
       "auto": true
     },
+    "1026159": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.885668+09:00",
+      "auto": true
+    },
+    "1026160": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.894190+09:00",
+      "auto": true
+    },
+    "1026161": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.891355+09:00",
+      "auto": true
+    },
+    "1026164": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.882821+09:00",
+      "auto": true
+    },
+    "1026165": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.478677+09:00",
+      "auto": true
+    },
     "1026166": {
       "advertiser": "서울관광재단",
       "status": "x",
       "updated_at": "2026-08-24T17:06:38.483921+09:00",
+      "auto": true
+    },
+    "1026168": {
+      "advertiser": "서울관광재단",
+      "status": "x",
+      "updated_at": "2026-08-22T10:03:31.888506+09:00",
+      "auto": true
+    },
+    "1026254": {
+      "advertiser": "영동군",
+      "status": "x",
+      "updated_at": "2026-08-23T17:01:53.347306+09:00",
       "auto": true
     },
     "1026257": {
@@ -6097,16 +6042,63 @@
       "updated_at": "2026-08-24T17:06:38.489174+09:00",
       "auto": true
     },
-    "1026319": {
-      "advertiser": "동원F&B",
+    "1026273": {
+      "advertiser": "SK브로드밴드",
       "status": "x",
-      "updated_at": "2026-08-25T10:04:24.101026+09:00",
+      "updated_at": "2026-08-24T17:06:38.460333+09:00",
       "auto": true
     },
-    "1026302": {
-      "advertiser": "화성특례시",
+    "1026276": {
+      "advertiser": "한수원 KHNP",
       "status": "x",
-      "updated_at": "2026-08-25T10:04:24.103653+09:00",
+      "updated_at": "2026-08-24T17:06:38.457704+09:00",
+      "auto": true
+    },
+    "1026277": {
+      "advertiser": "국가보훈부",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.476047+09:00",
+      "auto": true
+    },
+    "1026279": {
+      "advertiser": "포켓몬코리아",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.473423+09:00",
+      "auto": true
+    },
+    "1026280": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.470792+09:00",
+      "auto": true
+    },
+    "1026283": {
+      "advertiser": "포켓몬코리아",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.465418+09:00",
+      "auto": true
+    },
+    "1026284": {
+      "advertiser": "Houry",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.468156+09:00",
+      "auto": true
+    },
+    "1026286": {
+      "advertiser": "토스뱅크",
+      "status": "x",
+      "updated_at": "2026-08-25T04:13:41.965Z"
+    },
+    "1026287": {
+      "advertiser": "백년화편",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.109230+09:00",
+      "auto": true
+    },
+    "1026288": {
+      "advertiser": "백년화편",
+      "status": "x",
+      "updated_at": "2026-08-24T17:06:38.455065+09:00",
       "auto": true
     },
     "1026300": {
@@ -6115,10 +6107,16 @@
       "updated_at": "2026-08-25T10:04:24.106277+09:00",
       "auto": true
     },
-    "1026287": {
-      "advertiser": "백년화편",
+    "1026302": {
+      "advertiser": "화성특례시",
       "status": "x",
-      "updated_at": "2026-08-25T10:04:24.109230+09:00",
+      "updated_at": "2026-08-25T10:04:24.103653+09:00",
+      "auto": true
+    },
+    "1026319": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.101026+09:00",
       "auto": true
     }
   }
