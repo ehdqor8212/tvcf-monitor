@@ -1,5 +1,75 @@
 [
   {
+    "ad_id": "1026372",
+    "prefix": "ai1723",
+    "url": "https://tvcf.co.kr/play/ai1723-1026372",
+    "card_title": "구글 제미나이BTS dives into Mexico with Google Gemini",
+    "onair": "08.24",
+    "registered_short": "08.25",
+    "brand": "구글 제미나이",
+    "campaign": null,
+    "registered_date": "2026-08-24",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "구글코리아",
+    "advertiser_code": "C000008256",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026364",
+        "url": "https://tvcf.co.kr/play/ai1644-1026364",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이BTS dives into India with Google Gemini"
+      },
+      {
+        "ad_id": "1026361",
+        "url": "https://tvcf.co.kr/play/bi1611-1026361",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이BTS dives into Brazil with Google Gemini"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-25T17:03:53.635383+09:00"
+  },
+  {
+    "ad_id": "1026352",
+    "prefix": "ai1521",
+    "url": "https://tvcf.co.kr/play/ai1521-1026352",
+    "card_title": "한스킨리센느 미나미&제나의 PDRN 핑크볼 광채세럼",
+    "onair": "08.24",
+    "registered_short": "08.25",
+    "brand": "한스킨",
+    "campaign": null,
+    "registered_date": "2026-08-24",
+    "media_type": "케이블",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "셀트리온",
+    "advertiser_code": "C000012859",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026351",
+        "url": "https://tvcf.co.kr/play/bi1519-1026351",
+        "brand": "한스킨",
+        "campaign": null,
+        "card_title": "한스킨hanskin with.RESCENE ZENA - Teaser"
+      },
+      {
+        "ad_id": "1026349",
+        "url": "https://tvcf.co.kr/play/bi1497-1026349",
+        "brand": "한스킨",
+        "campaign": null,
+        "card_title": "한스킨hanskin with.RESCENE MINAMI - Teaser"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-25T17:03:53.635399+09:00"
+  },
+  {
     "ad_id": "1026319",
     "prefix": "bi1194",
     "url": "https://tvcf.co.kr/play/bi1194-1026319",
@@ -268,6 +338,41 @@
     "collected_at": "2026-08-24T17:06:38.416889+09:00"
   },
   {
+    "ad_id": "1026362",
+    "prefix": "ai1622",
+    "url": "https://tvcf.co.kr/play/ai1622-1026362",
+    "card_title": "구글 제미나이BTS dives into Indonesia with Google Gemini",
+    "onair": "08.21",
+    "registered_short": "08.25",
+    "brand": "구글 제미나이",
+    "campaign": null,
+    "registered_date": "2026-08-21",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "구글코리아",
+    "advertiser_code": "C000008256",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026359",
+        "url": "https://tvcf.co.kr/play/bi1598-1026359",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이BTS dives into Japan with Google Gemini"
+      },
+      {
+        "ad_id": "1026358",
+        "url": "https://tvcf.co.kr/play/ai1587-1026358",
+        "brand": "구글 제미나이",
+        "campaign": null,
+        "card_title": "구글 제미나이BTS dives into USA with Google Gemini"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-08-25T17:03:53.635386+09:00"
+  },
+  {
     "ad_id": "1026255",
     "prefix": "bi1553",
     "url": "https://tvcf.co.kr/play/bi1553-1026255",
@@ -396,6 +501,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-21T10:05:53.896893+09:00"
+  },
+  {
+    "ad_id": "1026368",
+    "prefix": "ai1688",
+    "url": "https://tvcf.co.kr/play/ai1688-1026368",
+    "card_title": "신라면신라면 X 에스파 | 행복의 다른 말, SHIN! 🍜 “Spicy Happiness is for EVERYONE”",
+    "onair": "08.20",
+    "registered_short": "08.25",
+    "brand": "신라면",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "농심",
+    "advertiser_code": "C000001146",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-25T17:03:53.635374+09:00"
+  },
+  {
+    "ad_id": "1026353",
+    "prefix": "bi1532",
+    "url": "https://tvcf.co.kr/play/bi1532-1026353",
+    "card_title": "제네시스 GV90GV90 Neolun · GV90 | 시대를 앞선 선택을 위해",
+    "onair": "08.20",
+    "registered_short": "08.25",
+    "brand": "제네시스 GV90",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "자동차/정유",
+    "sub_categories": [],
+    "advertiser": "제네시스 ",
+    "advertiser_code": "C000018400",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-25T17:03:53.635396+09:00"
   },
   {
     "ad_id": "1026280",
@@ -4097,6 +4240,25 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-08-06T17:06:22.897464+09:00"
+  },
+  {
+    "ad_id": "1026350",
+    "prefix": "ai2508",
+    "url": "https://tvcf.co.kr/play/ai2508-1026350",
+    "card_title": "스포티파이Spotify : T1 STARS 데뷔 프로젝트",
+    "onair": "08.05",
+    "registered_short": "08.25",
+    "brand": "스포티파이",
+    "campaign": null,
+    "registered_date": "2026-08-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "스포티파이",
+    "advertiser_code": "C000020501",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-25T17:03:53.635401+09:00"
   },
   {
     "ad_id": "1025108",
@@ -19551,6 +19713,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-18T12:04:10.573966+09:00"
+  },
+  {
+    "ad_id": "1026129",
+    "prefix": "bi1293",
+    "url": "https://tvcf.co.kr/play/bi1293-1026129",
+    "card_title": "네이버플러스 스토어 노크잇열어보면 전부 내 취향, 노크잇",
+    "onair": "06.16",
+    "registered_short": "08.25",
+    "brand": "네이버플러스 스토어 노크잇",
+    "campaign": null,
+    "registered_date": "2026-06-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "네이버",
+    "advertiser_code": "C000012216",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-08-25T17:03:53.635389+09:00"
   },
   {
     "ad_id": "1023178",

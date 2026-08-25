@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T04:13:41.978Z",
+  "updated_at": "2026-08-25T17:03:53.681084+09:00",
   "count": 243,
-  "x_count": 756,
+  "x_count": 758,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6117,6 +6117,18 @@
       "advertiser": "동원F&B",
       "status": "x",
       "updated_at": "2026-08-25T10:04:24.101026+09:00",
+      "auto": true
+    },
+    "1026353": {
+      "advertiser": "제네시스 ",
+      "status": "x",
+      "updated_at": "2026-08-25T17:03:53.674081+09:00",
+      "auto": true
+    },
+    "1026352": {
+      "advertiser": "셀트리온",
+      "status": "x",
+      "updated_at": "2026-08-25T17:03:53.676969+09:00",
       "auto": true
     }
   }
