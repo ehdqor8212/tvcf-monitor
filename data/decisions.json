@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T17:06:38.494454+09:00",
-  "count": 243,
-  "x_count": 751,
+  "updated_at": "2026-08-25T10:04:24.112892+09:00",
+  "count": 244,
+  "x_count": 755,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1626,6 +1626,13 @@
       "status": "o",
       "matched_name": "현대해상",
       "updated_at": "2026-08-24T17:06:38.490436+09:00",
+      "auto": true
+    },
+    "동화약품": {
+      "display_name": "동화약품",
+      "status": "o",
+      "matched_name": "동화약품",
+      "updated_at": "2026-08-25T10:04:24.106546+09:00",
       "auto": true
     }
   },
@@ -6088,6 +6095,30 @@
       "advertiser": "일신국제무역",
       "status": "x",
       "updated_at": "2026-08-24T17:06:38.489174+09:00",
+      "auto": true
+    },
+    "1026319": {
+      "advertiser": "동원F&B",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.101026+09:00",
+      "auto": true
+    },
+    "1026302": {
+      "advertiser": "화성특례시",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.103653+09:00",
+      "auto": true
+    },
+    "1026300": {
+      "advertiser": "아이리스브라이트",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.106277+09:00",
+      "auto": true
+    },
+    "1026287": {
+      "advertiser": "백년화편",
+      "status": "x",
+      "updated_at": "2026-08-25T10:04:24.109230+09:00",
       "auto": true
     }
   }

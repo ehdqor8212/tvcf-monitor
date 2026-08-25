@@ -1,12 +1,137 @@
 {
-  "run_at": "2026-08-24T17:06:38.415827+09:00",
-  "count": 17,
-  "count_total_before_dedup": 25,
+  "run_at": "2026-08-25T10:04:24.031637+09:00",
+  "count": 7,
+  "count_total_before_dedup": 15,
   "new_ads": [
     {
-      "ad_id": "1026288",
-      "prefix": "ai1889",
-      "url": "https://tvcf.co.kr/play/ai1889-1026288",
+      "ad_id": "1026319",
+      "prefix": "bi1194",
+      "url": "https://tvcf.co.kr/play/bi1194-1026319",
+      "card_title": "동원참치BTS 진이 전합니다! 추석에도 바다 단백질 받아~요!",
+      "onair": "08.24",
+      "registered_short": "08.25",
+      "brand": "동원참치",
+      "campaign": null,
+      "registered_date": "2026-08-24",
+      "media_type": "공중파",
+      "main_category": "식품/제과",
+      "sub_categories": [],
+      "advertiser": "동원F&B",
+      "advertiser_code": "C000002583",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026302",
+      "prefix": "ai225",
+      "url": "https://tvcf.co.kr/play/ai225-1026302",
+      "card_title": "화성특례시화성에서 만나는 새로운 발견, 황금해안길",
+      "onair": "08.24",
+      "registered_short": "08.25",
+      "brand": "화성특례시",
+      "campaign": null,
+      "registered_date": "2026-08-24",
+      "media_type": "공중파",
+      "main_category": "관공서/단체/공익/기업PR",
+      "sub_categories": [],
+      "advertiser": "화성특례시",
+      "advertiser_code": "4240467",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026300",
+      "prefix": "ai303",
+      "url": "https://tvcf.co.kr/play/ai303-1026300",
+      "card_title": "디다츠키의 관리? 디다 쉽다!",
+      "onair": "08.24",
+      "registered_short": "08.24",
+      "brand": "디다",
+      "campaign": null,
+      "registered_date": "2026-08-24",
+      "media_type": "케이블",
+      "main_category": "제약/의료/복지",
+      "sub_categories": [],
+      "advertiser": "아이리스브라이트",
+      "advertiser_code": "C000169588",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026299",
+          "url": "https://tvcf.co.kr/play/bi1992-1026299",
+          "brand": "디다",
+          "campaign": null,
+          "card_title": "디다츠키의 관리? 디다 쉽다!"
+        },
+        {
+          "ad_id": "1026298",
+          "url": "https://tvcf.co.kr/play/ai1981-1026298",
+          "brand": "디다",
+          "campaign": null,
+          "card_title": "디다츠키의 관리? 디다 쉽다!"
+        },
+        {
+          "ad_id": "1026297",
+          "url": "https://tvcf.co.kr/play/bi1979-1026297",
+          "brand": "디다",
+          "campaign": null,
+          "card_title": "디다Dida X Tsuki | 디다 하나로 바라던 나로"
+        }
+      ],
+      "variant_count": 4
+    },
+    {
+      "ad_id": "1026295",
+      "prefix": "bi1957",
+      "url": "https://tvcf.co.kr/play/bi1957-1026295",
+      "card_title": "활명수[활명수1897 KOD] 브랜드필름 with CORTIS(6s)",
+      "onair": "08.19",
+      "registered_short": "08.24",
+      "brand": "활명수",
+      "campaign": null,
+      "registered_date": "2026-08-19",
+      "media_type": "디지털(인터넷)",
+      "main_category": "제약/의료/복지",
+      "sub_categories": [],
+      "advertiser": "동화약품",
+      "advertiser_code": "C000001197",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026293",
+          "url": "https://tvcf.co.kr/play/bi1935-1026293",
+          "brand": "활명수",
+          "campaign": null,
+          "card_title": "활명수[활명수1897 KOD] 브랜드필름 with CORTIS(15B)"
+        },
+        {
+          "ad_id": "1026292",
+          "url": "https://tvcf.co.kr/play/ai1924-1026292",
+          "brand": "활명수",
+          "campaign": null,
+          "card_title": "활명수[활명수1897 KOD] 브랜드필름 with CORTIS(15A)"
+        },
+        {
+          "ad_id": "1026294",
+          "url": "https://tvcf.co.kr/play/ai1946-1026294",
+          "brand": "활명수",
+          "campaign": null,
+          "card_title": "활명수[활명수1897 KOD] 브랜드필름 with CORTIS(30s)"
+        },
+        {
+          "ad_id": "1026291",
+          "url": "https://tvcf.co.kr/play/bi1913-1026291",
+          "brand": "활명수",
+          "campaign": null,
+          "card_title": "활명수[활명수1897 KOD] 브랜드필름 with CORTIS(Full)"
+        }
+      ],
+      "variant_count": 5
+    },
+    {
+      "ad_id": "1026287",
+      "prefix": "bi1878",
+      "url": "https://tvcf.co.kr/play/bi1878-1026287",
       "card_title": "백년화편명절엔 떡이 딱이다",
       "onair": "08.24",
       "registered_short": "08.24",
@@ -18,276 +143,6 @@
       "sub_categories": [],
       "advertiser": "백년화편",
       "advertiser_code": "C000138696",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026276",
-      "prefix": "ai1766",
-      "url": "https://tvcf.co.kr/play/ai1766-1026276",
-      "card_title": "한수원 KHNP한국수력원자력 ǀ 당신이 만드는 에너지처럼, 멈추지 않는 에너지 (Full)",
-      "onair": "08.14",
-      "registered_short": "08.24",
-      "brand": "한수원 KHNP",
-      "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "공중파",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "한수원 KHNP",
-      "advertiser_code": "4240084",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026273",
-      "prefix": "bi1733",
-      "url": "https://tvcf.co.kr/play/bi1733-1026273",
-      "card_title": "SK브로드밴드 B tvOTT와 비교할수록 결론은 B tv+ max",
-      "onair": "08.14",
-      "registered_short": "08.24",
-      "brand": "SK브로드밴드 B tv",
-      "campaign": null,
-      "registered_date": "2026-08-14",
-      "media_type": "디지털(인터넷)",
-      "main_category": "정보통신",
-      "sub_categories": [],
-      "advertiser": "SK브로드밴드",
-      "advertiser_code": "C000009138",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026286",
-      "prefix": "ai1867",
-      "url": "https://tvcf.co.kr/play/ai1867-1026286",
-      "card_title": "토스뱅크매일 키울수록 귀여운 토스뱅크 키워봐요 31일적금 Ep.1",
-      "onair": "08.24",
-      "registered_short": "08.24",
-      "brand": "토스뱅크",
-      "campaign": null,
-      "registered_date": "2026-08-24",
-      "media_type": "디지털(인터넷)",
-      "main_category": "금융/보험",
-      "sub_categories": [],
-      "advertiser": "토스뱅크",
-      "advertiser_code": "C000162739",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026285",
-          "url": "https://tvcf.co.kr/play/bi1856-1026285",
-          "brand": "토스뱅크",
-          "campaign": null,
-          "card_title": "토스뱅크매일 키울수록 귀여운 토스뱅크 31일적금 Ep.1"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1026283",
-      "prefix": "bi1834",
-      "url": "https://tvcf.co.kr/play/bi1834-1026283",
-      "card_title": "포켓몬 카드 게임[공식] 2026 포켓몬 카드 게임 브랜드 필름 : 세대 초월 배틀! EPISODE.2 배틀의 세계 ✉ 15s│포켓몬 카드 게임 Pokémon Card Game",
-      "onair": "08.22",
-      "registered_short": "08.24",
-      "brand": "포켓몬 카드 게임",
-      "campaign": null,
-      "registered_date": "2026-08-22",
-      "media_type": "케이블",
-      "main_category": "생활/가정용품",
-      "sub_categories": [],
-      "advertiser": "포켓몬코리아",
-      "advertiser_code": "C000019328",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026281",
-          "url": "https://tvcf.co.kr/play/bi1812-1026281",
-          "brand": "포켓몬 카드 게임",
-          "campaign": null,
-          "card_title": "포켓몬 카드 게임[공식]  2026 포켓몬 카드 게임 브랜드 필름 : 세대 초월 배틀! EPISODE.2 배틀의 세계│포켓몬 카드 게임 Pokémon Card Game"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1026284",
-      "prefix": "ai1845",
-      "url": "https://tvcf.co.kr/play/ai1845-1026284",
-      "card_title": "HouryHoury",
-      "onair": "08.24",
-      "registered_short": "08.24",
-      "brand": "Houry",
-      "campaign": null,
-      "registered_date": "2026-08-24",
-      "media_type": "디지털(인터넷)",
-      "main_category": "화장품",
-      "sub_categories": [],
-      "advertiser": "Houry",
-      "advertiser_code": "4240026",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026280",
-      "prefix": "ai2801",
-      "url": "https://tvcf.co.kr/play/ai2801-1026280",
-      "card_title": "SK이노베이션우리의 선택이다, 함께 이룬 10년의 하모니",
-      "onair": "08.20",
-      "registered_short": "08.24",
-      "brand": "SK이노베이션",
-      "campaign": null,
-      "registered_date": "2026-08-20",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "SK이노베이션",
-      "advertiser_code": "C000010143",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026279",
-      "prefix": "bi1799",
-      "url": "https://tvcf.co.kr/play/bi1799-1026279",
-      "card_title": "포켓몬 카드 게임[공식] 2026 포켓몬 카드 게임 브랜드 필름 : 세대 초월 배틀! EPISODE.1 배틀 초대장 ✉ 15s│포켓몬 카드 게임 Pokémon Card Game",
-      "onair": "08.08",
-      "registered_short": "08.24",
-      "brand": "포켓몬 카드 게임",
-      "campaign": null,
-      "registered_date": "2026-08-08",
-      "media_type": "케이블",
-      "main_category": "생활/가정용품",
-      "sub_categories": [],
-      "advertiser": "포켓몬코리아",
-      "advertiser_code": "C000019328",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026277",
-      "prefix": "bi1777",
-      "url": "https://tvcf.co.kr/play/bi1777-1026277",
-      "card_title": "국가보훈부독립유공자 바로 봄 캠페인 '우리 동네에 영웅이 있다'",
-      "onair": "08.20",
-      "registered_short": "08.24",
-      "brand": "국가보훈부",
-      "campaign": null,
-      "registered_date": "2026-08-20",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "국가보훈부",
-      "advertiser_code": "C000166894",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026251",
-      "prefix": "bi1518",
-      "url": "https://tvcf.co.kr/play/bi1518-1026251",
-      "card_title": "익수 황진환맥없이 살지 말고, 황진환으로",
-      "onair": "08.24",
-      "registered_short": "08.24",
-      "brand": "익수 황진환",
-      "campaign": null,
-      "registered_date": "2026-08-24",
-      "media_type": "케이블",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "익수제약",
-      "advertiser_code": "C000167875",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026250",
-          "url": "https://tvcf.co.kr/play/ai2507-1026250",
-          "brand": "익수 황진환",
-          "campaign": null,
-          "card_title": "익수 황진환황진환으로 진하게 환하게!"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1026165",
-      "prefix": "bi1653",
-      "url": "https://tvcf.co.kr/play/bi1653-1026165",
-      "card_title": "서울관광재단[Seoul & Jin of BTS] Feel Soul Good - Episode3. FUN",
-      "onair": "2024.09.12",
-      "registered_short": "08.24",
-      "brand": "서울관광재단",
-      "campaign": null,
-      "registered_date": "2024-09-12",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "서울관광재단",
-      "advertiser_code": "C000168735",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026153",
-      "prefix": "bi1539",
-      "url": "https://tvcf.co.kr/play/bi1539-1026153",
-      "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser",
-      "onair": "2025.07.31",
-      "registered_short": "08.24",
-      "brand": "서울관광재단",
-      "campaign": null,
-      "registered_date": "2025-07-31",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "서울관광재단",
-      "advertiser_code": "C000168735",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026154",
-          "url": "https://tvcf.co.kr/play/ai1541-1026154",
-          "brand": "서울관광재단",
-          "campaign": null,
-          "card_title": "서울관광재단[SEOUL x JENNIE] Absolutely in SEOUL - Teaser"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1026166",
-      "prefix": "ai1664",
-      "url": "https://tvcf.co.kr/play/ai1664-1026166",
-      "card_title": "서울관광재단Watching the Night View at the Hangang River with Jin",
-      "onair": "2024.09.02",
-      "registered_short": "08.24",
-      "brand": "서울관광재단",
-      "campaign": null,
-      "registered_date": "2024-09-02",
-      "media_type": "디지털(인터넷)",
-      "main_category": "관공서/단체/공익/기업PR",
-      "sub_categories": [],
-      "advertiser": "서울관광재단",
-      "advertiser_code": "C000168735",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026255",
-      "prefix": "bi1553",
-      "url": "https://tvcf.co.kr/play/bi1553-1026255",
-      "card_title": "정관장 천녹[정관장 천녹 기력 행사 | 08.11~02.18] 천녹, 기력의 세기를 올리다.",
-      "onair": "08.21",
-      "registered_short": "08.24",
-      "brand": "정관장 천녹",
-      "campaign": null,
-      "registered_date": "2026-08-21",
-      "media_type": "공중파",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "한국인삼공사",
-      "advertiser_code": "C000007458",
       "advertiser_fallback": false,
       "variant_count": 1
     },
@@ -310,37 +165,10 @@
       "variant_count": 1
     },
     {
-      "ad_id": "1026263",
-      "prefix": "bi1632",
-      "url": "https://tvcf.co.kr/play/bi1632-1026263",
-      "card_title": "리콜라자연의 소리 (15초)",
-      "onair": "08.24",
-      "registered_short": "08.24",
-      "brand": "리콜라",
-      "campaign": null,
-      "registered_date": "2026-08-24",
-      "media_type": "케이블",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "일신국제무역",
-      "advertiser_code": "4239800",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026258",
-          "url": "https://tvcf.co.kr/play/ai1586-1026258",
-          "brand": "리콜라",
-          "campaign": null,
-          "card_title": "리콜라자연의 소리"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1026262",
-      "prefix": "ai1621",
-      "url": "https://tvcf.co.kr/play/ai1621-1026262",
-      "card_title": "현대해상 다이렉트 자동차보험자동차보험 ‘내 차엔 현다가 있다’_첨단안전장치 할인_15s",
+      "ad_id": "1026260",
+      "prefix": "ai2608",
+      "url": "https://tvcf.co.kr/play/ai2608-1026260",
+      "card_title": "현대해상 다이렉트 자동차보험자동차보험 ‘내 차엔 현다가 있다’_마일리지 할인_30s",
       "onair": "08.20",
       "registered_short": "08.24",
       "brand": "현대해상 다이렉트 자동차보험",
@@ -354,20 +182,6 @@
       "advertiser_fallback": false,
       "variants": [
         {
-          "ad_id": "1026261",
-          "url": "https://tvcf.co.kr/play/bi1619-1026261",
-          "brand": "현대해상 다이렉트 자동차보험",
-          "campaign": null,
-          "card_title": "현대해상 다이렉트 자동차보험자동차보험 ‘내 차엔 현다가 있다’_Full"
-        },
-        {
-          "ad_id": "1026260",
-          "url": "https://tvcf.co.kr/play/ai2608-1026260",
-          "brand": "현대해상 다이렉트 자동차보험",
-          "campaign": null,
-          "card_title": "현대해상 다이렉트 자동차보험자동차보험 ‘내 차엔 현다가 있다’_마일리지 할인_30s"
-        },
-        {
           "ad_id": "1026259",
           "url": "https://tvcf.co.kr/play/bi1597-1026259",
           "brand": "현대해상 다이렉트 자동차보험",
@@ -375,7 +189,7 @@
           "card_title": "현대해상 다이렉트 자동차보험자동차보험 ‘내 차엔 현다가 있다’_첨단안전장치 할인_30s"
         }
       ],
-      "variant_count": 4
+      "variant_count": 2
     }
   ]
 }
