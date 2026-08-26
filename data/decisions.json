@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T10:03:02.567357+09:00",
-  "count": 243,
-  "x_count": 761,
+  "updated_at": "2026-08-26T17:04:05.285238+09:00",
+  "count": 244,
+  "x_count": 766,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1626,6 +1626,13 @@
       "status": "o",
       "matched_name": "동화약품",
       "updated_at": "2026-08-25T10:04:24.106546+09:00",
+      "auto": true
+    },
+    "케이스티파이": {
+      "display_name": "케이스티파이",
+      "status": "o",
+      "matched_name": "케이스티파이",
+      "updated_at": "2026-08-26T17:04:05.271928+09:00",
       "auto": true
     }
   },
@@ -6147,6 +6154,36 @@
       "advertiser": "지아띠",
       "status": "x",
       "updated_at": "2026-08-26T10:03:02.565137+09:00",
+      "auto": true
+    },
+    "1026461": {
+      "advertiser": "하이로닉코리아",
+      "status": "x",
+      "updated_at": "2026-08-26T17:04:05.273996+09:00",
+      "auto": true
+    },
+    "1026462": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-08-26T17:04:05.276035+09:00",
+      "auto": true
+    },
+    "1026459": {
+      "advertiser": "하이로닉코리아",
+      "status": "x",
+      "updated_at": "2026-08-26T17:04:05.278082+09:00",
+      "auto": true
+    },
+    "1026451": {
+      "advertiser": "할리스에프엔비",
+      "status": "x",
+      "updated_at": "2026-08-26T17:04:05.280118+09:00",
+      "auto": true
+    },
+    "1026435": {
+      "advertiser": "NH농협카드",
+      "status": "x",
+      "updated_at": "2026-08-26T17:04:05.282160+09:00",
       "auto": true
     }
   }
