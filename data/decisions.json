@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T10:02:07.222556+09:00",
-  "count": 244,
-  "x_count": 770,
+  "updated_at": "2026-08-27T17:03:21.363514+09:00",
+  "count": 245,
+  "x_count": 772,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1633,6 +1633,13 @@
       "status": "o",
       "matched_name": "케이스티파이",
       "updated_at": "2026-08-26T17:04:05.271928+09:00",
+      "auto": true
+    },
+    "bgf리테일": {
+      "display_name": "BGF리테일",
+      "status": "maybe",
+      "matched_name": "(미집행) 비지에프리테일(BGF리테일)",
+      "updated_at": "2026-08-27T17:03:21.359445+09:00",
       "auto": true
     }
   },
@@ -6208,6 +6215,18 @@
       "advertiser": "아이리스브라이트",
       "status": "x",
       "updated_at": "2026-08-27T10:02:07.218664+09:00",
+      "auto": true
+    },
+    "1026606": {
+      "advertiser": "할리스에프엔비",
+      "status": "x",
+      "updated_at": "2026-08-27T17:03:21.355063+09:00",
+      "auto": true
+    },
+    "1026583": {
+      "advertiser": "브레이브모바일",
+      "status": "x",
+      "updated_at": "2026-08-27T17:03:21.357983+09:00",
       "auto": true
     }
   }
