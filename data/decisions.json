@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T17:04:05.285238+09:00",
+  "updated_at": "2026-08-27T10:02:07.222556+09:00",
   "count": 244,
-  "x_count": 766,
+  "x_count": 770,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6184,6 +6184,30 @@
       "advertiser": "NH농협카드",
       "status": "x",
       "updated_at": "2026-08-26T17:04:05.282160+09:00",
+      "auto": true
+    },
+    "1026570": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-08-27T10:02:07.210831+09:00",
+      "auto": true
+    },
+    "1026569": {
+      "advertiser": "티르티르 ",
+      "status": "x",
+      "updated_at": "2026-08-27T10:02:07.213443+09:00",
+      "auto": true
+    },
+    "1026467": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-08-27T10:02:07.216057+09:00",
+      "auto": true
+    },
+    "1026297": {
+      "advertiser": "아이리스브라이트",
+      "status": "x",
+      "updated_at": "2026-08-27T10:02:07.218664+09:00",
       "auto": true
     }
   }
