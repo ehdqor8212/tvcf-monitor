@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T17:03:21.363514+09:00",
+  "updated_at": "2026-08-28T10:03:38.514123+09:00",
   "count": 245,
-  "x_count": 772,
+  "x_count": 774,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6227,6 +6227,18 @@
       "advertiser": "브레이브모바일",
       "status": "x",
       "updated_at": "2026-08-27T17:03:21.357983+09:00",
+      "auto": true
+    },
+    "1026596": {
+      "advertiser": "멀츠코리아",
+      "status": "x",
+      "updated_at": "2026-08-28T10:03:38.507254+09:00",
+      "auto": true
+    },
+    "1026650": {
+      "advertiser": "완미족발",
+      "status": "x",
+      "updated_at": "2026-08-28T10:03:38.510136+09:00",
       "auto": true
     }
   }
