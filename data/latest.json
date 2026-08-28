@@ -1,13 +1,284 @@
 {
-  "run_at": "2026-08-28T10:03:38.467919+09:00",
-  "count": 8,
-  "count_total_before_dedup": 13,
+  "run_at": "2026-08-28T17:06:42.375271+09:00",
+  "count": 14,
+  "count_total_before_dedup": 24,
   "new_ads": [
     {
-      "ad_id": "1026661",
-      "prefix": "bi1614",
-      "url": "https://tvcf.co.kr/play/bi1614-1026661",
-      "card_title": "The Kia RV기아 | 새로운 삶에 어울리는 RV가 있다 | 카니발 편 (30s)",
+      "ad_id": "1026742",
+      "prefix": "ai1424",
+      "url": "https://tvcf.co.kr/play/ai1424-1026742",
+      "card_title": "코카콜라입터짐 주의 | 쭈니형 한입에 신흥시장 통째로 BAAAM! [썰스티] Ep.2",
+      "onair": "2025.07.18",
+      "registered_short": "08.28",
+      "brand": "코카콜라",
+      "campaign": null,
+      "registered_date": "2025-07-18",
+      "media_type": "브랜디드 컨텐츠",
+      "main_category": "음료/기호식품",
+      "sub_categories": [],
+      "advertiser": "코카콜라",
+      "advertiser_code": "C000001428",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026740",
+      "prefix": "ai2402",
+      "url": "https://tvcf.co.kr/play/ai2402-1026740",
+      "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI로 제대로 돌아가는 세탁건조",
+      "onair": "08.28",
+      "registered_short": "08.28",
+      "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+      "campaign": null,
+      "registered_date": "2026-08-28",
+      "media_type": "디지털(인터넷)",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026739",
+      "prefix": "bi1391",
+      "url": "https://tvcf.co.kr/play/bi1391-1026739",
+      "card_title": "리니지 M[리니지M] 투사 리부트 THE UNCHAINED (Teaser)",
+      "onair": "08.28",
+      "registered_short": "08.28",
+      "brand": "리니지 M",
+      "campaign": null,
+      "registered_date": "2026-08-28",
+      "media_type": "디지털(인터넷)",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "NC소프트",
+      "advertiser_code": "C000006034",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026727",
+      "prefix": "bi1277",
+      "url": "https://tvcf.co.kr/play/bi1277-1026727",
+      "card_title": "KB손해보험 다이렉트정승제, 드디어 인생 동반자 찾다!",
+      "onair": "08.20",
+      "registered_short": "08.28",
+      "brand": "KB손해보험 다이렉트",
+      "campaign": null,
+      "registered_date": "2026-08-20",
+      "media_type": "바이럴",
+      "main_category": "금융/보험",
+      "sub_categories": [],
+      "advertiser": "KB손해보험 다이렉트",
+      "advertiser_code": "C000070905",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026726",
+          "url": "https://tvcf.co.kr/play/ai1266-1026726",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트정승제의 재테크 비법, 드디어 공개?!"
+        },
+        {
+          "ad_id": "1026725",
+          "url": "https://tvcf.co.kr/play/bi1255-1026725",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트승제쌤 완전 긁힌 썰 푼다"
+        },
+        {
+          "ad_id": "1026724",
+          "url": "https://tvcf.co.kr/play/ai1244-1026724",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트정승제의 인생을 바꾼 전화 한 통"
+        }
+      ],
+      "variant_count": 4
+    },
+    {
+      "ad_id": "1026735",
+      "prefix": "bi1356",
+      "url": "https://tvcf.co.kr/play/bi1356-1026735",
+      "card_title": "티르티르THE NEW TINTED SKIN GLOW CUSHION, ON-AIR ─ EDIT",
+      "onair": "08.28",
+      "registered_short": "08.28",
+      "brand": "티르티르",
+      "campaign": null,
+      "registered_date": "2026-08-28",
+      "media_type": "케이블",
+      "main_category": "화장품",
+      "sub_categories": [],
+      "advertiser": "티르티르 ",
+      "advertiser_code": "C000022091",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026734",
+      "prefix": "ai1345",
+      "url": "https://tvcf.co.kr/play/ai1345-1026734",
+      "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #3 l LG트롬 AI 워시콤보_범퍼",
+      "onair": "08.24",
+      "registered_short": "08.28",
+      "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+      "campaign": null,
+      "registered_date": "2026-08-24",
+      "media_type": "디지털 범퍼",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026733",
+          "url": "https://tvcf.co.kr/play/bi1334-1026733",
+          "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+          "campaign": null,
+          "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #3 l LG트롬 AI 워시콤보"
+        }
+      ],
+      "variant_count": 2
+    },
+    {
+      "ad_id": "1026723",
+      "prefix": "bi1233",
+      "url": "https://tvcf.co.kr/play/bi1233-1026723",
+      "card_title": "KB손해보험 다이렉트[정승제의 KB다이렉트 특강] 건강한 습관이 몸에 밴~다이어그램!",
+      "onair": "08.20",
+      "registered_short": "08.28",
+      "brand": "KB손해보험 다이렉트",
+      "campaign": null,
+      "registered_date": "2026-08-20",
+      "media_type": "디지털(인터넷)",
+      "main_category": "금융/보험",
+      "sub_categories": [],
+      "advertiser": "KB손해보험",
+      "advertiser_code": "C000016569",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026722",
+          "url": "https://tvcf.co.kr/play/ai1222-1026722",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트[정승제의 KB다이렉트 특강] 내 집 이사 전, 꼭 알아야할 우리집 대비각 공식!"
+        },
+        {
+          "ad_id": "1026721",
+          "url": "https://tvcf.co.kr/play/bi1211-1026721",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트[정승제의 KB다이렉트 특강] 안전한 내 차 관리를 위한 내 차원 공식!"
+        },
+        {
+          "ad_id": "1026690",
+          "url": "https://tvcf.co.kr/play/ai2906-1026690",
+          "brand": "KB손해보험 다이렉트",
+          "campaign": null,
+          "card_title": "KB손해보험 다이렉트정승제의 KB다이렉트 특강, 지금 시작합니다!"
+        }
+      ],
+      "variant_count": 4
+    },
+    {
+      "ad_id": "1026732",
+      "prefix": "ai1323",
+      "url": "https://tvcf.co.kr/play/ai1323-1026732",
+      "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #2 l LG트롬 AI 워시콤보_범퍼",
+      "onair": "08.19",
+      "registered_short": "08.28",
+      "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+      "campaign": null,
+      "registered_date": "2026-08-19",
+      "media_type": "디지털 범퍼",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026730",
+          "url": "https://tvcf.co.kr/play/ai2301-1026730",
+          "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+          "campaign": null,
+          "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #2 l LG트롬 AI 워시콤보"
+        }
+      ],
+      "variant_count": 2
+    },
+    {
+      "ad_id": "1026731",
+      "prefix": "bi1312",
+      "url": "https://tvcf.co.kr/play/bi1312-1026731",
+      "card_title": "지아띠최현석 인터뷰",
+      "onair": "08.28",
+      "registered_short": "08.28",
+      "brand": "지아띠",
+      "campaign": null,
+      "registered_date": "2026-08-28",
+      "media_type": "브랜디드 컨텐츠",
+      "main_category": "생활/가정용품",
+      "sub_categories": [],
+      "advertiser": "지아띠",
+      "advertiser_code": "4244458",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026729",
+      "prefix": "bi1299",
+      "url": "https://tvcf.co.kr/play/bi1299-1026729",
+      "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #1 l LG트롬 AI 워시콤보_범퍼",
+      "onair": "08.14",
+      "registered_short": "08.28",
+      "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+      "campaign": null,
+      "registered_date": "2026-08-14",
+      "media_type": "디지털 범퍼",
+      "main_category": "전기전자",
+      "sub_categories": [],
+      "advertiser": "LG전자",
+      "advertiser_code": "C000007773",
+      "advertiser_fallback": false,
+      "variants": [
+        {
+          "ad_id": "1026728",
+          "url": "https://tvcf.co.kr/play/ai1288-1026728",
+          "brand": "LG 트롬 오브제컬렉션 AI 워시콤보",
+          "campaign": null,
+          "card_title": "LG 트롬 오브제컬렉션 AI 워시콤보AI DOL - I Wash Teaser #1 l LG트롬 AI 워시콤보"
+        }
+      ],
+      "variant_count": 2
+    },
+    {
+      "ad_id": "1026660",
+      "prefix": "ai2603",
+      "url": "https://tvcf.co.kr/play/ai2603-1026660",
+      "card_title": "미스 디올The New Couture Icon",
+      "onair": "08.27",
+      "registered_short": "08.28",
+      "brand": "미스 디올",
+      "campaign": null,
+      "registered_date": "2026-08-27",
+      "media_type": "공중파",
+      "main_category": "화장품",
+      "sub_categories": [],
+      "advertiser": "디올",
+      "advertiser_code": "C000005469",
+      "advertiser_fallback": false,
+      "variant_count": 1
+    },
+    {
+      "ad_id": "1026691",
+      "prefix": "bi1917",
+      "url": "https://tvcf.co.kr/play/bi1917-1026691",
+      "card_title": "The Kia RV기아 | 새로운 삶에 어울리는 RV가 있다 | 쏘렌토",
       "onair": "08.27",
       "registered_short": "08.28",
       "brand": "The Kia RV",
@@ -19,25 +290,16 @@
       "advertiser": "기아",
       "advertiser_code": "C000001133",
       "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026651",
-      "prefix": "bi1513",
-      "url": "https://tvcf.co.kr/play/bi1513-1026651",
-      "card_title": "맥도날드행복의 버거 보급작전 | 맥도날드x국방부",
-      "onair": "08.27",
-      "registered_short": "08.28",
-      "brand": "맥도날드",
-      "campaign": null,
-      "registered_date": "2026-08-27",
-      "media_type": "공중파",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "맥도날드",
-      "advertiser_code": "C000002212",
-      "advertiser_fallback": false,
-      "variant_count": 1
+      "variants": [
+        {
+          "ad_id": "1026673",
+          "url": "https://tvcf.co.kr/play/bi1737-1026673",
+          "brand": "The Kia RV",
+          "campaign": null,
+          "card_title": "The Kia RV기아 | 새로운 삶에 어울리는 RV가 있다 | 스포티지"
+        }
+      ],
+      "variant_count": 2
     },
     {
       "ad_id": "1026653",
@@ -58,82 +320,10 @@
       "variant_count": 1
     },
     {
-      "ad_id": "1026652",
-      "prefix": "ai1524",
-      "url": "https://tvcf.co.kr/play/ai1524-1026652",
-      "card_title": "정관장[26년 추석 | 8.27~9.27] 건강 운 좋게, 정관장",
-      "onair": "08.27",
-      "registered_short": "08.28",
-      "brand": "정관장",
-      "campaign": null,
-      "registered_date": "2026-08-27",
-      "media_type": "공중파",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "한국인삼공사",
-      "advertiser_code": "C000007458",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026596",
-      "prefix": "ai1962",
-      "url": "https://tvcf.co.kr/play/ai1962-1026596",
-      "card_title": "멀츠 울쎄라피프라임울쎄라피 프라임™ 정품 인증 캠페인",
-      "onair": "08.28",
-      "registered_short": "08.28",
-      "brand": "멀츠 울쎄라피프라임",
-      "campaign": null,
-      "registered_date": "2026-08-28",
-      "media_type": "디지털(인터넷)",
-      "main_category": "제약/의료/복지",
-      "sub_categories": [],
-      "advertiser": "멀츠코리아",
-      "advertiser_code": "C000028697",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026650",
-      "prefix": "ai2502",
-      "url": "https://tvcf.co.kr/play/ai2502-1026650",
-      "card_title": "완미족발한상적인 족발",
-      "onair": "08.28",
-      "registered_short": "08.28",
-      "brand": "완미족발",
-      "campaign": null,
-      "registered_date": "2026-08-28",
-      "media_type": "디지털(인터넷)",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "완미족발",
-      "advertiser_code": "C000167886",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026649",
-      "prefix": "bi1491",
-      "url": "https://tvcf.co.kr/play/bi1491-1026649",
-      "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ따뜻하게 녹아드는 가을의 시작 CHEESE ON",
-      "onair": "08.27",
-      "registered_short": "08.27",
-      "brand": "아웃백스테이크하우스",
-      "campaign": null,
-      "registered_date": "2026-08-27",
-      "media_type": "디지털 범퍼",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "아웃백스테이크하우스",
-      "advertiser_code": "C000009111",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1026621",
-      "prefix": "bi1219",
-      "url": "https://tvcf.co.kr/play/bi1219-1026621",
-      "card_title": "로보락F25 Ultra | 핸즈프리",
+      "ad_id": "1026615",
+      "prefix": "bi1153",
+      "url": "https://tvcf.co.kr/play/bi1153-1026615",
+      "card_title": "로보락F25 ACE Pro | 폼 클렌징",
       "onair": "08.17",
       "registered_short": "08.27",
       "brand": "로보락",
@@ -143,46 +333,9 @@
       "main_category": "전기전자",
       "sub_categories": [],
       "advertiser": "로보락",
-      "advertiser_code": "C000166663",
+      "advertiser_code": "C000169806",
       "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1026616",
-          "url": "https://tvcf.co.kr/play/ai1164-1026616",
-          "brand": "로보락",
-          "campaign": null,
-          "card_title": "로보락F25 ACE Pro | 완벽한 컨트롤"
-        },
-        {
-          "ad_id": "1026615",
-          "url": "https://tvcf.co.kr/play/bi1153-1026615",
-          "brand": "로보락",
-          "campaign": null,
-          "card_title": "로보락F25 ACE Pro | 폼 클렌징"
-        },
-        {
-          "ad_id": "1026618",
-          "url": "https://tvcf.co.kr/play/ai1186-1026618",
-          "brand": "로보락",
-          "campaign": null,
-          "card_title": "로보락F25 ACE Pro | 단 하나의 청소템"
-        },
-        {
-          "ad_id": "1026619",
-          "url": "https://tvcf.co.kr/play/bi1197-1026619",
-          "brand": "로보락",
-          "campaign": null,
-          "card_title": "로보락F25 Ultra | 가혹한 온도"
-        },
-        {
-          "ad_id": "1026620",
-          "url": "https://tvcf.co.kr/play/ai2208-1026620",
-          "brand": "로보락",
-          "campaign": null,
-          "card_title": "로보락F25 Ultra | 블루라이팅"
-        }
-      ],
-      "variant_count": 6
+      "variant_count": 1
     }
   ]
 }

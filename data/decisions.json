@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T10:03:38.514123+09:00",
+  "updated_at": "2026-08-28T17:06:42.424639+09:00",
   "count": 245,
-  "x_count": 774,
+  "x_count": 779,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6239,6 +6239,36 @@
       "advertiser": "완미족발",
       "status": "x",
       "updated_at": "2026-08-28T10:03:38.510136+09:00",
+      "auto": true
+    },
+    "1026739": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-08-28T17:06:42.413899+09:00",
+      "auto": true
+    },
+    "1026727": {
+      "advertiser": "KB손해보험 다이렉트",
+      "status": "x",
+      "updated_at": "2026-08-28T17:06:42.415879+09:00",
+      "auto": true
+    },
+    "1026735": {
+      "advertiser": "티르티르 ",
+      "status": "x",
+      "updated_at": "2026-08-28T17:06:42.417857+09:00",
+      "auto": true
+    },
+    "1026731": {
+      "advertiser": "지아띠",
+      "status": "x",
+      "updated_at": "2026-08-28T17:06:42.419820+09:00",
+      "auto": true
+    },
+    "1026660": {
+      "advertiser": "디올",
+      "status": "x",
+      "updated_at": "2026-08-28T17:06:42.421770+09:00",
       "auto": true
     }
   }
