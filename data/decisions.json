@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T17:06:42.424639+09:00",
+  "updated_at": "2026-08-29T10:02:12.964260+09:00",
   "count": 245,
-  "x_count": 779,
+  "x_count": 781,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6269,6 +6269,18 @@
       "advertiser": "디올",
       "status": "x",
       "updated_at": "2026-08-28T17:06:42.421770+09:00",
+      "auto": true
+    },
+    "1026775": {
+      "advertiser": "드리미코리아",
+      "status": "x",
+      "updated_at": "2026-08-29T10:02:12.957470+09:00",
+      "auto": true
+    },
+    "1026725": {
+      "advertiser": "KB손해보험 다이렉트",
+      "status": "x",
+      "updated_at": "2026-08-29T10:02:12.960171+09:00",
       "auto": true
     }
   }
