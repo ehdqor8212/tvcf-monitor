@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T10:02:12.964260+09:00",
-  "count": 245,
-  "x_count": 781,
+  "updated_at": "2026-08-30T17:02:10.682050+09:00",
+  "count": 246,
+  "x_count": 784,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1640,6 +1640,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 비지에프리테일(BGF리테일)",
       "updated_at": "2026-08-27T17:03:21.359445+09:00",
+      "auto": true
+    },
+    "에이엠씨알": {
+      "display_name": "에이엠씨알",
+      "status": "o",
+      "matched_name": "에이엠씨알",
+      "updated_at": "2026-08-30T17:02:10.677675+09:00",
       "auto": true
     }
   },
@@ -6281,6 +6288,24 @@
       "advertiser": "KB손해보험 다이렉트",
       "status": "x",
       "updated_at": "2026-08-29T10:02:12.960171+09:00",
+      "auto": true
+    },
+    "1026797": {
+      "advertiser": "안국건강 ",
+      "status": "x",
+      "updated_at": "2026-08-30T17:02:10.671345+09:00",
+      "auto": true
+    },
+    "1026794": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-30T17:02:10.674155+09:00",
+      "auto": true
+    },
+    "1026795": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-08-30T17:02:10.676964+09:00",
       "auto": true
     }
   }
