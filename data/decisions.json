@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-30T17:02:10.682050+09:00",
+  "updated_at": "2026-08-31T10:02:45.140197+09:00",
   "count": 246,
-  "x_count": 784,
+  "x_count": 787,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6306,6 +6306,24 @@
       "advertiser": "MBC",
       "status": "x",
       "updated_at": "2026-08-30T17:02:10.676964+09:00",
+      "auto": true
+    },
+    "1026802": {
+      "advertiser": "불의 전차(The Firebreakers): 영웅의 귀환 CONCEPT FILM",
+      "status": "x",
+      "updated_at": "2026-08-31T10:02:45.134661+09:00",
+      "auto": true
+    },
+    "1026803": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-08-31T10:02:45.136294+09:00",
+      "auto": true
+    },
+    "1026805": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-08-31T10:02:45.137920+09:00",
       "auto": true
     }
   }
