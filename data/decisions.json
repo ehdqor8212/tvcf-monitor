@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T10:03:44.388484+09:00",
-  "count": 247,
-  "x_count": 799,
+  "updated_at": "2026-09-01T17:06:48.388120+09:00",
+  "count": 248,
+  "x_count": 801,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1654,6 +1654,13 @@
       "status": "o",
       "matched_name": "신한카드",
       "updated_at": "2026-09-01T10:03:44.372021+09:00",
+      "auto": true
+    },
+    "삼양사": {
+      "display_name": "삼양사",
+      "status": "o",
+      "matched_name": "삼양사",
+      "updated_at": "2026-09-01T17:06:48.384324+09:00",
       "auto": true
     }
   },
@@ -6403,6 +6410,18 @@
       "advertiser": "Samsung",
       "status": "x",
       "updated_at": "2026-09-01T10:03:44.384664+09:00",
+      "auto": true
+    },
+    "1026998": {
+      "advertiser": "서울교통공사",
+      "status": "x",
+      "updated_at": "2026-09-01T17:06:48.381306+09:00",
+      "auto": true
+    },
+    "1026989": {
+      "advertiser": "Hormel Foods",
+      "status": "x",
+      "updated_at": "2026-09-01T17:06:48.383828+09:00",
       "auto": true
     }
   }

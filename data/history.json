@@ -1,5 +1,176 @@
 [
   {
+    "ad_id": "1026997",
+    "prefix": "bi1977",
+    "url": "https://tvcf.co.kr/play/bi1977-1026997",
+    "card_title": "온브릭스추석, 당도 전쟁의 날이 on다!",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "온브릭스",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "온브릭스",
+    "advertiser_code": "C000168760",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342544+09:00"
+  },
+  {
+    "ad_id": "1026989",
+    "prefix": "bi1898",
+    "url": "https://tvcf.co.kr/play/bi1898-1026989",
+    "card_title": "SKIPPY® 땅콩버터스키피®가 치트키! (캠핑편 15s) | SKIPPY® Peanut Butter",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "SKIPPY® 땅콩버터",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "Hormel Foods",
+    "advertiser_code": "C000032234",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026988",
+        "url": "https://tvcf.co.kr/play/ai1887-1026988",
+        "brand": "SKIPPY® 땅콩버터",
+        "campaign": null,
+        "card_title": "SKIPPY® 땅콩버터스키피®가 치트키! (캠핑편 21s) | SKIPPY® Peanut Butter"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-01T17:06:48.342552+09:00"
+  },
+  {
+    "ad_id": "1026982",
+    "prefix": "ai1821",
+    "url": "https://tvcf.co.kr/play/ai1821-1026982",
+    "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ 씨즐링 치즈팟",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "아웃백스테이크하우스",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털 범퍼",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "아웃백스테이크하우스",
+    "advertiser_code": "C000009111",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026981",
+        "url": "https://tvcf.co.kr/play/bi1819-1026981",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ 씨즐링 치즈밤 볼로네제 파스타"
+      },
+      {
+        "ad_id": "1026980",
+        "url": "https://tvcf.co.kr/play/ai2808-1026980",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ 씨즐링 크라운 베이비 백 립"
+      },
+      {
+        "ad_id": "1026978",
+        "url": "https://tvcf.co.kr/play/ai1786-1026978",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ 포터하우스 w. 씨즐링 치즈팟"
+      },
+      {
+        "ad_id": "1026977",
+        "url": "https://tvcf.co.kr/play/bi1775-1026977",
+        "brand": "아웃백스테이크하우스",
+        "campaign": null,
+        "card_title": "아웃백스테이크하우스CHEESE ON. OUTBACK ㅣ 압도적 치즈 스케일"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-09-01T17:06:48.342562+09:00"
+  },
+  {
+    "ad_id": "1026975",
+    "prefix": "bi1753",
+    "url": "https://tvcf.co.kr/play/bi1753-1026975",
+    "card_title": "슈링크UP될 준비 됐어? (직장인)",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "슈링크",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "클래시스",
+    "advertiser_code": "4247024",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026974",
+        "url": "https://tvcf.co.kr/play/ai1742-1026974",
+        "brand": "슈링크",
+        "campaign": null,
+        "card_title": "슈링크UP될 준비 됐어? (직장인)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-01T17:06:48.342564+09:00"
+  },
+  {
+    "ad_id": "1026963",
+    "prefix": "bi1639",
+    "url": "https://tvcf.co.kr/play/bi1639-1026963",
+    "card_title": "아일로 뮤신 콜라겐 젤리내가 원하는 나로",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "아일로 뮤신 콜라겐 젤리",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "동아제약",
+    "advertiser_code": "C000003814",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342568+09:00"
+  },
+  {
+    "ad_id": "1026957",
+    "prefix": "bi1573",
+    "url": "https://tvcf.co.kr/play/bi1573-1026957",
+    "card_title": "상쾌환[상쾌환/EASY TOMORROW] 우리들의 상쾌환 더 무비 episode 02 버스 (15')",
+    "onair": "09.01",
+    "registered_short": "09.01",
+    "brand": "상쾌환",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "케이블",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "삼양사",
+    "advertiser_code": "C000001267",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026956",
+        "url": "https://tvcf.co.kr/play/ai1562-1026956",
+        "brand": "상쾌환",
+        "campaign": null,
+        "card_title": "상쾌환[상쾌환/EASY TOMORROW] 우리들의 상쾌환 더 무비 episode 01 술집 (15')"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-01T17:06:48.342570+09:00"
+  },
+  {
     "ad_id": "1026954",
     "prefix": "ai1549",
     "url": "https://tvcf.co.kr/play/ai1549-1026954",
@@ -235,6 +406,53 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-08-31T10:02:45.107021+09:00"
+  },
+  {
+    "ad_id": "1026998",
+    "prefix": "ai1988",
+    "url": "https://tvcf.co.kr/play/ai1988-1026998",
+    "card_title": "서울교통공사서울교통공사 지하철 에티켓 홍보",
+    "onair": "08.28",
+    "registered_short": "09.01",
+    "brand": "서울교통공사",
+    "campaign": null,
+    "registered_date": "2026-08-28",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "서울교통공사",
+    "advertiser_code": "C000157158",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026996",
+        "url": "https://tvcf.co.kr/play/ai1966-1026996",
+        "brand": "서울교통공사",
+        "campaign": null,
+        "card_title": "서울교통공사서울교통공사 지하철 에티켓 홍보"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-01T17:06:48.342547+09:00"
+  },
+  {
+    "ad_id": "1026946",
+    "prefix": "ai1461",
+    "url": "https://tvcf.co.kr/play/ai1461-1026946",
+    "card_title": "어메이징크리[AMAZINGCRE] 26FW \"THE BACK EVERYONE FOLLOWS\"",
+    "onair": "08.28",
+    "registered_short": "09.01",
+    "brand": "어메이징크리",
+    "campaign": null,
+    "registered_date": "2026-08-28",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "에이엠씨알",
+    "advertiser_code": "C000169811",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342566+09:00"
   },
   {
     "ad_id": "1026945",
@@ -533,6 +751,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-28T10:03:38.468623+09:00"
+  },
+  {
+    "ad_id": "1027001",
+    "prefix": "bi311",
+    "url": "https://tvcf.co.kr/play/bi311-1027001",
+    "card_title": "기아The Kia RV Black Edition x Hearts2Hearts | Teaser",
+    "onair": "08.27",
+    "registered_short": "09.01",
+    "brand": "기아",
+    "campaign": null,
+    "registered_date": "2026-08-27",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "기아 (Kia Korea)",
+    "advertiser_code": "4248017",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342534+09:00"
   },
   {
     "ad_id": "1026943",
@@ -1837,6 +2074,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-21T10:05:53.896893+09:00"
+  },
+  {
+    "ad_id": "1026990",
+    "prefix": "ai2909",
+    "url": "https://tvcf.co.kr/play/ai2909-1026990",
+    "card_title": "롯데마트신선하게 오는 장보기 배송, 돼-요! | 이대호 X 롯데마트 제타",
+    "onair": "08.20",
+    "registered_short": "09.01",
+    "brand": "롯데마트",
+    "campaign": null,
+    "registered_date": "2026-08-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "롯데마트",
+    "advertiser_code": "4247843",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026991",
+        "url": "https://tvcf.co.kr/play/bi1911-1026991",
+        "brand": "롯데마트",
+        "campaign": null,
+        "card_title": "롯데마트원하는 시간에 장보기 배송, 돼-요! | 이대호 X 롯데마트 제타"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-01T17:06:48.342550+09:00"
   },
   {
     "ad_id": "1026837",
@@ -7896,6 +8161,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-30T17:03:56.680098+09:00"
+  },
+  {
+    "ad_id": "1026969",
+    "prefix": "bi1696",
+    "url": "https://tvcf.co.kr/play/bi1696-1026969",
+    "card_title": "포스트 오레오오즈바 딥초코진한 초콜릿 맛!포스트 오레오오즈바 딥초코 쇼츠 바이킹",
+    "onair": "07.29",
+    "registered_short": "09.01",
+    "brand": "포스트 오레오오즈바 딥초코",
+    "campaign": null,
+    "registered_date": "2026-07-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동서식품",
+    "advertiser_code": "C000001179",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342557+09:00"
   },
   {
     "ad_id": "1026461",
@@ -17559,6 +17843,41 @@
     "collected_at": "2026-07-01T10:03:37.916112+09:00"
   },
   {
+    "ad_id": "1026971",
+    "prefix": "bi1718",
+    "url": "https://tvcf.co.kr/play/bi1718-1026971",
+    "card_title": "포스트 오레오오즈바바로 모이는 즐거움 포스트 오레오오즈바 쇼츠 단체사진",
+    "onair": "06.30",
+    "registered_short": "09.01",
+    "brand": "포스트 오레오오즈바",
+    "campaign": null,
+    "registered_date": "2026-06-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "동서식품",
+    "advertiser_code": "C000001179",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1026976",
+        "url": "https://tvcf.co.kr/play/ai1764-1026976",
+        "brand": "포스트 오레오오즈바",
+        "campaign": null,
+        "card_title": "포스트 오레오오즈바바로 빠져 더 맛있는 포스트 오레오오즈바! 쇼츠 본"
+      },
+      {
+        "ad_id": "1026973",
+        "url": "https://tvcf.co.kr/play/bi1731-1026973",
+        "brand": "포스트 오레오오즈바 딥초코",
+        "campaign": null,
+        "card_title": "포스트 오레오오즈바 딥초코달콤함은 진하게!포스트 오레오오즈바 딥초코 쇼츠 입장 검사"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-09-01T17:06:48.342555+09:00"
+  },
+  {
     "ad_id": "1024055",
     "prefix": "bi2551",
     "url": "https://tvcf.co.kr/play/bi2551-1024055",
@@ -19412,6 +19731,25 @@
     "collected_at": "2026-06-25T17:02:52.930788+09:00"
   },
   {
+    "ad_id": "1026965",
+    "prefix": "bi1652",
+    "url": "https://tvcf.co.kr/play/bi1652-1026965",
+    "card_title": "포스트 오레오오즈바바로 빠져 더 맛있는 포스트 오레오오즈바! 본",
+    "onair": "06.24",
+    "registered_short": "09.01",
+    "brand": "포스트 오레오오즈바",
+    "campaign": null,
+    "registered_date": "2026-06-24",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동서식품",
+    "advertiser_code": "C000001179",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342561+09:00"
+  },
+  {
     "ad_id": "1021587",
     "prefix": "bi1872",
     "url": "https://tvcf.co.kr/play/bi1872-1021587",
@@ -20200,6 +20538,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-06-22T10:02:15.030845+09:00"
+  },
+  {
+    "ad_id": "1026979",
+    "prefix": "bi1797",
+    "url": "https://tvcf.co.kr/play/bi1797-1026979",
+    "card_title": "포스트 오레오오즈바바로 모이는 즐거움! 포스트 오레오오즈바 쇼츠 축구",
+    "onair": "06.19",
+    "registered_short": "09.01",
+    "brand": "포스트 오레오오즈바",
+    "campaign": null,
+    "registered_date": "2026-06-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "동서식품",
+    "advertiser_code": "C000001179",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-01T17:06:48.342558+09:00"
   },
   {
     "ad_id": "1026950",
