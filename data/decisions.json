@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-31T17:05:32.869866+09:00",
-  "count": 246,
-  "x_count": 793,
+  "updated_at": "2026-09-01T10:03:44.388484+09:00",
+  "count": 247,
+  "x_count": 799,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1647,6 +1647,13 @@
       "status": "o",
       "matched_name": "에이엠씨알",
       "updated_at": "2026-08-30T17:02:10.677675+09:00",
+      "auto": true
+    },
+    "신한카드": {
+      "display_name": "신한카드",
+      "status": "o",
+      "matched_name": "신한카드",
+      "updated_at": "2026-09-01T10:03:44.372021+09:00",
       "auto": true
     }
   },
@@ -6360,6 +6367,42 @@
       "advertiser": "안국건강 ",
       "status": "x",
       "updated_at": "2026-08-31T17:05:32.865740+09:00",
+      "auto": true
+    },
+    "1026954": {
+      "advertiser": "상쾌환",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.371490+09:00",
+      "auto": true
+    },
+    "1026950": {
+      "advertiser": "펩시",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.374547+09:00",
+      "auto": true
+    },
+    "1026949": {
+      "advertiser": "디즈니 플러스",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.377049+09:00",
+      "auto": true
+    },
+    "1026945": {
+      "advertiser": "AMAZINGCRE",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.379638+09:00",
+      "auto": true
+    },
+    "1026943": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.382159+09:00",
+      "auto": true
+    },
+    "1026937": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-09-01T10:03:44.384664+09:00",
       "auto": true
     }
   }
