@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T17:06:48.388120+09:00",
-  "count": 248,
-  "x_count": 801,
+  "updated_at": "2026-09-02T10:06:21.120920+09:00",
+  "count": 251,
+  "x_count": 805,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1661,6 +1661,27 @@
       "status": "o",
       "matched_name": "삼양사",
       "updated_at": "2026-09-01T17:06:48.384324+09:00",
+      "auto": true
+    },
+    "경찰청": {
+      "display_name": "경찰청",
+      "status": "o",
+      "matched_name": "경찰청",
+      "updated_at": "2026-09-02T10:06:21.108271+09:00",
+      "auto": true
+    },
+    "신세계프라퍼티": {
+      "display_name": "신세계프라퍼티",
+      "status": "maybe",
+      "matched_name": "신세계",
+      "updated_at": "2026-09-02T10:06:21.110234+09:00",
+      "auto": true
+    },
+    "크록스코리아": {
+      "display_name": "크록스 코리아 ",
+      "status": "o",
+      "matched_name": "크록스코리아",
+      "updated_at": "2026-09-02T10:06:21.114074+09:00",
       "auto": true
     }
   },
@@ -6422,6 +6443,30 @@
       "advertiser": "Hormel Foods",
       "status": "x",
       "updated_at": "2026-09-01T17:06:48.383828+09:00",
+      "auto": true
+    },
+    "1026983": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-09-02T10:06:21.105345+09:00",
+      "auto": true
+    },
+    "1027046": {
+      "advertiser": "알레르망 ",
+      "status": "x",
+      "updated_at": "2026-09-02T10:06:21.108141+09:00",
+      "auto": true
+    },
+    "1027042": {
+      "advertiser": "Kancil Awards & Festival Of Creativity",
+      "status": "x",
+      "updated_at": "2026-09-02T10:06:21.112985+09:00",
+      "auto": true
+    },
+    "1027010": {
+      "advertiser": "비상교육",
+      "status": "x",
+      "updated_at": "2026-09-02T10:06:21.116833+09:00",
       "auto": true
     }
   }
