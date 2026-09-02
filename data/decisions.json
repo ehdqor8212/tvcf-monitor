@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T10:06:21.120920+09:00",
-  "count": 251,
-  "x_count": 805,
+  "updated_at": "2026-09-02T17:06:38.413721+09:00",
+  "count": 255,
+  "x_count": 814,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1682,6 +1682,34 @@
       "status": "o",
       "matched_name": "크록스코리아",
       "updated_at": "2026-09-02T10:06:21.114074+09:00",
+      "auto": true
+    },
+    "카카오페이손해보험": {
+      "display_name": "카카오페이손해보험",
+      "status": "maybe",
+      "matched_name": "카카오페이",
+      "updated_at": "2026-09-02T17:06:38.393719+09:00",
+      "auto": true
+    },
+    "월트디즈니컴퍼니코리아": {
+      "display_name": "월트디즈니컴퍼니코리아",
+      "status": "o",
+      "matched_name": "월트디즈니컴퍼니코리아",
+      "updated_at": "2026-09-02T17:06:38.394608+09:00",
+      "auto": true
+    },
+    "한국생명존중희망재단": {
+      "display_name": "한국생명존중희망재단",
+      "status": "o",
+      "matched_name": "한국생명존중희망재단",
+      "updated_at": "2026-09-02T17:06:38.398904+09:00",
+      "auto": true
+    },
+    "쿠쿠전자": {
+      "display_name": "쿠쿠전자",
+      "status": "maybe",
+      "matched_name": "(미집행) 쿠쿠전자",
+      "updated_at": "2026-09-02T17:06:38.409089+09:00",
       "auto": true
     }
   },
@@ -6467,6 +6495,60 @@
       "advertiser": "비상교육",
       "status": "x",
       "updated_at": "2026-09-02T10:06:21.116833+09:00",
+      "auto": true
+    },
+    "1027093": {
+      "advertiser": "한우자조금관리위원회",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.379405+09:00",
+      "auto": true
+    },
+    "1027081": {
+      "advertiser": "신영와코루",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.382335+09:00",
+      "auto": true
+    },
+    "1027073": {
+      "advertiser": "VISA ",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.385277+09:00",
+      "auto": true
+    },
+    "1027070": {
+      "advertiser": "더홈",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.388306+09:00",
+      "auto": true
+    },
+    "1027063": {
+      "advertiser": "코레일",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.391205+09:00",
+      "auto": true
+    },
+    "1027060": {
+      "advertiser": "편강한방연구소",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.397614+09:00",
+      "auto": true
+    },
+    "1027064": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.401809+09:00",
+      "auto": true
+    },
+    "1027055": {
+      "advertiser": "슈올즈",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.404702+09:00",
+      "auto": true
+    },
+    "1027056": {
+      "advertiser": "울산울주세계산악영화제",
+      "status": "x",
+      "updated_at": "2026-09-02T17:06:38.407589+09:00",
       "auto": true
     }
   }
