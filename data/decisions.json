@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T10:01:57.200857+09:00",
-  "count": 255,
-  "x_count": 815,
+  "updated_at": "2026-09-03T17:06:53.365159+09:00",
+  "count": 258,
+  "x_count": 822,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1710,6 +1710,27 @@
       "status": "maybe",
       "matched_name": "(미집행) 쿠쿠전자",
       "updated_at": "2026-09-02T17:06:38.409089+09:00",
+      "auto": true
+    },
+    "초록우산": {
+      "display_name": "초록우산",
+      "status": "maybe",
+      "matched_name": "초록우산어린이재단",
+      "updated_at": "2026-09-03T17:06:53.347936+09:00",
+      "auto": true
+    },
+    "익스트림l어디까지해봤니?": {
+      "display_name": "익스트림 l 어디까지 해봤니?",
+      "status": "maybe",
+      "matched_name": "익스트림",
+      "updated_at": "2026-09-03T17:06:53.350295+09:00",
+      "auto": true
+    },
+    "미래엔에듀플러스": {
+      "display_name": "미래엔에듀플러스",
+      "status": "maybe",
+      "matched_name": "미래엔",
+      "updated_at": "2026-09-03T17:06:53.357862+09:00",
       "auto": true
     }
   },
@@ -6555,6 +6576,48 @@
       "advertiser": "강원랜드",
       "status": "x",
       "updated_at": "2026-09-03T10:01:57.197719+09:00",
+      "auto": true
+    },
+    "1027313": {
+      "advertiser": "삼삼엠투",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.336884+09:00",
+      "auto": true
+    },
+    "1027297": {
+      "advertiser": "브라운 면도기Braun Korea",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.339746+09:00",
+      "auto": true
+    },
+    "1027310": {
+      "advertiser": "브라운 면도기Braun Korea",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.342597+09:00",
+      "auto": true
+    },
+    "1027299": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.345456+09:00",
+      "auto": true
+    },
+    "1027241": {
+      "advertiser": "NH농협카드",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.353149+09:00",
+      "auto": true
+    },
+    "1027237": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.356034+09:00",
+      "auto": true
+    },
+    "1027226": {
+      "advertiser": "한국정보통신기술협회",
+      "status": "x",
+      "updated_at": "2026-09-03T17:06:53.360721+09:00",
       "auto": true
     }
   }
