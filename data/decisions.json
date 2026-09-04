@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T10:03:12.585454+09:00",
-  "count": 258,
-  "x_count": 824,
+  "updated_at": "2026-09-04T17:05:41.364653+09:00",
+  "count": 259,
+  "x_count": 828,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1731,6 +1731,13 @@
       "status": "maybe",
       "matched_name": "미래엔",
       "updated_at": "2026-09-03T17:06:53.357862+09:00",
+      "auto": true
+    },
+    "nh농협손해보험": {
+      "display_name": "NH농협손해보험",
+      "status": "maybe",
+      "matched_name": "엔에이치농협손해보험(NH농협손해보험)",
+      "updated_at": "2026-09-04T17:05:41.360309+09:00",
       "auto": true
     }
   },
@@ -6630,6 +6637,30 @@
       "advertiser": "이금기",
       "status": "x",
       "updated_at": "2026-09-04T10:03:12.580941+09:00",
+      "auto": true
+    },
+    "1027387": {
+      "advertiser": "스타필드",
+      "status": "x",
+      "updated_at": "2026-09-04T17:05:41.349625+09:00",
+      "auto": true
+    },
+    "1027383": {
+      "advertiser": "한화금융 PLUS",
+      "status": "x",
+      "updated_at": "2026-09-04T17:05:41.352456+09:00",
+      "auto": true
+    },
+    "1027381": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-09-04T17:05:41.355322+09:00",
+      "auto": true
+    },
+    "1027378": {
+      "advertiser": "과학기술정보통신부",
+      "status": "x",
+      "updated_at": "2026-09-04T17:05:41.358138+09:00",
       "auto": true
     }
   }
