@@ -1,163 +1,13 @@
 {
-  "run_at": "2026-09-05T10:05:40.405087+09:00",
-  "count": 11,
-  "count_total_before_dedup": 25,
+  "run_at": "2026-09-05T17:01:23.355014+09:00",
+  "count": 2,
+  "count_total_before_dedup": 2,
   "new_ads": [
     {
-      "ad_id": "1027437",
-      "prefix": "bi1375",
-      "url": "https://tvcf.co.kr/play/bi1375-1027437",
-      "card_title": "비스포크BESPOKE AI OOOK",
-      "onair": "09.02",
-      "registered_short": "09.05",
-      "brand": "비스포크",
-      "campaign": null,
-      "registered_date": "2026-09-02",
-      "media_type": "디지털(인터넷)",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "삼성전자",
-      "advertiser_code": "C000001257",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027436",
-          "url": "https://tvcf.co.kr/play/ai1364-1027436",
-          "brand": "비스포크",
-          "campaign": null,
-          "card_title": "비스포크BESPOKE AI CITY"
-        }
-      ],
-      "variant_count": 2
-    },
-    {
-      "ad_id": "1027433",
-      "prefix": "bi1331",
-      "url": "https://tvcf.co.kr/play/bi1331-1027433",
-      "card_title": "아로나민 골드 원피로회복이 부족하다면? 아로나민 골드 원!",
-      "onair": "09.05",
-      "registered_short": "09.05",
-      "brand": "아로나민 골드 원",
-      "campaign": null,
-      "registered_date": "2026-09-05",
-      "media_type": "공중파",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "일동제약",
-      "advertiser_code": "C000001350",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027435",
-          "url": "https://tvcf.co.kr/play/bi1353-1027435",
-          "brand": "아로나민 골드 원",
-          "campaign": null,
-          "card_title": "아로나민 골드 원먹은 날과 안 먹은 날의 차이! 피로회복엔 아로나민 골드 원!"
-        },
-        {
-          "ad_id": "1027434",
-          "url": "https://tvcf.co.kr/play/ai1342-1027434",
-          "brand": "아로나민 골드 원",
-          "campaign": null,
-          "card_title": "아로나민 골드 원피로가 있는 곳 어디든, 아로나민 골드 원!"
-        },
-        {
-          "ad_id": "1027432",
-          "url": "https://tvcf.co.kr/play/ai1329-1027432",
-          "brand": "아로나민 골드 원",
-          "campaign": null,
-          "card_title": "아로나민 골드 원일상 속 피로, 아로나민 골드 원으로!"
-        },
-        {
-          "ad_id": "1027431",
-          "url": "https://tvcf.co.kr/play/bi1318-1027431",
-          "brand": "아로나민 골드 원",
-          "campaign": null,
-          "card_title": "아로나민 골드 원매일 반복되는 피로, 아로나민 골드원과 함께 해요!"
-        }
-      ],
-      "variant_count": 5
-    },
-    {
-      "ad_id": "1027429",
-      "prefix": "bi1296",
-      "url": "https://tvcf.co.kr/play/bi1296-1027429",
-      "card_title": "유한젠유한젠으로 빨래 마침! 더하자 유한젠(15A)",
-      "onair": "09.04",
-      "registered_short": "09.05",
-      "brand": "유한젠",
-      "campaign": null,
-      "registered_date": "2026-09-04",
-      "media_type": "디지털(인터넷)",
-      "main_category": "생활/가정용품",
-      "sub_categories": [],
-      "advertiser": "유한크로락스",
-      "advertiser_code": "C000011259",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027428",
-          "url": "https://tvcf.co.kr/play/ai1285-1027428",
-          "brand": "유한젠",
-          "campaign": null,
-          "card_title": "유한젠유한젠으로 빨래 마침! 더하자 유한젠(15B)"
-        },
-        {
-          "ad_id": "1027430",
-          "url": "https://tvcf.co.kr/play/ai2307-1027430",
-          "brand": "유한젠",
-          "campaign": null,
-          "card_title": "유한젠세제에 유한젠을 더하세요! 더하자 유한젠"
-        },
-        {
-          "ad_id": "1027427",
-          "url": "https://tvcf.co.kr/play/bi1274-1027427",
-          "brand": "유한젠",
-          "campaign": null,
-          "card_title": "유한젠유한젠으로 빨래 마침! 더하자 유한젠(15C)"
-        }
-      ],
-      "variant_count": 4
-    },
-    {
-      "ad_id": "1027426",
-      "prefix": "ai1263",
-      "url": "https://tvcf.co.kr/play/ai1263-1027426",
-      "card_title": "카카오대화를 하자 | 알아서 챙겨주는 대화",
-      "onair": "09.04",
-      "registered_short": "09.05",
-      "brand": "카카오",
-      "campaign": null,
-      "registered_date": "2026-09-04",
-      "media_type": "디지털 범퍼",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "카카오",
-      "advertiser_code": "C000012376",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027425",
-          "url": "https://tvcf.co.kr/play/bi1252-1027425",
-          "brand": "카카오",
-          "campaign": null,
-          "card_title": "카카오대화를 하자 | 필요할 때 도와주는 대화"
-        },
-        {
-          "ad_id": "1027424",
-          "url": "https://tvcf.co.kr/play/ai1241-1027424",
-          "brand": "카카오",
-          "campaign": null,
-          "card_title": "카카오대화를 하자 | 감다살 친구와 대화"
-        }
-      ],
-      "variant_count": 3
-    },
-    {
-      "ad_id": "1027419",
-      "prefix": "bi1195",
-      "url": "https://tvcf.co.kr/play/bi1195-1027419",
-      "card_title": "카카오대화를 하자 | 깜빡하지 않는 대화 편",
+      "ad_id": "1027423",
+      "prefix": "bi1239",
+      "url": "https://tvcf.co.kr/play/bi1239-1027423",
+      "card_title": "카카오대화를 하자 | 리센느도 대화를 하자",
       "onair": "09.02",
       "registered_short": "09.05",
       "brand": "카카오",
@@ -169,145 +19,23 @@
       "advertiser": "카카오",
       "advertiser_code": "C000012376",
       "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027423",
-          "url": "https://tvcf.co.kr/play/bi1239-1027423",
-          "brand": "카카오",
-          "campaign": null,
-          "card_title": "카카오대화를 하자 | 리센느도 대화를 하자"
-        },
-        {
-          "ad_id": "1027422",
-          "url": "https://tvcf.co.kr/play/ai1228-1027422",
-          "brand": "카카오",
-          "campaign": null,
-          "card_title": "카카오대화를 하자 | 관심사로 모인 대화"
-        }
-      ],
-      "variant_count": 3
-    },
-    {
-      "ad_id": "1027415",
-      "prefix": "bi1151",
-      "url": "https://tvcf.co.kr/play/bi1151-1027415",
-      "card_title": "공차Gong cha | 우리가 사랑하는 공들인 맛",
-      "onair": "08.27",
-      "registered_short": "09.04",
-      "brand": "공차",
-      "campaign": null,
-      "registered_date": "2026-08-27",
-      "media_type": "디지털(인터넷)",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "공차코리아",
-      "advertiser_code": "C000021049",
-      "advertiser_fallback": false,
       "variant_count": 1
     },
     {
-      "ad_id": "1027414",
-      "prefix": "ai1149",
-      "url": "https://tvcf.co.kr/play/ai1149-1027414",
-      "card_title": "구전녹용녹용 먹는 고양이를 아시나요?",
-      "onair": "08.26",
-      "registered_short": "09.04",
-      "brand": "구전녹용",
-      "campaign": null,
-      "registered_date": "2026-08-26",
-      "media_type": "디지털(인터넷)",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "구전녹용",
-      "advertiser_code": "C000056268",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1027412",
-      "prefix": "ai1127",
-      "url": "https://tvcf.co.kr/play/ai1127-1027412",
-      "card_title": "쿠쿠쿠쿠] 미각부터 미감까지, 쿠쿠답게 | 미식컬렉션 마스터셰프 사일런스 큐브 15s(B)",
+      "ad_id": "1027378",
+      "prefix": "ai1789",
+      "url": "https://tvcf.co.kr/play/ai1789-1027378",
+      "card_title": "전국민 AI 경진대회대상 수상자가 왜 이렇게 많죠?｜전국민 AI 경진대회 (Full ver.)",
       "onair": "09.01",
       "registered_short": "09.04",
-      "brand": "쿠쿠",
+      "brand": "전국민 AI 경진대회",
       "campaign": null,
       "registered_date": "2026-09-01",
-      "media_type": "케이블",
-      "main_category": "전기전자",
-      "sub_categories": [],
-      "advertiser": "쿠쿠전자",
-      "advertiser_code": "C000012521",
-      "advertiser_fallback": false,
-      "variants": [
-        {
-          "ad_id": "1027411",
-          "url": "https://tvcf.co.kr/play/bi1116-1027411",
-          "brand": "쿠쿠",
-          "campaign": null,
-          "card_title": "쿠쿠[쿠쿠] 미각부터 미감까지, 쿠쿠답게 | 미식컬렉션 마스터셰프 사일런스 큐브 30s"
-        },
-        {
-          "ad_id": "1027410",
-          "url": "https://tvcf.co.kr/play/ai2105-1027410",
-          "brand": "쿠쿠",
-          "campaign": null,
-          "card_title": "쿠쿠쿠쿠 마스터셰프 사일런스 큐브"
-        }
-      ],
-      "variant_count": 3
-    },
-    {
-      "ad_id": "1027384",
-      "prefix": "ai1846",
-      "url": "https://tvcf.co.kr/play/ai1846-1027384",
-      "card_title": "스타필드스타필드 10주년, 그땐 스타필드가 없었으니까 - 반려견",
-      "onair": "08.28",
-      "registered_short": "09.04",
-      "brand": "스타필드",
-      "campaign": null,
-      "registered_date": "2026-08-28",
       "media_type": "디지털(인터넷)",
-      "main_category": "서비스/유통/레저",
+      "main_category": "출판/교육/문화",
       "sub_categories": [],
-      "advertiser": "신세계프라퍼티",
-      "advertiser_code": "C000067854",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1027318",
-      "prefix": "ai1183",
-      "url": "https://tvcf.co.kr/play/ai1183-1027318",
-      "card_title": "현대자동차 현대 인증중고차현대인증중고차 X 사모예드포포",
-      "onair": "2025.06.18",
-      "registered_short": "09.04",
-      "brand": "현대자동차 현대 인증중고차",
-      "campaign": null,
-      "registered_date": "2025-06-18",
-      "media_type": "바이럴",
-      "main_category": "자동차/정유",
-      "sub_categories": [],
-      "advertiser": "현대자동차",
-      "advertiser_code": "C000001480",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1027113",
-      "prefix": "bi1135",
-      "url": "https://tvcf.co.kr/play/bi1135-1027113",
-      "card_title": "맥도날드맥도날드와 국방부가 5개월간 준비한 프로젝트 | 행복의 버거 보급작전",
-      "onair": "08.27",
-      "registered_short": "09.03",
-      "brand": "맥도날드",
-      "campaign": null,
-      "registered_date": "2026-08-27",
-      "media_type": "디지털(인터넷)",
-      "main_category": "식품/제과",
-      "sub_categories": [],
-      "advertiser": "맥도날드",
-      "advertiser_code": "C000002212",
+      "advertiser": "과학기술정보통신부",
+      "advertiser_code": "C000168314",
       "advertiser_fallback": false,
       "variant_count": 1
     }

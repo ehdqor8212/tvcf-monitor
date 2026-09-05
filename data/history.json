@@ -505,6 +505,25 @@
     "collected_at": "2026-09-05T10:05:40.406023+09:00"
   },
   {
+    "ad_id": "1027423",
+    "prefix": "bi1239",
+    "url": "https://tvcf.co.kr/play/bi1239-1027423",
+    "card_title": "카카오대화를 하자 | 리센느도 대화를 하자",
+    "onair": "09.02",
+    "registered_short": "09.05",
+    "brand": "카카오",
+    "campaign": null,
+    "registered_date": "2026-09-02",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "카카오",
+    "advertiser_code": "C000012376",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-05T17:01:23.355749+09:00"
+  },
+  {
     "ad_id": "1027419",
     "prefix": "bi1195",
     "url": "https://tvcf.co.kr/play/bi1195-1027419",
