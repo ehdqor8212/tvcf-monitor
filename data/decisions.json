@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T17:05:41.364653+09:00",
-  "count": 259,
-  "x_count": 828,
+  "updated_at": "2026-09-05T10:05:40.455992+09:00",
+  "count": 260,
+  "x_count": 830,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1738,6 +1738,13 @@
       "status": "maybe",
       "matched_name": "엔에이치농협손해보험(NH농협손해보험)",
       "updated_at": "2026-09-04T17:05:41.360309+09:00",
+      "auto": true
+    },
+    "유한크로락스": {
+      "display_name": "유한크로락스",
+      "status": "o",
+      "matched_name": "유한크로락스",
+      "updated_at": "2026-09-05T10:05:40.446092+09:00",
       "auto": true
     }
   },
@@ -6661,6 +6668,18 @@
       "advertiser": "과학기술정보통신부",
       "status": "x",
       "updated_at": "2026-09-04T17:05:41.358138+09:00",
+      "auto": true
+    },
+    "1027415": {
+      "advertiser": "공차코리아",
+      "status": "x",
+      "updated_at": "2026-09-05T10:05:40.448801+09:00",
+      "auto": true
+    },
+    "1027414": {
+      "advertiser": "구전녹용",
+      "status": "x",
+      "updated_at": "2026-09-05T10:05:40.451474+09:00",
       "auto": true
     }
   }
