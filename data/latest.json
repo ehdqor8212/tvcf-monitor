@@ -1,43 +1,6 @@
 {
-  "run_at": "2026-09-05T17:01:23.355014+09:00",
-  "count": 2,
-  "count_total_before_dedup": 2,
-  "new_ads": [
-    {
-      "ad_id": "1027423",
-      "prefix": "bi1239",
-      "url": "https://tvcf.co.kr/play/bi1239-1027423",
-      "card_title": "카카오대화를 하자 | 리센느도 대화를 하자",
-      "onair": "09.02",
-      "registered_short": "09.05",
-      "brand": "카카오",
-      "campaign": null,
-      "registered_date": "2026-09-02",
-      "media_type": "디지털 범퍼",
-      "main_category": "",
-      "sub_categories": [],
-      "advertiser": "카카오",
-      "advertiser_code": "C000012376",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1027378",
-      "prefix": "ai1789",
-      "url": "https://tvcf.co.kr/play/ai1789-1027378",
-      "card_title": "전국민 AI 경진대회대상 수상자가 왜 이렇게 많죠?｜전국민 AI 경진대회 (Full ver.)",
-      "onair": "09.01",
-      "registered_short": "09.04",
-      "brand": "전국민 AI 경진대회",
-      "campaign": null,
-      "registered_date": "2026-09-01",
-      "media_type": "디지털(인터넷)",
-      "main_category": "출판/교육/문화",
-      "sub_categories": [],
-      "advertiser": "과학기술정보통신부",
-      "advertiser_code": "C000168314",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    }
-  ]
+  "run_at": "2026-09-06T10:01:09.346678+09:00",
+  "new_ads": [],
+  "count": 0,
+  "count_total_before_dedup": 0
 }
