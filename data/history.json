@@ -1,5 +1,33 @@
 [
   {
+    "ad_id": "1027349",
+    "prefix": "bi1497",
+    "url": "https://tvcf.co.kr/play/bi1497-1027349",
+    "card_title": "세포랩 바이오제닉FOOH",
+    "onair": "09.07",
+    "registered_short": "09.07",
+    "brand": "세포랩 바이오제닉",
+    "campaign": null,
+    "registered_date": "2026-09-07",
+    "media_type": "옥외(OOH,OUT DOOR)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "퓨젠바이오",
+    "advertiser_code": "C000168691",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1027348",
+        "url": "https://tvcf.co.kr/play/ai1486-1027348",
+        "brand": "세포랩 바이오제닉",
+        "campaign": null,
+        "card_title": "세포랩 바이오제닉FOOH"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-09-07T10:01:56.269705+09:00"
+  },
+  {
     "ad_id": "1027433",
     "prefix": "bi1331",
     "url": "https://tvcf.co.kr/play/bi1331-1027433",
@@ -844,6 +872,41 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-09-02T10:06:21.067583+09:00"
+  },
+  {
+    "ad_id": "1027546",
+    "prefix": "ai1466",
+    "url": "https://tvcf.co.kr/play/ai1466-1027546",
+    "card_title": "SamsungGoogle AI Pro | Galaxy S26 FE | Samsung",
+    "onair": "09.01",
+    "registered_short": "09.06",
+    "brand": "Samsung",
+    "campaign": null,
+    "registered_date": "2026-09-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "Samsung",
+    "advertiser_code": "C000015897",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1027545",
+        "url": "https://tvcf.co.kr/play/bi1455-1027545",
+        "brand": "Samsung",
+        "campaign": null,
+        "card_title": "SamsungGemini Omni | Galaxy S26 FE | Samsung"
+      },
+      {
+        "ad_id": "1027544",
+        "url": "https://tvcf.co.kr/play/ai1444-1027544",
+        "brand": "Samsung",
+        "campaign": null,
+        "card_title": "SamsungCircle to Search with Google | Galaxy S26 FE | Samsung"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-09-07T10:01:56.269714+09:00"
   },
   {
     "ad_id": "1027412",
@@ -6795,6 +6858,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-08-13T17:02:37.585793+09:00"
+  },
+  {
+    "ad_id": "1027543",
+    "prefix": "bi1433",
+    "url": "https://tvcf.co.kr/play/bi1433-1027543",
+    "card_title": "SamsungIntroducing Galaxy Z Fold8 | Design | Samsung",
+    "onair": "08.12",
+    "registered_short": "09.06",
+    "brand": "Samsung",
+    "campaign": null,
+    "registered_date": "2026-08-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "Samsung",
+    "advertiser_code": "C000015897",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-07T10:01:56.269717+09:00"
   },
   {
     "ad_id": "1026937",
@@ -30687,6 +30769,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-05-31T10:01:19.317384+09:00"
+  },
+  {
+    "ad_id": "1027542",
+    "prefix": "ai1422",
+    "url": "https://tvcf.co.kr/play/ai1422-1027542",
+    "card_title": "보건복지부 금연캠페인[전담 말고 지금 금연] 중장년 편",
+    "onair": "05.29",
+    "registered_short": "09.06",
+    "brand": "보건복지부 금연캠페인",
+    "campaign": null,
+    "registered_date": "2026-05-29",
+    "media_type": "디지털(인터넷)",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "보건복지부",
+    "advertiser_code": "C000005772",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-09-07T10:01:56.269719+09:00"
   },
   {
     "ad_id": "1027306",

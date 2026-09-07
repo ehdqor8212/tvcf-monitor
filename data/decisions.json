@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T10:05:40.455992+09:00",
+  "updated_at": "2026-09-07T10:01:56.318900+09:00",
   "count": 260,
-  "x_count": 830,
+  "x_count": 832,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6680,6 +6680,18 @@
       "advertiser": "구전녹용",
       "status": "x",
       "updated_at": "2026-09-05T10:05:40.451474+09:00",
+      "auto": true
+    },
+    "1027546": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-09-07T10:01:56.311929+09:00",
+      "auto": true
+    },
+    "1027543": {
+      "advertiser": "Samsung",
+      "status": "x",
+      "updated_at": "2026-09-07T10:01:56.314623+09:00",
       "auto": true
     }
   }
