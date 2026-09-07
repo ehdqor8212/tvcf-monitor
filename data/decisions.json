@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T10:01:56.318900+09:00",
-  "count": 260,
-  "x_count": 832,
+  "updated_at": "2026-09-07T17:06:16.937848+09:00",
+  "count": 261,
+  "x_count": 839,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1745,6 +1745,13 @@
       "status": "o",
       "matched_name": "유한크로락스",
       "updated_at": "2026-09-05T10:05:40.446092+09:00",
+      "auto": true
+    },
+    "토스뱅크": {
+      "display_name": "토스뱅크",
+      "status": "maybe",
+      "matched_name": "토스",
+      "updated_at": "2026-09-07T17:06:16.925688+09:00",
       "auto": true
     }
   },
@@ -6692,6 +6699,48 @@
       "advertiser": "Samsung",
       "status": "x",
       "updated_at": "2026-09-07T10:01:56.314623+09:00",
+      "auto": true
+    },
+    "1027600": {
+      "advertiser": "드리미코리아",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.915806+09:00",
+      "auto": true
+    },
+    "1027591": {
+      "advertiser": "릴 | lil official",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.918337+09:00",
+      "auto": true
+    },
+    "1027593": {
+      "advertiser": "더벤티",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.920875+09:00",
+      "auto": true
+    },
+    "1027587": {
+      "advertiser": "LG Global",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.923390+09:00",
+      "auto": true
+    },
+    "1027565": {
+      "advertiser": "기후에너지환경부",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.928321+09:00",
+      "auto": true
+    },
+    "1027563": {
+      "advertiser": "아이리스브라이트",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.930878+09:00",
+      "auto": true
+    },
+    "1027557": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-09-07T17:06:16.933427+09:00",
       "auto": true
     }
   }
