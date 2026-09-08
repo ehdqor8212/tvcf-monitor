@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T10:04:09.712692+09:00",
-  "count": 262,
-  "x_count": 846,
+  "updated_at": "2026-09-08T17:03:33.065186+09:00",
+  "count": 263,
+  "x_count": 850,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1759,6 +1759,13 @@
       "status": "maybe",
       "matched_name": "네이버",
       "updated_at": "2026-09-08T10:04:09.705358+09:00",
+      "auto": true
+    },
+    "하이브미디어코프": {
+      "display_name": "하이브미디어코프",
+      "status": "o",
+      "matched_name": "하이브미디어코프",
+      "updated_at": "2026-09-08T17:03:33.052345+09:00",
       "auto": true
     }
   },
@@ -6790,6 +6797,30 @@
       "advertiser": "위비스",
       "status": "x",
       "updated_at": "2026-09-08T10:04:09.708033+09:00",
+      "auto": true
+    },
+    "1027645": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-09-08T17:03:33.051135+09:00",
+      "auto": true
+    },
+    "1027630": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-09-08T17:03:33.055163+09:00",
+      "auto": true
+    },
+    "1027629": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-09-08T17:03:33.057964+09:00",
+      "auto": true
+    },
+    "1027624": {
+      "advertiser": "건강을향한지도",
+      "status": "x",
+      "updated_at": "2026-09-08T17:03:33.060781+09:00",
       "auto": true
     }
   }
