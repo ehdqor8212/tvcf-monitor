@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T17:06:16.937848+09:00",
-  "count": 261,
-  "x_count": 839,
+  "updated_at": "2026-09-08T10:04:09.712692+09:00",
+  "count": 262,
+  "x_count": 846,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1752,6 +1752,13 @@
       "status": "maybe",
       "matched_name": "토스",
       "updated_at": "2026-09-07T17:06:16.925688+09:00",
+      "auto": true
+    },
+    "네이버파이넨셜": {
+      "display_name": "네이버파이넨셜",
+      "status": "maybe",
+      "matched_name": "네이버",
+      "updated_at": "2026-09-08T10:04:09.705358+09:00",
       "auto": true
     }
   },
@@ -6741,6 +6748,48 @@
       "advertiser": "넷플릭스서비시스코리아",
       "status": "x",
       "updated_at": "2026-09-07T17:06:16.933427+09:00",
+      "auto": true
+    },
+    "1027615": {
+      "advertiser": "MJ플렉스",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.690412+09:00",
+      "auto": true
+    },
+    "1027614": {
+      "advertiser": "슈올즈",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.693091+09:00",
+      "auto": true
+    },
+    "1027609": {
+      "advertiser": "코리아 모빌리티",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.695803+09:00",
+      "auto": true
+    },
+    "1027612": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.698472+09:00",
+      "auto": true
+    },
+    "1027076": {
+      "advertiser": "코리아 모빌리티",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.701157+09:00",
+      "auto": true
+    },
+    "1027606": {
+      "advertiser": "엘에프푸드",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.703865+09:00",
+      "auto": true
+    },
+    "1027603": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-09-08T10:04:09.708033+09:00",
       "auto": true
     }
   }
