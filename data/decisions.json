@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T17:03:33.065186+09:00",
+  "updated_at": "2026-09-09T10:03:44.535625+09:00",
   "count": 263,
-  "x_count": 850,
+  "x_count": 856,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6821,6 +6821,42 @@
       "advertiser": "건강을향한지도",
       "status": "x",
       "updated_at": "2026-09-08T17:03:33.060781+09:00",
+      "auto": true
+    },
+    "1027739": {
+      "advertiser": "국가데이터처",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.521870+09:00",
+      "auto": true
+    },
+    "1027732": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.523886+09:00",
+      "auto": true
+    },
+    "1027735": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.525892+09:00",
+      "auto": true
+    },
+    "1027736": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.527948+09:00",
+      "auto": true
+    },
+    "1027621": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.529967+09:00",
+      "auto": true
+    },
+    "1027608": {
+      "advertiser": "엘에프푸드",
+      "status": "x",
+      "updated_at": "2026-09-09T10:03:44.531987+09:00",
       "auto": true
     }
   }
