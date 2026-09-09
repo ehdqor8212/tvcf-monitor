@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-09T10:03:44.535625+09:00",
-  "count": 263,
-  "x_count": 856,
+  "updated_at": "2026-09-09T17:08:21.019246+09:00",
+  "count": 264,
+  "x_count": 866,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1766,6 +1766,13 @@
       "status": "o",
       "matched_name": "하이브미디어코프",
       "updated_at": "2026-09-08T17:03:33.052345+09:00",
+      "auto": true
+    },
+    "엔카닷컴": {
+      "display_name": "엔카닷컴",
+      "status": "o",
+      "matched_name": "엔카닷컴",
+      "updated_at": "2026-09-09T17:08:20.994651+09:00",
       "auto": true
     }
   },
@@ -6857,6 +6864,66 @@
       "advertiser": "엘에프푸드",
       "status": "x",
       "updated_at": "2026-09-09T10:03:44.531987+09:00",
+      "auto": true
+    },
+    "1027893": {
+      "advertiser": "현대면세점",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:20.988144+09:00",
+      "auto": true
+    },
+    "1027859": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:20.990999+09:00",
+      "auto": true
+    },
+    "1027830": {
+      "advertiser": "롯데손해보험",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:20.993872+09:00",
+      "auto": true
+    },
+    "1027779": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:20.997477+09:00",
+      "auto": true
+    },
+    "1027773": {
+      "advertiser": "유한클로락스",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.000345+09:00",
+      "auto": true
+    },
+    "1027771": {
+      "advertiser": "위미에르",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.003152+09:00",
+      "auto": true
+    },
+    "1027770": {
+      "advertiser": "주택도시보증공사",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.005946+09:00",
+      "auto": true
+    },
+    "1027747": {
+      "advertiser": "사랑의열매",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.008835+09:00",
+      "auto": true
+    },
+    "1027749": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.011647+09:00",
+      "auto": true
+    },
+    "1027644": {
+      "advertiser": "메가MGC커피",
+      "status": "x",
+      "updated_at": "2026-09-09T17:08:21.014481+09:00",
       "auto": true
     }
   }
