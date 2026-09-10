@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-09T17:08:21.019246+09:00",
+  "updated_at": "2026-09-10T10:04:33.371323+09:00",
   "count": 264,
-  "x_count": 866,
+  "x_count": 869,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6924,6 +6924,24 @@
       "advertiser": "메가MGC커피",
       "status": "x",
       "updated_at": "2026-09-09T17:08:21.014481+09:00",
+      "auto": true
+    },
+    "1027909": {
+      "advertiser": "모두닥",
+      "status": "x",
+      "updated_at": "2026-09-10T10:04:33.361025+09:00",
+      "auto": true
+    },
+    "1027832": {
+      "advertiser": "코인원",
+      "status": "x",
+      "updated_at": "2026-09-10T10:04:33.363830+09:00",
+      "auto": true
+    },
+    "1027828": {
+      "advertiser": "롯데손해보험",
+      "status": "x",
+      "updated_at": "2026-09-10T10:04:33.366652+09:00",
       "auto": true
     }
   }
