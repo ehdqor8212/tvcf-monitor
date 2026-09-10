@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T10:04:33.371323+09:00",
+  "updated_at": "2026-09-10T17:05:41.653933+09:00",
   "count": 264,
-  "x_count": 869,
+  "x_count": 874,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6942,6 +6942,36 @@
       "advertiser": "롯데손해보험",
       "status": "x",
       "updated_at": "2026-09-10T10:04:33.366652+09:00",
+      "auto": true
+    },
+    "1027966": {
+      "advertiser": "정샘물 뷰티",
+      "status": "x",
+      "updated_at": "2026-09-10T17:05:41.642788+09:00",
+      "auto": true
+    },
+    "1027961": {
+      "advertiser": "현대면세점",
+      "status": "x",
+      "updated_at": "2026-09-10T17:05:41.644753+09:00",
+      "auto": true
+    },
+    "1027959": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-09-10T17:05:41.646708+09:00",
+      "auto": true
+    },
+    "1026829": {
+      "advertiser": "NH농협캐피탈",
+      "status": "x",
+      "updated_at": "2026-09-10T17:05:41.648668+09:00",
+      "auto": true
+    },
+    "1027906": {
+      "advertiser": "모두닥",
+      "status": "x",
+      "updated_at": "2026-09-10T17:05:41.650660+09:00",
       "auto": true
     }
   }
