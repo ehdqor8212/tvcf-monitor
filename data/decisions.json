@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T17:05:41.653933+09:00",
+  "updated_at": "2026-09-11T10:03:20.179705+09:00",
   "count": 264,
-  "x_count": 874,
+  "x_count": 877,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -6972,6 +6972,24 @@
       "advertiser": "모두닥",
       "status": "x",
       "updated_at": "2026-09-10T17:05:41.650660+09:00",
+      "auto": true
+    },
+    "1028078": {
+      "advertiser": "엔케이",
+      "status": "x",
+      "updated_at": "2026-09-11T10:03:20.169625+09:00",
+      "auto": true
+    },
+    "1028071": {
+      "advertiser": "삼우종합건축사무소",
+      "status": "x",
+      "updated_at": "2026-09-11T10:03:20.172420+09:00",
+      "auto": true
+    },
+    "1027989": {
+      "advertiser": "플레이태그",
+      "status": "x",
+      "updated_at": "2026-09-11T10:03:20.175199+09:00",
       "auto": true
     }
   }
