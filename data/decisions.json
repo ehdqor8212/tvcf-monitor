@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T10:03:20.179705+09:00",
-  "count": 264,
-  "x_count": 877,
+  "updated_at": "2026-09-11T17:19:31.679100+09:00",
+  "count": 266,
+  "x_count": 882,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1773,6 +1773,20 @@
       "status": "o",
       "matched_name": "엔카닷컴",
       "updated_at": "2026-09-09T17:08:20.994651+09:00",
+      "auto": true
+    },
+    "페르노리카코리아": {
+      "display_name": "페르노리카 코리아 ",
+      "status": "o",
+      "matched_name": "페르노리카코리아",
+      "updated_at": "2026-09-11T17:19:31.659083+09:00",
+      "auto": true
+    },
+    "건강보험심사평가원": {
+      "display_name": "건강보험심사평가원",
+      "status": "o",
+      "matched_name": "건강보험심사평가원",
+      "updated_at": "2026-09-11T17:19:31.659239+09:00",
       "auto": true
     }
   },
@@ -6990,6 +7004,36 @@
       "advertiser": "플레이태그",
       "status": "x",
       "updated_at": "2026-09-11T10:03:20.175199+09:00",
+      "auto": true
+    },
+    "1028106": {
+      "advertiser": "쿼드쎄라",
+      "status": "x",
+      "updated_at": "2026-09-11T17:19:31.662247+09:00",
+      "auto": true
+    },
+    "1028103": {
+      "advertiser": "쿼드쎄라",
+      "status": "x",
+      "updated_at": "2026-09-11T17:19:31.665268+09:00",
+      "auto": true
+    },
+    "1028100": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-09-11T17:19:31.668286+09:00",
+      "auto": true
+    },
+    "1028099": {
+      "advertiser": "롯데리아",
+      "status": "x",
+      "updated_at": "2026-09-11T17:19:31.671279+09:00",
+      "auto": true
+    },
+    "1028095": {
+      "advertiser": "트리니티항공",
+      "status": "x",
+      "updated_at": "2026-09-11T17:19:31.674275+09:00",
       "auto": true
     }
   }
