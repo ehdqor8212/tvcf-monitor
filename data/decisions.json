@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:14:06.842Z",
+  "updated_at": "2026-09-14T02:14:19.090Z",
   "count": 272,
   "x_count": 894,
   "decisions": {
@@ -1029,10 +1029,9 @@
     },
     "kb손해보험": {
       "display_name": "KB손해보험",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "케이비손해보험(KB손해보험)",
-      "updated_at": "2026-06-30T17:02:26.523401+09:00",
-      "auto": true
+      "updated_at": "2026-09-14T02:14:18.697Z"
     },
     "퓨젠바이오": {
       "display_name": "퓨젠바이오",
