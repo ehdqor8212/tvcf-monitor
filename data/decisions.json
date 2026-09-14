@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T02:19:42.903Z",
-  "count": 272,
-  "x_count": 894,
+  "updated_at": "2026-09-14T17:07:23.918205+09:00",
+  "count": 276,
+  "x_count": 896,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1826,6 +1826,34 @@
       "status": "o",
       "matched_name": "기아",
       "updated_at": "2026-09-14T02:14:06.837Z"
+    },
+    "바임": {
+      "display_name": "바임",
+      "status": "maybe",
+      "matched_name": "바임글로벌",
+      "updated_at": "2026-09-14T17:07:23.902635+09:00",
+      "auto": true
+    },
+    "원텍": {
+      "display_name": "원텍",
+      "status": "o",
+      "matched_name": "원텍",
+      "updated_at": "2026-09-14T17:07:23.908679+09:00",
+      "auto": true
+    },
+    "서울보증보험": {
+      "display_name": "서울보증보험",
+      "status": "maybe",
+      "matched_name": "에스지아이서울보증보험(SGI서울보증보험)",
+      "updated_at": "2026-09-14T17:07:23.910632+09:00",
+      "auto": true
+    },
+    "한화생명": {
+      "display_name": "한화생명",
+      "status": "maybe",
+      "matched_name": "한화생명보험",
+      "updated_at": "2026-09-14T17:07:23.913197+09:00",
+      "auto": true
     }
   },
   "x_decisions": {
@@ -7144,6 +7172,18 @@
       "advertiser": "농협경제지주",
       "status": "x",
       "updated_at": "2026-09-14T10:19:16.779314+09:00",
+      "auto": true
+    },
+    "1028218": {
+      "advertiser": "농협경제지주",
+      "status": "x",
+      "updated_at": "2026-09-14T17:07:23.905273+09:00",
+      "auto": true
+    },
+    "1028210": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-09-14T17:07:23.907885+09:00",
       "auto": true
     }
   }
