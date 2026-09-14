@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:14:19.090Z",
+  "updated_at": "2026-09-14T02:14:23.013Z",
   "count": 272,
   "x_count": 894,
   "decisions": {
@@ -1797,10 +1797,9 @@
     },
     "db손해보험": {
       "display_name": "DB손해보험",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "디비손해보험(DB손해보험)",
-      "updated_at": "2026-09-14T10:19:16.798093+09:00",
-      "auto": true
+      "updated_at": "2026-09-14T02:14:22.483Z"
     },
     "국민은행": {
       "display_name": "국민은행",
