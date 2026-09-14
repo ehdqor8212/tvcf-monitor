@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T17:19:31.679100+09:00",
-  "count": 266,
-  "x_count": 882,
+  "updated_at": "2026-09-14T10:19:16.817758+09:00",
+  "count": 272,
+  "x_count": 894,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1787,6 +1787,48 @@
       "status": "o",
       "matched_name": "건강보험심사평가원",
       "updated_at": "2026-09-11T17:19:31.659239+09:00",
+      "auto": true
+    },
+    "스케쳐스": {
+      "display_name": "스케쳐스",
+      "status": "maybe",
+      "matched_name": "스케쳐스코리아",
+      "updated_at": "2026-09-14T10:19:16.796573+09:00",
+      "auto": true
+    },
+    "db손해보험": {
+      "display_name": "DB손해보험",
+      "status": "maybe",
+      "matched_name": "디비손해보험(DB손해보험)",
+      "updated_at": "2026-09-14T10:19:16.798093+09:00",
+      "auto": true
+    },
+    "국민은행": {
+      "display_name": "국민은행",
+      "status": "o",
+      "matched_name": "국민은행",
+      "updated_at": "2026-09-14T10:19:16.800805+09:00",
+      "auto": true
+    },
+    "레고코리아": {
+      "display_name": "레고코리아",
+      "status": "o",
+      "matched_name": "레고코리아",
+      "updated_at": "2026-09-14T10:19:16.801092+09:00",
+      "auto": true
+    },
+    "바디프랜드": {
+      "display_name": "바디프랜드",
+      "status": "o",
+      "matched_name": "바디프랜드",
+      "updated_at": "2026-09-14T10:19:16.804045+09:00",
+      "auto": true
+    },
+    "기아채용": {
+      "display_name": "기아 채용",
+      "status": "maybe",
+      "matched_name": "기아",
+      "updated_at": "2026-09-14T10:19:16.805467+09:00",
       "auto": true
     }
   },
@@ -7034,6 +7076,78 @@
       "advertiser": "트리니티항공",
       "status": "x",
       "updated_at": "2026-09-11T17:19:31.674275+09:00",
+      "auto": true
+    },
+    "1028168": {
+      "advertiser": "농협경제지주",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.779314+09:00",
+      "auto": true
+    },
+    "1028167": {
+      "advertiser": "농협경제지주",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.781897+09:00",
+      "auto": true
+    },
+    "1028166": {
+      "advertiser": "농협경제지주",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.784466+09:00",
+      "auto": true
+    },
+    "1028165": {
+      "advertiser": "보험클리닉",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.787037+09:00",
+      "auto": true
+    },
+    "1027077": {
+      "advertiser": "육성푸드",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.789622+09:00",
+      "auto": true
+    },
+    "1027628": {
+      "advertiser": "한일의료기",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.792175+09:00",
+      "auto": true
+    },
+    "1027925": {
+      "advertiser": "공익광고협의회",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.794749+09:00",
+      "auto": true
+    },
+    "1028148": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.800664+09:00",
+      "auto": true
+    },
+    "1027935": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.803674+09:00",
+      "auto": true
+    },
+    "1028139": {
+      "advertiser": "롯데렌터카",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.808025+09:00",
+      "auto": true
+    },
+    "1028137": {
+      "advertiser": "롯데렌터카",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.810596+09:00",
+      "auto": true
+    },
+    "1028105": {
+      "advertiser": "에코디엠랩",
+      "status": "x",
+      "updated_at": "2026-09-14T10:19:16.813151+09:00",
       "auto": true
     }
   }
