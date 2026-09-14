@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:14:23.013Z",
+  "updated_at": "2026-09-14T02:19:42.903Z",
   "count": 272,
   "x_count": 894,
   "decisions": {
@@ -1790,10 +1790,9 @@
     },
     "스케쳐스": {
       "display_name": "스케쳐스",
-      "status": "maybe",
+      "status": "o",
       "matched_name": "스케쳐스코리아",
-      "updated_at": "2026-09-14T10:19:16.796573+09:00",
-      "auto": true
+      "updated_at": "2026-09-14T02:19:42.401Z"
     },
     "db손해보험": {
       "display_name": "DB손해보험",
