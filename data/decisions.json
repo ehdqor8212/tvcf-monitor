@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T17:07:23.918205+09:00",
-  "count": 276,
-  "x_count": 896,
+  "updated_at": "2026-09-17T10:10:54.996044+09:00",
+  "count": 277,
+  "x_count": 910,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1853,6 +1853,13 @@
       "status": "maybe",
       "matched_name": "한화생명보험",
       "updated_at": "2026-09-14T17:07:23.913197+09:00",
+      "auto": true
+    },
+    "세라젬": {
+      "display_name": "세라젬",
+      "status": "o",
+      "matched_name": "세라젬",
+      "updated_at": "2026-09-17T10:10:54.965604+09:00",
       "auto": true
     }
   },
@@ -7184,6 +7191,90 @@
       "advertiser": "보험클리닉",
       "status": "x",
       "updated_at": "2026-09-14T17:07:23.907885+09:00",
+      "auto": true
+    },
+    "1028584": {
+      "advertiser": "코레일",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.952675+09:00",
+      "auto": true
+    },
+    "1028508": {
+      "advertiser": "spc삼립",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.956451+09:00",
+      "auto": true
+    },
+    "1028497": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.959350+09:00",
+      "auto": true
+    },
+    "1028494": {
+      "advertiser": "두산에너빌리티",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.962210+09:00",
+      "auto": true
+    },
+    "1028493": {
+      "advertiser": "두산에너빌리티",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.965063+09:00",
+      "auto": true
+    },
+    "1028489": {
+      "advertiser": "코넥티브",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.968480+09:00",
+      "auto": true
+    },
+    "1028487": {
+      "advertiser": "한국수산회",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.971323+09:00",
+      "auto": true
+    },
+    "1028475": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.974165+09:00",
+      "auto": true
+    },
+    "1028343": {
+      "advertiser": "알레르망 ",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.977019+09:00",
+      "auto": true
+    },
+    "1028471": {
+      "advertiser": "SBS",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.979867+09:00",
+      "auto": true
+    },
+    "1028460": {
+      "advertiser": "발머스한의원",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.982707+09:00",
+      "auto": true
+    },
+    "1028455": {
+      "advertiser": "한신그레이스",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.985537+09:00",
+      "auto": true
+    },
+    "1028444": {
+      "advertiser": "코리아 모빌리티",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.988391+09:00",
+      "auto": true
+    },
+    "1028432": {
+      "advertiser": "코레일",
+      "status": "x",
+      "updated_at": "2026-09-17T10:10:54.991248+09:00",
       "auto": true
     }
   }
