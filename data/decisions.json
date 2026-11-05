@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T10:10:54.996044+09:00",
-  "count": 277,
-  "x_count": 910,
+  "updated_at": "2026-11-05T17:10:56.285977+09:00",
+  "count": 278,
+  "x_count": 937,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1860,6 +1860,13 @@
       "status": "o",
       "matched_name": "세라젬",
       "updated_at": "2026-09-17T10:10:54.965604+09:00",
+      "auto": true
+    },
+    "문화체육관광부": {
+      "display_name": "문화체육관광부",
+      "status": "o",
+      "matched_name": "문화체육관광부",
+      "updated_at": "2026-11-05T17:10:56.269715+09:00",
       "auto": true
     }
   },
@@ -7275,6 +7282,168 @@
       "advertiser": "코레일",
       "status": "x",
       "updated_at": "2026-09-17T10:10:54.991248+09:00",
+      "auto": true
+    },
+    "1032946": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.207353+09:00",
+      "auto": true
+    },
+    "1032945": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.210174+09:00",
+      "auto": true
+    },
+    "1032944": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.213008+09:00",
+      "auto": true
+    },
+    "1032943": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.215837+09:00",
+      "auto": true
+    },
+    "1032940": {
+      "advertiser": "스톤헨지 ",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.218666+09:00",
+      "auto": true
+    },
+    "1032941": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.221494+09:00",
+      "auto": true
+    },
+    "1032934": {
+      "advertiser": "STONE HENGE ",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.224287+09:00",
+      "auto": true
+    },
+    "1033025": {
+      "advertiser": "COVERNAT",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.227099+09:00",
+      "auto": true
+    },
+    "1033035": {
+      "advertiser": "현대건설",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.229923+09:00",
+      "auto": true
+    },
+    "1033034": {
+      "advertiser": "클래스101",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.232753+09:00",
+      "auto": true
+    },
+    "1033033": {
+      "advertiser": "SK이노베이션",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.235600+09:00",
+      "auto": true
+    },
+    "1032942": {
+      "advertiser": "종로구",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.238414+09:00",
+      "auto": true
+    },
+    "1033032": {
+      "advertiser": "NH농협카드",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.241218+09:00",
+      "auto": true
+    },
+    "1032937": {
+      "advertiser": "청도버섯농장",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.244031+09:00",
+      "auto": true
+    },
+    "1032929": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.246840+09:00",
+      "auto": true
+    },
+    "1032928": {
+      "advertiser": "지식재산처",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.249660+09:00",
+      "auto": true
+    },
+    "1032927": {
+      "advertiser": "농림수산식품부",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.252475+09:00",
+      "auto": true
+    },
+    "1032924": {
+      "advertiser": "교육부",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.255270+09:00",
+      "auto": true
+    },
+    "1032921": {
+      "advertiser": "피치스초이스",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.258084+09:00",
+      "auto": true
+    },
+    "1032897": {
+      "advertiser": "남양유업",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.260891+09:00",
+      "auto": true
+    },
+    "1032920": {
+      "advertiser": "한화금융",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.263699+09:00",
+      "auto": true
+    },
+    "1032919": {
+      "advertiser": "팔레트",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.266511+09:00",
+      "auto": true
+    },
+    "1032905": {
+      "advertiser": "SPC그룹",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.269316+09:00",
+      "auto": true
+    },
+    "1032903": {
+      "advertiser": "대한손해보험협회",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.272531+09:00",
+      "auto": true
+    },
+    "1032870": {
+      "advertiser": "제네시스 ",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.275341+09:00",
+      "auto": true
+    },
+    "1032856": {
+      "advertiser": "대한민국정부",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.278144+09:00",
+      "auto": true
+    },
+    "1032881": {
+      "advertiser": "CJ푸드빌",
+      "status": "x",
+      "updated_at": "2026-11-05T17:10:56.281074+09:00",
       "auto": true
     }
   }
