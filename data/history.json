@@ -1,5 +1,100 @@
 [
   {
+    "ad_id": "1033240",
+    "prefix": "ai2406",
+    "url": "https://tvcf.co.kr/play/ai2406-1033240",
+    "card_title": "삼성전자 갤럭시[갤럭시 Z 폴드8] 환영합니다 폴더블에 처음 온 당신 - 여행 계획 편 | 삼성전자",
+    "onair": "11.06",
+    "registered_short": "11.06",
+    "brand": "삼성전자 갤럭시",
+    "campaign": null,
+    "registered_date": "2026-11-06",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "삼성전자 Samsung Electronics",
+    "advertiser_code": "4309037",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043246+09:00"
+  },
+  {
+    "ad_id": "1033204",
+    "prefix": "ai246",
+    "url": "https://tvcf.co.kr/play/ai246-1033204",
+    "card_title": "대한적십자사평화로운 일상 속에 나타난 불청객",
+    "onair": "11.05",
+    "registered_short": "11.06",
+    "brand": "대한적십자사",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "케이블",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "대한적십자사",
+    "advertiser_code": "C000001165",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043249+09:00"
+  },
+  {
+    "ad_id": "1033202",
+    "prefix": "ai224",
+    "url": "https://tvcf.co.kr/play/ai224-1033202",
+    "card_title": "황제돈고기 먹는데 황제가 왜 나와?｜Official Teaser (Multi-Subs)",
+    "onair": "11.05",
+    "registered_short": "11.06",
+    "brand": "황제돈",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "케이블",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "로칼",
+    "advertiser_code": "4308774",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043252+09:00"
+  },
+  {
+    "ad_id": "1033201",
+    "prefix": "bi213",
+    "url": "https://tvcf.co.kr/play/bi213-1033201",
+    "card_title": "나우다지금 여행이 필요해?",
+    "onair": "11.05",
+    "registered_short": "11.06",
+    "brand": "나우다",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "케이블",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "제주관광공사",
+    "advertiser_code": "C000022224",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043254+09:00"
+  },
+  {
+    "ad_id": "1033200",
+    "prefix": "ai302",
+    "url": "https://tvcf.co.kr/play/ai302-1033200",
+    "card_title": "시에라디자인SIERRA DESIGNS THINK OUTSIDE",
+    "onair": "11.05",
+    "registered_short": "11.06",
+    "brand": "시에라디자인",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "케이블",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "하이라이트 브랜즈",
+    "advertiser_code": "C000161931",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043257+09:00"
+  },
+  {
     "ad_id": "1033177",
     "prefix": "bi1776",
     "url": "https://tvcf.co.kr/play/bi1776-1033177",
@@ -102,6 +197,34 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-11-06T10:06:35.868644+09:00"
+  },
+  {
+    "ad_id": "1033053",
+    "prefix": "bi2538",
+    "url": "https://tvcf.co.kr/play/bi2538-1033053",
+    "card_title": "힌스Jam to Glide Lip Balm, out now",
+    "onair": "11.05",
+    "registered_short": "11.06",
+    "brand": "힌스",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "비바웨이브",
+    "advertiser_code": "C000024758",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033052",
+        "url": "https://tvcf.co.kr/play/ai2527-1033052",
+        "brand": "hince",
+        "campaign": null,
+        "card_title": "hinceJam to Glide Lip Balm, out now"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-06T17:05:39.043237+09:00"
   },
   {
     "ad_id": "1032937",
@@ -475,6 +598,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-05T17:10:56.163694+09:00"
+  },
+  {
+    "ad_id": "1032515",
+    "prefix": "bi1152",
+    "url": "https://tvcf.co.kr/play/bi1152-1032515",
+    "card_title": "알콘 팬놉틱스 프로백내장·노안, 내 얘기다 싶으면, 알콘 팬옵틱스 프로!",
+    "onair": "11.01",
+    "registered_short": "11.06",
+    "brand": "알콘 팬놉틱스 프로",
+    "campaign": null,
+    "registered_date": "2026-11-01",
+    "media_type": "공중파",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "한국알콘",
+    "advertiser_code": "C000012264",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043259+09:00"
   },
   {
     "ad_id": "1032918",
@@ -44448,6 +44590,25 @@
     "advertiser_fallback": false
   },
   {
+    "ad_id": "1033021",
+    "prefix": "bi2213",
+    "url": "https://tvcf.co.kr/play/bi2213-1033021",
+    "card_title": "커버낫26 SPRING COVERNAT with Choo Youngwoo l MAIN",
+    "onair": "02.23",
+    "registered_short": "11.06",
+    "brand": "커버낫",
+    "campaign": null,
+    "registered_date": "2026-02-23",
+    "media_type": "바이럴",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "비케이브",
+    "advertiser_code": "C000160766",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043261+09:00"
+  },
+  {
     "ad_id": "1032923",
     "prefix": "bi1235",
     "url": "https://tvcf.co.kr/play/bi1235-1032923",
@@ -47413,6 +47574,421 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-07-28T17:05:17.167226+09:00"
+  },
+  {
+    "ad_id": "1033020",
+    "prefix": "ai3202",
+    "url": "https://tvcf.co.kr/play/ai3202-1033020",
+    "card_title": "무신사기안84 × 쿨탠다드",
+    "onair": "06.02",
+    "registered_short": "11.06",
+    "brand": "무신사",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "무신사",
+    "advertiser_code": "C000015648",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043281+09:00"
+  },
+  {
+    "ad_id": "1033019",
+    "prefix": "bi2191",
+    "url": "https://tvcf.co.kr/play/bi2191-1033019",
+    "card_title": "하이드로겐HYDROGEN 26SS COLLECTION w/ CHOO SUNG HOON",
+    "onair": "02.19",
+    "registered_short": "11.06",
+    "brand": "하이드로겐",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "크리스에프앤씨",
+    "advertiser_code": "C000020110",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043274+09:00"
+  },
+  {
+    "ad_id": "1033017",
+    "prefix": "bi2178",
+    "url": "https://tvcf.co.kr/play/bi2178-1033017",
+    "card_title": "뉴발란스뉴발란스 l Supernatural Winter l 우먼스 플라잉 다운",
+    "onair": "2025.11.17",
+    "registered_short": "11.06",
+    "brand": "뉴발란스",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "뉴발란스",
+    "advertiser_code": "C000003554",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043278+09:00"
+  },
+  {
+    "ad_id": "1033016",
+    "prefix": "ai2167",
+    "url": "https://tvcf.co.kr/play/ai2167-1033016",
+    "card_title": "써스데이아일랜드THURSDAY ISLAND WITH KiiiKiii 26 WINTER CAMPAIGN",
+    "onair": "10.23",
+    "registered_short": "11.06",
+    "brand": "써스데이아일랜드",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "지엔코",
+    "advertiser_code": "C000003258",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043280+09:00"
+  },
+  {
+    "ad_id": "1033013",
+    "prefix": "bi2134",
+    "url": "https://tvcf.co.kr/play/bi2134-1033013",
+    "card_title": "써스데이 아일랜드THURSDAY ISLAND WITH KiiiKiii 25 WINTER CAMPAIGN",
+    "onair": "2025.10.17",
+    "registered_short": "11.06",
+    "brand": "써스데이 아일랜드",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "지앤코",
+    "advertiser_code": "C000029293",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033015",
+        "url": "https://tvcf.co.kr/play/bi2156-1033015",
+        "brand": "써스데이 아일랜드",
+        "campaign": null,
+        "card_title": "써스데이 아일랜드THURSDAY ISLAND WITH KiiiKiii 26 SUMMER CAMPAIGN"
+      },
+      {
+        "ad_id": "1033014",
+        "url": "https://tvcf.co.kr/play/ai2145-1033014",
+        "brand": "써스데이 아일랜드",
+        "campaign": null,
+        "card_title": "써스데이 아일랜드THURSDAY ISLAND WITH KiiiKiii 26 SPRING CAMPAIGN"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-11-06T17:05:39.043263+09:00"
+  },
+  {
+    "ad_id": "1033012",
+    "prefix": "ai2123",
+    "url": "https://tvcf.co.kr/play/ai2123-1033012",
+    "card_title": "베네통BENETTON x 장희령",
+    "onair": "2025.10.13",
+    "registered_short": "11.06",
+    "brand": "베네통",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "베네통코리아",
+    "advertiser_code": "C000092585",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033011",
+        "url": "https://tvcf.co.kr/play/bi2112-1033011",
+        "brand": "베네통",
+        "campaign": null,
+        "card_title": "베네통BENETTON 25FW COLLECTION"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-06T17:05:39.043272+09:00"
+  },
+  {
+    "ad_id": "1033009",
+    "prefix": "bi399",
+    "url": "https://tvcf.co.kr/play/bi399-1033009",
+    "card_title": "뉴에라NEW ERA Blokecore Collection",
+    "onair": "2025.04.14",
+    "registered_short": "11.06",
+    "brand": "뉴에라",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "뉴에라이커머스",
+    "advertiser_code": "C000107317",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043276+09:00"
+  },
+  {
+    "ad_id": "1033007",
+    "prefix": "bi377",
+    "url": "https://tvcf.co.kr/play/bi377-1033007",
+    "card_title": "게스GUESS 25 S/S _ Summer Collection_ NMIXX",
+    "onair": "2025.06.05",
+    "registered_short": "11.06",
+    "brand": "게스",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "게스홀딩스코리아",
+    "advertiser_code": "C000012027",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1032996",
+        "url": "https://tvcf.co.kr/play/ai1966-1032996",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ GUESS GIRLS Collection_ NMIXX"
+      },
+      {
+        "ad_id": "1032999",
+        "url": "https://tvcf.co.kr/play/bi1999-1032999",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ GUESS GIRLS Collection_ NMIXX (vertical)"
+      },
+      {
+        "ad_id": "1033000",
+        "url": "https://tvcf.co.kr/play/ai400-1033000",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX (vertical)"
+      },
+      {
+        "ad_id": "1033003",
+        "url": "https://tvcf.co.kr/play/bi333-1033003",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX #Kyujin"
+      },
+      {
+        "ad_id": "1033005",
+        "url": "https://tvcf.co.kr/play/bi355-1033005",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX #Haewon"
+      },
+      {
+        "ad_id": "1033006",
+        "url": "https://tvcf.co.kr/play/ai366-1033006",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX #Bae"
+      },
+      {
+        "ad_id": "1032998",
+        "url": "https://tvcf.co.kr/play/ai1988-1032998",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Summer Collection_ NMIXX"
+      },
+      {
+        "ad_id": "1033001",
+        "url": "https://tvcf.co.kr/play/bi311-1033001",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX #Sullyoon"
+      },
+      {
+        "ad_id": "1033004",
+        "url": "https://tvcf.co.kr/play/ai344-1033004",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX #Jiwoo"
+      },
+      {
+        "ad_id": "1032997",
+        "url": "https://tvcf.co.kr/play/bi1977-1032997",
+        "brand": "게스",
+        "campaign": null,
+        "card_title": "게스GUESS 25 S/S _ Spring Collection_ NMIXX"
+      }
+    ],
+    "variant_count": 11,
+    "collected_at": "2026-11-06T17:05:39.043268+09:00"
+  },
+  {
+    "ad_id": "1032979",
+    "prefix": "bi1797",
+    "url": "https://tvcf.co.kr/play/bi1797-1032979",
+    "card_title": "세터[SUNGCHAN with my SATUR] 26SS CAMPAIGN",
+    "onair": "02.03",
+    "registered_short": "11.06",
+    "brand": "세터",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "레시피그룹",
+    "advertiser_code": "4308661",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1032970",
+        "url": "https://tvcf.co.kr/play/ai2707-1032970",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SET the Tune, SATUR]"
+      },
+      {
+        "ad_id": "1032992",
+        "url": "https://tvcf.co.kr/play/ai1922-1032992",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SATUR 26 Fall Campaign with 신예은]"
+      },
+      {
+        "ad_id": "1032977",
+        "url": "https://tvcf.co.kr/play/bi1775-1032977",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[RIIZE WITH MY SATUR] 26SS CAMPAIGN TEASER"
+      },
+      {
+        "ad_id": "1032963",
+        "url": "https://tvcf.co.kr/play/bi1639-1032963",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[RIIZE with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032962",
+        "url": "https://tvcf.co.kr/play/ai1628-1032962",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[RIIZE with my SATUR]  26SS CAMPAIGN TEASER"
+      },
+      {
+        "ad_id": "1032991",
+        "url": "https://tvcf.co.kr/play/bi1911-1032991",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[ANTON with my SATUR]"
+      },
+      {
+        "ad_id": "1032985",
+        "url": "https://tvcf.co.kr/play/bi1854-1032985",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[YeEun with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032981",
+        "url": "https://tvcf.co.kr/play/bi1819-1032981",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[ANTON with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032984",
+        "url": "https://tvcf.co.kr/play/ai1843-1032984",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[WONBIN with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032961",
+        "url": "https://tvcf.co.kr/play/bi1617-1032961",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SET the Tune, SATUR ] 25 WINTER DOWN COLLECTION"
+      },
+      {
+        "ad_id": "1032967",
+        "url": "https://tvcf.co.kr/play/bi1674-1032967",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SATUR 26 Fall Campaign with 신예은]"
+      },
+      {
+        "ad_id": "1032983",
+        "url": "https://tvcf.co.kr/play/bi1832-1032983",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[EUNSEOK with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032986",
+        "url": "https://tvcf.co.kr/play/ai1865-1032986",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SHOTARO with my SATUR]"
+      },
+      {
+        "ad_id": "1032978",
+        "url": "https://tvcf.co.kr/play/ai1786-1032978",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[RIIZE with my SATUR] 26SS CAMPAIGN"
+      },
+      {
+        "ad_id": "1032976",
+        "url": "https://tvcf.co.kr/play/ai1764-1032976",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SET the Tune, SATUR #ANTON]"
+      },
+      {
+        "ad_id": "1032965",
+        "url": "https://tvcf.co.kr/play/bi1652-1032965",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[RIIZE with my SATUR] 26 SUMMER CAMPAIGN TEASER"
+      },
+      {
+        "ad_id": "1032988",
+        "url": "https://tvcf.co.kr/play/ai1887-1032988",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SUNGCHAN with my SATUR]"
+      },
+      {
+        "ad_id": "1032994",
+        "url": "https://tvcf.co.kr/play/ai1944-1032994",
+        "brand": "세터",
+        "campaign": null,
+        "card_title": "세터[SATUR 26 Fall Campaign with 신예은]"
+      }
+    ],
+    "variant_count": 19,
+    "collected_at": "2026-11-06T17:05:39.043265+09:00"
+  },
+  {
+    "ad_id": "1032958",
+    "prefix": "ai1584",
+    "url": "https://tvcf.co.kr/play/ai1584-1032958",
+    "card_title": "스톤헨지NEW DESIGN ‘CONNECTION’ Teaser",
+    "onair": "2023.08.27",
+    "registered_short": "11.06",
+    "brand": "스톤헨지",
+    "campaign": null,
+    "registered_date": null,
+    "media_type": null,
+    "main_category": null,
+    "sub_categories": [],
+    "advertiser": "우림에프엠지",
+    "advertiser_code": "C000168249",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-06T17:05:39.043270+09:00"
   },
   {
     "ad_id": "1024568",

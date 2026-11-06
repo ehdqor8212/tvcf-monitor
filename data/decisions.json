@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-06T10:06:35.935248+09:00",
-  "count": 280,
-  "x_count": 947,
+  "updated_at": "2026-11-06T17:05:39.136668+09:00",
+  "count": 283,
+  "x_count": 961,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1881,6 +1881,27 @@
       "status": "maybe",
       "matched_name": "롯데칠성",
       "updated_at": "2026-11-06T10:06:35.931558+09:00",
+      "auto": true
+    },
+    "하이라이트브랜즈": {
+      "display_name": "하이라이트 브랜즈",
+      "status": "o",
+      "matched_name": "하이라이트브랜즈",
+      "updated_at": "2026-11-06T17:05:39.102173+09:00",
+      "auto": true
+    },
+    "한국알콘": {
+      "display_name": "한국알콘",
+      "status": "o",
+      "matched_name": "한국알콘",
+      "updated_at": "2026-11-06T17:05:39.103429+09:00",
+      "auto": true
+    },
+    "무신사": {
+      "display_name": "무신사",
+      "status": "o",
+      "matched_name": "무신사",
+      "updated_at": "2026-11-06T17:05:39.131824+09:00",
       "auto": true
     }
   },
@@ -7518,6 +7539,90 @@
       "advertiser": "비케이브",
       "status": "x",
       "updated_at": "2026-11-06T10:06:35.930324+09:00",
+      "auto": true
+    },
+    "1033053": {
+      "advertiser": "비바웨이브",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.092522+09:00",
+      "auto": true
+    },
+    "1033240": {
+      "advertiser": "삼성전자 Samsung Electronics",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.095347+09:00",
+      "auto": true
+    },
+    "1033202": {
+      "advertiser": "로칼",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.098162+09:00",
+      "auto": true
+    },
+    "1033201": {
+      "advertiser": "제주관광공사",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.100971+09:00",
+      "auto": true
+    },
+    "1033021": {
+      "advertiser": "비케이브",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.106228+09:00",
+      "auto": true
+    },
+    "1033013": {
+      "advertiser": "지앤코",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.109033+09:00",
+      "auto": true
+    },
+    "1032979": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.111846+09:00",
+      "auto": true
+    },
+    "1033007": {
+      "advertiser": "게스홀딩스코리아",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.114677+09:00",
+      "auto": true
+    },
+    "1032958": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.117482+09:00",
+      "auto": true
+    },
+    "1033012": {
+      "advertiser": "베네통코리아",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.120266+09:00",
+      "auto": true
+    },
+    "1033019": {
+      "advertiser": "크리스에프앤씨",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.123066+09:00",
+      "auto": true
+    },
+    "1033009": {
+      "advertiser": "뉴에라이커머스",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.125856+09:00",
+      "auto": true
+    },
+    "1033017": {
+      "advertiser": "뉴발란스",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.128652+09:00",
+      "auto": true
+    },
+    "1033016": {
+      "advertiser": "지엔코",
+      "status": "x",
+      "updated_at": "2026-11-06T17:05:39.131446+09:00",
       "auto": true
     }
   }
