@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-05T17:10:56.285977+09:00",
-  "count": 278,
-  "x_count": 937,
+  "updated_at": "2026-11-06T10:06:35.935248+09:00",
+  "count": 280,
+  "x_count": 947,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1867,6 +1867,20 @@
       "status": "o",
       "matched_name": "문화체육관광부",
       "updated_at": "2026-11-05T17:10:56.269715+09:00",
+      "auto": true
+    },
+    "바이트댄스": {
+      "display_name": "바이트댄스",
+      "status": "o",
+      "matched_name": "바이트댄스",
+      "updated_at": "2026-11-06T10:06:35.918287+09:00",
+      "auto": true
+    },
+    "롯데칠성주류": {
+      "display_name": "롯데칠성 주류",
+      "status": "maybe",
+      "matched_name": "롯데칠성",
+      "updated_at": "2026-11-06T10:06:35.931558+09:00",
       "auto": true
     }
   },
@@ -7444,6 +7458,66 @@
       "advertiser": "CJ푸드빌",
       "status": "x",
       "updated_at": "2026-11-05T17:10:56.281074+09:00",
+      "auto": true
+    },
+    "1033177": {
+      "advertiser": "한국국제보건의료재단",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.911931+09:00",
+      "auto": true
+    },
+    "1032960": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.913957+09:00",
+      "auto": true
+    },
+    "1032959": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.915967+09:00",
+      "auto": true
+    },
+    "1032955": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.917974+09:00",
+      "auto": true
+    },
+    "1032952": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.920286+09:00",
+      "auto": true
+    },
+    "1032947": {
+      "advertiser": "우림에프엠지",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.922296+09:00",
+      "auto": true
+    },
+    "1032949": {
+      "advertiser": "디깅미인터내셔널",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.924299+09:00",
+      "auto": true
+    },
+    "1033024": {
+      "advertiser": "비케이브",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.926296+09:00",
+      "auto": true
+    },
+    "1033022": {
+      "advertiser": "비케이브",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.928302+09:00",
+      "auto": true
+    },
+    "1033023": {
+      "advertiser": "비케이브",
+      "status": "x",
+      "updated_at": "2026-11-06T10:06:35.930324+09:00",
       "auto": true
     }
   }
