@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-06T17:05:39.136668+09:00",
-  "count": 283,
-  "x_count": 961,
+  "updated_at": "2026-11-07T10:04:02.196630+09:00",
+  "count": 285,
+  "x_count": 968,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1902,6 +1902,20 @@
       "status": "o",
       "matched_name": "무신사",
       "updated_at": "2026-11-06T17:05:39.131824+09:00",
+      "auto": true
+    },
+    "비트": {
+      "display_name": "비트",
+      "status": "maybe",
+      "matched_name": "(미집행) 업비트",
+      "updated_at": "2026-11-07T10:04:02.172208+09:00",
+      "auto": true
+    },
+    "라이온코리아": {
+      "display_name": "라이온코리아",
+      "status": "o",
+      "matched_name": "라이온코리아",
+      "updated_at": "2026-11-07T10:04:02.186272+09:00",
       "auto": true
     }
   },
@@ -7623,6 +7637,48 @@
       "advertiser": "지엔코",
       "status": "x",
       "updated_at": "2026-11-06T17:05:39.131446+09:00",
+      "auto": true
+    },
+    "1033248": {
+      "advertiser": "구글플레이",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.174972+09:00",
+      "auto": true
+    },
+    "1033247": {
+      "advertiser": "구글플레이",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.177724+09:00",
+      "auto": true
+    },
+    "1033246": {
+      "advertiser": "구글플레이",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.180476+09:00",
+      "auto": true
+    },
+    "1033244": {
+      "advertiser": "키린",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.183217+09:00",
+      "auto": true
+    },
+    "1033243": {
+      "advertiser": "비케이브",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.185962+09:00",
+      "auto": true
+    },
+    "1032999": {
+      "advertiser": "게스홀딩스코리아",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.189019+09:00",
+      "auto": true
+    },
+    "1032984": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-07T10:04:02.191758+09:00",
       "auto": true
     }
   }
