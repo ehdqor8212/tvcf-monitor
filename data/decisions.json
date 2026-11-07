@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-07T10:04:02.196630+09:00",
+  "updated_at": "2026-11-07T17:01:40.565649+09:00",
   "count": 285,
-  "x_count": 968,
+  "x_count": 970,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7679,6 +7679,18 @@
       "advertiser": "레시피그룹",
       "status": "x",
       "updated_at": "2026-11-07T10:04:02.191758+09:00",
+      "auto": true
+    },
+    "1032963": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-07T17:01:40.559116+09:00",
+      "auto": true
+    },
+    "1032986": {
+      "advertiser": "레시피그룹",
+      "status": "x",
+      "updated_at": "2026-11-07T17:01:40.561548+09:00",
       "auto": true
     }
   }
