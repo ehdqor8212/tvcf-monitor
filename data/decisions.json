@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-07T17:01:40.565649+09:00",
+  "updated_at": "2026-11-08T17:02:57.801066+09:00",
   "count": 285,
-  "x_count": 970,
+  "x_count": 974,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7691,6 +7691,30 @@
       "advertiser": "레시피그룹",
       "status": "x",
       "updated_at": "2026-11-07T17:01:40.561548+09:00",
+      "auto": true
+    },
+    "1033272": {
+      "advertiser": "ckdmodcol",
+      "status": "x",
+      "updated_at": "2026-11-08T17:02:57.793081+09:00",
+      "auto": true
+    },
+    "1033263": {
+      "advertiser": "피자헛",
+      "status": "x",
+      "updated_at": "2026-11-08T17:02:57.794704+09:00",
+      "auto": true
+    },
+    "1033255": {
+      "advertiser": "일구회",
+      "status": "x",
+      "updated_at": "2026-11-08T17:02:57.796365+09:00",
+      "auto": true
+    },
+    "1033254": {
+      "advertiser": "청주시",
+      "status": "x",
+      "updated_at": "2026-11-08T17:02:57.798015+09:00",
       "auto": true
     }
   }
