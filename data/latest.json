@@ -1,61 +1,6 @@
 {
-  "run_at": "2026-11-07T17:01:40.510053+09:00",
-  "count": 3,
-  "count_total_before_dedup": 3,
-  "new_ads": [
-    {
-      "ad_id": "1033253",
-      "prefix": "bi1531",
-      "url": "https://tvcf.co.kr/play/bi1531-1033253",
-      "card_title": "알바몬[알바몬] 꿀알바를 캐치캐치 Teaser - 꿀알바는 원래 알바몬",
-      "onair": "11.06",
-      "registered_short": "11.07",
-      "brand": "알바몬",
-      "campaign": null,
-      "registered_date": "2026-11-06",
-      "media_type": "디지털(인터넷)",
-      "main_category": "정보통신",
-      "sub_categories": [],
-      "advertiser": "잡코리아",
-      "advertiser_code": "C000003084",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1032963",
-      "prefix": "bi1639",
-      "url": "https://tvcf.co.kr/play/bi1639-1032963",
-      "card_title": "세터[RIIZE with my SATUR] 26SS CAMPAIGN",
-      "onair": "01.30",
-      "registered_short": "11.06",
-      "brand": "세터",
-      "campaign": null,
-      "registered_date": "2026-01-30",
-      "media_type": "바이럴",
-      "main_category": "패션/스포츠",
-      "sub_categories": [],
-      "advertiser": "레시피그룹",
-      "advertiser_code": "4308663",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    },
-    {
-      "ad_id": "1032986",
-      "prefix": "ai1865",
-      "url": "https://tvcf.co.kr/play/ai1865-1032986",
-      "card_title": "세터[SHOTARO with my SATUR]",
-      "onair": "05.13",
-      "registered_short": "11.06",
-      "brand": "세터",
-      "campaign": null,
-      "registered_date": "2026-05-13",
-      "media_type": "바이럴",
-      "main_category": "패션/스포츠",
-      "sub_categories": [],
-      "advertiser": "레시피그룹",
-      "advertiser_code": "4308647",
-      "advertiser_fallback": false,
-      "variant_count": 1
-    }
-  ]
+  "run_at": "2026-11-08T10:01:03.074046+09:00",
+  "new_ads": [],
+  "count": 0,
+  "count_total_before_dedup": 0
 }
