@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-09T10:02:33.095321+09:00",
-  "count": 285,
-  "x_count": 977,
+  "updated_at": "2026-11-09T17:06:24.556049+09:00",
+  "count": 286,
+  "x_count": 986,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1916,6 +1916,13 @@
       "status": "o",
       "matched_name": "라이온코리아",
       "updated_at": "2026-11-07T10:04:02.186272+09:00",
+      "auto": true
+    },
+    "코지하우스코리아": {
+      "display_name": "코지하우스코리아",
+      "status": "maybe",
+      "matched_name": "코지하우스",
+      "updated_at": "2026-11-09T17:06:24.534514+09:00",
       "auto": true
     }
   },
@@ -7733,6 +7740,60 @@
       "advertiser": "폭스바겐코리아",
       "status": "x",
       "updated_at": "2026-11-09T10:02:33.090991+09:00",
+      "auto": true
+    },
+    "1033322": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.536479+09:00",
+      "auto": true
+    },
+    "1033324": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.538439+09:00",
+      "auto": true
+    },
+    "1033323": {
+      "advertiser": "네오비젼",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.540413+09:00",
+      "auto": true
+    },
+    "1033303": {
+      "advertiser": "일본정부관광국",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.542368+09:00",
+      "auto": true
+    },
+    "1032215": {
+      "advertiser": "BYD 코리아",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.544320+09:00",
+      "auto": true
+    },
+    "1033300": {
+      "advertiser": "비에이치씨",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.546265+09:00",
+      "auto": true
+    },
+    "1032648": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.548222+09:00",
+      "auto": true
+    },
+    "1033288": {
+      "advertiser": "ASUSTeK COMPUTER INC.",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.550155+09:00",
+      "auto": true
+    },
+    "1033282": {
+      "advertiser": "알레르망 ",
+      "status": "x",
+      "updated_at": "2026-11-09T17:06:24.552119+09:00",
       "auto": true
     }
   }
