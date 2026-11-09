@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-08T17:02:57.801066+09:00",
+  "updated_at": "2026-11-09T10:02:33.095321+09:00",
   "count": 285,
-  "x_count": 974,
+  "x_count": 977,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7715,6 +7715,24 @@
       "advertiser": "청주시",
       "status": "x",
       "updated_at": "2026-11-08T17:02:57.798015+09:00",
+      "auto": true
+    },
+    "1033279": {
+      "advertiser": "인생푸드",
+      "status": "x",
+      "updated_at": "2026-11-09T10:02:33.085972+09:00",
+      "auto": true
+    },
+    "1033276": {
+      "advertiser": "도드람양돈농협",
+      "status": "x",
+      "updated_at": "2026-11-09T10:02:33.088409+09:00",
+      "auto": true
+    },
+    "1031236": {
+      "advertiser": "폭스바겐코리아",
+      "status": "x",
+      "updated_at": "2026-11-09T10:02:33.090991+09:00",
       "auto": true
     }
   }
