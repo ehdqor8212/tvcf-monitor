@@ -1,5 +1,78 @@
 [
   {
+    "ad_id": "1033557",
+    "prefix": "bi1578",
+    "url": "https://tvcf.co.kr/play/bi1578-1033557",
+    "card_title": "롯데백화점2026 BRAND CAMPAIGN",
+    "onair": "11.11",
+    "registered_short": "11.11",
+    "brand": "롯데백화점",
+    "campaign": null,
+    "registered_date": "2026-11-11",
+    "media_type": "케이블",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "롯데백화점",
+    "advertiser_code": "C000001772",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-11T17:04:39.521086+09:00"
+  },
+  {
+    "ad_id": "1033553",
+    "prefix": "bi1534",
+    "url": "https://tvcf.co.kr/play/bi1534-1033553",
+    "card_title": "SK텔레콤AI 모두쓰기 프로젝트 l AI, “내 정보는 내 허락 받고\" 쓰기",
+    "onair": "11.10",
+    "registered_short": "11.11",
+    "brand": "SK텔레콤",
+    "campaign": null,
+    "registered_date": "2026-11-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "sk텔레콤",
+    "advertiser_code": "C000003568",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033552",
+        "url": "https://tvcf.co.kr/play/ai1523-1033552",
+        "brand": "SK텔레콤",
+        "campaign": null,
+        "card_title": "SK텔레콤AI 모두쓰기 프로젝트 l AI, “꼭 사람 손을 거쳐서 신중하게” 쓰기"
+      },
+      {
+        "ad_id": "1033550",
+        "url": "https://tvcf.co.kr/play/ai2501-1033550",
+        "brand": "SK텔레콤",
+        "campaign": null,
+        "card_title": "SK텔레콤AI 모두쓰기 프로젝트 l AI, “범죄에 악용되지 않도록” 쓰기"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-11-11T17:04:39.521093+09:00"
+  },
+  {
+    "ad_id": "1033551",
+    "prefix": "bi1512",
+    "url": "https://tvcf.co.kr/play/bi1512-1033551",
+    "card_title": "뚜레쥬르눈부시게 신나는 뚜레쥬르 홀리데이 with 이도현 (15s ver.)",
+    "onair": "11.10",
+    "registered_short": "11.11",
+    "brand": "뚜레쥬르",
+    "campaign": null,
+    "registered_date": "2026-11-10",
+    "media_type": "디지털(인터넷)",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "CJ푸드빌",
+    "advertiser_code": "C000006804",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-11T17:04:39.521094+09:00"
+  },
+  {
     "ad_id": "1033459",
     "prefix": "bi1599",
     "url": "https://tvcf.co.kr/play/bi1599-1033459",
@@ -17,6 +90,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-11T10:01:23.398035+09:00"
+  },
+  {
+    "ad_id": "1033458",
+    "prefix": "ai1588",
+    "url": "https://tvcf.co.kr/play/ai1588-1033458",
+    "card_title": "코웨이 비렉스 안마매트리스강력한 안마와 완벽한 침대를 하나로 (가족)",
+    "onair": "11.10",
+    "registered_short": "11.11",
+    "brand": "코웨이 비렉스 안마매트리스",
+    "campaign": null,
+    "registered_date": "2026-11-10",
+    "media_type": "공중파",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "코웨이",
+    "advertiser_code": "C000004037",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-11T17:04:39.521089+09:00"
   },
   {
     "ad_id": "1033457",
@@ -99,6 +191,53 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-11-10T10:02:32.509400+09:00"
+  },
+  {
+    "ad_id": "1033556",
+    "prefix": "ai1567",
+    "url": "https://tvcf.co.kr/play/ai1567-1033556",
+    "card_title": "데일리샷같은 술도 더 잘 사는 기술 | 블랙프라이데이(15초)",
+    "onair": "11.09",
+    "registered_short": "11.11",
+    "brand": "데일리샷",
+    "campaign": null,
+    "registered_date": "2026-11-09",
+    "media_type": "디지털 범퍼",
+    "main_category": "서비스/유통/레저",
+    "sub_categories": [],
+    "advertiser": "데일리샷",
+    "advertiser_code": "4311970",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033555",
+        "url": "https://tvcf.co.kr/play/bi1556-1033555",
+        "brand": "데일리샷",
+        "campaign": null,
+        "card_title": "데일리샷같은 술도 더 잘 사는 기술 | 같은 술, 다른 가격(15초)"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-11T17:04:39.521084+09:00"
+  },
+  {
+    "ad_id": "1033554",
+    "prefix": "ai1545",
+    "url": "https://tvcf.co.kr/play/ai1545-1033554",
+    "card_title": "클라렌Clalen | 아이리스 컬러 M 밤 X 하츠투하츠 스텔라",
+    "onair": "11.09",
+    "registered_short": "11.11",
+    "brand": "클라렌",
+    "campaign": null,
+    "registered_date": "2026-11-09",
+    "media_type": "디지털(인터넷)",
+    "main_category": "제약/의료/복지",
+    "sub_categories": [],
+    "advertiser": "인터로조",
+    "advertiser_code": "C000018461",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-11T17:04:39.521091+09:00"
   },
   {
     "ad_id": "1033423",
@@ -537,6 +676,25 @@
     "collected_at": "2026-11-09T10:02:33.036622+09:00"
   },
   {
+    "ad_id": "1033259",
+    "prefix": "bi1597",
+    "url": "https://tvcf.co.kr/play/bi1597-1033259",
+    "card_title": "넷플릭스푸른길",
+    "onair": "11.07",
+    "registered_short": "11.11",
+    "brand": "넷플릭스",
+    "campaign": null,
+    "registered_date": "2026-11-07",
+    "media_type": "공중파",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "넷플릭스서비시스코리아",
+    "advertiser_code": "C000162453",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-11T17:04:39.521088+09:00"
+  },
+  {
     "ad_id": "1033424",
     "prefix": "ai1241",
     "url": "https://tvcf.co.kr/play/ai1241-1033424",
@@ -752,6 +910,48 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-06T17:05:39.043246+09:00"
+  },
+  {
+    "ad_id": "1033565",
+    "prefix": "bi1657",
+    "url": "https://tvcf.co.kr/play/bi1657-1033565",
+    "card_title": "삼성 iD 해외 3.5 카드해외결제 실적·할인한도 없이 3.5% 할인 받는 법 (30”)_세로형",
+    "onair": "11.05",
+    "registered_short": "11.11",
+    "brand": "삼성 iD 해외 3.5 카드",
+    "campaign": null,
+    "registered_date": "2026-11-05",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "삼성카드",
+    "advertiser_code": "C000001261",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1033566",
+        "url": "https://tvcf.co.kr/play/ai1668-1033566",
+        "brand": "삼성 iD 해외 3.5 카드",
+        "campaign": null,
+        "card_title": "삼성 iD 해외 3.5 카드해외결제 실적·할인한도 없이 3.5% 할인 받는 법 (해외직구)"
+      },
+      {
+        "ad_id": "1033564",
+        "url": "https://tvcf.co.kr/play/ai1646-1033564",
+        "brand": "삼성 iD 해외 3.5 카드",
+        "campaign": null,
+        "card_title": "삼성 iD 해외 3.5 카드해외결제 실적·할인한도 없이 3.5% 할인 받는 법 (15”)_세로형"
+      },
+      {
+        "ad_id": "1033563",
+        "url": "https://tvcf.co.kr/play/bi1635-1033563",
+        "brand": "삼성 iD 해외 3.5 카드",
+        "campaign": null,
+        "card_title": "삼성 iD 해외 3.5 카드해외결제 실적·할인한도 없이 3.5% 할인 받는 법 (15”)_가로형"
+      }
+    ],
+    "variant_count": 4,
+    "collected_at": "2026-11-11T17:04:39.521081+09:00"
   },
   {
     "ad_id": "1033245",
@@ -1458,6 +1658,34 @@
     ],
     "variant_count": 5,
     "collected_at": "2026-11-05T17:10:56.163686+09:00"
+  },
+  {
+    "ad_id": "1033614",
+    "prefix": "ai1142",
+    "url": "https://tvcf.co.kr/play/ai1142-1033614",
+    "card_title": "설화맥주마라로 오르면 설화로 내린다",
+    "onair": "10.30",
+    "registered_short": "11.11",
+    "brand": "설화맥주",
+    "campaign": null,
+    "registered_date": "2026-10-30",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": null,
+    "advertiser_code": null,
+    "advertiser_fallback": true,
+    "variants": [
+      {
+        "ad_id": "1033612",
+        "url": "https://tvcf.co.kr/play/ai1129-1033612",
+        "brand": "설화맥주",
+        "campaign": null,
+        "card_title": "설화맥주마라로 오르면 설화로 내린다"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-11T17:04:39.521074+09:00"
   },
   {
     "ad_id": "1032870",

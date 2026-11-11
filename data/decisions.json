@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T10:01:23.647565+09:00",
-  "count": 287,
-  "x_count": 992,
+  "updated_at": "2026-11-11T17:04:39.579586+09:00",
+  "count": 288,
+  "x_count": 998,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1930,6 +1930,13 @@
       "status": "o",
       "matched_name": "영구크린",
       "updated_at": "2026-11-10T10:02:32.543584+09:00",
+      "auto": true
+    },
+    "삼성카드": {
+      "display_name": "삼성카드",
+      "status": "o",
+      "matched_name": "삼성카드",
+      "updated_at": "2026-11-11T17:04:39.565951+09:00",
       "auto": true
     }
   },
@@ -7837,6 +7844,42 @@
       "advertiser": "제이와이 컴퍼니",
       "status": "x",
       "updated_at": "2026-11-11T10:01:23.644538+09:00",
+      "auto": true
+    },
+    "1033614": {
+      "advertiser": "설화맥주",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.565589+09:00",
+      "auto": true
+    },
+    "1033556": {
+      "advertiser": "데일리샷",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.567902+09:00",
+      "auto": true
+    },
+    "1033557": {
+      "advertiser": "롯데백화점",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.569886+09:00",
+      "auto": true
+    },
+    "1033259": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.571836+09:00",
+      "auto": true
+    },
+    "1033554": {
+      "advertiser": "인터로조",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.573793+09:00",
+      "auto": true
+    },
+    "1033551": {
+      "advertiser": "CJ푸드빌",
+      "status": "x",
+      "updated_at": "2026-11-11T17:04:39.575742+09:00",
       "auto": true
     }
   }
