@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T17:03:41.044739+09:00",
+  "updated_at": "2026-11-11T10:01:23.647565+09:00",
   "count": 287,
-  "x_count": 990,
+  "x_count": 992,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7825,6 +7825,18 @@
       "advertiser": "데일리샷",
       "status": "x",
       "updated_at": "2026-11-10T17:03:41.041170+09:00",
+      "auto": true
+    },
+    "1033457": {
+      "advertiser": "이덕아이앤씨",
+      "status": "x",
+      "updated_at": "2026-11-11T10:01:23.642920+09:00",
+      "auto": true
+    },
+    "1033459": {
+      "advertiser": "제이와이 컴퍼니",
+      "status": "x",
+      "updated_at": "2026-11-11T10:01:23.644538+09:00",
       "auto": true
     }
   }
