@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T17:04:39.579586+09:00",
+  "updated_at": "2026-11-12T10:04:43.477365+09:00",
   "count": 288,
-  "x_count": 998,
+  "x_count": 1000,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7880,6 +7880,18 @@
       "advertiser": "CJ푸드빌",
       "status": "x",
       "updated_at": "2026-11-11T17:04:39.575742+09:00",
+      "auto": true
+    },
+    "1033619": {
+      "advertiser": "NH농협금융",
+      "status": "x",
+      "updated_at": "2026-11-12T10:04:43.470532+09:00",
+      "auto": true
+    },
+    "1033615": {
+      "advertiser": "팔레트",
+      "status": "x",
+      "updated_at": "2026-11-12T10:04:43.472981+09:00",
       "auto": true
     }
   }
