@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T10:04:43.477365+09:00",
-  "count": 288,
-  "x_count": 1000,
+  "updated_at": "2026-11-12T17:04:19.047169+09:00",
+  "count": 290,
+  "x_count": 1004,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1937,6 +1937,20 @@
       "status": "o",
       "matched_name": "삼성카드",
       "updated_at": "2026-11-11T17:04:39.565951+09:00",
+      "auto": true
+    },
+    "아이더": {
+      "display_name": "아이더",
+      "status": "o",
+      "matched_name": "아이더",
+      "updated_at": "2026-11-12T17:04:19.036559+09:00",
+      "auto": true
+    },
+    "하이네켄코리아": {
+      "display_name": "하이네켄 코리아",
+      "status": "maybe",
+      "matched_name": "하이네켄",
+      "updated_at": "2026-11-12T17:04:19.043107+09:00",
       "auto": true
     }
   },
@@ -7892,6 +7906,30 @@
       "advertiser": "팔레트",
       "status": "x",
       "updated_at": "2026-11-12T10:04:43.472981+09:00",
+      "auto": true
+    },
+    "1033695": {
+      "advertiser": "무궁화공원묘원",
+      "status": "x",
+      "updated_at": "2026-11-12T17:04:19.036174+09:00",
+      "auto": true
+    },
+    "1032469": {
+      "advertiser": "BYD 코리아",
+      "status": "x",
+      "updated_at": "2026-11-12T17:04:19.038235+09:00",
+      "auto": true
+    },
+    "1033639": {
+      "advertiser": "유로윈스피아",
+      "status": "x",
+      "updated_at": "2026-11-12T17:04:19.039899+09:00",
+      "auto": true
+    },
+    "1033637": {
+      "advertiser": "NH농협카드",
+      "status": "x",
+      "updated_at": "2026-11-12T17:04:19.041557+09:00",
       "auto": true
     }
   }
