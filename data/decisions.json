@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T17:04:19.047169+09:00",
-  "count": 290,
-  "x_count": 1004,
+  "updated_at": "2026-11-13T10:09:56.296511+09:00",
+  "count": 292,
+  "x_count": 1007,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1951,6 +1951,20 @@
       "status": "maybe",
       "matched_name": "하이네켄",
       "updated_at": "2026-11-12T17:04:19.043107+09:00",
+      "auto": true
+    },
+    "동아제약official": {
+      "display_name": "동아제약 OFFICIAL",
+      "status": "maybe",
+      "matched_name": "동아제약",
+      "updated_at": "2026-11-13T10:09:56.290853+09:00",
+      "auto": true
+    },
+    "멕시카나": {
+      "display_name": "멕시카나",
+      "status": "o",
+      "matched_name": "멕시카나",
+      "updated_at": "2026-11-13T10:09:56.291227+09:00",
       "auto": true
     }
   },
@@ -7930,6 +7944,24 @@
       "advertiser": "NH농협카드",
       "status": "x",
       "updated_at": "2026-11-12T17:04:19.041557+09:00",
+      "auto": true
+    },
+    "1033738": {
+      "advertiser": "아이비에듀",
+      "status": "x",
+      "updated_at": "2026-11-13T10:09:56.283539+09:00",
+      "auto": true
+    },
+    "1033737": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-13T10:09:56.286360+09:00",
+      "auto": true
+    },
+    "1033733": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-13T10:09:56.289178+09:00",
       "auto": true
     }
   }
