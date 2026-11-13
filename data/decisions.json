@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T10:09:56.296511+09:00",
+  "updated_at": "2026-11-13T17:08:37.177364+09:00",
   "count": 292,
-  "x_count": 1007,
+  "x_count": 1014,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -7962,6 +7962,48 @@
       "advertiser": "디어랩스",
       "status": "x",
       "updated_at": "2026-11-13T10:09:56.289178+09:00",
+      "auto": true
+    },
+    "1033790": {
+      "advertiser": "인구전략위원회",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.164093+09:00",
+      "auto": true
+    },
+    "1033791": {
+      "advertiser": "사노피 아벤티스",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.165763+09:00",
+      "auto": true
+    },
+    "1033775": {
+      "advertiser": "배스킨라빈스",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.167438+09:00",
+      "auto": true
+    },
+    "1033746": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.169090+09:00",
+      "auto": true
+    },
+    "1033745": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.170748+09:00",
+      "auto": true
+    },
+    "1033740": {
+      "advertiser": "기후에너지환경부",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.172400+09:00",
+      "auto": true
+    },
+    "1033739": {
+      "advertiser": "한국승강기안전공단",
+      "status": "x",
+      "updated_at": "2026-11-13T17:08:37.174045+09:00",
       "auto": true
     }
   }
