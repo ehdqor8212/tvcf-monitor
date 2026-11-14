@@ -1,5 +1,24 @@
 [
   {
+    "ad_id": "1033874",
+    "prefix": "ai1741",
+    "url": "https://tvcf.co.kr/play/ai1741-1033874",
+    "card_title": "도로시와Relief, sweet home",
+    "onair": "11.14",
+    "registered_short": "11.14",
+    "brand": "도로시와",
+    "campaign": null,
+    "registered_date": "2026-11-14",
+    "media_type": "디지털(인터넷)",
+    "main_category": "패션/스포츠",
+    "sub_categories": [],
+    "advertiser": "DOROSIWA",
+    "advertiser_code": "4315410",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-14T17:01:19.872826+09:00"
+  },
+  {
     "ad_id": "1033842",
     "prefix": "ai1425",
     "url": "https://tvcf.co.kr/play/ai1425-1033842",

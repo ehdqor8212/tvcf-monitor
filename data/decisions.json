@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T10:02:52.508309+09:00",
+  "updated_at": "2026-11-14T17:01:19.926515+09:00",
   "count": 293,
-  "x_count": 1016,
+  "x_count": 1017,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8023,6 +8023,12 @@
       "advertiser": "리치앤코",
       "status": "x",
       "updated_at": "2026-11-14T10:02:52.502268+09:00",
+      "auto": true
+    },
+    "1033874": {
+      "advertiser": "DOROSIWA",
+      "status": "x",
+      "updated_at": "2026-11-14T17:01:19.922598+09:00",
       "auto": true
     }
   }
