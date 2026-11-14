@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T17:08:37.177364+09:00",
-  "count": 292,
-  "x_count": 1014,
+  "updated_at": "2026-11-14T10:02:52.508309+09:00",
+  "count": 293,
+  "x_count": 1016,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1965,6 +1965,13 @@
       "status": "o",
       "matched_name": "멕시카나",
       "updated_at": "2026-11-13T10:09:56.291227+09:00",
+      "auto": true
+    },
+    "한화손": {
+      "display_name": "한화손",
+      "status": "maybe",
+      "matched_name": "한화손해보험",
+      "updated_at": "2026-11-14T10:02:52.504222+09:00",
       "auto": true
     }
   },
@@ -8004,6 +8011,18 @@
       "advertiser": "한국승강기안전공단",
       "status": "x",
       "updated_at": "2026-11-13T17:08:37.174045+09:00",
+      "auto": true
+    },
+    "1033872": {
+      "advertiser": "한화손보",
+      "status": "x",
+      "updated_at": "2026-11-14T10:02:52.500233+09:00",
+      "auto": true
+    },
+    "1033842": {
+      "advertiser": "리치앤코",
+      "status": "x",
+      "updated_at": "2026-11-14T10:02:52.502268+09:00",
       "auto": true
     }
   }
