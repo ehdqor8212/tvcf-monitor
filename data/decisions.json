@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T17:01:19.926515+09:00",
-  "count": 293,
-  "x_count": 1017,
+  "updated_at": "2026-11-15T17:03:08.090478+09:00",
+  "count": 295,
+  "x_count": 1021,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1972,6 +1972,20 @@
       "status": "maybe",
       "matched_name": "한화손해보험",
       "updated_at": "2026-11-14T10:02:52.504222+09:00",
+      "auto": true
+    },
+    "네슬레코리아": {
+      "display_name": "네슬레코리아",
+      "status": "o",
+      "matched_name": "네슬레코리아",
+      "updated_at": "2026-11-15T17:03:08.080018+09:00",
+      "auto": true
+    },
+    "db그룹": {
+      "display_name": "DB그룹",
+      "status": "maybe",
+      "matched_name": "디비그룹(DB그룹)",
+      "updated_at": "2026-11-15T17:03:08.081389+09:00",
       "auto": true
     }
   },
@@ -8029,6 +8043,30 @@
       "advertiser": "DOROSIWA",
       "status": "x",
       "updated_at": "2026-11-14T17:01:19.922598+09:00",
+      "auto": true
+    },
+    "1033913": {
+      "advertiser": "행정안전부",
+      "status": "x",
+      "updated_at": "2026-11-15T17:03:08.077497+09:00",
+      "auto": true
+    },
+    "1033894": {
+      "advertiser": "K2코리아",
+      "status": "x",
+      "updated_at": "2026-11-15T17:03:08.079850+09:00",
+      "auto": true
+    },
+    "1033898": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-11-15T17:03:08.083729+09:00",
+      "auto": true
+    },
+    "1033892": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-11-15T17:03:08.086084+09:00",
       "auto": true
     }
   }
