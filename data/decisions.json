@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T17:03:08.090478+09:00",
+  "updated_at": "2026-11-16T10:03:34.290394+09:00",
   "count": 295,
-  "x_count": 1021,
+  "x_count": 1025,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8067,6 +8067,30 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-11-15T17:03:08.086084+09:00",
+      "auto": true
+    },
+    "1033792": {
+      "advertiser": "도드람양돈농협",
+      "status": "x",
+      "updated_at": "2026-11-16T10:03:34.281690+09:00",
+      "auto": true
+    },
+    "1033908": {
+      "advertiser": "슈올즈",
+      "status": "x",
+      "updated_at": "2026-11-16T10:03:34.283508+09:00",
+      "auto": true
+    },
+    "1033923": {
+      "advertiser": "탐나는피자",
+      "status": "x",
+      "updated_at": "2026-11-16T10:03:34.285315+09:00",
+      "auto": true
+    },
+    "1033918": {
+      "advertiser": "ROUND LAB",
+      "status": "x",
+      "updated_at": "2026-11-16T10:03:34.287073+09:00",
       "auto": true
     }
   }
