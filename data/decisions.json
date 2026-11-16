@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T10:03:34.290394+09:00",
-  "count": 295,
-  "x_count": 1025,
+  "updated_at": "2026-11-16T17:09:05.510691+09:00",
+  "count": 296,
+  "x_count": 1036,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1986,6 +1986,13 @@
       "status": "maybe",
       "matched_name": "디비그룹(DB그룹)",
       "updated_at": "2026-11-15T17:03:08.081389+09:00",
+      "auto": true
+    },
+    "위바이옴": {
+      "display_name": "위바이옴",
+      "status": "o",
+      "matched_name": "위바이옴",
+      "updated_at": "2026-11-16T17:09:05.502793+09:00",
       "auto": true
     }
   },
@@ -8091,6 +8098,72 @@
       "advertiser": "ROUND LAB",
       "status": "x",
       "updated_at": "2026-11-16T10:03:34.287073+09:00",
+      "auto": true
+    },
+    "1034098": {
+      "advertiser": "기후에너지환경부",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.490783+09:00",
+      "auto": true
+    },
+    "1034101": {
+      "advertiser": "파리크라상",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.492444+09:00",
+      "auto": true
+    },
+    "1033704": {
+      "advertiser": "아이비에듀",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.494073+09:00",
+      "auto": true
+    },
+    "1033900": {
+      "advertiser": "Leferi",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.495712+09:00",
+      "auto": true
+    },
+    "1033901": {
+      "advertiser": "포리즌",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.497356+09:00",
+      "auto": true
+    },
+    "1033903": {
+      "advertiser": "웰본",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.498984+09:00",
+      "auto": true
+    },
+    "1033902": {
+      "advertiser": "울트라브이",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.500639+09:00",
+      "auto": true
+    },
+    "1034091": {
+      "advertiser": "SK하이닉스",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.502282+09:00",
+      "auto": true
+    },
+    "1032651": {
+      "advertiser": "더벤티",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.504427+09:00",
+      "auto": true
+    },
+    "1033904": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.506049+09:00",
+      "auto": true
+    },
+    "1034086": {
+      "advertiser": "더벤티",
+      "status": "x",
+      "updated_at": "2026-11-16T17:09:05.507676+09:00",
       "auto": true
     }
   }
