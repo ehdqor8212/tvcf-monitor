@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T10:05:06.809040+09:00",
+  "updated_at": "2026-11-17T17:04:29.105563+09:00",
   "count": 298,
-  "x_count": 1045,
+  "x_count": 1053,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8232,6 +8232,54 @@
       "advertiser": "SPC그룹",
       "status": "x",
       "updated_at": "2026-11-17T10:05:06.805032+09:00",
+      "auto": true
+    },
+    "1034194": {
+      "advertiser": "대만관광청",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.090689+09:00",
+      "auto": true
+    },
+    "1034162": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.092539+09:00",
+      "auto": true
+    },
+    "1034161": {
+      "advertiser": "우주텍",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.094202+09:00",
+      "auto": true
+    },
+    "1034176": {
+      "advertiser": "Spindle",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.095862+09:00",
+      "auto": true
+    },
+    "1034169": {
+      "advertiser": "스킨사이언스",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.097510+09:00",
+      "auto": true
+    },
+    "1034167": {
+      "advertiser": "샤브르정원",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.099151+09:00",
+      "auto": true
+    },
+    "1034164": {
+      "advertiser": "오봉집",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.100800+09:00",
+      "auto": true
+    },
+    "1034159": {
+      "advertiser": "이금기 ",
+      "status": "x",
+      "updated_at": "2026-11-17T17:04:29.102462+09:00",
       "auto": true
     }
   }
