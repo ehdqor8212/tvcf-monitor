@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T17:09:05.510691+09:00",
-  "count": 296,
-  "x_count": 1036,
+  "updated_at": "2026-11-17T10:05:06.809040+09:00",
+  "count": 298,
+  "x_count": 1045,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -1993,6 +1993,20 @@
       "status": "o",
       "matched_name": "위바이옴",
       "updated_at": "2026-11-16T17:09:05.502793+09:00",
+      "auto": true
+    },
+    "하림": {
+      "display_name": "하림",
+      "status": "maybe",
+      "matched_name": "하림산업",
+      "updated_at": "2026-11-17T10:05:06.792997+09:00",
+      "auto": true
+    },
+    "신성통상": {
+      "display_name": "신성통상",
+      "status": "maybe",
+      "matched_name": "(미집행) 신성통상",
+      "updated_at": "2026-11-17T10:05:06.800637+09:00",
       "auto": true
     }
   },
@@ -8164,6 +8178,60 @@
       "advertiser": "더벤티",
       "status": "x",
       "updated_at": "2026-11-16T17:09:05.507676+09:00",
+      "auto": true
+    },
+    "1033797": {
+      "advertiser": "올고다",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.784419+09:00",
+      "auto": true
+    },
+    "1034153": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.786656+09:00",
+      "auto": true
+    },
+    "1034152": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.788810+09:00",
+      "auto": true
+    },
+    "1034151": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.790984+09:00",
+      "auto": true
+    },
+    "1034150": {
+      "advertiser": "위비스",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.795150+09:00",
+      "auto": true
+    },
+    "1034129": {
+      "advertiser": "엔퍼센트",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.797306+09:00",
+      "auto": true
+    },
+    "1034140": {
+      "advertiser": "제나벨",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.799474+09:00",
+      "auto": true
+    },
+    "1034106": {
+      "advertiser": "기후에너지환경부",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.802892+09:00",
+      "auto": true
+    },
+    "1034133": {
+      "advertiser": "SPC그룹",
+      "status": "x",
+      "updated_at": "2026-11-17T10:05:06.805032+09:00",
       "auto": true
     }
   }
