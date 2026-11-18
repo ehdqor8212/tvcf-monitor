@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T10:05:42.973096+09:00",
-  "count": 299,
-  "x_count": 1057,
+  "updated_at": "2026-11-18T17:03:57.142602+09:00",
+  "count": 300,
+  "x_count": 1060,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2014,6 +2014,13 @@
       "status": "o",
       "matched_name": "한국장애인고용공단",
       "updated_at": "2026-11-18T10:05:42.969122+09:00",
+      "auto": true
+    },
+    "린나이코리아": {
+      "display_name": "린나이코리아",
+      "status": "maybe",
+      "matched_name": "(미집행) 린나이코리아",
+      "updated_at": "2026-11-18T17:03:57.128537+09:00",
       "auto": true
     }
   },
@@ -8311,6 +8318,24 @@
       "advertiser": "hy(한국야쿠르트)",
       "status": "x",
       "updated_at": "2026-11-18T10:05:42.968276+09:00",
+      "auto": true
+    },
+    "1034378": {
+      "advertiser": "진천군",
+      "status": "x",
+      "updated_at": "2026-11-18T17:03:57.131281+09:00",
+      "auto": true
+    },
+    "1034373": {
+      "advertiser": "아이코닉스 ",
+      "status": "x",
+      "updated_at": "2026-11-18T17:03:57.134035+09:00",
+      "auto": true
+    },
+    "1034344": {
+      "advertiser": "안전보건공단",
+      "status": "x",
+      "updated_at": "2026-11-18T17:03:57.136770+09:00",
       "auto": true
     }
   }
