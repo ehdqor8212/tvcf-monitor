@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T17:04:29.105563+09:00",
-  "count": 298,
-  "x_count": 1053,
+  "updated_at": "2026-11-18T10:05:42.973096+09:00",
+  "count": 299,
+  "x_count": 1057,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2007,6 +2007,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 신성통상",
       "updated_at": "2026-11-17T10:05:06.800637+09:00",
+      "auto": true
+    },
+    "한국장애인고용공단": {
+      "display_name": "한국장애인고용공단",
+      "status": "o",
+      "matched_name": "한국장애인고용공단",
+      "updated_at": "2026-11-18T10:05:42.969122+09:00",
       "auto": true
     }
   },
@@ -8280,6 +8287,30 @@
       "advertiser": "이금기 ",
       "status": "x",
       "updated_at": "2026-11-17T17:04:29.102462+09:00",
+      "auto": true
+    },
+    "1034342": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-11-18T10:05:42.962625+09:00",
+      "auto": true
+    },
+    "1034337": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-18T10:05:42.964513+09:00",
+      "auto": true
+    },
+    "1034329": {
+      "advertiser": "더벤티",
+      "status": "x",
+      "updated_at": "2026-11-18T10:05:42.966365+09:00",
+      "auto": true
+    },
+    "1034282": {
+      "advertiser": "hy(한국야쿠르트)",
+      "status": "x",
+      "updated_at": "2026-11-18T10:05:42.968276+09:00",
       "auto": true
     }
   }
