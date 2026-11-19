@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T10:06:07.963469+09:00",
+  "updated_at": "2026-11-19T17:06:55.840817+09:00",
   "count": 300,
-  "x_count": 1067,
+  "x_count": 1071,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8378,6 +8378,30 @@
       "advertiser": "소니인터랙티브엔터테인먼트",
       "status": "x",
       "updated_at": "2026-11-19T10:06:07.959338+09:00",
+      "auto": true
+    },
+    "1034544": {
+      "advertiser": "BEOM distillery",
+      "status": "x",
+      "updated_at": "2026-11-19T17:06:55.831130+09:00",
+      "auto": true
+    },
+    "1034543": {
+      "advertiser": "한국마사회",
+      "status": "x",
+      "updated_at": "2026-11-19T17:06:55.833054+09:00",
+      "auto": true
+    },
+    "1034539": {
+      "advertiser": "부여군",
+      "status": "x",
+      "updated_at": "2026-11-19T17:06:55.834962+09:00",
+      "auto": true
+    },
+    "1034537": {
+      "advertiser": "하츠",
+      "status": "x",
+      "updated_at": "2026-11-19T17:06:55.836879+09:00",
       "auto": true
     }
   }
