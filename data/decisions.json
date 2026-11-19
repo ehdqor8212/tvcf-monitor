@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T17:03:57.142602+09:00",
+  "updated_at": "2026-11-19T10:06:07.963469+09:00",
   "count": 300,
-  "x_count": 1060,
+  "x_count": 1067,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8336,6 +8336,48 @@
       "advertiser": "안전보건공단",
       "status": "x",
       "updated_at": "2026-11-18T17:03:57.136770+09:00",
+      "auto": true
+    },
+    "1034338": {
+      "advertiser": "P&G",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.946309+09:00",
+      "auto": true
+    },
+    "1034521": {
+      "advertiser": "투썸플레이스",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.948523+09:00",
+      "auto": true
+    },
+    "1034417": {
+      "advertiser": "디어랩스",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.950690+09:00",
+      "auto": true
+    },
+    "1034416": {
+      "advertiser": "팔레트",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.952838+09:00",
+      "auto": true
+    },
+    "1034405": {
+      "advertiser": "메트라이프생명보험",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.955013+09:00",
+      "auto": true
+    },
+    "1034404": {
+      "advertiser": "카카오뱅크",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.957175+09:00",
+      "auto": true
+    },
+    "1034389": {
+      "advertiser": "소니인터랙티브엔터테인먼트",
+      "status": "x",
+      "updated_at": "2026-11-19T10:06:07.959338+09:00",
       "auto": true
     }
   }

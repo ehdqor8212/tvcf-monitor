@@ -1,5 +1,137 @@
 [
   {
+    "ad_id": "1034521",
+    "prefix": "bi1218",
+    "url": "https://tvcf.co.kr/play/bi1218-1034521",
+    "card_title": "투썸플레이스스초생에 크림을? 크초생 11월 19일 사전예약 시작",
+    "onair": "11.18",
+    "registered_short": "11.19",
+    "brand": "투썸플레이스",
+    "campaign": null,
+    "registered_date": "2026-11-18",
+    "media_type": "공중파",
+    "main_category": "식품/제과",
+    "sub_categories": [],
+    "advertiser": "투썸플레이스",
+    "advertiser_code": "C000112588",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884486+09:00"
+  },
+  {
+    "ad_id": "1034520",
+    "prefix": "ai2207",
+    "url": "https://tvcf.co.kr/play/ai2207-1034520",
+    "card_title": "한국발명진흥회\"우리는 모두 0%\" ｜꿈을 향해 당당하게 달려가는 직업계고 학생들",
+    "onair": "11.18",
+    "registered_short": "11.19",
+    "brand": "한국발명진흥회",
+    "campaign": null,
+    "registered_date": "2026-11-18",
+    "media_type": "공중파",
+    "main_category": "관공서/단체/공익/기업PR",
+    "sub_categories": [],
+    "advertiser": "한국발명진흥회",
+    "advertiser_code": "C000069845",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884489+09:00"
+  },
+  {
+    "ad_id": "1034416",
+    "prefix": "ai1162",
+    "url": "https://tvcf.co.kr/play/ai1162-1034416",
+    "card_title": "팔레트 AI점심 생각하는 사람",
+    "onair": "11.18",
+    "registered_short": "11.18",
+    "brand": "팔레트 AI",
+    "campaign": null,
+    "registered_date": "2026-11-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "팔레트",
+    "advertiser_code": "C000168899",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884497+09:00"
+  },
+  {
+    "ad_id": "1034404",
+    "prefix": "ai248",
+    "url": "https://tvcf.co.kr/play/ai248-1034404",
+    "card_title": "카카오뱅크 스텔스통장군인",
+    "onair": "11.18",
+    "registered_short": "11.18",
+    "brand": "카카오뱅크 스텔스통장",
+    "campaign": null,
+    "registered_date": "2026-11-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "카카오뱅크",
+    "advertiser_code": "C000161679",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1034403",
+        "url": "https://tvcf.co.kr/play/bi237-1034403",
+        "brand": "카카오뱅크 스텔스통장",
+        "campaign": null,
+        "card_title": "카카오뱅크 스텔스통장워킹맘"
+      },
+      {
+        "ad_id": "1034401",
+        "url": "https://tvcf.co.kr/play/bi215-1034401",
+        "brand": "카카오뱅크 스텔스통장",
+        "campaign": null,
+        "card_title": "카카오뱅크 스텔스통장낚시"
+      },
+      {
+        "ad_id": "1034398",
+        "url": "https://tvcf.co.kr/play/ai1982-1034398",
+        "brand": "카카오뱅크 스텔스통장",
+        "campaign": null,
+        "card_title": "카카오뱅크 스텔스통장중고거래"
+      },
+      {
+        "ad_id": "1034397",
+        "url": "https://tvcf.co.kr/play/bi1971-1034397",
+        "brand": "카카오뱅크 스텔스통장",
+        "campaign": null,
+        "card_title": "카카오뱅크 스텔스통장무지출챌린지"
+      },
+      {
+        "ad_id": "1034395",
+        "url": "https://tvcf.co.kr/play/bi1958-1034395",
+        "brand": "카카오뱅크 스텔스통장",
+        "campaign": null,
+        "card_title": "카카오뱅크 스텔스통장보이스피싱"
+      }
+    ],
+    "variant_count": 6,
+    "collected_at": "2026-11-19T10:06:07.884506+09:00"
+  },
+  {
+    "ad_id": "1034389",
+    "prefix": "bi1892",
+    "url": "https://tvcf.co.kr/play/bi1892-1034389",
+    "card_title": "플레이스테이션 5PS5 I Grand Theft Auto VI - 기다림은 끝났다",
+    "onair": "11.18",
+    "registered_short": "11.18",
+    "brand": "플레이스테이션 5",
+    "campaign": null,
+    "registered_date": "2026-11-18",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "소니인터랙티브엔터테인먼트",
+    "advertiser_code": "4319960",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884511+09:00"
+  },
+  {
     "ad_id": "1034347",
     "prefix": "bi1475",
     "url": "https://tvcf.co.kr/play/bi1475-1034347",
@@ -56,6 +188,53 @@
     "collected_at": "2026-11-18T17:03:57.074003+09:00"
   },
   {
+    "ad_id": "1034417",
+    "prefix": "bi1173",
+    "url": "https://tvcf.co.kr/play/bi1173-1034417",
+    "card_title": "디어랩스저렇게나 쌩쌩해진 추성훈｜디어랩스 X 추성훈 녹음실 비하인드 ②",
+    "onair": "11.17",
+    "registered_short": "11.19",
+    "brand": "디어랩스",
+    "campaign": null,
+    "registered_date": "2026-11-17",
+    "media_type": "디지털 범퍼",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "디어랩스",
+    "advertiser_code": "C000169925",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884494+09:00"
+  },
+  {
+    "ad_id": "1034410",
+    "prefix": "ai2105",
+    "url": "https://tvcf.co.kr/play/ai2105-1034410",
+    "card_title": "삼성 갤럭시 Z 폴드8마이팬캠",
+    "onair": "11.17",
+    "registered_short": "11.18",
+    "brand": "삼성 갤럭시 Z 폴드8",
+    "campaign": null,
+    "registered_date": "2026-11-17",
+    "media_type": "공중파",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1034409",
+        "url": "https://tvcf.co.kr/play/bi294-1034409",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8슈퍼스테디"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-19T10:06:07.884502+09:00"
+  },
+  {
     "ad_id": "1034342",
     "prefix": "ai1429",
     "url": "https://tvcf.co.kr/play/ai1429-1034342",
@@ -73,6 +252,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-18T10:05:42.911967+09:00"
+  },
+  {
+    "ad_id": "1034338",
+    "prefix": "ai1385",
+    "url": "https://tvcf.co.kr/play/ai1385-1034338",
+    "card_title": "다우니 호텔 컬렉션다우니 섬유향수 미스티크 15s",
+    "onair": "11.17",
+    "registered_short": "11.19",
+    "brand": "다우니 호텔 컬렉션",
+    "campaign": null,
+    "registered_date": "2026-11-17",
+    "media_type": "공중파",
+    "main_category": "생활/가정용품",
+    "sub_categories": [],
+    "advertiser": "P&G",
+    "advertiser_code": "C000001441",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884470+09:00"
   },
   {
     "ad_id": "1034337",
@@ -341,6 +539,55 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-11-17T10:05:06.723419+09:00"
+  },
+  {
+    "ad_id": "1034408",
+    "prefix": "ai283",
+    "url": "https://tvcf.co.kr/play/ai283-1034408",
+    "card_title": "삼성 갤럭시 Z 폴드8제나의 만남",
+    "onair": "11.16",
+    "registered_short": "11.18",
+    "brand": "삼성 갤럭시 Z 폴드8",
+    "campaign": null,
+    "registered_date": "2026-11-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1034406",
+        "url": "https://tvcf.co.kr/play/ai261-1034406",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8미나미의 만남"
+      },
+      {
+        "ad_id": "1034407",
+        "url": "https://tvcf.co.kr/play/bi272-1034407",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8원이의 만남"
+      },
+      {
+        "ad_id": "1034402",
+        "url": "https://tvcf.co.kr/play/ai226-1034402",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8메이의 만남"
+      },
+      {
+        "ad_id": "1034399",
+        "url": "https://tvcf.co.kr/play/bi1993-1034399",
+        "brand": "삼성 갤럭시 Z 폴드8",
+        "campaign": null,
+        "card_title": "삼성 갤럭시 Z 폴드8리브의 만남"
+      }
+    ],
+    "variant_count": 5,
+    "collected_at": "2026-11-19T10:06:07.884500+09:00"
   },
   {
     "ad_id": "1034336",
@@ -691,6 +938,25 @@
     "collected_at": "2026-11-16T10:03:34.239202+09:00"
   },
   {
+    "ad_id": "1034405",
+    "prefix": "bi259",
+    "url": "https://tvcf.co.kr/play/bi259-1034405",
+    "card_title": "메트라이프생명Mickey",
+    "onair": "11.15",
+    "registered_short": "11.18",
+    "brand": "메트라이프생명",
+    "campaign": null,
+    "registered_date": "2026-11-15",
+    "media_type": "홍보",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "메트라이프생명보험",
+    "advertiser_code": "C000011429",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884504+09:00"
+  },
+  {
     "ad_id": "1034152",
     "prefix": "ai1528",
     "url": "https://tvcf.co.kr/play/ai1528-1034152",
@@ -982,6 +1248,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-14T17:01:19.872826+09:00"
+  },
+  {
+    "ad_id": "1034411",
+    "prefix": "bi1116",
+    "url": "https://tvcf.co.kr/play/bi1116-1034411",
+    "card_title": "삼성 iD 해외 3.5 카드해외결제 실적·할인한도 없이 3.5% 할인 받는 법 (해외쇼핑)",
+    "onair": "11.13",
+    "registered_short": "11.19",
+    "brand": "삼성 iD 해외 3.5 카드",
+    "campaign": null,
+    "registered_date": "2026-11-13",
+    "media_type": "디지털(인터넷)",
+    "main_category": "금융/보험",
+    "sub_categories": [],
+    "advertiser": "삼성카드",
+    "advertiser_code": "C000001261",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884491+09:00"
   },
   {
     "ad_id": "1034101",
@@ -1395,6 +1680,25 @@
     ],
     "variant_count": 4,
     "collected_at": "2026-11-13T10:09:56.232700+09:00"
+  },
+  {
+    "ad_id": "1034396",
+    "prefix": "ai1969",
+    "url": "https://tvcf.co.kr/play/ai1969-1034396",
+    "card_title": "삼성 갤럭시 Z 폴드8만남",
+    "onair": "11.12",
+    "registered_short": "11.18",
+    "brand": "삼성 갤럭시 Z 폴드8",
+    "campaign": null,
+    "registered_date": "2026-11-12",
+    "media_type": "디지털(인터넷)",
+    "main_category": "",
+    "sub_categories": [],
+    "advertiser": "삼성전자",
+    "advertiser_code": "C000001257",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-19T10:06:07.884509+09:00"
   },
   {
     "ad_id": "1033872",
