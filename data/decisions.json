@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T17:06:55.840817+09:00",
-  "count": 300,
-  "x_count": 1071,
+  "updated_at": "2026-11-20T10:02:25.606595+09:00",
+  "count": 302,
+  "x_count": 1072,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2021,6 +2021,20 @@
       "status": "maybe",
       "matched_name": "(미집행) 린나이코리아",
       "updated_at": "2026-11-18T17:03:57.128537+09:00",
+      "auto": true
+    },
+    "올데이프레쉬": {
+      "display_name": "올데이프레쉬",
+      "status": "o",
+      "matched_name": "올데이프레쉬",
+      "updated_at": "2026-11-20T10:02:25.602160+09:00",
+      "auto": true
+    },
+    "메가스터디": {
+      "display_name": "메가스터디",
+      "status": "o",
+      "matched_name": "메가스터디",
+      "updated_at": "2026-11-20T10:02:25.602414+09:00",
       "auto": true
     }
   },
@@ -8402,6 +8416,12 @@
       "advertiser": "하츠",
       "status": "x",
       "updated_at": "2026-11-19T17:06:55.836879+09:00",
+      "auto": true
+    },
+    "1034768": {
+      "advertiser": "2028 울산국제정원박람회",
+      "status": "x",
+      "updated_at": "2026-11-20T10:02:25.601585+09:00",
       "auto": true
     }
   }
