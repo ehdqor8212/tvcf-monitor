@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T10:02:25.606595+09:00",
-  "count": 302,
-  "x_count": 1072,
+  "updated_at": "2026-11-20T17:04:28.350280+09:00",
+  "count": 303,
+  "x_count": 1078,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2035,6 +2035,13 @@
       "status": "o",
       "matched_name": "메가스터디",
       "updated_at": "2026-11-20T10:02:25.602414+09:00",
+      "auto": true
+    },
+    "미래에셋증권": {
+      "display_name": "미래에셋증권",
+      "status": "o",
+      "matched_name": "미래에셋증권",
+      "updated_at": "2026-11-20T17:04:28.338158+09:00",
       "auto": true
     }
   },
@@ -8422,6 +8429,42 @@
       "advertiser": "2028 울산국제정원박람회",
       "status": "x",
       "updated_at": "2026-11-20T10:02:25.601585+09:00",
+      "auto": true
+    },
+    "1034797": {
+      "advertiser": "한국도박문제예방치유원",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.335811+09:00",
+      "auto": true
+    },
+    "1034796": {
+      "advertiser": "CJ푸드빌",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.337864+09:00",
+      "auto": true
+    },
+    "1034793": {
+      "advertiser": "Spindle",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.340188+09:00",
+      "auto": true
+    },
+    "1034794": {
+      "advertiser": "롯데주류BG",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.342222+09:00",
+      "auto": true
+    },
+    "1034786": {
+      "advertiser": "로칼",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.344256+09:00",
+      "auto": true
+    },
+    "1034524": {
+      "advertiser": "MBC",
+      "status": "x",
+      "updated_at": "2026-11-20T17:04:28.346298+09:00",
       "auto": true
     }
   }
