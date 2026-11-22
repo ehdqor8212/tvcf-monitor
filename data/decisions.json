@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T10:01:54.825171+09:00",
+  "updated_at": "2026-11-22T17:03:20.915238+09:00",
   "count": 303,
-  "x_count": 1080,
+  "x_count": 1085,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8477,6 +8477,36 @@
       "advertiser": "Buick Korea",
       "status": "x",
       "updated_at": "2026-11-21T10:01:54.819877+09:00",
+      "auto": true
+    },
+    "1034815": {
+      "advertiser": "장스푸드",
+      "status": "x",
+      "updated_at": "2026-11-22T17:03:20.905291+09:00",
+      "auto": true
+    },
+    "1034814": {
+      "advertiser": "인생푸드",
+      "status": "x",
+      "updated_at": "2026-11-22T17:03:20.906944+09:00",
+      "auto": true
+    },
+    "1034816": {
+      "advertiser": "대한민국정부",
+      "status": "x",
+      "updated_at": "2026-11-22T17:03:20.908620+09:00",
+      "auto": true
+    },
+    "1034824": {
+      "advertiser": "고준위방사성폐기물관리위원회",
+      "status": "x",
+      "updated_at": "2026-11-22T17:03:20.910391+09:00",
+      "auto": true
+    },
+    "1034822": {
+      "advertiser": "PUBG",
+      "status": "x",
+      "updated_at": "2026-11-22T17:03:20.912049+09:00",
       "auto": true
     }
   }
