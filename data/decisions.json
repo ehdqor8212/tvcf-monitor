@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22T17:03:20.915238+09:00",
-  "count": 303,
-  "x_count": 1085,
+  "updated_at": "2026-11-23T17:02:47.150700+09:00",
+  "count": 304,
+  "x_count": 1087,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2042,6 +2042,13 @@
       "status": "o",
       "matched_name": "미래에셋증권",
       "updated_at": "2026-11-20T17:04:28.338158+09:00",
+      "auto": true
+    },
+    "sgi서울보증": {
+      "display_name": "SGI서울보증",
+      "status": "maybe",
+      "matched_name": "에스지아이서울보증보험(SGI서울보증보험)",
+      "updated_at": "2026-11-23T17:02:47.139681+09:00",
       "auto": true
     }
   },
@@ -8507,6 +8514,18 @@
       "advertiser": "PUBG",
       "status": "x",
       "updated_at": "2026-11-22T17:03:20.912049+09:00",
+      "auto": true
+    },
+    "1034837": {
+      "advertiser": "카카오모빌리티 ",
+      "status": "x",
+      "updated_at": "2026-11-23T17:02:47.142423+09:00",
+      "auto": true
+    },
+    "1034827": {
+      "advertiser": "사단법인 한국쌀산업연합회",
+      "status": "x",
+      "updated_at": "2026-11-23T17:02:47.145150+09:00",
       "auto": true
     }
   }
