@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T10:03:41.592000+09:00",
+  "updated_at": "2026-11-24T17:02:39.437270+09:00",
   "count": 304,
-  "x_count": 1092,
+  "x_count": 1096,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8556,6 +8556,30 @@
       "advertiser": "한국수출입은행",
       "status": "x",
       "updated_at": "2026-11-24T10:03:41.587299+09:00",
+      "auto": true
+    },
+    "1034893": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-11-24T17:02:39.427432+09:00",
+      "auto": true
+    },
+    "1034887": {
+      "advertiser": "텐퍼센트커피",
+      "status": "x",
+      "updated_at": "2026-11-24T17:02:39.429344+09:00",
+      "auto": true
+    },
+    "1034891": {
+      "advertiser": "유팡",
+      "status": "x",
+      "updated_at": "2026-11-24T17:02:39.431258+09:00",
+      "auto": true
+    },
+    "1034886": {
+      "advertiser": "KBS",
+      "status": "x",
+      "updated_at": "2026-11-24T17:02:39.433148+09:00",
       "auto": true
     }
   }
