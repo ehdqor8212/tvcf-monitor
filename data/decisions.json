@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T17:02:47.150700+09:00",
+  "updated_at": "2026-11-24T10:03:41.592000+09:00",
   "count": 304,
-  "x_count": 1087,
+  "x_count": 1092,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8526,6 +8526,36 @@
       "advertiser": "사단법인 한국쌀산업연합회",
       "status": "x",
       "updated_at": "2026-11-23T17:02:47.145150+09:00",
+      "auto": true
+    },
+    "1034847": {
+      "advertiser": "한국와이어스",
+      "status": "x",
+      "updated_at": "2026-11-24T10:03:41.577536+09:00",
+      "auto": true
+    },
+    "1034077": {
+      "advertiser": "교육부",
+      "status": "x",
+      "updated_at": "2026-11-24T10:03:41.580011+09:00",
+      "auto": true
+    },
+    "1034848": {
+      "advertiser": "슈올즈",
+      "status": "x",
+      "updated_at": "2026-11-24T10:03:41.582386+09:00",
+      "auto": true
+    },
+    "1034843": {
+      "advertiser": "생활공작소",
+      "status": "x",
+      "updated_at": "2026-11-24T10:03:41.584873+09:00",
+      "auto": true
+    },
+    "1034839": {
+      "advertiser": "한국수출입은행",
+      "status": "x",
+      "updated_at": "2026-11-24T10:03:41.587299+09:00",
       "auto": true
     }
   }
