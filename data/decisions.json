@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T17:02:39.437270+09:00",
+  "updated_at": "2026-11-25T10:02:40.498643+09:00",
   "count": 304,
-  "x_count": 1096,
+  "x_count": 1099,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8580,6 +8580,24 @@
       "advertiser": "KBS",
       "status": "x",
       "updated_at": "2026-11-24T17:02:39.433148+09:00",
+      "auto": true
+    },
+    "1034849": {
+      "advertiser": "한국쌀산업연합회",
+      "status": "x",
+      "updated_at": "2026-11-25T10:02:40.492418+09:00",
+      "auto": true
+    },
+    "1034909": {
+      "advertiser": "대성마이맥",
+      "status": "x",
+      "updated_at": "2026-11-25T10:02:40.493949+09:00",
+      "auto": true
+    },
+    "1034919": {
+      "advertiser": "NC소프트",
+      "status": "x",
+      "updated_at": "2026-11-25T10:02:40.495472+09:00",
       "auto": true
     }
   }
