@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T10:02:40.498643+09:00",
-  "count": 304,
-  "x_count": 1099,
+  "updated_at": "2026-11-25T17:04:56.380017+09:00",
+  "count": 306,
+  "x_count": 1105,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2049,6 +2049,20 @@
       "status": "maybe",
       "matched_name": "에스지아이서울보증보험(SGI서울보증보험)",
       "updated_at": "2026-11-23T17:02:47.139681+09:00",
+      "auto": true
+    },
+    "코오롱스포츠": {
+      "display_name": "코오롱스포츠",
+      "status": "o",
+      "matched_name": "코오롱스포츠",
+      "updated_at": "2026-11-25T17:04:56.373118+09:00",
+      "auto": true
+    },
+    "고려은단": {
+      "display_name": "고려은단",
+      "status": "maybe",
+      "matched_name": "(미집행) 고려은단헬스케어",
+      "updated_at": "2026-11-25T17:04:56.373853+09:00",
       "auto": true
     }
   },
@@ -8598,6 +8612,42 @@
       "advertiser": "NC소프트",
       "status": "x",
       "updated_at": "2026-11-25T10:02:40.495472+09:00",
+      "auto": true
+    },
+    "1034963": {
+      "advertiser": "메디톡스",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.367995+09:00",
+      "auto": true
+    },
+    "1034961": {
+      "advertiser": "롯데백화점",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.369515+09:00",
+      "auto": true
+    },
+    "1033910": {
+      "advertiser": "넷플릭스서비시스코리아",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.371033+09:00",
+      "auto": true
+    },
+    "1034918": {
+      "advertiser": "멀츠코리아",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.372542+09:00",
+      "auto": true
+    },
+    "1034929": {
+      "advertiser": "Rockstar ",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.375348+09:00",
+      "auto": true
+    },
+    "1034932": {
+      "advertiser": "KB금융그룹",
+      "status": "x",
+      "updated_at": "2026-11-25T17:04:56.376849+09:00",
       "auto": true
     }
   }
