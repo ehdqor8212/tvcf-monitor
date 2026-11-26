@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T10:02:34.237948+09:00",
+  "updated_at": "2026-11-26T17:03:17.148856+09:00",
   "count": 307,
-  "x_count": 1109,
+  "x_count": 1114,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8679,6 +8679,36 @@
       "advertiser": "씽크앤플로우",
       "status": "x",
       "updated_at": "2026-11-26T10:02:34.233796+09:00",
+      "auto": true
+    },
+    "1035121": {
+      "advertiser": "AYROW® | 에이로우",
+      "status": "x",
+      "updated_at": "2026-11-26T17:03:17.132461+09:00",
+      "auto": true
+    },
+    "1035322": {
+      "advertiser": "희망브리지 전국재해구호협회",
+      "status": "x",
+      "updated_at": "2026-11-26T17:03:17.135156+09:00",
+      "auto": true
+    },
+    "1035165": {
+      "advertiser": "카카오모빌리티 ",
+      "status": "x",
+      "updated_at": "2026-11-26T17:03:17.137807+09:00",
+      "auto": true
+    },
+    "1034973": {
+      "advertiser": "씽크앤플로우",
+      "status": "x",
+      "updated_at": "2026-11-26T17:03:17.140461+09:00",
+      "auto": true
+    },
+    "1035081": {
+      "advertiser": "신협중앙회",
+      "status": "x",
+      "updated_at": "2026-11-26T17:03:17.143137+09:00",
       "auto": true
     }
   }
