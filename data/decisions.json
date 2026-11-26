@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T17:04:56.380017+09:00",
-  "count": 306,
-  "x_count": 1105,
+  "updated_at": "2026-11-26T10:02:34.237948+09:00",
+  "count": 307,
+  "x_count": 1109,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2063,6 +2063,13 @@
       "status": "maybe",
       "matched_name": "(미집행) 고려은단헬스케어",
       "updated_at": "2026-11-25T17:04:56.373853+09:00",
+      "auto": true
+    },
+    "파라타항공": {
+      "display_name": "파라타항공",
+      "status": "o",
+      "matched_name": "파라타항공",
+      "updated_at": "2026-11-26T10:02:34.230103+09:00",
       "auto": true
     }
   },
@@ -8648,6 +8655,30 @@
       "advertiser": "KB금융그룹",
       "status": "x",
       "updated_at": "2026-11-25T17:04:56.376849+09:00",
+      "auto": true
+    },
+    "1035074": {
+      "advertiser": "K2코리아",
+      "status": "x",
+      "updated_at": "2026-11-26T10:02:34.227524+09:00",
+      "auto": true
+    },
+    "1035076": {
+      "advertiser": "OpenAI",
+      "status": "x",
+      "updated_at": "2026-11-26T10:02:34.229357+09:00",
+      "auto": true
+    },
+    "1034969": {
+      "advertiser": "nap nap (냅냅)",
+      "status": "x",
+      "updated_at": "2026-11-26T10:02:34.231934+09:00",
+      "auto": true
+    },
+    "1034962": {
+      "advertiser": "씽크앤플로우",
+      "status": "x",
+      "updated_at": "2026-11-26T10:02:34.233796+09:00",
       "auto": true
     }
   }
