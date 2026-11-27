@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T17:03:17.148856+09:00",
+  "updated_at": "2026-11-27T10:01:57.391654+09:00",
   "count": 307,
-  "x_count": 1114,
+  "x_count": 1117,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8709,6 +8709,24 @@
       "advertiser": "신협중앙회",
       "status": "x",
       "updated_at": "2026-11-26T17:03:17.143137+09:00",
+      "auto": true
+    },
+    "1035357": {
+      "advertiser": "뷰익코리아",
+      "status": "x",
+      "updated_at": "2026-11-27T10:01:57.382356+09:00",
+      "auto": true
+    },
+    "1035331": {
+      "advertiser": "인터로조",
+      "status": "x",
+      "updated_at": "2026-11-27T10:01:57.384666+09:00",
+      "auto": true
+    },
+    "1033530": {
+      "advertiser": "쇼노트 ",
+      "status": "x",
+      "updated_at": "2026-11-27T10:01:57.386988+09:00",
       "auto": true
     }
   }
