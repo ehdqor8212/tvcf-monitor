@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T10:01:57.391654+09:00",
-  "count": 307,
-  "x_count": 1117,
+  "updated_at": "2026-11-27T17:04:21.963393+09:00",
+  "count": 309,
+  "x_count": 1123,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -2070,6 +2070,20 @@
       "status": "o",
       "matched_name": "파라타항공",
       "updated_at": "2026-11-26T10:02:34.230103+09:00",
+      "auto": true
+    },
+    "한국캘러웨이골프": {
+      "display_name": "한국캘러웨이골프",
+      "status": "o",
+      "matched_name": "한국캘러웨이골프",
+      "updated_at": "2026-11-27T17:04:21.941780+09:00",
+      "auto": true
+    },
+    "네파|nepa": {
+      "display_name": "네파 | NEPA",
+      "status": "maybe",
+      "matched_name": "네파",
+      "updated_at": "2026-11-27T17:04:21.955621+09:00",
       "auto": true
     }
   },
@@ -8727,6 +8741,42 @@
       "advertiser": "쇼노트 ",
       "status": "x",
       "updated_at": "2026-11-27T10:01:57.386988+09:00",
+      "auto": true
+    },
+    "1035402": {
+      "advertiser": "던롭스포츠코리아",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.944310+09:00",
+      "auto": true
+    },
+    "1035399": {
+      "advertiser": "석교상사",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.946801+09:00",
+      "auto": true
+    },
+    "1035395": {
+      "advertiser": "신동아골프",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.949266+09:00",
+      "auto": true
+    },
+    "1035382": {
+      "advertiser": "골프존",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.951738+09:00",
+      "auto": true
+    },
+    "1035379": {
+      "advertiser": "웅진씽크빅",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.954224+09:00",
+      "auto": true
+    },
+    "1035370": {
+      "advertiser": "롯데백화점",
+      "status": "x",
+      "updated_at": "2026-11-27T17:04:21.958094+09:00",
       "auto": true
     }
   }
