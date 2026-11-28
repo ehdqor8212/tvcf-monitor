@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T17:04:21.963393+09:00",
+  "updated_at": "2026-11-28T10:06:06.434141+09:00",
   "count": 309,
-  "x_count": 1123,
+  "x_count": 1128,
   "decisions": {
     "하이트진로": {
       "display_name": "하이트진로",
@@ -8777,6 +8777,36 @@
       "advertiser": "롯데백화점",
       "status": "x",
       "updated_at": "2026-11-27T17:04:21.958094+09:00",
+      "auto": true
+    },
+    "1035422": {
+      "advertiser": "플레이위드코리아",
+      "status": "x",
+      "updated_at": "2026-11-28T10:06:06.417849+09:00",
+      "auto": true
+    },
+    "1035424": {
+      "advertiser": "플레이위드코리아",
+      "status": "x",
+      "updated_at": "2026-11-28T10:06:06.420535+09:00",
+      "auto": true
+    },
+    "1035423": {
+      "advertiser": "플레이위드코리아",
+      "status": "x",
+      "updated_at": "2026-11-28T10:06:06.423211+09:00",
+      "auto": true
+    },
+    "1035419": {
+      "advertiser": "플레이위드코리아",
+      "status": "x",
+      "updated_at": "2026-11-28T10:06:06.425912+09:00",
+      "auto": true
+    },
+    "1035410": {
+      "advertiser": "코스알엑스 ",
+      "status": "x",
+      "updated_at": "2026-11-28T10:06:06.428576+09:00",
       "auto": true
     }
   }

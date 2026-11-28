@@ -75,6 +75,53 @@
     "collected_at": "2026-11-27T17:04:21.886249+09:00"
   },
   {
+    "ad_id": "1035429",
+    "prefix": "bi1296",
+    "url": "https://tvcf.co.kr/play/bi1296-1035429",
+    "card_title": "템빨:오버기어드드디어 정식 출시! l 템빨: 오버기어드",
+    "onair": "11.26",
+    "registered_short": "11.27",
+    "brand": "템빨:오버기어드",
+    "campaign": null,
+    "registered_date": "2026-11-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359154+09:00"
+  },
+  {
+    "ad_id": "1035411",
+    "prefix": "bi1116",
+    "url": "https://tvcf.co.kr/play/bi1116-1035411",
+    "card_title": "구글플레이큰 세계에서 정교하게 플레이 | 템빨:오버기어드🗡 | Google Play 게임즈",
+    "onair": "11.26",
+    "registered_short": "11.27",
+    "brand": "구글플레이",
+    "campaign": null,
+    "registered_date": "2026-11-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "정보통신",
+    "sub_categories": [],
+    "advertiser": "구글코리아",
+    "advertiser_code": "C000008256",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035409",
+        "url": "https://tvcf.co.kr/play/bi294-1035409",
+        "brand": "구글플레이",
+        "campaign": null,
+        "card_title": "구글플레이자유롭게 쟁취하는 플레이 | 템빨:오버기어드🗡 | Google Play"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-28T10:06:06.359169+09:00"
+  },
+  {
     "ad_id": "1035407",
     "prefix": "bi272",
     "url": "https://tvcf.co.kr/play/bi272-1035407",
@@ -1054,6 +1101,25 @@
     "collected_at": "2026-11-22T17:03:20.861569+09:00"
   },
   {
+    "ad_id": "1035428",
+    "prefix": "ai1285",
+    "url": "https://tvcf.co.kr/play/ai1285-1035428",
+    "card_title": "템빨:오버기어드사전 다운로드 오픈! l 템빨: 오버기어드",
+    "onair": "11.20",
+    "registered_short": "11.27",
+    "brand": "템빨:오버기어드",
+    "campaign": null,
+    "registered_date": "2026-11-20",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359155+09:00"
+  },
+  {
     "ad_id": "1034919",
     "prefix": "bi1191",
     "url": "https://tvcf.co.kr/play/bi1191-1034919",
@@ -1395,6 +1461,25 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-20T17:04:28.278334+09:00"
+  },
+  {
+    "ad_id": "1035430",
+    "prefix": "ai2307",
+    "url": "https://tvcf.co.kr/play/ai2307-1035430",
+    "card_title": "어둠의전설[어둠의전설] 나 혼자도 둠렙업: 성장 동선 개선 & 그림자계약 업데이트",
+    "onair": "11.19",
+    "registered_short": "11.27",
+    "brand": "어둠의전설",
+    "campaign": null,
+    "registered_date": "2026-11-19",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359151+09:00"
   },
   {
     "ad_id": "1034855",
@@ -2387,6 +2472,25 @@
     ],
     "variant_count": 2,
     "collected_at": "2026-11-17T10:05:06.723419+09:00"
+  },
+  {
+    "ad_id": "1035410",
+    "prefix": "ai2105",
+    "url": "https://tvcf.co.kr/play/ai2105-1035410",
+    "card_title": "코스알엑스UN ECLAT",
+    "onair": "11.16",
+    "registered_short": "11.27",
+    "brand": "코스알엑스",
+    "campaign": null,
+    "registered_date": "2026-11-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "화장품",
+    "sub_categories": [],
+    "advertiser": "코스알엑스 ",
+    "advertiser_code": "C000162738",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359170+09:00"
   },
   {
     "ad_id": "1034821",
@@ -6566,6 +6670,25 @@
     "collected_at": "2026-11-09T17:06:24.495150+09:00"
   },
   {
+    "ad_id": "1035174",
+    "prefix": "ai1743",
+    "url": "https://tvcf.co.kr/play/ai1743-1035174",
+    "card_title": "LG전자Is there a better way to stay clean? | LG Advanced Materials",
+    "onair": "10.26",
+    "registered_short": "11.27",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-10-26",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359142+09:00"
+  },
+  {
     "ad_id": "1034962",
     "prefix": "ai1628",
     "url": "https://tvcf.co.kr/play/ai1628-1034962",
@@ -6680,6 +6803,44 @@
     "collected_at": "2026-11-18T17:03:57.073995+09:00"
   },
   {
+    "ad_id": "1035173",
+    "prefix": "bi1732",
+    "url": "https://tvcf.co.kr/play/bi1732-1035173",
+    "card_title": "LG전자Why won't the grease come off? | EasyClean™",
+    "onair": "10.23",
+    "registered_short": "11.27",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-10-23",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359149+09:00"
+  },
+  {
+    "ad_id": "1035424",
+    "prefix": "ai1241",
+    "url": "https://tvcf.co.kr/play/ai1241-1035424",
+    "card_title": "씰M2[씰M2] 별나게 요래 놀래이!🎵 - 그랜드오픈",
+    "onair": "10.22",
+    "registered_short": "11.27",
+    "brand": "씰M2",
+    "campaign": null,
+    "registered_date": "2026-10-22",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "플레이위드코리아",
+    "advertiser_code": "C000167928",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359163+09:00"
+  },
+  {
     "ad_id": "1034380",
     "prefix": "ai2802",
     "url": "https://tvcf.co.kr/play/ai2802-1034380",
@@ -6756,6 +6917,34 @@
     "collected_at": "2026-11-09T10:02:33.036641+09:00"
   },
   {
+    "ad_id": "1035171",
+    "prefix": "bi1719",
+    "url": "https://tvcf.co.kr/play/bi1719-1035171",
+    "card_title": "LG전자Why is this already watered down? | Craft Ice™",
+    "onair": "10.16",
+    "registered_short": "11.27",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-10-16",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035172",
+        "url": "https://tvcf.co.kr/play/ai1721-1035172",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자Why are appliances all the same? | Colorful Appliances"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-28T10:06:06.359147+09:00"
+  },
+  {
     "ad_id": "1034887",
     "prefix": "bi1875",
     "url": "https://tvcf.co.kr/play/bi1875-1034887",
@@ -6792,6 +6981,44 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-13T10:09:56.232714+09:00"
+  },
+  {
+    "ad_id": "1035427",
+    "prefix": "bi1274",
+    "url": "https://tvcf.co.kr/play/bi1274-1035427",
+    "card_title": "템빨:오버기어드장비 사전 선점 COMING SOON l 템빨: 오버기어드",
+    "onair": "10.15",
+    "registered_short": "11.27",
+    "brand": "템빨:오버기어드",
+    "campaign": null,
+    "registered_date": "2026-10-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359158+09:00"
+  },
+  {
+    "ad_id": "1035423",
+    "prefix": "bi1239",
+    "url": "https://tvcf.co.kr/play/bi1239-1035423",
+    "card_title": "씰M2[씰M2] 별걸작 판타지 씰M2 사전예약 예약 중!_해피율 만랩 ver",
+    "onair": "10.15",
+    "registered_short": "11.27",
+    "brand": "씰M2",
+    "campaign": null,
+    "registered_date": "2026-10-15",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "플레이위드코리아",
+    "advertiser_code": "C000167928",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359165+09:00"
   },
   {
     "ad_id": "1033161",
@@ -6839,6 +7066,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-07T10:04:02.123680+09:00"
+  },
+  {
+    "ad_id": "1035170",
+    "prefix": "ai2708",
+    "url": "https://tvcf.co.kr/play/ai2708-1035170",
+    "card_title": "LG전자Why does drying clothes feel like a gamble? | Heat Pump Technology",
+    "onair": "10.08",
+    "registered_short": "11.27",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-10-08",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035169",
+        "url": "https://tvcf.co.kr/play/bi1697-1035169",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자Didn't I just check? | LG InstaView™"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-28T10:06:06.359145+09:00"
   },
   {
     "ad_id": "1034964",
@@ -6898,6 +7153,41 @@
     "collected_at": "2026-11-16T17:09:05.450350+09:00"
   },
   {
+    "ad_id": "1035166",
+    "prefix": "ai1664",
+    "url": "https://tvcf.co.kr/play/ai1664-1035166",
+    "card_title": "LG전자Didn't I just check? | LG InstaView™",
+    "onair": "10.02",
+    "registered_short": "11.27",
+    "brand": "LG전자",
+    "campaign": null,
+    "registered_date": "2026-10-02",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "LG전자",
+    "advertiser_code": "C000007773",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035167",
+        "url": "https://tvcf.co.kr/play/bi1675-1035167",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자Why are the controls all the way up there? | LG WashTower™"
+      },
+      {
+        "ad_id": "1035168",
+        "url": "https://tvcf.co.kr/play/ai1686-1035168",
+        "brand": "LG전자",
+        "campaign": null,
+        "card_title": "LG전자It's a big purchase. Will this thing last? | LG Core-Tech"
+      }
+    ],
+    "variant_count": 3,
+    "collected_at": "2026-11-28T10:06:06.359133+09:00"
+  },
+  {
     "ad_id": "1033918",
     "prefix": "ai1189",
     "url": "https://tvcf.co.kr/play/ai1189-1033918",
@@ -6915,6 +7205,34 @@
     "advertiser_fallback": true,
     "variant_count": 1,
     "collected_at": "2026-11-16T10:03:34.239209+09:00"
+  },
+  {
+    "ad_id": "1035426",
+    "prefix": "ai1263",
+    "url": "https://tvcf.co.kr/play/ai1263-1035426",
+    "card_title": "템빨:오버기어드MMORPG는 결국 l 템빨: 오버기어드",
+    "onair": "10.01",
+    "registered_short": "11.27",
+    "brand": "템빨:오버기어드",
+    "campaign": null,
+    "registered_date": "2026-10-01",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "넥슨",
+    "advertiser_code": "C000010247",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035425",
+        "url": "https://tvcf.co.kr/play/bi1252-1035425",
+        "brand": "템빨:오버기어드",
+        "campaign": null,
+        "card_title": "템빨:오버기어드지금 사전등록 진행 중 [템빨: 오버기어드]"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-28T10:06:06.359159+09:00"
   },
   {
     "ad_id": "1034841",
@@ -6953,6 +7271,34 @@
     "advertiser_fallback": false,
     "variant_count": 1,
     "collected_at": "2026-11-05T17:10:56.163701+09:00"
+  },
+  {
+    "ad_id": "1035422",
+    "prefix": "ai1228",
+    "url": "https://tvcf.co.kr/play/ai1228-1035422",
+    "card_title": "씰M2[씰M2] 사전예약 프로모션_청소기 ver",
+    "onair": "09.21",
+    "registered_short": "11.27",
+    "brand": "씰M2",
+    "campaign": null,
+    "registered_date": "2026-09-21",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "플레이위드코리아",
+    "advertiser_code": "C000167928",
+    "advertiser_fallback": false,
+    "variants": [
+      {
+        "ad_id": "1035421",
+        "url": "https://tvcf.co.kr/play/bi1217-1035421",
+        "brand": "씰M2",
+        "campaign": null,
+        "card_title": "씰M2[씰M2] 사전예약 프로모션_씰다운 즐거운 모험 ver"
+      }
+    ],
+    "variant_count": 2,
+    "collected_at": "2026-11-28T10:06:06.359161+09:00"
   },
   {
     "ad_id": "1033884",
@@ -10351,6 +10697,25 @@
     ],
     "variant_count": 3,
     "collected_at": "2026-09-04T17:05:41.308920+09:00"
+  },
+  {
+    "ad_id": "1035419",
+    "prefix": "bi1195",
+    "url": "https://tvcf.co.kr/play/bi1195-1035419",
+    "card_title": "씰M2[씰M2] 별걸작 판타지 씰M2 사전 예약 진행 중!",
+    "onair": "09.03",
+    "registered_short": "11.27",
+    "brand": "씰M2",
+    "campaign": null,
+    "registered_date": "2026-09-03",
+    "media_type": "디지털(인터넷)",
+    "main_category": "전기전자",
+    "sub_categories": [],
+    "advertiser": "플레이위드코리아",
+    "advertiser_code": "C000167928",
+    "advertiser_fallback": false,
+    "variant_count": 1,
+    "collected_at": "2026-11-28T10:06:06.359167+09:00"
   },
   {
     "ad_id": "1028139",
